@@ -86,6 +86,7 @@ class TestTorchLogReg(unittest.TestCase):
         loader = torch.utils.data.DataLoader(dataset=self.test, 
                                              shuffle=False)
         acc = accuracy(self.model, loader)
+        self.assertEqual(acc, 1.0)
         print(acc)
         
 if __name__ == '__main__':

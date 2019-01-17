@@ -20,11 +20,12 @@ def load_data(filename):
 
     data = list()
     with open(filename) as json_data:
-        questions = json.load(json_data)
+        questions = json.load(json_data)["questions"]
         for q in questions:
-            q_text = nltk.word_tokenize(q['question_text'])
-            label = q['label']
-            data.append((q_text, label))
+            q_text = nltk.word_tokenize(q['text'])
+            label = q['category']
+            if label:
+                data.append((q_text, label))
     return data
 
 # You don't need to change this funtion
@@ -247,9 +248,9 @@ class DanModel(nn.Module):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Question Type')
     parser.add_argument('--no-cuda', action='store_true', default=True)
-    parser.add_argument('--train-file', type=str, default='./data/question_train_cl1.json')
-    parser.add_argument('--dev-file', type=str, default='./data/question_dev_cl1.json')
-    parser.add_argument('--test-file', type=str, default='./data/question_test_cl1.json')
+    parser.add_argument('--train-file', type=str, default='../qanta.train.json')
+    parser.add_argument('--dev-file', type=str, default='../qanta.dev.json')
+    parser.add_argument('--test-file', type=str, default='../qanta.test.json')
     parser.add_argument('--batch-size', type=int, default=16)
     parser.add_argument('--num-epochs', type=int, default=20)
     parser.add_argument('--grad-clipping', type=int, default=5)

@@ -107,7 +107,18 @@ def accuracy(model, loader):
         total = 0
 
     return correct / total
+
+def top_words(model, labels, vectorizer):
+    """
+    Take a model and output the highest weight words for each class.  
+    """
+
+    vocab = vectorizer.vocabulary_
+    weights = {}
+
+    return weights
     
+
 if __name__ == "__main__":
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--root_dir", help="QB Dataset for training",
@@ -142,7 +153,10 @@ if __name__ == "__main__":
     train_dataset = QuizBowlData(args.train_dataset, args.root_dir, vectorizer)
     test_dataset = QuizBowlData(args.test_dataset, args.root_dir, vectorizer,
                                 is_train=False)
+
     train_dataset.vectorize()
+    vocab_size = len(vectorizer.vocabulary_)
+    print("Vocab size: %i" % vocab_size)
     test_dataset.vectorize()
 
     # Data loader (input pipeline)
@@ -157,6 +171,7 @@ if __name__ == "__main__":
     # Logistic regression model
     criterion = nn.CrossEntropyLoss()  
     model, optimizer = setup(train_dataset, args.learn_rate)
+    print("Dimension size: " + str(model.weight.size()))
 
     # Train the model
     total_step = len(train_loader)
@@ -169,5 +184,11 @@ if __name__ == "__main__":
     acc = accuracy(model, test_loader)
     print('Accuracy of the model on test questions: %f' % acc)
 
+    # Write out a quick summary of what the model learned
+    weights = top_words(model, train_dataset.label_set, vectorizer)
+    for ii in weights:
+        top_words = sorted(weights[ii].items(), key=lambda x: -x[1])[:10]
+        print("%s\t: " % ii + " ".join("%s:%0.2f" % (x, float(y)) for x, y in top_words))
+    
     # Save the model checkpoint
     torch.save(model.state_dict(), 'model.ckpt')

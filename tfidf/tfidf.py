@@ -31,7 +31,7 @@ class TfIdf:
         self._total_docs = 0
 
         self._vocab_final = False
-        self._vocab = set()
+        self._vocab = {}
         self._unk_cutoff = unk_cutoff
 
         self._tokenizer = tokenize_function
@@ -67,15 +67,19 @@ class TfIdf:
             None
 
     def tokenize(self, sent: str) -> Iterable[int]:
-        """
-        Return a generator over tokens in the sentence.
+        """Return a generator over tokens in the sentence; return the vocab
+        of a sentence if finalized, otherwise just return the raw string.
 
-        sent -- A string 
+        sent -- A string
+
         """
 
         # You don't need to modify this code.
         for ii in self._tokenizer(sent):
-            yield self.vocab_lookup(ii)
+            if self._vocab_final:
+                yield self.vocab_lookup(ii)
+            else:
+                yield ii
 
     def term_freq(self, word: int) -> float:
         """Return the frequence of a word if it's in the vocabulary, zero otherwise.
@@ -160,5 +164,6 @@ if __name__ == "__main__":
     with open(os.path.join(args.root_dir, args.test_dataset)) as infile:
         data = json.load(infile)["questions"]
         for ii in data[:5]:
+            print(ii)
             for word in vocab.tokenize(ii["text"]):
                 print(word, vocab.term_freq(word), vocab.inv_docfreq(word))

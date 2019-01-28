@@ -78,6 +78,5 @@ Return the inverse document frequency of a word.
 Write Up
 =================
 
-For each category, figure out which words are the most useful features
-for that class.  Are there changes to the vectorizer that would
-improve the classification.
+What are words that, specifically for this collection, appear in a lot
+of documents and are thus not helpful query terms?

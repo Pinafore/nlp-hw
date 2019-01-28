@@ -1,14 +1,14 @@
 import unittest
 from math import log
 
-from vocab import Vocabulary, kUNK, log10
+from tfidf import TfIdf, kUNK, log10
 
 
 class TestSequenceFunctions(unittest.TestCase):
 
     def setUp(self):
         self.unk_cutoff = 2        
-        self.vocab = Vocabulary(unk_cutoff=self.unk_cutoff)
+        self.vocab = TfIdf(unk_cutoff=self.unk_cutoff)
 
     def test_vocab(self):
         self.vocab.train_seen("a", 300)

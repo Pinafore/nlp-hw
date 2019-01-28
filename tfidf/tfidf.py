@@ -18,7 +18,7 @@ def lower(str):
     return str.lower()
 
 
-class Vocabulary:
+class TfIdf:
     """Class that builds a vocabulary and then computes tf-idf scores
     given a corpus.
 
@@ -119,12 +119,11 @@ class Vocabulary:
         Fixes the vocabulary as static, prevents keeping additional vocab from
         being added
         """
+
+        # Add code to generate the vocabulary that the vocab lookup
+        # function can use!
+
         self._vocab_final = True
-        self._vocab = enumerate(x for x in self._training_counts if \
-                                self._training_counts[x] >= self._unk_cutoff)
-        self._vocab = dict((y, x) for x, y in self._vocab)
-        self._vocab[kUNK] = max(self._vocab.values()) + 1
-        self._training_counts[kUNK] = self._unk_cutoff
 
 
 
@@ -144,7 +143,7 @@ if __name__ == "__main__":
                            type=int, default=-1, required=False)
     args = argparser.parse_args()
 
-    vocab = Vocabulary()
+    vocab = TfIdf()
 
     with open(os.path.join(args.root_dir, args.train_dataset)) as infile:
         data = json.load(infile)["questions"]

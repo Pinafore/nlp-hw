@@ -4,7 +4,7 @@ from collections import defaultdict
 from math import log
 import os
 
-from typing import Iterable
+from typing import Iterable, Tuple, Dict
 
 from nltk.tokenize import TreebankWordTokenizer
 from nltk import FreqDist
@@ -81,6 +81,18 @@ class TfIdf:
             else:
                 yield ii
 
+    def doc_tfidf(self, doc: str) -> Dict[Tuple[str, int], float]:
+        """Given a document, create a dictionary representation of its tfidf vector
+
+        doc -- raw string of the document"""
+
+        counts = FreqDist(self.tokenize(doc))
+        d = {}
+        for ii in self._tokenizer(doc):
+            ww = self.vocab_lookup(ii)
+            d[(ww, ii)] = counts.freq(ww) * self.inv_docfreq(ww)
+        return d
+                
     def term_freq(self, word: int) -> float:
         """Return the frequence of a word if it's in the vocabulary, zero otherwise.
 
@@ -116,7 +128,7 @@ class TfIdf:
         if word in self._vocab:
             return self._vocab[word]
         else:
-            return None
+            return self._vocab[kUNK]
 
     def finalize(self):
         """
@@ -140,6 +152,9 @@ if __name__ == "__main__":
     argparser.add_argument("--train_dataset", help="QB Dataset for training",
                            type=str, default='qanta.train.json',
                            required=False)
+    argparser.add_argument("--example", help="What answer we use for testing",
+                           type=str, default='Australia',
+                           required=False)    
     argparser.add_argument("--test_dataset", help="QB Dataset for test",
                            type=str, default='qanta.dev.json',
                            required=False)
@@ -161,9 +176,14 @@ if __name__ == "__main__":
         for ii in data:
             vocab.add_document(ii["text"])
 
-    with open(os.path.join(args.root_dir, args.test_dataset)) as infile:
+    with open(os.path.join(args.root_dir, args.train_dataset)) as infile:
         data = json.load(infile)["questions"]
-        for ii in data[:5]:
-            print(ii)
-            for word in vocab.tokenize(ii["text"]):
-                print(word, vocab.term_freq(word), vocab.inv_docfreq(word))
+
+        example = ""
+        for ii in data:
+            if ii["page"] == args.example:
+                example += " %s " % ii["text"]
+
+        vector = vocab.doc_tfidf(example)
+        for word, tfidf in sorted(vector.items(), key=lambda kv: kv[1], reverse=True)[:50]:
+            print("%s:%i\t%f" % (word[1], word[0], tfidf))

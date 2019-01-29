@@ -15,6 +15,7 @@ To install using `conda` - `conda install --file requirements.txt`
 To install `pipenv` -
 
 ```bash
+brew install pipenv
 pipenv shell
 pipenv install
 ```

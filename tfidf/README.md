@@ -32,12 +32,14 @@ start.
 constructor
 --------------
 
+
+
 You don't need to do too much here except for creating datastructures
 that you may need to count things up later.  I'd suggest taking a look
 at NLTK's
-(FreqDist)[http://www.nltk.org/api/nltk.html?highlight=freqdist] and
+[FreqDist](http://www.nltk.org/api/nltk.html?highlight=freqdist) and
 refresh your memory on Python
-(collections)[https://docs.python.org/2/library/collections.html].
+[collections](https://docs.python.org/2/library/collections.html).
 
 train_seen
 ----------

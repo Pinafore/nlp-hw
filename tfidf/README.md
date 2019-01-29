@@ -4,8 +4,8 @@ of this homework are to understand how I do homeworks for the course,
 my coding style, and the level of coding required for the course.
 
 But we still want to do something relevant to the material of the
-course, so we'll be computing [tf-idf
-representations](https://onlinelibrary.wiley.com/doi/full/10.1002/bult.274)
+course, so we'll be computing (tf-idf
+representations)[https://onlinelibrary.wiley.com/doi/full/10.1002/bult.274]
 of documents.
 
 

@@ -83,8 +83,8 @@ Write Up
 What are words that, specifically for this collection, appear in a lot
 of documents and are thus not helpful query terms?
 
-## Submission Instructions
-## =================
+# Submission Instructions\
+=================
 
 1. Submissions will be made on the submit server (submit.cs.umd.edu).
 2. You will submit a zip file containing your code (tfidf.py) and the PDF for the write-up. If you check your code against your own test cases, you can add the file (which will be like test.py) containing your own test cases in the zip too.

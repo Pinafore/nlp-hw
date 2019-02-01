@@ -5,7 +5,7 @@ Shared Data
 ==================
 The homeworks use the dataset of questions.  You can use the Makefile to download the files:
 ```cd nlp-hw
-make 2018_qanta_train.json
+make qanta.train.json
 ```
 
 Prerequisites

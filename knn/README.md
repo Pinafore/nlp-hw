@@ -25,7 +25,7 @@ You'll turn in your code on the submit server.
 What you have to do
 ----
 
-Coding (10 points):
+Coding (25 points):
 
 1.  (Optional) Store necessary data in the constructor so you can do classification later.
 1.  Modify the _majority_ function so that it returns the *value* associated with the most *indices*.

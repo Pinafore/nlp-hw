@@ -131,7 +131,7 @@ if __name__ == "__main__":
         test = json.load(infile)["questions"][:100]
 
     test_x = vectorizer.transform(x["text"] for x in test)
-    test_y = list(x["page"] for x in data)
+    test_y = list(x["page"] for x in test)
     answers = [x[0] for x in Counter(test_y).most_common(5)]
 
     confusion = knn.confusion_matrix(test_x, test_y)

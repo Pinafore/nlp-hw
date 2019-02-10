@@ -25,7 +25,7 @@ You'll turn in your code on the submit server.
 What you have to do
 ----
 
-Coding (25 points):
+Coding (20 points):
 
 1.  (Optional) Store necessary data in the constructor so you can do classification later.
 1.  Modify the _majority_ function so that it returns the *value* associated with the most *indices*.
@@ -105,9 +105,20 @@ FAILED (failures=3)
 Example
 -
 
-This is an example of what your code should look like:
+This is an example of what your code (knn.py) output should look like:
 ```
-
+Pranavs-MacBook-Pro:knn2 pranavgoel$ python knn.py 
+<class 'scipy.sparse.csr.csr_matrix'>
+Done loading data
+100/100 for confusion matrix
+	Texas_annexation	Mark_Antony	Martin_Scorsese	Spin_(physics)	Operation_Condor
+------------------------------------------------------------------------------------------
+                   Mark_Antony:	0	1	0	0	0
+                     Dirty_War:	0	0	0	0	1
+              Texas_annexation:	1	0	0	0	0
+                Spin_(physics):	0	0	0	1	0
+               Martin_Scorsese:	0	0	1	0	0
+Accuracy: 0.480000
 ```
 
 Hints

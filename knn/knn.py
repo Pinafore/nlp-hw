@@ -117,8 +117,7 @@ if __name__ == "__main__":
         data = json.load(infile)["questions"]
         if args.limit > 0:
             data = data[:args.limit]
-    vectorizer = TfidfVectorizer(ngram_range=(1, 3), min_df=2, max_df=.9)
-    vectorizer.fit(x["text"] for x in data)
+    vectorizer = TfidfVectorizer(ngram_range=(1, 3), min_df=2, max_df=.9).fit(x["text"] for x in data)
     train_x = vectorizer.transform(x["text"] for x in data)
     train_y = list(x["page"] for x in data)
 

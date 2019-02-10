@@ -15,19 +15,19 @@ class TestKnn(unittest.TestCase):
 
         self.queries = [array(x).reshape(1, -1) for x in
                         [[1, 5], [0, 3], [6, 1], [6, 4]]]
-        self.test_y = [1, 1, -1, -1]
+        self.test_y = [1, -1, 1, -1]
 
     def test1(self):
         self.assertEqual(self.knn[1].classify(self.queries[0]), 1)
-        self.assertEqual(self.knn[1].classify(self.queries[1]), 1)
-        self.assertEqual(self.knn[1].classify(self.queries[2]), -1)
+        self.assertEqual(self.knn[1].classify(self.queries[1]), -1)
+        self.assertEqual(self.knn[1].classify(self.queries[2]), 1)
         self.assertEqual(self.knn[1].classify(self.queries[3]), -1)
         self.assertEqual(self.knn[1].acccuracy(self.knn[1].confusion_matrix(self.queries, self.test_y)), 1.0)
 
     def test2(self):
         self.assertEqual(self.knn[2].classify(self.queries[0]), 1)
-        self.assertEqual(self.knn[2].classify(self.queries[1]), 1)
-        self.assertEqual(self.knn[2].classify(self.queries[2]), -1)
+        self.assertEqual(self.knn[2].classify(self.queries[1]), -1)
+        self.assertEqual(self.knn[2].classify(self.queries[2]), 1)
         self.assertEqual(self.knn[2].classify(self.queries[3]), -1)
         self.assertEqual(self.knn[2].acccuracy(self.knn[2].confusion_matrix(self.queries, self.test_y)), 1.0)
 
@@ -36,8 +36,8 @@ class TestKnn(unittest.TestCase):
         self.assertEqual(self.knn[3].classify(self.queries[0]), 1)
         self.assertEqual(self.knn[3].classify(self.queries[1]), 1)
         self.assertEqual(self.knn[3].classify(self.queries[2]), 1)
-        self.assertEqual(self.knn[3].classify(self.queries[3]), 1)
-        self.assertEqual(self.knn[3].acccuracy(self.knn[3].confusion_matrix(self.queries, self.test_y)), 0.5)
+        self.assertEqual(self.knn[3].classify(self.queries[3]), -1)
+        self.assertEqual(self.knn[3].acccuracy(self.knn[3].confusion_matrix(self.queries, self.test_y)), 0.75)
 
 if __name__ == '__main__':
     unittest.main()

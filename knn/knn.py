@@ -2,6 +2,7 @@ import argparse
 import os
 import json
 from collections import Counter, defaultdict
+from typing import Sequence, Dict
 
 import numpy
 from sklearn.neighbors import NearestNeighbors
@@ -12,14 +13,13 @@ class Knearest:
     kNN classifier
     """
 
-    def __init__(self, x, y, k, metric):
+    def __init__(self, x, y, k):
         """
         Creates a kNN instance
 
         :param x: Training data input
         :param y: Training data output
         :param k: The number of nearest points to consider in classification
-        :param metric: Metric used to search examples
         """
 
         # You may modify this code, but you shouldn't need to
@@ -28,7 +28,7 @@ class Knearest:
         self.y = y
         self.k = k
 
-    def majority(self, item_indices):
+    def majority(self, item_indices: Sequence[int]) -> str:
         """Given the indices of training examples, return the majority label.
         If there's a tie, return the one that is lexicographically
         first (as determined by python sorted function).
@@ -42,8 +42,9 @@ class Knearest:
         # Finish this function to return the most common y value for
         # these indices
 
+        return None
 
-    def classify(self, example):
+    def classify(self, example: numpy.ndarray) -> str:
         """
         Given an example, classify the example.
 
@@ -55,7 +56,7 @@ class Knearest:
 
         return ""
 
-    def confusion_matrix(self, test_x, test_y):
+    def confusion_matrix(self, test_x: Sequence[str], test_y: Sequence[str]) -> Dict[str, Dict[str, int]]:
         """
         Given a matrix of test examples and labels, compute the confusion
         matrixfor the current classifier.  Should return a dictionary of
@@ -74,7 +75,7 @@ class Knearest:
         return d
 
     @staticmethod
-    def acccuracy(confusion_matrix):
+    def accuracy(confusion_matrix: Dict[str, Dict[str, int]]) -> float:
         """Given a confusion matrix, compute the accuracy of the underlying
         classifier.
 
@@ -83,7 +84,7 @@ class Knearest:
         # Hint: this should give you clues as to how the confusion
         # matrix should be structured.
 
-        total = 0
+        total = 0 
         correct = 0
         for ii in confusion_matrix:
             total += sum(confusion_matrix[ii].values())
@@ -100,14 +101,16 @@ if __name__ == "__main__":
     parser.add_argument("--train_dataset", help="QB Dataset for training",
                         type=str, default='qanta.train.json',
                         required=False)
-    parser.add_argument("--metric", help="What metric we use for search",
-                        type=str, default='cosine',
-                        required=False)
     parser.add_argument("--test_dataset", help="QB Dataset for test",
                         type=str, default='qanta.dev.json',
                         required=False)
+    parser.add_argument("--min_df", help="How many documents must a word appear in to be feature",
+                        type=int, default=2)
+    parser.add_argument("--max_df", help="How many docs can words appear in and still be feature",
+                        type=float, default=0.9)
     parser.add_argument("--limit", help="Number of training documents",
                         type=int, default=-1, required=False)
+    parser.add_argument("--max_ngram", help="Max ngram length", type=int, default=3)
     parser.add_argument('--k', type=int, default=3,
                         help="Number of nearest points to use")
     args = parser.parse_args()
@@ -117,21 +120,20 @@ if __name__ == "__main__":
         data = json.load(infile)["questions"]
         if args.limit > 0:
             data = data[:args.limit]
-    vectorizer = TfidfVectorizer(ngram_range=(1, 3), min_df=2, max_df=.9)
-    vectorizer.fit(x["text"] for x in data)
+    vectorizer = TfidfVectorizer(ngram_range=(1, args.max_ngram), min_df=args.min_df, max_df=args.max_df).fit(x["text"] for x in data)
     train_x = vectorizer.transform(x["text"] for x in data)
     train_y = list(x["page"] for x in data)
 
     print(type(train_x))
 
-    knn = Knearest(train_x, train_y, args.k, args.metric)
+    knn = Knearest(train_x, train_y, args.k)
     print("Done loading data")
 
     with open(os.path.join(args.root_dir, args.test_dataset)) as infile:
         test = json.load(infile)["questions"][:100]
 
     test_x = vectorizer.transform(x["text"] for x in test)
-    test_y = list(x["page"] for x in data)
+    test_y = list(x["page"] for x in test)
     answers = [x[0] for x in Counter(test_y).most_common(5)]
 
     confusion = knn.confusion_matrix(test_x, test_y)
@@ -145,4 +147,4 @@ if __name__ == "__main__":
     for ii in guesses:
         print("%30s:\t" % ii + "\t".join(str(confusion[x].get(ii, 0))
                                        for x in answers))
-    print("Accuracy: %f" % knn.acccuracy(confusion))
+    print("Accuracy: %f" % knn.accuracy(confusion))

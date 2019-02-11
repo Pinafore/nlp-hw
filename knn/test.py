@@ -11,7 +11,7 @@ class TestKnn(unittest.TestCase):
         self.y = array([+1, +1, +1, +1, +1, +1, +1, -1, -1, -1, -1, -1, -1])
         self.knn = {}
         for ii in [1, 2, 3]:
-            self.knn[ii] = Knearest(self.x, self.y, ii, metric='cosine')
+            self.knn[ii] = Knearest(self.x, self.y, ii)
 
         self.queries = [array(x).reshape(1, -1) for x in
                         [[1, 5], [0, 3], [6, 1], [6, 4]]]

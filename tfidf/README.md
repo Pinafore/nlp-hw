@@ -12,6 +12,8 @@ of documents.
 What to Do
 =============
 
+# Code (20 Points)
+
 You'll need to complete several functions in the TfIdf class:
 * constructor
 * train_seen
@@ -77,7 +79,7 @@ inv_docfreq
 Return the inverse document frequency of a word.
 
 
-Write Up
+Write Up (5 Points)
 =================
 
 What are words that, specifically for this collection, appear in a lot

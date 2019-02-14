@@ -136,3 +136,4 @@ Hints
 1.  Don't reimplement closest point data structures or median.
 1.  Make sure your code actually behaves differently for different
     values of _k_.
+1.  You can use dot product only if the vectors start off normalized. 

@@ -17,7 +17,7 @@ A significant difference you will observe for a sequence classifier from somethi
 
 You have to complete **buzzer.py**. There is a supporting file 'dataset_util.py' and it might be useful to go through it as well. A significant part of this assignment is to go through all the various functions and gain an understanding of how everything is working. The code you have to write is indicated via comments. Comments in the code also contain some examples for explanation.
 
-You'll turn in your code on the submit server (---when ready---). This assignment is worth 50 points.
+You'll turn in your code on the submit server. This assignment is worth 50 points.
 
 What you have to do
 ----------------
@@ -31,7 +31,7 @@ Coding: (45 points)
 6. Complete the **evaluate** function, again making using of the accuracy_fn.
 
 Analysis: (5 points)
-1. Report the final epoch dev set accuracy (post some potential tuning as per your choice). Please indicate all the values of the various hyperparameters that go with this reported score including number of epochs (these are hyperparameters that can have an effect on accuracy in theory - please think about and mention ALL the things you think can be changed).
+1. Report the final epoch dev set accuracy (post some potential tuning as per your choice). Please indicate all the values of the various hyperparameters that go with this reported score including number of epochs (these are hyperparameters that can have an effect on accuracy in theory - please think about and mention ALL the things you think can be changed, as a way to understand what things you control when designing a sequence to sequence neural net).
 2. Report the final test set accuracy after tuning on dev set.
 3. Look at the dev set, give some examples and explain the possible reasons why these examples are predicted incorrectly - in particular, why do you think a model did not buzz (predicted 0) when actually it should have buzzed, and vice-versa.
 
@@ -48,7 +48,10 @@ ProTips
 
 Extra Credit
 ----------------
----to be added----
+(Please code extra credit part separately, not for submission to submit server) For extra credit, try and do two things - 
+
+1. Create a feature vector that uses pre-trained word embeddings. One way to do this is to take the word embeddings of all words of the question text seen so far and average them (creating a 300 dimensional (for example) feature vector at every time step instead of the 10-dimensional probability vector we have in the normal version). Describe how you incorporated word embeddings in your feature vector and what effect it had on the performance (compared to the feature vector given already) in a separate section of your *analysis.pdf*.
+2. Submit your system (guesser + buzzer) to Codalab.
 
 What to turn in 
 ----------------

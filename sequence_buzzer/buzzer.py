@@ -531,6 +531,7 @@ class RNNBuzzer(nn.Module):
         
         #---you can add other things like dropout between two layers, but do so in forward function below,
         #as we have to perform an extra step on the output of LSTM before going to linear layer(s).
+        #The MODEL FOR TEST CASES is just single layer LSTM followed by 1 linear layer - do not add anything else for the purpose of passing test cases!!
     def forward(self, X, X_lens):
         """
         Model forward pass, returns the logits of the predictions.

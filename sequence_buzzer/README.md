@@ -15,7 +15,7 @@ The figure is a cartoon representation - a rough visualization to give an idea o
 
 A significant difference you will observe for a sequence classifier from something like a DAN (in previous homework) is having to deal with different lengths of input. This requires padding the sequences to make the same length as the maximum length in the batch, and then making use of 'masking' when computing loss to carefully ignore the padded labels and corresponding predictions/logits.
 
-You have to complete **buzzer.py**. There is a supporting file 'dataset_util.py' and it might be useful to go through it as well. A significant part of this assignment is to go through the boilerplate code and understand the various functions to gain an understanding of the how everything is working. The code you have to write is indicated via comments. Comments in the code also contain some examples for explanation.
+You have to complete **buzzer.py**. There is a supporting file 'dataset_util.py' and it might be useful to go through it as well. A significant part of this assignment is to go through all the various functions and gain an understanding of how everything is working. The code you have to write is indicated via comments. Comments in the code also contain some examples for explanation.
 
 You'll turn in your code on the submit server (---when ready---). This assignment is worth 50 points.
 

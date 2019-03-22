@@ -3,17 +3,14 @@ Sequence Buzzer
 
 Due: 29 March 2019 (23:55)
 
----Initial Version---
-
 Overview
 --------
 
 ![Explaination Figure](explainer_figure.png)
 
-The figure is a cartoon representation - a rough visualization to give an idea of what is going on with the sequence buzzer. The aim is to code a RNN based buzzer, which can output a 0/1 decision whether to buzz or not at every timestep. The timestep can be every word, or every few characters (the latter is chosen in this homework - controlled using 'char_skip
-). At every such time step, the text of the question seen so far is represented as a feature vector. In this homework, we simply use the probabilities or scores associated with the top n guesses of a tfidf guesser as feature vector (but you can imagine using more and better features like word embeddings, etc. for your projects). Then an RNN/LSTM predicts if system should buzz (1) or not (0) for each timestep. The gold labels for this comes from comparing the top guess for the question text seen up to the timestep, and the actual answer to the full question.
+The figure is a cartoon representation - a rough visualization to give an idea of what is going on with the sequence buzzer. The aim is to code a RNN based buzzer, which can output a 0/1 decision whether to buzz or not at every timestep. The timestep can be every word, or every few characters (the latter is chosen in this homework - controlled using 'char_skip'). At every such time step, the text of the question seen so far is represented as a feature vector. In this homework, we simply use the probabilities or scores associated with the top n guesses of a tfidf guesser as feature vector (but you can imagine using more and better features like word embeddings, etc. for your projects). Then an RNN/LSTM predicts if system should buzz (1) or not (0) for each timestep. The gold labels for this comes from comparing the top guess of the guesser for the question text seen up to the timestep, and the actual answer to the full question.
 
-A significant difference you will observe for a sequence classifier from something like a DAN (in previous homework) is having to deal with different lengths of input. This requires padding the sequences to make the same length as the maximum length in the batch, and then making use of 'masking' when computing loss to carefully ignore the padded labels and corresponding predictions/logits.
+A significant difference you will observe for a sequence classifier from something like a DAN (in previous homework) is having to deal with different lengths of not just the input, but also the output since _we have a label at every time step_. This requires padding the sequences to make the same length as the maximum length in the batch, and then making use of 'masking' when computing loss to carefully ignore the padded labels and corresponding predictions/logits. We define a custom loss function (loss_fn) and accuracy function (accuracy_fn) to handle the computation for masked predictions.
 
 You have to complete **buzzer.py**. There is a supporting file 'dataset_util.py' and it might be useful to go through it as well. A significant part of this assignment is to go through all the various functions and gain an understanding of how everything is working. The code you have to write is indicated via comments. Comments in the code also contain some examples for explanation.
 

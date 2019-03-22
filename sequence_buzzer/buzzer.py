@@ -3,7 +3,6 @@ import nltk
 import json
 import pandas as pd
 import numpy as np
-from tqdm import tqdm
 import time
 import os
 from os import path
@@ -203,7 +202,7 @@ def generate_guesses_and_scores(model, questions, max_guesses, char_skip = 50):
     '''
     
     guesses_and_scores = []
-    for i in tqdm(range(0, len(ques_texts), 250), mininterval=5, maxinterval=60):
+    for i in range(0, len(ques_texts), 250):
         try:
             q_texts_temp = ques_texts[i:i+250]
             q_lens = ques_lens[i:i+250]

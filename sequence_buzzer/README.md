@@ -53,7 +53,7 @@ Extra Credit
 What to turn in 
 ----------------
 
-1. Submit your **buzzer.py** file
+1. Submit your a **buzzer.py** file
 2. Submit your **analysis.pdf** file 
 
     No more than one page 

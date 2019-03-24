@@ -1,7 +1,7 @@
 Sequence Buzzer
 =
 
-Due: 29 March 2019 (23:55)
+Due: 5 April 2019 (23:55)
 
 Overview
 --------
@@ -12,7 +12,7 @@ The figure is a cartoon representation - a rough visualization to give an idea o
 
 A significant difference you will observe for a sequence classifier from something like a DAN (in previous homework) is having to deal with different lengths of not just the input, but also the output since _we have a label at every time step_. This requires padding the sequences to make the same length as the maximum length in the batch, and then making use of 'masking' when computing loss to carefully ignore the padded labels and corresponding predictions/logits. We define a custom loss function (loss_fn) and accuracy function (accuracy_fn) to handle the computation for masked predictions.
 
-You have to complete **buzzer.py**. There is a supporting file 'dataset_util.py' and it might be useful to go through it as well. A significant part of this assignment is to go through all the various functions and gain an understanding of how everything is working. The code you have to write is indicated via comments. Comments in the code also contain some examples for explanation.
+You have to complete **buzzer.py**. A significant part of this assignment is to go through all the various functions and gain an understanding of how everything is working. The code you have to write is indicated via comments. Comments in the code also contain some examples for explanation.
 
 You'll turn in your code on the submit server. This assignment is worth 50 points.
 
@@ -37,7 +37,7 @@ ProTips
 
 1. The inital run of the code *will* take time - at least 10-15 minutes and possibly upto 30 minutes. BUT both the trained guesser models and the training/dev/test data files for buzzer to train and act on will be saved, and you can (and probably should) simply run your code afterwards as python buzzer.py --guesser_saved_flag=True --buzz_data_saved_flag=True.
 
-2. Take a look at dataset_util.py - it will help understand how each question object is structured, and especially the useful functionality called 'runs' which allows splitting up a question into multiple partial snippets.
+2. Take a look at dataset utility functions (the first 3 functions) - it will help understand how each question object is structured, and especially the useful functionality called 'runs' which allows splitting up a question into multiple partial snippets.
 
 3. 'Flattening' is a loose term for going from \[\[1,2\],\[3,4\], \[5,1\]\] -> \[1, 2, 3, 4, 5, 1\] while 'Deflattening' is a loose term for going in the opposite direction.
 

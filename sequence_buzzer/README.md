@@ -14,7 +14,9 @@ To do that, we need a sequence model such as a Recurrent Neural Network, which i
 
 ![Explaination Figure](explainer_figure.png)
 
-The figure is a cartoon representation—a rough visualization to give an idea of what is going on with the sequence buzzer. The aim is to code a RNN based buzzer, which can output a 0/1 decision whether to buzz or not at every timestep. The timestep can be every word, or every few characters (the latter is chosen in this homework - controlled using 'char_skip'). At every such time step, the text of the question seen so far is represented as a feature vector. In this homework, we simply use the probabilities or scores associated with the top n guesses of a tfidf guesser as feature vector (but you can imagine using more and better features like word embeddings, etc. for your projects). Then an RNN/LSTM predicts if system should buzz (1) or not (0) for each timestep. The gold labels for this comes from comparing the top guess of the guesser for the question text seen up to the timestep, and the actual answer to the full question.
+The figure is a cartoon representation—a rough visualization to give an idea of what is going on with the sequence buzzer. As input, you have words and the output of your QA system, what we'll call the *guesser*.  The goal is to create a binary answer of whether or not your system should buzz or not at every timestep. 
+
+The timestep can be every word, or every few characters (the latter is chosen in this homework—controlled using 'char_skip'). At every such time step, the text of the question seen so far is represented as a feature vector. In this homework, we use the probabilities or scores associated with the top n guesses of a tfidf guesser as feature vector (but you can imagine using more and better features like word embeddings, etc. for your projects). Then an RNN/LSTM predicts if system should buzz (1) or not (0) for each timestep. The gold labels for this comes from comparing the top guess of the guesser for the question text seen up to the timestep and the actual answer to the full question: if it's right, you should buzz, if not, then don't.
 
 A significant difference you will observe for a sequence classifier from something like a DAN (in previous homework) is having to deal with different lengths of not just the input, but also the output since _we have a label at every time step_. This requires padding the sequences to make the same length as the maximum length in the batch, and then making use of 'masking' when computing loss to carefully ignore the padded labels and corresponding predictions/logits. We define a custom loss function (loss_fn) and accuracy function (accuracy_fn) to handle the computation for masked predictions.
 
@@ -38,7 +40,7 @@ Analysis: (5 points)
 2. Report the final test set accuracy after tuning on dev set.
 3. Look at the dev set, give some examples and explain the possible reasons why these examples are predicted incorrectly - in particular, why do you think a model did not buzz (predicted 0) when actually it should have buzzed, and vice-versa.
 
-ProTips
+Tips
 ----------------
 
 1. The inital run of the code *will* take time - at least 10-15 minutes and possibly upto 30 minutes. BUT both the trained guesser models and the training/dev/test data files for buzzer to train and act on will be saved, and you can (and probably should) simply run your code afterwards as python buzzer.py --guesser_saved_flag=True --buzz_data_saved_flag=True.
@@ -47,14 +49,14 @@ ProTips
 
 3. 'Flattening' is a loose term for going from \[\[1,2\],\[3,4\], \[5,1\]\] -> \[1, 2, 3, 4, 5, 1\] while 'Deflattening' is a loose term for going in the opposite direction.
 
----more could be added----
 
 Extra Credit
 ----------------
-(Please code extra credit part separately, not for submission to submit server) For extra credit, try and do two things - 
+(Please code extra credit part separately, not for submission to submit server) For extra credit, try and do two things:
 
 1. Create a feature vector that uses pre-trained word embeddings. One way to do this is to take the word embeddings of all words of the question text seen so far and average them (creating a 300 dimensional (for example) feature vector at every time step instead of the 10-dimensional probability vector we have in the normal version). Describe how you incorporated word embeddings in your feature vector and what effect it had on the performance (compared to the feature vector given already) in a separate section of your *analysis.pdf*.
-2. Submit your system (guesser + buzzer) to Codalab.
+2. Submit your system (guesser + buzzer) to Codalab.  This is important for our next exhibition match!
+3. Train your model against (human opponents)[https://www.google.com/url?q=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fpinafore-us-west-2%2Fqanta-jmlr-datasets%2Fprotobowl-042818.log&sa=D&sntz=1&usg=AFQjCNG5M0eFv-1auQf4Oop-HC-BM7S4bQ].
 
 What to turn in 
 ----------------

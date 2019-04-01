@@ -628,10 +628,10 @@ class RNNBuzzer(nn.Module):
         self.n_output = n_output
         
         ### Your Code Here --- 
-        #define lstm layer, going from input to hidden. Remember to have batch_first=True.
+        #define lstm layer, going from input to hidden. Remember to have batch_first=True. Please name it as 'lstm'.
         
         
-        #define linear layer going from hidden to output.
+        #define linear layer going from hidden to output. Please name this linear layer as 'hidden_to_label'.
         
         
         

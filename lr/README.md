@@ -3,6 +3,8 @@
 What to Do
 =============
 
+## Code (25 points)
+
 You'll need to complete three functions:
 * QuizBowlData.vectorize
 * step
@@ -57,7 +59,7 @@ For computing the accuracy, you'll need to make a prediction on every
 document, figure out which class has the highest probability, and then
 see whether that prediction matches the correct label.
 
-Write Up
+Write Up (5 points)
 =================
 
 For each category, figure out which words are the most useful features

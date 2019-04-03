@@ -28,15 +28,19 @@ What you have to do
 Coding (20 points):
 
 1.  (Optional) Store necessary data in the constructor so you can do classification later.
-1.  Modify the _majority_ function so that it returns the *value* associated with the most *indices*.
-1.  Modify the _classify_ function so that it finds the closest indicies to the query point.
+1.  Modify the _majority_ function so that it returns the *value* associated with the most *indices*.  If there's a tie, return the one that's alphabetically first.
+1.  Modify the _classify_ function so that it finds the closest indicies (in terms of *cosine* similarity) to the query point.
 1.  Modify the _confusion matrix_ function to classify examples and record which number it got right.
 
 Analysis (5 points):
 
 1.  What is the role of the number of training points to accuracy?
 1.  What is the role of _k_ to accuracy?
-1.  What numbers get answers with each other most easily?
+1.  What answers get confused with each other most easily?
+
+What you don't have to do
+-------
+You don't have to (and shouldn't!) compute tf-idf yourself.  We did that in the last homework, so you can leave that to the professionals.  We provide code that does this in the main function.  You probably shouldn't modify it, but it's probably useful to understand it for future homeworks (you'll need to write/call code like it in the future).
 
 What to turn in
 -
@@ -50,6 +54,8 @@ Extra Credit
 You can get extra credit for submitting your system on CodaLab.  Submit a separate version of your code that you submitted on CodaLab.
 
 http://leaderboard.qanta.org
+
+You're free to modify the code however you would like.  You can get up to 10 points of extra credit depending on how well you do.  E.g., if you just submit the code as is, you'll get three points.  Doing something extra (e.g., tuning parameters) will get you more points.
 
 Unit Tests
 =
@@ -130,3 +136,4 @@ Hints
 1.  Don't reimplement closest point data structures or median.
 1.  Make sure your code actually behaves differently for different
     values of _k_.
+1.  You can use dot product only if the vectors start off normalized. 

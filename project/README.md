@@ -49,7 +49,7 @@ better (or easier to use) than others.
 
 Competition
 ==================
-We will use [CodaLab](). 
+We will use [CodaLab](http://leaderboard.qanta.org). 
 
 Proposal
 ==================
@@ -67,6 +67,8 @@ should describe:
 Have the person whose last name is alphabetically last submit the
 proposal on the submit server.  Late days cannot be used on this
 assignment.
+
+Before the proposal is due, please [sign up to talk with the professor](https://doodle.com/poll/3u9u49g6afhf8st8).
 
 Update 
 ====================== 

@@ -62,7 +62,7 @@ should describe:
 * What techniques you will explore 
 
 * Your timeline for completing the project (be realistic; you should
-  have your first submission by 14. November)
+  have your first submission by 26. April)
 
 Have the person whose last name is alphabetically last submit the
 proposal on the submit server.  Late days cannot be used on this

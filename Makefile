@@ -16,7 +16,7 @@ qanta.train.evidence.json qanta.dev.evidence.json qanta.test.evidence.json:
 qanta.train.evidence.text.json qanta.dev.evidence.text.json qanta.test.evidence.sent.text.json:
 	wget https://s3-us-west-2.amazonaws.com/pinafore-us-west-2/qanta-jmlr-datasets/rc/evidence_docs_train_with_sent_text.json
 	mv evidence_docs_train_with_sent_text.json qanta.train.evidence.text.json
-	wget https://s3-us-west-2.amazonaws.com/pinafore-us-west-2/qanta-jmlr-datasets/rc/evidence_docs_dev.json
+	wget https://s3-us-west-2.amazonaws.com/pinafore-us-west-2/qanta-jmlr-datasets/rc/evidence_docs_dev_with_sent_text.json
 	mv evidence_docs_dev_with_sent_text.json qanta.dev.evidence.text.json
-	wget https://s3-us-west-2.amazonaws.com/pinafore-us-west-2/qanta-jmlr-datasets/rc/evidence_docs_test.json
+	wget https://s3-us-west-2.amazonaws.com/pinafore-us-west-2/qanta-jmlr-datasets/rc/evidence_docs_test_with_sent_text.json
 	mv evidence_docs_test_with_sent_text.json qanta.test.evidence.text.json

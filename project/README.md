@@ -54,33 +54,30 @@ We will use [CodaLab](http://leaderboard.qanta.org).
 Proposal
 ==================
 
-The project proposal is due 12. April.  This one page PDF document
-should describe:
+The project proposal is a one page PDF document that describes:
 
 * Who is on your team
 
 * What techniques you will explore 
 
 * Your timeline for completing the project (be realistic; you should
-  have your first submission by 26. April)
+  have your first submission in a week or two)
 
 Have the person whose last name is alphabetically last submit the
-proposal on the submit server.  Late days cannot be used on this
+proposal on Piazza.  Late days cannot be used on this
 assignment.
 
-Before the proposal is due, please [sign up to talk with the professor](https://doodle.com/poll/3u9u49g6afhf8st8).
-
-Update 
+First Deliverable
 ====================== 
 
-On 26. April, you'll have to update how things are going: what's
+You'll have to update how things are going: what's
 working, what isn't, and how does it change your timeline?  Have the
 middle person alphabetically submit this one page update.  You'll also need to have your first submission on Codalab.
 
 Final Presentation
 ======================
 
-The final presentation will be in class on 20. May.  In
+The final presentation will be virtual (uploading a video).  In
 the final presentation you will:
 
 * Explain what you did
@@ -112,11 +109,7 @@ the final presentation you will:
 * Presumably you did many different things; how did they each
   individually contribute to your final result?
 
-Each group has 10 minutes to deliver their presentation, plus a few
-minutes for questions and swapping.  It is okay to go under time, but
-_do not_ go over time.  It will negatively impact your grade; I will
-cut you off if necessary.  (Sorry to be a jerk about this, but we have
-enough groups that we cannot have much give on time.)
+Each group has 10 minutes to deliver their presentation.
 
 Project Writeup
 ======================

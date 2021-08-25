@@ -1,0 +1,962 @@
+{"category:Literature": 1, "guess:The_Awakening_(Chopin_novel)": 1, "id": 93160, "label": true, "run_length": 0.2, "score": 0.18922053680587253, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Awakening_(Chopin_novel)": 1, "id": 93160, "label": true, "run_length": 0.4, "score": 0.17194165115938578, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Awakening_(Chopin_novel)": 1, "id": 93160, "label": true, "run_length": 0.6, "score": 0.1521729005174902, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Awakening_(Chopin_novel)": 1, "id": 93160, "label": true, "run_length": 0.778, "score": 0.1146804351719935, "year:2015": 1}
+{"category:Literature": 1, "guess:Moli\u00e8re": 1, "id": 93163, "label": false, "run_length": 0.2, "score": 0.13786144802394623, "year:2015": 1}
+{"category:Literature": 1, "guess:August_Strindberg": 1, "id": 93163, "label": false, "run_length": 0.4, "score": 0.13442777227174335, "year:2015": 1}
+{"category:Literature": 1, "guess:Samuel_Beckett": 1, "id": 93163, "label": false, "run_length": 0.6, "score": 0.1257180837725436, "year:2015": 1}
+{"category:Literature": 1, "guess:Sophocles": 1, "id": 93163, "label": false, "run_length": 0.8, "score": 0.12418886903921637, "year:2015": 1}
+{"category:Literature": 1, "guess:Eug\u00e8ne_Ionesco": 1, "id": 93163, "label": false, "run_length": 0.804, "score": 0.117881042020703, "year:2015": 1}
+{"category:Science": 1, "guess:Carbon_dioxide": 1, "id": 93170, "label": false, "run_length": 0.2, "score": 0.2817732396366763, "year:2015": 1}
+{"category:Science": 1, "guess:Benzene": 1, "id": 93170, "label": false, "run_length": 0.4, "score": 0.25704311753937065, "year:2015": 1}
+{"category:Science": 1, "guess:Adenosine_triphosphate": 1, "id": 93170, "label": false, "run_length": 0.6, "score": 0.23362702449728695, "year:2015": 1}
+{"category:Science": 1, "guess:Adenosine_triphosphate": 1, "id": 93170, "label": false, "run_length": 0.782, "score": 0.22720793030126238, "year:2015": 1}
+{"category:Literature": 1, "guess:Isabel_Allende": 1, "id": 93185, "label": false, "run_length": 0.2, "score": 0.17964793057465242, "year:2015": 1}
+{"category:Literature": 1, "guess:Carlos_Fuentes": 1, "id": 93185, "label": false, "run_length": 0.4, "score": 0.153121701573306, "year:2015": 1}
+{"category:Literature": 1, "guess:Victor_Hugo": 1, "id": 93185, "label": false, "run_length": 0.6, "score": 0.1443748044771866, "year:2015": 1}
+{"category:Literature": 1, "guess:Marcel_Proust": 1, "id": 93185, "label": false, "run_length": 0.795, "score": 0.1434327087834011, "year:2015": 1}
+{"category:Science": 1, "guess:Determinant": 1, "id": 93202, "label": false, "run_length": 0.2, "score": 0.1462238243166186, "year:2015": 1}
+{"category:Science": 1, "guess:Henry's_law": 1, "id": 93202, "label": false, "run_length": 0.4, "score": 0.1336780654404267, "year:2015": 1}
+{"category:Science": 1, "guess:Refractive_index": 1, "id": 93202, "label": false, "run_length": 0.6, "score": 0.12543873697817234, "year:2015": 1}
+{"category:Science": 1, "guess:Determinant": 1, "id": 93202, "label": false, "run_length": 0.8, "score": 0.1190666049915884, "year:2015": 1}
+{"category:Science": 1, "guess:Tree": 1, "id": 93202, "label": false, "run_length": 0.836, "score": 0.11719309134135833, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Russia": 1, "id": 93221, "label": false, "run_length": 0.2, "score": 0.09731464201792085, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Argentina": 1, "id": 93221, "label": false, "run_length": 0.4, "score": 0.0939614267452905, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:B\u00e9la_Bart\u00f3k": 1, "id": 93221, "label": false, "run_length": 0.6, "score": 0.08830845981047301, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Otto_von_Bismarck": 1, "id": 93221, "label": false, "run_length": 0.767, "score": 0.08816133078315859, "year:2015": 1}
+{"category:Religion": 1, "guess:Ethiopia": 1, "id": 93233, "label": false, "run_length": 0.2, "score": 0.10156928773308198, "year:2015": 1}
+{"category:Religion": 1, "guess:Canada": 1, "id": 93233, "label": false, "run_length": 0.4, "score": 0.10096644910929883, "year:2015": 1}
+{"category:Religion": 1, "guess:Germany": 1, "id": 93233, "label": false, "run_length": 0.6, "score": 0.09930390378592725, "year:2015": 1}
+{"category:Religion": 1, "guess:Egypt": 1, "id": 93233, "label": false, "run_length": 0.762, "score": 0.09920205383748298, "year:2015": 1}
+{"category:Literature": 1, "guess:Nathaniel_Hawthorne": 1, "id": 93234, "label": false, "run_length": 0.2, "score": 0.15507806590942338, "year:2015": 1}
+{"category:Literature": 1, "guess:Gustave_Flaubert": 1, "id": 93234, "label": false, "run_length": 0.4, "score": 0.14910499560140664, "year:2015": 1}
+{"category:Literature": 1, "guess:Ambrose_Bierce": 1, "id": 93234, "label": false, "run_length": 0.6, "score": 0.13852154808959305, "year:2015": 1}
+{"category:Literature": 1, "guess:Henry_James": 1, "id": 93234, "label": false, "run_length": 0.79, "score": 0.13503304236569533, "year:2015": 1}
+{"category:History": 1, "guess:Spain": 1, "id": 93243, "label": false, "run_length": 0.2, "score": 0.21637018454863743, "year:2015": 1}
+{"category:History": 1, "guess:Romania": 1, "id": 93243, "label": false, "run_length": 0.4, "score": 0.19967030085390677, "year:2015": 1}
+{"category:History": 1, "guess:Italy": 1, "id": 93243, "label": false, "run_length": 0.6, "score": 0.18793739312805433, "year:2015": 1}
+{"category:History": 1, "guess:Scotland": 1, "id": 93243, "label": false, "run_length": 0.765, "score": 0.18768450856818708, "year:2015": 1}
+{"category:Science": 1, "guess:Temperature": 1, "id": 93245, "label": false, "run_length": 0.2, "score": 0.15653650329057292, "year:2015": 1}
+{"category:Science": 1, "guess:Pressure": 1, "id": 93245, "label": false, "run_length": 0.4, "score": 0.15297250520007363, "year:2015": 1}
+{"category:Science": 1, "guess:Entropy": 1, "id": 93245, "label": false, "run_length": 0.6, "score": 0.15032541737900154, "year:2015": 1}
+{"category:Science": 1, "guess:Kinetic_energy": 1, "id": 93245, "label": false, "run_length": 0.8, "score": 0.14387328396363094, "year:2015": 1}
+{"category:Science": 1, "guess:Kinetic_energy": 1, "id": 93245, "label": false, "run_length": 0.813, "score": 0.14242532595283902, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Mexico": 1, "id": 93255, "label": false, "run_length": 0.2, "score": 0.22585232437048458, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Japan": 1, "id": 93255, "label": false, "run_length": 0.4, "score": 0.19334197908643028, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:France": 1, "id": 93255, "label": false, "run_length": 0.6, "score": 0.1784312191737863, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Brazil": 1, "id": 93255, "label": false, "run_length": 0.8, "score": 0.17583519816468268, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:China": 1, "id": 93255, "label": false, "run_length": 0.801, "score": 0.17165552628696065, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Auguste_Rodin": 1, "id": 93285, "label": true, "run_length": 0.2, "score": 0.09363561847255061, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Michelangelo": 1, "id": 93285, "label": false, "run_length": 0.4, "score": 0.08213673646027829, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Gautama_Buddha": 1, "id": 93285, "label": false, "run_length": 0.6, "score": 0.0801568994645462, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Caravaggio": 1, "id": 93285, "label": false, "run_length": 0.741, "score": 0.07659912189535256, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Fr\u00e9d\u00e9ric_Chopin": 1, "id": 93293, "label": false, "run_length": 0.2, "score": 0.12353171237068326, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Wolfgang_Amadeus_Mozart": 1, "id": 93293, "label": false, "run_length": 0.4, "score": 0.12207014509998557, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Edward_Elgar": 1, "id": 93293, "label": false, "run_length": 0.6, "score": 0.10821366672638072, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 93293, "label": false, "run_length": 0.759, "score": 0.10312829372181438, "year:2015": 1}
+{"category:Religion": 1, "guess:Zen": 1, "id": 93297, "label": false, "run_length": 0.2, "score": 0.18242677178260616, "year:2015": 1}
+{"category:Religion": 1, "guess:Zen": 1, "id": 93297, "label": false, "run_length": 0.4, "score": 0.15271032571290138, "year:2015": 1}
+{"category:Religion": 1, "guess:Zen": 1, "id": 93297, "label": false, "run_length": 0.6, "score": 0.14131139235115722, "year:2015": 1}
+{"category:Religion": 1, "guess:Druze": 1, "id": 93297, "label": true, "run_length": 0.8, "score": 0.12363752448256093, "year:2015": 1}
+{"category:Religion": 1, "guess:Zen": 1, "id": 93297, "label": false, "run_length": 0.802, "score": 0.11062223199801716, "year:2015": 1}
+{"category:History": 1, "guess:Myanmar": 1, "id": 93301, "label": false, "run_length": 0.2, "score": 0.15494049701930684, "year:2015": 1}
+{"category:History": 1, "guess:Hungary": 1, "id": 93301, "label": false, "run_length": 0.4, "score": 0.12716752769517334, "year:2015": 1}
+{"category:History": 1, "guess:Finland": 1, "id": 93301, "label": true, "run_length": 0.6, "score": 0.12473262442795868, "year:2015": 1}
+{"category:History": 1, "guess:Denmark": 1, "id": 93301, "label": false, "run_length": 0.779, "score": 0.11187329030162155, "year:2015": 1}
+{"category:Geography": 1, "guess:Japan": 1, "id": 93312, "label": false, "run_length": 0.2, "score": 0.1617431237522855, "year:2015": 1}
+{"category:Geography": 1, "guess:Nigeria": 1, "id": 93312, "label": false, "run_length": 0.4, "score": 0.1553801069774135, "year:2015": 1}
+{"category:Geography": 1, "guess:Russia": 1, "id": 93312, "label": false, "run_length": 0.6, "score": 0.14635970048442487, "year:2015": 1}
+{"category:Geography": 1, "guess:China": 1, "id": 93312, "label": false, "run_length": 0.791, "score": 0.14057532042801152, "year:2015": 1}
+{"category:Literature": 1, "guess:Thomas_Mann": 1, "id": 93315, "label": false, "run_length": 0.2, "score": 0.17182761475998634, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 93315, "label": false, "run_length": 0.4, "score": 0.14317002216121105, "year:2015": 1}
+{"category:Literature": 1, "guess:Salman_Rushdie": 1, "id": 93315, "label": false, "run_length": 0.6, "score": 0.14289925369450443, "year:2015": 1}
+{"category:Literature": 1, "guess:Toni_Morrison": 1, "id": 93315, "label": false, "run_length": 0.789, "score": 0.13810268206335724, "year:2015": 1}
+{"category:History": 1, "guess:Battle_of_Agincourt": 1, "id": 93319, "label": false, "run_length": 0.2, "score": 0.13770522476162414, "year:2015": 1}
+{"category:History": 1, "guess:Italy": 1, "id": 93319, "label": false, "run_length": 0.4, "score": 0.12139388834558357, "year:2015": 1}
+{"category:History": 1, "guess:Switzerland": 1, "id": 93319, "label": true, "run_length": 0.6, "score": 0.10644013318932495, "year:2015": 1}
+{"category:History": 1, "guess:Denmark": 1, "id": 93319, "label": false, "run_length": 0.793, "score": 0.10126003670370848, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:String_quartet": 1, "id": 93353, "label": false, "run_length": 0.2, "score": 0.13528694361945434, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Edvard_Grieg": 1, "id": 93353, "label": false, "run_length": 0.4, "score": 0.10402970743586525, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Fr\u00e9d\u00e9ric_Chopin": 1, "id": 93353, "label": false, "run_length": 0.6, "score": 0.09396264283671517, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Franz_Liszt": 1, "id": 93353, "label": false, "run_length": 0.8, "score": 0.09186800363500203, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Edvard_Grieg": 1, "id": 93353, "label": false, "run_length": 0.815, "score": 0.09114499368849235, "year:2015": 1}
+{"category:Literature": 1, "guess:Hades": 1, "id": 93364, "label": false, "run_length": 0.2, "score": 0.1304150522869743, "year:2015": 1}
+{"category:Literature": 1, "guess:Leo_Tolstoy": 1, "id": 93364, "label": false, "run_length": 0.4, "score": 0.09133288312882837, "year:2015": 1}
+{"category:Literature": 1, "guess:Justinian_I": 1, "id": 93364, "label": false, "run_length": 0.6, "score": 0.08566374613536695, "year:2015": 1}
+{"category:Literature": 1, "guess:Fyodor_Dostoevsky": 1, "id": 93364, "label": true, "run_length": 0.781, "score": 0.07545079239319875, "year:2015": 1}
+{"category:Science": 1, "guess:Friction": 1, "id": 93371, "label": true, "run_length": 0.2, "score": 0.1536575876473561, "year:2015": 1}
+{"category:Science": 1, "guess:Unemployment": 1, "id": 93371, "label": false, "run_length": 0.4, "score": 0.11547065119475411, "year:2015": 1}
+{"category:Science": 1, "guess:Piezoelectricity": 1, "id": 93371, "label": false, "run_length": 0.6, "score": 0.10595681069071057, "year:2015": 1}
+{"category:Science": 1, "guess:Friction": 1, "id": 93371, "label": true, "run_length": 0.8, "score": 0.10515436725906023, "year:2015": 1}
+{"category:Science": 1, "guess:Nernst_equation": 1, "id": 93371, "label": false, "run_length": 0.817, "score": 0.10389335483987416, "year:2015": 1}
+{"category:Literature": 1, "guess:Les_Fleurs_du_mal": 1, "id": 93384, "label": true, "run_length": 0.2, "score": 0.20969471989910224, "year:2015": 1}
+{"category:Literature": 1, "guess:Les_Fleurs_du_mal": 1, "id": 93384, "label": true, "run_length": 0.4, "score": 0.1727035443880449, "year:2015": 1}
+{"category:Literature": 1, "guess:Les_Fleurs_du_mal": 1, "id": 93384, "label": true, "run_length": 0.6, "score": 0.16723318263307216, "year:2015": 1}
+{"category:Literature": 1, "guess:Rubaiyat_of_Omar_Khayyam": 1, "id": 93384, "label": false, "run_length": 0.761, "score": 0.15809569441291876, "year:2015": 1}
+{"category:Science": 1, "guess:Alkene": 1, "id": 93406, "label": false, "run_length": 0.2, "score": 0.2585450380787504, "year:2015": 1}
+{"category:Science": 1, "guess:Ester": 1, "id": 93406, "label": false, "run_length": 0.4, "score": 0.25088282929463657, "year:2015": 1}
+{"category:Science": 1, "guess:Ester": 1, "id": 93406, "label": false, "run_length": 0.6, "score": 0.24365111308683804, "year:2015": 1}
+{"category:Science": 1, "guess:Alcohol": 1, "id": 93406, "label": false, "run_length": 0.794, "score": 0.2428612174226215, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:I_and_the_Village": 1, "id": 93407, "label": false, "run_length": 0.2, "score": 0.13398987014839225, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Marcel_Duchamp": 1, "id": 93407, "label": false, "run_length": 0.4, "score": 0.11981722809994262, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Pablo_Picasso": 1, "id": 93407, "label": false, "run_length": 0.6, "score": 0.1173195935121327, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Diego_Vel\u00e1zquez": 1, "id": 93407, "label": false, "run_length": 0.794, "score": 0.1158941650394987, "year:2015": 1}
+{"category:Mythology": 1, "guess:Theseus": 1, "id": 93411, "label": false, "run_length": 0.2, "score": 0.18193630805309724, "year:2015": 1}
+{"category:Mythology": 1, "guess:Heracles": 1, "id": 93411, "label": true, "run_length": 0.4, "score": 0.17985835164624656, "year:2015": 1}
+{"category:Mythology": 1, "guess:Achilles": 1, "id": 93411, "label": false, "run_length": 0.6, "score": 0.1457126138022566, "year:2015": 1}
+{"category:Mythology": 1, "guess:Heracles": 1, "id": 93411, "label": true, "run_length": 0.784, "score": 0.12781862703709765, "year:2015": 1}
+{"category:Literature": 1, "guess:Hamlet": 1, "id": 93421, "label": false, "run_length": 0.2, "score": 0.15880697998790827, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Iceman_Cometh": 1, "id": 93421, "label": false, "run_length": 0.4, "score": 0.11308224550992517, "year:2015": 1}
+{"category:Literature": 1, "guess:Anton_Chekhov": 1, "id": 93421, "label": false, "run_length": 0.6, "score": 0.1121666107743193, "year:2015": 1}
+{"category:Literature": 1, "guess:Jean-Paul_Sartre": 1, "id": 93421, "label": false, "run_length": 0.793, "score": 0.11012076947210621, "year:2015": 1}
+{"category:Literature": 1, "guess:Faust": 1, "id": 93436, "label": false, "run_length": 0.2, "score": 0.11638125992713852, "year:2015": 1}
+{"category:Literature": 1, "guess:Odysseus": 1, "id": 93436, "label": false, "run_length": 0.4, "score": 0.1115456179848064, "year:2015": 1}
+{"category:Literature": 1, "guess:Moby-Dick": 1, "id": 93436, "label": false, "run_length": 0.6, "score": 0.11077581471593931, "year:2015": 1}
+{"category:Literature": 1, "guess:Timur": 1, "id": 93436, "label": false, "run_length": 0.8, "score": 0.10829985771749627, "year:2015": 1}
+{"category:Literature": 1, "guess:Hamlet": 1, "id": 93436, "label": false, "run_length": 0.806, "score": 0.1039329036055551, "year:2015": 1}
+{"category:Literature": 1, "guess:Robert_Frost": 1, "id": 93443, "label": false, "run_length": 0.2, "score": 0.20098808004381416, "year:2015": 1}
+{"category:Literature": 1, "guess:W._B._Yeats": 1, "id": 93443, "label": false, "run_length": 0.4, "score": 0.18439050939192328, "year:2015": 1}
+{"category:Literature": 1, "guess:Derek_Walcott": 1, "id": 93443, "label": false, "run_length": 0.6, "score": 0.17563028066673378, "year:2015": 1}
+{"category:Literature": 1, "guess:Robert_Browning": 1, "id": 93443, "label": false, "run_length": 0.765, "score": 0.17443864653431934, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Jean-Jacques_Rousseau": 1, "id": 93452, "label": false, "run_length": 0.2, "score": 0.10680102834232649, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Arthur_Schopenhauer": 1, "id": 93452, "label": false, "run_length": 0.4, "score": 0.0955228226149907, "year:2015": 1}
+{"category:Philosophy": 1, "guess:John_Locke": 1, "id": 93452, "label": false, "run_length": 0.6, "score": 0.09311694201004071, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Immanuel_Kant": 1, "id": 93452, "label": false, "run_length": 0.786, "score": 0.09296869735772222, "year:2015": 1}
+{"category:Science": 1, "guess:Semiconductor": 1, "id": 93468, "label": false, "run_length": 0.2, "score": 0.23236342056220582, "year:2015": 1}
+{"category:Science": 1, "guess:Superconductivity": 1, "id": 93468, "label": false, "run_length": 0.4, "score": 0.18807532303001429, "year:2015": 1}
+{"category:Science": 1, "guess:Superconductivity": 1, "id": 93468, "label": false, "run_length": 0.6, "score": 0.1743940726723335, "year:2015": 1}
+{"category:Science": 1, "guess:Superconductivity": 1, "id": 93468, "label": false, "run_length": 0.792, "score": 0.16418107611690744, "year:2015": 1}
+{"category:Literature": 1, "guess:Flannery_O'Connor": 1, "id": 93470, "label": false, "run_length": 0.2, "score": 0.10762507294617268, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Decameron": 1, "id": 93470, "label": false, "run_length": 0.4, "score": 0.08134719714087782, "year:2015": 1}
+{"category:Literature": 1, "guess:Perseus": 1, "id": 93470, "label": false, "run_length": 0.6, "score": 0.07732229584594115, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Three_Musketeers": 1, "id": 93470, "label": false, "run_length": 0.765, "score": 0.07367100544794192, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Swan_Lake": 1, "id": 93475, "label": true, "run_length": 0.2, "score": 0.2216640022047619, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Romeo_and_Juliet": 1, "id": 93475, "label": false, "run_length": 0.4, "score": 0.21613248248974465, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Swan_Lake": 1, "id": 93475, "label": true, "run_length": 0.6, "score": 0.2010119315648764, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Swan_Lake": 1, "id": 93475, "label": true, "run_length": 0.8, "score": 0.1983547016976331, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Swan_Lake": 1, "id": 93475, "label": true, "run_length": 0.832, "score": 0.18519868370108478, "year:2015": 1}
+{"category:Science": 1, "guess:Gold": 1, "id": 101948, "label": false, "run_length": 0.2, "score": 0.27706252739706017, "year:2015": 1}
+{"category:Science": 1, "guess:Boron": 1, "id": 101948, "label": false, "run_length": 0.4, "score": 0.26257541342992435, "year:2015": 1}
+{"category:Science": 1, "guess:Calcium": 1, "id": 101948, "label": true, "run_length": 0.6, "score": 0.2504960934847427, "year:2015": 1}
+{"category:Science": 1, "guess:Phosphorus": 1, "id": 101948, "label": false, "run_length": 0.8, "score": 0.24360913305264417, "year:2015": 1}
+{"category:Science": 1, "guess:Carbon": 1, "id": 101948, "label": false, "run_length": 1.0, "score": 0.2385034069158228, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Pictures_at_an_Exhibition": 1, "id": 101964, "label": false, "run_length": 0.2, "score": 0.14404167553259786, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Wolfgang_Amadeus_Mozart": 1, "id": 101964, "label": false, "run_length": 0.4, "score": 0.1420371261356988, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Franz_Schubert": 1, "id": 101964, "label": false, "run_length": 0.6, "score": 0.13959761051479513, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Claude_Debussy": 1, "id": 101964, "label": false, "run_length": 0.8, "score": 0.13493607912585445, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 101964, "label": false, "run_length": 0.88, "score": 0.13011018411655126, "year:2015": 1}
+{"category:Science": 1, "guess:Liver": 1, "id": 101965, "label": true, "run_length": 0.2, "score": 0.3010559612414327, "year:2015": 1}
+{"category:Science": 1, "guess:Kidney": 1, "id": 101965, "label": false, "run_length": 0.4, "score": 0.28639598764872803, "year:2015": 1}
+{"category:Science": 1, "guess:Spleen": 1, "id": 101965, "label": false, "run_length": 0.6, "score": 0.2751296278903546, "year:2015": 1}
+{"category:Science": 1, "guess:Spleen": 1, "id": 101965, "label": false, "run_length": 0.8, "score": 0.2678770361001112, "year:2015": 1}
+{"category:Science": 1, "guess:Kidney": 1, "id": 101965, "label": false, "run_length": 0.917, "score": 0.26374408134340316, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Franz_Schubert": 1, "id": 101989, "label": false, "run_length": 0.2, "score": 0.1397854399292547, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Fr\u00e9d\u00e9ric_Chopin": 1, "id": 101989, "label": false, "run_length": 0.4, "score": 0.12358646043165325, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Charles_Ives": 1, "id": 101989, "label": false, "run_length": 0.6, "score": 0.11359030219447903, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Arnold_Schoenberg": 1, "id": 101989, "label": false, "run_length": 0.8, "score": 0.10916481082257865, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 101989, "label": false, "run_length": 0.895, "score": 0.10820808600667181, "year:2015": 1}
+{"category:Science": 1, "guess:Potential_energy": 1, "id": 101999, "label": true, "run_length": 0.2, "score": 0.22346170360095607, "year:2015": 1}
+{"category:Science": 1, "guess:Momentum": 1, "id": 101999, "label": false, "run_length": 0.4, "score": 0.16238734590420073, "year:2015": 1}
+{"category:Science": 1, "guess:Temperature": 1, "id": 101999, "label": false, "run_length": 0.6, "score": 0.16103170783739557, "year:2015": 1}
+{"category:Science": 1, "guess:Density": 1, "id": 101999, "label": false, "run_length": 0.8, "score": 0.15262789701738053, "year:2015": 1}
+{"category:Science": 1, "guess:Momentum": 1, "id": 101999, "label": false, "run_length": 0.861, "score": 0.15227804575060103, "year:2015": 1}
+{"category:Mythology": 1, "guess:Hephaestus": 1, "id": 102005, "label": false, "run_length": 0.2, "score": 0.11442408252113884, "year:2015": 1}
+{"category:Mythology": 1, "guess:Ares": 1, "id": 102005, "label": false, "run_length": 0.4, "score": 0.09853740697054983, "year:2015": 1}
+{"category:Mythology": 1, "guess:Ra": 1, "id": 102005, "label": false, "run_length": 0.6, "score": 0.09641367355467134, "year:2015": 1}
+{"category:Mythology": 1, "guess:Hades": 1, "id": 102005, "label": false, "run_length": 0.8, "score": 0.09210899128841105, "year:2015": 1}
+{"category:Mythology": 1, "guess:Osiris": 1, "id": 102005, "label": true, "run_length": 0.938, "score": 0.08952371734191875, "year:2015": 1}
+{"category:Science": 1, "guess:Aldehyde": 1, "id": 102041, "label": true, "run_length": 0.2, "score": 0.2222697495604517, "year:2015": 1}
+{"category:Science": 1, "guess:Ester": 1, "id": 102041, "label": false, "run_length": 0.4, "score": 0.2155665345716152, "year:2015": 1}
+{"category:Science": 1, "guess:Alkene": 1, "id": 102041, "label": false, "run_length": 0.6, "score": 0.17126900938218517, "year:2015": 1}
+{"category:Science": 1, "guess:Amine": 1, "id": 102041, "label": false, "run_length": 0.8, "score": 0.1632021870226698, "year:2015": 1}
+{"category:Science": 1, "guess:Ester": 1, "id": 102041, "label": false, "run_length": 0.858, "score": 0.1444923500988963, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Albrecht_D\u00fcrer": 1, "id": 102045, "label": false, "run_length": 0.2, "score": 0.08859412747659418, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Chromatography": 1, "id": 102045, "label": false, "run_length": 0.4, "score": 0.07361167809601958, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Grant_Wood": 1, "id": 102045, "label": false, "run_length": 0.6, "score": 0.06915281126321249, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Paul_C\u00e9zanne": 1, "id": 102045, "label": false, "run_length": 0.8, "score": 0.0649137472793104, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Recursion": 1, "id": 102045, "label": false, "run_length": 0.98, "score": 0.06467180543094907, "year:2015": 1}
+{"category:History": 1, "guess:Justinian_I": 1, "id": 102098, "label": false, "run_length": 0.2, "score": 0.10793573981475342, "year:2015": 1}
+{"category:History": 1, "guess:Catherine_the_Great": 1, "id": 102098, "label": true, "run_length": 0.4, "score": 0.0906333161869082, "year:2015": 1}
+{"category:History": 1, "guess:Elizabeth_I_of_England": 1, "id": 102098, "label": false, "run_length": 0.6, "score": 0.08960992845362177, "year:2015": 1}
+{"category:History": 1, "guess:Elizabeth_I_of_England": 1, "id": 102098, "label": false, "run_length": 0.8, "score": 0.08886601174376245, "year:2015": 1}
+{"category:History": 1, "guess:Iran": 1, "id": 102098, "label": false, "run_length": 0.919, "score": 0.08719145717961184, "year:2015": 1}
+{"category:Science": 1, "guess:Iron": 1, "id": 102125, "label": true, "run_length": 0.2, "score": 0.17081601771207064, "year:2015": 1}
+{"category:Science": 1, "guess:Iron": 1, "id": 102125, "label": true, "run_length": 0.4, "score": 0.12809985834537294, "year:2015": 1}
+{"category:Science": 1, "guess:Iron": 1, "id": 102125, "label": true, "run_length": 0.6, "score": 0.12679415132628077, "year:2015": 1}
+{"category:Science": 1, "guess:Nitrogen": 1, "id": 102125, "label": false, "run_length": 0.8, "score": 0.12113487043396484, "year:2015": 1}
+{"category:Science": 1, "guess:Nitrogen": 1, "id": 102125, "label": false, "run_length": 0.925, "score": 0.12072396468818207, "year:2015": 1}
+{"category:Science": 1, "guess:Enthalpy": 1, "id": 102131, "label": false, "run_length": 0.2, "score": 0.1286999970003813, "year:2015": 1}
+{"category:Science": 1, "guess:Determinant": 1, "id": 102131, "label": false, "run_length": 0.4, "score": 0.10335349944564125, "year:2015": 1}
+{"category:Science": 1, "guess:Trigonometric_functions": 1, "id": 102131, "label": false, "run_length": 0.6, "score": 0.10096247646228522, "year:2015": 1}
+{"category:Science": 1, "guess:Enthalpy": 1, "id": 102131, "label": false, "run_length": 0.8, "score": 0.09834027733136572, "year:2015": 1}
+{"category:Science": 1, "guess:Reflection_(physics)": 1, "id": 102131, "label": false, "run_length": 0.984, "score": 0.09650180122723916, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Greece": 1, "id": 102158, "label": false, "run_length": 0.2, "score": 0.21365796291592404, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:France": 1, "id": 102158, "label": false, "run_length": 0.4, "score": 0.18690247693835002, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Iran": 1, "id": 102158, "label": true, "run_length": 0.6, "score": 0.13275984751754286, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Japan": 1, "id": 102158, "label": false, "run_length": 0.8, "score": 0.12390258622721906, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Brazil": 1, "id": 102158, "label": false, "run_length": 0.88, "score": 0.12157875528638955, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Eug\u00e8ne_Delacroix": 1, "id": 102211, "label": true, "run_length": 0.2, "score": 0.09791925650327038, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Switzerland": 1, "id": 102211, "label": false, "run_length": 0.4, "score": 0.09720034810005132, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:J._M._W._Turner": 1, "id": 102211, "label": false, "run_length": 0.6, "score": 0.09094178065811538, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Eug\u00e8ne_Delacroix": 1, "id": 102211, "label": true, "run_length": 0.8, "score": 0.08767142875812885, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:J._M._W._Turner": 1, "id": 102211, "label": false, "run_length": 0.925, "score": 0.07580686209844364, "year:2015": 1}
+{"category:Social Science": 1, "guess:Spain": 1, "id": 102244, "label": false, "run_length": 0.2, "score": 0.1065078871104915, "year:2015": 1}
+{"category:Social Science": 1, "guess:Thorstein_Veblen": 1, "id": 102244, "label": false, "run_length": 0.4, "score": 0.10079444964708502, "year:2015": 1}
+{"category:Social Science": 1, "guess:Iceland": 1, "id": 102244, "label": false, "run_length": 0.6, "score": 0.09512607030707579, "year:2015": 1}
+{"category:Social Science": 1, "guess:Thorstein_Veblen": 1, "id": 102244, "label": false, "run_length": 0.8, "score": 0.09376519657508413, "year:2015": 1}
+{"category:Social Science": 1, "guess:Italy": 1, "id": 102244, "label": false, "run_length": 0.915, "score": 0.0921989227780941, "year:2015": 1}
+{"category:Science": 1, "guess:Surface_tension": 1, "id": 102248, "label": false, "run_length": 0.2, "score": 0.23300897795737138, "year:2015": 1}
+{"category:Science": 1, "guess:Harmonic_oscillator": 1, "id": 102248, "label": false, "run_length": 0.4, "score": 0.14048424304243903, "year:2015": 1}
+{"category:Science": 1, "guess:Coriolis_force": 1, "id": 102248, "label": false, "run_length": 0.6, "score": 0.1365707841694683, "year:2015": 1}
+{"category:Science": 1, "guess:Precession": 1, "id": 102248, "label": false, "run_length": 0.8, "score": 0.13185357160187972, "year:2015": 1}
+{"category:Science": 1, "guess:Reflection_(physics)": 1, "id": 102248, "label": false, "run_length": 0.981, "score": 0.1280200845662467, "year:2015": 1}
+{"category:Literature": 1, "guess:Petrarch": 1, "id": 102299, "label": false, "run_length": 0.2, "score": 0.06930774882784843, "year:2015": 1}
+{"category:Literature": 1, "guess:Petrarch": 1, "id": 102299, "label": false, "run_length": 0.4, "score": 0.06930774882784843, "year:2015": 1}
+{"category:Literature": 1, "guess:George_Washington": 1, "id": 102299, "label": false, "run_length": 0.6, "score": 0.06920076738599694, "year:2015": 1}
+{"category:Literature": 1, "guess:Cello": 1, "id": 102299, "label": false, "run_length": 0.8, "score": 0.06279559464253286, "year:2015": 1}
+{"category:Literature": 1, "guess:Johannes_Brahms": 1, "id": 102299, "label": false, "run_length": 0.954, "score": 0.06185099796164213, "year:2015": 1}
+{"category:Mythology": 1, "guess:Dog": 1, "id": 102325, "label": true, "run_length": 0.2, "score": 0.18795329756048965, "year:2015": 1}
+{"category:Mythology": 1, "guess:Horse": 1, "id": 102325, "label": false, "run_length": 0.4, "score": 0.18651410035376076, "year:2015": 1}
+{"category:Mythology": 1, "guess:Dog": 1, "id": 102325, "label": true, "run_length": 0.6, "score": 0.18354983166186112, "year:2015": 1}
+{"category:Mythology": 1, "guess:Horse": 1, "id": 102325, "label": false, "run_length": 0.8, "score": 0.17768689021463288, "year:2015": 1}
+{"category:Mythology": 1, "guess:Bird": 1, "id": 102325, "label": false, "run_length": 0.955, "score": 0.17724482161644137, "year:2015": 1}
+{"category:Literature": 1, "guess:Scotland": 1, "id": 102334, "label": false, "run_length": 0.2, "score": 0.11402080476955617, "year:2015": 1}
+{"category:Literature": 1, "guess:Les_Fleurs_du_mal": 1, "id": 102334, "label": false, "run_length": 0.4, "score": 0.10162701961216046, "year:2015": 1}
+{"category:Literature": 1, "guess:Les_Fleurs_du_mal": 1, "id": 102334, "label": false, "run_length": 0.6, "score": 0.09484679128286135, "year:2015": 1}
+{"category:Literature": 1, "guess:Pakistan": 1, "id": 102334, "label": false, "run_length": 0.8, "score": 0.09338126454689448, "year:2015": 1}
+{"category:Literature": 1, "guess:Les_Fleurs_du_mal": 1, "id": 102334, "label": false, "run_length": 0.929, "score": 0.09282703620001556, "year:2015": 1}
+{"category:Literature": 1, "guess:Scotland": 1, "id": 102335, "label": false, "run_length": 0.2, "score": 0.11402080476955617, "year:2015": 1}
+{"category:Literature": 1, "guess:Les_Fleurs_du_mal": 1, "id": 102335, "label": false, "run_length": 0.4, "score": 0.10162701961216046, "year:2015": 1}
+{"category:Literature": 1, "guess:Les_Fleurs_du_mal": 1, "id": 102335, "label": false, "run_length": 0.6, "score": 0.09484679128286135, "year:2015": 1}
+{"category:Literature": 1, "guess:Pakistan": 1, "id": 102335, "label": false, "run_length": 0.8, "score": 0.09338126454689448, "year:2015": 1}
+{"category:Literature": 1, "guess:Les_Fleurs_du_mal": 1, "id": 102335, "label": false, "run_length": 0.929, "score": 0.09282703620001556, "year:2015": 1}
+{"category:Literature": 1, "guess:Johann_Wolfgang_von_Goethe": 1, "id": 102384, "label": false, "run_length": 0.2, "score": 0.1062544896169467, "year:2015": 1}
+{"category:Literature": 1, "guess:Christopher_Marlowe": 1, "id": 102384, "label": false, "run_length": 0.4, "score": 0.08886515932622148, "year:2015": 1}
+{"category:Literature": 1, "guess:William_Cullen_Bryant": 1, "id": 102384, "label": false, "run_length": 0.6, "score": 0.08358576870499317, "year:2015": 1}
+{"category:Literature": 1, "guess:Faust": 1, "id": 102384, "label": false, "run_length": 0.784, "score": 0.08354636551550529, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Heart_of_Darkness": 1, "id": 102390, "label": false, "run_length": 0.2, "score": 0.11488177183740844, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Hamlet": 1, "id": 102390, "label": false, "run_length": 0.4, "score": 0.09689859626795701, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Paul_C\u00e9zanne": 1, "id": 102390, "label": false, "run_length": 0.6, "score": 0.0893085835312863, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Paul_C\u00e9zanne": 1, "id": 102390, "label": false, "run_length": 0.8, "score": 0.08706534233372491, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Macbeth": 1, "id": 102390, "label": false, "run_length": 0.854, "score": 0.08556506445768544, "year:2015": 1}
+{"category:Science": 1, "guess:Boron": 1, "id": 102411, "label": false, "run_length": 0.2, "score": 0.2521081866802439, "year:2015": 1}
+{"category:Science": 1, "guess:Carbon": 1, "id": 102411, "label": false, "run_length": 0.4, "score": 0.2475972506292497, "year:2015": 1}
+{"category:Science": 1, "guess:Carbon": 1, "id": 102411, "label": false, "run_length": 0.6, "score": 0.2462556335216869, "year:2015": 1}
+{"category:Science": 1, "guess:Phosphorus": 1, "id": 102411, "label": false, "run_length": 0.8, "score": 0.24020718438843433, "year:2015": 1}
+{"category:Science": 1, "guess:Carbon": 1, "id": 102411, "label": false, "run_length": 0.869, "score": 0.24010788975995068, "year:2015": 1}
+{"category:Literature": 1, "guess:China": 1, "id": 102426, "label": false, "run_length": 0.2, "score": 0.18874990153221047, "year:2015": 1}
+{"category:Literature": 1, "guess:New_Zealand": 1, "id": 102426, "label": false, "run_length": 0.4, "score": 0.17757065195125363, "year:2015": 1}
+{"category:Literature": 1, "guess:Iceland": 1, "id": 102426, "label": false, "run_length": 0.6, "score": 0.17732959774103846, "year:2015": 1}
+{"category:Literature": 1, "guess:Nigeria": 1, "id": 102426, "label": false, "run_length": 0.8, "score": 0.17414438382259037, "year:2015": 1}
+{"category:Literature": 1, "guess:Mexico": 1, "id": 102426, "label": false, "run_length": 0.948, "score": 0.16967786483859246, "year:2015": 1}
+{"category:Science": 1, "guess:Arrhenius_equation": 1, "id": 102454, "label": false, "run_length": 0.2, "score": 0.15384899726568127, "year:2015": 1}
+{"category:Science": 1, "guess:Mass": 1, "id": 102454, "label": false, "run_length": 0.4, "score": 0.11207587914993605, "year:2015": 1}
+{"category:Science": 1, "guess:Density": 1, "id": 102454, "label": false, "run_length": 0.6, "score": 0.11028619236706777, "year:2015": 1}
+{"category:Science": 1, "guess:Mass": 1, "id": 102454, "label": false, "run_length": 0.8, "score": 0.10671019614982775, "year:2015": 1}
+{"category:Science": 1, "guess:Time": 1, "id": 102454, "label": false, "run_length": 1.0, "score": 0.10631086168543072, "year:2015": 1}
+{"category:Geography": 1, "guess:Yom_Kippur": 1, "id": 124194, "label": false, "run_length": 0.2, "score": 0.1509208176932739, "year:2015": 1}
+{"category:Geography": 1, "guess:Mitochondrion": 1, "id": 124194, "label": false, "run_length": 0.4, "score": 0.13250967691362842, "year:2015": 1}
+{"category:Geography": 1, "guess:Anton_Chekhov": 1, "id": 124194, "label": false, "run_length": 0.574, "score": 0.13055742458203992, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Edward_Hopper": 1, "id": 124200, "label": false, "run_length": 0.2, "score": 0.14540385858989388, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Pieter_Bruegel_the_Elder": 1, "id": 124200, "label": false, "run_length": 0.4, "score": 0.13674589782562235, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Thomas_Eakins": 1, "id": 124200, "label": false, "run_length": 0.6, "score": 0.12188510659670589, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Titian": 1, "id": 124200, "label": false, "run_length": 0.607, "score": 0.11335125973628449, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Martin_Heidegger": 1, "id": 124204, "label": false, "run_length": 0.2, "score": 0.1050467670181505, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Niccol\u00f2_Machiavelli": 1, "id": 124204, "label": false, "run_length": 0.4, "score": 0.10127992921433167, "year:2015": 1}
+{"category:Philosophy": 1, "guess:John_Locke": 1, "id": 124204, "label": false, "run_length": 0.6, "score": 0.08259536369675077, "year:2015": 1}
+{"category:Philosophy": 1, "guess:S\u00f8ren_Kierkegaard": 1, "id": 124204, "label": true, "run_length": 0.669, "score": 0.07864943018167209, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Magic_Flute": 1, "id": 124205, "label": true, "run_length": 0.2, "score": 0.24986272081734792, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Magic_Flute": 1, "id": 124205, "label": true, "run_length": 0.4, "score": 0.15205979054510513, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Magic_Flute": 1, "id": 124205, "label": true, "run_length": 0.6, "score": 0.1505189918693894, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Magic_Flute": 1, "id": 124205, "label": true, "run_length": 0.682, "score": 0.1372110984042406, "year:2015": 1}
+{"category:Mythology": 1, "guess:Black_hole": 1, "id": 124206, "label": false, "run_length": 0.2, "score": 0.21155702030991666, "year:2015": 1}
+{"category:Mythology": 1, "guess:Tree": 1, "id": 124206, "label": true, "run_length": 0.4, "score": 0.21015980201250326, "year:2015": 1}
+{"category:Mythology": 1, "guess:Tree": 1, "id": 124206, "label": true, "run_length": 0.6, "score": 0.20949455720212393, "year:2015": 1}
+{"category:Mythology": 1, "guess:Tree": 1, "id": 124206, "label": true, "run_length": 0.639, "score": 0.19336169171365009, "year:2015": 1}
+{"category:History": 1, "guess:The_Brothers_Karamazov": 1, "id": 124210, "label": false, "run_length": 0.2, "score": 0.29438232354171634, "year:2015": 1}
+{"category:History": 1, "guess:V._S._Naipaul": 1, "id": 124210, "label": false, "run_length": 0.4, "score": 0.2892243313090142, "year:2015": 1}
+{"category:History": 1, "guess:Oliver_Cromwell": 1, "id": 124210, "label": false, "run_length": 0.6, "score": 0.2844098292902048, "year:2015": 1}
+{"category:History": 1, "guess:Mahatma_Gandhi": 1, "id": 124210, "label": true, "run_length": 0.623, "score": 0.2816206642598887, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Ambassadors": 1, "id": 124214, "label": true, "run_length": 0.2, "score": 0.3034692782724056, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Ambassadors": 1, "id": 124214, "label": true, "run_length": 0.4, "score": 0.26348178493278024, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Ambassadors": 1, "id": 124214, "label": true, "run_length": 0.6, "score": 0.2487784087581923, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Night_Watch": 1, "id": 124214, "label": false, "run_length": 0.67, "score": 0.20283981429907344, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:John_Coltrane": 1, "id": 124217, "label": true, "run_length": 0.2, "score": 0.24035911998802717, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Miles_Davis": 1, "id": 124217, "label": false, "run_length": 0.4, "score": 0.18746031385233564, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:John_Coltrane": 1, "id": 124217, "label": true, "run_length": 0.6, "score": 0.17697413730484102, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:John_Coltrane": 1, "id": 124217, "label": true, "run_length": 0.65, "score": 0.16853235717948625, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 124222, "label": false, "run_length": 0.2, "score": 0.1637597553818481, "year:2015": 1}
+{"category:Literature": 1, "guess:D._H._Lawrence": 1, "id": 124222, "label": false, "run_length": 0.4, "score": 0.157741620745468, "year:2015": 1}
+{"category:Literature": 1, "guess:F._Scott_Fitzgerald": 1, "id": 124222, "label": false, "run_length": 0.6, "score": 0.1511806969323435, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Tale_of_Genji": 1, "id": 124222, "label": false, "run_length": 0.635, "score": 0.1483533156900581, "year:2015": 1}
+{"category:Science": 1, "guess:Bose\u2013Einstein_condensate": 1, "id": 124224, "label": false, "run_length": 0.2, "score": 0.274898161234159, "year:2015": 1}
+{"category:Science": 1, "guess:Carbon_dioxide": 1, "id": 124224, "label": false, "run_length": 0.4, "score": 0.2522093125159567, "year:2015": 1}
+{"category:Science": 1, "guess:Water": 1, "id": 124224, "label": true, "run_length": 0.6, "score": 0.24494063930134008, "year:2015": 1}
+{"category:Science": 1, "guess:Water": 1, "id": 124224, "label": true, "run_length": 0.673, "score": 0.23986530355505878, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 124229, "label": false, "run_length": 0.2, "score": 0.1770419868513338, "year:2015": 1}
+{"category:Literature": 1, "guess:Wole_Soyinka": 1, "id": 124229, "label": false, "run_length": 0.4, "score": 0.15112090407165912, "year:2015": 1}
+{"category:Literature": 1, "guess:F._Scott_Fitzgerald": 1, "id": 124229, "label": false, "run_length": 0.6, "score": 0.14737025513317895, "year:2015": 1}
+{"category:Literature": 1, "guess:Hermann_Hesse": 1, "id": 124229, "label": false, "run_length": 0.656, "score": 0.1452113546178728, "year:2015": 1}
+{"category:Religion": 1, "guess:Shinto": 1, "id": 124236, "label": true, "run_length": 0.2, "score": 0.26454187721791605, "year:2015": 1}
+{"category:Religion": 1, "guess:Norway": 1, "id": 124236, "label": false, "run_length": 0.4, "score": 0.2030136015862561, "year:2015": 1}
+{"category:Religion": 1, "guess:Shinto": 1, "id": 124236, "label": true, "run_length": 0.6, "score": 0.1896718871840932, "year:2015": 1}
+{"category:Religion": 1, "guess:Jainism": 1, "id": 124236, "label": false, "run_length": 0.69, "score": 0.17828374072544007, "year:2015": 1}
+{"category:Literature": 1, "guess:Dream_of_the_Red_Chamber": 1, "id": 124237, "label": false, "run_length": 0.2, "score": 0.12073961532302162, "year:2015": 1}
+{"category:Literature": 1, "guess:Candide": 1, "id": 124237, "label": true, "run_length": 0.4, "score": 0.11819714330686681, "year:2015": 1}
+{"category:Literature": 1, "guess:Candide": 1, "id": 124237, "label": true, "run_length": 0.6, "score": 0.11752291007456225, "year:2015": 1}
+{"category:Literature": 1, "guess:Portugal": 1, "id": 124237, "label": false, "run_length": 0.665, "score": 0.10874043400166972, "year:2015": 1}
+{"category:Science": 1, "guess:Reflection_(physics)": 1, "id": 124250, "label": false, "run_length": 0.2, "score": 0.13219639601080155, "year:2015": 1}
+{"category:Science": 1, "guess:Zeeman_effect": 1, "id": 124250, "label": false, "run_length": 0.4, "score": 0.13109644292702466, "year:2015": 1}
+{"category:Science": 1, "guess:Coriolis_force": 1, "id": 124250, "label": false, "run_length": 0.6, "score": 0.1295846929268179, "year:2015": 1}
+{"category:Science": 1, "guess:Reflection_(physics)": 1, "id": 124250, "label": false, "run_length": 0.634, "score": 0.12685360142786653, "year:2015": 1}
+{"category:Literature": 1, "guess:E._E._Cummings": 1, "id": 124261, "label": true, "run_length": 0.2, "score": 0.24587241836858903, "year:2015": 1}
+{"category:Literature": 1, "guess:E._E._Cummings": 1, "id": 124261, "label": true, "run_length": 0.4, "score": 0.2050644846766562, "year:2015": 1}
+{"category:Literature": 1, "guess:E._E._Cummings": 1, "id": 124261, "label": true, "run_length": 0.6, "score": 0.18819064214838133, "year:2015": 1}
+{"category:Literature": 1, "guess:E._E._Cummings": 1, "id": 124261, "label": true, "run_length": 0.666, "score": 0.1409165112901349, "year:2015": 1}
+{"category:Science": 1, "guess:Uncertainty_principle": 1, "id": 124263, "label": true, "run_length": 0.2, "score": 0.13542119639928907, "year:2015": 1}
+{"category:Science": 1, "guess:Uncertainty_principle": 1, "id": 124263, "label": true, "run_length": 0.4, "score": 0.1350458873654436, "year:2015": 1}
+{"category:Science": 1, "guess:Harmonic_oscillator": 1, "id": 124263, "label": false, "run_length": 0.6, "score": 0.13053435985249356, "year:2015": 1}
+{"category:Science": 1, "guess:Doppler_effect": 1, "id": 124263, "label": false, "run_length": 0.625, "score": 0.1270365673796302, "year:2015": 1}
+{"category:Mythology": 1, "guess:Faust": 1, "id": 124266, "label": false, "run_length": 0.2, "score": 0.09421560506937043, "year:2015": 1}
+{"category:Mythology": 1, "guess:Theseus": 1, "id": 124266, "label": true, "run_length": 0.4, "score": 0.09151595799444757, "year:2015": 1}
+{"category:Mythology": 1, "guess:Theseus": 1, "id": 124266, "label": true, "run_length": 0.6, "score": 0.08846060843563747, "year:2015": 1}
+{"category:Mythology": 1, "guess:Theseus": 1, "id": 124266, "label": true, "run_length": 0.667, "score": 0.08402048668664353, "year:2015": 1}
+{"category:Science": 1, "guess:Entropy": 1, "id": 124275, "label": true, "run_length": 0.2, "score": 0.3742309669748122, "year:2015": 1}
+{"category:Science": 1, "guess:Entropy": 1, "id": 124275, "label": true, "run_length": 0.4, "score": 0.3035390579302609, "year:2015": 1}
+{"category:Science": 1, "guess:Entropy": 1, "id": 124275, "label": true, "run_length": 0.6, "score": 0.27349629838976475, "year:2015": 1}
+{"category:Science": 1, "guess:Entropy": 1, "id": 124275, "label": true, "run_length": 0.69, "score": 0.25879514305234885, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johannes_Brahms": 1, "id": 124282, "label": false, "run_length": 0.2, "score": 0.159996690659543, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Sergei_Rachmaninoff": 1, "id": 124282, "label": true, "run_length": 0.4, "score": 0.14911067485398677, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Felix_Mendelssohn": 1, "id": 124282, "label": false, "run_length": 0.6, "score": 0.14407046491351708, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 124282, "label": false, "run_length": 0.662, "score": 0.1418414656812187, "year:2015": 1}
+{"category:History": 1, "guess:World_War_I": 1, "id": 124287, "label": true, "run_length": 0.2, "score": 0.21497432902888322, "year:2015": 1}
+{"category:History": 1, "guess:War_of_1812": 1, "id": 124287, "label": false, "run_length": 0.4, "score": 0.21076713527189583, "year:2015": 1}
+{"category:History": 1, "guess:Crimean_War": 1, "id": 124287, "label": false, "run_length": 0.6, "score": 0.20469991692161868, "year:2015": 1}
+{"category:History": 1, "guess:War_of_1812": 1, "id": 124287, "label": false, "run_length": 0.646, "score": 0.19198188564584853, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 124296, "label": false, "run_length": 0.2, "score": 0.14500722234751398, "year:2015": 1}
+{"category:Literature": 1, "guess:J._M._Coetzee": 1, "id": 124296, "label": true, "run_length": 0.4, "score": 0.1447669348210475, "year:2015": 1}
+{"category:Literature": 1, "guess:Ovid": 1, "id": 124296, "label": false, "run_length": 0.6, "score": 0.1371785783103628, "year:2015": 1}
+{"category:Literature": 1, "guess:Voltaire": 1, "id": 124296, "label": false, "run_length": 0.681, "score": 0.13666352605854512, "year:2015": 1}
+{"category:Literature": 1, "guess:A_Doll's_House": 1, "id": 124307, "label": true, "run_length": 0.2, "score": 0.18218881777994303, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Iceman_Cometh": 1, "id": 124307, "label": false, "run_length": 0.4, "score": 0.15984534184964058, "year:2015": 1}
+{"category:Literature": 1, "guess:A_Doll's_House": 1, "id": 124307, "label": true, "run_length": 0.6, "score": 0.1556704419768955, "year:2015": 1}
+{"category:Literature": 1, "guess:Waiting_for_Godot": 1, "id": 124307, "label": false, "run_length": 0.66, "score": 0.1503476230174387, "year:2015": 1}
+{"category:Literature": 1, "guess:J._M._Coetzee": 1, "id": 124314, "label": false, "run_length": 0.2, "score": 0.1375736158910821, "year:2015": 1}
+{"category:Literature": 1, "guess:Haruki_Murakami": 1, "id": 124314, "label": false, "run_length": 0.4, "score": 0.12603362246907027, "year:2015": 1}
+{"category:Literature": 1, "guess:August_Strindberg": 1, "id": 124314, "label": false, "run_length": 0.6, "score": 0.1237546637289699, "year:2015": 1}
+{"category:Literature": 1, "guess:Umberto_Eco": 1, "id": 124314, "label": false, "run_length": 0.657, "score": 0.1221334176106247, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Poland": 1, "id": 124322, "label": false, "run_length": 0.2, "score": 0.19280458672199657, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Brazil": 1, "id": 124322, "label": false, "run_length": 0.4, "score": 0.16975606617243147, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Hungary": 1, "id": 124322, "label": false, "run_length": 0.6, "score": 0.163509429833683, "year:2015": 1}
+{"category:Philosophy": 1, "guess:France": 1, "id": 124322, "label": true, "run_length": 0.669, "score": 0.163213505486073, "year:2015": 1}
+{"category:Mythology": 1, "guess:Dragon": 1, "id": 124325, "label": false, "run_length": 0.2, "score": 0.2161058455284969, "year:2015": 1}
+{"category:Mythology": 1, "guess:Horse": 1, "id": 124325, "label": false, "run_length": 0.4, "score": 0.2113471453274976, "year:2015": 1}
+{"category:Mythology": 1, "guess:Centaur": 1, "id": 124325, "label": true, "run_length": 0.6, "score": 0.20808094628842494, "year:2015": 1}
+{"category:Mythology": 1, "guess:Centaur": 1, "id": 124325, "label": true, "run_length": 0.667, "score": 0.19520248200095403, "year:2015": 1}
+{"category:Literature": 1, "guess:England": 1, "id": 124332, "label": false, "run_length": 0.2, "score": 0.1841497497285631, "year:2015": 1}
+{"category:Literature": 1, "guess:Peru": 1, "id": 124332, "label": false, "run_length": 0.4, "score": 0.1785928002534006, "year:2015": 1}
+{"category:Literature": 1, "guess:Brazil": 1, "id": 124332, "label": false, "run_length": 0.6, "score": 0.1649553206640451, "year:2015": 1}
+{"category:Literature": 1, "guess:Australia": 1, "id": 124332, "label": true, "run_length": 0.684, "score": 0.15599108503578324, "year:2015": 1}
+{"category:Science": 1, "guess:Neptune": 1, "id": 124336, "label": true, "run_length": 0.2, "score": 0.3495073114976015, "year:2015": 1}
+{"category:Science": 1, "guess:Neptune": 1, "id": 124336, "label": true, "run_length": 0.4, "score": 0.30014279708390273, "year:2015": 1}
+{"category:Science": 1, "guess:Neptune": 1, "id": 124336, "label": true, "run_length": 0.6, "score": 0.24810352325638552, "year:2015": 1}
+{"category:Science": 1, "guess:Neptune": 1, "id": 124336, "label": true, "run_length": 0.648, "score": 0.24810352325638552, "year:2015": 1}
+{"category:Literature": 1, "guess:Fyodor_Dostoevsky": 1, "id": 124337, "label": false, "run_length": 0.2, "score": 0.15297166280418528, "year:2015": 1}
+{"category:Literature": 1, "guess:Leo_Tolstoy": 1, "id": 124337, "label": false, "run_length": 0.4, "score": 0.1368556785174985, "year:2015": 1}
+{"category:Literature": 1, "guess:Fyodor_Dostoevsky": 1, "id": 124337, "label": false, "run_length": 0.6, "score": 0.12877708795760784, "year:2015": 1}
+{"category:Literature": 1, "guess:Henry_James": 1, "id": 124337, "label": false, "run_length": 0.664, "score": 0.1236618690290697, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Jean-Jacques_Rousseau": 1, "id": 124343, "label": false, "run_length": 0.2, "score": 0.11002199818876598, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Gottfried_Wilhelm_Leibniz": 1, "id": 124343, "label": false, "run_length": 0.4, "score": 0.10301529949751373, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Georg_Wilhelm_Friedrich_Hegel": 1, "id": 124343, "label": false, "run_length": 0.6, "score": 0.10062976626586131, "year:2015": 1}
+{"category:Philosophy": 1, "guess:John_Dewey": 1, "id": 124343, "label": false, "run_length": 0.643, "score": 0.09914412906151367, "year:2015": 1}
+{"category:Literature": 1, "guess:Hermann_Hesse": 1, "id": 124354, "label": true, "run_length": 0.2, "score": 0.18054559734405823, "year:2015": 1}
+{"category:Literature": 1, "guess:Hermann_Hesse": 1, "id": 124354, "label": true, "run_length": 0.4, "score": 0.17682953349979538, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 124354, "label": false, "run_length": 0.6, "score": 0.1580835184731154, "year:2015": 1}
+{"category:Literature": 1, "guess:Hermann_Hesse": 1, "id": 124354, "label": true, "run_length": 0.636, "score": 0.15144340384462934, "year:2015": 1}
+{"category:History": 1, "guess:Dionysus": 1, "id": 124357, "label": false, "run_length": 0.2, "score": 0.10610622058228275, "year:2015": 1}
+{"category:History": 1, "guess:Germany": 1, "id": 124357, "label": false, "run_length": 0.4, "score": 0.09894191251229525, "year:2015": 1}
+{"category:History": 1, "guess:Colombia": 1, "id": 124357, "label": false, "run_length": 0.6, "score": 0.09815940159766583, "year:2015": 1}
+{"category:History": 1, "guess:Los_Angeles": 1, "id": 124357, "label": false, "run_length": 0.609, "score": 0.09523348155036462, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Richard_Strauss": 1, "id": 124364, "label": true, "run_length": 0.2, "score": 0.21778304993428105, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Richard_Strauss": 1, "id": 124364, "label": true, "run_length": 0.4, "score": 0.1829961556297589, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Richard_Strauss": 1, "id": 124364, "label": true, "run_length": 0.6, "score": 0.11913438676985152, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Pyotr_Ilyich_Tchaikovsky": 1, "id": 124364, "label": false, "run_length": 0.679, "score": 0.10664496435862936, "year:2015": 1}
+{"category:Mythology": 1, "guess:Theseus": 1, "id": 124365, "label": false, "run_length": 0.2, "score": 0.14599692967517344, "year:2015": 1}
+{"category:Mythology": 1, "guess:C\u00fa_Chulainn": 1, "id": 124365, "label": false, "run_length": 0.4, "score": 0.11384616654522964, "year:2015": 1}
+{"category:Mythology": 1, "guess:Heracles": 1, "id": 124365, "label": false, "run_length": 0.6, "score": 0.10304826536479264, "year:2015": 1}
+{"category:Mythology": 1, "guess:Heracles": 1, "id": 124365, "label": false, "run_length": 0.658, "score": 0.1026892401914644, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 124366, "label": false, "run_length": 0.2, "score": 0.2603932154367317, "year:2015": 1}
+{"category:Literature": 1, "guess:Toni_Morrison": 1, "id": 124366, "label": false, "run_length": 0.4, "score": 0.2224075606705087, "year:2015": 1}
+{"category:Literature": 1, "guess:Albert_Camus": 1, "id": 124366, "label": false, "run_length": 0.6, "score": 0.21302282940177972, "year:2015": 1}
+{"category:Literature": 1, "guess:Hermann_Hesse": 1, "id": 124366, "label": false, "run_length": 0.676, "score": 0.19635234583898503, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_School_of_Athens": 1, "id": 124371, "label": true, "run_length": 0.2, "score": 0.14387142535995046, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Night_Watch": 1, "id": 124371, "label": false, "run_length": 0.4, "score": 0.14078161040209838, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_School_of_Athens": 1, "id": 124371, "label": true, "run_length": 0.6, "score": 0.1373619036116283, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_School_of_Athens": 1, "id": 124371, "label": true, "run_length": 0.634, "score": 0.1294342395803733, "year:2015": 1}
+{"category:Literature": 1, "guess:Their_Eyes_Were_Watching_God": 1, "id": 124382, "label": false, "run_length": 0.2, "score": 0.15540714463492533, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Three_Musketeers": 1, "id": 124382, "label": false, "run_length": 0.4, "score": 0.1504018074145677, "year:2015": 1}
+{"category:Literature": 1, "guess:Jane_Eyre": 1, "id": 124382, "label": false, "run_length": 0.6, "score": 0.14828961147211037, "year:2015": 1}
+{"category:Literature": 1, "guess:All_Quiet_on_the_Western_Front": 1, "id": 124382, "label": false, "run_length": 0.707, "score": 0.14579283402925963, "year:2015": 1}
+{"category:Religion": 1, "guess:4": 1, "id": 124384, "label": false, "run_length": 0.2, "score": 0.22759448666858767, "year:2015": 1}
+{"category:Religion": 1, "guess:3": 1, "id": 124384, "label": true, "run_length": 0.4, "score": 0.15688526649687554, "year:2015": 1}
+{"category:Religion": 1, "guess:4": 1, "id": 124384, "label": false, "run_length": 0.6, "score": 0.15595135327489285, "year:2015": 1}
+{"category:Religion": 1, "guess:2": 1, "id": 124384, "label": false, "run_length": 0.677, "score": 0.14783828258110449, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Frank_Lloyd_Wright": 1, "id": 124393, "label": true, "run_length": 0.2, "score": 0.2490074585557148, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Frank_Gehry": 1, "id": 124393, "label": false, "run_length": 0.4, "score": 0.16217480715279015, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Frank_Lloyd_Wright": 1, "id": 124393, "label": true, "run_length": 0.6, "score": 0.15543641749812012, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_Mies_van_der_Rohe": 1, "id": 124393, "label": false, "run_length": 0.71, "score": 0.14640828513638549, "year:2015": 1}
+{"category:History": 1, "guess:Ethiopia": 1, "id": 124395, "label": false, "run_length": 0.2, "score": 0.19309988476784792, "year:2015": 1}
+{"category:History": 1, "guess:France": 1, "id": 124395, "label": false, "run_length": 0.4, "score": 0.14856077264207496, "year:2015": 1}
+{"category:History": 1, "guess:France": 1, "id": 124395, "label": false, "run_length": 0.6, "score": 0.12097839203201721, "year:2015": 1}
+{"category:History": 1, "guess:Ethiopia": 1, "id": 124395, "label": false, "run_length": 0.663, "score": 0.1099969359537161, "year:2015": 1}
+{"category:History": 1, "guess:Louis_XIV_of_France": 1, "id": 124427, "label": false, "run_length": 0.2, "score": 0.17221013327346893, "year:2015": 1}
+{"category:History": 1, "guess:Louis_XIV_of_France": 1, "id": 124427, "label": false, "run_length": 0.4, "score": 0.17221013327346893, "year:2015": 1}
+{"category:History": 1, "guess:England": 1, "id": 124427, "label": false, "run_length": 0.6, "score": 0.1206749370730422, "year:2015": 1}
+{"category:History": 1, "guess:China": 1, "id": 124427, "label": false, "run_length": 0.681, "score": 0.11897648091895932, "year:2015": 1}
+{"category:History": 1, "guess:Thebes,_Greece": 1, "id": 124439, "label": true, "run_length": 0.2, "score": 0.18763984439622428, "year:2015": 1}
+{"category:History": 1, "guess:Thebes,_Greece": 1, "id": 124439, "label": true, "run_length": 0.4, "score": 0.17440407494855792, "year:2015": 1}
+{"category:History": 1, "guess:London": 1, "id": 124439, "label": false, "run_length": 0.6, "score": 0.17324212363697372, "year:2015": 1}
+{"category:History": 1, "guess:Thebes,_Greece": 1, "id": 124439, "label": true, "run_length": 0.672, "score": 0.16885920104528424, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Edward_Hopper": 1, "id": 124441, "label": false, "run_length": 0.2, "score": 0.17278023469033044, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Caravaggio": 1, "id": 124441, "label": false, "run_length": 0.4, "score": 0.16538838394945565, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Pieter_Bruegel_the_Elder": 1, "id": 124441, "label": false, "run_length": 0.6, "score": 0.14662723254615112, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Titian": 1, "id": 124441, "label": false, "run_length": 0.691, "score": 0.14433843911431637, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Japan": 1, "id": 124450, "label": false, "run_length": 0.2, "score": 0.20336588107532644, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Greece": 1, "id": 124450, "label": false, "run_length": 0.4, "score": 0.18024154153537814, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:India": 1, "id": 124450, "label": false, "run_length": 0.6, "score": 0.17212074516466563, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Mexico": 1, "id": 124450, "label": false, "run_length": 0.667, "score": 0.1616864784415673, "year:2015": 1}
+{"category:Literature": 1, "guess:Pablo_Neruda": 1, "id": 124451, "label": true, "run_length": 0.2, "score": 0.2355177663833123, "year:2015": 1}
+{"category:Literature": 1, "guess:Pablo_Neruda": 1, "id": 124451, "label": true, "run_length": 0.4, "score": 0.22736771011516696, "year:2015": 1}
+{"category:Literature": 1, "guess:Pablo_Neruda": 1, "id": 124451, "label": true, "run_length": 0.6, "score": 0.1875543862126481, "year:2015": 1}
+{"category:Literature": 1, "guess:Pablo_Neruda": 1, "id": 124451, "label": true, "run_length": 0.674, "score": 0.15654020642523434, "year:2015": 1}
+{"category:Science": 1, "guess:Endoplasmic_reticulum": 1, "id": 124456, "label": true, "run_length": 0.2, "score": 0.3177347038130214, "year:2015": 1}
+{"category:Science": 1, "guess:Golgi_apparatus": 1, "id": 124456, "label": false, "run_length": 0.4, "score": 0.28382911170481795, "year:2015": 1}
+{"category:Science": 1, "guess:Endoplasmic_reticulum": 1, "id": 124456, "label": true, "run_length": 0.6, "score": 0.26321744392818763, "year:2015": 1}
+{"category:Science": 1, "guess:Mitochondrion": 1, "id": 124456, "label": false, "run_length": 0.703, "score": 0.2458060773386305, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Pablo_Picasso": 1, "id": 124473, "label": false, "run_length": 0.2, "score": 0.11651258089433053, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Vincent_van_Gogh": 1, "id": 124473, "label": false, "run_length": 0.4, "score": 0.11494834921220697, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Robert_Browning": 1, "id": 124473, "label": false, "run_length": 0.6, "score": 0.11211547240957323, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Vincent_van_Gogh": 1, "id": 124473, "label": false, "run_length": 0.669, "score": 0.10907551504767349, "year:2015": 1}
+{"category:Literature": 1, "guess:Nigeria": 1, "id": 124485, "label": false, "run_length": 0.2, "score": 0.1764742259226359, "year:2015": 1}
+{"category:Literature": 1, "guess:Italy": 1, "id": 124485, "label": false, "run_length": 0.4, "score": 0.15855089949985646, "year:2015": 1}
+{"category:Literature": 1, "guess:Norway": 1, "id": 124485, "label": false, "run_length": 0.6, "score": 0.15397203921933178, "year:2015": 1}
+{"category:Literature": 1, "guess:Spain": 1, "id": 124485, "label": false, "run_length": 0.629, "score": 0.14082906615689464, "year:2015": 1}
+{"category:Science": 1, "guess:Diffusion": 1, "id": 127925, "label": true, "run_length": 0.2, "score": 0.15459552719795636, "year:2015": 1}
+{"category:Science": 1, "guess:Diffusion": 1, "id": 127925, "label": true, "run_length": 0.4, "score": 0.14668861468614713, "year:2015": 1}
+{"category:Science": 1, "guess:Coagulation": 1, "id": 127925, "label": false, "run_length": 0.6, "score": 0.12311394971084368, "year:2015": 1}
+{"category:Science": 1, "guess:Diffusion": 1, "id": 127925, "label": true, "run_length": 0.709, "score": 0.12024459288463953, "year:2015": 1}
+{"category:Mythology": 1, "guess:Spain": 1, "id": 127938, "label": false, "run_length": 0.2, "score": 0.09682581711640481, "year:2015": 1}
+{"category:Mythology": 1, "guess:Loki": 1, "id": 127938, "label": true, "run_length": 0.4, "score": 0.08739986615765308, "year:2015": 1}
+{"category:Mythology": 1, "guess:Hermes": 1, "id": 127938, "label": false, "run_length": 0.6, "score": 0.07554961427400346, "year:2015": 1}
+{"category:Mythology": 1, "guess:Demeter": 1, "id": 127938, "label": false, "run_length": 0.749, "score": 0.06878911314029068, "year:2015": 1}
+{"category:History": 1, "guess:Colombia": 1, "id": 127950, "label": false, "run_length": 0.2, "score": 0.10793443706426362, "year:2015": 1}
+{"category:History": 1, "guess:China": 1, "id": 127950, "label": false, "run_length": 0.4, "score": 0.10176363703384611, "year:2015": 1}
+{"category:History": 1, "guess:Belgium": 1, "id": 127950, "label": false, "run_length": 0.6, "score": 0.10156762186692082, "year:2015": 1}
+{"category:History": 1, "guess:France": 1, "id": 127950, "label": true, "run_length": 0.662, "score": 0.09158299469659266, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Sergei_Prokofiev": 1, "id": 127952, "label": true, "run_length": 0.2, "score": 0.3251942440364316, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Igor_Stravinsky": 1, "id": 127952, "label": false, "run_length": 0.4, "score": 0.23227672961883847, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Igor_Stravinsky": 1, "id": 127952, "label": false, "run_length": 0.6, "score": 0.18467474858479163, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Igor_Stravinsky": 1, "id": 127952, "label": false, "run_length": 0.734, "score": 0.17036645810088075, "year:2015": 1}
+{"category:Philosophy": 1, "guess:The_Prince": 1, "id": 127959, "label": false, "run_length": 0.2, "score": 0.09908478553365646, "year:2015": 1}
+{"category:Philosophy": 1, "guess:The_Prince": 1, "id": 127959, "label": false, "run_length": 0.4, "score": 0.07440830250256199, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Republic_(Plato)": 1, "id": 127959, "label": false, "run_length": 0.6, "score": 0.07031200421692871, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Umberto_Eco": 1, "id": 127959, "label": false, "run_length": 0.745, "score": 0.06704735361940761, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Horse": 1, "id": 127982, "label": true, "run_length": 0.2, "score": 0.185954164982979, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Bird": 1, "id": 127982, "label": false, "run_length": 0.4, "score": 0.14574669338417656, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Dog": 1, "id": 127982, "label": false, "run_length": 0.6, "score": 0.14366034993909335, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Horse": 1, "id": 127982, "label": true, "run_length": 0.729, "score": 0.1321160952000339, "year:2015": 1}
+{"category:Literature": 1, "guess:Moby-Dick": 1, "id": 127987, "label": false, "run_length": 0.2, "score": 0.11286512004838567, "year:2015": 1}
+{"category:Literature": 1, "guess:Beowulf": 1, "id": 127987, "label": false, "run_length": 0.4, "score": 0.0860490905575978, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Metamorphosis": 1, "id": 127987, "label": false, "run_length": 0.6, "score": 0.07950825897475329, "year:2015": 1}
+{"category:Literature": 1, "guess:Julius_Caesar": 1, "id": 127987, "label": false, "run_length": 0.695, "score": 0.07936630580797868, "year:2015": 1}
+{"category:Science": 1, "guess:Photon": 1, "id": 127996, "label": false, "run_length": 0.2, "score": 0.16893423599279447, "year:2015": 1}
+{"category:Science": 1, "guess:Neutron": 1, "id": 127996, "label": true, "run_length": 0.4, "score": 0.16737991023861531, "year:2015": 1}
+{"category:Science": 1, "guess:Photon": 1, "id": 127996, "label": false, "run_length": 0.6, "score": 0.1624335039618321, "year:2015": 1}
+{"category:Science": 1, "guess:Photon": 1, "id": 127996, "label": false, "run_length": 0.677, "score": 0.15368309810036296, "year:2015": 1}
+{"category:Social Science": 1, "guess:Stanley_Milgram": 1, "id": 127997, "label": true, "run_length": 0.2, "score": 0.15119413639596152, "year:2015": 1}
+{"category:Social Science": 1, "guess:Paris": 1, "id": 127997, "label": false, "run_length": 0.4, "score": 0.08681522919709198, "year:2015": 1}
+{"category:Social Science": 1, "guess:Jean_Piaget": 1, "id": 127997, "label": false, "run_length": 0.6, "score": 0.07657921312951049, "year:2015": 1}
+{"category:Social Science": 1, "guess:Raphael": 1, "id": 127997, "label": false, "run_length": 0.657, "score": 0.06683112218652944, "year:2015": 1}
+{"category:Literature": 1, "guess:Isabel_Allende": 1, "id": 128007, "label": false, "run_length": 0.2, "score": 0.15993855108928678, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 128007, "label": false, "run_length": 0.4, "score": 0.15515844248772598, "year:2015": 1}
+{"category:Literature": 1, "guess:Virginia_Woolf": 1, "id": 128007, "label": false, "run_length": 0.6, "score": 0.15340704880404787, "year:2015": 1}
+{"category:Literature": 1, "guess:Hermann_Hesse": 1, "id": 128007, "label": false, "run_length": 0.775, "score": 0.14419274985457692, "year:2015": 1}
+{"category:Current Events": 1, "guess:Netherlands": 1, "id": 128008, "label": false, "run_length": 0.2, "score": 0.11465633011189254, "year:2015": 1}
+{"category:Current Events": 1, "guess:Kenya": 1, "id": 128008, "label": false, "run_length": 0.4, "score": 0.10969984186567831, "year:2015": 1}
+{"category:Current Events": 1, "guess:United_States": 1, "id": 128008, "label": false, "run_length": 0.6, "score": 0.10512287506615173, "year:2015": 1}
+{"category:Current Events": 1, "guess:Mexico": 1, "id": 128008, "label": false, "run_length": 0.743, "score": 0.10112998233254819, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Violin": 1, "id": 128009, "label": true, "run_length": 0.2, "score": 0.44136968017056866, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Violin": 1, "id": 128009, "label": true, "run_length": 0.4, "score": 0.4023078954031019, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Trumpet": 1, "id": 128009, "label": false, "run_length": 0.6, "score": 0.39764918376514413, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Violin": 1, "id": 128009, "label": true, "run_length": 0.701, "score": 0.3651648739179506, "year:2015": 1}
+{"category:Social Science": 1, "guess:China": 1, "id": 128010, "label": false, "run_length": 0.2, "score": 0.13196786396298535, "year:2015": 1}
+{"category:Social Science": 1, "guess:Germany": 1, "id": 128010, "label": false, "run_length": 0.4, "score": 0.11579165470578687, "year:2015": 1}
+{"category:Social Science": 1, "guess:Portugal": 1, "id": 128010, "label": false, "run_length": 0.6, "score": 0.11543449943613429, "year:2015": 1}
+{"category:Social Science": 1, "guess:Japan": 1, "id": 128010, "label": false, "run_length": 0.8, "score": 0.11120505299043568, "year:2015": 1}
+{"category:Social Science": 1, "guess:Japan": 1, "id": 128010, "label": false, "run_length": 0.831, "score": 0.1012696024437166, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Wolfgang_Amadeus_Mozart": 1, "id": 128039, "label": true, "run_length": 0.2, "score": 0.14430693531521366, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Igor_Stravinsky": 1, "id": 128039, "label": false, "run_length": 0.4, "score": 0.14125148287807024, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:George_Frideric_Handel": 1, "id": 128039, "label": false, "run_length": 0.6, "score": 0.12133325466752666, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 128039, "label": false, "run_length": 0.738, "score": 0.11525037116536083, "year:2015": 1}
+{"category:Literature": 1, "guess:Jorge_Luis_Borges": 1, "id": 128066, "label": false, "run_length": 0.2, "score": 0.1767950818441793, "year:2015": 1}
+{"category:Literature": 1, "guess:William_Faulkner": 1, "id": 128066, "label": false, "run_length": 0.4, "score": 0.1694090363451173, "year:2015": 1}
+{"category:Literature": 1, "guess:James_Joyce": 1, "id": 128066, "label": false, "run_length": 0.6, "score": 0.13297447474295793, "year:2015": 1}
+{"category:Literature": 1, "guess:Anton_Chekhov": 1, "id": 128066, "label": true, "run_length": 0.77, "score": 0.13226298338140435, "year:2015": 1}
+{"category:Philosophy": 1, "guess:New_York_City": 1, "id": 128070, "label": false, "run_length": 0.2, "score": 0.14799787062669867, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Chicago": 1, "id": 128070, "label": false, "run_length": 0.4, "score": 0.13867203557591862, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Athens": 1, "id": 128070, "label": false, "run_length": 0.6, "score": 0.1099962626699266, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Paris": 1, "id": 128070, "label": false, "run_length": 0.8, "score": 0.10205219960834692, "year:2015": 1}
+{"category:Philosophy": 1, "guess:London": 1, "id": 128070, "label": false, "run_length": 0.817, "score": 0.09624788810114812, "year:2015": 1}
+{"category:Science": 1, "guess:Mass": 1, "id": 128085, "label": false, "run_length": 0.2, "score": 0.22996535708975932, "year:2015": 1}
+{"category:Science": 1, "guess:Kinetic_energy": 1, "id": 128085, "label": false, "run_length": 0.4, "score": 0.19546605533795475, "year:2015": 1}
+{"category:Science": 1, "guess:Viscosity": 1, "id": 128085, "label": false, "run_length": 0.6, "score": 0.17645590987414403, "year:2015": 1}
+{"category:Science": 1, "guess:Temperature": 1, "id": 128085, "label": false, "run_length": 0.727, "score": 0.17120000808169927, "year:2015": 1}
+{"category:Science": 1, "guess:Plasma_(physics)": 1, "id": 128106, "label": false, "run_length": 0.2, "score": 0.15810662251896845, "year:2015": 1}
+{"category:Science": 1, "guess:Colloid": 1, "id": 128106, "label": false, "run_length": 0.4, "score": 0.1493829270620264, "year:2015": 1}
+{"category:Science": 1, "guess:Colloid": 1, "id": 128106, "label": false, "run_length": 0.6, "score": 0.1298587437841456, "year:2015": 1}
+{"category:Science": 1, "guess:Momentum": 1, "id": 128106, "label": false, "run_length": 0.739, "score": 0.11612314605000348, "year:2015": 1}
+{"category:Science": 1, "guess:Red_blood_cell": 1, "id": 129286, "label": true, "run_length": 0.2, "score": 0.37736815521085015, "year:2015": 1}
+{"category:Science": 1, "guess:Red_blood_cell": 1, "id": 129286, "label": true, "run_length": 0.4, "score": 0.3290544102568225, "year:2015": 1}
+{"category:Science": 1, "guess:Red_blood_cell": 1, "id": 129286, "label": true, "run_length": 0.6, "score": 0.32758563121163087, "year:2015": 1}
+{"category:Science": 1, "guess:Red_blood_cell": 1, "id": 129286, "label": true, "run_length": 0.693, "score": 0.3205875009078862, "year:2015": 1}
+{"category:Literature": 1, "guess:Jorge_Luis_Borges": 1, "id": 129296, "label": true, "run_length": 0.2, "score": 0.16809593931089695, "year:2015": 1}
+{"category:Literature": 1, "guess:Brave_New_World": 1, "id": 129296, "label": false, "run_length": 0.4, "score": 0.0811193062147421, "year:2015": 1}
+{"category:Literature": 1, "guess:Tennessee_Williams": 1, "id": 129296, "label": false, "run_length": 0.6, "score": 0.08024470848752849, "year:2015": 1}
+{"category:Literature": 1, "guess:Moli\u00e8re": 1, "id": 129296, "label": false, "run_length": 0.773, "score": 0.07964894873089726, "year:2015": 1}
+{"category:Mythology": 1, "guess:Horse": 1, "id": 129305, "label": true, "run_length": 0.2, "score": 0.16573821124763025, "year:2015": 1}
+{"category:Mythology": 1, "guess:Horse": 1, "id": 129305, "label": true, "run_length": 0.4, "score": 0.14195504839108875, "year:2015": 1}
+{"category:Mythology": 1, "guess:Horse": 1, "id": 129305, "label": true, "run_length": 0.6, "score": 0.1330709924835112, "year:2015": 1}
+{"category:Mythology": 1, "guess:Dog": 1, "id": 129305, "label": false, "run_length": 0.731, "score": 0.07666995502741351, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Leonardo_da_Vinci": 1, "id": 129307, "label": true, "run_length": 0.2, "score": 0.1521147280700426, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Edgar_Degas": 1, "id": 129307, "label": false, "run_length": 0.4, "score": 0.09107245911985276, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Lolita": 1, "id": 129307, "label": false, "run_length": 0.6, "score": 0.0779420206329297, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Edvard_Grieg": 1, "id": 129307, "label": false, "run_length": 0.768, "score": 0.07468627254768613, "year:2015": 1}
+{"category:Science": 1, "guess:Semiconductor": 1, "id": 129311, "label": true, "run_length": 0.2, "score": 0.18238526962372079, "year:2015": 1}
+{"category:Science": 1, "guess:Gold": 1, "id": 129311, "label": false, "run_length": 0.4, "score": 0.15554712143522928, "year:2015": 1}
+{"category:Science": 1, "guess:Superconductivity": 1, "id": 129311, "label": false, "run_length": 0.6, "score": 0.14534519797024303, "year:2015": 1}
+{"category:Science": 1, "guess:Semiconductor": 1, "id": 129311, "label": true, "run_length": 0.8, "score": 0.14508807324263073, "year:2015": 1}
+{"category:Science": 1, "guess:Plasma_(physics)": 1, "id": 129311, "label": false, "run_length": 0.823, "score": 0.14337379387698188, "year:2015": 1}
+{"category:History": 1, "guess:Alexander_II_of_Russia": 1, "id": 129325, "label": true, "run_length": 0.2, "score": 0.1785382553355273, "year:2015": 1}
+{"category:History": 1, "guess:Henry_VIII_of_England": 1, "id": 129325, "label": false, "run_length": 0.4, "score": 0.11653706495986246, "year:2015": 1}
+{"category:History": 1, "guess:Elizabeth_I_of_England": 1, "id": 129325, "label": false, "run_length": 0.6, "score": 0.10722226429388923, "year:2015": 1}
+{"category:History": 1, "guess:Elizabeth_I_of_England": 1, "id": 129325, "label": false, "run_length": 0.757, "score": 0.09108686017478114, "year:2015": 1}
+{"category:Religion": 1, "guess:Jainism": 1, "id": 129347, "label": false, "run_length": 0.2, "score": 0.2352298948032672, "year:2015": 1}
+{"category:Religion": 1, "guess:Rastafari": 1, "id": 129347, "label": false, "run_length": 0.4, "score": 0.22709004597022053, "year:2015": 1}
+{"category:Religion": 1, "guess:Sikhism": 1, "id": 129347, "label": false, "run_length": 0.6, "score": 0.20117649085895897, "year:2015": 1}
+{"category:Religion": 1, "guess:Jainism": 1, "id": 129347, "label": false, "run_length": 0.773, "score": 0.19107828682105152, "year:2015": 1}
+{"category:Geography": 1, "guess:Italy": 1, "id": 129373, "label": false, "run_length": 0.2, "score": 0.10820625932524763, "year:2015": 1}
+{"category:Geography": 1, "guess:Argentina": 1, "id": 129373, "label": false, "run_length": 0.4, "score": 0.09328913896164343, "year:2015": 1}
+{"category:Geography": 1, "guess:Portugal": 1, "id": 129373, "label": false, "run_length": 0.6, "score": 0.084026672925835, "year:2015": 1}
+{"category:Geography": 1, "guess:Norway": 1, "id": 129373, "label": false, "run_length": 0.733, "score": 0.08249746258690831, "year:2015": 1}
+{"category:Literature": 1, "guess:Joseph_Conrad": 1, "id": 129377, "label": false, "run_length": 0.2, "score": 0.08717360186731651, "year:2015": 1}
+{"category:Literature": 1, "guess:Herman_Melville": 1, "id": 129377, "label": false, "run_length": 0.4, "score": 0.08087927749276451, "year:2015": 1}
+{"category:Literature": 1, "guess:Eug\u00e8ne_Delacroix": 1, "id": 129377, "label": false, "run_length": 0.6, "score": 0.07874600385362257, "year:2015": 1}
+{"category:Literature": 1, "guess:Thomas_Mann": 1, "id": 129377, "label": false, "run_length": 0.762, "score": 0.07484738013727511, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johann_Sebastian_Bach": 1, "id": 129386, "label": false, "run_length": 0.2, "score": 0.18308330388884705, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Arnold_Schoenberg": 1, "id": 129386, "label": false, "run_length": 0.4, "score": 0.17039445400500533, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johann_Sebastian_Bach": 1, "id": 129386, "label": false, "run_length": 0.6, "score": 0.167776009387815, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:John_Adams": 1, "id": 129386, "label": false, "run_length": 0.773, "score": 0.15534354360391497, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:John_Coltrane": 1, "id": 129388, "label": true, "run_length": 0.2, "score": 0.15419733246759773, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Miles_Davis": 1, "id": 129388, "label": false, "run_length": 0.4, "score": 0.1340316373640717, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:John_Coltrane": 1, "id": 129388, "label": true, "run_length": 0.6, "score": 0.1231924419709165, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:John_Coltrane": 1, "id": 129388, "label": true, "run_length": 0.772, "score": 0.11033530757161056, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Brave_New_World": 1, "id": 129393, "label": false, "run_length": 0.2, "score": 0.13012870023197134, "year:2015": 1}
+{"category:Philosophy": 1, "guess:William_James": 1, "id": 129393, "label": true, "run_length": 0.4, "score": 0.08029827218574954, "year:2015": 1}
+{"category:Philosophy": 1, "guess:William_James": 1, "id": 129393, "label": true, "run_length": 0.6, "score": 0.08029827218574954, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Frankenstein": 1, "id": 129393, "label": false, "run_length": 0.776, "score": 0.07143423186854853, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Cherry_Orchard": 1, "id": 129396, "label": false, "run_length": 0.2, "score": 0.19519990799323272, "year:2015": 1}
+{"category:Literature": 1, "guess:Romeo_and_Juliet": 1, "id": 129396, "label": false, "run_length": 0.4, "score": 0.1788610415398176, "year:2015": 1}
+{"category:Literature": 1, "guess:Cat_on_a_Hot_Tin_Roof": 1, "id": 129396, "label": false, "run_length": 0.6, "score": 0.17633895102712646, "year:2015": 1}
+{"category:Literature": 1, "guess:Waiting_for_Godot": 1, "id": 129396, "label": false, "run_length": 0.775, "score": 0.16318670215485934, "year:2015": 1}
+{"category:Literature": 1, "guess:Odin": 1, "id": 130570, "label": false, "run_length": 0.2, "score": 0.20220614950325094, "year:2015": 1}
+{"category:Literature": 1, "guess:Jane_Eyre": 1, "id": 130570, "label": false, "run_length": 0.4, "score": 0.17143666761704457, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Glass_Menagerie": 1, "id": 130570, "label": false, "run_length": 0.6, "score": 0.17083608272659115, "year:2015": 1}
+{"category:Literature": 1, "guess:Moby-Dick": 1, "id": 130570, "label": false, "run_length": 0.764, "score": 0.1553244542764563, "year:2015": 1}
+{"category:Literature": 1, "guess:Percy_Bysshe_Shelley": 1, "id": 130576, "label": false, "run_length": 0.2, "score": 0.09962209554197793, "year:2015": 1}
+{"category:Literature": 1, "guess:Robert_Frost": 1, "id": 130576, "label": false, "run_length": 0.4, "score": 0.0888487192962154, "year:2015": 1}
+{"category:Literature": 1, "guess:Robert_Frost": 1, "id": 130576, "label": false, "run_length": 0.6, "score": 0.0888487192962154, "year:2015": 1}
+{"category:Literature": 1, "guess:Wallace_Stevens": 1, "id": 130576, "label": false, "run_length": 0.716, "score": 0.07809285916661803, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Brothers_Karamazov": 1, "id": 130593, "label": false, "run_length": 0.2, "score": 0.15215867710628947, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Oliver_Cromwell": 1, "id": 130593, "label": false, "run_length": 0.4, "score": 0.14826905658034348, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:V._S._Naipaul": 1, "id": 130593, "label": false, "run_length": 0.6, "score": 0.13651926186732566, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Holden_Caulfield": 1, "id": 130593, "label": false, "run_length": 0.776, "score": 0.13555057351384422, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Franz_Liszt": 1, "id": 131016, "label": false, "run_length": 0.2, "score": 0.17085282205777652, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 131016, "label": false, "run_length": 0.4, "score": 0.15435494940343833, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Richard_Strauss": 1, "id": 131016, "label": false, "run_length": 0.6, "score": 0.1376146167083616, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johann_Sebastian_Bach": 1, "id": 131016, "label": false, "run_length": 0.711, "score": 0.13161022277774542, "year:2015": 1}
+{"category:Mythology": 1, "guess:Ovid": 1, "id": 131019, "label": false, "run_length": 0.2, "score": 0.17745738670758673, "year:2015": 1}
+{"category:Mythology": 1, "guess:Hadrian": 1, "id": 131019, "label": false, "run_length": 0.4, "score": 0.14362926651900193, "year:2015": 1}
+{"category:Mythology": 1, "guess:Ovid": 1, "id": 131019, "label": false, "run_length": 0.6, "score": 0.14362926651900193, "year:2015": 1}
+{"category:Mythology": 1, "guess:Ovid": 1, "id": 131019, "label": false, "run_length": 0.717, "score": 0.14292701533846242, "year:2015": 1}
+{"category:Literature": 1, "guess:August_Strindberg": 1, "id": 131027, "label": false, "run_length": 0.2, "score": 0.13866008801823487, "year:2015": 1}
+{"category:Literature": 1, "guess:Nikolai_Gogol": 1, "id": 131027, "label": false, "run_length": 0.4, "score": 0.13499629357461693, "year:2015": 1}
+{"category:Literature": 1, "guess:George_Bernard_Shaw": 1, "id": 131027, "label": false, "run_length": 0.6, "score": 0.13066229498665896, "year:2015": 1}
+{"category:Literature": 1, "guess:Anton_Chekhov": 1, "id": 131027, "label": false, "run_length": 0.756, "score": 0.12840775938000482, "year:2015": 1}
+{"category:Current Events": 1, "guess:Italy": 1, "id": 131056, "label": false, "run_length": 0.2, "score": 0.15957242943097974, "year:2015": 1}
+{"category:Current Events": 1, "guess:Russia": 1, "id": 131056, "label": false, "run_length": 0.4, "score": 0.15234498024190724, "year:2015": 1}
+{"category:Current Events": 1, "guess:Spain": 1, "id": 131056, "label": false, "run_length": 0.6, "score": 0.1450043811780186, "year:2015": 1}
+{"category:Current Events": 1, "guess:France": 1, "id": 131056, "label": true, "run_length": 0.721, "score": 0.14294493250825138, "year:2015": 1}
+{"category:Current Events": 1, "guess:Greece": 1, "id": 131080, "label": false, "run_length": 0.2, "score": 0.14183580552570252, "year:2015": 1}
+{"category:Current Events": 1, "guess:Germany": 1, "id": 131080, "label": false, "run_length": 0.4, "score": 0.1393658452426636, "year:2015": 1}
+{"category:Current Events": 1, "guess:Canada": 1, "id": 131080, "label": true, "run_length": 0.6, "score": 0.1333312225014716, "year:2015": 1}
+{"category:Current Events": 1, "guess:Belgium": 1, "id": 131080, "label": false, "run_length": 0.697, "score": 0.13109696830761414, "year:2015": 1}
+{"category:History": 1, "guess:Spain": 1, "id": 131087, "label": false, "run_length": 0.2, "score": 0.316370006464019, "year:2015": 1}
+{"category:History": 1, "guess:Vietnam": 1, "id": 131087, "label": false, "run_length": 0.4, "score": 0.22128830629658439, "year:2015": 1}
+{"category:History": 1, "guess:India": 1, "id": 131087, "label": false, "run_length": 0.6, "score": 0.2096269630012829, "year:2015": 1}
+{"category:History": 1, "guess:Switzerland": 1, "id": 131087, "label": false, "run_length": 0.753, "score": 0.2071684207097997, "year:2015": 1}
+{"category:Current Events": 1, "guess:New_York_City": 1, "id": 131095, "label": false, "run_length": 0.2, "score": 0.10911055602468739, "year:2015": 1}
+{"category:Current Events": 1, "guess:Chicago": 1, "id": 131095, "label": false, "run_length": 0.4, "score": 0.10827122530835552, "year:2015": 1}
+{"category:Current Events": 1, "guess:San_Francisco": 1, "id": 131095, "label": false, "run_length": 0.6, "score": 0.10602935986272378, "year:2015": 1}
+{"category:Current Events": 1, "guess:Prague": 1, "id": 131095, "label": false, "run_length": 0.726, "score": 0.09361469160819218, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:New_York_City": 1, "id": 131098, "label": false, "run_length": 0.2, "score": 0.21775615639625087, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:New_York_City": 1, "id": 131098, "label": false, "run_length": 0.4, "score": 0.21012393703125712, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Philadelphia": 1, "id": 131098, "label": false, "run_length": 0.6, "score": 0.20986717893834178, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Chicago": 1, "id": 131098, "label": false, "run_length": 0.743, "score": 0.2095176014375961, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 131121, "label": false, "run_length": 0.2, "score": 0.19356360839413522, "year:2015": 1}
+{"category:Literature": 1, "guess:E._M._Forster": 1, "id": 131121, "label": false, "run_length": 0.4, "score": 0.15480078131197955, "year:2015": 1}
+{"category:Literature": 1, "guess:Hermann_Hesse": 1, "id": 131121, "label": false, "run_length": 0.6, "score": 0.14221189213655108, "year:2015": 1}
+{"category:Literature": 1, "guess:Voltaire": 1, "id": 131121, "label": false, "run_length": 0.738, "score": 0.13725132675846824, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Dmitri_Shostakovich": 1, "id": 131161, "label": false, "run_length": 0.2, "score": 0.16997459869941406, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 131161, "label": true, "run_length": 0.4, "score": 0.13735802475173853, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Joseph_Haydn": 1, "id": 131161, "label": false, "run_length": 0.6, "score": 0.1368319334785117, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Dmitri_Shostakovich": 1, "id": 131161, "label": false, "run_length": 0.698, "score": 0.12598427653804922, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Franz_Schubert": 1, "id": 131173, "label": false, "run_length": 0.2, "score": 0.3014801941401519, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Anton\u00edn_Dvo\u0159\u00e1k": 1, "id": 131173, "label": false, "run_length": 0.4, "score": 0.16572198187803358, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Joseph_Haydn": 1, "id": 131173, "label": false, "run_length": 0.6, "score": 0.1643243323727399, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Dmitri_Shostakovich": 1, "id": 131173, "label": true, "run_length": 0.739, "score": 0.16328714995781088, "year:2015": 1}
+{"category:Literature": 1, "guess:William_Wordsworth": 1, "id": 131183, "label": false, "run_length": 0.2, "score": 0.17138111863433686, "year:2015": 1}
+{"category:Literature": 1, "guess:John_Milton": 1, "id": 131183, "label": false, "run_length": 0.4, "score": 0.08948042613859776, "year:2015": 1}
+{"category:Literature": 1, "guess:Oliver_Cromwell": 1, "id": 131183, "label": false, "run_length": 0.6, "score": 0.0682507187248179, "year:2015": 1}
+{"category:Literature": 1, "guess:Pablo_Neruda": 1, "id": 131183, "label": false, "run_length": 0.711, "score": 0.06659223647351599, "year:2015": 1}
+{"category:Science": 1, "guess:Stomach": 1, "id": 131193, "label": false, "run_length": 0.2, "score": 0.27377040786720974, "year:2015": 1}
+{"category:Science": 1, "guess:Stomach": 1, "id": 131193, "label": false, "run_length": 0.4, "score": 0.2607955080305988, "year:2015": 1}
+{"category:Science": 1, "guess:Stomach": 1, "id": 131193, "label": false, "run_length": 0.6, "score": 0.25762882353473554, "year:2015": 1}
+{"category:Science": 1, "guess:Stomach": 1, "id": 131193, "label": false, "run_length": 0.734, "score": 0.2532728499170152, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Peter_Paul_Rubens": 1, "id": 131201, "label": false, "run_length": 0.2, "score": 0.13481530561762847, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Diego_Vel\u00e1zquez": 1, "id": 131201, "label": false, "run_length": 0.4, "score": 0.09985321294083248, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Titian": 1, "id": 131201, "label": false, "run_length": 0.6, "score": 0.09932602497506697, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Pieter_Bruegel_the_Elder": 1, "id": 131201, "label": false, "run_length": 0.741, "score": 0.09895119479025999, "year:2015": 1}
+{"category:Literature": 1, "guess:Anton_Chekhov": 1, "id": 131208, "label": false, "run_length": 0.2, "score": 0.187062974780175, "year:2015": 1}
+{"category:Literature": 1, "guess:James_Joyce": 1, "id": 131208, "label": false, "run_length": 0.4, "score": 0.15687782849478726, "year:2015": 1}
+{"category:Literature": 1, "guess:Ernest_Hemingway": 1, "id": 131208, "label": false, "run_length": 0.6, "score": 0.14419749070740934, "year:2015": 1}
+{"category:Literature": 1, "guess:Albert_Camus": 1, "id": 131208, "label": false, "run_length": 0.757, "score": 0.13237384902779126, "year:2015": 1}
+{"category:Science": 1, "guess:Friction": 1, "id": 131225, "label": false, "run_length": 0.2, "score": 0.20518022271612835, "year:2015": 1}
+{"category:Science": 1, "guess:Friction": 1, "id": 131225, "label": false, "run_length": 0.4, "score": 0.187782875070649, "year:2015": 1}
+{"category:Science": 1, "guess:Gravity": 1, "id": 131225, "label": false, "run_length": 0.6, "score": 0.16276495299611696, "year:2015": 1}
+{"category:Science": 1, "guess:Weak_interaction": 1, "id": 131225, "label": false, "run_length": 0.765, "score": 0.15403130269379703, "year:2015": 1}
+{"category:Science": 1, "guess:Spin_(physics)": 1, "id": 131231, "label": true, "run_length": 0.2, "score": 0.15996805213959236, "year:2015": 1}
+{"category:Science": 1, "guess:Spin_(physics)": 1, "id": 131231, "label": true, "run_length": 0.4, "score": 0.15996805213959236, "year:2015": 1}
+{"category:Science": 1, "guess:Temperature": 1, "id": 131231, "label": false, "run_length": 0.6, "score": 0.15692338574746875, "year:2015": 1}
+{"category:Science": 1, "guess:Momentum": 1, "id": 131231, "label": false, "run_length": 0.736, "score": 0.1520268131414631, "year:2015": 1}
+{"category:History": 1, "guess:Ming_dynasty": 1, "id": 131233, "label": false, "run_length": 0.2, "score": 0.09608998827802294, "year:2015": 1}
+{"category:History": 1, "guess:Justinian_I": 1, "id": 131233, "label": false, "run_length": 0.4, "score": 0.09209390762738856, "year:2015": 1}
+{"category:History": 1, "guess:Ramesses_II": 1, "id": 131233, "label": false, "run_length": 0.6, "score": 0.08711030795912754, "year:2015": 1}
+{"category:History": 1, "guess:Gamal_Abdel_Nasser": 1, "id": 131233, "label": false, "run_length": 0.751, "score": 0.08281880861850387, "year:2015": 1}
+{"category:Science": 1, "guess:Carbon": 1, "id": 131239, "label": false, "run_length": 0.2, "score": 0.3251641174615548, "year:2015": 1}
+{"category:Science": 1, "guess:Gold": 1, "id": 131239, "label": false, "run_length": 0.4, "score": 0.3098513555438736, "year:2015": 1}
+{"category:Science": 1, "guess:Carbon": 1, "id": 131239, "label": false, "run_length": 0.6, "score": 0.3068732216366543, "year:2015": 1}
+{"category:Science": 1, "guess:Phosphorus": 1, "id": 131239, "label": false, "run_length": 0.746, "score": 0.29785110407780613, "year:2015": 1}
+{"category:Literature": 1, "guess:Emily_Dickinson": 1, "id": 131244, "label": false, "run_length": 0.2, "score": 0.11548730255108144, "year:2015": 1}
+{"category:Literature": 1, "guess:Alexander_Pope": 1, "id": 131244, "label": false, "run_length": 0.4, "score": 0.10888763476231489, "year:2015": 1}
+{"category:Literature": 1, "guess:Gerard_Manley_Hopkins": 1, "id": 131244, "label": false, "run_length": 0.6, "score": 0.09436635665139795, "year:2015": 1}
+{"category:Literature": 1, "guess:W._B._Yeats": 1, "id": 131244, "label": false, "run_length": 0.744, "score": 0.09233056270649806, "year:2015": 1}
+{"category:Science": 1, "guess:Moment_of_inertia": 1, "id": 131246, "label": false, "run_length": 0.2, "score": 0.16962732822633447, "year:2015": 1}
+{"category:Science": 1, "guess:Torque": 1, "id": 131246, "label": true, "run_length": 0.4, "score": 0.15684065142967296, "year:2015": 1}
+{"category:Science": 1, "guess:Potential_energy": 1, "id": 131246, "label": false, "run_length": 0.6, "score": 0.1415685245587863, "year:2015": 1}
+{"category:Science": 1, "guess:Pressure": 1, "id": 131246, "label": false, "run_length": 0.752, "score": 0.1301904387614734, "year:2015": 1}
+{"category:Literature": 1, "guess:Norway": 1, "id": 131254, "label": false, "run_length": 0.2, "score": 0.24126961756207452, "year:2015": 1}
+{"category:Literature": 1, "guess:Japan": 1, "id": 131254, "label": false, "run_length": 0.4, "score": 0.2236118335543137, "year:2015": 1}
+{"category:Literature": 1, "guess:Albania": 1, "id": 131254, "label": false, "run_length": 0.6, "score": 0.22316710276632834, "year:2015": 1}
+{"category:Literature": 1, "guess:Spain": 1, "id": 131254, "label": false, "run_length": 0.757, "score": 0.21967724962102042, "year:2015": 1}
+{"category:Literature": 1, "guess:Quetzalcoatl": 1, "id": 131272, "label": false, "run_length": 0.2, "score": 0.09345553889141109, "year:2015": 1}
+{"category:Literature": 1, "guess:Anton_Chekhov": 1, "id": 131272, "label": false, "run_length": 0.4, "score": 0.09259580047583045, "year:2015": 1}
+{"category:Literature": 1, "guess:Toni_Morrison": 1, "id": 131272, "label": false, "run_length": 0.6, "score": 0.09202102156491125, "year:2015": 1}
+{"category:Literature": 1, "guess:Joseph_Conrad": 1, "id": 131272, "label": false, "run_length": 0.774, "score": 0.08966280083604104, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Gustav_Mahler": 1, "id": 131275, "label": false, "run_length": 0.2, "score": 0.18328368215744556, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Dmitri_Shostakovich": 1, "id": 131275, "label": false, "run_length": 0.4, "score": 0.17681470877501723, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johannes_Brahms": 1, "id": 131275, "label": false, "run_length": 0.6, "score": 0.15990820552431315, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Gustav_Mahler": 1, "id": 131275, "label": false, "run_length": 0.733, "score": 0.15007391569176842, "year:2015": 1}
+{"category:Science": 1, "guess:Brownian_motion": 1, "id": 131285, "label": false, "run_length": 0.2, "score": 0.14191864407941704, "year:2015": 1}
+{"category:Science": 1, "guess:Brownian_motion": 1, "id": 131285, "label": false, "run_length": 0.4, "score": 0.12445269732119528, "year:2015": 1}
+{"category:Science": 1, "guess:Mass": 1, "id": 131285, "label": false, "run_length": 0.6, "score": 0.12425752320606456, "year:2015": 1}
+{"category:Science": 1, "guess:Brownian_motion": 1, "id": 131285, "label": false, "run_length": 0.775, "score": 0.1120431349413963, "year:2015": 1}
+{"category:History": 1, "guess:Peter_the_Great": 1, "id": 131289, "label": false, "run_length": 0.2, "score": 0.13523244453547753, "year:2015": 1}
+{"category:History": 1, "guess:Oliver_Cromwell": 1, "id": 131289, "label": true, "run_length": 0.4, "score": 0.13450806376022917, "year:2015": 1}
+{"category:History": 1, "guess:Oliver_Cromwell": 1, "id": 131289, "label": true, "run_length": 0.6, "score": 0.11300286219994579, "year:2015": 1}
+{"category:History": 1, "guess:Oliver_Cromwell": 1, "id": 131289, "label": true, "run_length": 0.75, "score": 0.11300286219994579, "year:2015": 1}
+{"category:Science": 1, "guess:Ribosome": 1, "id": 131293, "label": false, "run_length": 0.2, "score": 0.1734512028218182, "year:2015": 1}
+{"category:Science": 1, "guess:Ribosome": 1, "id": 131293, "label": false, "run_length": 0.4, "score": 0.1299575616116546, "year:2015": 1}
+{"category:Science": 1, "guess:Ribosome": 1, "id": 131293, "label": false, "run_length": 0.6, "score": 0.12585924276604454, "year:2015": 1}
+{"category:Science": 1, "guess:Endoplasmic_reticulum": 1, "id": 131293, "label": true, "run_length": 0.729, "score": 0.12275744514699062, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Claude_Monet": 1, "id": 131300, "label": false, "run_length": 0.2, "score": 0.12014583193897846, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Claude_Monet": 1, "id": 131300, "label": false, "run_length": 0.4, "score": 0.1190813574477946, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johannes_Vermeer": 1, "id": 131300, "label": false, "run_length": 0.6, "score": 0.09067421185556714, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:United_States": 1, "id": 131300, "label": false, "run_length": 0.755, "score": 0.08890616586901537, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Arnold_Schoenberg": 1, "id": 131918, "label": true, "run_length": 0.2, "score": 0.11964758033912848, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:\u00c9mile_Zola": 1, "id": 131918, "label": false, "run_length": 0.4, "score": 0.09266922990345874, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Franz_Schubert": 1, "id": 131918, "label": false, "run_length": 0.6, "score": 0.08803572423386159, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Carnival_of_the_Animals": 1, "id": 131918, "label": false, "run_length": 0.729, "score": 0.08565476734340041, "year:2015": 1}
+{"category:Literature": 1, "guess:Moli\u00e8re": 1, "id": 131925, "label": false, "run_length": 0.2, "score": 0.14770184294870461, "year:2015": 1}
+{"category:Literature": 1, "guess:Samuel_Beckett": 1, "id": 131925, "label": false, "run_length": 0.4, "score": 0.13751195949519757, "year:2015": 1}
+{"category:Literature": 1, "guess:Moli\u00e8re": 1, "id": 131925, "label": false, "run_length": 0.6, "score": 0.13172692369766906, "year:2015": 1}
+{"category:Literature": 1, "guess:Athol_Fugard": 1, "id": 131925, "label": false, "run_length": 0.753, "score": 0.1275380582089721, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 132024, "label": false, "run_length": 0.2, "score": 0.14387515499825604, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Robert_Schumann": 1, "id": 132024, "label": false, "run_length": 0.4, "score": 0.1346478332037076, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Norway": 1, "id": 132024, "label": false, "run_length": 0.6, "score": 0.13191347169120418, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 132024, "label": false, "run_length": 0.733, "score": 0.1300155149309603, "year:2015": 1}
+{"category:Social Science": 1, "guess:Quran": 1, "id": 132033, "label": false, "run_length": 0.2, "score": 0.16549012730476648, "year:2015": 1}
+{"category:Social Science": 1, "guess:The_Canterbury_Tales": 1, "id": 132033, "label": false, "run_length": 0.4, "score": 0.15379919344020448, "year:2015": 1}
+{"category:Social Science": 1, "guess:Vanity_Fair_(novel)": 1, "id": 132033, "label": false, "run_length": 0.6, "score": 0.1369315320760332, "year:2015": 1}
+{"category:Social Science": 1, "guess:The_Prince": 1, "id": 132033, "label": false, "run_length": 0.77, "score": 0.13638383425328637, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 132037, "label": false, "run_length": 0.2, "score": 0.17624558248289157, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johannes_Brahms": 1, "id": 132037, "label": false, "run_length": 0.4, "score": 0.17008736997493112, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Sergei_Rachmaninoff": 1, "id": 132037, "label": false, "run_length": 0.6, "score": 0.1676224253185508, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Edward_Elgar": 1, "id": 132037, "label": false, "run_length": 0.732, "score": 0.1447614166573441, "year:2015": 1}
+{"category:Science": 1, "guess:Trigonometric_functions": 1, "id": 132040, "label": false, "run_length": 0.2, "score": 0.3521981996633823, "year:2015": 1}
+{"category:Science": 1, "guess:Trigonometric_functions": 1, "id": 132040, "label": false, "run_length": 0.4, "score": 0.31119065570526144, "year:2015": 1}
+{"category:Science": 1, "guess:Trigonometric_functions": 1, "id": 132040, "label": false, "run_length": 0.6, "score": 0.2939095306635536, "year:2015": 1}
+{"category:Science": 1, "guess:Trigonometric_functions": 1, "id": 132040, "label": false, "run_length": 0.731, "score": 0.2939095306635536, "year:2015": 1}
+{"category:Science": 1, "guess:Density": 1, "id": 132042, "label": false, "run_length": 0.2, "score": 0.16248982913659382, "year:2015": 1}
+{"category:Science": 1, "guess:Potential_energy": 1, "id": 132042, "label": false, "run_length": 0.4, "score": 0.1473252548405332, "year:2015": 1}
+{"category:Science": 1, "guess:Momentum": 1, "id": 132042, "label": false, "run_length": 0.6, "score": 0.1363975501820664, "year:2015": 1}
+{"category:Science": 1, "guess:Gibbs_free_energy": 1, "id": 132042, "label": false, "run_length": 0.759, "score": 0.13330402680044998, "year:2015": 1}
+{"category:Geography": 1, "guess:Ireland": 1, "id": 132891, "label": false, "run_length": 0.2, "score": 0.21079173349034605, "year:2015": 1}
+{"category:Geography": 1, "guess:Sicily": 1, "id": 132891, "label": true, "run_length": 0.4, "score": 0.19801321822968646, "year:2015": 1}
+{"category:Geography": 1, "guess:Ireland": 1, "id": 132891, "label": false, "run_length": 0.6, "score": 0.1962991252458931, "year:2015": 1}
+{"category:Geography": 1, "guess:Sicily": 1, "id": 132891, "label": true, "run_length": 0.761, "score": 0.17903060341466656, "year:2015": 1}
+{"category:Literature": 1, "guess:Quetzalcoatl": 1, "id": 132895, "label": false, "run_length": 0.2, "score": 0.09345553889141109, "year:2015": 1}
+{"category:Literature": 1, "guess:Anton_Chekhov": 1, "id": 132895, "label": false, "run_length": 0.4, "score": 0.09259580047583045, "year:2015": 1}
+{"category:Literature": 1, "guess:Toni_Morrison": 1, "id": 132895, "label": false, "run_length": 0.6, "score": 0.09202102156491125, "year:2015": 1}
+{"category:Literature": 1, "guess:Joseph_Conrad": 1, "id": 132895, "label": false, "run_length": 0.774, "score": 0.08966280083604104, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Gustav_Mahler": 1, "id": 132898, "label": false, "run_length": 0.2, "score": 0.18328368215744556, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Dmitri_Shostakovich": 1, "id": 132898, "label": false, "run_length": 0.4, "score": 0.17681470877501723, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johannes_Brahms": 1, "id": 132898, "label": false, "run_length": 0.6, "score": 0.15990820552431315, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Gustav_Mahler": 1, "id": 132898, "label": false, "run_length": 0.734, "score": 0.15007391569176842, "year:2015": 1}
+{"category:Science": 1, "guess:Brownian_motion": 1, "id": 132906, "label": false, "run_length": 0.2, "score": 0.14191864407941704, "year:2015": 1}
+{"category:Science": 1, "guess:Brownian_motion": 1, "id": 132906, "label": false, "run_length": 0.4, "score": 0.12445269732119528, "year:2015": 1}
+{"category:Science": 1, "guess:Mass": 1, "id": 132906, "label": false, "run_length": 0.6, "score": 0.12425752320606456, "year:2015": 1}
+{"category:Science": 1, "guess:Brownian_motion": 1, "id": 132906, "label": false, "run_length": 0.775, "score": 0.1120431349413963, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Felix_Mendelssohn": 1, "id": 133780, "label": false, "run_length": 0.2, "score": 0.13067912976987245, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Dmitri_Shostakovich": 1, "id": 133780, "label": false, "run_length": 0.4, "score": 0.12122965914074985, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:George_Gershwin": 1, "id": 133780, "label": false, "run_length": 0.6, "score": 0.1196451742551011, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Richard_Strauss": 1, "id": 133780, "label": false, "run_length": 0.723, "score": 0.11837548019940088, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Constantin_Br\u00e2ncu\u0219i": 1, "id": 133810, "label": true, "run_length": 0.2, "score": 0.2090890321663004, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Constantin_Br\u00e2ncu\u0219i": 1, "id": 133810, "label": true, "run_length": 0.4, "score": 0.13839735790346086, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Auguste_Rodin": 1, "id": 133810, "label": false, "run_length": 0.6, "score": 0.1226123813996999, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Constantin_Br\u00e2ncu\u0219i": 1, "id": 133810, "label": true, "run_length": 0.66, "score": 0.12249985245002885, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Carnival_of_the_Animals": 1, "id": 133817, "label": true, "run_length": 0.2, "score": 0.3060561383435105, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Carnival_of_the_Animals": 1, "id": 133817, "label": true, "run_length": 0.4, "score": 0.2815167087811267, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Rite_of_Spring": 1, "id": 133817, "label": false, "run_length": 0.6, "score": 0.20971289773318583, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Carnival_of_the_Animals": 1, "id": 133817, "label": true, "run_length": 0.664, "score": 0.14811037357061352, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Pieter_Bruegel_the_Elder": 1, "id": 133827, "label": false, "run_length": 0.2, "score": 0.24844519291469386, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Sandro_Botticelli": 1, "id": 133827, "label": false, "run_length": 0.4, "score": 0.19605512704448944, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Diego_Vel\u00e1zquez": 1, "id": 133827, "label": true, "run_length": 0.6, "score": 0.18851771482552987, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Titian": 1, "id": 133827, "label": false, "run_length": 0.682, "score": 0.18314817192618282, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 133828, "label": false, "run_length": 0.2, "score": 0.15023069133359537, "year:2015": 1}
+{"category:Literature": 1, "guess:Isabel_Allende": 1, "id": 133828, "label": false, "run_length": 0.4, "score": 0.1359074645759593, "year:2015": 1}
+{"category:Literature": 1, "guess:Salman_Rushdie": 1, "id": 133828, "label": false, "run_length": 0.6, "score": 0.1342535089391425, "year:2015": 1}
+{"category:Literature": 1, "guess:Hermann_Hesse": 1, "id": 133828, "label": false, "run_length": 0.667, "score": 0.1274176928766608, "year:2015": 1}
+{"category:Literature": 1, "guess:William_Golding": 1, "id": 133829, "label": false, "run_length": 0.2, "score": 0.28698197488166116, "year:2015": 1}
+{"category:Literature": 1, "guess:Isabel_Allende": 1, "id": 133829, "label": false, "run_length": 0.4, "score": 0.2239548649967497, "year:2015": 1}
+{"category:Literature": 1, "guess:Marcel_Proust": 1, "id": 133829, "label": false, "run_length": 0.6, "score": 0.19267425442363476, "year:2015": 1}
+{"category:Literature": 1, "guess:Henry_James": 1, "id": 133829, "label": false, "run_length": 0.66, "score": 0.18803968893175318, "year:2015": 1}
+{"category:History": 1, "guess:Theodore_Roosevelt": 1, "id": 133831, "label": true, "run_length": 0.2, "score": 0.13068078748881828, "year:2015": 1}
+{"category:History": 1, "guess:Daniel_Webster": 1, "id": 133831, "label": false, "run_length": 0.4, "score": 0.11898523311020398, "year:2015": 1}
+{"category:History": 1, "guess:Berlin": 1, "id": 133831, "label": false, "run_length": 0.6, "score": 0.10899673726919479, "year:2015": 1}
+{"category:History": 1, "guess:Theodore_Roosevelt": 1, "id": 133831, "label": true, "run_length": 0.665, "score": 0.10057995443558142, "year:2015": 1}
+{"category:Science": 1, "guess:Refractive_index": 1, "id": 133833, "label": true, "run_length": 0.2, "score": 0.19569081079468803, "year:2015": 1}
+{"category:Science": 1, "guess:Refractive_index": 1, "id": 133833, "label": true, "run_length": 0.4, "score": 0.17404192354093465, "year:2015": 1}
+{"category:Science": 1, "guess:Refractive_index": 1, "id": 133833, "label": true, "run_length": 0.6, "score": 0.16993269759138172, "year:2015": 1}
+{"category:Science": 1, "guess:Torque": 1, "id": 133833, "label": false, "run_length": 0.716, "score": 0.1427431786755826, "year:2015": 1}
+{"category:Philosophy": 1, "guess:David_Hume": 1, "id": 133834, "label": true, "run_length": 0.2, "score": 0.17980458419339657, "year:2015": 1}
+{"category:Philosophy": 1, "guess:David_Hume": 1, "id": 133834, "label": true, "run_length": 0.4, "score": 0.17980458419339657, "year:2015": 1}
+{"category:Philosophy": 1, "guess:David_Hume": 1, "id": 133834, "label": true, "run_length": 0.6, "score": 0.1022981919631581, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Henry_VIII_of_England": 1, "id": 133834, "label": false, "run_length": 0.661, "score": 0.09805732309450899, "year:2015": 1}
+{"category:Science": 1, "guess:Adenosine_triphosphate": 1, "id": 133838, "label": true, "run_length": 0.2, "score": 0.18821646982515747, "year:2015": 1}
+{"category:Science": 1, "guess:Water": 1, "id": 133838, "label": false, "run_length": 0.4, "score": 0.18188411788563116, "year:2015": 1}
+{"category:Science": 1, "guess:Adenosine_triphosphate": 1, "id": 133838, "label": true, "run_length": 0.6, "score": 0.18084310155983085, "year:2015": 1}
+{"category:Science": 1, "guess:Sulfuric_acid": 1, "id": 133838, "label": false, "run_length": 0.626, "score": 0.16482102113696628, "year:2015": 1}
+{"category:Religion": 1, "guess:Hadrian": 1, "id": 133842, "label": false, "run_length": 0.2, "score": 0.09316776736202173, "year:2015": 1}
+{"category:Religion": 1, "guess:Franz_Boas": 1, "id": 133842, "label": false, "run_length": 0.4, "score": 0.09208408902208635, "year:2015": 1}
+{"category:Religion": 1, "guess:Hadrian": 1, "id": 133842, "label": false, "run_length": 0.6, "score": 0.08973133147197636, "year:2015": 1}
+{"category:Religion": 1, "guess:Hadrian": 1, "id": 133842, "label": false, "run_length": 0.668, "score": 0.08973133147197636, "year:2015": 1}
+{"category:Literature": 1, "guess:Robert_Browning": 1, "id": 133847, "label": true, "run_length": 0.2, "score": 0.23741599487976275, "year:2015": 1}
+{"category:Literature": 1, "guess:Robert_Browning": 1, "id": 133847, "label": true, "run_length": 0.4, "score": 0.22553668754964293, "year:2015": 1}
+{"category:Literature": 1, "guess:Robert_Browning": 1, "id": 133847, "label": true, "run_length": 0.6, "score": 0.22355385508534342, "year:2015": 1}
+{"category:Literature": 1, "guess:Robert_Browning": 1, "id": 133847, "label": true, "run_length": 0.676, "score": 0.20513319572074146, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:String_quartet": 1, "id": 133849, "label": true, "run_length": 0.2, "score": 0.42270223061376655, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:String_quartet": 1, "id": 133849, "label": true, "run_length": 0.4, "score": 0.3900836649766276, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:String_quartet": 1, "id": 133849, "label": true, "run_length": 0.6, "score": 0.3232507021348339, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:String_quartet": 1, "id": 133849, "label": true, "run_length": 0.684, "score": 0.29579521177938284, "year:2015": 1}
+{"category:Literature": 1, "guess:Dream_of_the_Red_Chamber": 1, "id": 133976, "label": false, "run_length": 0.2, "score": 0.1402246895577305, "year:2015": 1}
+{"category:Literature": 1, "guess:One_Hundred_Years_of_Solitude": 1, "id": 133976, "label": false, "run_length": 0.4, "score": 0.12943802128491988, "year:2015": 1}
+{"category:Literature": 1, "guess:Madame_Bovary": 1, "id": 133976, "label": false, "run_length": 0.6, "score": 0.12550127465321126, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Unbearable_Lightness_of_Being": 1, "id": 133976, "label": false, "run_length": 0.639, "score": 0.11902576292917333, "year:2015": 1}
+{"category:Science": 1, "guess:Diffraction": 1, "id": 133982, "label": true, "run_length": 0.2, "score": 0.2643987358971408, "year:2015": 1}
+{"category:Science": 1, "guess:Diffraction": 1, "id": 133982, "label": true, "run_length": 0.4, "score": 0.21379695139017457, "year:2015": 1}
+{"category:Science": 1, "guess:Diffraction": 1, "id": 133982, "label": true, "run_length": 0.6, "score": 0.19428876542144982, "year:2015": 1}
+{"category:Science": 1, "guess:Harmonic_oscillator": 1, "id": 133982, "label": false, "run_length": 0.635, "score": 0.18371759742615307, "year:2015": 1}
+{"category:Science": 1, "guess:Prime_number": 1, "id": 133988, "label": false, "run_length": 0.2, "score": 0.33814345816452823, "year:2015": 1}
+{"category:Science": 1, "guess:Prime_number": 1, "id": 133988, "label": false, "run_length": 0.4, "score": 0.2095640709166426, "year:2015": 1}
+{"category:Science": 1, "guess:Fibonacci_number": 1, "id": 133988, "label": true, "run_length": 0.6, "score": 0.20534287770921822, "year:2015": 1}
+{"category:Science": 1, "guess:Prime_number": 1, "id": 133988, "label": false, "run_length": 0.62, "score": 0.1900552458382832, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johannes_Vermeer": 1, "id": 134530, "label": false, "run_length": 0.2, "score": 0.13814515029912225, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Edvard_Munch": 1, "id": 134530, "label": false, "run_length": 0.4, "score": 0.13483999919540274, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Rembrandt": 1, "id": 134530, "label": false, "run_length": 0.6, "score": 0.12012069605659725, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Vincent_van_Gogh": 1, "id": 134530, "label": false, "run_length": 0.742, "score": 0.11117825320079938, "year:2015": 1}
+{"category:Science": 1, "guess:Nitrogen": 1, "id": 134537, "label": false, "run_length": 0.2, "score": 0.26901059697678126, "year:2015": 1}
+{"category:Science": 1, "guess:Sulfur": 1, "id": 134537, "label": true, "run_length": 0.4, "score": 0.2481176336252101, "year:2015": 1}
+{"category:Science": 1, "guess:Sulfur": 1, "id": 134537, "label": true, "run_length": 0.6, "score": 0.24774641730841465, "year:2015": 1}
+{"category:Science": 1, "guess:Gold": 1, "id": 134537, "label": false, "run_length": 0.773, "score": 0.2477149798821006, "year:2015": 1}
+{"category:Literature": 1, "guess:E._E._Cummings": 1, "id": 134540, "label": false, "run_length": 0.2, "score": 0.12421476871691356, "year:2015": 1}
+{"category:Literature": 1, "guess:Alfred,_Lord_Tennyson": 1, "id": 134540, "label": false, "run_length": 0.4, "score": 0.0940995863980403, "year:2015": 1}
+{"category:Literature": 1, "guess:Sylvia_Plath": 1, "id": 134540, "label": false, "run_length": 0.6, "score": 0.09326109898328874, "year:2015": 1}
+{"category:Literature": 1, "guess:Pablo_Neruda": 1, "id": 134540, "label": false, "run_length": 0.753, "score": 0.09082336991990007, "year:2015": 1}
+{"category:Literature": 1, "guess:Isabel_Allende": 1, "id": 134558, "label": false, "run_length": 0.2, "score": 0.18357625656617776, "year:2015": 1}
+{"category:Literature": 1, "guess:Robert_Browning": 1, "id": 134558, "label": false, "run_length": 0.4, "score": 0.13390446992630625, "year:2015": 1}
+{"category:Literature": 1, "guess:Guy_de_Maupassant": 1, "id": 134558, "label": true, "run_length": 0.6, "score": 0.13336060928220117, "year:2015": 1}
+{"category:Literature": 1, "guess:August_Strindberg": 1, "id": 134558, "label": false, "run_length": 0.777, "score": 0.1233194325231065, "year:2015": 1}
+{"category:History": 1, "guess:London": 1, "id": 134580, "label": false, "run_length": 0.2, "score": 0.13444404737202792, "year:2015": 1}
+{"category:History": 1, "guess:New_York_City": 1, "id": 134580, "label": false, "run_length": 0.4, "score": 0.12183908717165877, "year:2015": 1}
+{"category:History": 1, "guess:London": 1, "id": 134580, "label": false, "run_length": 0.6, "score": 0.12088499255217715, "year:2015": 1}
+{"category:History": 1, "guess:San_Francisco": 1, "id": 134580, "label": false, "run_length": 0.79, "score": 0.12000558640259318, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Unbearable_Lightness_of_Being": 1, "id": 134584, "label": true, "run_length": 0.2, "score": 0.12431170987861323, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Unbearable_Lightness_of_Being": 1, "id": 134584, "label": true, "run_length": 0.4, "score": 0.10474357203866952, "year:2015": 1}
+{"category:Literature": 1, "guess:Moby-Dick": 1, "id": 134584, "label": false, "run_length": 0.6, "score": 0.09284307165907237, "year:2015": 1}
+{"category:Literature": 1, "guess:The_History_of_Tom_Jones,_a_Foundling": 1, "id": 134584, "label": false, "run_length": 0.763, "score": 0.08637976532745407, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Horse": 1, "id": 134586, "label": false, "run_length": 0.2, "score": 0.09608934807261059, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Horse": 1, "id": 134586, "label": false, "run_length": 0.4, "score": 0.08493339517204795, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Horse": 1, "id": 134586, "label": false, "run_length": 0.6, "score": 0.08362721289296662, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Horse": 1, "id": 134586, "label": false, "run_length": 0.781, "score": 0.0783216716570649, "year:2015": 1}
+{"category:Social Science": 1, "guess:Friedrich_Nietzsche": 1, "id": 134593, "label": false, "run_length": 0.2, "score": 0.13810601329462902, "year:2015": 1}
+{"category:Social Science": 1, "guess:Richard_Wagner": 1, "id": 134593, "label": false, "run_length": 0.4, "score": 0.12256618387122978, "year:2015": 1}
+{"category:Social Science": 1, "guess:Bronis\u0142aw_Malinowski": 1, "id": 134593, "label": false, "run_length": 0.6, "score": 0.12135940297362953, "year:2015": 1}
+{"category:Social Science": 1, "guess:Sigmund_Freud": 1, "id": 134593, "label": false, "run_length": 0.742, "score": 0.10760233152075437, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johannes_Brahms": 1, "id": 134598, "label": false, "run_length": 0.2, "score": 0.15347166004503085, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Fr\u00e9d\u00e9ric_Chopin": 1, "id": 134598, "label": false, "run_length": 0.4, "score": 0.14042139611807913, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Felix_Mendelssohn": 1, "id": 134598, "label": false, "run_length": 0.6, "score": 0.12959220574589594, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Camille_Saint-Sa\u00ebns": 1, "id": 134598, "label": false, "run_length": 0.714, "score": 0.12376993658017126, "year:2015": 1}
+{"category:Mythology": 1, "guess:Odysseus": 1, "id": 134602, "label": false, "run_length": 0.2, "score": 0.09396639631061733, "year:2015": 1}
+{"category:Mythology": 1, "guess:Jesus": 1, "id": 134602, "label": false, "run_length": 0.4, "score": 0.08840830021072116, "year:2015": 1}
+{"category:Mythology": 1, "guess:Louis_XIV_of_France": 1, "id": 134602, "label": false, "run_length": 0.6, "score": 0.080506673124734, "year:2015": 1}
+{"category:Mythology": 1, "guess:Baruch_Spinoza": 1, "id": 134602, "label": false, "run_length": 0.78, "score": 0.07925555534350126, "year:2015": 1}
+{"category:Literature": 1, "guess:Hungary": 1, "id": 134787, "label": false, "run_length": 0.2, "score": 0.23046399509787702, "year:2015": 1}
+{"category:Literature": 1, "guess:Nigeria": 1, "id": 134787, "label": false, "run_length": 0.4, "score": 0.22658592223832563, "year:2015": 1}
+{"category:Literature": 1, "guess:Japan": 1, "id": 134787, "label": false, "run_length": 0.6, "score": 0.21638692053778824, "year:2015": 1}
+{"category:Literature": 1, "guess:Peru": 1, "id": 134787, "label": false, "run_length": 0.776, "score": 0.21117634923675493, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Johannes_Vermeer": 1, "id": 134792, "label": false, "run_length": 0.2, "score": 0.1207899325098265, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Titian": 1, "id": 134792, "label": false, "run_length": 0.4, "score": 0.11333487819776068, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Diego_Vel\u00e1zquez": 1, "id": 134792, "label": false, "run_length": 0.6, "score": 0.1103921067905323, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Jacques-Louis_David": 1, "id": 134792, "label": false, "run_length": 0.717, "score": 0.10474213123877753, "year:2015": 1}
+{"category:Mythology": 1, "guess:Moby-Dick": 1, "id": 135257, "label": false, "run_length": 0.2, "score": 0.14073152178971432, "year:2015": 1}
+{"category:Mythology": 1, "guess:Theseus": 1, "id": 135257, "label": false, "run_length": 0.4, "score": 0.12753936848664707, "year:2015": 1}
+{"category:Mythology": 1, "guess:The_Tin_Drum": 1, "id": 135257, "label": false, "run_length": 0.6, "score": 0.12087668565610228, "year:2015": 1}
+{"category:Mythology": 1, "guess:Odin": 1, "id": 135257, "label": false, "run_length": 0.768, "score": 0.11050699951562216, "year:2015": 1}
+{"category:Literature": 1, "guess:W._B._Yeats": 1, "id": 135264, "label": false, "run_length": 0.2, "score": 0.20400542753128387, "year:2015": 1}
+{"category:Literature": 1, "guess:E._E._Cummings": 1, "id": 135264, "label": true, "run_length": 0.4, "score": 0.17944702861056497, "year:2015": 1}
+{"category:Literature": 1, "guess:E._E._Cummings": 1, "id": 135264, "label": true, "run_length": 0.6, "score": 0.16841413788874815, "year:2015": 1}
+{"category:Literature": 1, "guess:D._H._Lawrence": 1, "id": 135264, "label": false, "run_length": 0.777, "score": 0.16770312814273516, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:3": 1, "id": 135309, "label": false, "run_length": 0.2, "score": 0.26230989542360905, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:4": 1, "id": 135309, "label": false, "run_length": 0.4, "score": 0.22650744118018934, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:4": 1, "id": 135309, "label": false, "run_length": 0.6, "score": 0.217112637170295, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:3": 1, "id": 135309, "label": false, "run_length": 0.765, "score": 0.2140295807256028, "year:2015": 1}
+{"category:History": 1, "guess:Argentina": 1, "id": 135380, "label": false, "run_length": 0.2, "score": 0.14882412509701584, "year:2015": 1}
+{"category:History": 1, "guess:Brazil": 1, "id": 135380, "label": false, "run_length": 0.4, "score": 0.144284905003843, "year:2015": 1}
+{"category:History": 1, "guess:Brazil": 1, "id": 135380, "label": false, "run_length": 0.6, "score": 0.144284905003843, "year:2015": 1}
+{"category:History": 1, "guess:Argentina": 1, "id": 135380, "label": false, "run_length": 0.748, "score": 0.13668238629494034, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ralph_Vaughan_Williams": 1, "id": 135384, "label": false, "run_length": 0.2, "score": 0.1473476636697436, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Samuel_Barber": 1, "id": 135384, "label": false, "run_length": 0.4, "score": 0.12563341659438226, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Sergei_Prokofiev": 1, "id": 135384, "label": false, "run_length": 0.6, "score": 0.1230660287927632, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Arnold_Schoenberg": 1, "id": 135384, "label": false, "run_length": 0.715, "score": 0.1059387550939137, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Rite_of_Spring": 1, "id": 135397, "label": true, "run_length": 0.2, "score": 0.2519691583878792, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Rite_of_Spring": 1, "id": 135397, "label": true, "run_length": 0.4, "score": 0.23284189735486005, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Romeo_and_Juliet": 1, "id": 135397, "label": false, "run_length": 0.6, "score": 0.19415398715757964, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:The_Rite_of_Spring": 1, "id": 135397, "label": true, "run_length": 0.774, "score": 0.18946993451900404, "year:2015": 1}
+{"category:Literature": 1, "guess:Vladimir_Nabokov": 1, "id": 135399, "label": true, "run_length": 0.2, "score": 0.11221189516453217, "year:2015": 1}
+{"category:Literature": 1, "guess:Tree": 1, "id": 135399, "label": false, "run_length": 0.4, "score": 0.08075080765545184, "year:2015": 1}
+{"category:Literature": 1, "guess:Tree": 1, "id": 135399, "label": false, "run_length": 0.6, "score": 0.07949661046411477, "year:2015": 1}
+{"category:Literature": 1, "guess:Death_of_a_Salesman": 1, "id": 135399, "label": false, "run_length": 0.753, "score": 0.07752573664448938, "year:2015": 1}
+{"category:History": 1, "guess:New_Zealand": 1, "id": 135478, "label": false, "run_length": 0.2, "score": 0.17648389839513862, "year:2015": 1}
+{"category:History": 1, "guess:Nigeria": 1, "id": 135478, "label": false, "run_length": 0.4, "score": 0.11458100074683845, "year:2015": 1}
+{"category:History": 1, "guess:Cuba": 1, "id": 135478, "label": false, "run_length": 0.6, "score": 0.11411616625648408, "year:2015": 1}
+{"category:History": 1, "guess:California": 1, "id": 135478, "label": false, "run_length": 0.729, "score": 0.11315432498882247, "year:2015": 1}
+{"category:Science": 1, "guess:Ren\u00e9_Descartes": 1, "id": 135489, "label": false, "run_length": 0.2, "score": 0.16613193176749402, "year:2015": 1}
+{"category:Science": 1, "guess:4": 1, "id": 135489, "label": true, "run_length": 0.4, "score": 0.15877210870995848, "year:2015": 1}
+{"category:Science": 1, "guess:2": 1, "id": 135489, "label": false, "run_length": 0.6, "score": 0.15491470817747827, "year:2015": 1}
+{"category:Science": 1, "guess:Ren\u00e9_Descartes": 1, "id": 135489, "label": false, "run_length": 0.765, "score": 0.1495066946044235, "year:2015": 1}
+{"category:Literature": 1, "guess:Virginia_Woolf": 1, "id": 135491, "label": false, "run_length": 0.2, "score": 0.12287540746382465, "year:2015": 1}
+{"category:Literature": 1, "guess:Willa_Cather": 1, "id": 135491, "label": false, "run_length": 0.4, "score": 0.11718320704278574, "year:2015": 1}
+{"category:Literature": 1, "guess:Kenzabur\u014d_\u014ce": 1, "id": 135491, "label": false, "run_length": 0.6, "score": 0.11285421719703906, "year:2015": 1}
+{"category:Literature": 1, "guess:J._M._Coetzee": 1, "id": 135491, "label": false, "run_length": 0.774, "score": 0.10164028638804451, "year:2015": 1}
+{"category:Science": 1, "guess:Redox": 1, "id": 135493, "label": true, "run_length": 0.2, "score": 0.2782846330818707, "year:2015": 1}
+{"category:Science": 1, "guess:Redox": 1, "id": 135493, "label": true, "run_length": 0.4, "score": 0.24025730093536807, "year:2015": 1}
+{"category:Science": 1, "guess:Recursion": 1, "id": 135493, "label": false, "run_length": 0.6, "score": 0.22292822380355665, "year:2015": 1}
+{"category:Science": 1, "guess:Redox": 1, "id": 135493, "label": true, "run_length": 0.735, "score": 0.21842810633071455, "year:2015": 1}
+{"category:Literature": 1, "guess:Chicago": 1, "id": 135494, "label": false, "run_length": 0.2, "score": 0.16186187592472595, "year:2015": 1}
+{"category:Literature": 1, "guess:Philadelphia": 1, "id": 135494, "label": false, "run_length": 0.4, "score": 0.1362368339399746, "year:2015": 1}
+{"category:Literature": 1, "guess:Prague": 1, "id": 135494, "label": false, "run_length": 0.6, "score": 0.1307729037727549, "year:2015": 1}
+{"category:Literature": 1, "guess:Prague": 1, "id": 135494, "label": false, "run_length": 0.737, "score": 0.1305532071467836, "year:2015": 1}
+{"category:Mythology": 1, "guess:Hera": 1, "id": 135497, "label": true, "run_length": 0.2, "score": 0.2015173494346222, "year:2015": 1}
+{"category:Mythology": 1, "guess:Osiris": 1, "id": 135497, "label": false, "run_length": 0.4, "score": 0.17437920978314797, "year:2015": 1}
+{"category:Mythology": 1, "guess:Hera": 1, "id": 135497, "label": true, "run_length": 0.6, "score": 0.17058771448025484, "year:2015": 1}
+{"category:Mythology": 1, "guess:Freyja": 1, "id": 135497, "label": false, "run_length": 0.728, "score": 0.14167500735919586, "year:2015": 1}
+{"category:Literature": 1, "guess:W._H._Auden": 1, "id": 135502, "label": true, "run_length": 0.2, "score": 0.15194809525297767, "year:2015": 1}
+{"category:Literature": 1, "guess:W._H._Auden": 1, "id": 135502, "label": true, "run_length": 0.4, "score": 0.13977403031444213, "year:2015": 1}
+{"category:Literature": 1, "guess:Wallace_Stevens": 1, "id": 135502, "label": false, "run_length": 0.6, "score": 0.11298674948142122, "year:2015": 1}
+{"category:Literature": 1, "guess:Henry_James": 1, "id": 135502, "label": false, "run_length": 0.756, "score": 0.0934938138133926, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Claude_Debussy": 1, "id": 135510, "label": false, "run_length": 0.2, "score": 0.14237967355011197, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Gustav_Holst": 1, "id": 135510, "label": false, "run_length": 0.4, "score": 0.13129796064666832, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:George_Frideric_Handel": 1, "id": 135510, "label": false, "run_length": 0.6, "score": 0.1301182047820974, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:George_Frideric_Handel": 1, "id": 135510, "label": false, "run_length": 0.733, "score": 0.12780477855608893, "year:2015": 1}
+{"category:History": 1, "guess:Philadelphia": 1, "id": 135757, "label": false, "run_length": 0.2, "score": 0.19632589411448437, "year:2015": 1}
+{"category:History": 1, "guess:Chicago": 1, "id": 135757, "label": false, "run_length": 0.4, "score": 0.19345621723695888, "year:2015": 1}
+{"category:History": 1, "guess:Carthage": 1, "id": 135757, "label": true, "run_length": 0.6, "score": 0.1842962327967539, "year:2015": 1}
+{"category:History": 1, "guess:Los_Angeles": 1, "id": 135757, "label": false, "run_length": 0.701, "score": 0.17897144789266667, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Sikhism": 1, "id": 135766, "label": false, "run_length": 0.2, "score": 0.06753285046460723, "year:2015": 1}
+{"category:Philosophy": 1, "guess:The_Prince": 1, "id": 135766, "label": false, "run_length": 0.4, "score": 0.06526792701483353, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Ethics_(Spinoza)": 1, "id": 135766, "label": false, "run_length": 0.6, "score": 0.058866304899021595, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Stoicism": 1, "id": 135766, "label": false, "run_length": 0.75, "score": 0.05791760072289579, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Ludwig_van_Beethoven": 1, "id": 135773, "label": false, "run_length": 0.2, "score": 0.19877146511091742, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Gustav_Mahler": 1, "id": 135773, "label": false, "run_length": 0.4, "score": 0.19273283633320745, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Dmitri_Shostakovich": 1, "id": 135773, "label": true, "run_length": 0.6, "score": 0.16526074061853702, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Anton\u00edn_Dvo\u0159\u00e1k": 1, "id": 135773, "label": false, "run_length": 0.73, "score": 0.16348442002790162, "year:2015": 1}
+{"category:History": 1, "guess:Finland": 1, "id": 135774, "label": false, "run_length": 0.2, "score": 0.11190869503775049, "year:2015": 1}
+{"category:History": 1, "guess:Finland": 1, "id": 135774, "label": false, "run_length": 0.4, "score": 0.10330457781066518, "year:2015": 1}
+{"category:History": 1, "guess:Prague_Spring": 1, "id": 135774, "label": false, "run_length": 0.6, "score": 0.10268683305205731, "year:2015": 1}
+{"category:History": 1, "guess:Finland": 1, "id": 135774, "label": false, "run_length": 0.78, "score": 0.09976754849135401, "year:2015": 1}
+{"category:Social Science": 1, "guess:Viscosity": 1, "id": 135776, "label": false, "run_length": 0.2, "score": 0.1303734341795857, "year:2015": 1}
+{"category:Social Science": 1, "guess:Romeo_and_Juliet": 1, "id": 135776, "label": false, "run_length": 0.4, "score": 0.0893228089273824, "year:2015": 1}
+{"category:Social Science": 1, "guess:Walt_Whitman": 1, "id": 135776, "label": false, "run_length": 0.6, "score": 0.08371873872821439, "year:2015": 1}
+{"category:Social Science": 1, "guess:Friction": 1, "id": 135776, "label": false, "run_length": 0.771, "score": 0.07973149651389047, "year:2015": 1}
+{"category:Literature": 1, "guess:Death": 1, "id": 135781, "label": false, "run_length": 0.2, "score": 0.23520942700026398, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Metamorphosis": 1, "id": 135781, "label": true, "run_length": 0.4, "score": 0.2348941424093349, "year:2015": 1}
+{"category:Literature": 1, "guess:Death": 1, "id": 135781, "label": false, "run_length": 0.6, "score": 0.18367499920000674, "year:2015": 1}
+{"category:Literature": 1, "guess:Death": 1, "id": 135781, "label": false, "run_length": 0.768, "score": 0.1642454407816623, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:China": 1, "id": 135784, "label": false, "run_length": 0.2, "score": 0.2562306943513185, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Japan": 1, "id": 135784, "label": false, "run_length": 0.4, "score": 0.2522317227189598, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Spain": 1, "id": 135784, "label": true, "run_length": 0.6, "score": 0.25106739456406085, "year:2015": 1}
+{"category:Fine Arts": 1, "guess:Germany": 1, "id": 135784, "label": false, "run_length": 0.732, "score": 0.22851581669453552, "year:2015": 1}
+{"category:Literature": 1, "guess:The_Tin_Drum": 1, "id": 135787, "label": true, "run_length": 0.2, "score": 0.1420254848061304, "year:2015": 1}
+{"category:Literature": 1, "guess:Moby-Dick": 1, "id": 135787, "label": false, "run_length": 0.4, "score": 0.1116811972212449, "year:2015": 1}
+{"category:Literature": 1, "guess:Theseus": 1, "id": 135787, "label": false, "run_length": 0.6, "score": 0.1024392205828587, "year:2015": 1}
+{"category:Literature": 1, "guess:Candide": 1, "id": 135787, "label": false, "run_length": 0.761, "score": 0.09624135627494342, "year:2015": 1}
+{"category:Science": 1, "guess:Henry's_law": 1, "id": 135791, "label": false, "run_length": 0.2, "score": 0.12166189806001086, "year:2015": 1}
+{"category:Science": 1, "guess:Nernst_equation": 1, "id": 135791, "label": false, "run_length": 0.4, "score": 0.12013714680546794, "year:2015": 1}
+{"category:Science": 1, "guess:Henry's_law": 1, "id": 135791, "label": false, "run_length": 0.6, "score": 0.11293628642926547, "year:2015": 1}
+{"category:Science": 1, "guess:Arrhenius_equation": 1, "id": 135791, "label": false, "run_length": 0.769, "score": 0.10760183721460803, "year:2015": 1}
+{"category:History": 1, "guess:Cuba": 1, "id": 136089, "label": false, "run_length": 0.2, "score": 0.1667759593628581, "year:2015": 1}
+{"category:History": 1, "guess:Germany": 1, "id": 136089, "label": false, "run_length": 0.4, "score": 0.15443282687420784, "year:2015": 1}
+{"category:History": 1, "guess:Ethiopia": 1, "id": 136089, "label": false, "run_length": 0.6, "score": 0.1416844442153101, "year:2015": 1}
+{"category:History": 1, "guess:Poland": 1, "id": 136089, "label": false, "run_length": 0.794, "score": 0.1385514847274484, "year:2015": 1}
+{"category:Science": 1, "guess:Doppler_effect": 1, "id": 136091, "label": false, "run_length": 0.2, "score": 0.1342509785632497, "year:2015": 1}
+{"category:Science": 1, "guess:Hydrogen_bond": 1, "id": 136091, "label": true, "run_length": 0.4, "score": 0.13389743427783712, "year:2015": 1}
+{"category:Science": 1, "guess:Bystander_effect": 1, "id": 136091, "label": false, "run_length": 0.6, "score": 0.11629779205389074, "year:2015": 1}
+{"category:Science": 1, "guess:Redox": 1, "id": 136091, "label": false, "run_length": 0.773, "score": 0.11351625591723088, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Jawaharlal_Nehru": 1, "id": 136105, "label": false, "run_length": 0.2, "score": 0.11127913385666335, "year:2015": 1}
+{"category:Philosophy": 1, "guess:S\u00f8ren_Kierkegaard": 1, "id": 136105, "label": false, "run_length": 0.4, "score": 0.08237917495961744, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Wole_Soyinka": 1, "id": 136105, "label": false, "run_length": 0.6, "score": 0.0776666399901997, "year:2015": 1}
+{"category:Philosophy": 1, "guess:Pieter_Bruegel_the_Elder": 1, "id": 136105, "label": false, "run_length": 0.769, "score": 0.07472599041274311, "year:2015": 1}
+{"category:History": 1, "guess:Crimean_War": 1, "id": 136106, "label": true, "run_length": 0.2, "score": 0.2006312541651677, "year:2015": 1}
+{"category:History": 1, "guess:Crimean_War": 1, "id": 136106, "label": true, "run_length": 0.4, "score": 0.2006312541651677, "year:2015": 1}
+{"category:History": 1, "guess:World_War_I": 1, "id": 136106, "label": false, "run_length": 0.6, "score": 0.15223409059959822, "year:2015": 1}
+{"category:History": 1, "guess:World_War_I": 1, "id": 136106, "label": false, "run_length": 0.768, "score": 0.13563409190915193, "year:2015": 1}

@@ -34,14 +34,12 @@ start.
 constructor
 --------------
 
-
-
 You don't need to do too much here except for creating datastructures
 that you may need to count things up later.  I'd suggest taking a look
 at NLTK's
-[FreqDist](http://www.nltk.org/api/nltk.html?highlight=freqdist) and
+[FreqDist](http://www.nltk.org/api/nltk.html?highlight=freqdist) and/or
 refresh your memory on Python
-[collections](https://docs.python.org/2/library/collections.html).
+[collections](https://docs.python.org/3/library/collections.html).
 
 train_seen
 ----------
@@ -88,7 +86,14 @@ of documents and are thus not helpful query terms?
 # Submission Instructions
 
 
-1. Submissions will be made on the submit server (submit.cs.umd.edu).
-2. You will submit a zip file containing your code (tfidf.py) and the PDF for the write-up. If you check your code against your own test cases, you can add the file (which will be like test.py) containing your own test cases in the zip too.
-The code will run against the public test cases (the ones you can already see in the given test.py file) on the server and you can see those results. You should make sure you pass these cases before the submission deadline.
-3. In addition to the public tests, you can check your code against release tests (you can only see the results of these tests and not the tests themselves). For that, you can use a release token (click the '?' under 'Release' column on the submit server). You can test your code against the release tests a maximum of 3 times in 24 hours. This is to give an idea of how your code holds up in some of the test cases not made public.
+1. Submissions will be made on Gradescope.
+
+2. You will submit a zip file containing your code (tfidf.py) and the PDF for
+the write-up. If you check your code against your own test cases, you can add
+the file (which will be like test.py) containing your own test cases in the
+zip too.
+
+The code will run against the public test cases (the ones you can already see
+in the given test.py file) on the server and you can see those results. You
+should make sure you pass these cases before the submission deadline.
+

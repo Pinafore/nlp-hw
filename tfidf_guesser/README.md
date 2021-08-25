@@ -1,4 +1,4 @@
-K-Nearest Neighbors
+Nearest Neighbor Question Answering (Guessing)
 =
 
 Overview

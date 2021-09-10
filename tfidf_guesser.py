@@ -51,7 +51,6 @@ class TfidfGuesser:
             answers = answers[:limit]
 
         # Your code here
-        self.tfidf_matrix = self.tfidf_vectorizer.transform(questions) #Sol
 
     def guess(self, questions: List[str], max_n_guesses: Optional[int]) -> List[List[Tuple[str, float]]]:
         """

@@ -114,7 +114,7 @@ FAILED (failures=3)
 Example
 -
 
-This is an example of what your code (knn.py) output should look like:
+This is an example of what your code (tfidf_guesser.py) output should look like:
 ```
 jbg@wuzetian:~/repositories/courses/cmsc_470/solutions> python3 tfidf_guesser.py 
 Loading data/small.guesstrain.json

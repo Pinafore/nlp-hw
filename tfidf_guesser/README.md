@@ -54,7 +54,8 @@ What to turn in
 
 Extra Credit
 =
-You can get extra credit for 1) improving the guesser and doing well in the Gradescope leaderboard 2) submitting your system on the [https://pinafore.github.io/qanta-leaderboard/ Codalab leaderboard].
+You can get extra credit for 1) improving the guesser and doing well in the Gradescope leaderboard 2) submitting your system on the Codalab leaderboard: 
+https://pinafore.github.io/qanta-leaderboard/
 
 You're free to modify the code however you would like so long as it doesn't break the API.  You can get up to 10
 points of extra credit depending on how well you do and whether you submit to Codalab. 

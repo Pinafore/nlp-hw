@@ -5,8 +5,7 @@ Overview
 --------
 
 In this homework you'll implement a stochastic gradient ascent for logistic
-regression and you'll apply it to the task of determining whether documents
-are talking about hockey or baseball.  Sound familiar?  It should be!
+regression and you'll apply it to the task of determining whether a system's guess of what the answer to a question is.  Sound familiar?  It should be!
 
 Indeed, it will be doing exactly the same thing on exactly the same data as
 the previous homework.  The only difference is that while you had to do

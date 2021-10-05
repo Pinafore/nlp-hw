@@ -29,6 +29,7 @@ Coding (20 points):
 1.  (Optional) Store necessary data in the constructor so you can do classification later.
 1.  Modify the _train_ function so that the class stores what it needs to store to guess at what the answer is.
 1.  Modify the _guess_ function so that it finds the closest indicies (in terms of *cosine* similarity) to the query point.
+1.  Modify the _confusion_matrix_ function so that it computes the confusion matrix for the model to track incorrectly labeled examples.
 
 Analysis (5 points):
 

@@ -1,17 +1,16 @@
 Feature Engineering
 =
 
-The goal of this assignment is to take the pieces of code that we had from
-previous homeworks, but them together, and make them better.
+The goal of this assignment is to take the QA system components (i.e guesser, buzzer) we had from previous homeworks, put them together, and make them better. 
 
 You will build on the *tf-idf guesser* by extracting useful information from
-its guesses, generate better features for input into the *pytorch logistic
+its guesses and generate better features for input into the *pytorch logistic
 regression* classifier to do a better job of selecting whether a guess to a
 question is correct.
 
 NOTE: Because the goal of this assignment is feature engineering, not classification algorithms, you may not change the underlying algorithm.
 
-It is structured in a way that approximates how classification works in the real world: Features are typically underspecified (or not specified at all) You, the data digger, have to articulate the features you need You then compete against others to provide useful predictions
+This assignment is structured in a way that approximates how classification works in the real world: Features are typically underspecified (or not specified at all). You, the data digger, have to articulate the features you need. You then compete against others to provide useful predictions.
 
 It may seem straightforward, but do not start this at the last minute. There are often many things that go wrong in testing out features, and you'll want to make sure your features work well once you've found them.
 
@@ -48,8 +47,8 @@ The job of the written portion of the homework is to convince the grader that:
 * You had a clear methodology for incorporating the new features
 
 Make sure that you have examples and quantitative evidence that your
-features are working well.  Be sure to explain how used the data
-(e.g., did you have a development set) and how you inspected the
+features are working well, and include the metrics you chose to measure your system's performance. Be sure to explain how used the data
+(e.g., did you have a development set?) and how you inspected the
 results.
 
 A sure way of getting a low grade is simply listing what you tried and
@@ -59,4 +58,9 @@ approach to feature engineering.
 
 How to Turn in Your System
 -
+If you used additional training data, please include the source data in your Gradescope submission in a file named ``test_custom.json`` (if your file is <100MB), or submit a shell script named ``gather_resources.sh`` that will retrieve the file ``test_custom.json`` programatically from a public location (i.e a public S3 bucket).
+
+In addition, include your trained model in your submission by submitting a file named ``trained_model.th``. Follow the instructions [here](https://pytorch.org/tutorials/beginner/saving_loading_models.html#saving-loading-model-for-inference) on how to do this (saving and loading the ``state_dict``). **If you do not correctly save your trained model, or do not submit one at all, the autograder will fail.**
+
 Turn in your system as usual via Gradescope, where we'll be using the leaderboard as before.  However, this time the score from the leaderboard will be part of your grade.
+

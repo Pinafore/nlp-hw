@@ -66,9 +66,9 @@ approach to feature engineering.
 
 How to Turn in Your System
 -
-If you used additional training data, please include the source data in your Gradescope submission in a file named ``test_custom.json`` (if your file is <100MB), or submit a shell script named ``gather_resources.sh`` that will retrieve the file ``test_custom.json`` programatically from a public location (i.e a public S3 bucket).
+* ``train_custom.json`` (OR) ``gather_resources.sh``: If you used additional training data, please include the source data in your Gradescope submission in a file named ``train_custom.json`` (if your file is <100MB), or submit a shell script named ``gather_resources.sh`` that will retrieve the file ``train_custom.json`` programatically from a public location (i.e a public S3 bucket).
+* ``lr_pytorch.py``: This file includes your implementation of GuessDataset and SimpleLogreg classes that we'll use.
+* ``trained_model.th``: In addition to the files above, include your trained model in your submission by submitting a file named ``trained_model.th``. Follow the instructions [here](https://pytorch.org/tutorials/beginner/saving_loading_models.html#saving-loading-model-for-inference) on how to do this (saving and loading the ``state_dict``). **If you do not correctly save your trained model, or do not submit one at all, the autograder will fail.**
+* ``analysis.pdf``: Your **PDF** file containing your feature engineering analysis.
 
-In addition, include your trained model in your submission by submitting a file named ``trained_model.th``. Follow the instructions [here](https://pytorch.org/tutorials/beginner/saving_loading_models.html#saving-loading-model-for-inference) on how to do this (saving and loading the ``state_dict``). **If you do not correctly save your trained model, or do not submit one at all, the autograder will fail.**
-
-Turn in your system as usual via Gradescope, where we'll be using the leaderboard as before.  However, this time the score from the leaderboard will be part of your grade.
-
+Turn in the above files as usual via Gradescope, where we'll be using the leaderboard as before.  However, this time the score from the leaderboard will be part of your grade.

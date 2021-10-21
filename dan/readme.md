@@ -1,8 +1,6 @@
 Deep Learning 
 =
 
-Due: 8 March 2019 (23:55)
-
 
 Overview
 --------
@@ -15,12 +13,14 @@ practice.
 
 In this homework, you'll use pytorch to implement a DAN classifier for determining the answer to a quizbowl question (a minor switch on lines 41-42 allows change to the much simpler task of predicting the category of a quizbowl question). 
 
-You'll turn in your code on the submit server. This assignment is worth 40 points.
+This is similar (but simpler) than dense passage retrieval that we talked about in class.  
+
+You'll turn in your code on Gradescope. This assignment is worth 35 points.
 
 Dataset
 ----------------
 
-The data is sampled from quiz bowl bonus question. We tokenize the questuion and split them into train/dec/test set.
+The data is sampled from quiz bowl questions. We tokenize the questuion and split them into train/dec/test set.
 Each example includes the question text and the label (0 for Literature, 1 for History and 2 for Science). 
 
 Pytorch data loader
@@ -51,7 +51,7 @@ Analysis: (5 points)
 
 Pytorch install
 ----------------
-In this homework, we use CPU version of Pytorch 0.4.1(latest version)
+In this homework, we use Pytorch again.  
 
 You can install it using the following command(linux):
 conda install pytorch torchvision -c pytorch or conda install pytorch=0.4.1 torchvision -c pytorch

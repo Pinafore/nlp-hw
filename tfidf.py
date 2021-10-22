@@ -147,16 +147,16 @@ if __name__ == "__main__":
     argparser = argparse.ArgumentParser()
 
     argparser.add_argument("--root_dir", help="QB Dataset for training",
-                           type=str, default='.',
+                           type=str, default='../',
                            required=False)
     argparser.add_argument("--train_dataset", help="QB Dataset for training",
-                           type=str, default='data/small.guesstrain.json',
+                           type=str, default='data/qanta.train.json',
                            required=False)
     argparser.add_argument("--example", help="What answer we use for testing",
                            type=str, default='Australia',
                            required=False)    
     argparser.add_argument("--test_dataset", help="QB Dataset for test",
-                           type=str, default='data/small.guessdev.json',
+                           type=str, default='qanta.dev.json',
                            required=False)
     argparser.add_argument("--limit", help="Number of training documents",
                            type=int, default=-1, required=False)

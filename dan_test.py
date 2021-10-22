@@ -18,6 +18,7 @@ text4 = {'text':torch.LongTensor([[1, 0, 0, 0, 0], [2, 4, 4, 3, 1], [3, 4, 1, 0,
 class TestSequenceFunctions(unittest.TestCase):
     def setUp(self):
         self.toy_dan_model = DanModel(2, 5, emb_dim=2, n_hidden_units=2)
+        self.wide_dan_model = DanModel(1, 1, emb_dim=4, n_hidden_units=1)
         self.toy_dan_model.eval()
         weight_matrix = torch.tensor([[0, 0], [0.1, 0.9], [0.3, 0.4], [0.5, 0.5], [0.6, 0.2]])
         self.toy_dan_model.embeddings.weight.data.copy_(weight_matrix)
@@ -31,49 +32,42 @@ class TestSequenceFunctions(unittest.TestCase):
 
 
 
-    def test_forward(self):
+    def test_forward_logits(self):
         logits = self.toy_dan_model(text1['text'], text1['len'])
-        print(logits[0][1])
-        self.assertAlmostEqual(logits[0][0].item(), 0.2130)
-        self.assertAlmostEqual(logits[0][1].item(), 0.1724999)
+        self.assertAlmostEqual(logits[0][0].item(), 0.2130, places=2)
+        self.assertAlmostEqual(logits[0][1].item(), 0.1724999, places=2)
         logits = self.toy_dan_model(text2['text'], text2['len'])
-        self.assertAlmostEqual(logits[0][0].item(), 0.2324001)
-        self.assertAlmostEqual(logits[0][1].item(), 0.2002001)
-        probs = self.toy_dan_model(text1['text'], text1['len'], is_prob=True)
-        self.assertAlmostEqual(probs[0][0].item(), 0.5101237)
-        self.assertAlmostEqual(probs[0][1].item(), 0.4898764)
-        probs = self.toy_dan_model(text2['text'], text2['len'], is_prob=True)
-        self.assertAlmostEqual(probs[0][0].item(), 0.5080493)
-        self.assertAlmostEqual(probs[0][1].item(), 0.4919507)
+        self.assertAlmostEqual(logits[0][0].item(), 0.2324001, places=2)
+        self.assertAlmostEqual(logits[0][1].item(), 0.2002001, places=2)
 
+    def test_average(self):
+        d1 = [[1, 1, 1, 1]] * 3
+        d2 = [[2, 2, 2, 2]] * 2
+        d2.append([0, 0, 0, 0])
 
+        docs = torch.tensor([d1, d2])
+        lengths = torch.tensor([3, 2])
 
+        average = self.wide_dan_model.average(docs, lengths)
 
-    def test_minibatch(self):
+        for ii in range(4):
+            self.assertAlmostEqual(average[0][ii], 1.0)
+            self.assertAlmostEqual(average[1][ii], 2.0)            
+
+    def test_minibatch_logits(self):
         logits = self.toy_dan_model(text3['text'], text3['len'])
-        self.assertAlmostEqual(logits[0][0].item(), 0.2360)
-        self.assertAlmostEqual(logits[0][1].item(), 0.2070)
-        self.assertAlmostEqual(logits[1][0].item(), 0.1910)
-        self.assertAlmostEqual(logits[1][1].item(), 0.1219999)
+        print(logits)
+        self.assertAlmostEqual(logits[0][0].item(), 0.2360, places=2)
+        self.assertAlmostEqual(logits[0][1].item(), 0.2070, places=2)
+        self.assertAlmostEqual(logits[1][0].item(), 0.1910, places=2)
+        self.assertAlmostEqual(logits[1][1].item(), 0.1219999, places=2)
         logits = self.toy_dan_model(text4['text'], text4['len'])
-        self.assertAlmostEqual(logits[0][0].item(), 0.2820)
-        self.assertAlmostEqual(logits[0][1].item(), 0.2760)
-        self.assertAlmostEqual(logits[1][0].item(), 0.2104)
-        self.assertAlmostEqual(logits[1][1].item(), 0.1658)
-        self.assertAlmostEqual(logits[2][0].item(), 0.2213333)
-        self.assertAlmostEqual(logits[2][1].item(), 0.1733332)
-        probs = self.toy_dan_model(text3['text'], text3['len'], is_prob=True)
-        self.assertAlmostEqual(probs[0][0].item(), 0.5072495)
-        self.assertAlmostEqual(probs[0][1].item(), 0.4927505)
-        self.assertAlmostEqual(probs[1][0].item(), 0.5172432)
-        self.assertAlmostEqual(probs[1][1].item(), 0.4827568)
-        probs = self.toy_dan_model(text4['text'], text4['len'], is_prob=True)
-        self.assertAlmostEqual(probs[0][0].item(), 0.5015)
-        self.assertAlmostEqual(probs[0][1].item(), 0.4985)
-        self.assertAlmostEqual(probs[1][0].item(), 0.5111482)
-        self.assertAlmostEqual(probs[1][1].item(), 0.4888518)
-        self.assertAlmostEqual(probs[2][0].item(), 0.5119978)
-        self.assertAlmostEqual(probs[2][1].item(), 0.4880023)
+        self.assertAlmostEqual(logits[0][0].item(), 0.2820, places=2)
+        self.assertAlmostEqual(logits[0][1].item(), 0.2760, places=2)
+        self.assertAlmostEqual(logits[1][0].item(), 0.2104, places=2)
+        self.assertAlmostEqual(logits[1][1].item(), 0.1658, places=2)
+        self.assertAlmostEqual(logits[2][0].item(), 0.2213333, places=2)
+        self.assertAlmostEqual(logits[2][1].item(), 0.1733332, places=2)
 
     def test_vectorize(self):
         word2ind = {'text': 0, '<unk>': 1, 'test': 2, 'is': 3, 'fun': 4, 'check': 5, 'vector': 6, 'correct': 7}

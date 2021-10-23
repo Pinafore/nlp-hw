@@ -1,7 +1,6 @@
 Deep Learning 
 =
 
-
 Overview
 --------
 
@@ -11,33 +10,41 @@ framework, but they work well for a variety of tasks and will help
 introduce some of the core concepts of using deep learning in
 practice.
 
-In this homework, you'll use pytorch to implement a DAN classifier for determining the answer to a quizbowl question (a minor switch on lines 41-42 allows change to the much simpler task of predicting the category of a quizbowl question). 
+In this homework, you'll use pytorch to implement a DAN classifier for
+determining the answer to a quizbowl question (a minor switch on lines 41-42
+allows change to the much simpler task of predicting the category of a
+quizbowl question).
 
-This is similar (but simpler) than dense passage retrieval that we talked about in class.  
+This is similar (but simpler) than dense passage retrieval that we talked
+about in class.
 
 You'll turn in your code on Gradescope. This assignment is worth 35 points.
 
 Dataset
 ----------------
 
-The data is sampled from quiz bowl questions. We tokenize the questuion and split them into train/dec/test set.
-Each example includes the question text and the label (0 for Literature, 1 for History and 2 for Science). 
+The data is sampled from quiz bowl questions. We tokenize the questuion and
+split them into train/dec/test set.  Each example includes the question text
+and the label.
 
 Pytorch data loader
 ----------------
 
-In this homework, we use pytorch build-in data loader to do data mini-batching, which provides single or multi-process iterators over the dataset(https://pytorch.org/docs/stable/data.html).
+In this homework, we use pytorch build-in data loader to do data
+mini-batching, which provides single or multi-process iterators over the
+dataset(https://pytorch.org/docs/stable/data.html).
 
-For data loader, there includes two functions, batichfy and vectorize. For each example, we need to vectorize the question text in to a vector using vocabuary. In this assignment, you need to write the vectorize function yourself. Then we provide the batchify function to split the dataset into mini-batches. 
-
-
-
+For data loader, there includes two functions, batichfy and vectorize. For
+each example, we need to vectorize the question text in to a vector using
+vocabuary. In this assignment, you need to write the vectorize function
+yourself. Then we provide the batchify function to split the dataset into
+mini-batches.
 
 
 What you have to do
 ----------------
 
-Coding: (35 points)
+Coding: (30 points)
 1. Understand the structure of the code.
 2. Write the data vectorize funtion.
 3. Write DAN model initialization. 

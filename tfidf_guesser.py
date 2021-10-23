@@ -96,7 +96,7 @@ class TfidfGuesser:
 
 # You won't need this for this homework, but it will generate the data for a
 # future homework; included for reference.
-def write_guess_json(guesser, filename, fold, run_length=200, censor_features=["id", "label"]):
+def write_guess_json(guesser, filename, fold, run_length=200, censor_features=["id", "label"], num_guesses=5):
     """
     Returns the vocab, which is a list of all features.
 
@@ -115,25 +115,26 @@ def write_guess_json(guesser, filename, fold, run_length=200, censor_features=["
             
             runs = qq.runs(run_length)
             guesses = guesser.guess(runs[0], max_n_guesses=5)
-            scores = [guess[1] for guess in guesses]
 
-            for raw_guess, rr in zip(guesses[0], runs[0]):
-                gg, ss = raw_guess
-                guess = {"id": qq.qanta_id,
-                         "guess:%s" % gg: 1,
-                         "run_length": len(rr)/1000,
-                         "score": ss,
-                         "label": qq.page==gg,
-                         "category:%s" % qq.category: 1,
-                         "year:%s" % qq.year: 1}
+            for rr in runs[0]:
+                guesses = guesser.guess([rr], max_n_guesses=num_guesses)
+                for raw_guess in guesses[0]:
+                    gg, ss = raw_guess
+                    guess = {"id": qq.qanta_id,
+                             "guess:%s" % gg: 1,
+                             "run_length": len(rr)/1000,
+                             "score": ss,
+                             "label": qq.page==gg,
+                             "category:%s" % qq.category: 1,
+                             "year:%s" % qq.year: 1}
 
-                for ii in guess:
-                    # Don't let it use features that would allow cheating
-                    if ii not in censor_features and ii not in vocab:
-                        vocab.append(ii)
+                    for ii in guess:
+                        # Don't let it use features that would allow cheating
+                        if ii not in censor_features and ii not in vocab:
+                            vocab.append(ii)
 
-                outfile.write(json.dumps(guess, sort_keys=True))
-                outfile.write("\n")
+                    outfile.write(json.dumps(guess, sort_keys=True))
+                    outfile.write("\n")
     print("")
     return vocab
         

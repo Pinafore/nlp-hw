@@ -114,7 +114,7 @@ Each group has 10 minutes to deliver their presentation.
 Project Writeup
 ======================
 
-By 23:55 21. May, have the person in your group whose last name
+By 10:00 December 15, have the person in your group whose last name
 is alphabetically first submit their project writeup explaining what
 you did and what results you achieved.  This document should
 make it clear:

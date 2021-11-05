@@ -3,7 +3,7 @@ Homework: Run someone else's QA system
 ========================================
 
 The goal of this homework is to get a "real" QA system running on our crazy
-quiz bowl data. You'll submit the model you choose to our qanta leaderboard via CodaLab.
+quiz bowl data. You'll submit the model you choose to our [QANTA leaderboard](https://pinafore.github.io/qanta-leaderboard/) via CodaLab.
 
 Is it okay if this overlaps with our course project?
 ====================================================
@@ -33,9 +33,9 @@ model fits!
 What to Turn In
 ===============
 
-* System submission: Submit your system to CodaLab. See [here](https://github.com/Pinafore/qanta-codalab#codalab) for submission instructions.
-* `writeup.pdf`: Write a one page document describing the system you chose, what you did to get it to run, and 
-  the changes you made to make it work better for quiz bowl questions. **Please include the name of your leaderboard submission (i.e the name you choose for the bundle description) at the top of your writeup. If you do not do this, we will not be able to link your submission to your writeup.**
+* System submission (10 points): Submit your system to CodaLab. See [here](https://github.com/Pinafore/qanta-codalab#codalab) for submission instructions.
+* `writeup.pdf` (5 points): Write a one page document describing the system you chose, what you did to get it to run, and 
+  the changes you made to make it work better for quiz bowl questions. Submit this writeup via Gradescope. **Please include the name of your leaderboard submission (i.e the name you choose for the bundle description) at the top of your writeup. If you do not do this, we will not be able to link your submission to your writeup.**
 
 Grading
 =======
@@ -47,8 +47,9 @@ To earn the 15 required points, all you need to do is:
 * get a system running
 * submit it Codalab
 * get it to work on our crazy quiz bowl data
+* submit a writeup documenting your process
 
-It doesn't matter how _well_ it works as long as it achieves non-negligible
+It doesn't matter how _well_ your chosen system works as long as it achieves non-negligible
 accuracy.
 
 The extra credit is available for doing well in terms of the expected

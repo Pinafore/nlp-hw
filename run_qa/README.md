@@ -1,31 +1,30 @@
 
-Homework: Run somebody else's QA system
+Homework: Run someone else's QA system
 ========================================
 
-The goal of this homework is to run a "real" QA system on our crazy
-quiz bowl data.
+The goal of this homework is to get a "real" QA system running on our crazy
+quiz bowl data. You'll submit the model you choose to our qanta leaderboard via CodaLab.
 
-Is it okay if this overlaps with my project
-===========================================
+Is it okay if this overlaps with our course project?
+====================================================
 
-Not only is it okay, it's highly recommended.  However, everybody
-needs to do their own submission (as usual).  You can talk to each
-other, but the code must come from your fingertips.
+Not only is it okay, it's highly recommended.  However, as usual, everybody must submit their own 
+system. You can talk to each other, but the code must come from your own fingertips.
 
-Since many of your projects want to try out different models,
-different team members can try out slightly different models and see
+Since many groups want to try out a few different models,
+different team members can experiment with different models and see
 what it takes to submit them on CodaLab.
 
-How do I choose a Model?
-========================
+How do I choose a QA model?
+===========================
 
-There are a couple of concerns that you need to balance: how good is
-the model, how well will it work on our funky QB data, and how
-complicated will it be to get it to run at all.  Don't bite off more
+There are a few concerns you'll need to balance: how strong the model is, 
+how well it will work on our funky Quizbowl data, and how
+complicated or involved it'll be to get it to run at all.  Don't bite off more
 than you can chew.  Select a model that isn't too complicated, select
-one that's flexible, and don't care too much about reported accuracy.
+one that's flexible, and don't worry too much about reported accuracy.
 
-Also ignore sunk costs, if it doesn't look like this model will work,
+Also ignore sunk costs – if it doesn't look like this model will work,
 feel free to try another one.
 
 There are also size constraints on CodaLab submissions; make sure your
@@ -34,20 +33,22 @@ model fits!
 What to Turn In
 ===============
 
-* Submit your system to CodaLab
-* Write a one page document describing what you did to get it to run,
-  what changes you made to make it work better for quiz bowl questions
+* System submission: Submit your system to CodaLab. See [here](https://github.com/Pinafore/qanta-codalab#codalab) for submission instructions.
+* `writeup.pdf`: Write a one page document describing the system you chose, what you did to get it to run, and 
+  the changes you made to make it work better for quiz bowl questions.
 
 Grading
 =======
 
-The denominator is 15 points.  However, lots of extra credit is
-available if you do well (place well on the leaderboard): up to 20
-additional points.
+The assignment is out of 15 points. However, up to 20 additional points of extra credit are available if you
+place well on the leaderboard.
 
-For the required points, all you need to do is: get a system running,
-submit it Codalab, and get it work on our crazy quiz bowl data.  It
-doesn't matter how well it works as long as it gets non-negligible
+To earn the 15 required points, all you need to do is: 
+* get a system running
+* submit it Codalab
+* get it to work on our crazy quiz bowl data
+
+It doesn't matter how _well_ it works as long as it achieves non-negligible
 accuracy.
 
 The extra credit is available for doing well in terms of the expected
@@ -72,6 +73,6 @@ something other than tf-idf.)
 FAQ
 ===
 
-* I did this for the tf-idf guesser extra credit, can I just count that?
+* I did this for the tf-idf guesser extra credit, can I just submit that?
 
 No, but it should be much easier for you!  It must be a model that somebody else wrote.

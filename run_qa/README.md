@@ -35,7 +35,7 @@ What to Turn In
 
 * System submission: Submit your system to CodaLab. See [here](https://github.com/Pinafore/qanta-codalab#codalab) for submission instructions.
 * `writeup.pdf`: Write a one page document describing the system you chose, what you did to get it to run, and 
-  the changes you made to make it work better for quiz bowl questions.
+  the changes you made to make it work better for quiz bowl questions. **Please include the name of your leaderboard submission (i.e the name you choose for the bundle description) at the top of your writeup. If you do not do this, we will not be able to link your submission to your writeup.**
 
 Grading
 =======

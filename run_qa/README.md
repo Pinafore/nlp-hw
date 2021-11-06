@@ -33,9 +33,19 @@ model fits!
 What to Turn In
 ===============
 
+
 * System submission (10 points): Submit your system to CodaLab. See [here](https://github.com/Pinafore/qanta-codalab#codalab) for submission instructions.
-* `writeup.pdf` (5 points): Write a one page document describing the system you chose, what you did to get it to run, and 
-  the changes you made to make it work better for quiz bowl questions. Submit this writeup via Gradescope. **Please include the name of your leaderboard submission (i.e the name you choose for the bundle description) at the top of your writeup. If you do not do this, we will not be able to link your submission to your writeup.**
+
+* `writeup.pdf` (5 points): Write a one page document describing the
+  system you chose, what you did to get it to run, and the changes you
+  made to make it work better for quiz bowl questions. Submit this
+  writeup via Gradescope. **Please include the name of your
+  leaderboard submission (i.e the name you choose for the bundle
+  description) at the top of your writeup. If you do not do this, we
+  will not be able to link your submission to your writeup.**
+* Submit a zip file with your code; it will not be automatically
+  graded, so make sure to also include a requirements.txt that has all
+  of the packages you installed.
 
 Grading
 =======

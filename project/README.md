@@ -109,7 +109,7 @@ the final presentation you will:
 * Presumably you did many different things; how did they each
   individually contribute to your final result?
 
-Each group has 10 minutes to deliver their presentation.
+Each group has 10 minutes to deliver their presentation. Please record the video, and upload it to Google Drive, and include the link in your writeup submission.
 
 System Submission
 ======================

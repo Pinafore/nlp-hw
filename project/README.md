@@ -49,7 +49,7 @@ better (or easier to use) than others.
 
 Competition
 ==================
-We will use [CodaLab](http://leaderboard.qanta.org). 
+We will use Gradescope (along with a leaderboard).
 
 Proposal
 ==================
@@ -72,7 +72,7 @@ First Deliverable
 
 You'll have to update how things are going: what's
 working, what isn't, and how does it change your timeline?  Have the
-middle person alphabetically submit this one page update.  You'll also need to have your first submission on Codalab.
+middle person alphabetically submit this one page update.  You'll also need to have your first submission submitted.
 
 Final Presentation
 ======================

@@ -1,4 +1,4 @@
-Homework 0: Getting Started [100 pts]
+Homework 0: Getting Started [20 pts]
 --
 
 The goal of this homework is to help you get started with submitting QA based programming assignments and getting used to leaderboards over Gradescope.
@@ -8,15 +8,15 @@ Every individual must submit this homework.
 
 The homework has two parts:
 
-### A. Fault in our assistants [50 pts]
+### A. Fault in our assistants [10 pts]
 
 You are required to answer following two equally weighed questions over Gradescope:
 
-1. Submit a question that Siri, Alexa, Cortana, Google Assistant, etc. got pretty wrong. [25 pts]
-2. Discuss why it should have been answered differently and if there are variants of the question that it does answer correctly. [25 pts]
+1. Submit a question that Siri, Alexa, Cortana, Google Assistant, etc. got pretty wrong. [5 pts]
+2. Discuss why it should have been answered differently and if there are variants of the question that it does answer correctly. [5 pts]
 
 
-### B. Say hello to QA! [50 pts]
+### B. Say hello to QA! [10 pts]
 
 This is a programming assignment where you will code up a very simple rule based (and utterly dumb) QA system that outputs a fixed answer for a given rule.
 

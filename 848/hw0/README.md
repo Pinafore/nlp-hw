@@ -18,7 +18,7 @@ You are required to answer following two equally weighed questions over Gradesco
 
 ### B. Say hello to QA! [50 pts]
 
-This is a programming assignment where you will code up a very simple rule based QA system that outputs a fixed answer for a given rule.
+This is a programming assignment where you will code up a very simple rule based (and utterly dumb) QA system that outputs a fixed answer for a given rule.
 
 This will help you get used to submitting QA systems on Gradescopes, make you familiar with leaderboards.
 

@@ -25,12 +25,12 @@ This will help you get used to submitting QA systems on Gradescopes, make you fa
 
 #### Rules:
 If the question starts with the word:
-* “who”, it answers “Hatschepsut”
-* “when”, it answers “1215”
-* “where”, it answers “Mount Meru”
-* “what”, it answers “Tofu”
+* “who”, it answers "Hatschepsut"
+* “when”, it answers "1215"
+* “where”, it answers "Mount Meru"
+* “what”, it answers "Tofu"
 * “why”, it answers "42"
-* Otherwise, answer “I don’t know”
+* Otherwise, answer "I don't know"
 
 The input question can be assumed to be case insensitive, however the output is case sensitive.
 

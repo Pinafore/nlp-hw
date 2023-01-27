@@ -49,7 +49,7 @@ better (or easier to use) than others.
 
 Competition
 ==================
-We will use [CodaLab](http://leaderboard.qanta.org). 
+We will use Gradescope (along with a leaderboard).
 
 Proposal
 ==================
@@ -72,7 +72,7 @@ First Deliverable
 
 You'll have to update how things are going: what's
 working, what isn't, and how does it change your timeline?  Have the
-middle person alphabetically submit this one page update.  You'll also need to have your first submission on Codalab.
+middle person alphabetically submit this one page update.  You'll also need to have your first submission submitted.
 
 Final Presentation
 ======================
@@ -109,12 +109,18 @@ the final presentation you will:
 * Presumably you did many different things; how did they each
   individually contribute to your final result?
 
-Each group has 10 minutes to deliver their presentation.
+Each group has 10 minutes to deliver their presentation. Please record the video, and upload it to Google Drive, and include the link in your writeup submission.
+
+System Submission
+======================
+
+By Dec 9, you must tell us all dependencies you need for the Gradescope submission, and the final submission of your sustem must happen the following week.  The last submission for eligibility with the human compeition will be announced the week of Thanksgiving.
+
 
 Project Writeup
 ======================
 
-By 23:55 21. May, have the person in your group whose last name
+By 10:00 December 15, have the person in your group whose last name
 is alphabetically first submit their project writeup explaining what
 you did and what results you achieved.  This document should
 make it clear:

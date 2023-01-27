@@ -24,6 +24,19 @@ This should be very simple, no more than five lines of code.  If you're
 writing far more than that, you're likely not taking advantage of built-in
 Python libraries that you should be using.
 
+How do I know if my code is working?
+====================================
+
+Run `python test.py` on the command line and fix any tests are failing.  While
+this is a neccessary condition to getting full credit on the assignment, it is
+not sufficient.
+
+How to turn it in
+=================
+
+Modify `president_guesser.py` and upload it HW0 on Gradescope.
+
+
 Frequently Asked Questions
 ==========================
 
@@ -66,3 +79,8 @@ Frequently Asked Questions
   constitutional scholars believe that Zachary Taylor was nonetheless
   president despite not taking the oath on Sunday.
 
+Points Possible
+===============
+
+You get full credit for matching the baseline accuracy (85%) and can get up to
+three points for improving significantly beyond that.

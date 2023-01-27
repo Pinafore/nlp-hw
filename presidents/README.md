@@ -74,7 +74,7 @@ Frequently Asked Questions
 **Q: In 1849, who was president the evening of March 4 1849 and the morning of
   March 5?**
 
-**A:** It is tempting to say that [David Rice
+**A:** It is tempting to say [David Rice
   Atchison](https://en.wikipedia.org/wiki/David_Rice_Atchison), but most
   constitutional scholars believe that Zachary Taylor was nonetheless
   president despite not taking the oath on Sunday.

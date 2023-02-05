@@ -3,6 +3,7 @@ import json
 from collections import defaultdict
 from math import log
 import os
+from progress.bar import Bar
 
 from typing import Iterable, Tuple, Dict
 
@@ -147,7 +148,7 @@ if __name__ == "__main__":
     argparser = argparse.ArgumentParser()
 
     argparser.add_argument("--root_dir", help="QB Dataset for training",
-                           type=str, default='../',
+                           type=str, default='../data',
                            required=False)
     argparser.add_argument("--train_dataset", help="QB Dataset for training",
                            type=str, default='qanta.train.json',
@@ -155,9 +156,6 @@ if __name__ == "__main__":
     argparser.add_argument("--example", help="What answer we use for testing",
                            type=str, default='Australia',
                            required=False)    
-    argparser.add_argument("--test_dataset", help="QB Dataset for test",
-                           type=str, default='qanta.dev.json',
-                           required=False)
     argparser.add_argument("--limit", help="Number of training documents",
                            type=int, default=-1, required=False)
     args = argparser.parse_args()
@@ -168,22 +166,32 @@ if __name__ == "__main__":
         data = json.load(infile)["questions"]
         if args.limit > 0:
             data = data[:args.limit]
+        bar = Bar('Create vocab', max=len(data))
         for ii in data:
+            bar.next()
             for word in vocab.tokenize(ii["text"]):
                 vocab.train_seen(word)
         vocab.finalize()
+        bar.finish()
 
+        bar = Bar('Create counts', max=len(data))        
         for ii in data:
             vocab.add_document(ii["text"])
+            bar.next()
+        bar.finish()
 
     with open(os.path.join(args.root_dir, args.train_dataset)) as infile:
         data = json.load(infile)["questions"]
-
+        bar = Bar('Heldout score', max=len(data))
         example = ""
         for ii in data:
+            bar.next()
             if ii["page"] == args.example:
                 example += " %s " % ii["text"]
+        bar.finish()
 
         vector = vocab.doc_tfidf(example)
         for word, tfidf in sorted(vector.items(), key=lambda kv: kv[1], reverse=True)[:50]:
+            print("%s:%i\t%f" % (word[1], word[0], tfidf))
+        for word, tfidf in sorted(vector.items(), key=lambda kv: kv[1], reverse=False)[:50]:
             print("%s:%i\t%f" % (word[1], word[0], tfidf))

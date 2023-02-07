@@ -3,7 +3,6 @@ import json
 from collections import defaultdict
 from math import log
 import os
-from progress.bar import Bar
 
 from typing import Iterable, Tuple, Dict
 
@@ -163,6 +162,8 @@ if __name__ == "__main__":
     vocab = TfIdf()
 
     with open(os.path.join(args.root_dir, args.train_dataset)) as infile:
+        from progress.bar import Bar
+        
         data = json.load(infile)["questions"]
         if args.limit > 0:
             data = data[:args.limit]

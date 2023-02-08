@@ -95,7 +95,7 @@ class LogReg:
 
         return logprob, float(num_right) / float(len(examples))
 
-    def sg_update(self, train_example):
+    def sg_update(self, train_example, regularization=0):
         """
         Compute a stochastic gradient update to improve the log likelihood and return the new feature weights.
 

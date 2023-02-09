@@ -8,6 +8,63 @@ course, so we'll be computing [tf-idf
 representations](https://onlinelibrary.wiley.com/doi/full/10.1002/bult.274)
 of documents.
 
+Big Picture
+=============
+
+The goal here is to create tf-idf representations of documents.  You
+won't do it in this homework "for real", but this allows you to take a
+query and find the closest document.
+
+But to define "closest", we need to define a vector space over
+documents.  So what are the dimensions of this vector space?  Words!
+
+So the very first step of this process is going to map an individual
+word to an integer.  For example, "enterprise" is 1701 and "valjean"
+is 24601.  For this homework, we're going to call this process the
+"vocabulary lookup": look up the integer that will represent it, and
+return that.  That integer will then corespond to the dimension of a
+very large vector space.
+
+Take a look at the function ``vocab_lookup`` to see what that looks
+like.  You don't need to implement that exact function, but you will
+need to figure out what goes into the vocab.  Simple, right?
+
+Now, of course there are some complications.  
+  
+First complication: what if after we've seen a new word that wasn't in the
+vocabulary?  Anything that isn't mapped to the vocabulary will then
+become the "unknown token".
+ 
+That leads to a second complication: we need to compute statistics for
+   how often documents have unknown words.  If we add every single
+   word in our training set to the vocabulary, then there won't be any
+   unknown words and thus no statistics about unknown words.
+
+So what do unknown words look like?  Think about Zipf's law.  There
+are very few frequent words but many infrequent words.  So we're
+likely to have most of the frequent words in our vocabulary.  That
+means we're missing infrequent words.  
+
+So what words that we have seen
+will look most like the unknown words that we'll see in the future?
+Our least frequent words!  So we'll use the ``unk_cutoff`` argument to
+turn all of the words that we initially saw into the unknown token
+``kUNK = "<UNK>"``.
+
+Okay, so that's our vocabulary.  We also need to compute statistics
+for tf-idf.  We can't do everything at once, so we'll need to do two
+passes over the data.  The first pass will count how many times we see
+each word in the training set (using the function ``train_seen``), and
+the second pass will compute term and document frequencies (using the
+function ``add_document``).  In between those two passes, we'll
+finalize our vocabulary to decide the integer lookup of all of our
+words (the ``finalize`` function).
+
+Then, you should have everything you need to compute for a new
+document or query, its tf-idf representation in the ``doc_tfidf``
+function!
+
+
 
 What to Do
 =============
@@ -97,3 +154,10 @@ The code will run against the public test cases (the ones you can already see
 in the given test.py file) on the server and you can see those results. You
 should make sure you pass these cases before the submission deadline.
 
+# Hints
+
+1.  Remember to first make sure you pass all of the local unit tests.
+2.  NLTK's FreqDist and Python's built in Counter are your friends.
+3.  Make sure you use the right log.
+4.  Look at the main function to see how the code will be called and
+    then figure out what's missing from the code.

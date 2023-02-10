@@ -60,8 +60,8 @@ function ``add_document``).  In between those two passes, we'll
 finalize our vocabulary to decide the integer lookup of all of our
 words (the ``finalize`` function).
 
-Then, you should have everything you need to compute for a new
-document or query, its tf-idf representation in the ``doc_tfidf``
+Then, you should have everything you need to compute---for a new
+document or query---the tf-idf representation in the ``doc_tfidf``
 function!
 
 

@@ -3,7 +3,6 @@ import json
 from collections import defaultdict
 from math import log
 import os
-from progress.bar import Bar
 
 from typing import Iterable, Tuple, Dict
 
@@ -106,7 +105,8 @@ class TfIdf:
 
     def inv_docfreq(self, word: int) -> float:
         """Compute the inverse document frequency of a word.  Return 0.0 if
-        the word has never been seen.
+        the word index is outside of our vocabulary (however, this should 
+        never happen in normal operation).
 
         Keyword arguments:
         word -- The word to look up the document frequency of a word.
@@ -165,6 +165,7 @@ if __name__ == "__main__":
     vocab = TfIdf()
 
     with open(os.path.join(args.root_dir, args.train_dataset)) as infile:
+        from progress.bar import Bar        
         data = json.load(infile)["questions"]
         if args.limit > 0:
             data = data[:args.limit]

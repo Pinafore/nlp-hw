@@ -1,6 +1,6 @@
 import unittest
 
-from sgd import LogReg, Example
+from lr_sgd_qb import LogReg, Example
 
 kTOY_VOCAB = "BIAS_CONSTANT A B C D".split()
 kPOS = Example({"label":True, "A":4, "B":3, "C":1}, kTOY_VOCAB)

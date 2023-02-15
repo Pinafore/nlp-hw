@@ -56,7 +56,7 @@ regular algorithms doesn't change.
 What to turn in
 -
 
-1. Submit your _sgd.py_ file (include your name at the top of the source)
+1. Submit your _lr_sgd_qb.py_ file (include your name at the top of the source)
 1. Submit your _analysis.pdf_ file
     - no more than one page (NB: This is also for the extra credit.  To minimize effort for the grader, you'll need to put everything on a page.  Take this into account when selecting if/which extra credit to do...think of the page requirement like a regularizer).
     - pictures are better than text

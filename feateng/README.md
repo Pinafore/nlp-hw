@@ -378,4 +378,5 @@ FAQ
 *Q:* What if I get the error that ``GprGuesser`` has no attribute 'predict'?
 
 *A:* This means that you're running it on a guesser result that hasn't been
- cached or that it can't find the cache file.  
+ cached or that it can't find the cache file.  Make sure the path is correct,
+ and use the limit option to only process a handful of examples.

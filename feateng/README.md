@@ -1,18 +1,67 @@
 Feature Engineering
 =
 
-The goal of this assignment is to take the QA system components (i.e guesser, buzzer) we had from previous homeworks, put them together, and make them better. 
+Before, you built a logistic regression system from scratch and tested it on
+how well it could predict if an answer was correct.
 
-You will build on the *tf-idf guesser* by extracting useful information from
-its guesses and generate better features for input into the *pytorch logistic
+You're going to continue to improve the accuracy of such a system by creating
+new features.
+
+You will improve the classification by extracting useful information from
+the guesses and generate better features for input into the *pytorch logistic
 regression* classifier to do a better job of selecting whether a guess to a
 question is correct.
 
-NOTE: Because the goal of this assignment is feature engineering, not classification algorithms, you may not change the underlying algorithm. You can change the outputs of tf-idf (e.g., to create a new feature), but you may not swap out tf-idf for BM25.  Likewise, you cannot add hidden layers to the your logistic regression implementation in Pytorch.
+NOTE: Because the goal of this assignment is feature engineering, not
+classification algorithms, you may not change the underlying algorithm. You
+can change add to the guessed answers (e.g., to create a new feature), but you
+may not swap out the class that's generating classes nor can you change the
+classifier.
 
-This assignment is structured in a way that approximates how classification works in the real world: features are typically underspecified (or not specified at all). You, the data digger, have to articulate the features you need. You then compete against others to provide useful predictions.
+This assignment is structured in a way that approximates how classification
+works in the real world: features are typically underspecified (or not
+specified at all). You, the data digger, have to articulate the features you
+need. You then compete against others to provide useful predictions.
 
-It may seem straightforward, but do not start this at the last minute. There are often many things that go wrong in testing out features, and you'll want to make sure your features work well once you've found them.
+It may seem straightforward, but do not start this at the last minute. There
+are often many things that go wrong in testing out features, and you'll want
+to make sure your features work well once you've found them.
+
+How to add a feature?
+-
+
+0.  First, get an idea of what you want to do.  After training the classifier,
+look at your predictions on
+the dev set and see where they're going wrong.
+
+1.  To add a feature, you need to create a new subclass of the Feature class.
+This is important so that you can try out different features by turning them
+on and off with the command line.
+
+2.  Add code to instantiate the feature.
+
+3.  (Optionally) Change the API to feed in more information into the feature
+generation process.  This would be necessary to capture temporal dynamics or   
+
+To walk you through the process, let's create a new feature that encodes how
+often the guess appeared in the training set.  The first step is to define the
+class.
+
+
+Then the class needs to be loaded.  This happens in params.py.  Now you can
+add the feature name to the command line to turn it on.
+
+Before we try it out, we need to know what our baseline is.  So let's see how
+it did *without* that feature.
+
+So let's try it with the feature turned on.
+
+Okay, so that helped!
+
+Hmm, looking at the features, some of these values were really big.  This
+might be giving too much weight to really frequent answers.
+
+Let's try turning the raw count into a log and see if that helps.
 
 What Can You Do?
 -
@@ -25,7 +74,7 @@ You can:
 
 What Can't You Do?
 -
-Remove tf-idf as guesser or logistic regression as buzzer.
+Change the static guesses or use a different classifier (buzzer in this lingo).
 
 How to start
 -
@@ -66,13 +115,33 @@ approach to feature engineering.
 
 How to Turn in Your System
 -
-* ``tfidf_guesser.py``: This file includes an implementation of your TfidfGuesser, but more importantly, the function ``write_guess_json`` that generates the files for your logistic regression model.
-* ``lr_pytorch.py``: This file includes your implementation of GuessDataset and SimpleLogreg classes that we'll use.
-* ``trained_model.th``: In addition to the files above, include your trained logistic regression buzzer model in your submission by submitting a file named ``trained_model.th``. Follow the instructions [here](https://pytorch.org/tutorials/beginner/saving_loading_models.html#saving-loading-model-for-inference) on how to do this (saving and loading the ``state_dict``). **If you do not correctly save your trained model, or do not submit one at all, the autograder will fail.**
-* **Custom Training Data** (If you used additional training data beyond ``small.guesstrain.json`` or ``small.buzztrain.json``
-    * ``custom.guesstrain.json``: If you used additional training data for the guesser, please include the source data in your Gradescope submission in a file named ``custom.guesstrain.json`` (if your file is <100MB)
-    * ``custom.buzztrain.json``: If you used additional training data for the buzzer, please include the source data in your Gradescope submission in a file named ``custom.buzztrain.json`` (if your file is <100MB)
-    * (OR) If either of your files are >100MB, please submit a shell script named ``gather_resources.sh`` that will retrieve one or both of the files above programatically from a public location (i.e a public S3 bucket).
+* ``features.py``: This file includes an implementation of your TfidfGuesser, but more importantly, the function ``write_guess_json`` that generates the files for your logistic regression model.
+* ``buzzer.py``: This file includes your implementation of GuessDataset and SimpleLogreg classes that we'll use.
+* **Custom Training Data** (If you used additional training data beyond the Wikipedia pages, upload that as well
+    * (OR) If either any of your files are >100MB, please submit a shell script named ``gather_resources.sh`` that will retrieve one or both of the files above programatically from a public location (i.e a public S3 bucket).
 * ``analysis.pdf``: Your **PDF** file containing your feature engineering analysis.
 
-Turn in the above files as usual via Gradescope, where we'll be using the leaderboard as before.  However, this time the score from the leaderboard will be part of your grade.
+Turn in the above files as usual via Gradescope, where we'll be using the
+leaderboard as before.  However, the position on the leaderboard will count
+for more of your grade.
+
+FAQ
+-----------------
+
+*Q:* Can I modify buzzer.py so that I can use the history of guesses in a
+ question?
+
+*A:* Yes.
+
+*Q:* Can I use the <INSERT NAME HERE> package?
+
+*A:* Clear it first on Piazza.  We'll provide spacy and nltk for sure.  We
+ won't allow packages that require internet access (e.g., wikipedia).  We
+ don't have anything against Wikipedia, but we don't want to get our IP
+ address banned.
+
+*Q:* Sometimes the guess is correct but it isn't counted that way.
+
+*A:* Yes, and we'll cover this in more detail later in the course.  For now,
+ this is something we'll have to live with.
+

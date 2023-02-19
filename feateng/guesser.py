@@ -1,3 +1,8 @@
+# Jordan Boyd-Graber
+# 2023
+
+# Base class for our guessers
+
 import os
 import json
 
@@ -6,6 +11,10 @@ from nltk.tokenize import sent_tokenize
 from params import load_guesser, load_questions, add_guesser_params, add_general_params, add_question_params
 
 def print_guess(guess, max_char=20):
+    """
+    Utility function for printing out snippets (up to max_char) of top guesses.
+    """
+    
     standard = ["guess", "confidence", "question"]
     output = ""
 
@@ -21,14 +30,24 @@ def print_guess(guess, max_char=20):
 
 
 class Guesser:
+    """
+    Base class for guessers.  If it itself is instantiated, it will only guess
+    one thing (the default guess).  This is useful for unit testing.
+    """
+    
     def __init__(self, default_guess="Les Misérables (musical)"):
         self._default_guess = default_guess
         None
 
     def load(self):
+        """
+        Does nothing here, but can be overridden in downstream classes to load
+        state from a file.
+        """
         None
         
-    def train(self, training_data, answer_field, split_by_sentence, min_length, max_length, remove_missing_pages=True):
+    def train(self, training_data, answer_field, split_by_sentence, min_length,
+              max_length, remove_missing_pages=True):
         """
         Use a tf-idf vectorizer to analyze a training dataset and to process
         future examples.
@@ -60,6 +79,9 @@ class Guesser:
                 self.questions.append(question)
         
     def __call__(self, question, n_guesses=1):
+        """
+        Generate a guess from a question.
+        """
         return [{"guess": self._default_guess, "confidence": 1.0}]
 
 

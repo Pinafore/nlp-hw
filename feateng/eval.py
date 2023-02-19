@@ -1,9 +1,15 @@
+# Jordan Boyd-Graber
+# 2023
+#
+# Run an evaluation on a QA system and print results
 
 from random import random
 
 from buzzer import rough_compare
 
-from params import load_guesser, load_questions, load_buzzer, add_buzzer_params, add_guesser_params, add_general_params, add_question_params, setup_logging
+from params import load_guesser, load_questions, load_buzzer, \
+    add_buzzer_params, add_guesser_params, add_general_params,\
+    add_question_params, setup_logging
 
 kLABELS = {"best": "Guess was correct, Buzz was correct",
            "timid": "Guess was correct, Buzz was not",
@@ -11,6 +17,10 @@ kLABELS = {"best": "Guess was correct, Buzz was correct",
            "waiting": "Guess was wrong, Buzz was correct"}
 
 def eval_retrieval(guesser, questions, num_test, n_guesses=1, cutoff=None):
+    """
+    Evaluate the guesser's retrieval
+    """
+    
     recall = 0
     correct = 0
     total = 0
@@ -38,6 +48,10 @@ def eval_retrieval(guesser, questions, num_test, n_guesses=1, cutoff=None):
     return correct, recall, total
 
 def pretty_feature_print(features, first_features=["guess", "answer", "id"]):
+    """
+    Nicely print a buzzer example's features
+    """
+    
     import textwrap
     wrapper = textwrap.TextWrapper()
 
@@ -60,12 +74,11 @@ def pretty_feature_print(features, first_features=["guess", "answer", "id"]):
     return "\n".join(lines)
 
 
-
-
-
-    
-
 def eval_buzzer(buzzer, questions):
+    """
+    Compute buzzer outcomes on a dataset
+    """
+    
     from collections import Counter, defaultdict
     
     buzzer.load()

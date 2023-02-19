@@ -2,7 +2,7 @@ from time import sleep
 from guesser import Guesser
 
 import json
-import tqdm
+from tqdm import tqdm
 import logging
 
 
@@ -13,8 +13,17 @@ from openai.error import RateLimitError
 
 
 class GprGuesser(Guesser):
+    """
+    Class that uses the OpenAI API to generate answers to questions with hints
+    from our own guessers.  Cache the results because we're cheap and want
+    reproducability.
+    """
 
     def __init__(self, cache_filename="data/gpt3_cache.json", num_examples=2):
+        """
+
+        @param num_examples: How many retrieval results to include in GPT prompt
+        """
         self.retrievers = {}
         self.cache = {}
         self.num_queries = 0
@@ -24,17 +33,23 @@ class GprGuesser(Guesser):
 
 
     def __call__(self, question, n_guesses=1):
+        """
+        Generate a guess, but grab from the cache first if it's available
+        """
+        
         if n_guesses > 1:
             logging.warn("GPR Guesser doesn't support multiple guesses")
-        
+
+        # Check the cache, return it from there if we have it
         if question not in self.cache:
             result = None
             while result is None:
                 try:
                     result = self.predict(question)
                 except RateLimitError:
+                    # If we get shown the door, wait 30 seconds before pounding on it again
                     logging.info("Rate limit error, waiting 10 seconds")
-                    for _ in tqdm(10):
+                    for _ in tqdm(range(30)):
                         sleep(1)
 
             self.cache[question] = result
@@ -42,6 +57,10 @@ class GprGuesser(Guesser):
         
         
     def save(self):
+        """
+        Save the API results to a file to save money and time for the future
+        """
+        
         if self.num_queries > 0:
             logging.info("Made %i new queries, saving to %s" % (self.num_queries, self.cache_filename))
             with open(self.cache_filename, 'w') as outfile:
@@ -49,6 +68,9 @@ class GprGuesser(Guesser):
                 outfile.write(json_object)
             
     def load(self):
+        """
+        Load the cache of search results from a file
+        """
         try:
             with open(self.cache_filename, 'r') as infile:
                 json_object = json.load(infile)

@@ -1,3 +1,8 @@
+# Jordan Boyd-Graber
+# 2023
+#
+# Buzzer using Logistic Regression
+
 import pickle
 
 from sklearn.linear_model import LogisticRegression
@@ -5,6 +10,9 @@ from sklearn.linear_model import LogisticRegression
 from buzzer import Buzzer
 
 class LogisticBuzzer(Buzzer):
+    """
+    Logistic regression classifier to predict whether a buzz is correct or not.
+    """
 
     def train(self):
         X = Buzzer.train(self)

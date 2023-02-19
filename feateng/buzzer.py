@@ -175,6 +175,10 @@ class Buzzer:
             self._primary_guesser = "consensus"
         
     def add_data(self, questions, limit=-1, answer_field="page"):
+        """
+        Add data and extract features from them.
+        """
+        
         self.finalize()
         
         num_questions = 0
@@ -208,6 +212,12 @@ class Buzzer:
         return self._features
     
     def single_predict(self, run):
+        """
+        Make a prediction from a single example ... this us useful when the code
+        is run in real-time.
+
+        """
+        
         features = [self.featurize(None, run)]
 
         X = self._featurizer.transform(features)
@@ -216,6 +226,10 @@ class Buzzer:
     
            
     def predict(self, questions, online=False):
+        """
+        Predict from a large set of questions whether you should buzz or not.
+        """
+        
         assert self._classifier, "Classifier not trained"
         assert self._featurizer, "Featurizer not defined"
         X = self._featurizer.transform(self._features)
@@ -223,16 +237,28 @@ class Buzzer:
         return self._classifier.predict(X), X, self._features, self._correct, self._metadata
     
     def load(self):
+        """
+        Load the buzzer state from disk
+        """
+        
         with open("%s.featurizer.pkl" % self.filename, 'rb') as infile:
             self._featurizer = pickle.load(infile)        
     
     def save(self):
+        """
+        Save the buzzer state to disck
+        """
+        
         for gg in self._guessers:
             self._guessers[gg].save()
         with open("%s.featurizer.pkl" % self.filename, 'wb') as outfile:
             pickle.dump(self._featurizer, outfile)  
     
     def train(self):
+        """
+        Learn classifier parameters from the data loaded into the buzzer.
+        """
+        
         assert len(self._features) == len(self._correct)        
         self._featurizer = DictVectorizer(sparse=True)
         X = self._featurizer.fit_transform(self._features)
@@ -258,6 +284,5 @@ if __name__ == "__main__":
     buzzer.train()
     buzzer.save()
 
-    print("Ran on %i questions of %i" % (len(questions), flags.limit))
-    # Run it a single question
+    print("Ran on %i questions of %i" % (flags.limit, len(questions)))
     

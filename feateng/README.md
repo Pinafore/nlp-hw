@@ -168,13 +168,25 @@ Now you need to evaluate the classifier:
                       mistletoe to remain harmless.
 
 It's only answering two questions correctly.  And it's waiting a lot when the
-answer is correct.  So let's try it with the feature turned on.
+answer is correct.  So let's try it with the feature turned on (don't forget
+to retrain the model).
+
+    python3 buzzer.py --guesser_type=GprGuesser --limit=50
+    --question_source=json --GprGuesser_filename=../models/GprGuesser
+    --questions=../data/qanta.buzztrain.json --buzzer_guessers GprGuesser
+    --features Length Frequency
 
     python3 eval.py --guesser_type=GprGuesser
     --TfidfGuesser_filename=models/TfidfGuesser --limit=25
     --question_source=json --questions=../data/qanta.buzzdev.json
     --logging_file=buzzer.log --buzzer_guessers GprGuesser
     --GprGuesser_filename=../models/GprGuesser --features Length Frequency
+
+
+    ==================
+    answer 0.06
+    ==================
+
 
                guess: The Awakening (Chopin novel)
               answer: The_Awakening_(Chopin_novel)
@@ -196,7 +208,7 @@ answer is correct.  So let's try it with the feature turned on.
                       into a "pigeon house" outside of her house on Esplanade Street. This
                       mother of Raoul and Etienne watches Adele Ratignolle give birth on her
                       last night alive, and romances Alcee Arobin and
---------------------
+    --------------------
                guess: Athol Fugard
               answer: Athol_Fugard
                   id: 93163
@@ -219,7 +231,7 @@ answer is correct.  So let's try it with the feature turned on.
                       Island takes place just as the title antagonist's father is coming
                       home from the hospital, which prompts him to be cruel to Sam and
                       Willie, his
---------------------
+    --------------------
                guess: Athol Fugard
               answer: Athol_Fugard
                   id: 93163
@@ -243,7 +255,7 @@ answer is correct.  So let's try it with the feature turned on.
                       home from the hospital, which prompts him to be cruel to Sam and
                       Willie, his black servants. For 10 points, name this South African
                       playwright of "Master Harold"...and the Boys.
---------------------
+    --------------------
                guess: Frigg
               answer: Frigg
                   id: 93171
@@ -270,10 +282,16 @@ answer is correct.  So let's try it with the feature turned on.
 
 Okay, so that helped!
 
-Hmm, looking at the features, some of these values were really big.  This
-might be giving too much weight to really frequent answers.
+                         Frequency_guess: 0.3641
+                   GprGuesser_confidence: 0.0651
+                             Length_char: 0.4994
+                            Length_guess: -0.2049
+                             Length_word: 0.6408
+    Accuracy: 0.73  Buzz ratio: 16.00
 
-Let's try turning the raw count into a log and see if that helps.
+At the end of the eval script, you can see the features that it's using, the
+overall accuracy, and the ratio of correct buzzes to incorrect buzzes (should
+be positive).
 
 What Can You Do?
 -

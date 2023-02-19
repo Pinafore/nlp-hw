@@ -48,7 +48,7 @@ class GprGuesser(Guesser):
                     result = self.predict(question)
                 except RateLimitError:
                     # If we get shown the door, wait 30 seconds before pounding on it again
-                    logging.info("Rate limit error, waiting 10 seconds")
+                    logging.info("Rate limit error, waiting 30 seconds")
                     for _ in tqdm(range(30)):
                         sleep(1)
 

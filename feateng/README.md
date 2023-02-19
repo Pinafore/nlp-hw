@@ -34,27 +34,239 @@ How to add a feature?
 look at your predictions on
 the dev set and see where they're going wrong.
 
-1.  To add a feature, you need to create a new subclass of the Feature class.
-This is important so that you can try out different features by turning them
-on and off with the command line.
+1.  To add a feature, you need to create a new subclass of the Feature class
+in ``features.py``.  This is important so that you can try out different
+features by turning them on and off with the command line.
 
-2.  Add code to instantiate the feature.
+2.  Add code to instantiate the feature in ``params.py``.
 
 3.  (Optionally) Change the API to feed in more information into the feature
 generation process.  This would be necessary to capture temporal dynamics or   
 
 To walk you through the process, let's create a new feature that encodes how
 often the guess appeared in the training set.  The first step is to define the
-class.
+class in ``features.py``.
 
+    class FrequencyFeature:                       
+        def __init__(self, name):                 
+            from buzzer import normalize_answer   
+            self.name = name                      
+            self.counts = Counter()               
+            self.normalize = normalize_answer     
+    
+    def add_training(self, question_source):    
+            import json                             
+    
+        with open(question_source) as infile:                   
+                questions = json.load(infile)                       
+                for ii in questions:                                
+                    self.counts[self.normalize(ii["page"])] += 1    
+    
+    def __call__(self, question, run, guess):                               
+            yield ("guess", log(1 + self.counts[self.normalize(guess)]))        
+    
 
-Then the class needs to be loaded.  This happens in params.py.  Now you can
+Then the class needs to be loaded.  This happens in ``params.py``.  Now you can
 add the feature name to the command line to turn it on.
+
+    for ff in flags.features:
+        if ff == "Length":
+            from features import LengthFeature
+            feature = LengthFeature(ff)
+            buzzer.add_feature(feature)
+
+        if ff == "Frequency":                                  
+            from features import FrequencyFeature              
+            feature = FrequencyFeature(ff)                     
+            feature.add_training("data/qanta.guesstrain.json") 
+            buzzer.add_feature(feature)                        
+
 
 Before we try it out, we need to know what our baseline is.  So let's see how
 it did *without* that feature.
 
-So let's try it with the feature turned on.
+
+    mkdir -p models
+    python3 buzzer.py --guesser_type=GprGuesser --limit=50
+      --question_source=json --GprGuesser_filename=../models/GprGuesser
+      --questions=../data/qanta.buzztrain.json --buzzer_guessers GprGuesser
+
+After training the classifer, you should see something that looks like this:
+
+	Loaded 1660 entries from cache
+	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
+	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
+	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
+	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
+	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
+	/home/jbg/anaconda3/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:814: ConvergenceWarning: lbfgs failed to converge (status=1):
+	STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+	Increase the number of iterations (max_iter) or scale the data as shown in:
+	https://scikit-learn.org/stable/modules/preprocessing.html
+	Please also refer to the documentation for alternative solver options:
+	https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+	n_iter_i = _check_optimize_result(
+	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
+	Ran on 50 questions of 50
+
+(The warning about convergence is okay; hopefully it will converge better with
+more features!)
+
+Now you need to evaluate the classifier:
+
+        python3 eval.py --guesser_type=GprGuesser --TfidfGuesser_filename=models/TfidfGuesser --limit=25 --question_source=json --questions=../data/qanta.buzzdev.json --logging_file=buzzer.log --buzzer_guessers GprGuesser --GprGuesser_filename=../models/GprGuesser
+
+    [snip ...]
+
+    answer 0.01
+    ==================
+
+               guess: Donald Davidson (philosopher)
+              answer: Donald_Davidson_(philosopher)
+                  id: 93152
+    GprGuesser_guess: Donald Davidson (philosopher)
+      Gpr_confidence: -0.5728
+     consensus_guess: Donald Davidson (philosopher)
+     consensus_count: 1
+         Length_char: 6.6708
+        Length_guess: 3.4012
+         Length_word: 4.8040
+                text: This thinker wrote that "framework theories" cannot make sense of
+                      radio host Goodman Ace's malapropisms. This philosopher argued that an
+                      actor's "pro-attitude" must be part of the "primary reason" that
+                      causes an action. This author of "A Nice Derangement of Epitaphs"
+                      proposed using Tarski's semantic theory of truth as the core for a
+                      "theory of meaning," though he later claimed "there is no such thing
+                      as a language." He included the "principle of charity," which assumes
+                      that another speaker has true beliefs, in a method for understanding
+                      unfamiliar speech "from scratch." His alternative to mind-body dualism
+                      held that no natural laws connect physical events with mental events.
+                      For 10 points, name this American philosopher who devised "radical
+                      interpretation" and anomalous monism.
+    --------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+    GprGuesser_guess: Frigg
+      Gpr_confidence: -6.0745
+     consensus_guess: Frigg
+     consensus_count: 1
+         Length_char: 6.5539
+        Length_guess: 1.7918
+         Length_word: 4.8442
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
+                      this goddess of having affairs with Vili and Ve. After this goddess
+                      sent Hermod on a mission to Hel, the giantess Thokk refused to weep
+                      for her dead son because this goddess failed to get an oath from
+                      mistletoe to remain harmless.
+
+It's only answering two questions correctly.  And it's waiting a lot when the
+answer is correct.  So let's try it with the feature turned on.
+
+    python3 eval.py --guesser_type=GprGuesser
+    --TfidfGuesser_filename=models/TfidfGuesser --limit=25
+    --question_source=json --questions=../data/qanta.buzzdev.json
+    --logging_file=buzzer.log --buzzer_guessers GprGuesser
+    --GprGuesser_filename=../models/GprGuesser --features Length Frequency
+
+               guess: The Awakening (Chopin novel)
+              answer: The_Awakening_(Chopin_novel)
+                  id: 93160
+    GprGuesser_guess: The Awakening (Chopin novel)
+      Gpr_confidence: -0.4093
+     consensus_guess: The Awakening (Chopin novel)
+     consensus_count: 1
+         Length_char: 6.4036
+        Length_guess: 3.3673
+         Length_word: 4.6052
+     Frequency_guess: 3.4657
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't give herself up. Doctor Mandelet advises
+                      this character's husband to permit her whims, which include moving
+                      into a "pigeon house" outside of her house on Esplanade Street. This
+                      mother of Raoul and Etienne watches Adele Ratignolle give birth on her
+                      last night alive, and romances Alcee Arobin and
+--------------------
+               guess: Athol Fugard
+              answer: Athol_Fugard
+                  id: 93163
+    GprGuesser_guess: Athol Fugard
+      Gpr_confidence: -6.3761
+     consensus_guess: Athol Fugard
+     consensus_count: 1
+         Length_char: 6.5568
+        Length_guess: 2.5649
+         Length_word: 4.8903
+     Frequency_guess: 3.4965
+                text: In a play by this man, one title character counts the bruises caused
+                      by the other title character, who accuses her of looking behind her to
+                      find a dog on the road. This author also wrote a play in which two men
+                      stage an impromptu performance of Sophocles' Antigone after getting
+                      off their shifts as prison workers. This man created a teenager who
+                      debates the idea of a "Man of Magnitude" to aid his composition for an
+                      English class, as well two campers who take in an old man who does not
+                      speak English. A third play by this author of Boesman and Lena and The
+                      Island takes place just as the title antagonist's father is coming
+                      home from the hospital, which prompts him to be cruel to Sam and
+                      Willie, his
+--------------------
+               guess: Athol Fugard
+              answer: Athol_Fugard
+                  id: 93163
+    GprGuesser_guess: Athol Fugard
+      Gpr_confidence: -6.3834
+     consensus_guess: Athol Fugard
+     consensus_count: 1
+         Length_char: 6.6908
+        Length_guess: 2.5649
+         Length_word: 4.9972
+     Frequency_guess: 3.4965
+                text: In a play by this man, one title character counts the bruises caused
+                      by the other title character, who accuses her of looking behind her to
+                      find a dog on the road. This author also wrote a play in which two men
+                      stage an impromptu performance of Sophocles' Antigone after getting
+                      off their shifts as prison workers. This man created a teenager who
+                      debates the idea of a "Man of Magnitude" to aid his composition for an
+                      English class, as well two campers who take in an old man who does not
+                      speak English. A third play by this author of Boesman and Lena and The
+                      Island takes place just as the title antagonist's father is coming
+                      home from the hospital, which prompts him to be cruel to Sam and
+                      Willie, his black servants. For 10 points, name this South African
+                      playwright of "Master Harold"...and the Boys.
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+    GprGuesser_guess: Frigg
+      Gpr_confidence: -6.0745
+     consensus_guess: Frigg
+     consensus_count: 1
+         Length_char: 6.5539
+        Length_guess: 1.7918
+         Length_word: 4.8442
+     Frequency_guess: 2.8904
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
+                      this goddess of having affairs with Vili and Ve. After this goddess
+                      sent Hermod on a mission to Hel, the giantess Thokk refused to weep
+                      for her dead son because this goddess failed to get an oath from
+                      mistletoe to remain harmless.
+
 
 Okay, so that helped!
 
@@ -145,3 +357,7 @@ FAQ
 *A:* Yes, and we'll cover this in more detail later in the course.  For now,
  this is something we'll have to live with.
 
+*Q:* What if I get the error that ``GprGuesser`` has no attribute 'predict'?
+
+*A:* This means that you're running it on a guesser result that hasn't been
+ cached or that it can't find the cache file.  

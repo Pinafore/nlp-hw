@@ -6,9 +6,7 @@ from tqdm import tqdm
 import logging
 
 
-import openai
 
-from openai.error import RateLimitError
 
 
 
@@ -44,13 +42,7 @@ class GprGuesser(Guesser):
         if question not in self.cache:
             result = None
             while result is None:
-                try:
                     result = self.predict(question)
-                except RateLimitError:
-                    # If we get shown the door, wait 30 seconds before pounding on it again
-                    logging.info("Rate limit error, waiting 30 seconds")
-                    for _ in tqdm(range(30)):
-                        sleep(1)
 
             self.cache[question] = result
         return [self.cache[question]]

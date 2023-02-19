@@ -43,6 +43,7 @@ class GprGuesser(Guesser):
             result = None
             while result is None:
                     result = self.predict(question)
+                    
 
             self.cache[question] = result
         return [self.cache[question]]

@@ -27,6 +27,20 @@ It may seem straightforward, but do not start this at the last minute. There
 are often many things that go wrong in testing out features, and you'll want
 to make sure your features work well once you've found them.
 
+Getting Started
+-
+
+We'll use some more packages than we had before:
+
+    pip3 install unidecode nltk
+
+You'll also need to create a directory for the models you'll be
+creating
+
+     mkdir -p models
+
+You will also need to (https://www.nltk.org/_modules/nltk/downloader.html)[download some data from NLTK].
+
 How to add a feature?
 -
 

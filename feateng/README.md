@@ -345,11 +345,14 @@ approach to feature engineering.
 
 How to Turn in Your System
 -
-* ``features.py``: This file includes an implementation of your TfidfGuesser, but more importantly, the function ``write_guess_json`` that generates the files for your logistic regression model.
-* ``buzzer.py``: This file includes your implementation of GuessDataset and SimpleLogreg classes that we'll use.
+* ``features.py``: This file includes an implementation of your new features.
+* ``params.py``: This instantiates your new features.  Modify this so that the
+set of your best features runs by default.  
 * **Custom Training Data** (If you used additional training data beyond the Wikipedia pages, upload that as well
     * (OR) If either any of your files are >100MB, please submit a shell script named ``gather_resources.sh`` that will retrieve one or both of the files above programatically from a public location (i.e a public S3 bucket).
-* ``analysis.pdf``: Your **PDF** file containing your feature engineering analysis.
+* ``analysis.pdf``: Your **PDF** file containing your feature engineering
+analysis.
+
 
 Turn in the above files as usual via Gradescope, where we'll be using the
 leaderboard as before.  However, the position on the leaderboard will count
@@ -361,11 +364,13 @@ FAQ
 *Q:* Can I modify buzzer.py so that I can use the history of guesses in a
  question?
 
-*A:* Yes.
+*A:* Yes.  If you do that, make sure to upload the file.  We will replace the
+ default version of buzzer.py with your new submission.
 
 *Q:* Can I use the <INSERT NAME HERE> package?
 
-*A:* Clear it first on Piazza.  We'll provide spacy and nltk for sure.  We
+*A:* Clear it first on Piazza.  We'll provide spacy and nltk for sure (along
+ with all of the packages already used in this homework).  We
  won't allow packages that require internet access (e.g., wikipedia).  We
  don't have anything against Wikipedia, but we don't want to get our IP
  address banned.

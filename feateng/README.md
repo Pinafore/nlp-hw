@@ -39,8 +39,6 @@ creating
 
      mkdir -p models
 
-You will also need to (download some data from NLTK)[https://www.nltk.org/_modules/nltk/downloader.html].
-
 How to add a feature?
 -
 

@@ -1,0 +1,30 @@
+{
+  "S. P. L. S\u00f8rensen developed a type of this technique for amino acid analysis that employs formaldehyde": {
+    "guess": "Gas chromatography",
+    "confidence": -9.18747495806
+  },
+  "S. P. L. S\u00f8rensen developed a type of this technique for amino acid analysis that employs formaldehyde and potassium hydroxide. The presence of some metal ions in solution may be determined by performing": {
+    "guess": "Amino acid analysis",
+    "confidence": -9.828365288
+  },
+  "S. P. L. S\u00f8rensen developed a type of this technique for amino acid analysis that employs formaldehyde and potassium hydroxide. The presence of some metal ions in solution may be determined by performing this technique with EDTA. This technique leads to a graph whose inflection points represent the technique's": {
+    "guess": "ICP-MS",
+    "confidence": -9.8742379609
+  },
+  "S. P. L. S\u00f8rensen developed a type of this technique for amino acid analysis that employs formaldehyde and potassium hydroxide. The presence of some metal ions in solution may be determined by performing this technique with EDTA. This technique leads to a graph whose inflection points represent the technique's possible endpoints. For 10 points, name this method of quantitative analysis wherein the": {
+    "guess": "Isoelectric focusing",
+    "confidence": -10.511756545
+  },
+  "S. P. L. S\u00f8rensen developed a type of this technique for amino acid analysis that employs formaldehyde and potassium hydroxide. The presence of some metal ions in solution may be determined by performing this technique with EDTA. This technique leads to a graph whose inflection points represent the technique's possible endpoints. For 10 points, name this method of quantitative analysis wherein the chemist reacts a known volume at known concentration of one substance with a known volume of unknown": {
+    "guess": "Titration",
+    "confidence": -10.411376949370002
+  },
+  "S. P. L. S\u00f8rensen developed a type of this technique for amino acid analysis that employs formaldehyde and potassium hydroxide. The presence of some metal ions in solution may be determined by performing this technique with EDTA. This technique leads to a graph whose inflection points represent the technique's possible endpoints. For 10 points, name this method of quantitative analysis wherein the chemist reacts a known volume at known concentration of one substance with a known volume of unknown concentration of the other, most often employing a pH indicator to determine when the acid and base": {
+    "guess": "Titration",
+    "confidence": -9.5649526134
+  },
+  "S. P. L. S\u00f8rensen developed a type of this technique for amino acid analysis that employs formaldehyde and potassium hydroxide. The presence of some metal ions in solution may be determined by performing this technique with EDTA. This technique leads to a graph whose inflection points represent the technique's possible endpoints. For 10 points, name this method of quantitative analysis wherein the chemist reacts a known volume at known concentration of one substance with a known volume of unknown concentration of the other, most often employing a pH indicator to determine when the acid and base have neutralized.": {
+    "guess": "Titration",
+    "confidence": -9.380715929720001
+  }
+}

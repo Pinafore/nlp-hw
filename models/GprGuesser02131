@@ -1,0 +1,34 @@
+{
+  "For a Fock state, this quantity is well defined. This expected value of this quantity is given by the": {
+    "guess": "Expected value",
+    "confidence": -8.889039047499999
+  },
+  "For a Fock state, this quantity is well defined. This expected value of this quantity is given by the degeneracy of the corresponding energy level over the exponential function applied to the difference": {
+    "guess": "Wavefunction",
+    "confidence": -11.392168289999999
+  },
+  "For a Fock state, this quantity is well defined. This expected value of this quantity is given by the degeneracy of the corresponding energy level over the exponential function applied to the difference of energy and chemical potential over Boltzmann's constant times temperature, according to the Maxwell-Boltzmann": {
+    "guess": "Particle number",
+    "confidence": -10.412822725
+  },
+  "For a Fock state, this quantity is well defined. This expected value of this quantity is given by the degeneracy of the corresponding energy level over the exponential function applied to the difference of energy and chemical potential over Boltzmann's constant times temperature, according to the Maxwell-Boltzmann statistics. In the canonical ensemble, temperature, volume and this quantity are held": {
+    "guess": "Particle number",
+    "confidence": -8.53523704632
+  },
+  "For a Fock state, this quantity is well defined. This expected value of this quantity is given by the degeneracy of the corresponding energy level over the exponential function applied to the difference of energy and chemical potential over Boltzmann's constant times temperature, according to the Maxwell-Boltzmann statistics. In the canonical ensemble, temperature, volume and this quantity are held constant. A slight change in Gibbs free energy over a slight change in this quantity yields the (*)": {
+    "guess": "Particle number",
+    "confidence": -8.71989670473
+  },
+  "For a Fock state, this quantity is well defined. This expected value of this quantity is given by the degeneracy of the corresponding energy level over the exponential function applied to the difference of energy and chemical potential over Boltzmann's constant times temperature, according to the Maxwell-Boltzmann statistics. In the canonical ensemble, temperature, volume and this quantity are held constant. A slight change in Gibbs free energy over a slight change in this quantity yields the (*) chemical potential. It can be calculated by multiplying the number of moles by Avogadro's number. For": {
+    "guess": "Particle number",
+    "confidence": -8.4611585954
+  },
+  "For a Fock state, this quantity is well defined. This expected value of this quantity is given by the degeneracy of the corresponding energy level over the exponential function applied to the difference of energy and chemical potential over Boltzmann's constant times temperature, according to the Maxwell-Boltzmann statistics. In the canonical ensemble, temperature, volume and this quantity are held constant. A slight change in Gibbs free energy over a slight change in this quantity yields the (*) chemical potential. It can be calculated by multiplying the number of moles by Avogadro's number. For 10 points, name this thermodynamic quantity, a dimensionless extensive quantity usually symbolized": {
+    "guess": "Pressure",
+    "confidence": -11.910692533
+  },
+  "For a Fock state, this quantity is well defined. This expected value of this quantity is given by the degeneracy of the corresponding energy level over the exponential function applied to the difference of energy and chemical potential over Boltzmann's constant times temperature, according to the Maxwell-Boltzmann statistics. In the canonical ensemble, temperature, volume and this quantity are held constant. A slight change in Gibbs free energy over a slight change in this quantity yields the (*) chemical potential. It can be calculated by multiplying the number of moles by Avogadro's number. For 10 points, name this thermodynamic quantity, a dimensionless extensive quantity usually symbolized big N.": {
+    "guess": "Gibbs free energy",
+    "confidence": -9.7111768857
+  }
+}

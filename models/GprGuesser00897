@@ -1,0 +1,58 @@
+{
+  "A circular version of it is called the Corbino effect, and it can be measured using the Van der Pauw": {
+    "guess": "Hall effect",
+    "confidence": -8.981721095
+  },
+  "A circular version of it is called the Corbino effect, and it can be measured using the Van der Pauw method. Used in a type of spacecraft thruster, two versions of it differ in whether the filling factor": {
+    "guess": "Hall effect",
+    "confidence": -9.0464751629
+  },
+  "A circular version of it is called the Corbino effect, and it can be measured using the Van der Pauw method. Used in a type of spacecraft thruster, two versions of it differ in whether the filling factor nu is integral or rational. A thin copper film can be used as a namesake probe, to measure large": {
+    "guess": "Hall effect",
+    "confidence": -9.044840475700001
+  },
+  "A circular version of it is called the Corbino effect, and it can be measured using the Van der Pauw method. Used in a type of spacecraft thruster, two versions of it differ in whether the filling factor nu is integral or rational. A thin copper film can be used as a namesake probe, to measure large magnetic fields on the order of one tesla. With thermal, spin, and quantum varieties, it occurs because": {
+    "guess": "Hall effect",
+    "confidence": -9.225720725
+  },
+  "A circular version of it is called the Corbino effect, and it can be measured using the Van der Pauw method. Used in a type of spacecraft thruster, two versions of it differ in whether the filling factor nu is integral or rational. A thin copper film can be used as a namesake probe, to measure large magnetic fields on the order of one tesla. With thermal, spin, and quantum varieties, it occurs because the Lorentz force pushes charge carriers to one side of the conductor, producing a measurable voltage.": {
+    "guess": "Hall Effect",
+    "confidence": -7.3326671277854
+  },
+  "A circular version of it is called the Corbino effect, and it can be measured using the Van der Pauw method. Used in a type of spacecraft thruster, two versions of it differ in whether the filling factor nu is integral or rational. A thin copper film can be used as a namesake probe, to measure large magnetic fields on the order of one tesla. With thermal, spin, and quantum varieties, it occurs because the Lorentz force pushes charge carriers to one side of the conductor, producing a measurable voltage. Used to determine the sign of the charge carriers, for 10 points, name this effect in which a": {
+    "guess": "Corbino Effect",
+    "confidence": -8.16259507596
+  },
+  "A circular version of it is called the Corbino effect, and it can be measured using the Van der Pauw method. Used in a type of spacecraft thruster, two versions of it differ in whether the filling factor nu is integral or rational. A thin copper film can be used as a namesake probe, to measure large magnetic fields on the order of one tesla. With thermal, spin, and quantum varieties, it occurs because the Lorentz force pushes charge carriers to one side of the conductor, producing a measurable voltage. Used to determine the sign of the charge carriers, for 10 points, name this effect in which a perpendicular potential difference arises in a current-carrying conductor placed in a magnetic field.": {
+    "guess": "Hall effect",
+    "confidence": -6.92283568241794
+  },
+  "In a circle, this distance equals the radius minus the sagitta of a chord, which equals the distance": {
+    "guess": "Chord length",
+    "confidence": -7.327949034289198
+  },
+  "In a circle, this distance equals the radius minus the sagitta of a chord, which equals the distance from the center of the circle to the midpoint of that chord. For other shapes, this equals the side": {
+    "guess": "Radius",
+    "confidence": -11.223705113
+  },
+  "In a circle, this distance equals the radius minus the sagitta of a chord, which equals the distance from the center of the circle to the midpoint of that chord. For other shapes, this equals the side length divided by twice the tangent of the quantity pi over n, where n is the number of sides, so, for": {
+    "guess": "Radius",
+    "confidence": -7.4189116567180005
+  },
+  "In a circle, this distance equals the radius minus the sagitta of a chord, which equals the distance from the center of the circle to the midpoint of that chord. For other shapes, this equals the side length divided by twice the tangent of the quantity pi over n, where n is the number of sides, so, for example, it equals the side length times root three over two for a regular hexagon. For any regular": {
+    "guess": "The radius",
+    "confidence": -8.5011945626695
+  },
+  "In a circle, this distance equals the radius minus the sagitta of a chord, which equals the distance from the center of the circle to the midpoint of that chord. For other shapes, this equals the side length divided by twice the tangent of the quantity pi over n, where n is the number of sides, so, for example, it equals the side length times root three over two for a regular hexagon. For any regular polygon, this distance is twice the area divided by the perimeter. Contrasted with the radius of": {
+    "guess": "SAGITTAS",
+    "confidence": -11.581978692
+  },
+  "In a circle, this distance equals the radius minus the sagitta of a chord, which equals the distance from the center of the circle to the midpoint of that chord. For other shapes, this equals the side length divided by twice the tangent of the quantity pi over n, where n is the number of sides, so, for example, it equals the side length times root three over two for a regular hexagon. For any regular polygon, this distance is twice the area divided by the perimeter. Contrasted with the radius of a polygon, name this distance, or segment, from the center of a regular polygon to the midpoint of one": {
+    "guess": "Perimeter",
+    "confidence": -6.9611193042805
+  },
+  "In a circle, this distance equals the radius minus the sagitta of a chord, which equals the distance from the center of the circle to the midpoint of that chord. For other shapes, this equals the side length divided by twice the tangent of the quantity pi over n, where n is the number of sides, so, for example, it equals the side length times root three over two for a regular hexagon. For any regular polygon, this distance is twice the area divided by the perimeter. Contrasted with the radius of a polygon, name this distance, or segment, from the center of a regular polygon to the midpoint of one of its edges.": {
+    "guess": "Perimeter",
+    "confidence": -6.686858240177499
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "The Bowden-Tabor model can be used to describe this behavior in molybdenum disulfide*, while applying": {
+    "guess": "Friction",
+    "confidence": -9.143997350517001
+  },
+  "The Bowden-Tabor model can be used to describe this behavior in molybdenum disulfide*, while applying an AC voltage to an NaCl crystal results in a dynamic version of it. Polymer brushes are a common method": {
+    "guess": "Piezoelectricity",
+    "confidence": -2.9538238816445004
+  },
+  "The Bowden-Tabor model can be used to describe this behavior in molybdenum disulfide*, while applying an AC voltage to an NaCl crystal results in a dynamic version of it. Polymer brushes are a common method of achieving this phenomenon, and this term was coined by Hirano after a study using UHV scanning": {
+    "guess": "Piezoelectricity",
+    "confidence": -3.3388043968952
+  },
+  "The Bowden-Tabor model can be used to describe this behavior in molybdenum disulfide*, while applying an AC voltage to an NaCl crystal results in a dynamic version of it. Polymer brushes are a common method of achieving this phenomenon, and this term was coined by Hirano after a study using UHV scanning tunneling microscopy. One model describing this phenomenon uses a harmonic oscillator hanging from": {
+    "guess": "Jahn-Teller effect",
+    "confidence": -3.035080993731
+  },
+  "The Bowden-Tabor model can be used to describe this behavior in molybdenum disulfide*, while applying an AC voltage to an NaCl crystal results in a dynamic version of it. Polymer brushes are a common method of achieving this phenomenon, and this term was coined by Hirano after a study using UHV scanning tunneling microscopy. One model describing this phenomenon uses a harmonic oscillator hanging from leaf springs over a periodic potential, and has a stickslip regime for eta greater than 1, known": {
+    "guess": "Hirano model",
+    "confidence": -8.938740299340001
+  },
+  "The Bowden-Tabor model can be used to describe this behavior in molybdenum disulfide*, while applying an AC voltage to an NaCl crystal results in a dynamic version of it. Polymer brushes are a common method of achieving this phenomenon, and this term was coined by Hirano after a study using UHV scanning tunneling microscopy. One model describing this phenomenon uses a harmonic oscillator hanging from leaf springs over a periodic potential, and has a stickslip regime for eta greater than 1, known as the Tomlinson model. This effect can be applied to the construction of MEMS and other nanotechnology,": {
+    "guess": "",
+    "confidence": -5.8262341097362995
+  },
+  "The Bowden-Tabor model can be used to describe this behavior in molybdenum disulfide*, while applying an AC voltage to an NaCl crystal results in a dynamic version of it. Polymer brushes are a common method of achieving this phenomenon, and this term was coined by Hirano after a study using UHV scanning tunneling microscopy. One model describing this phenomenon uses a harmonic oscillator hanging from leaf springs over a periodic potential, and has a stickslip regime for eta greater than 1, known as the Tomlinson model. This effect can be applied to the construction of MEMS and other nanotechnology, especially because two graphite sheets rubbing against each other display it. For 10 points, name": {
+    "guess": "Hysteresis",
+    "confidence": -8.633957092433
+  },
+  "The Bowden-Tabor model can be used to describe this behavior in molybdenum disulfide*, while applying an AC voltage to an NaCl crystal results in a dynamic version of it. Polymer brushes are a common method of achieving this phenomenon, and this term was coined by Hirano after a study using UHV scanning tunneling microscopy. One model describing this phenomenon uses a harmonic oscillator hanging from leaf springs over a periodic potential, and has a stickslip regime for eta greater than 1, known as the Tomlinson model. This effect can be applied to the construction of MEMS and other nanotechnology, especially because two graphite sheets rubbing against each other display it. For 10 points, name this effect where two surfaces display little to no friction against each other.": {
+    "guess": "Frictionless sliding.",
+    "confidence": -8.654772279
+  }
+}

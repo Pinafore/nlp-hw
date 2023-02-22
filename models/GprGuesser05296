@@ -1,0 +1,18 @@
+{
+  "For nuclear reactor fuel, uranium is converted to its hexaflouride species and the 235 isotope enriched": {
+    "guess": "Uranium hexafluoride",
+    "confidence": -1.4073292664430002
+  },
+  "For nuclear reactor fuel, uranium is converted to its hexaflouride species and the 235 isotope enriched using this law.  It can determine the vapor pressure of some materials, as well as find the rate": {
+    "guess": "The vapor pressure of some materials",
+    "confidence": -5.242114279499999
+  },
+  "For nuclear reactor fuel, uranium is converted to its hexaflouride species and the 235 isotope enriched using this law.  It can determine the vapor pressure of some materials, as well as find the rate of evaporation from a surface. What law named for a British scientist states, for ten points, that the": {
+    "guess": "The law of Henry Cavendish",
+    "confidence": -7.463029682390001
+  },
+  "For nuclear reactor fuel, uranium is converted to its hexaflouride species and the 235 isotope enriched using this law.  It can determine the vapor pressure of some materials, as well as find the rate of evaporation from a surface. What law named for a British scientist states, for ten points, that the square root of the inverse ratio of the molecular masses of two gases equals their rate of effusion?": {
+    "guess": "Graham's law",
+    "confidence": -7.686995993674671
+  }
+}

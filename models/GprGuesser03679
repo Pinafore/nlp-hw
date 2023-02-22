@@ -1,0 +1,22 @@
+{
+  "Joule's first law relates this quantity to heat, time, and current squared, and an unknown value for": {
+    "guess": "Power",
+    "confidence": -11.689627688700002
+  },
+  "Joule's first law relates this quantity to heat, time, and current squared, and an unknown value for this quantity can be calculated given three known values using a Wheatstone bridge. It is the inverse": {
+    "guess": "Vitesse",
+    "confidence": -10.464307048083999
+  },
+  "Joule's first law relates this quantity to heat, time, and current squared, and an unknown value for this quantity can be calculated given three known values using a Wheatstone bridge. It is the inverse of conductance, and in AC circuits, this quantity, together with (*) reactance, gives the impedance.": {
+    "guess": "R\u00e9sistance",
+    "confidence": -9.450902486229001
+  },
+  "Joule's first law relates this quantity to heat, time, and current squared, and an unknown value for this quantity can be calculated given three known values using a Wheatstone bridge. It is the inverse of conductance, and in AC circuits, this quantity, together with (*) reactance, gives the impedance. This quantity is equal to potential difference divided by current, according to Ohm's Law. For 10": {
+    "guess": "Joule's first law",
+    "confidence": -7.974866202299999
+  },
+  "Joule's first law relates this quantity to heat, time, and current squared, and an unknown value for this quantity can be calculated given three known values using a Wheatstone bridge. It is the inverse of conductance, and in AC circuits, this quantity, together with (*) reactance, gives the impedance. This quantity is equal to potential difference divided by current, according to Ohm's Law. For 10 points, name this quantity, the measure of an object's ability to oppose the flow of a current.": {
+    "guess": "Resistance",
+    "confidence": -10.964047847
+  }
+}

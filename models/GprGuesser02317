@@ -1,0 +1,298 @@
+{
+  "In this gas-filled cylinder, the voltage between the walls and the axial wire is larger than in either": {
+    "guess": "The gas is compressed",
+    "confidence": -12.422089904
+  },
+  "In this gas-filled cylinder, the voltage between the walls and the axial wire is larger than in either a proportional counter or ionization chamber. Entering energetic particles ionize the gas and produce": {
+    "guess": "Electron emission",
+    "confidence": -11.290892445
+  },
+  "In this gas-filled cylinder, the voltage between the walls and the axial wire is larger than in either a proportional counter or ionization chamber. Entering energetic particles ionize the gas and produce an avalanche of electrons that generate a current pulse. What detector, for ten points, does not": {
+    "guess": "Ionization chamber",
+    "confidence": -9.648751064599999
+  },
+  "In this gas-filled cylinder, the voltage between the walls and the axial wire is larger than in either a proportional counter or ionization chamber. Entering energetic particles ionize the gas and produce an avalanche of electrons that generate a current pulse. What detector, for ten points, does not measure particle energy, instead producing the same characteristic click for all radiation?": {
+    "guess": "Photoelectric effect",
+    "confidence": -8.975184715
+  },
+  "In gas chromatography, this word describes a product obtained when silyl groups are added to a molecule": {
+    "guess": "Silanes",
+    "confidence": -10.03864924
+  },
+  "In gas chromatography, this word describes a product obtained when silyl groups are added to a molecule of interest to reduce polarity. In multi-variable calculus, one operator with this name is the dot": {
+    "guess": "Silyl group",
+    "confidence": -9.794144519300001
+  },
+  "In gas chromatography, this word describes a product obtained when silyl groups are added to a molecule of interest to reduce polarity. In multi-variable calculus, one operator with this name is the dot product of a unit vector with the gradient, known as the directional this. In biochemistry, this term": {
+    "guess": "",
+    "confidence": -11.219035277954
+  },
+  "In gas chromatography, this word describes a product obtained when silyl groups are added to a molecule of interest to reduce polarity. In multi-variable calculus, one operator with this name is the dot product of a unit vector with the gradient, known as the directional this. In biochemistry, this term refers to a molecule that is synthesized by slightly modifying a given compound, usually by adding": {
+    "guess": "Derivative",
+    "confidence": -10.227006930700002
+  },
+  "In gas chromatography, this word describes a product obtained when silyl groups are added to a molecule of interest to reduce polarity. In multi-variable calculus, one operator with this name is the dot product of a unit vector with the gradient, known as the directional this. In biochemistry, this term refers to a molecule that is synthesized by slightly modifying a given compound, usually by adding a named group - for example, aniline is an amino one of these of benzene. In single-variable calculus,": {
+    "guess": "Derivative",
+    "confidence": -6.850488989879199
+  },
+  "In gas chromatography, this word describes a product obtained when silyl groups are added to a molecule of interest to reduce polarity. In multi-variable calculus, one operator with this name is the dot product of a unit vector with the gradient, known as the directional this. In biochemistry, this term refers to a molecule that is synthesized by slightly modifying a given compound, usually by adding a named group - for example, aniline is an amino one of these of benzene. In single-variable calculus, the nth of these of a given function appears in the nth coefficient of the Taylor series of that": {
+    "guess": "Derivative",
+    "confidence": -8.360211329230001
+  },
+  "In gas chromatography, this word describes a product obtained when silyl groups are added to a molecule of interest to reduce polarity. In multi-variable calculus, one operator with this name is the dot product of a unit vector with the gradient, known as the directional this. In biochemistry, this term refers to a molecule that is synthesized by slightly modifying a given compound, usually by adding a named group - for example, aniline is an amino one of these of benzene. In single-variable calculus, the nth of these of a given function appears in the nth coefficient of the Taylor series of that function. For 10 points, give this common word the one of which from calculus can be used on both": {
+    "guess": "Derivative",
+    "confidence": -8.2140864079
+  },
+  "In gas chromatography, this word describes a product obtained when silyl groups are added to a molecule of interest to reduce polarity. In multi-variable calculus, one operator with this name is the dot product of a unit vector with the gradient, known as the directional this. In biochemistry, this term refers to a molecule that is synthesized by slightly modifying a given compound, usually by adding a named group - for example, aniline is an amino one of these of benzene. In single-variable calculus, the nth of these of a given function appears in the nth coefficient of the Taylor series of that function. For 10 points, give this common word the one of which from calculus can be used on both dividends of an apparently indeterminate limit according to l'H\u00f4spital's [low-pee-TALZ] rule.": {
+    "guess": "Derivative",
+    "confidence": -8.16573029898
+  },
+  "In a gas with a Maxwell-Boltzmann distribution, this effect transforms a sharp line into a Gaussian line": {
+    "guess": "Thermalization",
+    "confidence": -11.942930973200001
+  },
+  "In a gas with a Maxwell-Boltzmann distribution, this effect transforms a sharp line into a Gaussian line profile. This effect is used to scan through frequencies to find resonances in gamma ray absorption": {
+    "guess": "",
+    "confidence": -3.285819132898
+  },
+  "In a gas with a Maxwell-Boltzmann distribution, this effect transforms a sharp line into a Gaussian line profile. This effect is used to scan through frequencies to find resonances in gamma ray absorption in M\u00f6ssbauer spectroscopy. A Galilean transformation of the phase velocity gives the equation for": {
+    "guess": "The Doppler effect",
+    "confidence": -9.945250472981
+  },
+  "In a gas with a Maxwell-Boltzmann distribution, this effect transforms a sharp line into a Gaussian line profile. This effect is used to scan through frequencies to find resonances in gamma ray absorption in M\u00f6ssbauer spectroscopy. A Galilean transformation of the phase velocity gives the equation for the classical version of this effect, while its (*) transverse form occurs due to relativistic time": {
+    "guess": "Doppler effect",
+    "confidence": -7.8612231670315
+  },
+  "In a gas with a Maxwell-Boltzmann distribution, this effect transforms a sharp line into a Gaussian line profile. This effect is used to scan through frequencies to find resonances in gamma ray absorption in M\u00f6ssbauer spectroscopy. A Galilean transformation of the phase velocity gives the equation for the classical version of this effect, while its (*) transverse form occurs due to relativistic time dilation. When the sine of the Mach angle is less than one, this effect causes wave compression in": {
+    "guess": "Doppler effect",
+    "confidence": -8.269800046134002
+  },
+  "In a gas with a Maxwell-Boltzmann distribution, this effect transforms a sharp line into a Gaussian line profile. This effect is used to scan through frequencies to find resonances in gamma ray absorption in M\u00f6ssbauer spectroscopy. A Galilean transformation of the phase velocity gives the equation for the classical version of this effect, while its (*) transverse form occurs due to relativistic time dilation. When the sine of the Mach angle is less than one, this effect causes wave compression in front of a wave source. Wavelength shifts caused by this effect can be red or blue based on the direction": {
+    "guess": "\u0160tark",
+    "confidence": -10.13704171103
+  },
+  "In a gas with a Maxwell-Boltzmann distribution, this effect transforms a sharp line into a Gaussian line profile. This effect is used to scan through frequencies to find resonances in gamma ray absorption in M\u00f6ssbauer spectroscopy. A Galilean transformation of the phase velocity gives the equation for the classical version of this effect, while its (*) transverse form occurs due to relativistic time dilation. When the sine of the Mach angle is less than one, this effect causes wave compression in front of a wave source. Wavelength shifts caused by this effect can be red or blue based on the direction of motion of a source of light. For 10 points, name this effect that changes the frequencies": {
+    "guess": "Doppler effect",
+    "confidence": -9.259318600307
+  },
+  "In a gas with a Maxwell-Boltzmann distribution, this effect transforms a sharp line into a Gaussian line profile. This effect is used to scan through frequencies to find resonances in gamma ray absorption in M\u00f6ssbauer spectroscopy. A Galilean transformation of the phase velocity gives the equation for the classical version of this effect, while its (*) transverse form occurs due to relativistic time dilation. When the sine of the Mach angle is less than one, this effect causes wave compression in front of a wave source. Wavelength shifts caused by this effect can be red or blue based on the direction of motion of a source of light. For 10 points, name this effect that changes the frequencies of receding and advancing wave sources.": {
+    "guess": "Doppler effect",
+    "confidence": -6.827853814679001
+  },
+  "The Garcia-Koelling experiment discovered constraints on this paradigm due to the close relations of": {
+    "guess": "Genetics",
+    "confidence": -11.613408407299998
+  },
+  "The Garcia-Koelling experiment discovered constraints on this paradigm due to the close relations of flavor with X-ray-induced nausea. A mathematical model describing this paradigm calls lambda maximum": {
+    "guess": "Probability",
+    "confidence": -10.101153338
+  },
+  "The Garcia-Koelling experiment discovered constraints on this paradigm due to the close relations of flavor with X-ray-induced nausea. A mathematical model describing this paradigm calls lambda maximum associative strength and states that the incremental change in strength is proportional to factors": {
+    "guess": "Probability",
+    "confidence": -10.470460997000002
+  },
+  "The Garcia-Koelling experiment discovered constraints on this paradigm due to the close relations of flavor with X-ray-induced nausea. A mathematical model describing this paradigm calls lambda maximum associative strength and states that the incremental change in strength is proportional to factors like salience. That is the Rescorla-Wagner model. A more traditional experiment at Johns Hopkins saw": {
+    "guess": "Behaviorism",
+    "confidence": -10.6252516776
+  },
+  "The Garcia-Koelling experiment discovered constraints on this paradigm due to the close relations of flavor with X-ray-induced nausea. A mathematical model describing this paradigm calls lambda maximum associative strength and states that the incremental change in strength is proportional to factors like salience. That is the Rescorla-Wagner model. A more traditional experiment at Johns Hopkins saw the subject come to fear all (*) white fluffy things due to stimulus generalization common to this": {
+    "guess": "Psychology",
+    "confidence": -11.4904828755
+  },
+  "The Garcia-Koelling experiment discovered constraints on this paradigm due to the close relations of flavor with X-ray-induced nausea. A mathematical model describing this paradigm calls lambda maximum associative strength and states that the incremental change in strength is proportional to factors like salience. That is the Rescorla-Wagner model. A more traditional experiment at Johns Hopkins saw the subject come to fear all (*) white fluffy things due to stimulus generalization common to this form of learning. That experiment saw a CR of crying to a harmless rat eventually evoked thanks to the": {
+    "guess": "Classical conditioning",
+    "confidence": -9.226117072200001
+  },
+  "The Garcia-Koelling experiment discovered constraints on this paradigm due to the close relations of flavor with X-ray-induced nausea. A mathematical model describing this paradigm calls lambda maximum associative strength and states that the incremental change in strength is proportional to factors like salience. That is the Rescorla-Wagner model. A more traditional experiment at Johns Hopkins saw the subject come to fear all (*) white fluffy things due to stimulus generalization common to this form of learning. That experiment saw a CR of crying to a harmless rat eventually evoked thanks to the banging of metal behind a child's head. FTP, name this type of learning exemplified by the Little": {
+    "guess": "Classical Conditioning",
+    "confidence": -8.7113657489812
+  },
+  "The Garcia-Koelling experiment discovered constraints on this paradigm due to the close relations of flavor with X-ray-induced nausea. A mathematical model describing this paradigm calls lambda maximum associative strength and states that the incremental change in strength is proportional to factors like salience. That is the Rescorla-Wagner model. A more traditional experiment at Johns Hopkins saw the subject come to fear all (*) white fluffy things due to stimulus generalization common to this form of learning. That experiment saw a CR of crying to a harmless rat eventually evoked thanks to the banging of metal behind a child's head. FTP, name this type of learning exemplified by the Little Albert experiment, as well as teaching a dog to salivate at the sound of a bell, a type of conditioning": {
+    "guess": "Classical Conditioning",
+    "confidence": -8.7886306720492
+  },
+  "The Garcia-Koelling experiment discovered constraints on this paradigm due to the close relations of flavor with X-ray-induced nausea. A mathematical model describing this paradigm calls lambda maximum associative strength and states that the incremental change in strength is proportional to factors like salience. That is the Rescorla-Wagner model. A more traditional experiment at Johns Hopkins saw the subject come to fear all (*) white fluffy things due to stimulus generalization common to this form of learning. That experiment saw a CR of crying to a harmless rat eventually evoked thanks to the banging of metal behind a child's head. FTP, name this type of learning exemplified by the Little Albert experiment, as well as teaching a dog to salivate at the sound of a bell, a type of conditioning elucidated by Pavlov.": {
+    "guess": "Classical Conditioning",
+    "confidence": -6.7282106248627
+  },
+  "The gardens of this complex were designed by Melinda Taylor and Lawrence Reed Moline, and a namesake": {
+    "guess": "Melinda and Lawrence Reed Moline Gardens",
+    "confidence": -3.2117610851
+  },
+  "The gardens of this complex were designed by Melinda Taylor and Lawrence Reed Moline, and a namesake fountain includes a mosaic made of broken Royal Delft China and emulates the opening petals of a rose.": {
+    "guess": "The Ritz-Carlton, Chicago",
+    "confidence": -5.9953803153614
+  },
+  "The gardens of this complex were designed by Melinda Taylor and Lawrence Reed Moline, and a namesake fountain includes a mosaic made of broken Royal Delft China and emulates the opening petals of a rose. At the front of its auditorium is this building's pipe organ, surrounded by wildly intertwining wooden": {
+    "guess": "The Royal Botanic Gardens, Kew",
+    "confidence": -3.5130555328
+  },
+  "The gardens of this complex were designed by Melinda Taylor and Lawrence Reed Moline, and a namesake fountain includes a mosaic made of broken Royal Delft China and emulates the opening petals of a rose. At the front of its auditorium is this building's pipe organ, surrounded by wildly intertwining wooden pipes and planks. Other sites within it include the Ira Gershwin Gallery, and the acoustics of": {
+    "guess": "The George Gershwin Theatre",
+    "confidence": -2.183473463008
+  },
+  "The gardens of this complex were designed by Melinda Taylor and Lawrence Reed Moline, and a namesake fountain includes a mosaic made of broken Royal Delft China and emulates the opening petals of a rose. At the front of its auditorium is this building's pipe organ, surrounded by wildly intertwining wooden pipes and planks. Other sites within it include the Ira Gershwin Gallery, and the acoustics of the concert hall were designed by Yasuhisa (*) Toyota. Modifications had to be made to this work's": {
+    "guess": "The Auditorium Building is the Chicago Symphony",
+    "confidence": -6.827476541316999
+  },
+  "The gardens of this complex were designed by Melinda Taylor and Lawrence Reed Moline, and a namesake fountain includes a mosaic made of broken Royal Delft China and emulates the opening petals of a rose. At the front of its auditorium is this building's pipe organ, surrounded by wildly intertwining wooden pipes and planks. Other sites within it include the Ira Gershwin Gallery, and the acoustics of the concert hall were designed by Yasuhisa (*) Toyota. Modifications had to be made to this work's Founders Room exterior, because the concave stainless steel surface with a matte finish caused some": {
+    "guess": "The Walt Disney Concert Hall",
+    "confidence": -7.628790983659999
+  },
+  "The gardens of this complex were designed by Melinda Taylor and Lawrence Reed Moline, and a namesake fountain includes a mosaic made of broken Royal Delft China and emulates the opening petals of a rose. At the front of its auditorium is this building's pipe organ, surrounded by wildly intertwining wooden pipes and planks. Other sites within it include the Ira Gershwin Gallery, and the acoustics of the concert hall were designed by Yasuhisa (*) Toyota. Modifications had to be made to this work's Founders Room exterior, because the concave stainless steel surface with a matte finish caused some viewers to suffer from glare as well as intense interior heat. Constructed of many such concave panels": {
+    "guess": "The Getty Center",
+    "confidence": -9.149919106999999
+  },
+  "The gardens of this complex were designed by Melinda Taylor and Lawrence Reed Moline, and a namesake fountain includes a mosaic made of broken Royal Delft China and emulates the opening petals of a rose. At the front of its auditorium is this building's pipe organ, surrounded by wildly intertwining wooden pipes and planks. Other sites within it include the Ira Gershwin Gallery, and the acoustics of the concert hall were designed by Yasuhisa (*) Toyota. Modifications had to be made to this work's Founders Room exterior, because the concave stainless steel surface with a matte finish caused some viewers to suffer from glare as well as intense interior heat. Constructed of many such concave panels and the successor to the Dorothy Chandler Pavilion, this is, for 10 points, which home of the Los": {
+    "guess": "Los Angeles",
+    "confidence": -9.530362393770002
+  },
+  "The gardens of this complex were designed by Melinda Taylor and Lawrence Reed Moline, and a namesake fountain includes a mosaic made of broken Royal Delft China and emulates the opening petals of a rose. At the front of its auditorium is this building's pipe organ, surrounded by wildly intertwining wooden pipes and planks. Other sites within it include the Ira Gershwin Gallery, and the acoustics of the concert hall were designed by Yasuhisa (*) Toyota. Modifications had to be made to this work's Founders Room exterior, because the concave stainless steel surface with a matte finish caused some viewers to suffer from glare as well as intense interior heat. Constructed of many such concave panels and the successor to the Dorothy Chandler Pavilion, this is, for 10 points, which home of the Los Angeles Philharmonic and Los Angeles Master Chorale, a work designed by Frank Gehry?": {
+    "guess": "Walt Disney Concert Hall",
+    "confidence": -6.973212617065999
+  },
+  "The garbha-dhatu style represents movements from one to many while the vajra-dhatu represents the opposite.": {
+    "guess": "Buddhism",
+    "confidence": -11.9059905745
+  },
+  "The garbha-dhatu style represents movements from one to many while the vajra-dhatu represents the opposite. The Kalachakra one represents the entirety of universal time. They appear in such unlikely sources": {
+    "guess": "Buddhism",
+    "confidence": -11.0002444278
+  },
+  "The garbha-dhatu style represents movements from one to many while the vajra-dhatu represents the opposite. The Kalachakra one represents the entirety of universal time. They appear in such unlikely sources as the writings of Hildegard of Bingen, while Carl Jung's studies of it were a critical step in": {
+    "guess": "Tantra",
+    "confidence": -11.225437254
+  },
+  "The garbha-dhatu style represents movements from one to many while the vajra-dhatu represents the opposite. The Kalachakra one represents the entirety of universal time. They appear in such unlikely sources as the writings of Hildegard of Bingen, while Carl Jung's studies of it were a critical step in his individuation theory. For 10 points, name this representation of the universe in Hinduism and": {
+    "guess": "The mandala",
+    "confidence": -10.326739937
+  },
+  "The garbha-dhatu style represents movements from one to many while the vajra-dhatu represents the opposite. The Kalachakra one represents the entirety of universal time. They appear in such unlikely sources as the writings of Hildegard of Bingen, while Carl Jung's studies of it were a critical step in his individuation theory. For 10 points, name this representation of the universe in Hinduism and Buddhism, named from the Sanskrit for \"circle.\"": {
+    "guess": "Mandala",
+    "confidence": -10.297514456179998
+  },
+  "Gary Karr arranged this composer's cello sonata in A Minor as a double bass concerto, while folk music": {
+    "guess": "John Williams",
+    "confidence": -12.517948795549998
+  },
+  "Gary Karr arranged this composer's cello sonata in A Minor as a double bass concerto, while folk music collected by Lindeman gave inspiration to four symphonic dances, the Opus 64 of this composer. He": {
+    "guess": "Dmitri Shostakovich",
+    "confidence": -4.625748858319
+  },
+  "Gary Karr arranged this composer's cello sonata in A Minor as a double bass concerto, while folk music collected by Lindeman gave inspiration to four symphonic dances, the Opus 64 of this composer. He included two wordless Hallings in his Album for Male Chorus, while a drum roll and a set of octaves": {
+    "guess": "Bart\u00f3k",
+    "confidence": -10.95896853996
+  },
+  "Gary Karr arranged this composer's cello sonata in A Minor as a double bass concerto, while folk music collected by Lindeman gave inspiration to four symphonic dances, the Opus 64 of this composer. He included two wordless Hallings in his Album for Male Chorus, while a drum roll and a set of octaves played by the solo instrument open this composer's famous piano concerto in A Minor. An Arietta is the": {
+    "guess": "Beethoven",
+    "confidence": -9.635999996922
+  },
+  "Gary Karr arranged this composer's cello sonata in A Minor as a double bass concerto, while folk music collected by Lindeman gave inspiration to four symphonic dances, the Opus 64 of this composer. He included two wordless Hallings in his Album for Male Chorus, while a drum roll and a set of octaves played by the solo instrument open this composer's famous piano concerto in A Minor. An Arietta is the first of the 66 short piano pieces in one collection by this composer, whose lament The Death of": {
+    "guess": "Schumann",
+    "confidence": -10.9413530505
+  },
+  "Gary Karr arranged this composer's cello sonata in A Minor as a double bass concerto, while folk music collected by Lindeman gave inspiration to four symphonic dances, the Opus 64 of this composer. He included two wordless Hallings in his Album for Male Chorus, while a drum roll and a set of octaves played by the solo instrument open this composer's famous piano concerto in A Minor. An Arietta is the first of the 66 short piano pieces in one collection by this composer, whose lament The Death of Ase accompanies the title mountain outlaw's return just in time for his mother's death in part of another": {
+    "guess": "Claude Debussy",
+    "confidence": -9.6583755445
+  },
+  "Gary Karr arranged this composer's cello sonata in A Minor as a double bass concerto, while folk music collected by Lindeman gave inspiration to four symphonic dances, the Opus 64 of this composer. He included two wordless Hallings in his Album for Male Chorus, while a drum roll and a set of octaves played by the solo instrument open this composer's famous piano concerto in A Minor. An Arietta is the first of the 66 short piano pieces in one collection by this composer, whose lament The Death of Ase accompanies the title mountain outlaw's return just in time for his mother's death in part of another work. For 10 points, name this Norwegian composer whose works include his Lyric Pieces and In": {
+    "guess": "Edvard Grieg",
+    "confidence": -8.28926472179
+  },
+  "Gary Karr arranged this composer's cello sonata in A Minor as a double bass concerto, while folk music collected by Lindeman gave inspiration to four symphonic dances, the Opus 64 of this composer. He included two wordless Hallings in his Album for Male Chorus, while a drum roll and a set of octaves played by the solo instrument open this composer's famous piano concerto in A Minor. An Arietta is the first of the 66 short piano pieces in one collection by this composer, whose lament The Death of Ase accompanies the title mountain outlaw's return just in time for his mother's death in part of another work. For 10 points, name this Norwegian composer whose works include his Lyric Pieces and In the Hall of the Mountain King, which is part of the incidental music to Peer Gynt.": {
+    "guess": "Edvard Grieg",
+    "confidence": -7.997087345295901
+  },
+  "Garlington suggested that this work's \"Herz\" section revealed \"incipient misanthropy\" of the composer,": {
+    "guess": "Johannes Brahms",
+    "confidence": -8.930508983292
+  },
+  "Garlington suggested that this work's \"Herz\" section revealed \"incipient misanthropy\" of the composer, which was also expressed in the \"Menschenhass\" part. In the first segment, the augmented triad of": {
+    "guess": "Henri Herz",
+    "confidence": -9.789049346050001
+  },
+  "Garlington suggested that this work's \"Herz\" section revealed \"incipient misanthropy\" of the composer, which was also expressed in the \"Menschenhass\" part. In the first segment, the augmented triad of B/E-flat/G is first played, and the aria in this work begins with a syncopated beat that leads into": {
+    "guess": "Beethoven",
+    "confidence": -9.632883002042
+  },
+  "Garlington suggested that this work's \"Herz\" section revealed \"incipient misanthropy\" of the composer, which was also expressed in the \"Menschenhass\" part. In the first segment, the augmented triad of B/E-flat/G is first played, and the aria in this work begins with a syncopated beat that leads into a triplet pattern. The appearance of the erquicke motive, which differs only in one pitch from the Aber": {
+    "guess": "Gustav Mahler",
+    "confidence": -10.027617112800002
+  },
+  "Garlington suggested that this work's \"Herz\" section revealed \"incipient misanthropy\" of the composer, which was also expressed in the \"Menschenhass\" part. In the first segment, the augmented triad of B/E-flat/G is first played, and the aria in this work begins with a syncopated beat that leads into a triplet pattern. The appearance of the erquicke motive, which differs only in one pitch from the Aber abseits form of an earlier motive, signals a rhythmic reversing. The third part sees a male chorus": {
+    "guess": "Richard Wagner",
+    "confidence": -9.957691801030002
+  },
+  "Garlington suggested that this work's \"Herz\" section revealed \"incipient misanthropy\" of the composer, which was also expressed in the \"Menschenhass\" part. In the first segment, the augmented triad of B/E-flat/G is first played, and the aria in this work begins with a syncopated beat that leads into a triplet pattern. The appearance of the erquicke motive, which differs only in one pitch from the Aber abseits form of an earlier motive, signals a rhythmic reversing. The third part sees a male chorus call to the heavens for aid to a wanderer, who has \"lost his way in the thicket.\" This setting of": {
+    "guess": "Richard Wagner",
+    "confidence": -10.770799629899999
+  },
+  "Garlington suggested that this work's \"Herz\" section revealed \"incipient misanthropy\" of the composer, which was also expressed in the \"Menschenhass\" part. In the first segment, the augmented triad of B/E-flat/G is first played, and the aria in this work begins with a syncopated beat that leads into a triplet pattern. The appearance of the erquicke motive, which differs only in one pitch from the Aber abseits form of an earlier motive, signals a rhythmic reversing. The third part sees a male chorus call to the heavens for aid to a wanderer, who has \"lost his way in the thicket.\" This setting of (*) Goethe's Harzreise im Winter was composed one year after the German Requiem. For 10 points, identify": {
+    "guess": "Richard Wagner",
+    "confidence": -10.369979623
+  },
+  "Garlington suggested that this work's \"Herz\" section revealed \"incipient misanthropy\" of the composer, which was also expressed in the \"Menschenhass\" part. In the first segment, the augmented triad of B/E-flat/G is first played, and the aria in this work begins with a syncopated beat that leads into a triplet pattern. The appearance of the erquicke motive, which differs only in one pitch from the Aber abseits form of an earlier motive, signals a rhythmic reversing. The third part sees a male chorus call to the heavens for aid to a wanderer, who has \"lost his way in the thicket.\" This setting of (*) Goethe's Harzreise im Winter was composed one year after the German Requiem. For 10 points, identify this piece whose text is written for a soloist of a certain range, by Johannes Brahms.": {
+    "guess": "Johannes Brahms' German Requiem",
+    "confidence": -1.5962755218669
+  },
+  "Garrison discovered that this compound could be created though helium ion bombardment of a solution of": {
+    "guess": "",
+    "confidence": -4.206711422000001
+  },
+  "Garrison discovered that this compound could be created though helium ion bombardment of a solution of water, iron, and carbon dioxide. This is the smaller of the two products when reacting a monosaccharide": {
+    "guess": "Glucose",
+    "confidence": -8.594820290960001
+  },
+  "Garrison discovered that this compound could be created though helium ion bombardment of a solution of water, iron, and carbon dioxide. This is the smaller of the two products when reacting a monosaccharide with excess periodic acid. This compound and ammonia are used in a reduction of imines named for": {
+    "guess": "Ammonia",
+    "confidence": -9.539556633499998
+  },
+  "Garrison discovered that this compound could be created though helium ion bombardment of a solution of water, iron, and carbon dioxide. This is the smaller of the two products when reacting a monosaccharide with excess periodic acid. This compound and ammonia are used in a reduction of imines named for Leuckart. Pyruvate lyase converts pyruvate into acetyl-coA and this compound. Ozonolysis of a terminal": {
+    "guess": "Pyruvate",
+    "confidence": -9.064611383617
+  },
+  "Garrison discovered that this compound could be created though helium ion bombardment of a solution of water, iron, and carbon dioxide. This is the smaller of the two products when reacting a monosaccharide with excess periodic acid. This compound and ammonia are used in a reduction of imines named for Leuckart. Pyruvate lyase converts pyruvate into acetyl-coA and this compound. Ozonolysis of a terminal alkene under oxidative conditions yields this compound as one of the products. Glycerol can catalyze": {
+    "guess": "Acetyl-CoA",
+    "confidence": -4.6592840863000005
+  },
+  "Garrison discovered that this compound could be created though helium ion bombardment of a solution of water, iron, and carbon dioxide. This is the smaller of the two products when reacting a monosaccharide with excess periodic acid. This compound and ammonia are used in a reduction of imines named for Leuckart. Pyruvate lyase converts pyruvate into acetyl-coA and this compound. Ozonolysis of a terminal alkene under oxidative conditions yields this compound as one of the products. Glycerol can catalyze the breakdown of oxalic acid into this compound.This compound is found in bee stings. For 10": {
+    "guess": "Acetylcholine",
+    "confidence": -10.0441515993
+  },
+  "Garrison discovered that this compound could be created though helium ion bombardment of a solution of water, iron, and carbon dioxide. This is the smaller of the two products when reacting a monosaccharide with excess periodic acid. This compound and ammonia are used in a reduction of imines named for Leuckart. Pyruvate lyase converts pyruvate into acetyl-coA and this compound. Ozonolysis of a terminal alkene under oxidative conditions yields this compound as one of the products. Glycerol can catalyze the breakdown of oxalic acid into this compound.This compound is found in bee stings. For 10 points, name this simplest carboxylic acid.": {
+    "guess": "Acetic acid",
+    "confidence": -8.7638864768
+  },
+  "Gardner, Rand, and Haynes used this reaction to synthesize docosanedioc acid. One modification of this": {
+    "guess": "Friedel-Crafts alkylation",
+    "confidence": -2.49811990959
+  },
+  "Gardner, Rand, and Haynes used this reaction to synthesize docosanedioc acid. One modification of this reaction uses scandium trifloromethane sulfonate and BTBSH to overcome the side production of dimers": {
+    "guess": "Diels-Alder",
+    "confidence": -8.7626697725
+  },
+  "Gardner, Rand, and Haynes used this reaction to synthesize docosanedioc acid. One modification of this reaction uses scandium trifloromethane sulfonate and BTBSH to overcome the side production of dimers and is named for Meyer, while another variation is used on alpha-beta epoxy carbonyls and is named": {
+    "guess": "Wolff\u2013Kishner reduction",
+    "confidence": -2.278276847355
+  },
+  "Gardner, Rand, and Haynes used this reaction to synthesize docosanedioc acid. One modification of this reaction uses scandium trifloromethane sulfonate and BTBSH to overcome the side production of dimers and is named for Meyer, while another variation is used on alpha-beta epoxy carbonyls and is named for Wharton. Modern instances of this reaction are performed in a pot of ethylene glycol instead of": {
+    "guess": "Wolff\u2013Kishner reduction",
+    "confidence": -0.6571981336730002
+  },
+  "Gardner, Rand, and Haynes used this reaction to synthesize docosanedioc acid. One modification of this reaction uses scandium trifloromethane sulfonate and BTBSH to overcome the side production of dimers and is named for Meyer, while another variation is used on alpha-beta epoxy carbonyls and is named for Wharton. Modern instances of this reaction are performed in a pot of ethylene glycol instead of the sealed tubes used in the original version, in a modification named for Huang and Minlon. Its second": {
+    "guess": "Wolff\u2013Kisher reduction",
+    "confidence": -4.12134023749
+  },
+  "Gardner, Rand, and Haynes used this reaction to synthesize docosanedioc acid. One modification of this reaction uses scandium trifloromethane sulfonate and BTBSH to overcome the side production of dimers and is named for Meyer, while another variation is used on alpha-beta epoxy carbonyls and is named for Wharton. Modern instances of this reaction are performed in a pot of ethylene glycol instead of the sealed tubes used in the original version, in a modification named for Huang and Minlon. Its second step relies on three equivalents of hydroxide and is driven by the evolution of nitrogen. FTP,": {
+    "guess": "Wolff\u2013Kner reduction",
+    "confidence": -2.8072516183799996
+  },
+  "Gardner, Rand, and Haynes used this reaction to synthesize docosanedioc acid. One modification of this reaction uses scandium trifloromethane sulfonate and BTBSH to overcome the side production of dimers and is named for Meyer, while another variation is used on alpha-beta epoxy carbonyls and is named for Wharton. Modern instances of this reaction are performed in a pot of ethylene glycol instead of the sealed tubes used in the original version, in a modification named for Huang and Minlon. Its second step relies on three equivalents of hydroxide and is driven by the evolution of nitrogen. FTP, name this alternative to the Clemmensen reduction, which uses hydrazine to reduce a carbonyl to an": {
+    "guess": "Wolff\u2013Kisher reduction",
+    "confidence": -3.2948965289300003
+  },
+  "Gardner, Rand, and Haynes used this reaction to synthesize docosanedioc acid. One modification of this reaction uses scandium trifloromethane sulfonate and BTBSH to overcome the side production of dimers and is named for Meyer, while another variation is used on alpha-beta epoxy carbonyls and is named for Wharton. Modern instances of this reaction are performed in a pot of ethylene glycol instead of the sealed tubes used in the original version, in a modification named for Huang and Minlon. Its second step relies on three equivalents of hydroxide and is driven by the evolution of nitrogen. FTP, name this alternative to the Clemmensen reduction, which uses hydrazine to reduce a carbonyl to an alkane in strongly basic conditions.": {
+    "guess": "Wolff\u2013Kisher reduction",
+    "confidence": -3.31095251711
+  }
+}

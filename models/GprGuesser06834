@@ -1,0 +1,30 @@
+{
+  "Rubinstein-Taybi syndrome can be a result of microdeletions in these elements, while the U6 element is": {
+    "guess": "",
+    "confidence": -4.920861807330999
+  },
+  "Rubinstein-Taybi syndrome can be a result of microdeletions in these elements, while the U6 element is one type that is responsible siRNA production. Those that associate with bHLH elements have an E-box,": {
+    "guess": "E-box",
+    "confidence": -10.703089733599999
+  },
+  "Rubinstein-Taybi syndrome can be a result of microdeletions in these elements, while the U6 element is one type that is responsible siRNA production. Those that associate with bHLH elements have an E-box, while the ChIP-on-CHIP assay can be used to find them globally.  Potassium permanganate footprinting": {
+    "guess": "ChIP",
+    "confidence": -9.6421865667
+  },
+  "Rubinstein-Taybi syndrome can be a result of microdeletions in these elements, while the U6 element is one type that is responsible siRNA production. Those that associate with bHLH elements have an E-box, while the ChIP-on-CHIP assay can be used to find them globally.  Potassium permanganate footprinting was used to find the very strong T7 bacterial one, and when activated they form a bubble called": {
+    "guess": "RNA",
+    "confidence": -12.0039337
+  },
+  "Rubinstein-Taybi syndrome can be a result of microdeletions in these elements, while the U6 element is one type that is responsible siRNA production. Those that associate with bHLH elements have an E-box, while the ChIP-on-CHIP assay can be used to find them globally.  Potassium permanganate footprinting was used to find the very strong T7 bacterial one, and when activated they form a bubble called the open complex.  In prokaryotes, they contain the Pribnow box at the -10 site, and the sigma factor": {
+    "guess": "Transcription (biology)",
+    "confidence": -6.711860049004
+  },
+  "Rubinstein-Taybi syndrome can be a result of microdeletions in these elements, while the U6 element is one type that is responsible siRNA production. Those that associate with bHLH elements have an E-box, while the ChIP-on-CHIP assay can be used to find them globally.  Potassium permanganate footprinting was used to find the very strong T7 bacterial one, and when activated they form a bubble called the open complex.  In prokaryotes, they contain the Pribnow box at the -10 site, and the sigma factor recognizes it. FTP, name these sequences in DNA which in eurkaryotes often contain TATA boxes and": {
+    "guess": "promoters, E-boxes, ChIP",
+    "confidence": -2.942862305363
+  },
+  "Rubinstein-Taybi syndrome can be a result of microdeletions in these elements, while the U6 element is one type that is responsible siRNA production. Those that associate with bHLH elements have an E-box, while the ChIP-on-CHIP assay can be used to find them globally.  Potassium permanganate footprinting was used to find the very strong T7 bacterial one, and when activated they form a bubble called the open complex.  In prokaryotes, they contain the Pribnow box at the -10 site, and the sigma factor recognizes it. FTP, name these sequences in DNA which in eurkaryotes often contain TATA boxes and are recognized by transcription factors, and by RNA polymerase in prokaryotes, resulting in gene transcription.": {
+    "guess": "Promoters, Minor groove, E-",
+    "confidence": -3.90753979
+  }
+}

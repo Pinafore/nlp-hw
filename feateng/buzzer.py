@@ -10,6 +10,8 @@ import pickle
 
 from sklearn.feature_extraction import DictVectorizer
 from unidecode import unidecode
+from tqdm import tqdm
+
 
 from collections import Counter
 
@@ -182,7 +184,7 @@ class Buzzer:
         self.finalize()
         
         num_questions = 0
-        for qq in questions:
+        for qq in tqdm(questions):
             answer = qq[answer_field]
             text = qq["text"]
             # Delete these fields so you can't inadvertently cheat while
@@ -273,11 +275,11 @@ if __name__ == "__main__":
     add_buzzer_params(parser)
     add_question_params(parser)
     flags = parser.parse_args()
+    setup_logging(flags)    
 
     guesser = load_guesser(flags)    
     buzzer = load_buzzer(flags)
     questions = load_questions(flags)
-    setup_logging(flags)
 
     buzzer.add_data(questions, flags.limit)
 

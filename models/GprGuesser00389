@@ -1,0 +1,18 @@
+{
+  "Bailey, Borwein, and Plouffe found an algorithm for extracting any of its hexdecimal digits.  Ramanujan": {
+    "guess": "Ramanujan",
+    "confidence": -8.213499852274
+  },
+  "Bailey, Borwein, and Plouffe found an algorithm for extracting any of its hexdecimal digits.  Ramanujan provided a quartically-convergent algorithm for computing it. Buffon linked it to probability in": {
+    "guess": "BBP algorithm",
+    "confidence": -9.649478192171
+  },
+  "Bailey, Borwein, and Plouffe found an algorithm for extracting any of its hexdecimal digits.  Ramanujan provided a quartically-convergent algorithm for computing it. Buffon linked it to probability in his needle problem and von Lindemann proved it was transcendental. For ten points, what number did Archimedes": {
+    "guess": "Pi",
+    "confidence": -9.99357427646
+  },
+  "Bailey, Borwein, and Plouffe found an algorithm for extracting any of its hexdecimal digits.  Ramanujan provided a quartically-convergent algorithm for computing it. Buffon linked it to probability in his needle problem and von Lindemann proved it was transcendental. For ten points, what number did Archimedes note lay between 3 and one-seventh and 3 and ten over seventy-one.": {
+    "guess": "3.141592653589793",
+    "confidence": -1.3657989675399997
+  }
+}

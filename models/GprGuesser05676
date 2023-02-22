@@ -1,0 +1,46 @@
+{
+  "Otto Stern proposed a slipping plane in these systems, at which ions with non-negligible volume adsorb": {
+    "guess": "",
+    "confidence": -1.4840878518594
+  },
+  "Otto Stern proposed a slipping plane in these systems, at which ions with non-negligible volume adsorb to a surface, modifying the Helmholtz and Gouy-Chapman models. These systems are stabilized through": {
+    "guess": "Electrostatic interactions",
+    "confidence": -10.6783625725
+  },
+  "Otto Stern proposed a slipping plane in these systems, at which ions with non-negligible volume adsorb to a surface, modifying the Helmholtz and Gouy-Chapman models. These systems are stabilized through the addition of a salt, called peptization. Because these materials effectively scatter light with": {
+    "guess": "Cyclic voltammetry",
+    "confidence": -7.87944370015
+  },
+  "Otto Stern proposed a slipping plane in these systems, at which ions with non-negligible volume adsorb to a surface, modifying the Helmholtz and Gouy-Chapman models. These systems are stabilized through the addition of a salt, called peptization. Because these materials effectively scatter light with low wavelengths, they often appear blue when light is shined through them in the Tyndall effect. Flocculation": {
+    "guess": "Colloid",
+    "confidence": -9.10385315743
+  },
+  "Otto Stern proposed a slipping plane in these systems, at which ions with non-negligible volume adsorb to a surface, modifying the Helmholtz and Gouy-Chapman models. These systems are stabilized through the addition of a salt, called peptization. Because these materials effectively scatter light with low wavelengths, they often appear blue when light is shined through them in the Tyndall effect. Flocculation disrupts these systems, which are defined to be dispersions with particle diameter between": {
+    "guess": "Colloid",
+    "confidence": -8.976839583699999
+  },
+  "Otto Stern proposed a slipping plane in these systems, at which ions with non-negligible volume adsorb to a surface, modifying the Helmholtz and Gouy-Chapman models. These systems are stabilized through the addition of a salt, called peptization. Because these materials effectively scatter light with low wavelengths, they often appear blue when light is shined through them in the Tyndall effect. Flocculation disrupts these systems, which are defined to be dispersions with particle diameter between a nanometer and a micrometer. For 10 points, name these systems of in which one substance is dispersed": {
+    "guess": "Colloid, dispersion, Tynd",
+    "confidence": -3.3922751857569002
+  },
+  "Otto Stern proposed a slipping plane in these systems, at which ions with non-negligible volume adsorb to a surface, modifying the Helmholtz and Gouy-Chapman models. These systems are stabilized through the addition of a salt, called peptization. Because these materials effectively scatter light with low wavelengths, they often appear blue when light is shined through them in the Tyndall effect. Flocculation disrupts these systems, which are defined to be dispersions with particle diameter between a nanometer and a micrometer. For 10 points, name these systems of in which one substance is dispersed throughout another, exemplified by foams, emulsions, and aerosols.": {
+    "guess": "Colloid, Emulsion, Aeros",
+    "confidence": -1.414222837016
+  },
+  "Otus and Ephialtes were immune from any weapons thrown at them by the gods, and were finally killed when": {
+    "guess": "Apollo",
+    "confidence": -12.15213785
+  },
+  "Otus and Ephialtes were immune from any weapons thrown at them by the gods, and were finally killed when this god caused a stag to run between them and they shot each other aiming for it. For a final five": {
+    "guess": "days, Hermes had to wander the earth",
+    "confidence": -6.759397540999999
+  },
+  "Otus and Ephialtes were immune from any weapons thrown at them by the gods, and were finally killed when this god caused a stag to run between them and they shot each other aiming for it. For a final five points name this god, who devised the stratagem in retaliation for the attempted rape of his sister": {
+    "guess": "Apollo",
+    "confidence": -10.594833688999998
+  },
+  "Otus and Ephialtes were immune from any weapons thrown at them by the gods, and were finally killed when this god caused a stag to run between them and they shot each other aiming for it. For a final five points name this god, who devised the stratagem in retaliation for the attempted rape of his sister Artemis.": {
+    "guess": "Apollo",
+    "confidence": -10.504961505
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "The Aufbau reaction, which forms a complex of this element and six total ethyl groups, avoids termination": {
+    "guess": "Ethyl",
+    "confidence": -11.92826663
+  },
+  "The Aufbau reaction, which forms a complex of this element and six total ethyl groups, avoids termination and branching in the synthesis of polyethylene. This element is alloyed to nickel in Raney nickel.": {
+    "guess": "Iron",
+    "confidence": -12.332662838
+  },
+  "The Aufbau reaction, which forms a complex of this element and six total ethyl groups, avoids termination and branching in the synthesis of polyethylene. This element is alloyed to nickel in Raney nickel. Its oxides are commonly dipped into a conducting sulfuric acid bath in the process of anodization.": {
+    "guess": "",
+    "confidence": -8.111986161542
+  },
+  "The Aufbau reaction, which forms a complex of this element and six total ethyl groups, avoids termination and branching in the synthesis of polyethylene. This element is alloyed to nickel in Raney nickel. Its oxides are commonly dipped into a conducting sulfuric acid bath in the process of anodization. Gibbsite is this element's hydroxide, and this element is oxidized in the thermite reaction. Unusually,": {
+    "guess": "Nickel",
+    "confidence": -12.522990020000002
+  },
+  "The Aufbau reaction, which forms a complex of this element and six total ethyl groups, avoids termination and branching in the synthesis of polyethylene. This element is alloyed to nickel in Raney nickel. Its oxides are commonly dipped into a conducting sulfuric acid bath in the process of anodization. Gibbsite is this element's hydroxide, and this element is oxidized in the thermite reaction. Unusually, this metal's oxidation state is almost exclusively +3, and it is the lightest metal found in": {
+    "guess": "Platinum",
+    "confidence": -12.566217106
+  },
+  "The Aufbau reaction, which forms a complex of this element and six total ethyl groups, avoids termination and branching in the synthesis of polyethylene. This element is alloyed to nickel in Raney nickel. Its oxides are commonly dipped into a conducting sulfuric acid bath in the process of anodization. Gibbsite is this element's hydroxide, and this element is oxidized in the thermite reaction. Unusually, this metal's oxidation state is almost exclusively +3, and it is the lightest metal found in the p-block. Industrial production of this element proceeds by electrolysis of cryolite and its molten": {
+    "guess": "Nickel",
+    "confidence": -12.0698198271
+  },
+  "The Aufbau reaction, which forms a complex of this element and six total ethyl groups, avoids termination and branching in the synthesis of polyethylene. This element is alloyed to nickel in Raney nickel. Its oxides are commonly dipped into a conducting sulfuric acid bath in the process of anodization. Gibbsite is this element's hydroxide, and this element is oxidized in the thermite reaction. Unusually, this metal's oxidation state is almost exclusively +3, and it is the lightest metal found in the p-block. Industrial production of this element proceeds by electrolysis of cryolite and its molten oxide. For 10 points, name this element produced in the Hall-Heroult process from bauxite.": {
+    "guess": "aluminum",
+    "confidence": -11.097933353
+  }
+}

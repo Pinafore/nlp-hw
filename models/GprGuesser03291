@@ -1,0 +1,78 @@
+{
+  "The ion that allows this compound to perform its primary function binds to a lysine in a pH-dependent": {
+    "guess": "Magnesium ion",
+    "confidence": -9.039807544237
+  },
+  "The ion that allows this compound to perform its primary function binds to a lysine in a pH-dependent fashion, forming a carbamate. The concentration of magnesium-two-plus cations is increased by light": {
+    "guess": "",
+    "confidence": -1.44278933827
+  },
+  "The ion that allows this compound to perform its primary function binds to a lysine in a pH-dependent fashion, forming a carbamate. The concentration of magnesium-two-plus cations is increased by light where this compound operates. Light also helps its namesake activase promote the binding of its substrate": {
+    "guess": "Magnesium",
+    "confidence": -9.659545732520002
+  },
+  "The ion that allows this compound to perform its primary function binds to a lysine in a pH-dependent fashion, forming a carbamate. The concentration of magnesium-two-plus cations is increased by light where this compound operates. Light also helps its namesake activase promote the binding of its substrate to carbamated active sites, and the release of a compound that, when bound, prevents trypsin-catalyzed": {
+    "guess": "RuBisCO",
+    "confidence": -7.94489690734
+  },
+  "The ion that allows this compound to perform its primary function binds to a lysine in a pH-dependent fashion, forming a carbamate. The concentration of magnesium-two-plus cations is increased by light where this compound operates. Light also helps its namesake activase promote the binding of its substrate to carbamated active sites, and the release of a compound that, when bound, prevents trypsin-catalyzed breakdown and blocks active sites, CA1P. This enzyme catalyzes a reaction whose primary products": {
+    "guess": "RuBisCO activase, CA",
+    "confidence": -1.895936450856
+  },
+  "The ion that allows this compound to perform its primary function binds to a lysine in a pH-dependent fashion, forming a carbamate. The concentration of magnesium-two-plus cations is increased by light where this compound operates. Light also helps its namesake activase promote the binding of its substrate to carbamated active sites, and the release of a compound that, when bound, prevents trypsin-catalyzed breakdown and blocks active sites, CA1P. This enzyme catalyzes a reaction whose primary products are a highly unstable 6-carbon molecule in the presence of carbon dioxide, and phosphoglycolate": {
+    "guess": "RuBisCO",
+    "confidence": -8.965349817505999
+  },
+  "The ion that allows this compound to perform its primary function binds to a lysine in a pH-dependent fashion, forming a carbamate. The concentration of magnesium-two-plus cations is increased by light where this compound operates. Light also helps its namesake activase promote the binding of its substrate to carbamated active sites, and the release of a compound that, when bound, prevents trypsin-catalyzed breakdown and blocks active sites, CA1P. This enzyme catalyzes a reaction whose primary products are a highly unstable 6-carbon molecule in the presence of carbon dioxide, and phosphoglycolate and 3-phosphoglycerate in the presence of oxygen. The most abundant protein on Earth, this is, for": {
+    "guess": "RuBisCO",
+    "confidence": -7.912877143499999
+  },
+  "The ion that allows this compound to perform its primary function binds to a lysine in a pH-dependent fashion, forming a carbamate. The concentration of magnesium-two-plus cations is increased by light where this compound operates. Light also helps its namesake activase promote the binding of its substrate to carbamated active sites, and the release of a compound that, when bound, prevents trypsin-catalyzed breakdown and blocks active sites, CA1P. This enzyme catalyzes a reaction whose primary products are a highly unstable 6-carbon molecule in the presence of carbon dioxide, and phosphoglycolate and 3-phosphoglycerate in the presence of oxygen. The most abundant protein on Earth, this is, for 10 points, what enzyme that is responsible for fixing carbon dioxide to ribulose in the first stage": {
+    "guess": "Rubisco",
+    "confidence": -9.27582553244
+  },
+  "The ion that allows this compound to perform its primary function binds to a lysine in a pH-dependent fashion, forming a carbamate. The concentration of magnesium-two-plus cations is increased by light where this compound operates. Light also helps its namesake activase promote the binding of its substrate to carbamated active sites, and the release of a compound that, when bound, prevents trypsin-catalyzed breakdown and blocks active sites, CA1P. This enzyme catalyzes a reaction whose primary products are a highly unstable 6-carbon molecule in the presence of carbon dioxide, and phosphoglycolate and 3-phosphoglycerate in the presence of oxygen. The most abundant protein on Earth, this is, for 10 points, what enzyme that is responsible for fixing carbon dioxide to ribulose in the first stage of the Calvin cycle?": {
+    "guess": "RuBisCO",
+    "confidence": -6.178951589233599
+  },
+  "Its ion form is an important stabilizing effect in ignited tokamak plasmas. It can be derived by lin-earizing": {
+    "guess": "Ions",
+    "confidence": -10.1588624147
+  },
+  "Its ion form is an important stabilizing effect in ignited tokamak plasmas. It can be derived by lin-earizing the Vlasov equation and solving for the perturbed distribution function. This must be done": {
+    "guess": "Plasma (physics)",
+    "confidence": -7.72926594617
+  },
+  "Its ion form is an important stabilizing effect in ignited tokamak plasmas. It can be derived by lin-earizing the Vlasov equation and solving for the perturbed distribution function. This must be done by integrating around the poles of the plasma dielectric function along the Bromwich contour. Once the": {
+    "guess": "Plasma (physics)",
+    "confidence": -8.6632477545
+  },
+  "Its ion form is an important stabilizing effect in ignited tokamak plasmas. It can be derived by lin-earizing the Vlasov equation and solving for the perturbed distribution function. This must be done by integrating around the poles of the plasma dielectric function along the Bromwich contour. Once the complex dispersion relation has been obtained, the sign of this effect may be found by examining": {
+    "guess": "Vlasov equation",
+    "confidence": -8.8661737144606
+  },
+  "Its ion form is an important stabilizing effect in ignited tokamak plasmas. It can be derived by lin-earizing the Vlasov equation and solving for the perturbed distribution function. This must be done by integrating around the poles of the plasma dielectric function along the Bromwich contour. Once the complex dispersion relation has been obtained, the sign of this effect may be found by examining the imaginary part of the angular frequency. FTP, identify this collisionless type of amplitude change": {
+    "guess": "Plasma (physics)",
+    "confidence": -7.615596968984001
+  },
+  "Its ion form is an important stabilizing effect in ignited tokamak plasmas. It can be derived by lin-earizing the Vlasov equation and solving for the perturbed distribution function. This must be done by integrating around the poles of the plasma dielectric function along the Bromwich contour. Once the complex dispersion relation has been obtained, the sign of this effect may be found by examining the imaginary part of the angular frequency. FTP, identify this collisionless type of amplitude change in plasmas named for the Russian physicist who first calculated it.": {
+    "guess": "Vlasov equation",
+    "confidence": -8.472613167633
+  },
+  "If an ionic crystal is irradiated, some atoms may lose an electron. The resulting ion escapes from the": {
+    "guess": "Oxygen",
+    "confidence": -10.487998204670001
+  },
+  "If an ionic crystal is irradiated, some atoms may lose an electron. The resulting ion escapes from the crystal, but the electron migrates to an Schottky defect, where it is held electrostatically. What": {
+    "guess": "An electron",
+    "confidence": -10.80340825
+  },
+  "If an ionic crystal is irradiated, some atoms may lose an electron. The resulting ion escapes from the crystal, but the electron migrates to an Schottky defect, where it is held electrostatically. What name, derived from the German for \"color center  \", is given to these defects which impart  color to": {
+    "guess": "Schottky defect",
+    "confidence": -8.97080998474
+  },
+  "If an ionic crystal is irradiated, some atoms may lose an electron. The resulting ion escapes from the crystal, but the electron migrates to an Schottky defect, where it is held electrostatically. What name, derived from the German for \"color center  \", is given to these defects which impart  color to ionic crystals?": {
+    "guess": "",
+    "confidence": -5.68078538473
+  }
+}

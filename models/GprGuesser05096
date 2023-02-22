@@ -1,0 +1,50 @@
+{
+  "As n goes to infinity, the binomial coefficient n choose nk tends to 2 raised to n times the binary form": {
+    "guess": "Entropy",
+    "confidence": -9.588192255910002
+  },
+  "As n goes to infinity, the binomial coefficient n choose nk tends to 2 raised to n times the binary form of this quantity for n. One form of it is bounded above in Fano's inequality. This value for the": {
+    "guess": "Entropy",
+    "confidence": -9.8737738389
+  },
+  "As n goes to infinity, the binomial coefficient n choose nk tends to 2 raised to n times the binary form of this quantity for n. One form of it is bounded above in Fano's inequality. This value for the input distribution determines the maximal efficiency of a randomness extractor. This quantity bounds": {
+    "guess": "Entropy",
+    "confidence": -9.132683358458
+  },
+  "As n goes to infinity, the binomial coefficient n choose nk tends to 2 raised to n times the binary form of this quantity for n. One form of it is bounded above in Fano's inequality. This value for the input distribution determines the maximal efficiency of a randomness extractor. This quantity bounds the optimal code length in the source coding theorem. 1 minus the binary form of this quantity gives": {
+    "guess": "Information",
+    "confidence": -10.799321703999999
+  },
+  "As n goes to infinity, the binomial coefficient n choose nk tends to 2 raised to n times the binary form of this quantity for n. One form of it is bounded above in Fano's inequality. This value for the input distribution determines the maximal efficiency of a randomness extractor. This quantity bounds the optimal code length in the source coding theorem. 1 minus the binary form of this quantity gives a binary symmetric channel's capacity, up to which reliable transmission is possible by the (*) noisy-channel": {
+    "guess": "Entropy",
+    "confidence": -9.0463366096927
+  },
+  "As n goes to infinity, the binomial coefficient n choose nk tends to 2 raised to n times the binary form of this quantity for n. One form of it is bounded above in Fano's inequality. This value for the input distribution determines the maximal efficiency of a randomness extractor. This quantity bounds the optimal code length in the source coding theorem. 1 minus the binary form of this quantity gives a binary symmetric channel's capacity, up to which reliable transmission is possible by the (*) noisy-channel theorem. Given a discrete random variable X, taking negative 1 times the sum over all i": {
+    "guess": "Entropy",
+    "confidence": -9.190528110198999
+  },
+  "As n goes to infinity, the binomial coefficient n choose nk tends to 2 raised to n times the binary form of this quantity for n. One form of it is bounded above in Fano's inequality. This value for the input distribution determines the maximal efficiency of a randomness extractor. This quantity bounds the optimal code length in the source coding theorem. 1 minus the binary form of this quantity gives a binary symmetric channel's capacity, up to which reliable transmission is possible by the (*) noisy-channel theorem. Given a discrete random variable X, taking negative 1 times the sum over all i of pilog of pi, where pi is the probability X equals i, gives this quantity. For 10 points, name this": {
+    "guess": "Entropy",
+    "confidence": -9.587816658223002
+  },
+  "As n goes to infinity, the binomial coefficient n choose nk tends to 2 raised to n times the binary form of this quantity for n. One form of it is bounded above in Fano's inequality. This value for the input distribution determines the maximal efficiency of a randomness extractor. This quantity bounds the optimal code length in the source coding theorem. 1 minus the binary form of this quantity gives a binary symmetric channel's capacity, up to which reliable transmission is possible by the (*) noisy-channel theorem. Given a discrete random variable X, taking negative 1 times the sum over all i of pilog of pi, where pi is the probability X equals i, gives this quantity. For 10 points, name this measure of information content or randomness that comes in a Shannon form.": {
+    "guess": "entropy",
+    "confidence": -10.798375253
+  },
+  "Ngozi and Gitega are some cities in this country, which contains Mount Heha. Its northwestern  border": {
+    "guess": "Ethiopia",
+    "confidence": -11.8945092454
+  },
+  "Ngozi and Gitega are some cities in this country, which contains Mount Heha. Its northwestern  border is defined by the Ruwa River, and this country's interior contains such rivers as the  Ruvironza and": {
+    "guess": "Rwanda",
+    "confidence": -11.0077713825
+  },
+  "Ngozi and Gitega are some cities in this country, which contains Mount Heha. Its northwestern  border is defined by the Ruwa River, and this country's interior contains such rivers as the  Ruvironza and Rvubu. Bordering (*) Tanzania on the east and Lake Tanganyika on the south, its capital is Bujumbura.": {
+    "guess": "Burundi",
+    "confidence": -8.2281065920344
+  },
+  "Ngozi and Gitega are some cities in this country, which contains Mount Heha. Its northwestern  border is defined by the Ruwa River, and this country's interior contains such rivers as the  Ruvironza and Rvubu. Bordering (*) Tanzania on the east and Lake Tanganyika on the south, its capital is Bujumbura. For 10 points\u2014 name this country found to the south of the similar Rwanda.": {
+    "guess": "Burundi",
+    "confidence": -8.2006957257825
+  }
+}

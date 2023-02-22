@@ -1,0 +1,42 @@
+{
+  "The dot product of two vectors over the product of their lengths gives this function of the angle between": {
+    "guess": "The cosine function",
+    "confidence": -10.83229799634
+  },
+  "The dot product of two vectors over the product of their lengths gives this function of the angle between them. A law named for this function generalizes the Pythagorean theorem to non-right triangles;": {
+    "guess": "Inverse trigonometric functions",
+    "confidence": -2.7939426367999998
+  },
+  "The dot product of two vectors over the product of their lengths gives this function of the angle between them. A law named for this function generalizes the Pythagorean theorem to non-right triangles; it uses two sides of a triangle and the included angle to find the length of the third side. (*) For": {
+    "guess": "Inverse trigonometric functions",
+    "confidence": -3.20621352385
+  },
+  "The dot product of two vectors over the product of their lengths gives this function of the angle between them. A law named for this function generalizes the Pythagorean theorem to non-right triangles; it uses two sides of a triangle and the included angle to find the length of the third side. (*) For 10 points, name this trigonometric ratio commonly calculated as \"adjacent over hypotenuse\" in right": {
+    "guess": "Cosine",
+    "confidence": -9.69493657685
+  },
+  "The dot product of two vectors over the product of their lengths gives this function of the angle between them. A law named for this function generalizes the Pythagorean theorem to non-right triangles; it uses two sides of a triangle and the included angle to find the length of the third side. (*) For 10 points, name this trigonometric ratio commonly calculated as \"adjacent over hypotenuse\" in right triangles.": {
+    "guess": "Cosine",
+    "confidence": -9.48027770573
+  },
+  "Dostoyevsky's The Brothers Karamazov, features, shockingly, the four brothers of the title family. Given": {
+    "guess": "Fyodor Dostoevsky",
+    "confidence": -1.2866686299525198
+  },
+  "Dostoyevsky's The Brothers Karamazov, features, shockingly, the four brothers of the title family. Given a description, identify the brother, 5 for one, 10 for two, 20 for three, and 30 for all four. ": {
+    "guess": "Ivan",
+    "confidence": -13.101458350000001
+  },
+  "Dostoyevsky's The Brothers Karamazov, features, shockingly, the four brothers of the title family. Given a description, identify the brother, 5 for one, 10 for two, 20 for three, and 30 for all four.  [1] The eldest brother, he is haunted by sin throughout the book, though his act of ditching his fianc\u00e9e": {
+    "guess": "Ivan",
+    "confidence": -11.190061840000002
+  },
+  "Dostoyevsky's The Brothers Karamazov, features, shockingly, the four brothers of the title family. Given a description, identify the brother, 5 for one, 10 for two, 20 for three, and 30 for all four.  [1] The eldest brother, he is haunted by sin throughout the book, though his act of ditching his fianc\u00e9e probably didn't help his standing with God. He didn't commit the murder he's accused of, though,": {
+    "guess": "Ivan",
+    "confidence": -11.638394779999999
+  },
+  "Dostoyevsky's The Brothers Karamazov, features, shockingly, the four brothers of the title family. Given a description, identify the brother, 5 for one, 10 for two, 20 for three, and 30 for all four.  [1] The eldest brother, he is haunted by sin throughout the book, though his act of ditching his fianc\u00e9e probably didn't help his standing with God. He didn't commit the murder he's accused of, though, so that's good.": {
+    "guess": "Ivan",
+    "confidence": -10.871357864
+  }
+}

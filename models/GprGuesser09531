@@ -1,0 +1,30 @@
+{
+  "The Yukawa interaction for a fermion is proportional to the square of this property of the particle.": {
+    "guess": "Mass",
+    "confidence": -11.35005735
+  },
+  "The Yukawa interaction for a fermion is proportional to the square of this property of the particle. This property of a black hole whose Compton wavelength and Schwarzschild radius are equal is named for": {
+    "guess": "",
+    "confidence": -10.036889585742
+  },
+  "The Yukawa interaction for a fermion is proportional to the square of this property of the particle. This property of a black hole whose Compton wavelength and Schwarzschild radius are equal is named for Planck.  Using units where space and time are equal, the square of this property is equal to e squared": {
+    "guess": "e squared",
+    "confidence": -10.249952758000003
+  },
+  "The Yukawa interaction for a fermion is proportional to the square of this property of the particle. This property of a black hole whose Compton wavelength and Schwarzschild radius are equal is named for Planck.  Using units where space and time are equal, the square of this property is equal to e squared minus p squared.  Particles are believed to gain this property through the Higgs boson. The gravitational": {
+    "guess": "Mass",
+    "confidence": -10.8452175615
+  },
+  "The Yukawa interaction for a fermion is proportional to the square of this property of the particle. This property of a black hole whose Compton wavelength and Schwarzschild radius are equal is named for Planck.  Using units where space and time are equal, the square of this property is equal to e squared minus p squared.  Particles are believed to gain this property through the Higgs boson. The gravitational force between two objects is proportional to the product of the objects' this.  For 10 points,": {
+    "guess": "Mass",
+    "confidence": -10.473072810000001
+  },
+  "The Yukawa interaction for a fermion is proportional to the square of this property of the particle. This property of a black hole whose Compton wavelength and Schwarzschild radius are equal is named for Planck.  Using units where space and time are equal, the square of this property is equal to e squared minus p squared.  Particles are believed to gain this property through the Higgs boson. The gravitational force between two objects is proportional to the product of the objects' this.  For 10 points, name this quantity that is multiplied by acceleration to obtain force in Newton's Second Law": {
+    "guess": "Mass",
+    "confidence": -10.8809855061
+  },
+  "The Yukawa interaction for a fermion is proportional to the square of this property of the particle. This property of a black hole whose Compton wavelength and Schwarzschild radius are equal is named for Planck.  Using units where space and time are equal, the square of this property is equal to e squared minus p squared.  Particles are believed to gain this property through the Higgs boson. The gravitational force between two objects is proportional to the product of the objects' this.  For 10 points, name this quantity that is multiplied by acceleration to obtain force in Newton's Second Law of Motion, a measure of the amount of matter in an object often measured in grams.": {
+    "guess": "Mass",
+    "confidence": -10.433916583600002
+  }
+}

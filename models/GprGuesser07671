@@ -1,0 +1,38 @@
+{
+  "The tyrosine kinase Lck can become complexed to these molecules and triggers the phosphorylation of the": {
+    "guess": "ZAP70",
+    "confidence": -9.639617768799999
+  },
+  "The tyrosine kinase Lck can become complexed to these molecules and triggers the phosphorylation of the serine specific protein kinase Raf-1. One class of these molecules functions as a mannose-6-phosphate": {
+    "guess": "Cyclic adenosine monophosph",
+    "confidence": -2.0358647490584993
+  },
+  "The tyrosine kinase Lck can become complexed to these molecules and triggers the phosphorylation of the serine specific protein kinase Raf-1. One class of these molecules functions as a mannose-6-phosphate receptor, and another is a polio virus receptor. Binding class 14 of these molecules may promote": {
+    "guess": "The activation of protein kinase A",
+    "confidence": -4.8028206543100005
+  },
+  "The tyrosine kinase Lck can become complexed to these molecules and triggers the phosphorylation of the serine specific protein kinase Raf-1. One class of these molecules functions as a mannose-6-phosphate receptor, and another is a polio virus receptor. Binding class 14 of these molecules may promote neural survival in Alzheimer's disease by reducing microglial activation. TCR signaling can be used": {
+    "guess": "CD4",
+    "confidence": -12.554275239999999
+  },
+  "The tyrosine kinase Lck can become complexed to these molecules and triggers the phosphorylation of the serine specific protein kinase Raf-1. One class of these molecules functions as a mannose-6-phosphate receptor, and another is a polio virus receptor. Binding class 14 of these molecules may promote neural survival in Alzheimer's disease by reducing microglial activation. TCR signaling can be used to regulate the synthesis of these molecules, which are classified based on their recognition by and": {
+    "guess": "TCRs",
+    "confidence": -11.089533573999999
+  },
+  "The tyrosine kinase Lck can become complexed to these molecules and triggers the phosphorylation of the serine specific protein kinase Raf-1. One class of these molecules functions as a mannose-6-phosphate receptor, and another is a polio virus receptor. Binding class 14 of these molecules may promote neural survival in Alzheimer's disease by reducing microglial activation. TCR signaling can be used to regulate the synthesis of these molecules, which are classified based on their recognition by and reactivity with specific monoclonal antibodies. A ratio of class 4 of these molecules to class 8": {
+    "guess": "B cell",
+    "confidence": -11.383684535
+  },
+  "The tyrosine kinase Lck can become complexed to these molecules and triggers the phosphorylation of the serine specific protein kinase Raf-1. One class of these molecules functions as a mannose-6-phosphate receptor, and another is a polio virus receptor. Binding class 14 of these molecules may promote neural survival in Alzheimer's disease by reducing microglial activation. TCR signaling can be used to regulate the synthesis of these molecules, which are classified based on their recognition by and reactivity with specific monoclonal antibodies. A ratio of class 4 of these molecules to class 8 of these molecules helps track the progression of infection by HIV, as HIV's gp120 interacts with class": {
+    "guess": "Cytokines",
+    "confidence": -8.955892423914001
+  },
+  "The tyrosine kinase Lck can become complexed to these molecules and triggers the phosphorylation of the serine specific protein kinase Raf-1. One class of these molecules functions as a mannose-6-phosphate receptor, and another is a polio virus receptor. Binding class 14 of these molecules may promote neural survival in Alzheimer's disease by reducing microglial activation. TCR signaling can be used to regulate the synthesis of these molecules, which are classified based on their recognition by and reactivity with specific monoclonal antibodies. A ratio of class 4 of these molecules to class 8 of these molecules helps track the progression of infection by HIV, as HIV's gp120 interacts with class 4 of these molecules to enter helper T cells. For 10 points, name these membrane bound glycoproteins,": {
+    "guess": "CD4, CD8, CD20",
+    "confidence": -5.4639389865
+  },
+  "The tyrosine kinase Lck can become complexed to these molecules and triggers the phosphorylation of the serine specific protein kinase Raf-1. One class of these molecules functions as a mannose-6-phosphate receptor, and another is a polio virus receptor. Binding class 14 of these molecules may promote neural survival in Alzheimer's disease by reducing microglial activation. TCR signaling can be used to regulate the synthesis of these molecules, which are classified based on their recognition by and reactivity with specific monoclonal antibodies. A ratio of class 4 of these molecules to class 8 of these molecules helps track the progression of infection by HIV, as HIV's gp120 interacts with class 4 of these molecules to enter helper T cells. For 10 points, name these membrane bound glycoproteins, whose class 4 and class 8 recognize MHC antigens presented to helper and cytoxic T-cells, respectively.": {
+    "guess": "CD4, CD8, CD4",
+    "confidence": -3.3974161670000003
+  }
+}

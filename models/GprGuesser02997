@@ -1,0 +1,30 @@
+{
+  "When the Hurst parameter is not equal to one-half, it leads to the occurrence of the \"fractional\" version": {
+    "guess": "Fractional Brownian motion",
+    "confidence": -3.9014744852200005
+  },
+  "When the Hurst parameter is not equal to one-half, it leads to the occurrence of the \"fractional\" version of this phenomenon, and Park et al proposed using Optical Serial Sectioning Microscopy to determine": {
+    "guess": "Image analysis",
+    "confidence": -11.334948524480001
+  },
+  "When the Hurst parameter is not equal to one-half, it leads to the occurrence of the \"fractional\" version of this phenomenon, and Park et al proposed using Optical Serial Sectioning Microscopy to determine temperature by studying this process in nanoparticles. This process can be described by the Langevin": {
+    "guess": "Random walk",
+    "confidence": -10.0310497262
+  },
+  "When the Hurst parameter is not equal to one-half, it leads to the occurrence of the \"fractional\" version of this phenomenon, and Park et al proposed using Optical Serial Sectioning Microscopy to determine temperature by studying this process in nanoparticles. This process can be described by the Langevin equation, and Jean Perrin used this phenomenon to calculate the Avogadro's constant. It was observed": {
+    "guess": "Brownian motion",
+    "confidence": -8.6080304572735
+  },
+  "When the Hurst parameter is not equal to one-half, it leads to the occurrence of the \"fractional\" version of this phenomenon, and Park et al proposed using Optical Serial Sectioning Microscopy to determine temperature by studying this process in nanoparticles. This process can be described by the Langevin equation, and Jean Perrin used this phenomenon to calculate the Avogadro's constant. It was observed by its namesake in pollen grains suspended in water, and Einstein explained it using the kinetic": {
+    "guess": "Brownian motion",
+    "confidence": -8.058462849282
+  },
+  "When the Hurst parameter is not equal to one-half, it leads to the occurrence of the \"fractional\" version of this phenomenon, and Park et al proposed using Optical Serial Sectioning Microscopy to determine temperature by studying this process in nanoparticles. This process can be described by the Langevin equation, and Jean Perrin used this phenomenon to calculate the Avogadro's constant. It was observed by its namesake in pollen grains suspended in water, and Einstein explained it using the kinetic theory of gases. For 10 points, identify this random motion of small particles in a fluid named": {
+    "guess": "Brownian motion.",
+    "confidence": -8.457130613175039
+  },
+  "When the Hurst parameter is not equal to one-half, it leads to the occurrence of the \"fractional\" version of this phenomenon, and Park et al proposed using Optical Serial Sectioning Microscopy to determine temperature by studying this process in nanoparticles. This process can be described by the Langevin equation, and Jean Perrin used this phenomenon to calculate the Avogadro's constant. It was observed by its namesake in pollen grains suspended in water, and Einstein explained it using the kinetic theory of gases. For 10 points, identify this random motion of small particles in a fluid named after a Scottish Biologist.": {
+    "guess": "Brownian motion",
+    "confidence": -8.2282580467735
+  }
+}

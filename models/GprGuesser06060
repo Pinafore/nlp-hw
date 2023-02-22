@@ -1,0 +1,46 @@
+{
+  "pts: Every radioactive compound studied by Becquerel contained uranium,  and in all but one the intensitity": {
+    "guess": "",
+    "confidence": -2.66020459722
+  },
+  "pts: Every radioactive compound studied by Becquerel contained uranium,  and in all but one the intensitity of radiation was directly proportional to  the percentage of uranium in the ore. For fifteen": {
+    "guess": "Potassium",
+    "confidence": -10.790162194259999
+  },
+  "pts: Every radioactive compound studied by Becquerel contained uranium,  and in all but one the intensitity of radiation was directly proportional to  the percentage of uranium in the ore. For fifteen points, name the exception,  a substance which gave off far more radiation than Becquerel's theory ": {
+    "guess": "Thorium",
+    "confidence": -9.289299530130002
+  },
+  "pts: Every radioactive compound studied by Becquerel contained uranium,  and in all but one the intensitity of radiation was directly proportional to  the percentage of uranium in the ore. For fifteen points, name the exception,  a substance which gave off far more radiation than Becquerel's theory  could account for.": {
+    "guess": "Thorium",
+    "confidence": -9.5085236401
+  },
+  "PTTH stimulates the corpora allata to prevent this process by secreting juvenile hormone. A substage": {
+    "guess": "The preoperational stage",
+    "confidence": -7.402050525321501
+  },
+  "PTTH stimulates the corpora allata to prevent this process by secreting juvenile hormone. A substage of this process ends with an eclosion which leaves behind an exuvium. Prolactin inhibits this process,": {
+    "guess": "Prolactin",
+    "confidence": -9.202941076551001
+  },
+  "PTTH stimulates the corpora allata to prevent this process by secreting juvenile hormone. A substage of this process ends with an eclosion which leaves behind an exuvium. Prolactin inhibits this process, whereas thyroxin promotes it. All amphibians except for (*) axolotls undergo it. A gradual form of": {
+    "guess": "Eclosion",
+    "confidence": -9.507193124530001
+  },
+  "PTTH stimulates the corpora allata to prevent this process by secreting juvenile hormone. A substage of this process ends with an eclosion which leaves behind an exuvium. Prolactin inhibits this process, whereas thyroxin promotes it. All amphibians except for (*) axolotls undergo it. A gradual form of this process known as hemimetabolism is undergone by nymphs via several rounds of ecdysis. A group": {
+    "guess": "Thyroxin",
+    "confidence": -10.6037218786
+  },
+  "PTTH stimulates the corpora allata to prevent this process by secreting juvenile hormone. A substage of this process ends with an eclosion which leaves behind an exuvium. Prolactin inhibits this process, whereas thyroxin promotes it. All amphibians except for (*) axolotls undergo it. A gradual form of this process known as hemimetabolism is undergone by nymphs via several rounds of ecdysis. A group of organisms that undergo this process enter an intermediate, inactive stage known as the pupa, or": {
+    "guess": "Jesuits",
+    "confidence": -9.934887331695002
+  },
+  "PTTH stimulates the corpora allata to prevent this process by secreting juvenile hormone. A substage of this process ends with an eclosion which leaves behind an exuvium. Prolactin inhibits this process, whereas thyroxin promotes it. All amphibians except for (*) axolotls undergo it. A gradual form of this process known as hemimetabolism is undergone by nymphs via several rounds of ecdysis. A group of organisms that undergo this process enter an intermediate, inactive stage known as the pupa, or chrysalis. For 10 points, name this drastic post-birth transformation of an animal to its adult form,": {
+    "guess": "metamorphosis",
+    "confidence": -9.31341192038
+  },
+  "PTTH stimulates the corpora allata to prevent this process by secreting juvenile hormone. A substage of this process ends with an eclosion which leaves behind an exuvium. Prolactin inhibits this process, whereas thyroxin promotes it. All amphibians except for (*) axolotls undergo it. A gradual form of this process known as hemimetabolism is undergone by nymphs via several rounds of ecdysis. A group of organisms that undergo this process enter an intermediate, inactive stage known as the pupa, or chrysalis. For 10 points, name this drastic post-birth transformation of an animal to its adult form, exemplified by caterpillars becoming butterflies.": {
+    "guess": "metamorphosis",
+    "confidence": -8.74355621138
+  }
+}

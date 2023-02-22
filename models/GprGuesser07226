@@ -1,0 +1,162 @@
+{
+  "One superacid shaped like an icosahedron features a skeleton almost entirely composed of this element.": {
+    "guess": "Antimony",
+    "confidence": -9.3158342245
+  },
+  "One superacid shaped like an icosahedron features a skeleton almost entirely composed of this element. The selectrides are a group of reducing agents featuring this element bonded to three sec-butyl groups,": {
+    "guess": "Boron",
+    "confidence": -8.963270240206999
+  },
+  "One superacid shaped like an icosahedron features a skeleton almost entirely composed of this element. The selectrides are a group of reducing agents featuring this element bonded to three sec-butyl groups, and Tthe nitrogen atom in proline binds to this element in the Corey-Bakshi-Shibata catalyst.": {
+    "guess": "Boron",
+    "confidence": -9.119947717701
+  },
+  "One superacid shaped like an icosahedron features a skeleton almost entirely composed of this element. The selectrides are a group of reducing agents featuring this element bonded to three sec-butyl groups, and Tthe nitrogen atom in proline binds to this element in the Corey-Bakshi-Shibata catalyst. Aryl- and vinyl- acids containing this element react with aryl- and vinyl-halides on catalytic palladium": {
+    "guess": "Boron",
+    "confidence": -10.35035164207
+  },
+  "One superacid shaped like an icosahedron features a skeleton almost entirely composed of this element. The selectrides are a group of reducing agents featuring this element bonded to three sec-butyl groups, and Tthe nitrogen atom in proline binds to this element in the Corey-Bakshi-Shibata catalyst. Aryl- and vinyl- acids containing this element react with aryl- and vinyl-halides on catalytic palladium in the Suzuki reaction. Anti-Markovnikov addition is a feature of the best-known reaction featuring": {
+    "guess": "Boron",
+    "confidence": -9.883460293904
+  },
+  "One superacid shaped like an icosahedron features a skeleton almost entirely composed of this element. The selectrides are a group of reducing agents featuring this element bonded to three sec-butyl groups, and Tthe nitrogen atom in proline binds to this element in the Corey-Bakshi-Shibata catalyst. Aryl- and vinyl- acids containing this element react with aryl- and vinyl-halides on catalytic palladium in the Suzuki reaction. Anti-Markovnikov addition is a feature of the best-known reaction featuring this element, in which an alkene is converted into an alcohol. That reaction features a namesake": {
+    "guess": "Platinum",
+    "confidence": -11.094586547399999
+  },
+  "One superacid shaped like an icosahedron features a skeleton almost entirely composed of this element. The selectrides are a group of reducing agents featuring this element bonded to three sec-butyl groups, and Tthe nitrogen atom in proline binds to this element in the Corey-Bakshi-Shibata catalyst. Aryl- and vinyl- acids containing this element react with aryl- and vinyl-halides on catalytic palladium in the Suzuki reaction. Anti-Markovnikov addition is a feature of the best-known reaction featuring this element, in which an alkene is converted into an alcohol. That reaction features a namesake hydration followed by an oxidation and is catalyzed by a reactive compound consisting of this element": {
+    "guess": "Boron",
+    "confidence": -9.011453387075
+  },
+  "One superacid shaped like an icosahedron features a skeleton almost entirely composed of this element. The selectrides are a group of reducing agents featuring this element bonded to three sec-butyl groups, and Tthe nitrogen atom in proline binds to this element in the Corey-Bakshi-Shibata catalyst. Aryl- and vinyl- acids containing this element react with aryl- and vinyl-halides on catalytic palladium in the Suzuki reaction. Anti-Markovnikov addition is a feature of the best-known reaction featuring this element, in which an alkene is converted into an alcohol. That reaction features a namesake hydration followed by an oxidation and is catalyzed by a reactive compound consisting of this element bonded to three hydrogen atoms.  For 10 points, name this fifth element.": {
+    "guess": "Platinum",
+    "confidence": -8.287506460409
+  },
+  "A superstructure that contains several of these is found in peridin pigments, and a bundle of four of": {
+    "guess": "Four",
+    "confidence": -12.37572444
+  },
+  "A superstructure that contains several of these is found in peridin pigments, and a bundle of four of these structures form a bromodomain. A structure that contains several of these structures between": {
+    "guess": "Cytochrome c",
+    "confidence": -11.072282272999999
+  },
+  "A superstructure that contains several of these is found in peridin pigments, and a bundle of four of these structures form a bromodomain. A structure that contains several of these structures between 50-degree turns \u00a0is known as the globin fold. These structures have a double minima at 208 and 222 nm": {
+    "guess": "Alpha helix",
+    "confidence": -6.7885139996772
+  },
+  "A superstructure that contains several of these is found in peridin pigments, and a bundle of four of these structures form a bromodomain. A structure that contains several of these structures between 50-degree turns \u00a0is known as the globin fold. These structures have a double minima at 208 and 222 nm on far-UV circular dichroism spectroscopy, and Davydov solitons propagate along them. The introduction": {
+    "guess": "Protein folding",
+    "confidence": -7.0508882891902
+  },
+  "A superstructure that contains several of these is found in peridin pigments, and a bundle of four of these structures form a bromodomain. A structure that contains several of these structures between 50-degree turns \u00a0is known as the globin fold. These structures have a double minima at 208 and 222 nm on far-UV circular dichroism spectroscopy, and Davydov solitons propagate along them. The introduction of glycine into one of these motifs causes a significant entropy increase, and they appear in the": {
+    "guess": "Glycine",
+    "confidence": -8.296121669880941
+  },
+  "A superstructure that contains several of these is found in peridin pigments, and a bundle of four of these structures form a bromodomain. A structure that contains several of these structures between 50-degree turns \u00a0is known as the globin fold. These structures have a double minima at 208 and 222 nm on far-UV circular dichroism spectroscopy, and Davydov solitons propagate along them. The introduction of glycine into one of these motifs causes a significant entropy increase, and they appear in the third qudrant of a Ramachandran plot. Occuring due to hydrogen bonding between every fourth amino": {
+    "guess": "Protein folding",
+    "confidence": -7.512551056848199
+  },
+  "A superstructure that contains several of these is found in peridin pigments, and a bundle of four of these structures form a bromodomain. A structure that contains several of these structures between 50-degree turns \u00a0is known as the globin fold. These structures have a double minima at 208 and 222 nm on far-UV circular dichroism spectroscopy, and Davydov solitons propagate along them. The introduction of glycine into one of these motifs causes a significant entropy increase, and they appear in the third qudrant of a Ramachandran plot. Occuring due to hydrogen bonding between every fourth amino acid, for 10 points, name this protein secondary structure that often traverses membranes, the alternative": {
+    "guess": "Glycine-rich globin",
+    "confidence": -3.7361527395
+  },
+  "A superstructure that contains several of these is found in peridin pigments, and a bundle of four of these structures form a bromodomain. A structure that contains several of these structures between 50-degree turns \u00a0is known as the globin fold. These structures have a double minima at 208 and 222 nm on far-UV circular dichroism spectroscopy, and Davydov solitons propagate along them. The introduction of glycine into one of these motifs causes a significant entropy increase, and they appear in the third qudrant of a Ramachandran plot. Occuring due to hydrogen bonding between every fourth amino acid, for 10 points, name this protein secondary structure that often traverses membranes, the alternative to a beta sheet.": {
+    "guess": "Protein folding",
+    "confidence": -7.6719761925017
+  },
+  "As a supercritical solvent, this molecule can be used to create increasingly stereoselective versions": {
+    "guess": "Carbon dioxide",
+    "confidence": -9.050937049689999
+  },
+  "As a supercritical solvent, this molecule can be used to create increasingly stereoselective versions of the Henry and the Morita-Baylis-Hillman reactions. Two equivalents are produced as byproducts of": {
+    "guess": "Carbon dioxide",
+    "confidence": -9.155305448
+  },
+  "As a supercritical solvent, this molecule can be used to create increasingly stereoselective versions of the Henry and the Morita-Baylis-Hillman reactions. Two equivalents are produced as byproducts of the Eder reaction, and it reacts with sodium chloride, water, and ammonia in the first step of the": {
+    "guess": "Carbon dioxide",
+    "confidence": -9.03296003821
+  },
+  "As a supercritical solvent, this molecule can be used to create increasingly stereoselective versions of the Henry and the Morita-Baylis-Hillman reactions. Two equivalents are produced as byproducts of the Eder reaction, and it reacts with sodium chloride, water, and ammonia in the first step of the Solvay process. The Kolbe-Schmitt process uses it and a base to convert a phenol to salicylic acid,": {
+    "guess": "Carbon dioxide",
+    "confidence": -9.088590457499999
+  },
+  "As a supercritical solvent, this molecule can be used to create increasingly stereoselective versions of the Henry and the Morita-Baylis-Hillman reactions. Two equivalents are produced as byproducts of the Eder reaction, and it reacts with sodium chloride, water, and ammonia in the first step of the Solvay process. The Kolbe-Schmitt process uses it and a base to convert a phenol to salicylic acid, and the conversion of a 3-ketoester to a carboxylic acid emits three equivalents of it. In the Bosch-Meiser": {
+    "guess": "Carbon dioxide",
+    "confidence": -9.11157341683
+  },
+  "As a supercritical solvent, this molecule can be used to create increasingly stereoselective versions of the Henry and the Morita-Baylis-Hillman reactions. Two equivalents are produced as byproducts of the Eder reaction, and it reacts with sodium chloride, water, and ammonia in the first step of the Solvay process. The Kolbe-Schmitt process uses it and a base to convert a phenol to salicylic acid, and the conversion of a 3-ketoester to a carboxylic acid emits three equivalents of it. In the Bosch-Meiser process, it reacts with two equivalents of ammonia to produce urea, while a Grignard reagent": {
+    "guess": "Carbon dioxide",
+    "confidence": -9.4146918624
+  },
+  "As a supercritical solvent, this molecule can be used to create increasingly stereoselective versions of the Henry and the Morita-Baylis-Hillman reactions. Two equivalents are produced as byproducts of the Eder reaction, and it reacts with sodium chloride, water, and ammonia in the first step of the Solvay process. The Kolbe-Schmitt process uses it and a base to convert a phenol to salicylic acid, and the conversion of a 3-ketoester to a carboxylic acid emits three equivalents of it. In the Bosch-Meiser process, it reacts with two equivalents of ammonia to produce urea, while a Grignard reagent or an alkyl- lithium will react with it to produce a carboxylic acid. FTP, name this linear, triatomic": {
+    "guess": "Carbon dioxide",
+    "confidence": -9.372784939999999
+  },
+  "As a supercritical solvent, this molecule can be used to create increasingly stereoselective versions of the Henry and the Morita-Baylis-Hillman reactions. Two equivalents are produced as byproducts of the Eder reaction, and it reacts with sodium chloride, water, and ammonia in the first step of the Solvay process. The Kolbe-Schmitt process uses it and a base to convert a phenol to salicylic acid, and the conversion of a 3-ketoester to a carboxylic acid emits three equivalents of it. In the Bosch-Meiser process, it reacts with two equivalents of ammonia to produce urea, while a Grignard reagent or an alkyl- lithium will react with it to produce a carboxylic acid. FTP, name this linear, triatomic molecule that is one of the products of combustion.": {
+    "guess": "Carbon dioxide",
+    "confidence": -9.684005136000001
+  },
+  "The superior transverse ligament converts its notch into a foramen, and it contains two fossae on its": {
+    "guess": "Spleen",
+    "confidence": -10.22536908176
+  },
+  "The superior transverse ligament converts its notch into a foramen, and it contains two fossae on its posterior surface. The infraglenoid tubercle sits on its axillary border, and the Teres major attaches": {
+    "guess": "Teres major",
+    "confidence": -9.006784569552002
+  },
+  "The superior transverse ligament converts its notch into a foramen, and it contains two fossae on its posterior surface. The infraglenoid tubercle sits on its axillary border, and the Teres major attaches at its lateral border. The serratus anterior inserts along the length of its anterior border , and": {
+    "guess": "Serratus anterior",
+    "confidence": -8.234396589425
+  },
+  "The superior transverse ligament converts its notch into a foramen, and it contains two fossae on its posterior surface. The infraglenoid tubercle sits on its axillary border, and the Teres major attaches at its lateral border. The serratus anterior inserts along the length of its anterior border , and the trapezius inserts into its spine. Ligaments at the acromion and coracoid process connect it to": {
+    "guess": "Scapula",
+    "confidence": -8.170814333859498
+  },
+  "The superior transverse ligament converts its notch into a foramen, and it contains two fossae on its posterior surface. The infraglenoid tubercle sits on its axillary border, and the Teres major attaches at its lateral border. The serratus anterior inserts along the length of its anterior border , and the trapezius inserts into its spine. Ligaments at the acromion and coracoid process connect it to the clavicle, and the glenoid cavity is where it joins with the humerus. FTP, identify this bone,": {
+    "guess": "Scapula",
+    "confidence": -8.213603771364001
+  },
+  "The superior transverse ligament converts its notch into a foramen, and it contains two fossae on its posterior surface. The infraglenoid tubercle sits on its axillary border, and the Teres major attaches at its lateral border. The serratus anterior inserts along the length of its anterior border , and the trapezius inserts into its spine. Ligaments at the acromion and coracoid process connect it to the clavicle, and the glenoid cavity is where it joins with the humerus. FTP, identify this bone, also known as the shoulder blade.": {
+    "guess": "Scapula",
+    "confidence": -6.42240136292694
+  },
+  "Superatoms are considered to be \"pseudo\" varieties of them, and one compound consisting of two of them": {
+    "guess": "Nitrogen",
+    "confidence": -10.683503312000001
+  },
+  "Superatoms are considered to be \"pseudo\" varieties of them, and one compound consisting of two of them notably cleaves carbon-silicon bonds in organic reactions. The Tyrian purple dye features two of them": {
+    "guess": "Ozone",
+    "confidence": -9.5795896495
+  },
+  "Superatoms are considered to be \"pseudo\" varieties of them, and one compound consisting of two of them notably cleaves carbon-silicon bonds in organic reactions. The Tyrian purple dye features two of them at the ends of benzene rings, and a radioactive one was synthesized by barraging bismuth with alpha": {
+    "guess": "Ozone",
+    "confidence": -10.021525246940001
+  },
+  "Superatoms are considered to be \"pseudo\" varieties of them, and one compound consisting of two of them notably cleaves carbon-silicon bonds in organic reactions. The Tyrian purple dye features two of them at the ends of benzene rings, and a radioactive one was synthesized by barraging bismuth with alpha particles. Hypocalcaemia results from a spill of an acid of one, which is in both Freon and Teflon.": {
+    "guess": "Ozone",
+    "confidence": -9.55227956439
+  },
+  "Superatoms are considered to be \"pseudo\" varieties of them, and one compound consisting of two of them notably cleaves carbon-silicon bonds in organic reactions. The Tyrian purple dye features two of them at the ends of benzene rings, and a radioactive one was synthesized by barraging bismuth with alpha particles. Hypocalcaemia results from a spill of an acid of one, which is in both Freon and Teflon. Consisting of astatine, bromine, and the most electronegative element, for 10 points, name this": {
+    "guess": "Bromine",
+    "confidence": -10.3645348068
+  },
+  "Superatoms are considered to be \"pseudo\" varieties of them, and one compound consisting of two of them notably cleaves carbon-silicon bonds in organic reactions. The Tyrian purple dye features two of them at the ends of benzene rings, and a radioactive one was synthesized by barraging bismuth with alpha particles. Hypocalcaemia results from a spill of an acid of one, which is in both Freon and Teflon. Consisting of astatine, bromine, and the most electronegative element, for 10 points, name this chemical group also containing iodine and fluorine.": {
+    "guess": "Halogen",
+    "confidence": -9.227029274000001
+  },
+  "This man supervised the completion of the Moscow subway system. A period known as this man's \"thaw\" occurred": {
+    "guess": "Nikita Khrushchev",
+    "confidence": -6.2031935182835
+  },
+  "This man supervised the completion of the Moscow subway system. A period known as this man's \"thaw\" occurred after he gave the Secret Speech denouncing the excesses of his predecessor. In 1960, this man": {
+    "guess": "Joseph Stalin",
+    "confidence": -10.77854377255
+  },
+  "This man supervised the completion of the Moscow subway system. A period known as this man's \"thaw\" occurred after he gave the Secret Speech denouncing the excesses of his predecessor. In 1960, this man banged his shoe on a desk during a meeting of the United Nations General Assembly. For 10 points,": {
+    "guess": "Joseph Stalin",
+    "confidence": -9.906975728399999
+  },
+  "This man supervised the completion of the Moscow subway system. A period known as this man's \"thaw\" occurred after he gave the Secret Speech denouncing the excesses of his predecessor. In 1960, this man banged his shoe on a desk during a meeting of the United Nations General Assembly. For 10 points, name this Soviet leader who engaged in the Kitchen Debate with Richard Nixon.": {
+    "guess": "Nikita Khrushchev",
+    "confidence": -6.5801519560833
+  }
+}

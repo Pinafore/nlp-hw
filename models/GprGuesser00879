@@ -1,0 +1,58 @@
+{
+  "The chloride of this paramagnetic metal is useful as a Ziegler-Natta catalyst to produce polyolefins,": {
+    "guess": "Titanium",
+    "confidence": -10.558278363
+  },
+  "The chloride of this paramagnetic metal is useful as a Ziegler-Natta catalyst to produce polyolefins, while its dioxide is used as a white pigment and photocatalyst. The ninth most abundant element in": {
+    "guess": "Titanium",
+    "confidence": -10.310493960599999
+  },
+  "The chloride of this paramagnetic metal is useful as a Ziegler-Natta catalyst to produce polyolefins, while its dioxide is used as a white pigment and photocatalyst. The ninth most abundant element in the Earth's crust, it can be extracted from ilmenite and rutile using either the Hunter process or the": {
+    "guess": "Titanium",
+    "confidence": -10.366591042
+  },
+  "The chloride of this paramagnetic metal is useful as a Ziegler-Natta catalyst to produce polyolefins, while its dioxide is used as a white pigment and photocatalyst. The ninth most abundant element in the Earth's crust, it can be extracted from ilmenite and rutile using either the Hunter process or the commercialized Kroll process. Its ability to osseointegrate makes it useful in medical prostheses": {
+    "guess": "Titanium",
+    "confidence": -10.402103964
+  },
+  "The chloride of this paramagnetic metal is useful as a Ziegler-Natta catalyst to produce polyolefins, while its dioxide is used as a white pigment and photocatalyst. The ninth most abundant element in the Earth's crust, it can be extracted from ilmenite and rutile using either the Hunter process or the commercialized Kroll process. Its ability to osseointegrate makes it useful in medical prostheses and implants, and its dioxide has found use as a UV absorber in sunscreens. FTP, name this transitional": {
+    "guess": "Titanium",
+    "confidence": -11.413329610000002
+  },
+  "The chloride of this paramagnetic metal is useful as a Ziegler-Natta catalyst to produce polyolefins, while its dioxide is used as a white pigment and photocatalyst. The ninth most abundant element in the Earth's crust, it can be extracted from ilmenite and rutile using either the Hunter process or the commercialized Kroll process. Its ability to osseointegrate makes it useful in medical prostheses and implants, and its dioxide has found use as a UV absorber in sunscreens. FTP, name this transitional metal that has a higher strength-to-weight ratio than aluminum, with atomic number 22 and symbol": {
+    "guess": "Titanium",
+    "confidence": -11.091131661999999
+  },
+  "The chloride of this paramagnetic metal is useful as a Ziegler-Natta catalyst to produce polyolefins, while its dioxide is used as a white pigment and photocatalyst. The ninth most abundant element in the Earth's crust, it can be extracted from ilmenite and rutile using either the Hunter process or the commercialized Kroll process. Its ability to osseointegrate makes it useful in medical prostheses and implants, and its dioxide has found use as a UV absorber in sunscreens. FTP, name this transitional metal that has a higher strength-to-weight ratio than aluminum, with atomic number 22 and symbol Ti.": {
+    "guess": "Titanium",
+    "confidence": -10.569739996
+  },
+  "Chloramphenicol stalls the activity of this structure, while reversal of its primary function is enabled": {
+    "guess": "Ribosome",
+    "confidence": -8.143217987513
+  },
+  "Chloramphenicol stalls the activity of this structure, while reversal of its primary function is enabled by LepA. That function is carried out using the GTPase activity of EF-G. One of its main substrates": {
+    "guess": "Ribosome",
+    "confidence": -8.253862556540001
+  },
+  "Chloramphenicol stalls the activity of this structure, while reversal of its primary function is enabled by LepA. That function is carried out using the GTPase activity of EF-G. One of its main substrates is assembled using the enzyme aaRS, and in prokaryotes, its 16S portion attaches to the Shine-Dalgarno": {
+    "guess": "Enzyme",
+    "confidence": -9.4145194219
+  },
+  "Chloramphenicol stalls the activity of this structure, while reversal of its primary function is enabled by LepA. That function is carried out using the GTPase activity of EF-G. One of its main substrates is assembled using the enzyme aaRS, and in prokaryotes, its 16S portion attaches to the Shine-Dalgarno sequence. Designated 70S or 80S, this organelle transfers a nascent peptide from its P-site to": {
+    "guess": "Ribosome",
+    "confidence": -8.273792567224
+  },
+  "Chloramphenicol stalls the activity of this structure, while reversal of its primary function is enabled by LepA. That function is carried out using the GTPase activity of EF-G. One of its main substrates is assembled using the enzyme aaRS, and in prokaryotes, its 16S portion attaches to the Shine-Dalgarno sequence. Designated 70S or 80S, this organelle transfers a nascent peptide from its P-site to its A-site where aminoacyl-tRNA accepts the polymerizing protein chain. The tRNAs then exit from its": {
+    "guess": "Translation",
+    "confidence": -10.480515639
+  },
+  "Chloramphenicol stalls the activity of this structure, while reversal of its primary function is enabled by LepA. That function is carried out using the GTPase activity of EF-G. One of its main substrates is assembled using the enzyme aaRS, and in prokaryotes, its 16S portion attaches to the Shine-Dalgarno sequence. Designated 70S or 80S, this organelle transfers a nascent peptide from its P-site to its A-site where aminoacyl-tRNA accepts the polymerizing protein chain. The tRNAs then exit from its E-site. Coming in free and bound varieties, for 10 points, name this organelle sometimes found on": {
+    "guess": "Ribosome",
+    "confidence": -8.67955598682
+  },
+  "Chloramphenicol stalls the activity of this structure, while reversal of its primary function is enabled by LepA. That function is carried out using the GTPase activity of EF-G. One of its main substrates is assembled using the enzyme aaRS, and in prokaryotes, its 16S portion attaches to the Shine-Dalgarno sequence. Designated 70S or 80S, this organelle transfers a nascent peptide from its P-site to its A-site where aminoacyl-tRNA accepts the polymerizing protein chain. The tRNAs then exit from its E-site. Coming in free and bound varieties, for 10 points, name this organelle sometimes found on rough ER that contains two subunits and is the site of protein synthesis.": {
+    "guess": "Ribosome",
+    "confidence": -8.81687090262
+  }
+}

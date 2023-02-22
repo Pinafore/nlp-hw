@@ -1,0 +1,26 @@
+{
+  "In the emulsion method for this type of process, sodium stearate or another surfactant is used along": {
+    "guess": "",
+    "confidence": -8.143725989739501
+  },
+  "In the emulsion method for this type of process, sodium stearate or another surfactant is used along with a catalyst that is water-soluble, and the temperature of the medium determines the degree of branching": {
+    "guess": "Polyethylene glycol",
+    "confidence": -8.568592175694999
+  },
+  "In the emulsion method for this type of process, sodium stearate or another surfactant is used along with a catalyst that is water-soluble, and the temperature of the medium determines the degree of branching in the product. In one version, the resultant tacticity can be specified by using a Ziegler-Natta": {
+    "guess": "Alkene",
+    "confidence": -8.34843272163
+  },
+  "In the emulsion method for this type of process, sodium stearate or another surfactant is used along with a catalyst that is water-soluble, and the temperature of the medium determines the degree of branching in the product. In one version, the resultant tacticity can be specified by using a Ziegler-Natta catalyst. All methods for this process are divided into two kinds, chain-growth or addition and": {
+    "guess": "Polymerization",
+    "confidence": -8.866788222559999
+  },
+  "In the emulsion method for this type of process, sodium stearate or another surfactant is used along with a catalyst that is water-soluble, and the temperature of the medium determines the degree of branching in the product. In one version, the resultant tacticity can be specified by using a Ziegler-Natta catalyst. All methods for this process are divided into two kinds, chain-growth or addition and step-growth or condensation. For ten points, name this general process by which monomers join to form": {
+    "guess": "Polymerization",
+    "confidence": -8.36681701247
+  },
+  "In the emulsion method for this type of process, sodium stearate or another surfactant is used along with a catalyst that is water-soluble, and the temperature of the medium determines the degree of branching in the product. In one version, the resultant tacticity can be specified by using a Ziegler-Natta catalyst. All methods for this process are divided into two kinds, chain-growth or addition and step-growth or condensation. For ten points, name this general process by which monomers join to form very large molecules.": {
+    "guess": "Polymerization",
+    "confidence": -8.196152325749999
+  }
+}

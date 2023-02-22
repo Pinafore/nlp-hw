@@ -1,0 +1,30 @@
+{
+  "Oxygen production was dependent on this molecule in an experiment performed by Theodor Wilhelm Engelmann": {
+    "guess": "Chlorophyll",
+    "confidence": -8.0365673412378
+  },
+  "Oxygen production was dependent on this molecule in an experiment performed by Theodor Wilhelm Engelmann that used freshwater algae. Min Chen recently identified the \"f\" type of this molecule in stromatolites.": {
+    "guess": "Chlorophyll.",
+    "confidence": -7.1713886136155
+  },
+  "Oxygen production was dependent on this molecule in an experiment performed by Theodor Wilhelm Engelmann that used freshwater algae. Min Chen recently identified the \"f\" type of this molecule in stromatolites. Located in an organelle that is mainly in mesophyll cells, this molecule has a porphyrin ring": {
+    "guess": "Hemoglobin",
+    "confidence": -9.46740565
+  },
+  "Oxygen production was dependent on this molecule in an experiment performed by Theodor Wilhelm Engelmann that used freshwater algae. Min Chen recently identified the \"f\" type of this molecule in stromatolites. Located in an organelle that is mainly in mesophyll cells, this molecule has a porphyrin ring coordinated to a central magnesium ion. A common experiment involves separation using paper chromatography": {
+    "guess": "Chlorophyll",
+    "confidence": -8.042653411866
+  },
+  "Oxygen production was dependent on this molecule in an experiment performed by Theodor Wilhelm Engelmann that used freshwater algae. Min Chen recently identified the \"f\" type of this molecule in stromatolites. Located in an organelle that is mainly in mesophyll cells, this molecule has a porphyrin ring coordinated to a central magnesium ion. A common experiment involves separation using paper chromatography of carotene, pheophytin, xanthophyll, and the \"a\" and \"b\" types of this molecule. Photosystem": {
+    "guess": "Chlorophyll",
+    "confidence": -8.4241561629765
+  },
+  "Oxygen production was dependent on this molecule in an experiment performed by Theodor Wilhelm Engelmann that used freshwater algae. Min Chen recently identified the \"f\" type of this molecule in stromatolites. Located in an organelle that is mainly in mesophyll cells, this molecule has a porphyrin ring coordinated to a central magnesium ion. A common experiment involves separation using paper chromatography of carotene, pheophytin, xanthophyll, and the \"a\" and \"b\" types of this molecule. Photosystem I contains a dimer of this molecule whose peak absorption is at 700 nanometers. For 10 points, name": {
+    "guess": "Chlorophyll",
+    "confidence": -8.236546792959
+  },
+  "Oxygen production was dependent on this molecule in an experiment performed by Theodor Wilhelm Engelmann that used freshwater algae. Min Chen recently identified the \"f\" type of this molecule in stromatolites. Located in an organelle that is mainly in mesophyll cells, this molecule has a porphyrin ring coordinated to a central magnesium ion. A common experiment involves separation using paper chromatography of carotene, pheophytin, xanthophyll, and the \"a\" and \"b\" types of this molecule. Photosystem I contains a dimer of this molecule whose peak absorption is at 700 nanometers. For 10 points, name this green pigment located in the chloroplasts of plants.": {
+    "guess": "Chlorophyll",
+    "confidence": -8.8262089230216
+  }
+}

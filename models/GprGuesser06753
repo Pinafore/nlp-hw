@@ -1,0 +1,122 @@
+{
+  "Rooted in Arthur Miller's 'The Price,' it deals with a family's struggle over an old heirloom that evokes": {
+    "guess": "The Crucible",
+    "confidence": -9.647139213440001
+  },
+  "Rooted in Arthur Miller's 'The Price,' it deals with a family's struggle over an old heirloom that evokes unpleasant historical memories of slavery. Boy Willie and Bernice argue over how one should appropriately": {
+    "guess": "The Crucible",
+    "confidence": -8.77997523344
+  },
+  "Rooted in Arthur Miller's 'The Price,' it deals with a family's struggle over an old heirloom that evokes unpleasant historical memories of slavery. Boy Willie and Bernice argue over how one should appropriately honor ancestors from a past best forgotten. The climatic scene can be described thusly :": {
+    "guess": "The Crucible",
+    "confidence": -8.924353906490001
+  },
+  "Rooted in Arthur Miller's 'The Price,' it deals with a family's struggle over an old heirloom that evokes unpleasant historical memories of slavery. Boy Willie and Bernice argue over how one should appropriately honor ancestors from a past best forgotten. The climatic scene can be described thusly : After an exorcism of a plantation owner's ghost fails, Bernice sings the names carved onto a piano and": {
+    "guess": "The Crucible",
+    "confidence": -6.9215795590692
+  },
+  "Rooted in Arthur Miller's 'The Price,' it deals with a family's struggle over an old heirloom that evokes unpleasant historical memories of slavery. Boy Willie and Bernice argue over how one should appropriately honor ancestors from a past best forgotten. The climatic scene can be described thusly : After an exorcism of a plantation owner's ghost fails, Bernice sings the names carved onto a piano and brings peace to the room. FTP name this Pulitzer Prize winning play by August Wilson.": {
+    "guess": "The Piano Lesson",
+    "confidence": -7.54102881558
+  },
+  "The roots of this man's namesake polynomial are useful for interpolation as they minimize the oscillation": {
+    "guess": "Euler's theorem",
+    "confidence": -12.5223616872
+  },
+  "The roots of this man's namesake polynomial are useful for interpolation as they minimize the oscillation around the interval edges known as Runge's phenomenon. Those polynomials are also used in the Clenshaw-Curtis": {
+    "guess": "Polynomial interpolation",
+    "confidence": -6.710038510074
+  },
+  "The roots of this man's namesake polynomial are useful for interpolation as they minimize the oscillation around the interval edges known as Runge's phenomenon. Those polynomials are also used in the Clenshaw-Curtis quadrature for numerical integration. The observation that there are more 3 modulo 4": {
+    "guess": "3",
+    "confidence": -11.598153040000001
+  },
+  "The roots of this man's namesake polynomial are useful for interpolation as they minimize the oscillation around the interval edges known as Runge's phenomenon. Those polynomials are also used in the Clenshaw-Curtis quadrature for numerical integration. The observation that there are more 3 modulo 4 prime numbers than 1 modulo 4 is a \"bias\" named for this man. This man names a type of filter with a": {
+    "guess": "Karl Friedrich Gauss",
+    "confidence": -10.31886455597
+  },
+  "The roots of this man's namesake polynomial are useful for interpolation as they minimize the oscillation around the interval edges known as Runge's phenomenon. Those polynomials are also used in the Clenshaw-Curtis quadrature for numerical integration. The observation that there are more 3 modulo 4 prime numbers than 1 modulo 4 is a \"bias\" named for this man. This man names a type of filter with a steeper roll-off rate than a Butterworth filter. The probability of data being within k times sigma": {
+    "guess": "0.5",
+    "confidence": -11.3073536741
+  },
+  "The roots of this man's namesake polynomial are useful for interpolation as they minimize the oscillation around the interval edges known as Runge's phenomenon. Those polynomials are also used in the Clenshaw-Curtis quadrature for numerical integration. The observation that there are more 3 modulo 4 prime numbers than 1 modulo 4 is a \"bias\" named for this man. This man names a type of filter with a steeper roll-off rate than a Butterworth filter. The probability of data being within k times sigma of the mean is less than one over k squared according to this man. That statement can be proven by": {
+    "guess": "Gauss",
+    "confidence": -8.279086332171499
+  },
+  "The roots of this man's namesake polynomial are useful for interpolation as they minimize the oscillation around the interval edges known as Runge's phenomenon. Those polynomials are also used in the Clenshaw-Curtis quadrature for numerical integration. The observation that there are more 3 modulo 4 prime numbers than 1 modulo 4 is a \"bias\" named for this man. This man names a type of filter with a steeper roll-off rate than a Butterworth filter. The probability of data being within k times sigma of the mean is less than one over k squared according to this man. That statement can be proven by using Markov's inequality. For 10 points, name this Russian mathematician whose namesake inequality": {
+    "guess": "Andrey Markov",
+    "confidence": -6.88369916211
+  },
+  "The roots of this man's namesake polynomial are useful for interpolation as they minimize the oscillation around the interval edges known as Runge's phenomenon. Those polynomials are also used in the Clenshaw-Curtis quadrature for numerical integration. The observation that there are more 3 modulo 4 prime numbers than 1 modulo 4 is a \"bias\" named for this man. This man names a type of filter with a steeper roll-off rate than a Butterworth filter. The probability of data being within k times sigma of the mean is less than one over k squared according to this man. That statement can be proven by using Markov's inequality. For 10 points, name this Russian mathematician whose namesake inequality gives an upper bound on the number of data points at some distance from the mean.": {
+    "guess": "Andrey Markov",
+    "confidence": -8.8378109347696
+  },
+  "What are the roots of the polynomial f of x equals x cubed minus three x squared plus x minus three?": {
+    "guess": "The roots of the polynomial f",
+    "confidence": -2.3189815317763203
+  },
+  "What are the roots of the polynomial f of x equals x cubed minus three x squared plus x minus three? The rational root theorem can simplify this problem by showing that 1 is a root. Synthetic division": {
+    "guess": "\ud83d\udc4d\ud83c\udffb",
+    "confidence": -7.40553934187
+  },
+  "What are the roots of the polynomial f of x equals x cubed minus three x squared plus x minus three? The rational root theorem can simplify this problem by showing that 1 is a root. Synthetic division will then yield a quadratic that can be easily factored. FTP, what are the roots of the expression quantity": {
+    "guess": "1",
+    "confidence": -11.81726544
+  },
+  "What are the roots of the polynomial f of x equals x cubed minus three x squared plus x minus three? The rational root theorem can simplify this problem by showing that 1 is a root. Synthetic division will then yield a quadratic that can be easily factored. FTP, what are the roots of the expression quantity x minus one, close quantity, times quantity x squared minus two x minus three?": {
+    "guess": "3, 5, and 7",
+    "confidence": -6.238205068999999
+  },
+  "With roots in a 1920's cultural organization, when it was renewed in 1974 as the National Cultural Liberation": {
+    "guess": "The Black Hand",
+    "confidence": -10.4187215543
+  },
+  "With roots in a 1920's cultural organization, when it was renewed in 1974 as the National Cultural Liberation Movement, many thought its purpose was to undermine Goodwill Zwelithini. Its current election": {
+    "guess": "",
+    "confidence": -3.2259648056
+  },
+  "With roots in a 1920's cultural organization, when it was renewed in 1974 as the National Cultural Liberation Movement, many thought its purpose was to undermine Goodwill Zwelithini. Its current election campaign symbol features three elephants and the slogans: \"Caring, Capable, and Clean\" and \"Real": {
+    "guess": "African National Congress",
+    "confidence": -9.39970250734
+  },
+  "With roots in a 1920's cultural organization, when it was renewed in 1974 as the National Cultural Liberation Movement, many thought its purpose was to undermine Goodwill Zwelithini. Its current election campaign symbol features three elephants and the slogans: \"Caring, Capable, and Clean\" and \"Real Development Now\" criticizing the ANC inaction on certain issues. It won nine percent of the vote in": {
+    "guess": "African National Congress",
+    "confidence": -10.04264596494
+  },
+  "With roots in a 1920's cultural organization, when it was renewed in 1974 as the National Cultural Liberation Movement, many thought its purpose was to undermine Goodwill Zwelithini. Its current election campaign symbol features three elephants and the slogans: \"Caring, Capable, and Clean\" and \"Real Development Now\" criticizing the ANC inaction on certain issues. It won nine percent of the vote in the December 2000 elections. For 10 points--name this party led by Mangosuthu Buthelezi.": {
+    "guess": "Inkatha Freedom Party",
+    "confidence": -8.2033467817
+  },
+  "A room in this story is described as smelling like licorice, a pun on the description of a woman's eye": {
+    "guess": "The Story of the Eye",
+    "confidence": -8.243813229465001
+  },
+  "A room in this story is described as smelling like licorice, a pun on the description of a woman's eye as \"lik- erous.\" The opening of this story describes a \"rich gnof\" who dwells at Oxenford. In this": {
+    "guess": "Lewis Carroll",
+    "confidence": -10.067684509
+  },
+  "A room in this story is described as smelling like licorice, a pun on the description of a woman's eye as \"lik- erous.\" The opening of this story describes a \"rich gnof\" who dwells at Oxenford. In this story, a man beseeches St. Frideswide after becoming convinced that his lodger has gone mad studying": {
+    "guess": "The Picture of Dorian Gray",
+    "confidence": -6.126455367275
+  },
+  "A room in this story is described as smelling like licorice, a pun on the description of a woman's eye as \"lik- erous.\" The opening of this story describes a \"rich gnof\" who dwells at Oxenford. In this story, a man beseeches St. Frideswide after becoming convinced that his lodger has gone mad studying astrology. The desperate cry of \"Water!\" prompts John to cut several ropes and tumble down in a bathtub": {
+    "guess": "Lewis Carroll",
+    "confidence": -10.933906822
+  },
+  "A room in this story is described as smelling like licorice, a pun on the description of a woman's eye as \"lik- erous.\" The opening of this story describes a \"rich gnof\" who dwells at Oxenford. In this story, a man beseeches St. Frideswide after becoming convinced that his lodger has gone mad studying astrology. The desperate cry of \"Water!\" prompts John to cut several ropes and tumble down in a bathtub at the end of this story. In this story, the duping of the church clerk is revenged after he procures": {
+    "guess": "Jonathan Swift",
+    "confidence": -10.86147376118
+  },
+  "A room in this story is described as smelling like licorice, a pun on the description of a woman's eye as \"lik- erous.\" The opening of this story describes a \"rich gnof\" who dwells at Oxenford. In this story, a man beseeches St. Frideswide after becoming convinced that his lodger has gone mad studying astrology. The desperate cry of \"Water!\" prompts John to cut several ropes and tumble down in a bathtub at the end of this story. In this story, the duping of the church clerk is revenged after he procures a hot blade from the smith. This story is fol- lowed by a story told by Oswald the Reeve. In": {
+    "guess": "\"The Adventure of the Noble Bachelor\"",
+    "confidence": -6.85172488301
+  },
+  "A room in this story is described as smelling like licorice, a pun on the description of a woman's eye as \"lik- erous.\" The opening of this story describes a \"rich gnof\" who dwells at Oxenford. In this story, a man beseeches St. Frideswide after becoming convinced that his lodger has gone mad studying astrology. The desperate cry of \"Water!\" prompts John to cut several ropes and tumble down in a bathtub at the end of this story. In this story, the duping of the church clerk is revenged after he procures a hot blade from the smith. This story is fol- lowed by a story told by Oswald the Reeve. In this story, Nicholas's bottom is branded after he farts in the face of Absolon. For 10 points, name": {
+    "guess": "Geoffrey Chaucer",
+    "confidence": -7.2678260620481705
+  },
+  "A room in this story is described as smelling like licorice, a pun on the description of a woman's eye as \"lik- erous.\" The opening of this story describes a \"rich gnof\" who dwells at Oxenford. In this story, a man beseeches St. Frideswide after becoming convinced that his lodger has gone mad studying astrology. The desperate cry of \"Water!\" prompts John to cut several ropes and tumble down in a bathtub at the end of this story. In this story, the duping of the church clerk is revenged after he procures a hot blade from the smith. This story is fol- lowed by a story told by Oswald the Reeve. In this story, Nicholas's bottom is branded after he farts in the face of Absolon. For 10 points, name this bawdy second Canterbury Tale.": {
+    "guess": "The Canterbury Tales",
+    "confidence": -6.612202756829198
+  }
+}

@@ -41,6 +41,7 @@ def add_guesser_params(parser):
     
 
 def setup_logging(flags):
+    print("Setting Logging level to ", flags.logging_level)
     logging.basicConfig(level=flags.logging_level, force=True)
     
 def load_questions(flags):

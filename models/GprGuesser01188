@@ -1,0 +1,30 @@
+{
+  "The DC Josephson effect occurs because of this effect. This effect is used in STMs, which are a type": {
+    "guess": "Superconducting tunnel junction",
+    "confidence": -8.7718106223
+  },
+  "The DC Josephson effect occurs because of this effect. This effect is used in STMs, which are a type of microscopes. Calculating the probability of this happening for a Heaviside step function requires": {
+    "guess": "The Bose-Einstein condens",
+    "confidence": -6.069215711299999
+  },
+  "The DC Josephson effect occurs because of this effect. This effect is used in STMs, which are a type of microscopes. Calculating the probability of this happening for a Heaviside step function requires using the boundary conditions that the wavefunction and its derivative have to be continuous everywhere.": {
+    "guess": "Quantum tunnelling",
+    "confidence": -8.090864324912
+  },
+  "The DC Josephson effect occurs because of this effect. This effect is used in STMs, which are a type of microscopes. Calculating the probability of this happening for a Heaviside step function requires using the boundary conditions that the wavefunction and its derivative have to be continuous everywhere. The probability of this happening has a hyperbolic sine squared in its denominator and this was": {
+    "guess": "The Heaviside step function",
+    "confidence": -5.3210447596599995
+  },
+  "The DC Josephson effect occurs because of this effect. This effect is used in STMs, which are a type of microscopes. Calculating the probability of this happening for a Heaviside step function requires using the boundary conditions that the wavefunction and its derivative have to be continuous everywhere. The probability of this happening has a hyperbolic sine squared in its denominator and this was used to explain (*) alpha decay as protons would need a large amount of energy to leave the nucleus.": {
+    "guess": "The DC Josephson effect",
+    "confidence": -7.6732759866193
+  },
+  "The DC Josephson effect occurs because of this effect. This effect is used in STMs, which are a type of microscopes. Calculating the probability of this happening for a Heaviside step function requires using the boundary conditions that the wavefunction and its derivative have to be continuous everywhere. The probability of this happening has a hyperbolic sine squared in its denominator and this was used to explain (*) alpha decay as protons would need a large amount of energy to leave the nucleus. This effect happens when a potential barrier is greater than the energy of a moving particle and": {
+    "guess": "Electromagnetism",
+    "confidence": -8.821901715553999
+  },
+  "The DC Josephson effect occurs because of this effect. This effect is used in STMs, which are a type of microscopes. Calculating the probability of this happening for a Heaviside step function requires using the boundary conditions that the wavefunction and its derivative have to be continuous everywhere. The probability of this happening has a hyperbolic sine squared in its denominator and this was used to explain (*) alpha decay as protons would need a large amount of energy to leave the nucleus. This effect happens when a potential barrier is greater than the energy of a moving particle and the particle moves through the barrier. For 10 points, name this quantum mechanical effect.": {
+    "guess": "The Heaviside step",
+    "confidence": -8.626469521
+  }
+}

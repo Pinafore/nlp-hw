@@ -1,0 +1,66 @@
+{
+  "Either pyridine complexes or potassium bifluoride can be used in this reaction to form the monoadduct": {
+    "guess": "",
+    "confidence": -10.9632553014
+  },
+  "Either pyridine complexes or potassium bifluoride can be used in this reaction to form the monoadduct instead of a polysubstituted product. A common reagent for this reaction is a bicyclic nonane called": {
+    "guess": "",
+    "confidence": -3.6932673615057996
+  },
+  "Either pyridine complexes or potassium bifluoride can be used in this reaction to form the monoadduct instead of a polysubstituted product. A common reagent for this reaction is a bicyclic nonane called 9-BBN. To stop dimerizations, this reaction's solvent is usually THF. The formation of a pi complex": {
+    "guess": "Dimerization",
+    "confidence": -10.090324799700001
+  },
+  "Either pyridine complexes or potassium bifluoride can be used in this reaction to form the monoadduct instead of a polysubstituted product. A common reagent for this reaction is a bicyclic nonane called 9-BBN. To stop dimerizations, this reaction's solvent is usually THF. The formation of a pi complex in this reaction explains its syn stereochemistry, and its regiochemistry is explained both by sterics": {
+    "guess": "Boron",
+    "confidence": -10.377995216
+  },
+  "Either pyridine complexes or potassium bifluoride can be used in this reaction to form the monoadduct instead of a polysubstituted product. A common reagent for this reaction is a bicyclic nonane called 9-BBN. To stop dimerizations, this reaction's solvent is usually THF. The formation of a pi complex in this reaction explains its syn stereochemistry, and its regiochemistry is explained both by sterics and because a nonbonding p orbital accepts electrons from a pi bonding orbital. In a reaction discovered": {
+    "guess": "Michael Faraday",
+    "confidence": -10.467424320000001
+  },
+  "Either pyridine complexes or potassium bifluoride can be used in this reaction to form the monoadduct instead of a polysubstituted product. A common reagent for this reaction is a bicyclic nonane called 9-BBN. To stop dimerizations, this reaction's solvent is usually THF. The formation of a pi complex in this reaction explains its syn stereochemistry, and its regiochemistry is explained both by sterics and because a nonbonding p orbital accepts electrons from a pi bonding orbital. In a reaction discovered by Herb Brown, the intermediate from this reaction is treated with basic hydrogen peroxide": {
+    "guess": "Redox",
+    "confidence": -10.017987055
+  },
+  "Either pyridine complexes or potassium bifluoride can be used in this reaction to form the monoadduct instead of a polysubstituted product. A common reagent for this reaction is a bicyclic nonane called 9-BBN. To stop dimerizations, this reaction's solvent is usually THF. The formation of a pi complex in this reaction explains its syn stereochemistry, and its regiochemistry is explained both by sterics and because a nonbonding p orbital accepts electrons from a pi bonding orbital. In a reaction discovered by Herb Brown, the intermediate from this reaction is treated with basic hydrogen peroxide to generate alcohols where the hydroxyl group is on the less substituted carbon. For 10 points, name": {
+    "guess": "Olefin",
+    "confidence": -12.093954905299999
+  },
+  "Either pyridine complexes or potassium bifluoride can be used in this reaction to form the monoadduct instead of a polysubstituted product. A common reagent for this reaction is a bicyclic nonane called 9-BBN. To stop dimerizations, this reaction's solvent is usually THF. The formation of a pi complex in this reaction explains its syn stereochemistry, and its regiochemistry is explained both by sterics and because a nonbonding p orbital accepts electrons from a pi bonding orbital. In a reaction discovered by Herb Brown, the intermediate from this reaction is treated with basic hydrogen peroxide to generate alcohols where the hydroxyl group is on the less substituted carbon. For 10 points, name this anti-Markovnikov addition to alkenes of the element with atomic number 5.": {
+    "guess": "",
+    "confidence": -4.4913518058093
+  },
+  "Either the name of this mathematician or Toricelli is used to name a point inside a triangle such that": {
+    "guess": "",
+    "confidence": -3.7704812580800007
+  },
+  "Either the name of this mathematician or Toricelli is used to name a point inside a triangle such that segements from that point to the three vertices form 120-degree angles with each other and the sum": {
+    "guess": "Ptolemy",
+    "confidence": -8.6307396053714
+  },
+  "Either the name of this mathematician or Toricelli is used to name a point inside a triangle such that segements from that point to the three vertices form 120-degree angles with each other and the sum of those three segments is minimized. This person's name is used for a group of numbers that are sometimes": {
+    "guess": "Girolamo Cardano",
+    "confidence": -5.546182949089999
+  },
+  "Either the name of this mathematician or Toricelli is used to name a point inside a triangle such that segements from that point to the three vertices form 120-degree angles with each other and the sum of those three segments is minimized. This person's name is used for a group of numbers that are sometimes called primes even though all the examples tested beyond the first five are composite. This": {
+    "guess": "Girolamo Cardano",
+    "confidence": -4.472835101316001
+  },
+  "Either the name of this mathematician or Toricelli is used to name a point inside a triangle such that segements from that point to the three vertices form 120-degree angles with each other and the sum of those three segments is minimized. This person's name is used for a group of numbers that are sometimes called primes even though all the examples tested beyond the first five are composite. This mathematician is also the namesake of a theorem that a natural number raised to the p minus one power,": {
+    "guess": "Fibonacci",
+    "confidence": -8.10278819797067
+  },
+  "Either the name of this mathematician or Toricelli is used to name a point inside a triangle such that segements from that point to the three vertices form 120-degree angles with each other and the sum of those three segments is minimized. This person's name is used for a group of numbers that are sometimes called primes even though all the examples tested beyond the first five are composite. This mathematician is also the namesake of a theorem that a natural number raised to the p minus one power, minus one, is evenly divisible by p, where p is any prime number; that is his \"little theorem\". Identify": {
+    "guess": "Gauss",
+    "confidence": -10.889570967900001
+  },
+  "Either the name of this mathematician or Toricelli is used to name a point inside a triangle such that segements from that point to the three vertices form 120-degree angles with each other and the sum of those three segments is minimized. This person's name is used for a group of numbers that are sometimes called primes even though all the examples tested beyond the first five are composite. This mathematician is also the namesake of a theorem that a natural number raised to the p minus one power, minus one, is evenly divisible by p, where p is any prime number; that is his \"little theorem\". Identify this namesake of the theorem that there are no solutions for an integer n greater than 2 to": {
+    "guess": "Gauss",
+    "confidence": -10.8630678833
+  },
+  "Either the name of this mathematician or Toricelli is used to name a point inside a triangle such that segements from that point to the three vertices form 120-degree angles with each other and the sum of those three segments is minimized. This person's name is used for a group of numbers that are sometimes called primes even though all the examples tested beyond the first five are composite. This mathematician is also the namesake of a theorem that a natural number raised to the p minus one power, minus one, is evenly divisible by p, where p is any prime number; that is his \"little theorem\". Identify this namesake of the theorem that there are no solutions for an integer n greater than 2 to the equation x to the n plus y to the n equals z to the n, which is his Last Theorem.": {
+    "guess": "Leonhard Euler",
+    "confidence": -9.79130321415
+  }
+}

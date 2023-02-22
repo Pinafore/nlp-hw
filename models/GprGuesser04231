@@ -1,0 +1,266 @@
+{
+  "In the laboratory, morpholinos may be used to block translation or modify this process. EJC proteins": {
+    "guess": "EJC proteins",
+    "confidence": -8.873672850299998
+  },
+  "In the laboratory, morpholinos may be used to block translation or modify this process. EJC proteins are deposited about 20 nucleotides upstream of the site where it occurs, allowing errors in this process": {
+    "guess": "RNA editing",
+    "confidence": -11.217400352699999
+  },
+  "In the laboratory, morpholinos may be used to block translation or modify this process. EJC proteins are deposited about 20 nucleotides upstream of the site where it occurs, allowing errors in this process to be corrected via nonsense-mediated decay. In group I, guanosine acts as a cofactor for the first": {
+    "guess": "EJC proteins",
+    "confidence": -9.7198503185
+  },
+  "In the laboratory, morpholinos may be used to block translation or modify this process. EJC proteins are deposited about 20 nucleotides upstream of the site where it occurs, allowing errors in this process to be corrected via nonsense-mediated decay. In group I, guanosine acts as a cofactor for the first of two transesterification reactions, while in another version of this process, an adenine residue": {
+    "guess": "Adenine",
+    "confidence": -9.745078750815999
+  },
+  "In the laboratory, morpholinos may be used to block translation or modify this process. EJC proteins are deposited about 20 nucleotides upstream of the site where it occurs, allowing errors in this process to be corrected via nonsense-mediated decay. In group I, guanosine acts as a cofactor for the first of two transesterification reactions, while in another version of this process, an adenine residue at the (*) branch point links to the 5-prime end of a cut mRNA segment, forming a characteristic": {
+    "guess": "Adenine-5'-phosphate",
+    "confidence": -5.286510468329
+  },
+  "In the laboratory, morpholinos may be used to block translation or modify this process. EJC proteins are deposited about 20 nucleotides upstream of the site where it occurs, allowing errors in this process to be corrected via nonsense-mediated decay. In group I, guanosine acts as a cofactor for the first of two transesterification reactions, while in another version of this process, an adenine residue at the (*) branch point links to the 5-prime end of a cut mRNA segment, forming a characteristic loop called a lariat. This is facilitated by the action of several short uridine-rich compounds called": {
+    "guess": "Splicing",
+    "confidence": -9.067540186819999
+  },
+  "In the laboratory, morpholinos may be used to block translation or modify this process. EJC proteins are deposited about 20 nucleotides upstream of the site where it occurs, allowing errors in this process to be corrected via nonsense-mediated decay. In group I, guanosine acts as a cofactor for the first of two transesterification reactions, while in another version of this process, an adenine residue at the (*) branch point links to the 5-prime end of a cut mRNA segment, forming a characteristic loop called a lariat. This is facilitated by the action of several short uridine-rich compounds called snRNPs (\"snurps\"). It is self-catalyzed by ribozymes, and protein isoforms arise due to its alternative": {
+    "guess": "Messenger RNA",
+    "confidence": -9.833264404
+  },
+  "In the laboratory, morpholinos may be used to block translation or modify this process. EJC proteins are deposited about 20 nucleotides upstream of the site where it occurs, allowing errors in this process to be corrected via nonsense-mediated decay. In group I, guanosine acts as a cofactor for the first of two transesterification reactions, while in another version of this process, an adenine residue at the (*) branch point links to the 5-prime end of a cut mRNA segment, forming a characteristic loop called a lariat. This is facilitated by the action of several short uridine-rich compounds called snRNPs (\"snurps\"). It is self-catalyzed by ribozymes, and protein isoforms arise due to its alternative type. For 10 points, identify this process in which an mRNA transcript is modified by the removal": {
+    "guess": "mRNA splicing.",
+    "confidence": -10.01910933887
+  },
+  "In the laboratory, morpholinos may be used to block translation or modify this process. EJC proteins are deposited about 20 nucleotides upstream of the site where it occurs, allowing errors in this process to be corrected via nonsense-mediated decay. In group I, guanosine acts as a cofactor for the first of two transesterification reactions, while in another version of this process, an adenine residue at the (*) branch point links to the 5-prime end of a cut mRNA segment, forming a characteristic loop called a lariat. This is facilitated by the action of several short uridine-rich compounds called snRNPs (\"snurps\"). It is self-catalyzed by ribozymes, and protein isoforms arise due to its alternative type. For 10 points, identify this process in which an mRNA transcript is modified by the removal of introns.": {
+    "guess": "Splicing",
+    "confidence": -9.305125795813002
+  },
+  "In the laboratory, this substance is used to pre-wet PVDF membranes for western blotting, and the transfer": {
+    "guess": "Polyvinylidene fluoride",
+    "confidence": -4.997384179705
+  },
+  "In the laboratory, this substance is used to pre-wet PVDF membranes for western blotting, and the transfer buffer for that procedure is 20% this substance. The product of the reaction between this compound": {
+    "guess": "Ethanol",
+    "confidence": -10.968505738
+  },
+  "In the laboratory, this substance is used to pre-wet PVDF membranes for western blotting, and the transfer buffer for that procedure is 20% this substance. The product of the reaction between this compound and hydrogen iodide is bound to an iridium-containing catalyst in the first step of the Cativa": {
+    "guess": "Iodine",
+    "confidence": -8.4051323175
+  },
+  "In the laboratory, this substance is used to pre-wet PVDF membranes for western blotting, and the transfer buffer for that procedure is 20% this substance. The product of the reaction between this compound and hydrogen iodide is bound to an iridium-containing catalyst in the first step of the Cativa process, which carbonylates this compound. Reacting this compound with isobutylene creates the anti-knock": {
+    "guess": "Iodine",
+    "confidence": -8.6886564965
+  },
+  "In the laboratory, this substance is used to pre-wet PVDF membranes for western blotting, and the transfer buffer for that procedure is 20% this substance. The product of the reaction between this compound and hydrogen iodide is bound to an iridium-containing catalyst in the first step of the Cativa process, which carbonylates this compound. Reacting this compound with isobutylene creates the anti-knock agent MBTE, and it is also used to trans-esterify triglycerides to form biodiesel. Ingesting this": {
+    "guess": "Iodine",
+    "confidence": -8.7177280107
+  },
+  "In the laboratory, this substance is used to pre-wet PVDF membranes for western blotting, and the transfer buffer for that procedure is 20% this substance. The product of the reaction between this compound and hydrogen iodide is bound to an iridium-containing catalyst in the first step of the Cativa process, which carbonylates this compound. Reacting this compound with isobutylene creates the anti-knock agent MBTE, and it is also used to trans-esterify triglycerides to form biodiesel. Ingesting this compound can cause high anion-gap acidosis and blindness, which is prevented by inhibiting ALDH.": {
+    "guess": "Chlorine",
+    "confidence": -10.09124303345
+  },
+  "In the laboratory, this substance is used to pre-wet PVDF membranes for western blotting, and the transfer buffer for that procedure is 20% this substance. The product of the reaction between this compound and hydrogen iodide is bound to an iridium-containing catalyst in the first step of the Cativa process, which carbonylates this compound. Reacting this compound with isobutylene creates the anti-knock agent MBTE, and it is also used to trans-esterify triglycerides to form biodiesel. Ingesting this compound can cause high anion-gap acidosis and blindness, which is prevented by inhibiting ALDH. This compound can be oxidized twice to create formic acid or once to create formaldehyde. It was originally": {
+    "guess": "Acetic acid",
+    "confidence": -9.3411477881
+  },
+  "In the laboratory, this substance is used to pre-wet PVDF membranes for western blotting, and the transfer buffer for that procedure is 20% this substance. The product of the reaction between this compound and hydrogen iodide is bound to an iridium-containing catalyst in the first step of the Cativa process, which carbonylates this compound. Reacting this compound with isobutylene creates the anti-knock agent MBTE, and it is also used to trans-esterify triglycerides to form biodiesel. Ingesting this compound can cause high anion-gap acidosis and blindness, which is prevented by inhibiting ALDH. This compound can be oxidized twice to create formic acid or once to create formaldehyde. It was originally distilled form wood by Robert Boyle. For 10 points, name this simplest alcohol with formula": {
+    "guess": "Ethanol",
+    "confidence": -9.629553607999998
+  },
+  "In the laboratory, this substance is used to pre-wet PVDF membranes for western blotting, and the transfer buffer for that procedure is 20% this substance. The product of the reaction between this compound and hydrogen iodide is bound to an iridium-containing catalyst in the first step of the Cativa process, which carbonylates this compound. Reacting this compound with isobutylene creates the anti-knock agent MBTE, and it is also used to trans-esterify triglycerides to form biodiesel. Ingesting this compound can cause high anion-gap acidosis and blindness, which is prevented by inhibiting ALDH. This compound can be oxidized twice to create formic acid or once to create formaldehyde. It was originally distilled form wood by Robert Boyle. For 10 points, name this simplest alcohol with formula CH2OH.": {
+    "guess": "Ethanol",
+    "confidence": -9.8749952424
+  },
+  "The lack of oxidation of this and uranium minerals from Elliot Lake, Canada has been used as evidence\n": {
+    "guess": "Uranium",
+    "confidence": -10.157510064
+  },
+  "The lack of oxidation of this and uranium minerals from Elliot Lake, Canada has been used as evidence\n of low oxygen levels during the Paleoproterozoic era. Bravoite is a nickel version of this mineral.": {
+    "guess": "Oxygen levels",
+    "confidence": -9.606210390280001
+  },
+  "The lack of oxidation of this and uranium minerals from Elliot Lake, Canada has been used as evidence\n of low oxygen levels during the Paleoproterozoic era. Bravoite is a nickel version of this mineral. In anoxic\n sediments, it is believed that this mineral is formed using a greigite intermediate from": {
+    "guess": "Greigite",
+    "confidence": -9.055117210167499
+  },
+  "The lack of oxidation of this and uranium minerals from Elliot Lake, Canada has been used as evidence\n of low oxygen levels during the Paleoproterozoic era. Bravoite is a nickel version of this mineral. In anoxic\n sediments, it is believed that this mineral is formed using a greigite intermediate from mackinawite. Ore\n bodies of this mineral are colonized and oxidized by Acidithiobacillus ferrooxidans": {
+    "guess": "Quartz",
+    "confidence": -11.1198390187
+  },
+  "The lack of oxidation of this and uranium minerals from Elliot Lake, Canada has been used as evidence\n of low oxygen levels during the Paleoproterozoic era. Bravoite is a nickel version of this mineral. In anoxic\n sediments, it is believed that this mineral is formed using a greigite intermediate from mackinawite. Ore\n bodies of this mineral are colonized and oxidized by Acidithiobacillus ferrooxidans and that oxidation is\n one of the main causes of acid mine drainage. This is found in hydrothermal": {
+    "guess": "Quartz",
+    "confidence": -10.957241991999998
+  },
+  "The lack of oxidation of this and uranium minerals from Elliot Lake, Canada has been used as evidence\n of low oxygen levels during the Paleoproterozoic era. Bravoite is a nickel version of this mineral. In anoxic\n sediments, it is believed that this mineral is formed using a greigite intermediate from mackinawite. Ore\n bodies of this mineral are colonized and oxidized by Acidithiobacillus ferrooxidans and that oxidation is\n one of the main causes of acid mine drainage. This is found in hydrothermal deposits and is one of the most\n common sulfide minerals. For 10 points, name this mineral with formula": {
+    "guess": "Pyrite",
+    "confidence": -9.596512065576
+  },
+  "The lack of oxidation of this and uranium minerals from Elliot Lake, Canada has been used as evidence\n of low oxygen levels during the Paleoproterozoic era. Bravoite is a nickel version of this mineral. In anoxic\n sediments, it is believed that this mineral is formed using a greigite intermediate from mackinawite. Ore\n bodies of this mineral are colonized and oxidized by Acidithiobacillus ferrooxidans and that oxidation is\n one of the main causes of acid mine drainage. This is found in hydrothermal deposits and is one of the most\n common sulfide minerals. For 10 points, name this mineral with formula FeS2 and sometimes called \"fool's\n gold.\"": {
+    "guess": "Pyrite",
+    "confidence": -9.002379515449
+  },
+  "This label was first applied in San Diego on September 11, 1970, at the California Republican state convention,": {
+    "guess": "\"The San Diego Union-Tribune",
+    "confidence": -3.9026798211800005
+  },
+  "This label was first applied in San Diego on September 11, 1970, at the California Republican state convention, to refer to members of a group that the same speaker had a year earlier called \"an effete": {
+    "guess": "\"hippie\"",
+    "confidence": -10.934506116400001
+  },
+  "This label was first applied in San Diego on September 11, 1970, at the California Republican state convention, to refer to members of a group that the same speaker had a year earlier called \"an effete corps of impudent snobs\". Said to have \"formed their own 4-H  Club: the hopeless, hysterical hypochondriacs": {
+    "guess": "Spiro Agnew",
+    "confidence": -7.8914404193118
+  },
+  "This label was first applied in San Diego on September 11, 1970, at the California Republican state convention, to refer to members of a group that the same speaker had a year earlier called \"an effete corps of impudent snobs\". Said to have \"formed their own 4-H  Club: the hopeless, hysterical hypochondriacs of history\" in a speech written by William Safire, for 10 points, what was the term used by": {
+    "guess": "Spiro Agnew",
+    "confidence": -8.00862646897
+  },
+  "This label was first applied in San Diego on September 11, 1970, at the California Republican state convention, to refer to members of a group that the same speaker had a year earlier called \"an effete corps of impudent snobs\". Said to have \"formed their own 4-H  Club: the hopeless, hysterical hypochondriacs of history\" in a speech written by William Safire, for 10 points, what was the term used by Vice President Spiro Agnew for babbling elite complainers?": {
+    "guess": "Spiro Agnew used the term \"",
+    "confidence": -1.3167711252000003
+  },
+  "Laboratory techniques for detecting this process include trypan blue exclusion and the TUNEL assay. ": {
+    "guess": "Apoptosis",
+    "confidence": -8.9281700131083
+  },
+  "Laboratory techniques for detecting this process include trypan blue exclusion and the TUNEL assay.  It can be induced by binding of the FAS ligand, which activates proteins like Bax and Bid of the Bcl-2": {
+    "guess": "Apoptosis",
+    "confidence": -8.174095886452
+  },
+  "Laboratory techniques for detecting this process include trypan blue exclusion and the TUNEL assay.  It can be induced by binding of the FAS ligand, which activates proteins like Bax and Bid of the Bcl-2 family, and another important inducer of it is SMAC.  Its effector enzymes can be known as Ced's,": {
+    "guess": "Apoptosis",
+    "confidence": -8.143802415397
+  },
+  "Laboratory techniques for detecting this process include trypan blue exclusion and the TUNEL assay.  It can be induced by binding of the FAS ligand, which activates proteins like Bax and Bid of the Bcl-2 family, and another important inducer of it is SMAC.  Its effector enzymes can be known as Ced's, reflecting the elucidation of this process in C. elegans, but in humans, release of cytochrome c from": {
+    "guess": "Apoptosis",
+    "confidence": -8.131460661461
+  },
+  "Laboratory techniques for detecting this process include trypan blue exclusion and the TUNEL assay.  It can be induced by binding of the FAS ligand, which activates proteins like Bax and Bid of the Bcl-2 family, and another important inducer of it is SMAC.  Its effector enzymes can be known as Ced's, reflecting the elucidation of this process in C. elegans, but in humans, release of cytochrome c from the mitochondria activates the caspases, which are powerful proteases. When damage is detected, p53": {
+    "guess": "Apoptosis",
+    "confidence": -8.123384686609999
+  },
+  "Laboratory techniques for detecting this process include trypan blue exclusion and the TUNEL assay.  It can be induced by binding of the FAS ligand, which activates proteins like Bax and Bid of the Bcl-2 family, and another important inducer of it is SMAC.  Its effector enzymes can be known as Ced's, reflecting the elucidation of this process in C. elegans, but in humans, release of cytochrome c from the mitochondria activates the caspases, which are powerful proteases. When damage is detected, p53 normally triggers this process, which includes chromatin condensation and blebbing before the cell": {
+    "guess": "Apoptosis",
+    "confidence": -8.149392393029
+  },
+  "Laboratory techniques for detecting this process include trypan blue exclusion and the TUNEL assay.  It can be induced by binding of the FAS ligand, which activates proteins like Bax and Bid of the Bcl-2 family, and another important inducer of it is SMAC.  Its effector enzymes can be known as Ced's, reflecting the elucidation of this process in C. elegans, but in humans, release of cytochrome c from the mitochondria activates the caspases, which are powerful proteases. When damage is detected, p53 normally triggers this process, which includes chromatin condensation and blebbing before the cell is phagocytized.  FTP name this process of programmed cell death.": {
+    "guess": "Apoptosis",
+    "confidence": -8.177909853600001
+  },
+  "Labor economist Beth Hayes pioneered the application of this concept to her field, writing a work about": {
+    "guess": "The Theory of Wages",
+    "confidence": -10.5603155501
+  },
+  "Labor economist Beth Hayes pioneered the application of this concept to her field, writing a work about \"Labor and Unions\" under this condition. One early work by Michael Spence discussing this concept": {
+    "guess": "The Theory of the Leisure Class",
+    "confidence": -5.8093319843
+  },
+  "Labor economist Beth Hayes pioneered the application of this concept to her field, writing a work about \"Labor and Unions\" under this condition. One early work by Michael Spence discussing this concept described ways to evade it during the hiring process and is entitled \"Job Market Signaling.\" Another": {
+    "guess": "Job Market Signaling",
+    "confidence": -6.47941857018
+  },
+  "Labor economist Beth Hayes pioneered the application of this concept to her field, writing a work about \"Labor and Unions\" under this condition. One early work by Michael Spence discussing this concept described ways to evade it during the hiring process and is entitled \"Job Market Signaling.\" Another economist developed a way around this problem by utilizing a \"menu of choices\" and analyzing the actor's": {
+    "guess": "Michael Spence",
+    "confidence": -8.329561224799999
+  },
+  "Labor economist Beth Hayes pioneered the application of this concept to her field, writing a work about \"Labor and Unions\" under this condition. One early work by Michael Spence discussing this concept described ways to evade it during the hiring process and is entitled \"Job Market Signaling.\" Another economist developed a way around this problem by utilizing a \"menu of choices\" and analyzing the actor's selection; that method is known as \"screening.\" That work was written by Joseph Stiglitz, but": {
+    "guess": "Information asymmetry",
+    "confidence": -9.20665549045
+  },
+  "Labor economist Beth Hayes pioneered the application of this concept to her field, writing a work about \"Labor and Unions\" under this condition. One early work by Michael Spence discussing this concept described ways to evade it during the hiring process and is entitled \"Job Market Signaling.\" Another economist developed a way around this problem by utilizing a \"menu of choices\" and analyzing the actor's selection; that method is known as \"screening.\" That work was written by Joseph Stiglitz, but this term was first utilized in a work which described the used car market, George Akerlof's The Market": {
+    "guess": "Joseph Stiglitz",
+    "confidence": -6.324881009706901
+  },
+  "Labor economist Beth Hayes pioneered the application of this concept to her field, writing a work about \"Labor and Unions\" under this condition. One early work by Michael Spence discussing this concept described ways to evade it during the hiring process and is entitled \"Job Market Signaling.\" Another economist developed a way around this problem by utilizing a \"menu of choices\" and analyzing the actor's selection; that method is known as \"screening.\" That work was written by Joseph Stiglitz, but this term was first utilized in a work which described the used car market, George Akerlof's The Market For Lemons. FTP, identify this condition which can result in moral hazard or adverse selection,": {
+    "guess": "Information asymmetry",
+    "confidence": -6.81244410782094
+  },
+  "Labor economist Beth Hayes pioneered the application of this concept to her field, writing a work about \"Labor and Unions\" under this condition. One early work by Michael Spence discussing this concept described ways to evade it during the hiring process and is entitled \"Job Market Signaling.\" Another economist developed a way around this problem by utilizing a \"menu of choices\" and analyzing the actor's selection; that method is known as \"screening.\" That work was written by Joseph Stiglitz, but this term was first utilized in a work which described the used car market, George Akerlof's The Market For Lemons. FTP, identify this condition which can result in moral hazard or adverse selection, an economic problem which arises when one party in a transaction knows more than the other.": {
+    "guess": "Information asymmetry",
+    "confidence": -6.7542189466892
+  },
+  "Lack of anger, extreme tallness, and wish fulfillment by kalpa trees were experienced by people born": {
+    "guess": "in the month of K\u0101l\u012b",
+    "confidence": -4.2123266296
+  },
+  "Lack of anger, extreme tallness, and wish fulfillment by kalpa trees were experienced by people born in the Su?ama-su?am? era prophesized by this faith. Its underworld is the Adho Loka, and a mirror and": {
+    "guess": "Jainism",
+    "confidence": -8.2366357241
+  },
+  "Lack of anger, extreme tallness, and wish fulfillment by kalpa trees were experienced by people born in the Su?ama-su?am? era prophesized by this faith. Its underworld is the Adho Loka, and a mirror and a fish couple are two of its Eight Auspicious Symbols. The aim of one of its rituals is to transcend": {
+    "guess": "Jainism",
+    "confidence": -8.117138310566
+  },
+  "Lack of anger, extreme tallness, and wish fulfillment by kalpa trees were experienced by people born in the Su?ama-su?am? era prophesized by this faith. Its underworld is the Adho Loka, and a mirror and a fish couple are two of its Eight Auspicious Symbols. The aim of one of its rituals is to transcend the jiva to experience Atman; this meditation is known as Samayika. The Digambara sect of this faith": {
+    "guess": "Jainism",
+    "confidence": -6.478308013449199
+  },
+  "Lack of anger, extreme tallness, and wish fulfillment by kalpa trees were experienced by people born in the Su?ama-su?am? era prophesized by this faith. Its underworld is the Adho Loka, and a mirror and a fish couple are two of its Eight Auspicious Symbols. The aim of one of its rituals is to transcend the jiva to experience Atman; this meditation is known as Samayika. The Digambara sect of this faith is notorious for its nudity, but preaches ahimsa and venerates the 24th tirthankara. For 10 points,": {
+    "guess": "Jainism",
+    "confidence": -6.3328155869209395
+  },
+  "Lack of anger, extreme tallness, and wish fulfillment by kalpa trees were experienced by people born in the Su?ama-su?am? era prophesized by this faith. Its underworld is the Adho Loka, and a mirror and a fish couple are two of its Eight Auspicious Symbols. The aim of one of its rituals is to transcend the jiva to experience Atman; this meditation is known as Samayika. The Digambara sect of this faith is notorious for its nudity, but preaches ahimsa and venerates the 24th tirthankara. For 10 points, name this Indian religion whose tenets were laid out by Mahavira.": {
+    "guess": "Jainism",
+    "confidence": -8.121863480829
+  },
+  "When labelled, these objects can be placed in one-to-one correspondence with Pruefer sequences. A well-known": {
+    "guess": "",
+    "confidence": -11.7571782573
+  },
+  "When labelled, these objects can be placed in one-to-one correspondence with Pruefer sequences. A well-known algorithm due to Tarjan finds lowest common ancestors in them. Along with Sleator, Tarjan also": {
+    "guess": "Tree",
+    "confidence": -12.562296784000003
+  },
+  "When labelled, these objects can be placed in one-to-one correspondence with Pruefer sequences. A well-known algorithm due to Tarjan finds lowest common ancestors in them. Along with Sleator, Tarjan also developed one type of these objects that is self-organizing, while another variety of these objects": {
+    "guess": "Graphs",
+    "confidence": -9.969432738
+  },
+  "When labelled, these objects can be placed in one-to-one correspondence with Pruefer sequences. A well-known algorithm due to Tarjan finds lowest common ancestors in them. Along with Sleator, Tarjan also developed one type of these objects that is self-organizing, while another variety of these objects assigns a (*) colour to each node. In addition to the \"splay\" and \"red-black\" varieties, balanced": {
+    "guess": "AVL tree",
+    "confidence": -6.745503225191199
+  },
+  "When labelled, these objects can be placed in one-to-one correspondence with Pruefer sequences. A well-known algorithm due to Tarjan finds lowest common ancestors in them. Along with Sleator, Tarjan also developed one type of these objects that is self-organizing, while another variety of these objects assigns a (*) colour to each node. In addition to the \"splay\" and \"red-black\" varieties, balanced varieties of these objects can be used for \"symbol table\" or \"dictionary\" data structures in many programming": {
+    "guess": "Data structure",
+    "confidence": -10.381463794999998
+  },
+  "When labelled, these objects can be placed in one-to-one correspondence with Pruefer sequences. A well-known algorithm due to Tarjan finds lowest common ancestors in them. Along with Sleator, Tarjan also developed one type of these objects that is self-organizing, while another variety of these objects assigns a (*) colour to each node. In addition to the \"splay\" and \"red-black\" varieties, balanced varieties of these objects can be used for \"symbol table\" or \"dictionary\" data structures in many programming language standard libraries. Their conventional depiction on paper shows they are upside-down": {
+    "guess": "Tree (data structure)",
+    "confidence": -7.122450547380001
+  },
+  "When labelled, these objects can be placed in one-to-one correspondence with Pruefer sequences. A well-known algorithm due to Tarjan finds lowest common ancestors in them. Along with Sleator, Tarjan also developed one type of these objects that is self-organizing, while another variety of these objects assigns a (*) colour to each node. In addition to the \"splay\" and \"red-black\" varieties, balanced varieties of these objects can be used for \"symbol table\" or \"dictionary\" data structures in many programming language standard libraries. Their conventional depiction on paper shows they are upside-down relative to the real-world objects after which they are named. For 10 points, name these connected": {
+    "guess": "Trees, graphs, and networks",
+    "confidence": -7.81839312
+  },
+  "When labelled, these objects can be placed in one-to-one correspondence with Pruefer sequences. A well-known algorithm due to Tarjan finds lowest common ancestors in them. Along with Sleator, Tarjan also developed one type of these objects that is self-organizing, while another variety of these objects assigns a (*) colour to each node. In addition to the \"splay\" and \"red-black\" varieties, balanced varieties of these objects can be used for \"symbol table\" or \"dictionary\" data structures in many programming language standard libraries. Their conventional depiction on paper shows they are upside-down relative to the real-world objects after which they are named. For 10 points, name these connected acyclic graphs, which contain leaves and sometimes roots, collections of which are known as forests.": {
+    "guess": "",
+    "confidence": -3.517786901645
+  },
+  "It isn't labor, but prostaglandin E2 can start this process as a product of COX2 and the arachidonic": {
+    "guess": "Prostaglandin E2",
+    "confidence": -0.4781621867260001
+  },
+  "It isn't labor, but prostaglandin E2 can start this process as a product of COX2 and the arachidonic acid cascade. A cyclic form of this process occurs over either two or three days in patients suffering": {
+    "guess": "ACCEPT",
+    "confidence": -8.5822117715348
+  },
+  "It isn't labor, but prostaglandin E2 can start this process as a product of COX2 and the arachidonic acid cascade. A cyclic form of this process occurs over either two or three days in patients suffering from malaria, while Salmonella enterica can cause a four week version of this process. It's not inflammation,": {
+    "guess": "ACCEPT",
+    "confidence": -9.182190509792001
+  },
+  "It isn't labor, but prostaglandin E2 can start this process as a product of COX2 and the arachidonic acid cascade. A cyclic form of this process occurs over either two or three days in patients suffering from malaria, while Salmonella enterica can cause a four week version of this process. It's not inflammation, but ibuprofen and acetaminophin both counteract this process. This process begins when": {
+    "guess": "Prostaglandin E2",
+    "confidence": -1.0557535179680002
+  },
+  "It isn't labor, but prostaglandin E2 can start this process as a product of COX2 and the arachidonic acid cascade. A cyclic form of this process occurs over either two or three days in patients suffering from malaria, while Salmonella enterica can cause a four week version of this process. It's not inflammation, but ibuprofen and acetaminophin both counteract this process. This process begins when the hypothalamus increases the set-point, causing vasoconstriction, shivering, an increase in thermogenin": {
+    "guess": "prostaglandin E2",
+    "confidence": -3.530500198527
+  },
+  "It isn't labor, but prostaglandin E2 can start this process as a product of COX2 and the arachidonic acid cascade. A cyclic form of this process occurs over either two or three days in patients suffering from malaria, while Salmonella enterica can cause a four week version of this process. It's not inflammation, but ibuprofen and acetaminophin both counteract this process. This process begins when the hypothalamus increases the set-point, causing vasoconstriction, shivering, an increase in thermogenin activity, all in the hopes that pathogens are inhibited by the change in condition. For 10 points,": {
+    "guess": "prostaglandin E2",
+    "confidence": -3.1849344159940003
+  },
+  "It isn't labor, but prostaglandin E2 can start this process as a product of COX2 and the arachidonic acid cascade. A cyclic form of this process occurs over either two or three days in patients suffering from malaria, while Salmonella enterica can cause a four week version of this process. It's not inflammation, but ibuprofen and acetaminophin both counteract this process. This process begins when the hypothalamus increases the set-point, causing vasoconstriction, shivering, an increase in thermogenin activity, all in the hopes that pathogens are inhibited by the change in condition. For 10 points, name this process by which the body's temperature rises to fight infection.": {
+    "guess": "Inflammation",
+    "confidence": -8.289963134850941
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "SRS-A is an example of a compound released by these cells and tryptases are a type of proteases prediominantly": {
+    "guess": "found in these cells",
+    "confidence": -9.4071098114
+  },
+  "SRS-A is an example of a compound released by these cells and tryptases are a type of proteases prediominantly expressed in one type of them, while sodium cromoglycate is a compound used to stabilize the": {
+    "guess": "Cellulose",
+    "confidence": -11.387661940000001
+  },
+  "SRS-A is an example of a compound released by these cells and tryptases are a type of proteases prediominantly expressed in one type of them, while sodium cromoglycate is a compound used to stabilize the activity of these cells. They are derived from Cd-34+ pluripotent progenitor cells. They can be activated": {
+    "guess": "T cells",
+    "confidence": -9.9294208573
+  },
+  "SRS-A is an example of a compound released by these cells and tryptases are a type of proteases prediominantly expressed in one type of them, while sodium cromoglycate is a compound used to stabilize the activity of these cells. They are derived from Cd-34+ pluripotent progenitor cells. They can be activated by the crosslinking of IgE antibodies that are monomerically bound to them. Like the red blood": {
+    "guess": "Leukocytes",
+    "confidence": -9.556152000199999
+  },
+  "SRS-A is an example of a compound released by these cells and tryptases are a type of proteases prediominantly expressed in one type of them, while sodium cromoglycate is a compound used to stabilize the activity of these cells. They are derived from Cd-34+ pluripotent progenitor cells. They can be activated by the crosslinking of IgE antibodies that are monomerically bound to them. Like the red blood cells, they are created in the bone marrow and they were first observed due by Paul Ehrlich due": {
+    "guess": "Leukocytes",
+    "confidence": -9.1417269183
+  },
+  "SRS-A is an example of a compound released by these cells and tryptases are a type of proteases prediominantly expressed in one type of them, while sodium cromoglycate is a compound used to stabilize the activity of these cells. They are derived from Cd-34+ pluripotent progenitor cells. They can be activated by the crosslinking of IgE antibodies that are monomerically bound to them. Like the red blood cells, they are created in the bone marrow and they were first observed due by Paul Ehrlich due to their ability to be stained in basic dyes, while interleukin 3 is a growth factor for these cells.": {
+    "guess": "Leukocytes",
+    "confidence": -8.2744942262
+  },
+  "SRS-A is an example of a compound released by these cells and tryptases are a type of proteases prediominantly expressed in one type of them, while sodium cromoglycate is a compound used to stabilize the activity of these cells. They are derived from Cd-34+ pluripotent progenitor cells. They can be activated by the crosslinking of IgE antibodies that are monomerically bound to them. Like the red blood cells, they are created in the bone marrow and they were first observed due by Paul Ehrlich due to their ability to be stained in basic dyes, while interleukin 3 is a growth factor for these cells. Contrasted with basophils because they do not travel in the blood stream, for 10 points, identify": {
+    "guess": "Leukocytes",
+    "confidence": -8.486462287
+  },
+  "SRS-A is an example of a compound released by these cells and tryptases are a type of proteases prediominantly expressed in one type of them, while sodium cromoglycate is a compound used to stabilize the activity of these cells. They are derived from Cd-34+ pluripotent progenitor cells. They can be activated by the crosslinking of IgE antibodies that are monomerically bound to them. Like the red blood cells, they are created in the bone marrow and they were first observed due by Paul Ehrlich due to their ability to be stained in basic dyes, while interleukin 3 is a growth factor for these cells. Contrasted with basophils because they do not travel in the blood stream, for 10 points, identify this type of cells, which are best known for releasing histamine.": {
+    "guess": "Leukocytes",
+    "confidence": -8.376829534199999
+  }
+}

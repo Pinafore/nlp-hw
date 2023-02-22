@@ -1,0 +1,34 @@
+{
+  "T.G. Cowling suggests that no axisymmetric, or even two-dimensional version of this theory can exist.": {
+    "guess": "Dynamo",
+    "confidence": -11.48278344
+  },
+  "T.G. Cowling suggests that no axisymmetric, or even two-dimensional version of this theory can exist. Hide offers that its asymmetry could be accounted for by the Taylor-Proudman theory, while the Rikitake": {
+    "guess": "Dynamo",
+    "confidence": -10.63179099
+  },
+  "T.G. Cowling suggests that no axisymmetric, or even two-dimensional version of this theory can exist. Hide offers that its asymmetry could be accounted for by the Taylor-Proudman theory, while the Rikitake model exhibits irregular reversing behavior. Qualitatively, Elsasser and Parker claim that a combination": {
+    "guess": "Elsasser-Parker theory",
+    "confidence": -1.9440771292542
+  },
+  "T.G. Cowling suggests that no axisymmetric, or even two-dimensional version of this theory can exist. Hide offers that its asymmetry could be accounted for by the Taylor-Proudman theory, while the Rikitake model exhibits irregular reversing behavior. Qualitatively, Elsasser and Parker claim that a combination of differential rotation and convective helical motion could explain this and is known as": {
+    "guess": "Dynamo",
+    "confidence": -11.872587919999999
+  },
+  "T.G. Cowling suggests that no axisymmetric, or even two-dimensional version of this theory can exist. Hide offers that its asymmetry could be accounted for by the Taylor-Proudman theory, while the Rikitake model exhibits irregular reversing behavior. Qualitatively, Elsasser and Parker claim that a combination of differential rotation and convective helical motion could explain this and is known as the alpha-omega mechanism. Mathematically, the presence of Coriolis acceleration and the Lorentz force": {
+    "guess": "Dynamo",
+    "confidence": -11.49857361
+  },
+  "T.G. Cowling suggests that no axisymmetric, or even two-dimensional version of this theory can exist. Hide offers that its asymmetry could be accounted for by the Taylor-Proudman theory, while the Rikitake model exhibits irregular reversing behavior. Qualitatively, Elsasser and Parker claim that a combination of differential rotation and convective helical motion could explain this and is known as the alpha-omega mechanism. Mathematically, the presence of Coriolis acceleration and the Lorentz force complicate the ? Magnetohydrodynamic equations that are used to describe plasma equilibria and plasma": {
+    "guess": "Dynamo",
+    "confidence": -10.88495952
+  },
+  "T.G. Cowling suggests that no axisymmetric, or even two-dimensional version of this theory can exist. Hide offers that its asymmetry could be accounted for by the Taylor-Proudman theory, while the Rikitake model exhibits irregular reversing behavior. Qualitatively, Elsasser and Parker claim that a combination of differential rotation and convective helical motion could explain this and is known as the alpha-omega mechanism. Mathematically, the presence of Coriolis acceleration and the Lorentz force complicate the ? Magnetohydrodynamic equations that are used to describe plasma equilibria and plasma waves and instabilities. FTP, name this theory which claims that the convection of conducting fluids": {
+    "guess": "Magnetohydrodynamics",
+    "confidence": -7.41672239882
+  },
+  "T.G. Cowling suggests that no axisymmetric, or even two-dimensional version of this theory can exist. Hide offers that its asymmetry could be accounted for by the Taylor-Proudman theory, while the Rikitake model exhibits irregular reversing behavior. Qualitatively, Elsasser and Parker claim that a combination of differential rotation and convective helical motion could explain this and is known as the alpha-omega mechanism. Mathematically, the presence of Coriolis acceleration and the Lorentz force complicate the ? Magnetohydrodynamic equations that are used to describe plasma equilibria and plasma waves and instabilities. FTP, name this theory which claims that the convection of conducting fluids in the core is the primary mechanism for the generation of Earth's magnetic field.": {
+    "guess": "Dynamo theory",
+    "confidence": -9.143592625
+  }
+}

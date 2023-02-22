@@ -1,0 +1,42 @@
+{
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This": {
+    "guess": "Algorithm",
+    "confidence": -9.5543116643
+  },
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This procedure is applied to the covariance matrix to find the rotation matrix that minimizes the root": {
+    "guess": "Singular value decomposition",
+    "confidence": -8.94501037135
+  },
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This procedure is applied to the covariance matrix to find the rotation matrix that minimizes the root mean square deviation in the Kabsch algorithm. Most methods of performing this procedure begin with": {
+    "guess": "Inverse matrix multiplication",
+    "confidence": -11.289457069000001
+  },
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This procedure is applied to the covariance matrix to find the rotation matrix that minimizes the root mean square deviation in the Kabsch algorithm. Most methods of performing this procedure begin with a Householder reduction of the input so that the input is bidiagonalized; such methods include the": {
+    "guess": "Cryptography",
+    "confidence": -10.119603155
+  },
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This procedure is applied to the covariance matrix to find the rotation matrix that minimizes the root mean square deviation in the Kabsch algorithm. Most methods of performing this procedure begin with a Householder reduction of the input so that the input is bidiagonalized; such methods include the Golub- Kahan algorithm. This operation is often visualized as a procedure that rotates, scales, and": {
+    "guess": "Matrix multiplication",
+    "confidence": -10.7690991803
+  },
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This procedure is applied to the covariance matrix to find the rotation matrix that minimizes the root mean square deviation in the Kabsch algorithm. Most methods of performing this procedure begin with a Householder reduction of the input so that the input is bidiagonalized; such methods include the Golub- Kahan algorithm. This operation is often visualized as a procedure that rotates, scales, and re-rotates a coordinate axis, leaving the system sheared. This procedure is used to compress an image": {
+    "guess": "JPEG compression",
+    "confidence": -10.847826072999998
+  },
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This procedure is applied to the covariance matrix to find the rotation matrix that minimizes the root mean square deviation in the Kabsch algorithm. Most methods of performing this procedure begin with a Householder reduction of the input so that the input is bidiagonalized; such methods include the Golub- Kahan algorithm. This operation is often visualized as a procedure that rotates, scales, and re-rotates a coordinate axis, leaving the system sheared. This procedure is used to compress an image by repartitioning the RGB values in matrices into a rank-R truncation of the terms this operation": {
+    "guess": "JPEG compression",
+    "confidence": -11.53003848
+  },
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This procedure is applied to the covariance matrix to find the rotation matrix that minimizes the root mean square deviation in the Kabsch algorithm. Most methods of performing this procedure begin with a Householder reduction of the input so that the input is bidiagonalized; such methods include the Golub- Kahan algorithm. This operation is often visualized as a procedure that rotates, scales, and re-rotates a coordinate axis, leaving the system sheared. This procedure is used to compress an image by repartitioning the RGB values in matrices into a rank-R truncation of the terms this operation produces. This operation is used to quickly compute the pseudoinverse, and it is a generalization of": {
+    "guess": "Inverse matrix",
+    "confidence": -10.36892152
+  },
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This procedure is applied to the covariance matrix to find the rotation matrix that minimizes the root mean square deviation in the Kabsch algorithm. Most methods of performing this procedure begin with a Householder reduction of the input so that the input is bidiagonalized; such methods include the Golub- Kahan algorithm. This operation is often visualized as a procedure that rotates, scales, and re-rotates a coordinate axis, leaving the system sheared. This procedure is used to compress an image by repartitioning the RGB values in matrices into a rank-R truncation of the terms this operation produces. This operation is used to quickly compute the pseudoinverse, and it is a generalization of the spectral factorization for rectangular matrices. For 10 points, name this operation that factors": {
+    "guess": "Factorization",
+    "confidence": -10.3983512391
+  },
+  "Zhong et al. used this mathematical procedure as part of an algorithm to create digital watermarks. This procedure is applied to the covariance matrix to find the rotation matrix that minimizes the root mean square deviation in the Kabsch algorithm. Most methods of performing this procedure begin with a Householder reduction of the input so that the input is bidiagonalized; such methods include the Golub- Kahan algorithm. This operation is often visualized as a procedure that rotates, scales, and re-rotates a coordinate axis, leaving the system sheared. This procedure is used to compress an image by repartitioning the RGB values in matrices into a rank-R truncation of the terms this operation produces. This operation is used to quickly compute the pseudoinverse, and it is a generalization of the spectral factorization for rectangular matrices. For 10 points, name this operation that factors a matrix into three other matrices, the second of which contains the namesake numbers on its diagonal.": {
+    "guess": "Matrix multiplication",
+    "confidence": -10.57653952
+  }
+}

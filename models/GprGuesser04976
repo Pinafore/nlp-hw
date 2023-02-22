@@ -1,0 +1,30 @@
+{
+  "Mylar and Kapton are films used in these objects at low frequencies. Their failure in motherboards is": {
+    "guess": "Capacitor",
+    "confidence": -8.1748257048793
+  },
+  "Mylar and Kapton are films used in these objects at low frequencies. Their failure in motherboards is called their namesake \"plague\", and the mica types of these objects have the advantage of being highly": {
+    "guess": "Capacitor",
+    "confidence": -8.162806314416
+  },
+  "Mylar and Kapton are films used in these objects at low frequencies. Their failure in motherboards is called their namesake \"plague\", and the mica types of these objects have the advantage of being highly stable over time and at varying temperatures. For a spherical one of these, its associated quantity": {
+    "guess": "Capacitor",
+    "confidence": -8.181653847514
+  },
+  "Mylar and Kapton are films used in these objects at low frequencies. Their failure in motherboards is called their namesake \"plague\", and the mica types of these objects have the advantage of being highly stable over time and at varying temperatures. For a spherical one of these, its associated quantity is defined as four-pi times the permittivity of free space divided by the difference in the inverses": {
+    "guess": "Dielectric constant",
+    "confidence": -9.94222592335
+  },
+  "Mylar and Kapton are films used in these objects at low frequencies. Their failure in motherboards is called their namesake \"plague\", and the mica types of these objects have the advantage of being highly stable over time and at varying temperatures. For a spherical one of these, its associated quantity is defined as four-pi times the permittivity of free space divided by the difference in the inverses of the sphere's inner and outer radii. That quantity is simply defined as charge over voltage for": {
+    "guess": "Capacitance",
+    "confidence": -8.316323376674
+  },
+  "Mylar and Kapton are films used in these objects at low frequencies. Their failure in motherboards is called their namesake \"plague\", and the mica types of these objects have the advantage of being highly stable over time and at varying temperatures. For a spherical one of these, its associated quantity is defined as four-pi times the permittivity of free space divided by the difference in the inverses of the sphere's inner and outer radii. That quantity is simply defined as charge over voltage for the parallel plate type of this device. It is often symbolized by two parallel lines in circuits.": {
+    "guess": "Capacitance",
+    "confidence": -9.710970836119
+  },
+  "Mylar and Kapton are films used in these objects at low frequencies. Their failure in motherboards is called their namesake \"plague\", and the mica types of these objects have the advantage of being highly stable over time and at varying temperatures. For a spherical one of these, its associated quantity is defined as four-pi times the permittivity of free space divided by the difference in the inverses of the sphere's inner and outer radii. That quantity is simply defined as charge over voltage for the parallel plate type of this device. It is often symbolized by two parallel lines in circuits. For 10 points, name these devices with the ability to store charge.": {
+    "guess": "Capacitors, Inductors,",
+    "confidence": -3.4818482595069997
+  }
+}

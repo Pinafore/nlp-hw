@@ -1,0 +1,54 @@
+{
+  "The zero-length column method was designed to measure this process within zeolite crystals. Its rate": {
+    "guess": "Catalytic activity",
+    "confidence": -10.0235681699
+  },
+  "The zero-length column method was designed to measure this process within zeolite crystals. Its rate is the denominator of the Thiele modulus.  The effective constant for it is a function of its bulk constant": {
+    "guess": "Diffusion",
+    "confidence": -10.23147596032
+  },
+  "The zero-length column method was designed to measure this process within zeolite crystals. Its rate is the denominator of the Thiele modulus.  The effective constant for it is a function of its bulk constant along with tortuosity and hindrance factors. Large scale enriching uranium is accomplished using": {
+    "guess": "Diffusion",
+    "confidence": -9.93571891476
+  },
+  "The zero-length column method was designed to measure this process within zeolite crystals. Its rate is the denominator of the Thiele modulus.  The effective constant for it is a function of its bulk constant along with tortuosity and hindrance factors. Large scale enriching uranium is accomplished using centrifugation or this process.  The mass flux is a function of the partial derivative of concentration": {
+    "guess": "Diffusion",
+    "confidence": -9.646421387300002
+  },
+  "The zero-length column method was designed to measure this process within zeolite crystals. Its rate is the denominator of the Thiele modulus.  The effective constant for it is a function of its bulk constant along with tortuosity and hindrance factors. Large scale enriching uranium is accomplished using centrifugation or this process.  The mass flux is a function of the partial derivative of concentration with respect to length in Fick's law describing this. Osmosis is this of water across a membrane.": {
+    "guess": "Diffusion",
+    "confidence": -9.19800998407
+  },
+  "The zero-length column method was designed to measure this process within zeolite crystals. Its rate is the denominator of the Thiele modulus.  The effective constant for it is a function of its bulk constant along with tortuosity and hindrance factors. Large scale enriching uranium is accomplished using centrifugation or this process.  The mass flux is a function of the partial derivative of concentration with respect to length in Fick's law describing this. Osmosis is this of water across a membrane.  For 10 points, name this phenomenon resulting from the random movement of particles that sees": {
+    "guess": "Diffusion",
+    "confidence": -9.179538855879999
+  },
+  "The zero-length column method was designed to measure this process within zeolite crystals. Its rate is the denominator of the Thiele modulus.  The effective constant for it is a function of its bulk constant along with tortuosity and hindrance factors. Large scale enriching uranium is accomplished using centrifugation or this process.  The mass flux is a function of the partial derivative of concentration with respect to length in Fick's law describing this. Osmosis is this of water across a membrane.  For 10 points, name this phenomenon resulting from the random movement of particles that sees transfer between regions of high concentration to regions of low concentration.": {
+    "guess": "Diffusion",
+    "confidence": -9.144076235757
+  },
+  "Zero is a natural number. Every natural number has a successor, which is also a natural number. Zero": {
+    "guess": "True",
+    "confidence": -10.789097111
+  },
+  "Zero is a natural number. Every natural number has a successor, which is also a natural number. Zero is not the successor of any natural number. Different natural numbers have different successors. And": {
+    "guess": "Recursion",
+    "confidence": -10.9635784
+  },
+  "Zero is a natural number. Every natural number has a successor, which is also a natural number. Zero is not the successor of any natural number. Different natural numbers have different successors. And if zero has X, and each natural number relays X to its successor, then all natural numbers get X. These": {
+    "guess": "Zero",
+    "confidence": -12.751519050000002
+  },
+  "Zero is a natural number. Every natural number has a successor, which is also a natural number. Zero is not the successor of any natural number. Different natural numbers have different successors. And if zero has X, and each natural number relays X to its successor, then all natural numbers get X. These are statements of a group of statements of number theory published in 1889 by a mathematician who": {
+    "guess": "Georg Cantor",
+    "confidence": -9.461864676
+  },
+  "Zero is a natural number. Every natural number has a successor, which is also a natural number. Zero is not the successor of any natural number. Different natural numbers have different successors. And if zero has X, and each natural number relays X to its successor, then all natural numbers get X. These are statements of a group of statements of number theory published in 1889 by a mathematician who attributed them to Dedekind. FTP, give the collective name of these statements published by an Italian": {
+    "guess": "The Dedekind cuts",
+    "confidence": -10.0880688257824
+  },
+  "Zero is a natural number. Every natural number has a successor, which is also a natural number. Zero is not the successor of any natural number. Different natural numbers have different successors. And if zero has X, and each natural number relays X to its successor, then all natural numbers get X. These are statements of a group of statements of number theory published in 1889 by a mathematician who attributed them to Dedekind. FTP, give the collective name of these statements published by an Italian mathematician.": {
+    "guess": "The Peano axioms",
+    "confidence": -4.631747247049001
+  }
+}

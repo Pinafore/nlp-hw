@@ -1,0 +1,34 @@
+{
+  "For a wire suspended in a magnetic field, the magnitude of this quantity is equal to the magnitude of": {
+    "guess": "Voltage",
+    "confidence": -11.897106725
+  },
+  "For a wire suspended in a magnetic field, the magnitude of this quantity is equal to the magnitude of the current times the length times the field strength, and when a charge is in an electric field, this": {
+    "guess": "Electric potential",
+    "confidence": -9.818209365
+  },
+  "For a wire suspended in a magnetic field, the magnitude of this quantity is equal to the magnitude of the current times the length times the field strength, and when a charge is in an electric field, this quantity is the product of the charge and the field strength. This quantity is generally equal to": {
+    "guess": "Electric potential",
+    "confidence": -10.21407442
+  },
+  "For a wire suspended in a magnetic field, the magnitude of this quantity is equal to the magnitude of the current times the length times the field strength, and when a charge is in an electric field, this quantity is the product of the charge and the field strength. This quantity is generally equal to the derivative of momentum with respect to time. This quantity is proportional to (*) displacement": {
+    "guess": "Electric potential",
+    "confidence": -10.92592858
+  },
+  "For a wire suspended in a magnetic field, the magnitude of this quantity is equal to the magnitude of the current times the length times the field strength, and when a charge is in an electric field, this quantity is the product of the charge and the field strength. This quantity is generally equal to the derivative of momentum with respect to time. This quantity is proportional to (*) displacement in a spring by Hooke's Law and, in the case of its electromagnetism, varies inversely with distance": {
+    "guess": "Electric potential",
+    "confidence": -11.092139085
+  },
+  "For a wire suspended in a magnetic field, the magnitude of this quantity is equal to the magnitude of the current times the length times the field strength, and when a charge is in an electric field, this quantity is the product of the charge and the field strength. This quantity is generally equal to the derivative of momentum with respect to time. This quantity is proportional to (*) displacement in a spring by Hooke's Law and, in the case of its electromagnetism, varies inversely with distance squared. The \"normal\" type of this always acts perpendicularly to an inclined plane an object rests": {
+    "guess": "Electric potential",
+    "confidence": -11.128772350000002
+  },
+  "For a wire suspended in a magnetic field, the magnitude of this quantity is equal to the magnitude of the current times the length times the field strength, and when a charge is in an electric field, this quantity is the product of the charge and the field strength. This quantity is generally equal to the derivative of momentum with respect to time. This quantity is proportional to (*) displacement in a spring by Hooke's Law and, in the case of its electromagnetism, varies inversely with distance squared. The \"normal\" type of this always acts perpendicularly to an inclined plane an object rests on. For ten points, what is this vector quantity from physics, which is equal to mass times acceleration": {
+    "guess": "Mass",
+    "confidence": -10.77167056
+  },
+  "For a wire suspended in a magnetic field, the magnitude of this quantity is equal to the magnitude of the current times the length times the field strength, and when a charge is in an electric field, this quantity is the product of the charge and the field strength. This quantity is generally equal to the derivative of momentum with respect to time. This quantity is proportional to (*) displacement in a spring by Hooke's Law and, in the case of its electromagnetism, varies inversely with distance squared. The \"normal\" type of this always acts perpendicularly to an inclined plane an object rests on. For ten points, what is this vector quantity from physics, which is equal to mass times acceleration and is often measured in Newtons?": {
+    "guess": "Mass",
+    "confidence": -11.884284779999998
+  }
+}

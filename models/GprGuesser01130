@@ -1,0 +1,18 @@
+{
+  "They are cylindrical dielectric waveguides composed of a central cylinder, surrounded by an annulus with": {
+    "guess": "Solar eclipse",
+    "confidence": -9.7560959255
+  },
+  "They are cylindrical dielectric waveguides composed of a central cylinder, surrounded by an annulus with a lower refractive index. Due to signal losses through optical attenuation and dispersion, repeaters": {
+    "guess": "Dispersion",
+    "confidence": -9.9347256103
+  },
+  "They are cylindrical dielectric waveguides composed of a central cylinder, surrounded by an annulus with a lower refractive index. Due to signal losses through optical attenuation and dispersion, repeaters must be used in these networks to keep signals clean.  For ten points, name this technology that": {
+    "guess": "Optical fiber",
+    "confidence": -10.67806301
+  },
+  "They are cylindrical dielectric waveguides composed of a central cylinder, surrounded by an annulus with a lower refractive index. Due to signal losses through optical attenuation and dispersion, repeaters must be used in these networks to keep signals clean.  For ten points, name this technology that uses total internal reflection to transfer light signals.": {
+    "guess": "Optical fiber",
+    "confidence": -9.725731955999999
+  }
+}

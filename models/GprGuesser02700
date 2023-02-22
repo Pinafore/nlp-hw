@@ -1,0 +1,82 @@
+{
+  "The Haoma plant plays an important role in this religion. In it, the idea of chaos and disorder is known": {
+    "guess": "Zoroastrianism",
+    "confidence": -8.021283636353001
+  },
+  "The Haoma plant plays an important role in this religion. In it, the idea of chaos and disorder is known as Druj and a group of divine spirits is called the (*) Amesha Spenta. This religion's evil spirit": {
+    "guess": "Zoroastrianism",
+    "confidence": -8.17664684004
+  },
+  "The Haoma plant plays an important role in this religion. In it, the idea of chaos and disorder is known as Druj and a group of divine spirits is called the (*) Amesha Spenta. This religion's evil spirit is referred to as Angra Mainyu. Adherents of this religion believe in exposing corpses to the elements,": {
+    "guess": "Zoroastrianism",
+    "confidence": -7.995394484773
+  },
+  "The Haoma plant plays an important role in this religion. In it, the idea of chaos and disorder is known as Druj and a group of divine spirits is called the (*) Amesha Spenta. This religion's evil spirit is referred to as Angra Mainyu. Adherents of this religion believe in exposing corpses to the elements, typically in structures known as Towers of Silence. The holy text of this religion is known as": {
+    "guess": "Zoroastrianism",
+    "confidence": -6.6115776748199995
+  },
+  "The Haoma plant plays an important role in this religion. In it, the idea of chaos and disorder is known as Druj and a group of divine spirits is called the (*) Amesha Spenta. This religion's evil spirit is referred to as Angra Mainyu. Adherents of this religion believe in exposing corpses to the elements, typically in structures known as Towers of Silence. The holy text of this religion is known as the Avesta, and its supreme deity is Ahura Mazda. For 10 points, name this dualistic Persian religion,": {
+    "guess": "Zoroastrianism",
+    "confidence": -6.513905227579
+  },
+  "The Haoma plant plays an important role in this religion. In it, the idea of chaos and disorder is known as Druj and a group of divine spirits is called the (*) Amesha Spenta. This religion's evil spirit is referred to as Angra Mainyu. Adherents of this religion believe in exposing corpses to the elements, typically in structures known as Towers of Silence. The holy text of this religion is known as the Avesta, and its supreme deity is Ahura Mazda. For 10 points, name this dualistic Persian religion, whose founder is alternately called Zarathustra.": {
+    "guess": "Zoroastrianism",
+    "confidence": -6.3547750482125
+  },
+  "Hao Wang used the letter \"B\" to indicate a simplified variety of these objects, while Martin Davis appended": {
+    "guess": "Bamboo",
+    "confidence": -10.0077499
+  },
+  "Hao Wang used the letter \"B\" to indicate a simplified variety of these objects, while Martin Davis appended Emil Post's name to another reduced variety of them. One version of these objects features a": {
+    "guess": "Binary",
+    "confidence": -11.589750689999999
+  },
+  "Hao Wang used the letter \"B\" to indicate a simplified variety of these objects, while Martin Davis appended Emil Post's name to another reduced variety of them. One version of these objects features a black box with the capability to decide any problem in a single operation called an oracle, while Tibor": {
+    "guess": "Boolean",
+    "confidence": -11.360933569999998
+  },
+  "Hao Wang used the letter \"B\" to indicate a simplified variety of these objects, while Martin Davis appended Emil Post's name to another reduced variety of them. One version of these objects features a black box with the capability to decide any problem in a single operation called an oracle, while Tibor Rado developed a function to determine the maximum operational time of one of them called the \"busy": {
+    "guess": "Turing machine",
+    "confidence": -8.932466998699999
+  },
+  "Hao Wang used the letter \"B\" to indicate a simplified variety of these objects, while Martin Davis appended Emil Post's name to another reduced variety of them. One version of these objects features a black box with the capability to decide any problem in a single operation called an oracle, while Tibor Rado developed a function to determine the maximum operational time of one of them called the \"busy beaver.\" They are formally defined as seven-tuples that contain a partial \"transition\" function": {
+    "guess": "Turing machine",
+    "confidence": -8.876078593299999
+  },
+  "Hao Wang used the letter \"B\" to indicate a simplified variety of these objects, while Martin Davis appended Emil Post's name to another reduced variety of them. One version of these objects features a black box with the capability to decide any problem in a single operation called an oracle, while Tibor Rado developed a function to determine the maximum operational time of one of them called the \"busy beaver.\" They are formally defined as seven-tuples that contain a partial \"transition\" function that directs their heads right and left on their tapes. For 10 points, identify these theoretical devices": {
+    "guess": "Turing machine, Busy Beaver, or",
+    "confidence": -0.749584233407
+  },
+  "Hao Wang used the letter \"B\" to indicate a simplified variety of these objects, while Martin Davis appended Emil Post's name to another reduced variety of them. One version of these objects features a black box with the capability to decide any problem in a single operation called an oracle, while Tibor Rado developed a function to determine the maximum operational time of one of them called the \"busy beaver.\" They are formally defined as seven-tuples that contain a partial \"transition\" function that directs their heads right and left on their tapes. For 10 points, identify these theoretical devices used to represent computational logic, named for a computer scientist who also names a test for": {
+    "guess": "Turing machine, oracle, busy be",
+    "confidence": -2.6124513169
+  },
+  "Hao Wang used the letter \"B\" to indicate a simplified variety of these objects, while Martin Davis appended Emil Post's name to another reduced variety of them. One version of these objects features a black box with the capability to decide any problem in a single operation called an oracle, while Tibor Rado developed a function to determine the maximum operational time of one of them called the \"busy beaver.\" They are formally defined as seven-tuples that contain a partial \"transition\" function that directs their heads right and left on their tapes. For 10 points, identify these theoretical devices used to represent computational logic, named for a computer scientist who also names a test for artificial intelligence.": {
+    "guess": "Turing machine, Turing test, Post test",
+    "confidence": -3.3411922130000007
+  },
+  "It happens when a computer process uses an address which is not currently mapped in physical memory.": {
+    "guess": "Out of memory",
+    "confidence": -8.87124789
+  },
+  "It happens when a computer process uses an address which is not currently mapped in physical memory. Because most modern computers do not have enough physical RAM to contain the entire address space, these": {
+    "guess": "Out of memory errors",
+    "confidence": -9.81255054
+  },
+  "It happens when a computer process uses an address which is not currently mapped in physical memory. Because most modern computers do not have enough physical RAM to contain the entire address space, these events are bound to occur eventually. The needed data is located, usually residing on a hard disk,": {
+    "guess": "Out of memory",
+    "confidence": -8.995649346
+  },
+  "It happens when a computer process uses an address which is not currently mapped in physical memory. Because most modern computers do not have enough physical RAM to contain the entire address space, these events are bound to occur eventually. The needed data is located, usually residing on a hard disk, and an unused section of RAM is swapped out so that the required page may be swapped in and accessed.": {
+    "guess": "Memory leak",
+    "confidence": -8.1116666276952
+  },
+  "It happens when a computer process uses an address which is not currently mapped in physical memory. Because most modern computers do not have enough physical RAM to contain the entire address space, these events are bound to occur eventually. The needed data is located, usually residing on a hard disk, and an unused section of RAM is swapped out so that the required page may be swapped in and accessed. FTP, name this memory-management event, invalid ones of which cause the infamous \"Blue Screen": {
+    "guess": "Out of memory",
+    "confidence": -8.77554841
+  },
+  "It happens when a computer process uses an address which is not currently mapped in physical memory. Because most modern computers do not have enough physical RAM to contain the entire address space, these events are bound to occur eventually. The needed data is located, usually residing on a hard disk, and an unused section of RAM is swapped out so that the required page may be swapped in and accessed. FTP, name this memory-management event, invalid ones of which cause the infamous \"Blue Screen of Death\" on Windows-based computers.": {
+    "guess": "Memory management",
+    "confidence": -9.373209721522201
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "The SN1 Phillips mechanism was proposed for the enzymatic breakdown of this molecule. By recognizing": {
+    "guess": "Lysozyme",
+    "confidence": -8.955976837266501
+  },
+  "The SN1 Phillips mechanism was proposed for the enzymatic breakdown of this molecule. By recognizing DAP or MDP in this molecule, Nod1 and Nod2 act as sensors for it. Lysozymes degrade this molecule, and": {
+    "guess": "N-acetylmuramic acid",
+    "confidence": -3.40254678498
+  },
+  "The SN1 Phillips mechanism was proposed for the enzymatic breakdown of this molecule. By recognizing DAP or MDP in this molecule, Nod1 and Nod2 act as sensors for it. Lysozymes degrade this molecule, and by inhibiting DD-transpeptidase, (*) beta-lactams prevent this molecule's synthesis. This molecule": {
+    "guess": "Penicillin",
+    "confidence": -9.705005292109998
+  },
+  "The SN1 Phillips mechanism was proposed for the enzymatic breakdown of this molecule. By recognizing DAP or MDP in this molecule, Nod1 and Nod2 act as sensors for it. Lysozymes degrade this molecule, and by inhibiting DD-transpeptidase, (*) beta-lactams prevent this molecule's synthesis. This molecule contains several Damino acids and is made of beta-(1,4)-linked N-acetylglucosamine and N-acetylmuramic": {
+    "guess": "Penicillin",
+    "confidence": -9.598155020329
+  },
+  "The SN1 Phillips mechanism was proposed for the enzymatic breakdown of this molecule. By recognizing DAP or MDP in this molecule, Nod1 and Nod2 act as sensors for it. Lysozymes degrade this molecule, and by inhibiting DD-transpeptidase, (*) beta-lactams prevent this molecule's synthesis. This molecule contains several Damino acids and is made of beta-(1,4)-linked N-acetylglucosamine and N-acetylmuramic acid. It comprises 90% of the dry mass of Gram-positive bacteria. For 10 points, name this molecule": {
+    "guess": "Penicillin",
+    "confidence": -9.32777554271
+  },
+  "The SN1 Phillips mechanism was proposed for the enzymatic breakdown of this molecule. By recognizing DAP or MDP in this molecule, Nod1 and Nod2 act as sensors for it. Lysozymes degrade this molecule, and by inhibiting DD-transpeptidase, (*) beta-lactams prevent this molecule's synthesis. This molecule contains several Damino acids and is made of beta-(1,4)-linked N-acetylglucosamine and N-acetylmuramic acid. It comprises 90% of the dry mass of Gram-positive bacteria. For 10 points, name this molecule that forms most of the bacterial cell wall.": {
+    "guess": "Cellulose",
+    "confidence": -8.9683718138
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "The Kepler mission will use a digital camera that will take pictures every 15 minutes of this constellation": {
+    "guess": "Orion",
+    "confidence": -10.814613381000001
+  },
+  "The Kepler mission will use a digital camera that will take pictures every 15 minutes of this constellation for at least 4 years. It contains the North American Nebula, and the blue and gold double star": {
+    "guess": "Orion (constellation)",
+    "confidence": -7.2549743199000005
+  },
+  "The Kepler mission will use a digital camera that will take pictures every 15 minutes of this constellation for at least 4 years. It contains the North American Nebula, and the blue and gold double star system Albireo can be seen at the opposite end from the alpha star, whose name is Arabic for \"tail.\"": {
+    "guess": "Orion (constellation)",
+    "confidence": -6.777707790732
+  },
+  "The Kepler mission will use a digital camera that will take pictures every 15 minutes of this constellation for at least 4 years. It contains the North American Nebula, and the blue and gold double star system Albireo can be seen at the opposite end from the alpha star, whose name is Arabic for \"tail.\" It also contains the X-ray source X-1, a binary system including the first strong candidate for a": {
+    "guess": "Cygnus (constellation)",
+    "confidence": -0.2926812922198
+  },
+  "The Kepler mission will use a digital camera that will take pictures every 15 minutes of this constellation for at least 4 years. It contains the North American Nebula, and the blue and gold double star system Albireo can be seen at the opposite end from the alpha star, whose name is Arabic for \"tail.\" It also contains the X-ray source X-1, a binary system including the first strong candidate for a black hole. It is also called the Northern Cross, and the long arm points into the Summer Triangle": {
+    "guess": "Cygnus (constellation)",
+    "confidence": -0.76101374066967
+  },
+  "The Kepler mission will use a digital camera that will take pictures every 15 minutes of this constellation for at least 4 years. It contains the North American Nebula, and the blue and gold double star system Albireo can be seen at the opposite end from the alpha star, whose name is Arabic for \"tail.\" It also contains the X-ray source X-1, a binary system including the first strong candidate for a black hole. It is also called the Northern Cross, and the long arm points into the Summer Triangle asterism, with the alpha star Deneb at the top of the cross. For ten points, name this constellation": {
+    "guess": "Cygnus (constellation)",
+    "confidence": -0.5638945734305001
+  },
+  "The Kepler mission will use a digital camera that will take pictures every 15 minutes of this constellation for at least 4 years. It contains the North American Nebula, and the blue and gold double star system Albireo can be seen at the opposite end from the alpha star, whose name is Arabic for \"tail.\" It also contains the X-ray source X-1, a binary system including the first strong candidate for a black hole. It is also called the Northern Cross, and the long arm points into the Summer Triangle asterism, with the alpha star Deneb at the top of the cross. For ten points, name this constellation of a swan.": {
+    "guess": "Cygnus (constellation)",
+    "confidence": -0.0737125150285
+  },
+  "Kepler's Conjecture postulates that these objects can be packed with a density of approximately 74%.": {
+    "guess": "Hypersphere",
+    "confidence": -8.309692988234
+  },
+  "Kepler's Conjecture postulates that these objects can be packed with a density of approximately 74%. The Banach-Tarski paradox states that a solid one of these objects can be cut into finitely many pieces": {
+    "guess": "Cube",
+    "confidence": -7.5985175191327
+  },
+  "Kepler's Conjecture postulates that these objects can be packed with a density of approximately 74%. The Banach-Tarski paradox states that a solid one of these objects can be cut into finitely many pieces and re-assembled into two copies of the same size as the original. For a  non-Euclidean geometry": {
+    "guess": "Non-Euclidean geometry",
+    "confidence": -0.7371681923338
+  },
+  "Kepler's Conjecture postulates that these objects can be packed with a density of approximately 74%. The Banach-Tarski paradox states that a solid one of these objects can be cut into finitely many pieces and re-assembled into two copies of the same size as the original. For a  non-Euclidean geometry occurring on these objects, triangles have angle sum greater than 180 degrees. (*) Archimedes derived": {
+    "guess": "Sphere",
+    "confidence": -10.700257133900001
+  },
+  "Kepler's Conjecture postulates that these objects can be packed with a density of approximately 74%. The Banach-Tarski paradox states that a solid one of these objects can be cut into finitely many pieces and re-assembled into two copies of the same size as the original. For a  non-Euclidean geometry occurring on these objects, triangles have angle sum greater than 180 degrees. (*) Archimedes derived the formula for the volume of this figure by noting that it occupied two-thirds of the volume of": {
+    "guess": "Sphere",
+    "confidence": -11.133400453
+  },
+  "Kepler's Conjecture postulates that these objects can be packed with a density of approximately 74%. The Banach-Tarski paradox states that a solid one of these objects can be cut into finitely many pieces and re-assembled into two copies of the same size as the original. For a  non-Euclidean geometry occurring on these objects, triangles have angle sum greater than 180 degrees. (*) Archimedes derived the formula for the volume of this figure by noting that it occupied two-thirds of the volume of its circumscribed cylinder. This figure has surface area equal to four pi times the radius squared,": {
+    "guess": "Sphere",
+    "confidence": -10.73040512
+  },
+  "Kepler's Conjecture postulates that these objects can be packed with a density of approximately 74%. The Banach-Tarski paradox states that a solid one of these objects can be cut into finitely many pieces and re-assembled into two copies of the same size as the original. For a  non-Euclidean geometry occurring on these objects, triangles have angle sum greater than 180 degrees. (*) Archimedes derived the formula for the volume of this figure by noting that it occupied two-thirds of the volume of its circumscribed cylinder. This figure has surface area equal to four pi times the radius squared, and volume four-thirds pi times radius cubed. For ten points, name this three-dimensional analogue of": {
+    "guess": "Tetrahedron",
+    "confidence": -8.68859491017
+  },
+  "Kepler's Conjecture postulates that these objects can be packed with a density of approximately 74%. The Banach-Tarski paradox states that a solid one of these objects can be cut into finitely many pieces and re-assembled into two copies of the same size as the original. For a  non-Euclidean geometry occurring on these objects, triangles have angle sum greater than 180 degrees. (*) Archimedes derived the formula for the volume of this figure by noting that it occupied two-thirds of the volume of its circumscribed cylinder. This figure has surface area equal to four pi times the radius squared, and volume four-thirds pi times radius cubed. For ten points, name this three-dimensional analogue of a circle, the outer surface of a ball.": {
+    "guess": "Sphere",
+    "confidence": -10.6001979186
+  }
+}

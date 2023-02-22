@@ -1,0 +1,18 @@
+{
+  "Haffkine created a vaccine for it, and its causative agent _pasturella pestis_ was isolated independently": {
+    "guess": "Rabies",
+    "confidence": -10.0241395099
+  },
+  "Haffkine created a vaccine for it, and its causative agent _pasturella pestis_ was isolated independently by Shibasabaru and Yersin. It is transmitted by _xenopsylla cheopsis_ and causes pain in the armpits,": {
+    "guess": "tuberculosis",
+    "confidence": -12.298923007700001
+  },
+  "Haffkine created a vaccine for it, and its causative agent _pasturella pestis_ was isolated independently by Shibasabaru and Yersin. It is transmitted by _xenopsylla cheopsis_ and causes pain in the armpits, neck, and groin as the lymph nodes swell and blood vessels break. FTP, identify this dreaded": {
+    "guess": "Black Death",
+    "confidence": -10.0765013468
+  },
+  "Haffkine created a vaccine for it, and its causative agent _pasturella pestis_ was isolated independently by Shibasabaru and Yersin. It is transmitted by _xenopsylla cheopsis_ and causes pain in the armpits, neck, and groin as the lymph nodes swell and blood vessels break. FTP, identify this dreaded disease and principal contributor to the Black Death.": {
+    "guess": "Plague",
+    "confidence": -11.436363030000003
+  }
+}

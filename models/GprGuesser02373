@@ -1,0 +1,54 @@
+{
+  "Geminga is a rare example of a radio-quiet one, and their solid ionic crusts can break up in so-called": {
+    "guess": "Gamma-ray bursts",
+    "confidence": -10.102203071999998
+  },
+  "Geminga is a rare example of a radio-quiet one, and their solid ionic crusts can break up in so-called starquakes. Above the Tolman-Oppenheimer- Volkoff limit of 2-3 solar masses, they may be less likely": {
+    "guess": "Geminga",
+    "confidence": -9.178851455016
+  },
+  "Geminga is a rare example of a radio-quiet one, and their solid ionic crusts can break up in so-called starquakes. Above the Tolman-Oppenheimer- Volkoff limit of 2-3 solar masses, they may be less likely than quark stars, but they are the only compact objects just above the Chandrasekhar limit on the": {
+    "guess": "Black hole",
+    "confidence": -9.7814913562
+  },
+  "Geminga is a rare example of a radio-quiet one, and their solid ionic crusts can break up in so-called starquakes. Above the Tolman-Oppenheimer- Volkoff limit of 2-3 solar masses, they may be less likely than quark stars, but they are the only compact objects just above the Chandrasekhar limit on the size of a white dwarf. The periodic radiation emitted along the axes of their extremely fast rotation": {
+    "guess": "Black hole",
+    "confidence": -9.903259566
+  },
+  "Geminga is a rare example of a radio-quiet one, and their solid ionic crusts can break up in so-called starquakes. Above the Tolman-Oppenheimer- Volkoff limit of 2-3 solar masses, they may be less likely than quark stars, but they are the only compact objects just above the Chandrasekhar limit on the size of a white dwarf. The periodic radiation emitted along the axes of their extremely fast rotation gives most of them the name of pulsars. Created following Type II, Ib, or Ic supernovae and lighter": {
+    "guess": "Black hole",
+    "confidence": -10.193298008000001
+  },
+  "Geminga is a rare example of a radio-quiet one, and their solid ionic crusts can break up in so-called starquakes. Above the Tolman-Oppenheimer- Volkoff limit of 2-3 solar masses, they may be less likely than quark stars, but they are the only compact objects just above the Chandrasekhar limit on the size of a white dwarf. The periodic radiation emitted along the axes of their extremely fast rotation gives most of them the name of pulsars. Created following Type II, Ib, or Ic supernovae and lighter than black holes, for ten points, what remnants of stellar collapse are nonetheless so massive that": {
+    "guess": "Geminga",
+    "confidence": -8.942910476533001
+  },
+  "Geminga is a rare example of a radio-quiet one, and their solid ionic crusts can break up in so-called starquakes. Above the Tolman-Oppenheimer- Volkoff limit of 2-3 solar masses, they may be less likely than quark stars, but they are the only compact objects just above the Chandrasekhar limit on the size of a white dwarf. The periodic radiation emitted along the axes of their extremely fast rotation gives most of them the name of pulsars. Created following Type II, Ib, or Ic supernovae and lighter than black holes, for ten points, what remnants of stellar collapse are nonetheless so massive that they contain matter too dense for electrons to remain in orbit around protons?": {
+    "guess": "Neutron star",
+    "confidence": -8.6061157431515
+  },
+  "Geman and Geman introduced a procedure named for this man that differs from the Metropolis algorithm": {
+    "guess": "",
+    "confidence": -1.728512513713
+  },
+  "Geman and Geman introduced a procedure named for this man that differs from the Metropolis algorithm in that only one parameter of interest is estimated during each step. In addition to his sampling method,": {
+    "guess": "Metropolis algorithm",
+    "confidence": -10.600524510133498
+  },
+  "Geman and Geman introduced a procedure named for this man that differs from the Metropolis algorithm in that only one parameter of interest is estimated during each step. In addition to his sampling method, he lends his name to the mixing paradox and to the overshooting of finite Fourier series approximations": {
+    "guess": "John von Neumann",
+    "confidence": -10.507205533221502
+  },
+  "Geman and Geman introduced a procedure named for this man that differs from the Metropolis algorithm in that only one parameter of interest is estimated during each step. In addition to his sampling method, he lends his name to the mixing paradox and to the overshooting of finite Fourier series approximations to a jump discontinuity. He introduced the notion of chemical potential, and deduced a relation": {
+    "guess": "Josiah Willard Gibbs",
+    "confidence": -6.417906960561
+  },
+  "Geman and Geman introduced a procedure named for this man that differs from the Metropolis algorithm in that only one parameter of interest is estimated during each step. In addition to his sampling method, he lends his name to the mixing paradox and to the overshooting of finite Fourier series approximations to a jump discontinuity. He introduced the notion of chemical potential, and deduced a relation for closed systems in equilibrium between the numbers of chemical components, degrees of freedom": {
+    "guess": "Josiah Willard Gibbs",
+    "confidence": -6.346406596697
+  },
+  "Geman and Geman introduced a procedure named for this man that differs from the Metropolis algorithm in that only one parameter of interest is estimated during each step. In addition to his sampling method, he lends his name to the mixing paradox and to the overshooting of finite Fourier series approximations to a jump discontinuity. He introduced the notion of chemical potential, and deduced a relation for closed systems in equilibrium between the numbers of chemical components, degrees of freedom and separate phases. FTP name this physical chemist who also introduced a namesake free energy.": {
+    "guess": "Josiah Willard Gibbs",
+    "confidence": -6.304655571691001
+  }
+}

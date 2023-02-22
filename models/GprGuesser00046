@@ -1,0 +1,598 @@
+{
+  "Adding two of these chemical groups to morphine results in heroin, and some people are unable to quickly": {
+    "guess": "Acetyl group",
+    "confidence": -7.378563298056
+  },
+  "Adding two of these chemical groups to morphine results in heroin, and some people are unable to quickly add this chemical group to isoniazid, making normal doses of that drug fatal. The NatB complex is": {
+    "guess": "Acetyl group",
+    "confidence": -8.3374220213384
+  },
+  "Adding two of these chemical groups to morphine results in heroin, and some people are unable to quickly add this chemical group to isoniazid, making normal doses of that drug fatal. The NatB complex is responsible for adding this chemical group to several proteins' N-terminal ends. Sodium butyrate inhibits": {
+    "guess": "Sodium butyrate",
+    "confidence": -7.587733304621
+  },
+  "Adding two of these chemical groups to morphine results in heroin, and some people are unable to quickly add this chemical group to isoniazid, making normal doses of that drug fatal. The NatB complex is responsible for adding this chemical group to several proteins' N-terminal ends. Sodium butyrate inhibits the removal of this chemical group, and adding it to tubulin is one mechanism of increasing": {
+    "guess": "Acetyl group",
+    "confidence": -7.082968423950001
+  },
+  "Adding two of these chemical groups to morphine results in heroin, and some people are unable to quickly add this chemical group to isoniazid, making normal doses of that drug fatal. The NatB complex is responsible for adding this chemical group to several proteins' N-terminal ends. Sodium butyrate inhibits the removal of this chemical group, and adding it to tubulin is one mechanism of increasing cell motility. It is typically added to lysine residues of histones in order to facilitate transcription": {
+    "guess": "NatB complex",
+    "confidence": -7.1398956688792
+  },
+  "Adding two of these chemical groups to morphine results in heroin, and some people are unable to quickly add this chemical group to isoniazid, making normal doses of that drug fatal. The NatB complex is responsible for adding this chemical group to several proteins' N-terminal ends. Sodium butyrate inhibits the removal of this chemical group, and adding it to tubulin is one mechanism of increasing cell motility. It is typically added to lysine residues of histones in order to facilitate transcription by HATs, and it is removed from those proteins by HDACs. It can be added to aromatic systems via": {
+    "guess": "NatB complex",
+    "confidence": -6.85808651357094
+  },
+  "Adding two of these chemical groups to morphine results in heroin, and some people are unable to quickly add this chemical group to isoniazid, making normal doses of that drug fatal. The NatB complex is responsible for adding this chemical group to several proteins' N-terminal ends. Sodium butyrate inhibits the removal of this chemical group, and adding it to tubulin is one mechanism of increasing cell motility. It is typically added to lysine residues of histones in order to facilitate transcription by HATs, and it is removed from those proteins by HDACs. It can be added to aromatic systems via the Friedel-Crafts acylation using a two-carbon acyl chloride. Adding it to salicylic acid creates": {
+    "guess": "Acetyl group",
+    "confidence": -6.445262641029999
+  },
+  "Adding two of these chemical groups to morphine results in heroin, and some people are unable to quickly add this chemical group to isoniazid, making normal doses of that drug fatal. The NatB complex is responsible for adding this chemical group to several proteins' N-terminal ends. Sodium butyrate inhibits the removal of this chemical group, and adding it to tubulin is one mechanism of increasing cell motility. It is typically added to lysine residues of histones in order to facilitate transcription by HATs, and it is removed from those proteins by HDACs. It can be added to aromatic systems via the Friedel-Crafts acylation using a two-carbon acyl chloride. Adding it to salicylic acid creates aspirin. For 10 points, name this group with formula COCH3, a methyl single-bonded to a carbonyl.": {
+    "guess": "Acetyl group",
+    "confidence": -6.70878617566
+  },
+  "In addition to creating a namesake convertase, C3b functions to facilitate this process, which is conducted": {
+    "guess": "by the CR1 receptor.",
+    "confidence": -7.677166784
+  },
+  "In addition to creating a namesake convertase, C3b functions to facilitate this process, which is conducted by TLRs of immature dendritic cells. The actual action is a function of actin-myosin contraction,": {
+    "guess": "Cytokine production",
+    "confidence": -9.0594659287
+  },
+  "In addition to creating a namesake convertase, C3b functions to facilitate this process, which is conducted by TLRs of immature dendritic cells. The actual action is a function of actin-myosin contraction, and initiates using NF-kB activation on PAMP sites. Most factors in Yersinia pestis, which causes": {
+    "guess": "Actin-myosin contraction",
+    "confidence": -2.06097093304
+  },
+  "In addition to creating a namesake convertase, C3b functions to facilitate this process, which is conducted by TLRs of immature dendritic cells. The actual action is a function of actin-myosin contraction, and initiates using NF-kB activation on PAMP sites. Most factors in Yersinia pestis, which causes plague, are particularly resistant to this process, which is necessary for Helper T cells to activate": {
+    "guess": "The immune system",
+    "confidence": -11.26618259
+  },
+  "In addition to creating a namesake convertase, C3b functions to facilitate this process, which is conducted by TLRs of immature dendritic cells. The actual action is a function of actin-myosin contraction, and initiates using NF-kB activation on PAMP sites. Most factors in Yersinia pestis, which causes plague, are particularly resistant to this process, which is necessary for Helper T cells to activate and functions via opsonins. In amoeboid organisms, this process is carried out by using pseudopodia": {
+    "guess": "Cell motility",
+    "confidence": -11.748614603198
+  },
+  "In addition to creating a namesake convertase, C3b functions to facilitate this process, which is conducted by TLRs of immature dendritic cells. The actual action is a function of actin-myosin contraction, and initiates using NF-kB activation on PAMP sites. Most factors in Yersinia pestis, which causes plague, are particularly resistant to this process, which is necessary for Helper T cells to activate and functions via opsonins. In amoeboid organisms, this process is carried out by using pseudopodia to capture particles which are then moved to a pteroid or vacuole. Monocytes, neutrophils, and": {
+    "guess": "Macrophage",
+    "confidence": -8.575711999601
+  },
+  "In addition to creating a namesake convertase, C3b functions to facilitate this process, which is conducted by TLRs of immature dendritic cells. The actual action is a function of actin-myosin contraction, and initiates using NF-kB activation on PAMP sites. Most factors in Yersinia pestis, which causes plague, are particularly resistant to this process, which is necessary for Helper T cells to activate and functions via opsonins. In amoeboid organisms, this process is carried out by using pseudopodia to capture particles which are then moved to a pteroid or vacuole. Monocytes, neutrophils, and white blood cells all function via, FTP, what biological process in which the cell membrane engulfs": {
+    "guess": "Endocytosis",
+    "confidence": -8.815192064679001
+  },
+  "In addition to creating a namesake convertase, C3b functions to facilitate this process, which is conducted by TLRs of immature dendritic cells. The actual action is a function of actin-myosin contraction, and initiates using NF-kB activation on PAMP sites. Most factors in Yersinia pestis, which causes plague, are particularly resistant to this process, which is necessary for Helper T cells to activate and functions via opsonins. In amoeboid organisms, this process is carried out by using pseudopodia to capture particles which are then moved to a pteroid or vacuole. Monocytes, neutrophils, and white blood cells all function via, FTP, what biological process in which the cell membrane engulfs foreign solids, whose name comes from the Greek for \"eating\"?": {
+    "guess": "Endocytosis",
+    "confidence": -6.850664933749
+  },
+  "In addition to his political role, this man was also a prominent scholar, composing such philosophical": {
+    "guess": "Immanuel Kant",
+    "confidence": -8.437687169310001
+  },
+  "In addition to his political role, this man was also a prominent scholar, composing such philosophical and theological works as Basilikon Doron and The Demonologie. His attempt to marry his son to the": {
+    "guess": "Mary, Queen of Scots",
+    "confidence": -7.881973070909999
+  },
+  "In addition to his political role, this man was also a prominent scholar, composing such philosophical and theological works as Basilikon Doron and The Demonologie. His attempt to marry his son to the Infanta Maria Anna was he first time this king called for Parliament in a period of seven years. This": {
+    "guess": "James VI and I",
+    "confidence": -7.9893651077
+  },
+  "In addition to his political role, this man was also a prominent scholar, composing such philosophical and theological works as Basilikon Doron and The Demonologie. His attempt to marry his son to the Infanta Maria Anna was he first time this king called for Parliament in a period of seven years. This monarch had the 'honor' of being the target of the Bye Plot, the Main Plot and most famously, the": {
+    "guess": "James VI and I",
+    "confidence": -7.86009908568
+  },
+  "In addition to his political role, this man was also a prominent scholar, composing such philosophical and theological works as Basilikon Doron and The Demonologie. His attempt to marry his son to the Infanta Maria Anna was he first time this king called for Parliament in a period of seven years. This monarch had the 'honor' of being the target of the Bye Plot, the Main Plot and most famously, the conspiracy of Catesby and Fawkes called the Gunpowder Plot. For 10 points, name this first monarch of": {
+    "guess": "James VI and I.",
+    "confidence": -7.747920345405
+  },
+  "In addition to his political role, this man was also a prominent scholar, composing such philosophical and theological works as Basilikon Doron and The Demonologie. His attempt to marry his son to the Infanta Maria Anna was he first time this king called for Parliament in a period of seven years. This monarch had the 'honor' of being the target of the Bye Plot, the Main Plot and most famously, the conspiracy of Catesby and Fawkes called the Gunpowder Plot. For 10 points, name this first monarch of the Stuart dynasty, a sixteenth-century British king who lends his name to an English translation": {
+    "guess": "James VI and I",
+    "confidence": -8.9449469862
+  },
+  "In addition to his political role, this man was also a prominent scholar, composing such philosophical and theological works as Basilikon Doron and The Demonologie. His attempt to marry his son to the Infanta Maria Anna was he first time this king called for Parliament in a period of seven years. This monarch had the 'honor' of being the target of the Bye Plot, the Main Plot and most famously, the conspiracy of Catesby and Fawkes called the Gunpowder Plot. For 10 points, name this first monarch of the Stuart dynasty, a sixteenth-century British king who lends his name to an English translation of the Bible.": {
+    "guess": "James VI and I",
+    "confidence": -8.8962351803
+  },
+  "In addition to his achievements in Congress, this politician gained renown for his public addresses,": {
+    "guess": "Abraham Lincoln",
+    "confidence": -9.540049512994
+  },
+  "In addition to his achievements in Congress, this politician gained renown for his public addresses, notably the Bunker Hill oration and his speech on the deaths of Jefferson and Adams. He served as Secretary": {
+    "guess": "John Quincy Adams",
+    "confidence": -9.45856802125
+  },
+  "In addition to his achievements in Congress, this politician gained renown for his public addresses, notably the Bunker Hill oration and his speech on the deaths of Jefferson and Adams. He served as Secretary of State for a second time from 1850-52 after having alienated the antislavery movement with": {
+    "guess": "James Buchanan",
+    "confidence": -10.382915004500001
+  },
+  "In addition to his achievements in Congress, this politician gained renown for his public addresses, notably the Bunker Hill oration and his speech on the deaths of Jefferson and Adams. He served as Secretary of State for a second time from 1850-52 after having alienated the antislavery movement with his eloquent support for the Compromise of 1850. Earlier, he had emerged as a champion of the federal": {
+    "guess": "James K. Polk",
+    "confidence": -9.20415689725
+  },
+  "In addition to his achievements in Congress, this politician gained renown for his public addresses, notably the Bunker Hill oration and his speech on the deaths of Jefferson and Adams. He served as Secretary of State for a second time from 1850-52 after having alienated the antislavery movement with his eloquent support for the Compromise of 1850. Earlier, he had emerged as a champion of the federal government in his famous series of 1830 debates with Robert Hayne, and won acclaim as a lawyer for": {
+    "guess": "John C. Calhoun",
+    "confidence": -7.281519672052999
+  },
+  "In addition to his achievements in Congress, this politician gained renown for his public addresses, notably the Bunker Hill oration and his speech on the deaths of Jefferson and Adams. He served as Secretary of State for a second time from 1850-52 after having alienated the antislavery movement with his eloquent support for the Compromise of 1850. Earlier, he had emerged as a champion of the federal government in his famous series of 1830 debates with Robert Hayne, and won acclaim as a lawyer for his arguments in the cases Dartmouth v. Woodward and McCulloch v. Maryland. FTP, who was this Massachusetts": {
+    "guess": "Daniel Webster",
+    "confidence": -9.6755575552
+  },
+  "In addition to his achievements in Congress, this politician gained renown for his public addresses, notably the Bunker Hill oration and his speech on the deaths of Jefferson and Adams. He served as Secretary of State for a second time from 1850-52 after having alienated the antislavery movement with his eloquent support for the Compromise of 1850. Earlier, he had emerged as a champion of the federal government in his famous series of 1830 debates with Robert Hayne, and won acclaim as a lawyer for his arguments in the cases Dartmouth v. Woodward and McCulloch v. Maryland. FTP, who was this Massachusetts senator perhaps best known for his 1843 treaty with Ashburton?": {
+    "guess": "John Quincy Adams",
+    "confidence": -9.338291469169999
+  },
+  "In addition to his more famous endeavours, this man was a skilled calligrapher who in 1540 published": {
+    "guess": "Johannes Gutenberg",
+    "confidence": -11.288619379500002
+  },
+  "In addition to his more famous endeavours, this man was a skilled calligrapher who in 1540 published a concise manual on Italic lettering. He gained a mastery of mathematics and astronomy under the guidance": {
+    "guess": "Leonardo da Vinci",
+    "confidence": -8.456236808245
+  },
+  "In addition to his more famous endeavours, this man was a skilled calligrapher who in 1540 published a concise manual on Italic lettering. He gained a mastery of mathematics and astronomy under the guidance of Gemma Frisius and learned of engraving from Gaspar a Myrica, who would become his partners": {
+    "guess": "Johannes Kepler",
+    "confidence": -8.389118410916401
+  },
+  "In addition to his more famous endeavours, this man was a skilled calligrapher who in 1540 published a concise manual on Italic lettering. He gained a mastery of mathematics and astronomy under the guidance of Gemma Frisius and learned of engraving from Gaspar a Myrica, who would become his partners in his life's work, which included a series of publications intended to describe the creation and history": {
+    "guess": "Johannes Kepler",
+    "confidence": -7.79718639218867
+  },
+  "In addition to his more famous endeavours, this man was a skilled calligrapher who in 1540 published a concise manual on Italic lettering. He gained a mastery of mathematics and astronomy under the guidance of Gemma Frisius and learned of engraving from Gaspar a Myrica, who would become his partners in his life's work, which included a series of publications intended to describe the creation and history of the world, coining the term atlas to describe it. Using the graceful Italic lettering which": {
+    "guess": "Luca Pacioli",
+    "confidence": -9.2960289085065
+  },
+  "In addition to his more famous endeavours, this man was a skilled calligrapher who in 1540 published a concise manual on Italic lettering. He gained a mastery of mathematics and astronomy under the guidance of Gemma Frisius and learned of engraving from Gaspar a Myrica, who would become his partners in his life's work, which included a series of publications intended to describe the creation and history of the world, coining the term atlas to describe it. Using the graceful Italic lettering which became his trademark, he gained fame for constructing maps of Palestine, his native Flanders, and the": {
+    "guess": "Gerardus Mercator",
+    "confidence": -9.21357846834
+  },
+  "In addition to his more famous endeavours, this man was a skilled calligrapher who in 1540 published a concise manual on Italic lettering. He gained a mastery of mathematics and astronomy under the guidance of Gemma Frisius and learned of engraving from Gaspar a Myrica, who would become his partners in his life's work, which included a series of publications intended to describe the creation and history of the world, coining the term atlas to describe it. Using the graceful Italic lettering which became his trademark, he gained fame for constructing maps of Palestine, his native Flanders, and the world, the latter of which he presented in a double-heart shape. FTP, who was this cartographer who": {
+    "guess": "Gerardus Mercator",
+    "confidence": -8.49605859623
+  },
+  "In addition to his more famous endeavours, this man was a skilled calligrapher who in 1540 published a concise manual on Italic lettering. He gained a mastery of mathematics and astronomy under the guidance of Gemma Frisius and learned of engraving from Gaspar a Myrica, who would become his partners in his life's work, which included a series of publications intended to describe the creation and history of the world, coining the term atlas to describe it. Using the graceful Italic lettering which became his trademark, he gained fame for constructing maps of Palestine, his native Flanders, and the world, the latter of which he presented in a double-heart shape. FTP, who was this cartographer who devised the cylindrical projection named for him?": {
+    "guess": "Gerardus Mercator",
+    "confidence": -6.941633855089999
+  },
+  "In addition to apoptosis, the CIDEA gene plays a role in the breakdown of these. The tissue associated": {
+    "guess": "Proteases",
+    "confidence": -8.909691946899999
+  },
+  "In addition to apoptosis, the CIDEA gene plays a role in the breakdown of these. The tissue associated with this is responsible for much of the body's thermogenesis. Leptin acts as an indicator of the": {
+    "guess": "Ghrelin",
+    "confidence": -10.221382796753
+  },
+  "In addition to apoptosis, the CIDEA gene plays a role in the breakdown of these. The tissue associated with this is responsible for much of the body's thermogenesis. Leptin acts as an indicator of the level of this in the body. It is stored in tissue that can be brown or white. This is stored in adipose": {
+    "guess": "Brown adipose tissue",
+    "confidence": -8.120771755919602
+  },
+  "In addition to apoptosis, the CIDEA gene plays a role in the breakdown of these. The tissue associated with this is responsible for much of the body's thermogenesis. Leptin acts as an indicator of the level of this in the body. It is stored in tissue that can be brown or white. This is stored in adipose tissue. These are triglycerides, meaning they are lipids. Trans ones are associated with heart disease": {
+    "guess": "Adipose tissue",
+    "confidence": -8.032321949743
+  },
+  "In addition to apoptosis, the CIDEA gene plays a role in the breakdown of these. The tissue associated with this is responsible for much of the body's thermogenesis. Leptin acts as an indicator of the level of this in the body. It is stored in tissue that can be brown or white. This is stored in adipose tissue. These are triglycerides, meaning they are lipids. Trans ones are associated with heart disease and they can be saturated or unsaturated. For 10 points, name this material that stores energy": {
+    "guess": "Triglycerides",
+    "confidence": -8.5233636095038
+  },
+  "In addition to apoptosis, the CIDEA gene plays a role in the breakdown of these. The tissue associated with this is responsible for much of the body's thermogenesis. Leptin acts as an indicator of the level of this in the body. It is stored in tissue that can be brown or white. This is stored in adipose tissue. These are triglycerides, meaning they are lipids. Trans ones are associated with heart disease and they can be saturated or unsaturated. For 10 points, name this material that stores energy in the long term for humans and whose presence brings about an increase in weight.": {
+    "guess": "Lipids",
+    "confidence": -9.915142023999998
+  },
+  "In addition to causing the retrieval of v-SNARE proteins, the coat protein COP I targets proteins for": {
+    "guess": "Endocytosis",
+    "confidence": -9.921779424564
+  },
+  "In addition to causing the retrieval of v-SNARE proteins, the coat protein COP I targets proteins for this organelle, while COP II targets proteins exiting this organelle. The common sequence KDEL marks": {
+    "guess": "Golgi apparatus",
+    "confidence": -8.8536006076318
+  },
+  "In addition to causing the retrieval of v-SNARE proteins, the coat protein COP I targets proteins for this organelle, while COP II targets proteins exiting this organelle. The common sequence KDEL marks proteins for retention in this organelle, and most proteins synthesized in one type of this organelle": {
+    "guess": "Endoplasmic reticulum",
+    "confidence": -0.7190314570675002
+  },
+  "In addition to causing the retrieval of v-SNARE proteins, the coat protein COP I targets proteins for this organelle, while COP II targets proteins exiting this organelle. The common sequence KDEL marks proteins for retention in this organelle, and most proteins synthesized in one type of this organelle undergo glycosylation. Ribosomes are present on the surface of one type of this organelle. For 10": {
+    "guess": "Endoplasmic reticulum",
+    "confidence": -0.6788628748771999
+  },
+  "In addition to causing the retrieval of v-SNARE proteins, the coat protein COP I targets proteins for this organelle, while COP II targets proteins exiting this organelle. The common sequence KDEL marks proteins for retention in this organelle, and most proteins synthesized in one type of this organelle undergo glycosylation. Ribosomes are present on the surface of one type of this organelle. For 10 points, name this organelle that comes in rough and smooth forms and provides a transport network": {
+    "guess": "Cell membrane",
+    "confidence": -9.956994436
+  },
+  "In addition to causing the retrieval of v-SNARE proteins, the coat protein COP I targets proteins for this organelle, while COP II targets proteins exiting this organelle. The common sequence KDEL marks proteins for retention in this organelle, and most proteins synthesized in one type of this organelle undergo glycosylation. Ribosomes are present on the surface of one type of this organelle. For 10 points, name this organelle that comes in rough and smooth forms and provides a transport network throughout the cell.": {
+    "guess": "Cell membrane",
+    "confidence": -9.700802630000002
+  },
+  "In addition to finding the speed of light within 1 percent of its true value in 1850, he also showed": {
+    "guess": "He also showed that the speed of light",
+    "confidence": -1.4330222695799997
+  },
+  "In addition to finding the speed of light within 1 percent of its true value in 1850, he also showed that light travels slower through water than air and discovered the existence of eddy currents in a": {
+    "guess": "Maxwell's equations",
+    "confidence": -10.248983993700001
+  },
+  "In addition to finding the speed of light within 1 percent of its true value in 1850, he also showed that light travels slower through water than air and discovered the existence of eddy currents in a copper disk moving through a strong magnetic field, but he is best known for his device with proved": {
+    "guess": "The speed of light",
+    "confidence": -9.595348419516
+  },
+  "In addition to finding the speed of light within 1 percent of its true value in 1850, he also showed that light travels slower through water than air and discovered the existence of eddy currents in a copper disk moving through a strong magnetic field, but he is best known for his device with proved that the earth rotates on its axis.": {
+    "guess": "Michelson",
+    "confidence": -7.84671706311094
+  },
+  "In addition to eye infections in AIDS patients, the drug Cidofovir is sometimes used to treat cases of": {
+    "guess": "Herpes simplex",
+    "confidence": -10.2654149239735
+  },
+  "In addition to eye infections in AIDS patients, the drug Cidofovir is sometimes used to treat cases of this disease. Currently, this disease is vaccinated against with the vaccinia virus. Ordinary, modified,": {
+    "guess": "varicella",
+    "confidence": -9.419575459499999
+  },
+  "In addition to eye infections in AIDS patients, the drug Cidofovir is sometimes used to treat cases of this disease. Currently, this disease is vaccinated against with the vaccinia virus. Ordinary, modified, flat, and hemorrhagic are types of the variola major form of this disease, which is generally": {
+    "guess": "Variola",
+    "confidence": -10.14903659
+  },
+  "In addition to eye infections in AIDS patients, the drug Cidofovir is sometimes used to treat cases of this disease. Currently, this disease is vaccinated against with the vaccinia virus. Ordinary, modified, flat, and hemorrhagic are types of the variola major form of this disease, which is generally more severe than its (*) variola minor form. This disease forms rashes which subsequently develop into": {
+    "guess": "Variola",
+    "confidence": -10.31063343
+  },
+  "In addition to eye infections in AIDS patients, the drug Cidofovir is sometimes used to treat cases of this disease. Currently, this disease is vaccinated against with the vaccinia virus. Ordinary, modified, flat, and hemorrhagic are types of the variola major form of this disease, which is generally more severe than its (*) variola minor form. This disease forms rashes which subsequently develop into fluid-filled pustules that eventually scab over. In 1796, Edward Jenner developed a way to vaccinate": {
+    "guess": "Smallpox",
+    "confidence": -9.398885163423
+  },
+  "In addition to eye infections in AIDS patients, the drug Cidofovir is sometimes used to treat cases of this disease. Currently, this disease is vaccinated against with the vaccinia virus. Ordinary, modified, flat, and hemorrhagic are types of the variola major form of this disease, which is generally more severe than its (*) variola minor form. This disease forms rashes which subsequently develop into fluid-filled pustules that eventually scab over. In 1796, Edward Jenner developed a way to vaccinate people against this disease by using the cowpox virus. For ten points, name this viral skin disease": {
+    "guess": "Varicose veins",
+    "confidence": -9.664540921
+  },
+  "In addition to eye infections in AIDS patients, the drug Cidofovir is sometimes used to treat cases of this disease. Currently, this disease is vaccinated against with the vaccinia virus. Ordinary, modified, flat, and hemorrhagic are types of the variola major form of this disease, which is generally more severe than its (*) variola minor form. This disease forms rashes which subsequently develop into fluid-filled pustules that eventually scab over. In 1796, Edward Jenner developed a way to vaccinate people against this disease by using the cowpox virus. For ten points, name this viral skin disease eradicated in the 1970s.": {
+    "guess": "Smallpox",
+    "confidence": -9.6319286916
+  },
+  "In addition to his more common form, this god can take on the appearance of a dog-faced baboon in his": {
+    "guess": "Thoth",
+    "confidence": -9.0562542160345
+  },
+  "In addition to his more common form, this god can take on the appearance of a dog-faced baboon in his avatar of A'an, the god of equilibrium. In one myth, this god gambles with the moon and wins obtaining": {
+    "guess": "Thoth",
+    "confidence": -9.027951717952
+  },
+  "In addition to his more common form, this god can take on the appearance of a dog-faced baboon in his avatar of A'an, the god of equilibrium. In one myth, this god gambles with the moon and wins obtaining 5 extra days of light to create a 365-day calendar so that Nut can bear children. He is the masculine": {
+    "guess": "Thoth",
+    "confidence": -9.00920279551
+  },
+  "In addition to his more common form, this god can take on the appearance of a dog-faced baboon in his avatar of A'an, the god of equilibrium. In one myth, this god gambles with the moon and wins obtaining 5 extra days of light to create a 365-day calendar so that Nut can bear children. He is the masculine counterpart of Maat and stands with her on the other side of Re's solar barge. A god of magic,": {
+    "guess": "Thoth",
+    "confidence": -6.3377769391842
+  },
+  "In addition to his more common form, this god can take on the appearance of a dog-faced baboon in his avatar of A'an, the god of equilibrium. In one myth, this god gambles with the moon and wins obtaining 5 extra days of light to create a 365-day calendar so that Nut can bear children. He is the masculine counterpart of Maat and stands with her on the other side of Re's solar barge. A god of magic, he bestowed upon Isis the magic incantations to help resurrect both Osiris and Horus and is also seen": {
+    "guess": "Thoth",
+    "confidence": -6.326874342023199
+  },
+  "In addition to his more common form, this god can take on the appearance of a dog-faced baboon in his avatar of A'an, the god of equilibrium. In one myth, this god gambles with the moon and wins obtaining 5 extra days of light to create a 365-day calendar so that Nut can bear children. He is the masculine counterpart of Maat and stands with her on the other side of Re's solar barge. A god of magic, he bestowed upon Isis the magic incantations to help resurrect both Osiris and Horus and is also seen as a god of writing and scribes. Often associated with Hermes Trismegistus in Greek times, for 10": {
+    "guess": "Thoth",
+    "confidence": -6.521872880986501
+  },
+  "In addition to his more common form, this god can take on the appearance of a dog-faced baboon in his avatar of A'an, the god of equilibrium. In one myth, this god gambles with the moon and wins obtaining 5 extra days of light to create a 365-day calendar so that Nut can bear children. He is the masculine counterpart of Maat and stands with her on the other side of Re's solar barge. A god of magic, he bestowed upon Isis the magic incantations to help resurrect both Osiris and Horus and is also seen as a god of writing and scribes. Often associated with Hermes Trismegistus in Greek times, for 10 points, identify this Egyptian god known for his ibis shaped head.": {
+    "guess": "Thoth",
+    "confidence": -6.2936544455652
+  },
+  "In addition to the earth, sun, and moon and the constellations of the Pleiades, Hyades, Orion, and Ursa": {
+    "guess": "The planets",
+    "confidence": -11.134051679999999
+  },
+  "In addition to the earth, sun, and moon and the constellations of the Pleiades, Hyades, Orion, and Ursa Major, it depicts a fallow field being tilled, a harvest in a vineyard, a field in which sheep and": {
+    "guess": "The Tilled Field",
+    "confidence": -6.652689483670001
+  },
+  "In addition to the earth, sun, and moon and the constellations of the Pleiades, Hyades, Orion, and Ursa Major, it depicts a fallow field being tilled, a harvest in a vineyard, a field in which sheep and cattle graze, and two cities, one at war and one at peace. The Stream of Ocean surrounds the engravings.": {
+    "guess": "The Tilled Field",
+    "confidence": -6.32902529514
+  },
+  "In addition to the earth, sun, and moon and the constellations of the Pleiades, Hyades, Orion, and Ursa Major, it depicts a fallow field being tilled, a harvest in a vineyard, a field in which sheep and cattle graze, and two cities, one at war and one at peace. The Stream of Ocean surrounds the engravings. For 10 points\u2014name this item created by Hephaestos on the request of Thetis, given after the": {
+    "guess": "The shield of Achilles",
+    "confidence": -9.07225967186
+  },
+  "In addition to the earth, sun, and moon and the constellations of the Pleiades, Hyades, Orion, and Ursa Major, it depicts a fallow field being tilled, a harvest in a vineyard, a field in which sheep and cattle graze, and two cities, one at war and one at peace. The Stream of Ocean surrounds the engravings. For 10 points\u2014name this item created by Hephaestos on the request of Thetis, given after the death of Patroclus to a key figure in the Iliad.": {
+    "guess": "The shield of Achilles",
+    "confidence": -8.27470663452
+  },
+  "In addition to a well-known textbook he co-wrote called Understanding Poetry, he wrote several poetry": {
+    "guess": "Wallace Stevens",
+    "confidence": -10.18253145028
+  },
+  "In addition to a well-known textbook he co-wrote called Understanding Poetry, he wrote several poetry collections, including Promises during the 1950s and Now and Then during the 1970s. His first novel,": {
+    "guess": "William Golding",
+    "confidence": -9.20441563966
+  },
+  "In addition to a well-known textbook he co-wrote called Understanding Poetry, he wrote several poetry collections, including Promises during the 1950s and Now and Then during the 1970s. His first novel, about tobacco growers in Kentucky, was Night Rider, and his second novel, about Sue Murdock, was At": {
+    "guess": "William Faulkner",
+    "confidence": -9.685956008872001
+  },
+  "In addition to a well-known textbook he co-wrote called Understanding Poetry, he wrote several poetry collections, including Promises during the 1950s and Now and Then during the 1970s. His first novel, about tobacco growers in Kentucky, was Night Rider, and his second novel, about Sue Murdock, was At Heaven's Gate. Perhaps influenced by a grandfather who fought for the Confederacy, he associated with": {
+    "guess": "James Baldwin",
+    "confidence": -11.0132659382
+  },
+  "In addition to a well-known textbook he co-wrote called Understanding Poetry, he wrote several poetry collections, including Promises during the 1950s and Now and Then during the 1970s. His first novel, about tobacco growers in Kentucky, was Night Rider, and his second novel, about Sue Murdock, was At Heaven's Gate. Perhaps influenced by a grandfather who fought for the Confederacy, he associated with the South throughout his life. Name this author whose most famous novel, which is about the Stantons,": {
+    "guess": "William Faulkner",
+    "confidence": -8.338086664565001
+  },
+  "In addition to a well-known textbook he co-wrote called Understanding Poetry, he wrote several poetry collections, including Promises during the 1950s and Now and Then during the 1970s. His first novel, about tobacco growers in Kentucky, was Night Rider, and his second novel, about Sue Murdock, was At Heaven's Gate. Perhaps influenced by a grandfather who fought for the Confederacy, he associated with the South throughout his life. Name this author whose most famous novel, which is about the Stantons, Jack Burden, and Willie Stark, was All the King's Men.": {
+    "guess": "William Faulkner",
+    "confidence": -8.227071781382
+  },
+  "In addition to proline and hydroxyproline, the triple helix structure of collagen is primarily due to": {
+    "guess": "Glutamine",
+    "confidence": -10.576115758
+  },
+  "In addition to proline and hydroxyproline, the triple helix structure of collagen is primarily due to this amino acid. Strychnine works by blocking receptors for this amino acid, which, like GABA, is a": {
+    "guess": "Glycine",
+    "confidence": -8.51717821587
+  },
+  "In addition to proline and hydroxyproline, the triple helix structure of collagen is primarily due to this amino acid. Strychnine works by blocking receptors for this amino acid, which, like GABA, is a common inhibitory neurotransmitter. Of the twenty amino acids commonly used to build proteins, it is": {
+    "guess": "Glycine",
+    "confidence": -8.2712177871178
+  },
+  "In addition to proline and hydroxyproline, the triple helix structure of collagen is primarily due to this amino acid. Strychnine works by blocking receptors for this amino acid, which, like GABA, is a common inhibitory neurotransmitter. Of the twenty amino acids commonly used to build proteins, it is the only (*) achiral one. For 10 points, name this smallest amino acid, whose R chain is just a hydrogen": {
+    "guess": "Alanine",
+    "confidence": -10.35193740115
+  },
+  "In addition to proline and hydroxyproline, the triple helix structure of collagen is primarily due to this amino acid. Strychnine works by blocking receptors for this amino acid, which, like GABA, is a common inhibitory neurotransmitter. Of the twenty amino acids commonly used to build proteins, it is the only (*) achiral one. For 10 points, name this smallest amino acid, whose R chain is just a hydrogen atom, given the one-letter designation G.": {
+    "guess": "Glycine",
+    "confidence": -8.544258596122
+  },
+  "In addition to claiming that she \"never was born,\" one character in this novel confesses to stealing": {
+    "guess": "Scarlett O'Hara",
+    "confidence": -8.72150582708
+  },
+  "In addition to claiming that she \"never was born,\" one character in this novel confesses to stealing Miss Feeley's ribbon, Miss Eva's necklace, and Rosa's earrings, although she claims that the latter": {
+    "guess": "Harriet Beecher Stowe",
+    "confidence": -4.46734294887
+  },
+  "In addition to claiming that she \"never was born,\" one character in this novel confesses to stealing Miss Feeley's ribbon, Miss Eva's necklace, and Rosa's earrings, although she claims that the latter two items were \"burnt up.\" That character is named Topsy and was presented to Ophelia, who is tasked": {
+    "guess": "Uncle Tom's Cabin",
+    "confidence": -8.271489580099999
+  },
+  "In addition to claiming that she \"never was born,\" one character in this novel confesses to stealing Miss Feeley's ribbon, Miss Eva's necklace, and Rosa's earrings, although she claims that the latter two items were \"burnt up.\" That character is named Topsy and was presented to Ophelia, who is tasked with educating her. After Eva's death, her father, Augustine St. Clair, promises to free the title": {
+    "guess": "Topsy",
+    "confidence": -9.241531295919998
+  },
+  "In addition to claiming that she \"never was born,\" one character in this novel confesses to stealing Miss Feeley's ribbon, Miss Eva's necklace, and Rosa's earrings, although she claims that the latter two items were \"burnt up.\" That character is named Topsy and was presented to Ophelia, who is tasked with educating her. After Eva's death, her father, Augustine St. Clair, promises to free the title character but is unable to before dying. That character is later beaten to death by Quimbo and Sambo": {
+    "guess": "Uncle Tom's Cabin",
+    "confidence": -8.98980153999
+  },
+  "In addition to claiming that she \"never was born,\" one character in this novel confesses to stealing Miss Feeley's ribbon, Miss Eva's necklace, and Rosa's earrings, although she claims that the latter two items were \"burnt up.\" That character is named Topsy and was presented to Ophelia, who is tasked with educating her. After Eva's death, her father, Augustine St. Clair, promises to free the title character but is unable to before dying. That character is later beaten to death by Quimbo and Sambo at the orders of Simon Legree. For 10 points, name this novel by Harriet Beecher Stowe that sparked": {
+    "guess": "Uncle Tom's Cabin",
+    "confidence": -8.01534259505
+  },
+  "In addition to claiming that she \"never was born,\" one character in this novel confesses to stealing Miss Feeley's ribbon, Miss Eva's necklace, and Rosa's earrings, although she claims that the latter two items were \"burnt up.\" That character is named Topsy and was presented to Ophelia, who is tasked with educating her. After Eva's death, her father, Augustine St. Clair, promises to free the title character but is unable to before dying. That character is later beaten to death by Quimbo and Sambo at the orders of Simon Legree. For 10 points, name this novel by Harriet Beecher Stowe that sparked controversy for its portrayal of slavery.": {
+    "guess": "Uncle Tom's Cabin",
+    "confidence": -7.85915160109
+  },
+  "They added a certain slang word to their name after a rival club owner accused them of playing music": {
+    "guess": "The Harlem Globetrotters",
+    "confidence": -4.610415807349
+  },
+  "They added a certain slang word to their name after a rival club owner accused them of playing music fit only for brothels.  Drummer Tony Sbarbaro on drums, pianist Henry Ragas, clarinet player Larry Shields,": {
+    "guess": "Thelonious Monk",
+    "confidence": -9.155853379260002
+  },
+  "They added a certain slang word to their name after a rival club owner accused them of playing music fit only for brothels.  Drummer Tony Sbarbaro on drums, pianist Henry Ragas, clarinet player Larry Shields, cornet player Nick LaRocca, and trombonist Eddie Edwards were all from New Orleans.  Together": {
+    "guess": "The Meters",
+    "confidence": -7.5914674608795005
+  },
+  "They added a certain slang word to their name after a rival club owner accused them of playing music fit only for brothels.  Drummer Tony Sbarbaro on drums, pianist Henry Ragas, clarinet player Larry Shields, cornet player Nick LaRocca, and trombonist Eddie Edwards were all from New Orleans.  Together they released the 1917 recordings that gave birth to a genre of music.  FTP, name this pioneers of": {
+    "guess": "The Original Dixieland Jazz Band",
+    "confidence": -3.431366143701999
+  },
+  "They added a certain slang word to their name after a rival club owner accused them of playing music fit only for brothels.  Drummer Tony Sbarbaro on drums, pianist Henry Ragas, clarinet player Larry Shields, cornet player Nick LaRocca, and trombonist Eddie Edwards were all from New Orleans.  Together they released the 1917 recordings that gave birth to a genre of music.  FTP, name this pioneers of jazz.": {
+    "guess": "The Original Dixieland Jazz Band",
+    "confidence": -1.257111690302
+  },
+  "The addition, nearly three decades after its completion, of an additional northeastern tower to cover": {
+    "guess": "The addition, nearly three decades after its",
+    "confidence": -2.7167549154685
+  },
+  "The addition, nearly three decades after its completion, of an additional northeastern tower to cover the tomb of its namesake is often cited to disprove the legend that its primary architect, a man nicknamed": {
+    "guess": "Santiago Calatrava",
+    "confidence": -8.741914624698
+  },
+  "The addition, nearly three decades after its completion, of an additional northeastern tower to cover the tomb of its namesake is often cited to disprove the legend that its primary architect, a man nicknamed Barma, was ordered to have his eyes put out as soon as it was finished. A 150 foot tall tower": {
+    "guess": "Washington Monument",
+    "confidence": -8.188795508238998
+  },
+  "The addition, nearly three decades after its completion, of an additional northeastern tower to cover the tomb of its namesake is often cited to disprove the legend that its primary architect, a man nicknamed Barma, was ordered to have his eyes put out as soon as it was finished. A 150 foot tall tower with a tent roof, bearing the name \"The Protecting Veil\" serves as its centerpiece, surrounded by": {
+    "guess": "The Vatican",
+    "confidence": -10.670491029999999
+  },
+  "The addition, nearly three decades after its completion, of an additional northeastern tower to cover the tomb of its namesake is often cited to disprove the legend that its primary architect, a man nicknamed Barma, was ordered to have his eyes put out as soon as it was finished. A 150 foot tall tower with a tent roof, bearing the name \"The Protecting Veil\" serves as its centerpiece, surrounded by eight surrounding onion-domed towers, mostly colored in ornate blends of red, green, and gold. Built": {
+    "guess": "The Eiffel Tower",
+    "confidence": -8.131441443012
+  },
+  "The addition, nearly three decades after its completion, of an additional northeastern tower to cover the tomb of its namesake is often cited to disprove the legend that its primary architect, a man nicknamed Barma, was ordered to have his eyes put out as soon as it was finished. A 150 foot tall tower with a tent roof, bearing the name \"The Protecting Veil\" serves as its centerpiece, surrounded by eight surrounding onion-domed towers, mostly colored in ornate blends of red, green, and gold. Built to celebrate the capture of Kazan in the 1550's by Ivan the Terrible, this is, FTP, what colorful Moscow": {
+    "guess": "Kremlin",
+    "confidence": -11.43479342
+  },
+  "The addition, nearly three decades after its completion, of an additional northeastern tower to cover the tomb of its namesake is often cited to disprove the legend that its primary architect, a man nicknamed Barma, was ordered to have his eyes put out as soon as it was finished. A 150 foot tall tower with a tent roof, bearing the name \"The Protecting Veil\" serves as its centerpiece, surrounded by eight surrounding onion-domed towers, mostly colored in ornate blends of red, green, and gold. Built to celebrate the capture of Kazan in the 1550's by Ivan the Terrible, this is, FTP, what colorful Moscow cathedral named for a saint known as the \"holy fool?\"": {
+    "guess": "Saint Basil's Cathedral on Red Square in",
+    "confidence": -0.755174628654
+  },
+  "While addressing a certain figure, this man humbly called himself a \"nobody,\" a \"small rope, a tiny ladder,": {
+    "guess": "William Golding",
+    "confidence": -9.84963188537
+  },
+  "While addressing a certain figure, this man humbly called himself a \"nobody,\" a \"small rope, a tiny ladder, the tail end, a leaf.\" This man almost delayed his holy task after being told that his uncle": {
+    "guess": "William Golding",
+    "confidence": -9.251550376516398
+  },
+  "While addressing a certain figure, this man humbly called himself a \"nobody,\" a \"small rope, a tiny ladder, the tail end, a leaf.\" This man almost delayed his holy task after being told that his uncle was dying, but was divinely reassured that his uncle had been saved. On his daily routine, this man": {
+    "guess": "Leo Tolstoy",
+    "confidence": -9.753520448064
+  },
+  "While addressing a certain figure, this man humbly called himself a \"nobody,\" a \"small rope, a tiny ladder, the tail end, a leaf.\" This man almost delayed his holy task after being told that his uncle was dying, but was divinely reassured that his uncle had been saved. On his daily routine, this man saw a shining cloud with a rainbow around it above a hill now called the \"Capilla del Cerrito.\" John": {
+    "guess": "John Lennon",
+    "confidence": -11.727632209399998
+  },
+  "While addressing a certain figure, this man humbly called himself a \"nobody,\" a \"small rope, a tiny ladder, the tail end, a leaf.\" This man almost delayed his holy task after being told that his uncle was dying, but was divinely reassured that his uncle had been saved. On his daily routine, this man saw a shining cloud with a rainbow around it above a hill now called the \"Capilla del Cerrito.\" John Paul II's canonization of this man was controversial since his historical authenticity is debated.": {
+    "guess": "Ignatius of Loyola",
+    "confidence": -2.45738454498
+  },
+  "While addressing a certain figure, this man humbly called himself a \"nobody,\" a \"small rope, a tiny ladder, the tail end, a leaf.\" This man almost delayed his holy task after being told that his uncle was dying, but was divinely reassured that his uncle had been saved. On his daily routine, this man saw a shining cloud with a rainbow around it above a hill now called the \"Capilla del Cerrito.\" John Paul II's canonization of this man was controversial since his historical authenticity is debated. After finding Castilian roses growing in barren soil, this man brought them to his bishop, who was awed": {
+    "guess": "Juan Ponce de Leon",
+    "confidence": -10.810280251
+  },
+  "While addressing a certain figure, this man humbly called himself a \"nobody,\" a \"small rope, a tiny ladder, the tail end, a leaf.\" This man almost delayed his holy task after being told that his uncle was dying, but was divinely reassured that his uncle had been saved. On his daily routine, this man saw a shining cloud with a rainbow around it above a hill now called the \"Capilla del Cerrito.\" John Paul II's canonization of this man was controversial since his historical authenticity is debated. After finding Castilian roses growing in barren soil, this man brought them to his bishop, who was awed by the image of Mary emblazoned on this man's cloak. For 10 points, name this indigenous Mexican": {
+    "guess": "Juan Diego",
+    "confidence": -7.18415948350967
+  },
+  "While addressing a certain figure, this man humbly called himself a \"nobody,\" a \"small rope, a tiny ladder, the tail end, a leaf.\" This man almost delayed his holy task after being told that his uncle was dying, but was divinely reassured that his uncle had been saved. On his daily routine, this man saw a shining cloud with a rainbow around it above a hill now called the \"Capilla del Cerrito.\" John Paul II's canonization of this man was controversial since his historical authenticity is debated. After finding Castilian roses growing in barren soil, this man brought them to his bishop, who was awed by the image of Mary emblazoned on this man's cloak. For 10 points, name this indigenous Mexican to whom the Virgin of Guadalupe appeared.": {
+    "guess": "Juan Diego",
+    "confidence": -6.5688671981846705
+  },
+  "He addressed a \"mysterious star\" and claimed that he \"could not love except where death was mingling": {
+    "guess": "Friedrich Nietzsche",
+    "confidence": -10.550132681120001
+  },
+  "He addressed a \"mysterious star\" and claimed that he \"could not love except where death was mingling his with Beauty's breath\" in a poem which draws from the seventh Sura of the Qu'ran, which was collected": {
+    "guess": "Walt Whitman",
+    "confidence": -9.674565338235501
+  },
+  "He addressed a \"mysterious star\" and claimed that he \"could not love except where death was mingling his with Beauty's breath\" in a poem which draws from the seventh Sura of the Qu'ran, which was collected with another poem that described the life of a Middle Eastern warlord who claimed he \"reach'd my": {
+    "guess": "Oedipus",
+    "confidence": -8.562417536695001
+  },
+  "He addressed a \"mysterious star\" and claimed that he \"could not love except where death was mingling his with Beauty's breath\" in a poem which draws from the seventh Sura of the Qu'ran, which was collected with another poem that described the life of a Middle Eastern warlord who claimed he \"reach'd my home\u2014my home no more\" after falling in love with a woman named Ada.  In addition to \"Al Aaraaf\" and": {
+    "guess": "Omar Khayyam",
+    "confidence": -7.054730091900001
+  },
+  "He addressed a \"mysterious star\" and claimed that he \"could not love except where death was mingling his with Beauty's breath\" in a poem which draws from the seventh Sura of the Qu'ran, which was collected with another poem that described the life of a Middle Eastern warlord who claimed he \"reach'd my home\u2014my home no more\" after falling in love with a woman named Ada.  In addition to \"Al Aaraaf\" and \"Tamerlane\", this author claimed that the best way to double your money is to fold it in half in one": {
+    "guess": "Omar Khayyam",
+    "confidence": -7.50828149424
+  },
+  "He addressed a \"mysterious star\" and claimed that he \"could not love except where death was mingling his with Beauty's breath\" in a poem which draws from the seventh Sura of the Qu'ran, which was collected with another poem that described the life of a Middle Eastern warlord who claimed he \"reach'd my home\u2014my home no more\" after falling in love with a woman named Ada.  In addition to \"Al Aaraaf\" and \"Tamerlane\", this author claimed that the best way to double your money is to fold it in half in one short poem, and in another describes a play put on by mimes for an audience of angels.  This author": {
+    "guess": "Omar Khayyam",
+    "confidence": -7.5346375952599995
+  },
+  "He addressed a \"mysterious star\" and claimed that he \"could not love except where death was mingling his with Beauty's breath\" in a poem which draws from the seventh Sura of the Qu'ran, which was collected with another poem that described the life of a Middle Eastern warlord who claimed he \"reach'd my home\u2014my home no more\" after falling in love with a woman named Ada.  In addition to \"Al Aaraaf\" and \"Tamerlane\", this author claimed that the best way to double your money is to fold it in half in one short poem, and in another describes a play put on by mimes for an audience of angels.  This author of \"Epigram for Wall Street\" and \"The Conqueror Worm\" wrote about objects that signify youth, marriage": {
+    "guess": "William Wordsworth",
+    "confidence": -10.925313174032
+  },
+  "He addressed a \"mysterious star\" and claimed that he \"could not love except where death was mingling his with Beauty's breath\" in a poem which draws from the seventh Sura of the Qu'ran, which was collected with another poem that described the life of a Middle Eastern warlord who claimed he \"reach'd my home\u2014my home no more\" after falling in love with a woman named Ada.  In addition to \"Al Aaraaf\" and \"Tamerlane\", this author claimed that the best way to double your money is to fold it in half in one short poem, and in another describes a play put on by mimes for an audience of angels.  This author of \"Epigram for Wall Street\" and \"The Conqueror Worm\" wrote about objects that signify youth, marriage and death in one work, and in another, describes lying down beside a tomb in the sea of a woman": {
+    "guess": "Percy Bysshe Shelley",
+    "confidence": -8.351570174527
+  },
+  "He addressed a \"mysterious star\" and claimed that he \"could not love except where death was mingling his with Beauty's breath\" in a poem which draws from the seventh Sura of the Qu'ran, which was collected with another poem that described the life of a Middle Eastern warlord who claimed he \"reach'd my home\u2014my home no more\" after falling in love with a woman named Ada.  In addition to \"Al Aaraaf\" and \"Tamerlane\", this author claimed that the best way to double your money is to fold it in half in one short poem, and in another describes a play put on by mimes for an audience of angels.  This author of \"Epigram for Wall Street\" and \"The Conqueror Worm\" wrote about objects that signify youth, marriage and death in one work, and in another, describes lying down beside a tomb in the sea of a woman with bright eyes.  For 10 points\u2014name this author of \"The Bells\" and \"Annabel Lee\".": {
+    "guess": "Edgar Allan Poe",
+    "confidence": -9.005173879571
+  },
+  "It does not add an edge at each step to create a subgraph. A hybrid algorithm first uses Big O of log": {
+    "guess": "Heapsort",
+    "confidence": -9.70893660762
+  },
+  "It does not add an edge at each step to create a subgraph. A hybrid algorithm first uses Big O of log of log of n passes in Boruvka's Algorithm before switching to it. With a simple data structure, it": {
+    "guess": "Quicksort",
+    "confidence": -8.658713969984671
+  },
+  "It does not add an edge at each step to create a subgraph. A hybrid algorithm first uses Big O of log of log of n passes in Boruvka's Algorithm before switching to it. With a simple data structure, it runs in worst case of Big O of V squared, but that worst case runtime can be improved to Big O of E": {
+    "guess": "Divide and Conquer",
+    "confidence": -9.7102122982
+  },
+  "It does not add an edge at each step to create a subgraph. A hybrid algorithm first uses Big O of log of log of n passes in Boruvka's Algorithm before switching to it. With a simple data structure, it runs in worst case of Big O of V squared, but that worst case runtime can be improved to Big O of E plus V log V by employing a Fibonacci Heap. This greedy algorithm works by creating a heap of edge weights": {
+    "guess": "Edsger W. Dijkstra",
+    "confidence": -1.2603406867430003
+  },
+  "It does not add an edge at each step to create a subgraph. A hybrid algorithm first uses Big O of log of log of n passes in Boruvka's Algorithm before switching to it. With a simple data structure, it runs in worst case of Big O of V squared, but that worst case runtime can be improved to Big O of E plus V log V by employing a Fibonacci Heap. This greedy algorithm works by creating a heap of edge weights and at each step adding the edge with the smallest edge weight with a vertex not already in the": {
+    "guess": "Edsger W. Dijkstra",
+    "confidence": -0.671784736899
+  },
+  "It does not add an edge at each step to create a subgraph. A hybrid algorithm first uses Big O of log of log of n passes in Boruvka's Algorithm before switching to it. With a simple data structure, it runs in worst case of Big O of V squared, but that worst case runtime can be improved to Big O of E plus V log V by employing a Fibonacci Heap. This greedy algorithm works by creating a heap of edge weights and at each step adding the edge with the smallest edge weight with a vertex not already in the graph to the graph. FTP, identify this alternative to Kruskal's Algorithm that finds a minimum spanning": {
+    "guess": "Kruskal's algorithm",
+    "confidence": -6.43329116216
+  },
+  "It does not add an edge at each step to create a subgraph. A hybrid algorithm first uses Big O of log of log of n passes in Boruvka's Algorithm before switching to it. With a simple data structure, it runs in worst case of Big O of V squared, but that worst case runtime can be improved to Big O of E plus V log V by employing a Fibonacci Heap. This greedy algorithm works by creating a heap of edge weights and at each step adding the edge with the smallest edge weight with a vertex not already in the graph to the graph. FTP, identify this alternative to Kruskal's Algorithm that finds a minimum spanning tree of a graph.": {
+    "guess": "Prim's Algorithm",
+    "confidence": -8.763208947202001
+  },
+  "His addition of poems by philosopher T.E. Hulme to his collection Ripostes helped to spawn a certain": {
+    "guess": "Modernist poetry",
+    "confidence": -9.93591035
+  },
+  "His addition of poems by philosopher T.E. Hulme to his collection Ripostes helped to spawn a certain literary movement. He did heavy editing on Eliot's The Waste Land and helped get William Carlos Williams": {
+    "guess": "Modernism",
+    "confidence": -9.493008913
+  },
+  "His addition of poems by philosopher T.E. Hulme to his collection Ripostes helped to spawn a certain literary movement. He did heavy editing on Eliot's The Waste Land and helped get William Carlos Williams and Hilda Doolittle published, and he even named his first poetry collection Hilda's Book. His": {
+    "guess": "Imagism",
+    "confidence": -6.38986549377767
+  },
+  "His addition of poems by philosopher T.E. Hulme to his collection Ripostes helped to spawn a certain literary movement. He did heavy editing on Eliot's The Waste Land and helped get William Carlos Williams and Hilda Doolittle published, and he even named his first poetry collection Hilda's Book. His longest work is often given the adjective \"Pisan,\" referring to his time as a prisoner of war in Italy": {
+    "guess": "The Cantos",
+    "confidence": -7.40341860924467
+  },
+  "His addition of poems by philosopher T.E. Hulme to his collection Ripostes helped to spawn a certain literary movement. He did heavy editing on Eliot's The Waste Land and helped get William Carlos Williams and Hilda Doolittle published, and he even named his first poetry collection Hilda's Book. His longest work is often given the adjective \"Pisan,\" referring to his time as a prisoner of war in Italy after being charged with treason by the Allies. For 10 points, name this Imagist author of The Cantos.": {
+    "guess": "Ezra Pound",
+    "confidence": -6.36853527801167
+  },
+  "The addition of hexa-methyl-ene-tetramine and water to an aryl halide can produce these compounds, which": {
+    "guess": "Ether",
+    "confidence": -11.32026445
+  },
+  "The addition of hexa-methyl-ene-tetramine and water to an aryl halide can produce these compounds, which can also be produced from the hydrolysis of an oxazine. The Sommelet reaction and the Meyers synthesis": {
+    "guess": "Aldehyde",
+    "confidence": -8.7864065495
+  },
+  "The addition of hexa-methyl-ene-tetramine and water to an aryl halide can produce these compounds, which can also be produced from the hydrolysis of an oxazine. The Sommelet reaction and the Meyers synthesis create these compounds, whose simplest version is used alongside sulfuric acid in ecstasy testing": {
+    "guess": "Aryl sulfide",
+    "confidence": -9.664214257200001
+  },
+  "The addition of hexa-methyl-ene-tetramine and water to an aryl halide can produce these compounds, which can also be produced from the hydrolysis of an oxazine. The Sommelet reaction and the Meyers synthesis create these compounds, whose simplest version is used alongside sulfuric acid in ecstasy testing kits based on the Marquis reagent. Aryl versions of this functional group can be synthesized by": {
+    "guess": "Thiol",
+    "confidence": -9.05839033073
+  },
+  "The addition of hexa-methyl-ene-tetramine and water to an aryl halide can produce these compounds, which can also be produced from the hydrolysis of an oxazine. The Sommelet reaction and the Meyers synthesis create these compounds, whose simplest version is used alongside sulfuric acid in ecstasy testing kits based on the Marquis reagent. Aryl versions of this functional group can be synthesized by adding carbon monoxide, hydrochloric acid, and aluminum trichloride to a benzene ring in a variant": {
+    "guess": "Aryl",
+    "confidence": -10.6014547295
+  },
+  "The addition of hexa-methyl-ene-tetramine and water to an aryl halide can produce these compounds, which can also be produced from the hydrolysis of an oxazine. The Sommelet reaction and the Meyers synthesis create these compounds, whose simplest version is used alongside sulfuric acid in ecstasy testing kits based on the Marquis reagent. Aryl versions of this functional group can be synthesized by adding carbon monoxide, hydrochloric acid, and aluminum trichloride to a benzene ring in a variant of the Friedel-Crafts reaction named for Gattermann and Koch. These compounds produce a peak at around": {
+    "guess": "Aryl chlorides",
+    "confidence": -10.4709168215
+  },
+  "The addition of hexa-methyl-ene-tetramine and water to an aryl halide can produce these compounds, which can also be produced from the hydrolysis of an oxazine. The Sommelet reaction and the Meyers synthesis create these compounds, whose simplest version is used alongside sulfuric acid in ecstasy testing kits based on the Marquis reagent. Aryl versions of this functional group can be synthesized by adding carbon monoxide, hydrochloric acid, and aluminum trichloride to a benzene ring in a variant of the Friedel-Crafts reaction named for Gattermann and Koch. These compounds produce a peak at around 9-10 ppm in proton NMR. PCC will selectively oxidize primary alcohols to these compounds, which can": {
+    "guess": "Aldehyde",
+    "confidence": -8.528356172730001
+  },
+  "The addition of hexa-methyl-ene-tetramine and water to an aryl halide can produce these compounds, which can also be produced from the hydrolysis of an oxazine. The Sommelet reaction and the Meyers synthesis create these compounds, whose simplest version is used alongside sulfuric acid in ecstasy testing kits based on the Marquis reagent. Aryl versions of this functional group can be synthesized by adding carbon monoxide, hydrochloric acid, and aluminum trichloride to a benzene ring in a variant of the Friedel-Crafts reaction named for Gattermann and Koch. These compounds produce a peak at around 9-10 ppm in proton NMR. PCC will selectively oxidize primary alcohols to these compounds, which can be oxidized again to form carboxylic acids. For 10 points, name these compounds that contain a terminal": {
+    "guess": "",
+    "confidence": -3.3629722682563
+  },
+  "The addition of hexa-methyl-ene-tetramine and water to an aryl halide can produce these compounds, which can also be produced from the hydrolysis of an oxazine. The Sommelet reaction and the Meyers synthesis create these compounds, whose simplest version is used alongside sulfuric acid in ecstasy testing kits based on the Marquis reagent. Aryl versions of this functional group can be synthesized by adding carbon monoxide, hydrochloric acid, and aluminum trichloride to a benzene ring in a variant of the Friedel-Crafts reaction named for Gattermann and Koch. These compounds produce a peak at around 9-10 ppm in proton NMR. PCC will selectively oxidize primary alcohols to these compounds, which can be oxidized again to form carboxylic acids. For 10 points, name these compounds that contain a terminal carbonyl group, which are contrasted with ketones.": {
+    "guess": "Aldehyde, Carboxylic",
+    "confidence": -1.53049923318467
+  },
+  "This man is addressed as \"Dear son of memory, great heir of fame\" in a poem titled for him that exclaims": {
+    "guess": "John Milton",
+    "confidence": -9.1538318256
+  },
+  "This man is addressed as \"Dear son of memory, great heir of fame\" in a poem titled for him that exclaims \"What need'st thou such weak witness of thy name!\" Erskine becomes obsessed with a theory that this": {
+    "guess": "Robert Browning",
+    "confidence": -10.480997016786
+  },
+  "This man is addressed as \"Dear son of memory, great heir of fame\" in a poem titled for him that exclaims \"What need'st thou such weak witness of thy name!\" Erskine becomes obsessed with a theory that this man was in love with a youth named Willie Hughes in a short story by Oscar Wilde. John Milton addressed": {
+    "guess": "Paradise Lost",
+    "confidence": -6.6696368753225
+  },
+  "This man is addressed as \"Dear son of memory, great heir of fame\" in a poem titled for him that exclaims \"What need'st thou such weak witness of thy name!\" Erskine becomes obsessed with a theory that this man was in love with a youth named Willie Hughes in a short story by Oscar Wilde. John Milton addressed this man's \"honoured bones\" in a poem titled \"On [him]\". He was praised for writing about \"the": {
+    "guess": "William Shakespeare",
+    "confidence": -11.035836084
+  },
+  "This man is addressed as \"Dear son of memory, great heir of fame\" in a poem titled for him that exclaims \"What need'st thou such weak witness of thy name!\" Erskine becomes obsessed with a theory that this man was in love with a youth named Willie Hughes in a short story by Oscar Wilde. John Milton addressed this man's \"honoured bones\" in a poem titled \"On [him]\". He was praised for writing about \"the genuine progeny of common humanity\" in an introduction to his works by (*) Samuel Johnson. He's not": {
+    "guess": "Ralph Waldo Emerson",
+    "confidence": -9.586419687648041
+  },
+  "This man is addressed as \"Dear son of memory, great heir of fame\" in a poem titled for him that exclaims \"What need'st thou such weak witness of thy name!\" Erskine becomes obsessed with a theory that this man was in love with a youth named Willie Hughes in a short story by Oscar Wilde. John Milton addressed this man's \"honoured bones\" in a poem titled \"On [him]\". He was praised for writing about \"the genuine progeny of common humanity\" in an introduction to his works by (*) Samuel Johnson. He's not Edward Gibbon, but his works were heavily censored by Thomas Bowdler. Virginia Woolf imagined the": {
+    "guess": "Samuel Johnson",
+    "confidence": -10.6283813505
+  },
+  "This man is addressed as \"Dear son of memory, great heir of fame\" in a poem titled for him that exclaims \"What need'st thou such weak witness of thy name!\" Erskine becomes obsessed with a theory that this man was in love with a youth named Willie Hughes in a short story by Oscar Wilde. John Milton addressed this man's \"honoured bones\" in a poem titled \"On [him]\". He was praised for writing about \"the genuine progeny of common humanity\" in an introduction to his works by (*) Samuel Johnson. He's not Edward Gibbon, but his works were heavily censored by Thomas Bowdler. Virginia Woolf imagined the disadvantages that would have been faced by this man's imaginary sister, Judith, growing up in Stratford-upon-": {
+    "guess": "William Shakespeare",
+    "confidence": -9.276922849999998
+  },
+  "This man is addressed as \"Dear son of memory, great heir of fame\" in a poem titled for him that exclaims \"What need'st thou such weak witness of thy name!\" Erskine becomes obsessed with a theory that this man was in love with a youth named Willie Hughes in a short story by Oscar Wilde. John Milton addressed this man's \"honoured bones\" in a poem titled \"On [him]\". He was praised for writing about \"the genuine progeny of common humanity\" in an introduction to his works by (*) Samuel Johnson. He's not Edward Gibbon, but his works were heavily censored by Thomas Bowdler. Virginia Woolf imagined the disadvantages that would have been faced by this man's imaginary sister, Judith, growing up in Stratford-upon- Avon. For 10 points, name this English author of As You Like It.": {
+    "guess": "William Shakespeare",
+    "confidence": -6.5433366073919395
+  }
+}

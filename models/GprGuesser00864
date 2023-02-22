@@ -1,0 +1,34 @@
+{
+  "C-glycosides can be prepared by reacting this compound with glycal esters and general methods for using": {
+    "guess": "Glycoside",
+    "confidence": -9.524705768999999
+  },
+  "C-glycosides can be prepared by reacting this compound with glycal esters and general methods for using this compound with esters was devised by Pine and Grubbs. A chemical named for Petasis can act as": {
+    "guess": "Tebbe's reagent",
+    "confidence": -3.84313912085
+  },
+  "C-glycosides can be prepared by reacting this compound with glycal esters and general methods for using this compound with esters was devised by Pine and Grubbs. A chemical named for Petasis can act as a mild replacement for this compound. In its typical use, it must be activated by Lewis base, typically": {
+    "guess": "Ammonium hydroxide",
+    "confidence": -5.29760784994
+  },
+  "C-glycosides can be prepared by reacting this compound with glycal esters and general methods for using this compound with esters was devised by Pine and Grubbs. A chemical named for Petasis can act as a mild replacement for this compound. In its typical use, it must be activated by Lewis base, typically pyridine, to form a Schrock carbene, which then reacts in a two plus two cycloaddition. As an alternative": {
+    "guess": "Tebbe's reagent",
+    "confidence": -3.331751590964
+  },
+  "C-glycosides can be prepared by reacting this compound with glycal esters and general methods for using this compound with esters was devised by Pine and Grubbs. A chemical named for Petasis can act as a mild replacement for this compound. In its typical use, it must be activated by Lewis base, typically pyridine, to form a Schrock carbene, which then reacts in a two plus two cycloaddition. As an alternative to the Wittig reaction it eschews beta-elimination products, and compared to similar reagents": {
+    "guess": "Tebbe's reagent",
+    "confidence": -2.9367544724679995
+  },
+  "C-glycosides can be prepared by reacting this compound with glycal esters and general methods for using this compound with esters was devised by Pine and Grubbs. A chemical named for Petasis can act as a mild replacement for this compound. In its typical use, it must be activated by Lewis base, typically pyridine, to form a Schrock carbene, which then reacts in a two plus two cycloaddition. As an alternative to the Wittig reaction it eschews beta-elimination products, and compared to similar reagents it reacts at low temperature. This chemical consists of two five membered aromatic rings bound": {
+    "guess": "",
+    "confidence": -3.2690263370399997
+  },
+  "C-glycosides can be prepared by reacting this compound with glycal esters and general methods for using this compound with esters was devised by Pine and Grubbs. A chemical named for Petasis can act as a mild replacement for this compound. In its typical use, it must be activated by Lewis base, typically pyridine, to form a Schrock carbene, which then reacts in a two plus two cycloaddition. As an alternative to the Wittig reaction it eschews beta-elimination products, and compared to similar reagents it reacts at low temperature. This chemical consists of two five membered aromatic rings bound to a square planar bridge consisting of a chloride ion, aluminum ion with two alkyl groups attached,": {
+    "guess": "Tebbe's reagent",
+    "confidence": -3.277316434836
+  },
+  "C-glycosides can be prepared by reacting this compound with glycal esters and general methods for using this compound with esters was devised by Pine and Grubbs. A chemical named for Petasis can act as a mild replacement for this compound. In its typical use, it must be activated by Lewis base, typically pyridine, to form a Schrock carbene, which then reacts in a two plus two cycloaddition. As an alternative to the Wittig reaction it eschews beta-elimination products, and compared to similar reagents it reacts at low temperature. This chemical consists of two five membered aromatic rings bound to a square planar bridge consisting of a chloride ion, aluminum ion with two alkyl groups attached, and a titanium ion. For 10 points, name this organometallic compound used to methylenate carbonyls.": {
+    "guess": "Tebbe's reagent",
+    "confidence": -2.69088590011
+  }
+}

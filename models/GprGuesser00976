@@ -1,0 +1,98 @@
+{
+  "The cobalt ion is a competitive inhibitor of the CorA system for transporting this ion across cell membranes.": {
+    "guess": "Co2+",
+    "confidence": -8.5889546412
+  },
+  "The cobalt ion is a competitive inhibitor of the CorA system for transporting this ion across cell membranes. Aminoglycoside antibiotics are thought to work by displacing this ion in the active site of": {
+    "guess": "CorA",
+    "confidence": -10.614660616
+  },
+  "The cobalt ion is a competitive inhibitor of the CorA system for transporting this ion across cell membranes. Aminoglycoside antibiotics are thought to work by displacing this ion in the active site of the hammerhead ribozyme. In yeast, a defect in MSR2, which transports this ion into the mitochondria,": {
+    "guess": "Mitochondria",
+    "confidence": -9.318687499800001
+  },
+  "The cobalt ion is a competitive inhibitor of the CorA system for transporting this ion across cell membranes. Aminoglycoside antibiotics are thought to work by displacing this ion in the active site of the hammerhead ribozyme. In yeast, a defect in MSR2, which transports this ion into the mitochondria, leads to abnormal RNA splicing. Unlike the AMPA receptor, the NMDA receptor is blocked by this ion,": {
+    "guess": "NMDA receptor",
+    "confidence": -8.87592145673
+  },
+  "The cobalt ion is a competitive inhibitor of the CorA system for transporting this ion across cell membranes. Aminoglycoside antibiotics are thought to work by displacing this ion in the active site of the hammerhead ribozyme. In yeast, a defect in MSR2, which transports this ion into the mitochondria, leads to abnormal RNA splicing. Unlike the AMPA receptor, the NMDA receptor is blocked by this ion, and its voltage-dependent removal allows a similarly-shaped ion to enter the cell. This ion also": {
+    "guess": "Sodium",
+    "confidence": -12.510559599999999
+  },
+  "The cobalt ion is a competitive inhibitor of the CorA system for transporting this ion across cell membranes. Aminoglycoside antibiotics are thought to work by displacing this ion in the active site of the hammerhead ribozyme. In yeast, a defect in MSR2, which transports this ion into the mitochondria, leads to abnormal RNA splicing. Unlike the AMPA receptor, the NMDA receptor is blocked by this ion, and its voltage-dependent removal allows a similarly-shaped ion to enter the cell. This ion also functions as a cofactor for DNA polymerases, so its chloride salt is added to PCR mixtures. For 10 points,": {
+    "guess": "Coenzyme A",
+    "confidence": -10.580076160618999
+  },
+  "The cobalt ion is a competitive inhibitor of the CorA system for transporting this ion across cell membranes. Aminoglycoside antibiotics are thought to work by displacing this ion in the active site of the hammerhead ribozyme. In yeast, a defect in MSR2, which transports this ion into the mitochondria, leads to abnormal RNA splicing. Unlike the AMPA receptor, the NMDA receptor is blocked by this ion, and its voltage-dependent removal allows a similarly-shaped ion to enter the cell. This ion also functions as a cofactor for DNA polymerases, so its chloride salt is added to PCR mixtures. For 10 points, name this divalent cation at the center of the porphyrin ring in chlorophyll.": {
+    "guess": "Chloride",
+    "confidence": -9.463725205072
+  },
+  "With Cobb, the namesake of this reaction characterized the reaction of quinone and hydrochloric acid,": {
+    "guess": "The reaction of quinone with hydro",
+    "confidence": -3.1371549909770002
+  },
+  "With Cobb, the namesake of this reaction characterized the reaction of quinone and hydrochloric acid, and cyclopentenone undergoes this reaction with thiols and GSH in biological systems. Ochiai and Tada": {
+    "guess": "Redox",
+    "confidence": -10.548279698000002
+  },
+  "With Cobb, the namesake of this reaction characterized the reaction of quinone and hydrochloric acid, and cyclopentenone undergoes this reaction with thiols and GSH in biological systems. Ochiai and Tada developed a tandem version of it with a carbene rearrangement, and a more famous variation uses a": {
+    "guess": "Michael Polanyi",
+    "confidence": -10.706724108129
+  },
+  "With Cobb, the namesake of this reaction characterized the reaction of quinone and hydrochloric acid, and cyclopentenone undergoes this reaction with thiols and GSH in biological systems. Ochiai and Tada developed a tandem version of it with a carbene rearrangement, and a more famous variation uses a silyl enol ether and is named for Mukaiyama. Chiral ammonium salts are used to force the reaction to": {
+    "guess": "Enol ether addition",
+    "confidence": -11.681678580000002
+  },
+  "With Cobb, the namesake of this reaction characterized the reaction of quinone and hydrochloric acid, and cyclopentenone undergoes this reaction with thiols and GSH in biological systems. Ochiai and Tada developed a tandem version of it with a carbene rearrangement, and a more famous variation uses a silyl enol ether and is named for Mukaiyama. Chiral ammonium salts are used to force the reaction to favor the \"Syn\" product produced by this reaction, known as its asymmetric version. This reaction": {
+    "guess": "Michael reaction",
+    "confidence": -9.669159901999999
+  },
+  "With Cobb, the namesake of this reaction characterized the reaction of quinone and hydrochloric acid, and cyclopentenone undergoes this reaction with thiols and GSH in biological systems. Ochiai and Tada developed a tandem version of it with a carbene rearrangement, and a more famous variation uses a silyl enol ether and is named for Mukaiyama. Chiral ammonium salts are used to force the reaction to favor the \"Syn\" product produced by this reaction, known as its asymmetric version. This reaction is combined with an intramolecular aldol reaction to create a six-membered ring in the Robinson annulation.": {
+    "guess": "Aldol reaction",
+    "confidence": -8.5543562544625
+  },
+  "With Cobb, the namesake of this reaction characterized the reaction of quinone and hydrochloric acid, and cyclopentenone undergoes this reaction with thiols and GSH in biological systems. Ochiai and Tada developed a tandem version of it with a carbene rearrangement, and a more famous variation uses a silyl enol ether and is named for Mukaiyama. Chiral ammonium salts are used to force the reaction to favor the \"Syn\" product produced by this reaction, known as its asymmetric version. This reaction is combined with an intramolecular aldol reaction to create a six-membered ring in the Robinson annulation. FTP, name this reaction which adds a namesake donor to an alpha-beta unsaturated ketone, named": {
+    "guess": "Michael addition",
+    "confidence": -10.664134246
+  },
+  "With Cobb, the namesake of this reaction characterized the reaction of quinone and hydrochloric acid, and cyclopentenone undergoes this reaction with thiols and GSH in biological systems. Ochiai and Tada developed a tandem version of it with a carbene rearrangement, and a more famous variation uses a silyl enol ether and is named for Mukaiyama. Chiral ammonium salts are used to force the reaction to favor the \"Syn\" product produced by this reaction, known as its asymmetric version. This reaction is combined with an intramolecular aldol reaction to create a six-membered ring in the Robinson annulation. FTP, name this reaction which adds a namesake donor to an alpha-beta unsaturated ketone, named for an American.": {
+    "guess": "Michael addition",
+    "confidence": -11.0150211337
+  },
+  "Co-activators of this protein include BRCA1. \u00a0Discovered in 1979 by Crawford et al, mutations in this": {
+    "guess": "Breast Cancer",
+    "confidence": -6.889893870611699
+  },
+  "Co-activators of this protein include BRCA1. \u00a0Discovered in 1979 by Crawford et al, mutations in this protein often lead to a high susceptibility of Li-Fraumeni Syndrome. \u00a0After getting a ubiquitin attached": {
+    "guess": "P53",
+    "confidence": -6.502489376515669
+  },
+  "Co-activators of this protein include BRCA1. \u00a0Discovered in 1979 by Crawford et al, mutations in this protein often lead to a high susceptibility of Li-Fraumeni Syndrome. \u00a0After getting a ubiquitin attached to it, this protein is degraded unless USP7 interacts with it; that ubiquitin is placed on it": {
+    "guess": "P53",
+    "confidence": -6.19279181889294
+  },
+  "Co-activators of this protein include BRCA1. \u00a0Discovered in 1979 by Crawford et al, mutations in this protein often lead to a high susceptibility of Li-Fraumeni Syndrome. \u00a0After getting a ubiquitin attached to it, this protein is degraded unless USP7 interacts with it; that ubiquitin is placed on it by MDM2, which regulates this protein.  This protein can be inactivated by E6, a mechanism that HPV": {
+    "guess": "HPV",
+    "confidence": -6.79999537215674
+  },
+  "Co-activators of this protein include BRCA1. \u00a0Discovered in 1979 by Crawford et al, mutations in this protein often lead to a high susceptibility of Li-Fraumeni Syndrome. \u00a0After getting a ubiquitin attached to it, this protein is degraded unless USP7 interacts with it; that ubiquitin is placed on it by MDM2, which regulates this protein.  This protein can be inactivated by E6, a mechanism that HPV uses. \u00a0It is activated in response to stresses such as (*) UV rays, osmotic shock and deregulated oncogene": {
+    "guess": "P53",
+    "confidence": -6.2452617925772005
+  },
+  "Co-activators of this protein include BRCA1. \u00a0Discovered in 1979 by Crawford et al, mutations in this protein often lead to a high susceptibility of Li-Fraumeni Syndrome. \u00a0After getting a ubiquitin attached to it, this protein is degraded unless USP7 interacts with it; that ubiquitin is placed on it by MDM2, which regulates this protein.  This protein can be inactivated by E6, a mechanism that HPV uses. \u00a0It is activated in response to stresses such as (*) UV rays, osmotic shock and deregulated oncogene expression. \u00a0It stimulates another protein that binds to CDK2. \u00a0Its functions include activating": {
+    "guess": "P53",
+    "confidence": -6.39711447553694
+  },
+  "Co-activators of this protein include BRCA1. \u00a0Discovered in 1979 by Crawford et al, mutations in this protein often lead to a high susceptibility of Li-Fraumeni Syndrome. \u00a0After getting a ubiquitin attached to it, this protein is degraded unless USP7 interacts with it; that ubiquitin is placed on it by MDM2, which regulates this protein.  This protein can be inactivated by E6, a mechanism that HPV uses. \u00a0It is activated in response to stresses such as (*) UV rays, osmotic shock and deregulated oncogene expression. \u00a0It stimulates another protein that binds to CDK2. \u00a0Its functions include activating DNA repair proteins when DNA becomes damaged and initiating apoptosis of cells with damaged DNA.": {
+    "guess": "P53",
+    "confidence": -6.573776040345201
+  },
+  "Co-activators of this protein include BRCA1. \u00a0Discovered in 1979 by Crawford et al, mutations in this protein often lead to a high susceptibility of Li-Fraumeni Syndrome. \u00a0After getting a ubiquitin attached to it, this protein is degraded unless USP7 interacts with it; that ubiquitin is placed on it by MDM2, which regulates this protein.  This protein can be inactivated by E6, a mechanism that HPV uses. \u00a0It is activated in response to stresses such as (*) UV rays, osmotic shock and deregulated oncogene expression. \u00a0It stimulates another protein that binds to CDK2. \u00a0Its functions include activating DNA repair proteins when DNA becomes damaged and initiating apoptosis of cells with damaged DNA. \u00a0For 10 points, name this protein whose role as a cancer inhibitor leads it to be called the \"guardian": {
+    "guess": "p53",
+    "confidence": -6.3638125223573985
+  },
+  "Co-activators of this protein include BRCA1. \u00a0Discovered in 1979 by Crawford et al, mutations in this protein often lead to a high susceptibility of Li-Fraumeni Syndrome. \u00a0After getting a ubiquitin attached to it, this protein is degraded unless USP7 interacts with it; that ubiquitin is placed on it by MDM2, which regulates this protein.  This protein can be inactivated by E6, a mechanism that HPV uses. \u00a0It is activated in response to stresses such as (*) UV rays, osmotic shock and deregulated oncogene expression. \u00a0It stimulates another protein that binds to CDK2. \u00a0Its functions include activating DNA repair proteins when DNA becomes damaged and initiating apoptosis of cells with damaged DNA. \u00a0For 10 points, name this protein whose role as a cancer inhibitor leads it to be called the \"guardian angel\" of the cell and which is named for its molecular weight in kilodaltons.": {
+    "guess": "p53",
+    "confidence": -6.5119972973302
+  }
+}

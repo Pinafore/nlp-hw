@@ -1,0 +1,858 @@
+{
+  "One of this language's dialects is spoken on the island of Lamu, while another was used by the Germans": {
+    "guess": "Swahili",
+    "confidence": -8.7262431954427
+  },
+  "One of this language's dialects is spoken on the island of Lamu, while another was used by the Germans in their administration of Tanganyika. \"States\" named for this language spread from Sofala to Mogadishu,": {
+    "guess": "Swahili",
+    "confidence": -8.213820141960001
+  },
+  "One of this language's dialects is spoken on the island of Lamu, while another was used by the Germans in their administration of Tanganyika. \"States\" named for this language spread from Sofala to Mogadishu, with one of their fortresses on the island of Pemba. It was spread through the interior by Arab": {
+    "guess": "Arabic",
+    "confidence": -6.39981054286647
+  },
+  "One of this language's dialects is spoken on the island of Lamu, while another was used by the Germans in their administration of Tanganyika. \"States\" named for this language spread from Sofala to Mogadishu, with one of their fortresses on the island of Pemba. It was spread through the interior by Arab trade caravans, and its name comes from an Arabic word. While much of this language's lexicon is": {
+    "guess": "Arabic",
+    "confidence": -11.067556685
+  },
+  "One of this language's dialects is spoken on the island of Lamu, while another was used by the Germans in their administration of Tanganyika. \"States\" named for this language spread from Sofala to Mogadishu, with one of their fortresses on the island of Pemba. It was spread through the interior by Arab trade caravans, and its name comes from an Arabic word. While much of this language's lexicon is derived from Arabic, its grammar is Bantu. FTP, name this language used in trade along the east coast": {
+    "guess": "Swahili",
+    "confidence": -8.442254583207
+  },
+  "One of this language's dialects is spoken on the island of Lamu, while another was used by the Germans in their administration of Tanganyika. \"States\" named for this language spread from Sofala to Mogadishu, with one of their fortresses on the island of Pemba. It was spread through the interior by Arab trade caravans, and its name comes from an Arabic word. While much of this language's lexicon is derived from Arabic, its grammar is Bantu. FTP, name this language used in trade along the east coast of Africa.": {
+    "guess": "Swahili",
+    "confidence": -6.7299931128418
+  },
+  "In languages with garbage collection, it is impossible to create a \"dangling\" one by a deallocation(*)": {
+    "guess": "Pointers",
+    "confidence": -9.6030701754
+  },
+  "In languages with garbage collection, it is impossible to create a \"dangling\" one by a deallocation(*) call, and when one of these is incremented past its allocated space, buffer over-runs can result.": {
+    "guess": "Pointers",
+    "confidence": -9.133753332640001
+  },
+  "In languages with garbage collection, it is impossible to create a \"dangling\" one by a deallocation(*) call, and when one of these is incremented past its allocated space, buffer over-runs can result. In languages like C, they can be dereferenced to read the value of the data stored in memory. For 10": {
+    "guess": "C",
+    "confidence": -11.645428379999998
+  },
+  "In languages with garbage collection, it is impossible to create a \"dangling\" one by a deallocation(*) call, and when one of these is incremented past its allocated space, buffer over-runs can result. In languages like C, they can be dereferenced to read the value of the data stored in memory. For 10 points\u2014 identify this type of variable which holds an address to a space in memory rather than the": {
+    "guess": "Pointers",
+    "confidence": -11.269227429999999
+  },
+  "In languages with garbage collection, it is impossible to create a \"dangling\" one by a deallocation(*) call, and when one of these is incremented past its allocated space, buffer over-runs can result. In languages like C, they can be dereferenced to read the value of the data stored in memory. For 10 points\u2014 identify this type of variable which holds an address to a space in memory rather than the value of the variable.": {
+    "guess": "Pointers",
+    "confidence": -11.319105799999999
+  },
+  "This landmark was discovered by a party that nearly starved to death before reaching Kamarata. It is": {
+    "guess": "The Kamarata Stone",
+    "confidence": -9.388684211240001
+  },
+  "This landmark was discovered by a party that nearly starved to death before reaching Kamarata. It is located in the western part of Canaima National Park in the Gran Sabana region, along the Kerep River.": {
+    "guess": "Mount Roraima",
+    "confidence": -7.3711583525075
+  },
+  "This landmark was discovered by a party that nearly starved to death before reaching Kamarata. It is located in the western part of Canaima National Park in the Gran Sabana region, along the Kerep River. This geographical feature begins atop the Auyantepui, a flat top mountain, and ends in the Devil's": {
+    "guess": "Angel Falls",
+    "confidence": -9.432128087729998
+  },
+  "This landmark was discovered by a party that nearly starved to death before reaching Kamarata. It is located in the western part of Canaima National Park in the Gran Sabana region, along the Kerep River. This geographical feature begins atop the Auyantepui, a flat top mountain, and ends in the Devil's Canyon. Its current name honors the American aviator who discovered it when he crash-landed his plane": {
+    "guess": "Angel Falls",
+    "confidence": -9.08420196694
+  },
+  "This landmark was discovered by a party that nearly starved to death before reaching Kamarata. It is located in the western part of Canaima National Park in the Gran Sabana region, along the Kerep River. This geographical feature begins atop the Auyantepui, a flat top mountain, and ends in the Devil's Canyon. Its current name honors the American aviator who discovered it when he crash-landed his plane nearby, but it was nearly renamed in 2009 by Hugo Chavez. For 10 points, name this waterfall located": {
+    "guess": "Angel Falls",
+    "confidence": -9.1179423836
+  },
+  "This landmark was discovered by a party that nearly starved to death before reaching Kamarata. It is located in the western part of Canaima National Park in the Gran Sabana region, along the Kerep River. This geographical feature begins atop the Auyantepui, a flat top mountain, and ends in the Devil's Canyon. Its current name honors the American aviator who discovered it when he crash-landed his plane nearby, but it was nearly renamed in 2009 by Hugo Chavez. For 10 points, name this waterfall located in Venezuela, the highest in the world.": {
+    "guess": "Angel Falls",
+    "confidence": -9.073545415272001
+  },
+  "The Langemark war cemetery memorializes those who died during battles named for this place. An incident": {
+    "guess": "Battle of Langemark",
+    "confidence": -9.02678941962
+  },
+  "The Langemark war cemetery memorializes those who died during battles named for this place. An incident in which several German units were killed by a small force of experienced Boer War veterans occurred": {
+    "guess": "Second Boer War",
+    "confidence": -8.730406730889
+  },
+  "The Langemark war cemetery memorializes those who died during battles named for this place. An incident in which several German units were killed by a small force of experienced Boer War veterans occurred at a battle named for this polity and is called \"The Massacre of the Innocents of\" this place. A": {
+    "guess": "Belgium",
+    "confidence": -11.117154235600001
+  },
+  "The Langemark war cemetery memorializes those who died during battles named for this place. An incident in which several German units were killed by a small force of experienced Boer War veterans occurred at a battle named for this polity and is called \"The Massacre of the Innocents of\" this place. A later battle at this place was led primarily to cripple German submarine warfare by capturing German": {
+    "guess": "Belgium",
+    "confidence": -10.507342796300001
+  },
+  "The Langemark war cemetery memorializes those who died during battles named for this place. An incident in which several German units were killed by a small force of experienced Boer War veterans occurred at a battle named for this polity and is called \"The Massacre of the Innocents of\" this place. A later battle at this place was led primarily to cripple German submarine warfare by capturing German port cities but proved inconclusive, in part because the area surrounding this city was located on": {
+    "guess": "Antwerp",
+    "confidence": -9.7674189021
+  },
+  "The Langemark war cemetery memorializes those who died during battles named for this place. An incident in which several German units were killed by a small force of experienced Boer War veterans occurred at a battle named for this polity and is called \"The Massacre of the Innocents of\" this place. A later battle at this place was led primarily to cripple German submarine warfare by capturing German port cities but proved inconclusive, in part because the area surrounding this city was located on reclaimed marshland which turned to thick mud after being repeatedly shelled, and it also marked the": {
+    "guess": "Battle of the Somme",
+    "confidence": -7.362931293202999
+  },
+  "The Langemark war cemetery memorializes those who died during battles named for this place. An incident in which several German units were killed by a small force of experienced Boer War veterans occurred at a battle named for this polity and is called \"The Massacre of the Innocents of\" this place. A later battle at this place was led primarily to cripple German submarine warfare by capturing German port cities but proved inconclusive, in part because the area surrounding this city was located on reclaimed marshland which turned to thick mud after being repeatedly shelled, and it also marked the first use of poison gas on the Western Front. For 10 points, name this Belgian city, site of multiple": {
+    "guess": "Antwerp",
+    "confidence": -8.298803236317
+  },
+  "The Langemark war cemetery memorializes those who died during battles named for this place. An incident in which several German units were killed by a small force of experienced Boer War veterans occurred at a battle named for this polity and is called \"The Massacre of the Innocents of\" this place. A later battle at this place was led primarily to cripple German submarine warfare by capturing German port cities but proved inconclusive, in part because the area surrounding this city was located on reclaimed marshland which turned to thick mud after being repeatedly shelled, and it also marked the first use of poison gas on the Western Front. For 10 points, name this Belgian city, site of multiple World War I battles.": {
+    "guess": "Ypres",
+    "confidence": -9.3850131307
+  },
+  "This language's written form was derived from Nabatean script. It is spoken by the Mizrahi Sephardic": {
+    "guess": "Arabic",
+    "confidence": -11.06926360464
+  },
+  "This language's written form was derived from Nabatean script. It is spoken by the Mizrahi Sephardic population. This language's Maghrebi variety borrows some words and pronunciations from Berber and is": {
+    "guess": "Arabic",
+    "confidence": -10.51986817364
+  },
+  "This language's written form was derived from Nabatean script. It is spoken by the Mizrahi Sephardic population. This language's Maghrebi variety borrows some words and pronunciations from Berber and is spoken in areas like (*) Algeria and Morocco. The earliest example of this language in writing may": {
+    "guess": "Arabic",
+    "confidence": -11.048364838
+  },
+  "This language's written form was derived from Nabatean script. It is spoken by the Mizrahi Sephardic population. This language's Maghrebi variety borrows some words and pronunciations from Berber and is spoken in areas like (*) Algeria and Morocco. The earliest example of this language in writing may be on a tomb unearthed in Syria. The Koran is written in this language. For 10 points, name this Semitic": {
+    "guess": "Arabic",
+    "confidence": -10.7182238919
+  },
+  "This language's written form was derived from Nabatean script. It is spoken by the Mizrahi Sephardic population. This language's Maghrebi variety borrows some words and pronunciations from Berber and is spoken in areas like (*) Algeria and Morocco. The earliest example of this language in writing may be on a tomb unearthed in Syria. The Koran is written in this language. For 10 points, name this Semitic language commonly spoken in the Middle East and North Africa, and which is the liturgical language": {
+    "guess": "Arabic",
+    "confidence": -10.6799955136
+  },
+  "This language's written form was derived from Nabatean script. It is spoken by the Mizrahi Sephardic population. This language's Maghrebi variety borrows some words and pronunciations from Berber and is spoken in areas like (*) Algeria and Morocco. The earliest example of this language in writing may be on a tomb unearthed in Syria. The Koran is written in this language. For 10 points, name this Semitic language commonly spoken in the Middle East and North Africa, and which is the liturgical language of Islam.": {
+    "guess": "Arabic",
+    "confidence": -10.455716713200001
+  },
+  "The landscapes of Caspar David Friedrich inspired a scene in this movie in which the lead female character": {
+    "guess": "walks on a beach in the sunset",
+    "confidence": -8.1336359
+  },
+  "The landscapes of Caspar David Friedrich inspired a scene in this movie in which the lead female character waits for her husband near a sand dune marked by iron crosses. This movie ends with a low-angle": {
+    "guess": "Theodor Herzl's funeral",
+    "confidence": -7.138019719
+  },
+  "The landscapes of Caspar David Friedrich inspired a scene in this movie in which the lead female character waits for her husband near a sand dune marked by iron crosses. This movie ends with a low-angle shot of a ruined castle being reabsorbed into a mountain, and like The Golem, this movie was scripted": {
+    "guess": "The Castle of Otranto",
+    "confidence": -4.61139520103
+  },
+  "The landscapes of Caspar David Friedrich inspired a scene in this movie in which the lead female character waits for her husband near a sand dune marked by iron crosses. This movie ends with a low-angle shot of a ruined castle being reabsorbed into a mountain, and like The Golem, this movie was scripted by Henrik Galeen. The antagonist of this movie is first encountered by a man who drives through": {
+    "guess": "The Golem",
+    "confidence": -10.045488418320002
+  },
+  "The landscapes of Caspar David Friedrich inspired a scene in this movie in which the lead female character waits for her husband near a sand dune marked by iron crosses. This movie ends with a low-angle shot of a ruined castle being reabsorbed into a mountain, and like The Golem, this movie was scripted by Henrik Galeen. The antagonist of this movie is first encountered by a man who drives through the Land of the Phantoms on the orders of Knock. This movie's antagonist is played by Max Schreck, and": {
+    "guess": "The Golem",
+    "confidence": -9.71598343716
+  },
+  "The landscapes of Caspar David Friedrich inspired a scene in this movie in which the lead female character waits for her husband near a sand dune marked by iron crosses. This movie ends with a low-angle shot of a ruined castle being reabsorbed into a mountain, and like The Golem, this movie was scripted by Henrik Galeen. The antagonist of this movie is first encountered by a man who drives through the Land of the Phantoms on the orders of Knock. This movie's antagonist is played by Max Schreck, and follows Hutter to Wisbourg in order to attack Hutter's wife Ellen, only to die upon being pierced": {
+    "guess": "The Golem",
+    "confidence": -10.071084146294
+  },
+  "The landscapes of Caspar David Friedrich inspired a scene in this movie in which the lead female character waits for her husband near a sand dune marked by iron crosses. This movie ends with a low-angle shot of a ruined castle being reabsorbed into a mountain, and like The Golem, this movie was scripted by Henrik Galeen. The antagonist of this movie is first encountered by a man who drives through the Land of the Phantoms on the orders of Knock. This movie's antagonist is played by Max Schreck, and follows Hutter to Wisbourg in order to attack Hutter's wife Ellen, only to die upon being pierced by the rays of the sun. For 10 points, name this German expressionist film about Count Orlock, an adaptation": {
+    "guess": "Nosferatu",
+    "confidence": -8.593477325233001
+  },
+  "The landscapes of Caspar David Friedrich inspired a scene in this movie in which the lead female character waits for her husband near a sand dune marked by iron crosses. This movie ends with a low-angle shot of a ruined castle being reabsorbed into a mountain, and like The Golem, this movie was scripted by Henrik Galeen. The antagonist of this movie is first encountered by a man who drives through the Land of the Phantoms on the orders of Knock. This movie's antagonist is played by Max Schreck, and follows Hutter to Wisbourg in order to attack Hutter's wife Ellen, only to die upon being pierced by the rays of the sun. For 10 points, name this German expressionist film about Count Orlock, an adaptation of Dracula directed by F. W. Murnau.": {
+    "guess": "Nosferatu",
+    "confidence": -8.248155790826
+  },
+  "The land near the coast of this body of water is home to the famous Lavaux vineyards and its coast is": {
+    "guess": "Rh\u00f4ne-Alpes",
+    "confidence": -3.8581577701599996
+  },
+  "The land near the coast of this body of water is home to the famous Lavaux vineyards and its coast is home to the Castle of Chillon, which was built by the Dukes of Savoy. There is a city that shares a": {
+    "guess": "Switzerland",
+    "confidence": -10.580868027000001
+  },
+  "The land near the coast of this body of water is home to the famous Lavaux vineyards and its coast is home to the Castle of Chillon, which was built by the Dukes of Savoy. There is a city that shares a name with it in southern (*) Wisconsin, and the lake was called Lacus Lemanus in Roman times. The stretch": {
+    "guess": "Switzerland",
+    "confidence": -11.199717416499997
+  },
+  "The land near the coast of this body of water is home to the famous Lavaux vineyards and its coast is home to the Castle of Chillon, which was built by the Dukes of Savoy. There is a city that shares a name with it in southern (*) Wisconsin, and the lake was called Lacus Lemanus in Roman times. The stretch of coast from it's namesake city to Lausanne is called La Cote. The Rhone river flows in to and": {
+    "guess": "Switzerland",
+    "confidence": -11.128696903
+  },
+  "The land near the coast of this body of water is home to the famous Lavaux vineyards and its coast is home to the Castle of Chillon, which was built by the Dukes of Savoy. There is a city that shares a name with it in southern (*) Wisconsin, and the lake was called Lacus Lemanus in Roman times. The stretch of coast from it's namesake city to Lausanne is called La Cote. The Rhone river flows in to and then back out of  FTP What second largest European lake, named for a Swiss city.": {
+    "guess": "Lake Geneva",
+    "confidence": -9.156362624399998
+  },
+  "The Lambert quadrilateral is a quadrilateral which possesses three of these things, while a Saccheri": {
+    "guess": "Euler's theorem",
+    "confidence": -11.309483826000001
+  },
+  "The Lambert quadrilateral is a quadrilateral which possesses three of these things, while a Saccheri quadrilateral has two of them. Euclid's fourth postulate states that all of these things are congruent.": {
+    "guess": "Congruent",
+    "confidence": -9.633615394433999
+  },
+  "The Lambert quadrilateral is a quadrilateral which possesses three of these things, while a Saccheri quadrilateral has two of them. Euclid's fourth postulate states that all of these things are congruent. The area of a triangle in spherical geometry which has three of these things is equal to one-half": {
+    "guess": "Triangle",
+    "confidence": -10.985303225
+  },
+  "The Lambert quadrilateral is a quadrilateral which possesses three of these things, while a Saccheri quadrilateral has two of them. Euclid's fourth postulate states that all of these things are congruent. The area of a triangle in spherical geometry which has three of these things is equal to one-half pi times the radius of the sphere squared. Thales' theorem states if a triangle inscribed in a circle": {
+    "guess": "The Saccheri quadrilateral",
+    "confidence": -3.7783490727124995
+  },
+  "The Lambert quadrilateral is a quadrilateral which possesses three of these things, while a Saccheri quadrilateral has two of them. Euclid's fourth postulate states that all of these things are congruent. The area of a triangle in spherical geometry which has three of these things is equal to one-half pi times the radius of the sphere squared. Thales' theorem states if a triangle inscribed in a circle has a diameter for one side, one of these things will be located opposite that diameter. The Pythagorean": {
+    "guess": "The Pythagorean theorem",
+    "confidence": -8.004898825979
+  },
+  "The Lambert quadrilateral is a quadrilateral which possesses three of these things, while a Saccheri quadrilateral has two of them. Euclid's fourth postulate states that all of these things are congruent. The area of a triangle in spherical geometry which has three of these things is equal to one-half pi times the radius of the sphere squared. Thales' theorem states if a triangle inscribed in a circle has a diameter for one side, one of these things will be located opposite that diameter. The Pythagorean theorem applies to triangles that have one of them. For 10 points, name these angles formed": {
+    "guess": "90 degrees",
+    "confidence": -11.665558339999999
+  },
+  "The Lambert quadrilateral is a quadrilateral which possesses three of these things, while a Saccheri quadrilateral has two of them. Euclid's fourth postulate states that all of these things are congruent. The area of a triangle in spherical geometry which has three of these things is equal to one-half pi times the radius of the sphere squared. Thales' theorem states if a triangle inscribed in a circle has a diameter for one side, one of these things will be located opposite that diameter. The Pythagorean theorem applies to triangles that have one of them. For 10 points, name these angles formed by the junction of two perpendicular lines and found in the corners of rectangles.": {
+    "guess": "90 degrees",
+    "confidence": -10.58829144
+  },
+  "The land of this entity west of the Rhine was stripped in the Treaty of Luneville and they would lose": {
+    "guess": "Alsace-Lorraine",
+    "confidence": -1.8809675558
+  },
+  "The land of this entity west of the Rhine was stripped in the Treaty of Luneville and they would lose Dobrzyn and Pomerania in the two Treaties of Torun. This entity moved to the Vistula to assist Conrad": {
+    "guess": "Teutonic Order",
+    "confidence": -8.040051712699
+  },
+  "The land of this entity west of the Rhine was stripped in the Treaty of Luneville and they would lose Dobrzyn and Pomerania in the two Treaties of Torun. This entity moved to the Vistula to assist Conrad of Mazovia, invaded the Chelmno lands with the approval of the Golden Bull of Rimini, and was forced": {
+    "guess": "Teutonic Order",
+    "confidence": -7.960861637967
+  },
+  "The land of this entity west of the Rhine was stripped in the Treaty of Luneville and they would lose Dobrzyn and Pomerania in the two Treaties of Torun. This entity moved to the Vistula to assist Conrad of Mazovia, invaded the Chelmno lands with the approval of the Golden Bull of Rimini, and was forced out of Prussia by Albert. During the Battle of the Ice on Lake Peipus, its Livonian Branch was defeated": {
+    "guess": "Teutonic Order",
+    "confidence": -7.9140611594372
+  },
+  "The land of this entity west of the Rhine was stripped in the Treaty of Luneville and they would lose Dobrzyn and Pomerania in the two Treaties of Torun. This entity moved to the Vistula to assist Conrad of Mazovia, invaded the Chelmno lands with the approval of the Golden Bull of Rimini, and was forced out of Prussia by Albert. During the Battle of the Ice on Lake Peipus, its Livonian Branch was defeated by Alexander Nevsky. Pope Clement III approved this entity and its activities were transferred": {
+    "guess": "Teutonic Order",
+    "confidence": -7.8867939896497
+  },
+  "The land of this entity west of the Rhine was stripped in the Treaty of Luneville and they would lose Dobrzyn and Pomerania in the two Treaties of Torun. This entity moved to the Vistula to assist Conrad of Mazovia, invaded the Chelmno lands with the approval of the Golden Bull of Rimini, and was forced out of Prussia by Albert. During the Battle of the Ice on Lake Peipus, its Livonian Branch was defeated by Alexander Nevsky. Pope Clement III approved this entity and its activities were transferred from the Middle East towards Eastern Europe by Hermann von Salza. FTP, name this religious order": {
+    "guess": "Knights Templar",
+    "confidence": -10.2751691669
+  },
+  "The land of this entity west of the Rhine was stripped in the Treaty of Luneville and they would lose Dobrzyn and Pomerania in the two Treaties of Torun. This entity moved to the Vistula to assist Conrad of Mazovia, invaded the Chelmno lands with the approval of the Golden Bull of Rimini, and was forced out of Prussia by Albert. During the Battle of the Ice on Lake Peipus, its Livonian Branch was defeated by Alexander Nevsky. Pope Clement III approved this entity and its activities were transferred from the Middle East towards Eastern Europe by Hermann von Salza. FTP, name this religious order which resisted defeat at Marienberg but was finally defeated at the Battle of Grunwald by Poland.": {
+    "guess": "Teutonic Order",
+    "confidence": -7.965298063136999
+  },
+  "This language exhibited boustrophedon writing in its early development, before it settled into writing": {
+    "guess": "Ancient Greek",
+    "confidence": -10.4425542278
+  },
+  "This language exhibited boustrophedon writing in its early development, before it settled into writing from left to right. The term aorist comes from this language, which uses that aspect of a verb to": {
+    "guess": "Ancient Greek",
+    "confidence": -9.446683631400001
+  },
+  "This language exhibited boustrophedon writing in its early development, before it settled into writing from left to right. The term aorist comes from this language, which uses that aspect of a verb to show simple completed action. The koine variety was once used throughout much of the Middle East, and": {
+    "guess": "Aramaic",
+    "confidence": -9.350809486977
+  },
+  "This language exhibited boustrophedon writing in its early development, before it settled into writing from left to right. The term aorist comes from this language, which uses that aspect of a verb to show simple completed action. The koine variety was once used throughout much of the Middle East, and other dialects included the Aeolic, Doric, and Ionic. Its alphabet influenced those of the Armenians": {
+    "guess": "Greek",
+    "confidence": -10.48097656814
+  },
+  "This language exhibited boustrophedon writing in its early development, before it settled into writing from left to right. The term aorist comes from this language, which uses that aspect of a verb to show simple completed action. The koine variety was once used throughout much of the Middle East, and other dialects included the Aeolic, Doric, and Ionic. Its alphabet influenced those of the Armenians and Slavs, and it comprises a separate branch of the Indo-European family. FTP, name this Mediterranean": {
+    "guess": "Greek",
+    "confidence": -10.859865312500002
+  },
+  "This language exhibited boustrophedon writing in its early development, before it settled into writing from left to right. The term aorist comes from this language, which uses that aspect of a verb to show simple completed action. The koine variety was once used throughout much of the Middle East, and other dialects included the Aeolic, Doric, and Ionic. Its alphabet influenced those of the Armenians and Slavs, and it comprises a separate branch of the Indo-European family. FTP, name this Mediterranean language which contains such letters as delta, sigma, and pi.": {
+    "guess": "Arabic",
+    "confidence": -10.9014444055
+  },
+  "This language's script can be translated into Cyrillic using the Kontseivich system, and the McCune-Reischauer": {
+    "guess": "Mongolian",
+    "confidence": -9.578000329692701
+  },
+  "This language's script can be translated into Cyrillic using the Kontseivich system, and the McCune-Reischauer romanization is preferred in modern publications. Samuel Martin developed the Yale Romanization": {
+    "guess": "Russian",
+    "confidence": -11.579005610000001
+  },
+  "This language's script can be translated into Cyrillic using the Kontseivich system, and the McCune-Reischauer romanization is preferred in modern publications. Samuel Martin developed the Yale Romanization of this language, which is the basis for its ISO standard. Ramstedt hypothesized that this language": {
+    "guess": "Khmer",
+    "confidence": -10.756464460999998
+  },
+  "This language's script can be translated into Cyrillic using the Kontseivich system, and the McCune-Reischauer romanization is preferred in modern publications. Samuel Martin developed the Yale Romanization of this language, which is the basis for its ISO standard. Ramstedt hypothesized that this language belongs in the Macro-Altaic family, and it contains 7 speech levels coupled with a complex honorifics": {
+    "guess": "Mongolian",
+    "confidence": -7.002465604874439
+  },
+  "This language's script can be translated into Cyrillic using the Kontseivich system, and the McCune-Reischauer romanization is preferred in modern publications. Samuel Martin developed the Yale Romanization of this language, which is the basis for its ISO standard. Ramstedt hypothesized that this language belongs in the Macro-Altaic family, and it contains 7 speech levels coupled with a complex honorifics system. Its phonetic alphabet, which contains 14 consonants and 10 vowels and is called Hangul,": {
+    "guess": "Korean",
+    "confidence": -10.63958894
+  },
+  "This language's script can be translated into Cyrillic using the Kontseivich system, and the McCune-Reischauer romanization is preferred in modern publications. Samuel Martin developed the Yale Romanization of this language, which is the basis for its ISO standard. Ramstedt hypothesized that this language belongs in the Macro-Altaic family, and it contains 7 speech levels coupled with a complex honorifics system. Its phonetic alphabet, which contains 14 consonants and 10 vowels and is called Hangul, is used alongside borrowed characters known as Hancha in this language's namesake \"mixed script\".": {
+    "guess": "Korean language",
+    "confidence": -6.1634263631775
+  },
+  "This language's script can be translated into Cyrillic using the Kontseivich system, and the McCune-Reischauer romanization is preferred in modern publications. Samuel Martin developed the Yale Romanization of this language, which is the basis for its ISO standard. Ramstedt hypothesized that this language belongs in the Macro-Altaic family, and it contains 7 speech levels coupled with a complex honorifics system. Its phonetic alphabet, which contains 14 consonants and 10 vowels and is called Hangul, is used alongside borrowed characters known as Hancha in this language's namesake \"mixed script\". FTP, name this language spoken by the current UN secretary general and most inhabitants of Seoul.": {
+    "guess": "Korean",
+    "confidence": -10.442016207000002
+  },
+  "This language \"in America\" is the subtitle of the short story \"Envy,\" describing the title feeling of": {
+    "guess": "English",
+    "confidence": -9.270253565880001
+  },
+  "This language \"in America\" is the subtitle of the short story \"Envy,\" describing the title feeling of Edelshtein for Ostrover in a work by Cynthia Ozick. Practitioner Mendele Sforim's works were translated": {
+    "guess": "Yiddish",
+    "confidence": -8.113437171414
+  },
+  "This language \"in America\" is the subtitle of the short story \"Envy,\" describing the title feeling of Edelshtein for Ostrover in a work by Cynthia Ozick. Practitioner Mendele Sforim's works were translated from this language into Russian by Isaac Babel, while humorist Leo Rosten wrote a work about \"The": {
+    "guess": "Yiddish",
+    "confidence": -8.15439274597
+  },
+  "This language \"in America\" is the subtitle of the short story \"Envy,\" describing the title feeling of Edelshtein for Ostrover in a work by Cynthia Ozick. Practitioner Mendele Sforim's works were translated from this language into Russian by Isaac Babel, while humorist Leo Rosten wrote a work about \"The Joys of\" this language. Enemies, a Love Story and The Spinoza of Market Street are works in this": {
+    "guess": "Yiddish",
+    "confidence": -6.3678786055094
+  },
+  "This language \"in America\" is the subtitle of the short story \"Envy,\" describing the title feeling of Edelshtein for Ostrover in a work by Cynthia Ozick. Practitioner Mendele Sforim's works were translated from this language into Russian by Isaac Babel, while humorist Leo Rosten wrote a work about \"The Joys of\" this language. Enemies, a Love Story and The Spinoza of Market Street are works in this language by Isaac Bashevis Singer, while another popular story written in this language is \"Tevye The": {
+    "guess": "Yiddish",
+    "confidence": -8.016159257428601
+  },
+  "This language \"in America\" is the subtitle of the short story \"Envy,\" describing the title feeling of Edelshtein for Ostrover in a work by Cynthia Ozick. Practitioner Mendele Sforim's works were translated from this language into Russian by Isaac Babel, while humorist Leo Rosten wrote a work about \"The Joys of\" this language. Enemies, a Love Story and The Spinoza of Market Street are works in this language by Isaac Bashevis Singer, while another popular story written in this language is \"Tevye The Milkman,\" which provided the basis for the musical \"Fiddler on the Roof.\" FTP what is this language": {
+    "guess": "Yiddish",
+    "confidence": -6.21337701437617
+  },
+  "This language \"in America\" is the subtitle of the short story \"Envy,\" describing the title feeling of Edelshtein for Ostrover in a work by Cynthia Ozick. Practitioner Mendele Sforim's works were translated from this language into Russian by Isaac Babel, while humorist Leo Rosten wrote a work about \"The Joys of\" this language. Enemies, a Love Story and The Spinoza of Market Street are works in this language by Isaac Bashevis Singer, while another popular story written in this language is \"Tevye The Milkman,\" which provided the basis for the musical \"Fiddler on the Roof.\" FTP what is this language written in by Sholem Aleichem?": {
+    "guess": "Yiddish",
+    "confidence": -6.164745483072671
+  },
+  "This language has thirteen consonant letters, after nine of which an \"h\" can be inserted for lenition.": {
+    "guess": "Arabic",
+    "confidence": -12.35519772638
+  },
+  "This language has thirteen consonant letters, after nine of which an \"h\" can be inserted for lenition. It also has five vowels, each of which has both a short sound and a long sound. Only the definite": {
+    "guess": "Hindi",
+    "confidence": -11.86753758893
+  },
+  "This language has thirteen consonant letters, after nine of which an \"h\" can be inserted for lenition. It also has five vowels, each of which has both a short sound and a long sound. Only the definite article \"the\" is translated; the base form, \"an,\" changes in form according to the number, gender, case,": {
+    "guess": "English",
+    "confidence": -11.050043091000001
+  },
+  "This language has thirteen consonant letters, after nine of which an \"h\" can be inserted for lenition. It also has five vowels, each of which has both a short sound and a long sound. Only the definite article \"the\" is translated; the base form, \"an,\" changes in form according to the number, gender, case, and initial letter of the noun qualified. For 10 points\u2014name this language, a member of the \"Q\"": {
+    "guess": "Quechua",
+    "confidence": -8.7567859763
+  },
+  "This language has thirteen consonant letters, after nine of which an \"h\" can be inserted for lenition. It also has five vowels, each of which has both a short sound and a long sound. Only the definite article \"the\" is translated; the base form, \"an,\" changes in form according to the number, gender, case, and initial letter of the noun qualified. For 10 points\u2014name this language, a member of the \"Q\" group of Celtic languages, spoken in different varieties on the Isle of Man, in Scotland, and in Ireland.": {
+    "guess": "Manx",
+    "confidence": -6.7748656161101
+  },
+  "The languages awk and sed were developed specifically to manipulate these data types. One algorithm implements": {
+    "guess": "AWK and sed",
+    "confidence": -9.59719566204
+  },
+  "The languages awk and sed were developed specifically to manipulate these data types. One algorithm implements a rolling hash to search for multiple target patterns in data of this type; that algorithm": {
+    "guess": "Pattern Matching",
+    "confidence": -9.479024061134
+  },
+  "The languages awk and sed were developed specifically to manipulate these data types. One algorithm implements a rolling hash to search for multiple target patterns in data of this type; that algorithm is named for Rabin and Karp. In the C language, these are null-terminated. When these data types appear": {
+    "guess": "Strings",
+    "confidence": -10.242425053841
+  },
+  "The languages awk and sed were developed specifically to manipulate these data types. One algorithm implements a rolling hash to search for multiple target patterns in data of this type; that algorithm is named for Rabin and Karp. In the C language, these are null-terminated. When these data types appear explicitly in source code, they are called literal and might require escape sequences to access": {
+    "guess": "Literal data types",
+    "confidence": -10.4749928094682
+  },
+  "The languages awk and sed were developed specifically to manipulate these data types. One algorithm implements a rolling hash to search for multiple target patterns in data of this type; that algorithm is named for Rabin and Karp. In the C language, these are null-terminated. When these data types appear explicitly in source code, they are called literal and might require escape sequences to access certain characters. Regular expressions can be used to match these types of data, and each element": {
+    "guess": "String (computer science)",
+    "confidence": -6.9200554292300005
+  },
+  "The languages awk and sed were developed specifically to manipulate these data types. One algorithm implements a rolling hash to search for multiple target patterns in data of this type; that algorithm is named for Rabin and Karp. In the C language, these are null-terminated. When these data types appear explicitly in source code, they are called literal and might require escape sequences to access certain characters. Regular expressions can be used to match these types of data, and each element of one of these could be expressed in unicode. For 10 points, name this data type which represents a": {
+    "guess": "String (computer science)",
+    "confidence": -7.7806039965
+  },
+  "The languages awk and sed were developed specifically to manipulate these data types. One algorithm implements a rolling hash to search for multiple target patterns in data of this type; that algorithm is named for Rabin and Karp. In the C language, these are null-terminated. When these data types appear explicitly in source code, they are called literal and might require escape sequences to access certain characters. Regular expressions can be used to match these types of data, and each element of one of these could be expressed in unicode. For 10 points, name this data type which represents a list of characters, such as a name or phrase.": {
+    "guess": "String (computer science)",
+    "confidence": -7.73163615597
+  },
+  "This language's tense and aspect system was studied by Elizabeth Dayton. This language frequently drops": {
+    "guess": "articles",
+    "confidence": -12.383457459999999
+  },
+  "This language's tense and aspect system was studied by Elizabeth Dayton. This language frequently drops final consonant clusters and various forms of \"to be,\" including in an aspect called perfect phase": {
+    "guess": "",
+    "confidence": -13.49579532783
+  },
+  "This language's tense and aspect system was studied by Elizabeth Dayton. This language frequently drops final consonant clusters and various forms of \"to be,\" including in an aspect called perfect phase or remote past. Shana Poplack analyzed texts from isolated enclaves in Samana and Nova Scotia and": {
+    "guess": "African-American Vernacular English",
+    "confidence": -2.8010712182085
+  },
+  "This language's tense and aspect system was studied by Elizabeth Dayton. This language frequently drops final consonant clusters and various forms of \"to be,\" including in an aspect called perfect phase or remote past. Shana Poplack analyzed texts from isolated enclaves in Samana and Nova Scotia and found that the grammar of early forms of it were similar to contemporary British dialects, suggesting": {
+    "guess": "African-American Vernacular English",
+    "confidence": -2.47764202416132
+  },
+  "This language's tense and aspect system was studied by Elizabeth Dayton. This language frequently drops final consonant clusters and various forms of \"to be,\" including in an aspect called perfect phase or remote past. Shana Poplack analyzed texts from isolated enclaves in Samana and Nova Scotia and found that the grammar of early forms of it were similar to contemporary British dialects, suggesting that its modern form is a divergence from the mainstream rather than (*) de-creolization. It is differentiated": {
+    "guess": "African-American Vernacular English",
+    "confidence": -2.5736227463387
+  },
+  "This language's tense and aspect system was studied by Elizabeth Dayton. This language frequently drops final consonant clusters and various forms of \"to be,\" including in an aspect called perfect phase or remote past. Shana Poplack analyzed texts from isolated enclaves in Samana and Nova Scotia and found that the grammar of early forms of it were similar to contemporary British dialects, suggesting that its modern form is a divergence from the mainstream rather than (*) de-creolization. It is differentiated from other dialects in its language system through its droppage of the copula be in the": {
+    "guess": "Samoan",
+    "confidence": -7.91921750105494
+  },
+  "This language's tense and aspect system was studied by Elizabeth Dayton. This language frequently drops final consonant clusters and various forms of \"to be,\" including in an aspect called perfect phase or remote past. Shana Poplack analyzed texts from isolated enclaves in Samana and Nova Scotia and found that the grammar of early forms of it were similar to contemporary British dialects, suggesting that its modern form is a divergence from the mainstream rather than (*) de-creolization. It is differentiated from other dialects in its language system through its droppage of the copula be in the present tenses and its usage of negative concord. One work on this dialect argued against the \"deficit": {
+    "guess": "Shana Poplack",
+    "confidence": -7.15914908693
+  },
+  "This language's tense and aspect system was studied by Elizabeth Dayton. This language frequently drops final consonant clusters and various forms of \"to be,\" including in an aspect called perfect phase or remote past. Shana Poplack analyzed texts from isolated enclaves in Samana and Nova Scotia and found that the grammar of early forms of it were similar to contemporary British dialects, suggesting that its modern form is a divergence from the mainstream rather than (*) de-creolization. It is differentiated from other dialects in its language system through its droppage of the copula be in the present tenses and its usage of negative concord. One work on this dialect argued against the \"deficit theory\" and was conducted in Philadelphia. That work is William Labov's Language in the Inner City.": {
+    "guess": "Shana Poplack's work",
+    "confidence": -3.51521423298
+  },
+  "This language's tense and aspect system was studied by Elizabeth Dayton. This language frequently drops final consonant clusters and various forms of \"to be,\" including in an aspect called perfect phase or remote past. Shana Poplack analyzed texts from isolated enclaves in Samana and Nova Scotia and found that the grammar of early forms of it were similar to contemporary British dialects, suggesting that its modern form is a divergence from the mainstream rather than (*) de-creolization. It is differentiated from other dialects in its language system through its droppage of the copula be in the present tenses and its usage of negative concord. One work on this dialect argued against the \"deficit theory\" and was conducted in Philadelphia. That work is William Labov's Language in the Inner City. For 10 points, name this dialect of English spoken by many African-Americans.": {
+    "guess": "AAVE",
+    "confidence": -6.3178091388594
+  },
+  "A landmark study by Humbert has traced the non-usage of the dative case in this language during the medieval": {
+    "guess": "Middle English",
+    "confidence": -11.0143060014
+  },
+  "A landmark study by Humbert has traced the non-usage of the dative case in this language during the medieval era, that medieval form of this language was used to inscribe a column found in Chatalar. The": {
+    "guess": "Basque language",
+    "confidence": -9.630564115247
+  },
+  "A landmark study by Humbert has traced the non-usage of the dative case in this language during the medieval era, that medieval form of this language was used to inscribe a column found in Chatalar. The ancient form of this language confined the \"free\" word accent to its last syllable. The Balkan Sprachbund": {
+    "guess": "Albanian",
+    "confidence": -7.564235836481671
+  },
+  "A landmark study by Humbert has traced the non-usage of the dative case in this language during the medieval era, that medieval form of this language was used to inscribe a column found in Chatalar. The ancient form of this language confined the \"free\" word accent to its last syllable. The Balkan Sprachbund during the late Dark Ages mainly used Albanian and this other language. Pronouncing this language": {
+    "guess": "Albanian",
+    "confidence": -7.086320410261969
+  },
+  "A landmark study by Humbert has traced the non-usage of the dative case in this language during the medieval era, that medieval form of this language was used to inscribe a column found in Chatalar. The ancient form of this language confined the \"free\" word accent to its last syllable. The Balkan Sprachbund during the late Dark Ages mainly used Albanian and this other language. Pronouncing this language during that time period is illustrated by the Suda. When a word begins with a vowel in this language,": {
+    "guess": "Russian language",
+    "confidence": -10.5852577511
+  },
+  "A landmark study by Humbert has traced the non-usage of the dative case in this language during the medieval era, that medieval form of this language was used to inscribe a column found in Chatalar. The ancient form of this language confined the \"free\" word accent to its last syllable. The Balkan Sprachbund during the late Dark Ages mainly used Albanian and this other language. Pronouncing this language during that time period is illustrated by the Suda. When a word begins with a vowel in this language, you either form a (*) spiritus lenis or a spiritus asper to pronounce that word. For forming": {
+    "guess": "Latin",
+    "confidence": -12.516965087999997
+  },
+  "A landmark study by Humbert has traced the non-usage of the dative case in this language during the medieval era, that medieval form of this language was used to inscribe a column found in Chatalar. The ancient form of this language confined the \"free\" word accent to its last syllable. The Balkan Sprachbund during the late Dark Ages mainly used Albanian and this other language. Pronouncing this language during that time period is illustrated by the Suda. When a word begins with a vowel in this language, you either form a (*) spiritus lenis or a spiritus asper to pronounce that word. For forming superlative adjectives in this language, appending \"tatos\" to adjectives will do just fine. For 10": {
+    "guess": "Russian language",
+    "confidence": -9.797612262300001
+  },
+  "A landmark study by Humbert has traced the non-usage of the dative case in this language during the medieval era, that medieval form of this language was used to inscribe a column found in Chatalar. The ancient form of this language confined the \"free\" word accent to its last syllable. The Balkan Sprachbund during the late Dark Ages mainly used Albanian and this other language. Pronouncing this language during that time period is illustrated by the Suda. When a word begins with a vowel in this language, you either form a (*) spiritus lenis or a spiritus asper to pronounce that word. For forming superlative adjectives in this language, appending \"tatos\" to adjectives will do just fine. For 10 points, identify this language, whose medieval version is called Byzantine, and whose ancient version": {
+    "guess": "Greek",
+    "confidence": -10.921241954000001
+  },
+  "A landmark study by Humbert has traced the non-usage of the dative case in this language during the medieval era, that medieval form of this language was used to inscribe a column found in Chatalar. The ancient form of this language confined the \"free\" word accent to its last syllable. The Balkan Sprachbund during the late Dark Ages mainly used Albanian and this other language. Pronouncing this language during that time period is illustrated by the Suda. When a word begins with a vowel in this language, you either form a (*) spiritus lenis or a spiritus asper to pronounce that word. For forming superlative adjectives in this language, appending \"tatos\" to adjectives will do just fine. For 10 points, identify this language, whose medieval version is called Byzantine, and whose ancient version was used by Pindar and Sapphro.": {
+    "guess": "Greek",
+    "confidence": -6.618423329981999
+  },
+  "Lamech gives a speech to Adah and Zillah comparing himself to this man. In the Quran, Allah sends a raven": {
+    "guess": "Noah",
+    "confidence": -9.26307451718
+  },
+  "Lamech gives a speech to Adah and Zillah comparing himself to this man. In the Quran, Allah sends a raven to instruct this man. In the Bible, he is said to have built a city and named it after his son": {
+    "guess": "Cain",
+    "confidence": -11.1252087523
+  },
+  "Lamech gives a speech to Adah and Zillah comparing himself to this man. In the Quran, Allah sends a raven to instruct this man. In the Bible, he is said to have built a city and named it after his son Enoch after dwelling in the land of (*) Nod. He is given a mark indicating that any who kill him will": {
+    "guess": "Cain",
+    "confidence": -11.1147734617
+  },
+  "Lamech gives a speech to Adah and Zillah comparing himself to this man. In the Quran, Allah sends a raven to instruct this man. In the Bible, he is said to have built a city and named it after his son Enoch after dwelling in the land of (*) Nod. He is given a mark indicating that any who kill him will have vengeance taken on them sevenfold. He is described as a tiller of the ground, and asks \"am I": {
+    "guess": "Cain",
+    "confidence": -10.4469996518
+  },
+  "Lamech gives a speech to Adah and Zillah comparing himself to this man. In the Quran, Allah sends a raven to instruct this man. In the Bible, he is said to have built a city and named it after his son Enoch after dwelling in the land of (*) Nod. He is given a mark indicating that any who kill him will have vengeance taken on them sevenfold. He is described as a tiller of the ground, and asks \"am I my brother's keeper?\" after completing his most famous action. For 10 points, name this son of Adam": {
+    "guess": "Cain",
+    "confidence": -10.792167503
+  },
+  "Lamech gives a speech to Adah and Zillah comparing himself to this man. In the Quran, Allah sends a raven to instruct this man. In the Bible, he is said to have built a city and named it after his son Enoch after dwelling in the land of (*) Nod. He is given a mark indicating that any who kill him will have vengeance taken on them sevenfold. He is described as a tiller of the ground, and asks \"am I my brother's keeper?\" after completing his most famous action. For 10 points, name this son of Adam and Eve who kills his brother Abel.": {
+    "guess": "Cain",
+    "confidence": -10.361191740000002
+  },
+  "Landauer's treatment of this concept suggested that the Shannon theorem was inadequate in explaining": {
+    "guess": "Entropy",
+    "confidence": -10.108159029056
+  },
+  "Landauer's treatment of this concept suggested that the Shannon theorem was inadequate in explaining it. This concept was first proposed in a letter to Peter Tait by its namesake. It was first refuted": {
+    "guess": "Kurt G\u00f6del",
+    "confidence": -9.642642120509999
+  },
+  "Landauer's treatment of this concept suggested that the Shannon theorem was inadequate in explaining it. This concept was first proposed in a letter to Peter Tait by its namesake. It was first refuted by Leo Szilard and Leon Brillouin, who noted that the energy required for memory storage and to operate": {
+    "guess": "Maxwell's demon",
+    "confidence": -8.26898213584
+  },
+  "Landauer's treatment of this concept suggested that the Shannon theorem was inadequate in explaining it. This concept was first proposed in a letter to Peter Tait by its namesake. It was first refuted by Leo Szilard and Leon Brillouin, who noted that the energy required for memory storage and to operate it would negate its purpose. Its setup includes an insulated barrier and a small door between two": {
+    "guess": "Maxwell's demon",
+    "confidence": -8.45847574605
+  },
+  "Landauer's treatment of this concept suggested that the Shannon theorem was inadequate in explaining it. This concept was first proposed in a letter to Peter Tait by its namesake. It was first refuted by Leo Szilard and Leon Brillouin, who noted that the energy required for memory storage and to operate it would negate its purpose. Its setup includes an insulated barrier and a small door between two chambers that is operated by a being who separates particles into fast and slow moving compartments.": {
+    "guess": "Szilard's paradox",
+    "confidence": -8.20864408922
+  },
+  "Landauer's treatment of this concept suggested that the Shannon theorem was inadequate in explaining it. This concept was first proposed in a letter to Peter Tait by its namesake. It was first refuted by Leo Szilard and Leon Brillouin, who noted that the energy required for memory storage and to operate it would negate its purpose. Its setup includes an insulated barrier and a small door between two chambers that is operated by a being who separates particles into fast and slow moving compartments. For 10 points, identify this thought experiment of its namesake Scottish physicist that violates": {
+    "guess": "Maxwell's demon",
+    "confidence": -8.195837745499999
+  },
+  "Landauer's treatment of this concept suggested that the Shannon theorem was inadequate in explaining it. This concept was first proposed in a letter to Peter Tait by its namesake. It was first refuted by Leo Szilard and Leon Brillouin, who noted that the energy required for memory storage and to operate it would negate its purpose. Its setup includes an insulated barrier and a small door between two chambers that is operated by a being who separates particles into fast and slow moving compartments. For 10 points, identify this thought experiment of its namesake Scottish physicist that violates the Second Law of Thermodynamics by means of an impish figure.": {
+    "guess": "Maxwell's demon",
+    "confidence": -8.412828809099999
+  },
+  "Landmarks on this island include the El Yunque (\"YOON-kay\") rainforest and Fort San Felipe del Moro.": {
+    "guess": "Puerto Rico",
+    "confidence": -10.069098473339999
+  },
+  "Landmarks on this island include the El Yunque (\"YOON-kay\") rainforest and Fort San Felipe del Moro. Humacao (\"HOO-muh-COW\"), Caguas (\"CAW-gwahs\"), Bayamon (\"BYE-uh-moan\"), and Ponce (\"PAWN-say\") are some": {
+    "guess": "Puerto Rico",
+    "confidence": -9.19465911353
+  },
+  "Landmarks on this island include the El Yunque (\"YOON-kay\") rainforest and Fort San Felipe del Moro. Humacao (\"HOO-muh-COW\"), Caguas (\"CAW-gwahs\"), Bayamon (\"BYE-uh-moan\"), and Ponce (\"PAWN-say\") are some of its municipalities. The largest municipality shares the name given to the island by Columbus,": {
+    "guess": "Puerto Rico",
+    "confidence": -9.056110313872
+  },
+  "Landmarks on this island include the El Yunque (\"YOON-kay\") rainforest and Fort San Felipe del Moro. Humacao (\"HOO-muh-COW\"), Caguas (\"CAW-gwahs\"), Bayamon (\"BYE-uh-moan\"), and Ponce (\"PAWN-say\") are some of its municipalities. The largest municipality shares the name given to the island by Columbus, San Juan. For 10 points, identify this island, a United States commonwealth in the Caribbean.": {
+    "guess": "Puerto Rico",
+    "confidence": -8.990067501651
+  },
+  "Lander and Borstein introduced the method of analyzing these units through maximum-likelihood maps. The": {
+    "guess": "Maximum likelihood",
+    "confidence": -10.52110564
+  },
+  "Lander and Borstein introduced the method of analyzing these units through maximum-likelihood maps. The aberrantly positive results that arise from looking at these on a small sample size is known as the": {
+    "guess": "Inference",
+    "confidence": -11.374569562
+  },
+  "Lander and Borstein introduced the method of analyzing these units through maximum-likelihood maps. The aberrantly positive results that arise from looking at these on a small sample size is known as the Beavis effect. The Haley-Knott regression approximates the interval mapping approach to studying": {
+    "guess": "Nonlinear regression",
+    "confidence": -11.2227379
+  },
+  "Lander and Borstein introduced the method of analyzing these units through maximum-likelihood maps. The aberrantly positive results that arise from looking at these on a small sample size is known as the Beavis effect. The Haley-Knott regression approximates the interval mapping approach to studying these genetic entities. Classic examples of them can be found in monkey flowers. Analyses of these tend": {
+    "guess": "",
+    "confidence": -2.36774784749094
+  },
+  "Lander and Borstein introduced the method of analyzing these units through maximum-likelihood maps. The aberrantly positive results that arise from looking at these on a small sample size is known as the Beavis effect. The Haley-Knott regression approximates the interval mapping approach to studying these genetic entities. Classic examples of them can be found in monkey flowers. Analyses of these tend to be coarser than association mapping and unlike simple traits, the relationship between the genotype": {
+    "guess": "Injective",
+    "confidence": -10.15567276821
+  },
+  "Lander and Borstein introduced the method of analyzing these units through maximum-likelihood maps. The aberrantly positive results that arise from looking at these on a small sample size is known as the Beavis effect. The Haley-Knott regression approximates the interval mapping approach to studying these genetic entities. Classic examples of them can be found in monkey flowers. Analyses of these tend to be coarser than association mapping and unlike simple traits, the relationship between the genotype of a site in one of these will not explain close to 100% of the variance in phenotype. Height": {
+    "guess": "Injective",
+    "confidence": -8.351735951602999
+  },
+  "Lander and Borstein introduced the method of analyzing these units through maximum-likelihood maps. The aberrantly positive results that arise from looking at these on a small sample size is known as the Beavis effect. The Haley-Knott regression approximates the interval mapping approach to studying these genetic entities. Classic examples of them can be found in monkey flowers. Analyses of these tend to be coarser than association mapping and unlike simple traits, the relationship between the genotype of a site in one of these will not explain close to 100% of the variance in phenotype. Height is a classic example of one of these with many components. For 10 points, name these continuous phenotypes": {
+    "guess": "Height, weight, age, sex,",
+    "confidence": -3.2060908051
+  },
+  "Lander and Borstein introduced the method of analyzing these units through maximum-likelihood maps. The aberrantly positive results that arise from looking at these on a small sample size is known as the Beavis effect. The Haley-Knott regression approximates the interval mapping approach to studying these genetic entities. Classic examples of them can be found in monkey flowers. Analyses of these tend to be coarser than association mapping and unlike simple traits, the relationship between the genotype of a site in one of these will not explain close to 100% of the variance in phenotype. Height is a classic example of one of these with many components. For 10 points, name these continuous phenotypes that are the result of many genes and the environment acting together in a numerical fashion.": {
+    "guess": "Height, weight, IQ, blood pressure",
+    "confidence": -5.169594817
+  },
+  "Landmarks of this ancient city include a colossal altar on which 450 oxen were sacrificed, massive limestone": {
+    "guess": "The Acropolis of Athens",
+    "confidence": -8.18104711095
+  },
+  "Landmarks of this ancient city include a colossal altar on which 450 oxen were sacrificed, massive limestone quarries where prisoners were kept known as the Latomie, and the Fountain of Arethusa located": {
+    "guess": "Roman Forum",
+    "confidence": -10.4106815118
+  },
+  "Landmarks of this ancient city include a colossal altar on which 450 oxen were sacrificed, massive limestone quarries where prisoners were kept known as the Latomie, and the Fountain of Arethusa located on Ortygia. Gelon took control of it in 485 B.C., and proceeded to win a major military victory at": {
+    "guess": "Battle of Syracuse",
+    "confidence": -10.374227177614001
+  },
+  "Landmarks of this ancient city include a colossal altar on which 450 oxen were sacrificed, massive limestone quarries where prisoners were kept known as the Latomie, and the Fountain of Arethusa located on Ortygia. Gelon took control of it in 485 B.C., and proceeded to win a major military victory at Himera. Later ruled by Agathocles, it notably allied with Selinus in its feud with the rival city of": {
+    "guess": "Syracuse",
+    "confidence": -11.158847204399999
+  },
+  "Landmarks of this ancient city include a colossal altar on which 450 oxen were sacrificed, massive limestone quarries where prisoners were kept known as the Latomie, and the Fountain of Arethusa located on Ortygia. Gelon took control of it in 485 B.C., and proceeded to win a major military victory at Himera. Later ruled by Agathocles, it notably allied with Selinus in its feud with the rival city of Segesta, prompting an attack by the Athenians. Hiero II and Dionysius the Younger were probably its": {
+    "guess": "SYRACUSE",
+    "confidence": -8.215251846676999
+  },
+  "Landmarks of this ancient city include a colossal altar on which 450 oxen were sacrificed, massive limestone quarries where prisoners were kept known as the Latomie, and the Fountain of Arethusa located on Ortygia. Gelon took control of it in 485 B.C., and proceeded to win a major military victory at Himera. Later ruled by Agathocles, it notably allied with Selinus in its feud with the rival city of Segesta, prompting an attack by the Athenians. Hiero II and Dionysius the Younger were probably its most successful tyrants. Originating as a colony of Corinth in the 8th Century BC, FTP, name this": {
+    "guess": "Selinus",
+    "confidence": -9.6699130016
+  },
+  "Landmarks of this ancient city include a colossal altar on which 450 oxen were sacrificed, massive limestone quarries where prisoners were kept known as the Latomie, and the Fountain of Arethusa located on Ortygia. Gelon took control of it in 485 B.C., and proceeded to win a major military victory at Himera. Later ruled by Agathocles, it notably allied with Selinus in its feud with the rival city of Segesta, prompting an attack by the Athenians. Hiero II and Dionysius the Younger were probably its most successful tyrants. Originating as a colony of Corinth in the 8th Century BC, FTP, name this birthplace of the mathematician Archimedes and the most powerful ancient city on the island of Sicily.": {
+    "guess": "Syracuse",
+    "confidence": -10.494289159000001
+  },
+  "Languages spoken there include Maithir and Bhojpuri, and minority ethnic groups include the Bihari, Tamang,": {
+    "guess": "India",
+    "confidence": -11.0782952235
+  },
+  "Languages spoken there include Maithir and Bhojpuri, and minority ethnic groups include the Bihari, Tamang, Tharu, and Newar. The only officially Hindu state in the world, it is a constitutional monarchy,": {
+    "guess": "India",
+    "confidence": -10.8174810163
+  },
+  "Languages spoken there include Maithir and Bhojpuri, and minority ethnic groups include the Bihari, Tamang, Tharu, and Newar. The only officially Hindu state in the world, it is a constitutional monarchy, ruled by Birenda Bir Bikram Shah Deva and a b  icameral parliament. FTP, name this kingdom of 20": {
+    "guess": "Bhutan",
+    "confidence": -9.073180611549999
+  },
+  "Languages spoken there include Maithir and Bhojpuri, and minority ethnic groups include the Bihari, Tamang, Tharu, and Newar. The only officially Hindu state in the world, it is a constitutional monarchy, ruled by Birenda Bir Bikram Shah Deva and a b  icameral parliament. FTP, name this kingdom of 20 million, whose cities include Patan, Dhankuta, Silgarhi, and Katmandu.": {
+    "guess": "Nepal",
+    "confidence": -10.442291569810001
+  },
+  "Lancelot Brown was called in to redesign the garden grounds, this changed the original look planned by": {
+    "guess": "Lancelot Brown",
+    "confidence": -8.7469842752897
+  },
+  "Lancelot Brown was called in to redesign the garden grounds, this changed the original look planned by Henry Wise in imitation of Andre le Notre's Versailles gardens. It contains a famous China Anteroom,": {
+    "guess": "Blenheim Palace",
+    "confidence": -8.076880637487701
+  },
+  "Lancelot Brown was called in to redesign the garden grounds, this changed the original look planned by Henry Wise in imitation of Andre le Notre's Versailles gardens. It contains a famous China Anteroom, the Long Library, and the Willis Organ. Its Great Hall is decorated by James Thornhill's ceiling": {
+    "guess": "Blenheim Palace",
+    "confidence": -8.0881672283165
+  },
+  "Lancelot Brown was called in to redesign the garden grounds, this changed the original look planned by Henry Wise in imitation of Andre le Notre's Versailles gardens. It contains a famous China Anteroom, the Long Library, and the Willis Organ. Its Great Hall is decorated by James Thornhill's ceiling fresco honors the exploits of its first resident. While the North Front was designed by Nicholas Hawksmoor,": {
+    "guess": "Blenheim Palace",
+    "confidence": -8.098538938188
+  },
+  "Lancelot Brown was called in to redesign the garden grounds, this changed the original look planned by Henry Wise in imitation of Andre le Notre's Versailles gardens. It contains a famous China Anteroom, the Long Library, and the Willis Organ. Its Great Hall is decorated by James Thornhill's ceiling fresco honors the exploits of its first resident. While the North Front was designed by Nicholas Hawksmoor, it is John Van Brugh who is usually credited as its architect. FTP identify this residence near": {
+    "guess": "Blenheim Palace",
+    "confidence": -7.997045168391001
+  },
+  "Lancelot Brown was called in to redesign the garden grounds, this changed the original look planned by Henry Wise in imitation of Andre le Notre's Versailles gardens. It contains a famous China Anteroom, the Long Library, and the Willis Organ. Its Great Hall is decorated by James Thornhill's ceiling fresco honors the exploits of its first resident. While the North Front was designed by Nicholas Hawksmoor, it is John Van Brugh who is usually credited as its architect. FTP identify this residence near Woodstock, built over a period of 19 years, and given as a gift to celebrate John Churchill, the": {
+    "guess": "Blenheim Palace",
+    "confidence": -8.131861497438999
+  },
+  "Lancelot Brown was called in to redesign the garden grounds, this changed the original look planned by Henry Wise in imitation of Andre le Notre's Versailles gardens. It contains a famous China Anteroom, the Long Library, and the Willis Organ. Its Great Hall is decorated by James Thornhill's ceiling fresco honors the exploits of its first resident. While the North Front was designed by Nicholas Hawksmoor, it is John Van Brugh who is usually credited as its architect. FTP identify this residence near Woodstock, built over a period of 19 years, and given as a gift to celebrate John Churchill, the Duke of Malborough, for his defeat of the Comte de Tallard at a namesake 1704 battle.": {
+    "guess": "Blenheim Palace",
+    "confidence": -7.843391585414
+  },
+  "When they landed in the Bebrycian land, one of their number killed a song of Melie who forced people": {
+    "guess": "Homer",
+    "confidence": -12.022684034
+  },
+  "When they landed in the Bebrycian land, one of their number killed a song of Melie who forced people to box, Amycus. That endeared them to Lycus of Mariandynia. King (*) Aeetes chased them out of Colchis,": {
+    "guess": "Aeetes",
+    "confidence": -9.014737542419601
+  },
+  "When they landed in the Bebrycian land, one of their number killed a song of Melie who forced people to box, Amycus. That endeared them to Lycus of Mariandynia. King (*) Aeetes chased them out of Colchis, and this group encountered both the Sirens and the Harpies. For 10 points\u2014 identify these people,": {
+    "guess": "",
+    "confidence": -3.948630234784
+  },
+  "When they landed in the Bebrycian land, one of their number killed a song of Melie who forced people to box, Amycus. That endeared them to Lycus of Mariandynia. King (*) Aeetes chased them out of Colchis, and this group encountered both the Sirens and the Harpies. For 10 points\u2014 identify these people, including Polydeuces and Heracles, who used a namesake ship to find the Golden Fleece and were led": {
+    "guess": "Jason, the Argonauts, Aeet",
+    "confidence": -2.064082573817
+  },
+  "When they landed in the Bebrycian land, one of their number killed a song of Melie who forced people to box, Amycus. That endeared them to Lycus of Mariandynia. King (*) Aeetes chased them out of Colchis, and this group encountered both the Sirens and the Harpies. For 10 points\u2014 identify these people, including Polydeuces and Heracles, who used a namesake ship to find the Golden Fleece and were led by Jason.": {
+    "guess": "The Argonauts, Jason, the S",
+    "confidence": -5.2295684515
+  },
+  "While in the land of giants, this deity once failed to lift a cat in a feat of strength and lost a wrestling": {
+    "guess": "Thor",
+    "confidence": -10.640392453699999
+  },
+  "While in the land of giants, this deity once failed to lift a cat in a feat of strength and lost a wrestling match against an old woman. This god disguises himself as Freya and pretends to marry a giant": {
+    "guess": "Frey",
+    "confidence": -11.797148300000002
+  },
+  "While in the land of giants, this deity once failed to lift a cat in a feat of strength and lost a wrestling match against an old woman. This god disguises himself as Freya and pretends to marry a giant to retrieve a stolen possession. This deity's chariot is pulled by two goats that he regularly eats": {
+    "guess": "Thor",
+    "confidence": -10.2348173686
+  },
+  "While in the land of giants, this deity once failed to lift a cat in a feat of strength and lost a wrestling match against an old woman. This god disguises himself as Freya and pretends to marry a giant to retrieve a stolen possession. This deity's chariot is pulled by two goats that he regularly eats and resurrects. This deity and the world serpent J\u00f6rmungandr are fated to kill each other during the": {
+    "guess": "Thor",
+    "confidence": -10.810184676999999
+  },
+  "While in the land of giants, this deity once failed to lift a cat in a feat of strength and lost a wrestling match against an old woman. This god disguises himself as Freya and pretends to marry a giant to retrieve a stolen possession. This deity's chariot is pulled by two goats that he regularly eats and resurrects. This deity and the world serpent J\u00f6rmungandr are fated to kill each other during the events of Ragnarok. In addition to his belt and iron gloves, he wields a hammer that returns to its": {
+    "guess": "Thor",
+    "confidence": -10.35949601587
+  },
+  "While in the land of giants, this deity once failed to lift a cat in a feat of strength and lost a wrestling match against an old woman. This god disguises himself as Freya and pretends to marry a giant to retrieve a stolen possession. This deity's chariot is pulled by two goats that he regularly eats and resurrects. This deity and the world serpent J\u00f6rmungandr are fated to kill each other during the events of Ragnarok. In addition to his belt and iron gloves, he wields a hammer that returns to its owner after being thrown, Mjolnir. For 10 points, name the Norse god of thunder.": {
+    "guess": "Thor",
+    "confidence": -10.308643249429998
+  },
+  "He lamented his nation's dismal human rights record in Crucifixion of Liberty, and offered a firsthand": {
+    "guess": "account of the abuses he suffered at the",
+    "confidence": -6.5278905195000005
+  },
+  "He lamented his nation's dismal human rights record in Crucifixion of Liberty, and offered a firsthand account of its rise in The Catastrophe. Editing a newspaper entitled Days kept him preoccupied during": {
+    "guess": "1881-1884",
+    "confidence": -10.3669437012
+  },
+  "He lamented his nation's dismal human rights record in Crucifixion of Liberty, and offered a firsthand account of its rise in The Catastrophe. Editing a newspaper entitled Days kept him preoccupied during his time in Paris, where he ended up taking residence after his supporters' defeat at Pulkova. He": {
+    "guess": "Alexander Kerensky",
+    "confidence": -8.1669246684103
+  },
+  "He lamented his nation's dismal human rights record in Crucifixion of Liberty, and offered a firsthand account of its rise in The Catastrophe. Editing a newspaper entitled Days kept him preoccupied during his time in Paris, where he ended up taking residence after his supporters' defeat at Pulkova. He came to prominence for his role in exposing the spy Roman Malinovsky and later pushed agendas of universal": {
+    "guess": "Julius Caesar",
+    "confidence": -7.45864680501867
+  },
+  "He lamented his nation's dismal human rights record in Crucifixion of Liberty, and offered a firsthand account of its rise in The Catastrophe. Editing a newspaper entitled Days kept him preoccupied during his time in Paris, where he ended up taking residence after his supporters' defeat at Pulkova. He came to prominence for his role in exposing the spy Roman Malinovsky and later pushed agendas of universal suffrage and increased freedom of speech after being named Minister of Justice. Also becoming": {
+    "guess": "Julius Caesar",
+    "confidence": -9.5682937995
+  },
+  "He lamented his nation's dismal human rights record in Crucifixion of Liberty, and offered a firsthand account of its rise in The Catastrophe. Editing a newspaper entitled Days kept him preoccupied during his time in Paris, where he ended up taking residence after his supporters' defeat at Pulkova. He came to prominence for his role in exposing the spy Roman Malinovsky and later pushed agendas of universal suffrage and increased freedom of speech after being named Minister of Justice. Also becoming Minister of War, he ascended to power after the resignation of Georgy Lvov and fended off a coup": {
+    "guess": "Alexander Kerensky",
+    "confidence": -7.3774222437415
+  },
+  "He lamented his nation's dismal human rights record in Crucifixion of Liberty, and offered a firsthand account of its rise in The Catastrophe. Editing a newspaper entitled Days kept him preoccupied during his time in Paris, where he ended up taking residence after his supporters' defeat at Pulkova. He came to prominence for his role in exposing the spy Roman Malinovsky and later pushed agendas of universal suffrage and increased freedom of speech after being named Minister of Justice. Also becoming Minister of War, he ascended to power after the resignation of Georgy Lvov and fended off a coup attempt by Lavr Kornilov before being himself toppled in the October Revolution. FTP, identify this": {
+    "guess": "Leon Trotsky",
+    "confidence": -7.02708945310794
+  },
+  "He lamented his nation's dismal human rights record in Crucifixion of Liberty, and offered a firsthand account of its rise in The Catastrophe. Editing a newspaper entitled Days kept him preoccupied during his time in Paris, where he ended up taking residence after his supporters' defeat at Pulkova. He came to prominence for his role in exposing the spy Roman Malinovsky and later pushed agendas of universal suffrage and increased freedom of speech after being named Minister of Justice. Also becoming Minister of War, he ascended to power after the resignation of Georgy Lvov and fended off a coup attempt by Lavr Kornilov before being himself toppled in the October Revolution. FTP, identify this man, who in 1917, had a brief role as leader of Russia's provisional government.": {
+    "guess": "Vladimir Lenin",
+    "confidence": -6.70500871912694
+  },
+  "He landed at the Austen Riggs Center after refusing to sign a loyalty oath with the University of California.": {
+    "guess": "Erik Erikson",
+    "confidence": -6.23992304195
+  },
+  "He landed at the Austen Riggs Center after refusing to sign a loyalty oath with the University of California. His late works include the essay collections A Way of Looking at Things and Life History and": {
+    "guess": "James Russell Lowell",
+    "confidence": -6.63632084863444
+  },
+  "He landed at the Austen Riggs Center after refusing to sign a loyalty oath with the University of California. His late works include the essay collections A Way of Looking at Things and Life History and the Historical Moment, as well as two excursions into \"psychohistory,\" one of which considered the": {
+    "guess": "E. M. Forster",
+    "confidence": -5.045845392
+  },
+  "He landed at the Austen Riggs Center after refusing to sign a loyalty oath with the University of California. His late works include the essay collections A Way of Looking at Things and Life History and the Historical Moment, as well as two excursions into \"psychohistory,\" one of which considered the \"origins of militant nonviolence.\" His studies of the Sioux and Yurok Indians led him to the views": {
+    "guess": "Erik Erikson",
+    "confidence": -7.8506337068001
+  },
+  "He landed at the Austen Riggs Center after refusing to sign a loyalty oath with the University of California. His late works include the essay collections A Way of Looking at Things and Life History and the Historical Moment, as well as two excursions into \"psychohistory,\" one of which considered the \"origins of militant nonviolence.\" His studies of the Sioux and Yurok Indians led him to the views on personality development expressed in 1950's Childhood and Society. For 10 points, name this German-born": {
+    "guess": "Erik Erikson",
+    "confidence": -6.6183848970664
+  },
+  "He landed at the Austen Riggs Center after refusing to sign a loyalty oath with the University of California. His late works include the essay collections A Way of Looking at Things and Life History and the Historical Moment, as well as two excursions into \"psychohistory,\" one of which considered the \"origins of militant nonviolence.\" His studies of the Sioux and Yurok Indians led him to the views on personality development expressed in 1950's Childhood and Society. For 10 points, name this German-born psychoanalyst who wrote Young Man Luther and argued that there are eight stages of psychological": {
+    "guess": "Sigmund Freud",
+    "confidence": -8.3121708476622
+  },
+  "He landed at the Austen Riggs Center after refusing to sign a loyalty oath with the University of California. His late works include the essay collections A Way of Looking at Things and Life History and the Historical Moment, as well as two excursions into \"psychohistory,\" one of which considered the \"origins of militant nonviolence.\" His studies of the Sioux and Yurok Indians led him to the views on personality development expressed in 1950's Childhood and Society. For 10 points, name this German-born psychoanalyst who wrote Young Man Luther and argued that there are eight stages of psychological development.": {
+    "guess": "Sigmund Freud",
+    "confidence": -6.6104992281044
+  },
+  "He lamented his native region's lack of an established history in the essay \"Culture of Mimicry\" and": {
+    "guess": "Edward Said",
+    "confidence": -12.791629193
+  },
+  "He lamented his native region's lack of an established history in the essay \"Culture of Mimicry\" and discussed his own poetic influences in the autobiographical Another Life. The use of sections entitled": {
+    "guess": "\"An Historical Sketch\" and \"The",
+    "confidence": -7.964883014400002
+  },
+  "He lamented his native region's lack of an established history in the essay \"Culture of Mimicry\" and discussed his own poetic influences in the autobiographical Another Life. The use of sections entitled \"North\" and \"South\" in The Fortunate Traveler and titles such as The Castaway emphasize his theme": {
+    "guess": "Toni Morrison",
+    "confidence": -9.221788973639999
+  },
+  "He lamented his native region's lack of an established history in the essay \"Culture of Mimicry\" and discussed his own poetic influences in the autobiographical Another Life. The use of sections entitled \"North\" and \"South\" in The Fortunate Traveler and titles such as The Castaway emphasize his theme of alienation and feeling torn between his native culture and the colonial English one, which also": {
+    "guess": "Japan",
+    "confidence": -12.8466313307
+  },
+  "He lamented his native region's lack of an established history in the essay \"Culture of Mimicry\" and discussed his own poetic influences in the autobiographical Another Life. The use of sections entitled \"North\" and \"South\" in The Fortunate Traveler and titles such as The Castaway emphasize his theme of alienation and feeling torn between his native culture and the colonial English one, which also is reinforced in The Arkansas Testament. The Capeman, Ti-Jean and his Brothers, and A Branch of the": {
+    "guess": "Caribbean",
+    "confidence": -11.447244704000001
+  },
+  "He lamented his native region's lack of an established history in the essay \"Culture of Mimicry\" and discussed his own poetic influences in the autobiographical Another Life. The use of sections entitled \"North\" and \"South\" in The Fortunate Traveler and titles such as The Castaway emphasize his theme of alienation and feeling torn between his native culture and the colonial English one, which also is reinforced in The Arkansas Testament. The Capeman, Ti-Jean and his Brothers, and A Branch of the Blue Nile are three of the nearly thirty plays by this author, who immortalized the painter Camille": {
+    "guess": "William Faulkner",
+    "confidence": -10.110998487535001
+  },
+  "He lamented his native region's lack of an established history in the essay \"Culture of Mimicry\" and discussed his own poetic influences in the autobiographical Another Life. The use of sections entitled \"North\" and \"South\" in The Fortunate Traveler and titles such as The Castaway emphasize his theme of alienation and feeling torn between his native culture and the colonial English one, which also is reinforced in The Arkansas Testament. The Capeman, Ti-Jean and his Brothers, and A Branch of the Blue Nile are three of the nearly thirty plays by this author, who immortalized the painter Camille Pissarro in Tiepolo's Hound and told of the fishermen Hector and Achille in his masterwork, an ambitious": {
+    "guess": "Derek Walcott",
+    "confidence": -8.399579802711
+  },
+  "He lamented his native region's lack of an established history in the essay \"Culture of Mimicry\" and discussed his own poetic influences in the autobiographical Another Life. The use of sections entitled \"North\" and \"South\" in The Fortunate Traveler and titles such as The Castaway emphasize his theme of alienation and feeling torn between his native culture and the colonial English one, which also is reinforced in The Arkansas Testament. The Capeman, Ti-Jean and his Brothers, and A Branch of the Blue Nile are three of the nearly thirty plays by this author, who immortalized the painter Camille Pissarro in Tiepolo's Hound and told of the fishermen Hector and Achille in his masterwork, an ambitious epic based on The Iliad and The Odyssey. FTP, identify this man from St. Lucia, the author of Omeros.": {
+    "guess": "Derek Walcott",
+    "confidence": -8.269087249578
+  },
+  "It laments, \"we are the serfs of the system, out of whose labor is raised.\" And it mocks those \"who say": {
+    "guess": "The Beatles",
+    "confidence": -10.526020392000001
+  },
+  "It laments, \"we are the serfs of the system, out of whose labor is raised.\" And it mocks those \"who say that they cannot compete with foreigners at their own doors, without an advantage of 45 per cent.\"": {
+    "guess": "The Communist Manifesto",
+    "confidence": -7.2408729734287
+  },
+  "It laments, \"we are the serfs of the system, out of whose labor is raised.\" And it mocks those \"who say that they cannot compete with foreigners at their own doors, without an advantage of 45 per cent.\" Prompted by a particular piece of legislation, it was submitted anonymously because as a member of": {
+    "guess": "The Russian Revolution",
+    "confidence": -9.96706731319094
+  },
+  "It laments, \"we are the serfs of the system, out of whose labor is raised.\" And it mocks those \"who say that they cannot compete with foreigners at their own doors, without an advantage of 45 per cent.\" Prompted by a particular piece of legislation, it was submitted anonymously because as a member of the administration it was attacking, the author could not do so officially. Although it was not adopted": {
+    "guess": "The Manifesto of the Ninety-",
+    "confidence": -2.73044911009
+  },
+  "It laments, \"we are the serfs of the system, out of whose labor is raised.\" And it mocks those \"who say that they cannot compete with foreigners at their own doors, without an advantage of 45 per cent.\" Prompted by a particular piece of legislation, it was submitted anonymously because as a member of the administration it was attacking, the author could not do so officially. Although it was not adopted by the House thousands of copiers were distributed to the eponymous state's legislature, for 10": {
+    "guess": "The Louisiana State Legislature",
+    "confidence": -11.120539714000001
+  },
+  "It laments, \"we are the serfs of the system, out of whose labor is raised.\" And it mocks those \"who say that they cannot compete with foreigners at their own doors, without an advantage of 45 per cent.\" Prompted by a particular piece of legislation, it was submitted anonymously because as a member of the administration it was attacking, the author could not do so officially. Although it was not adopted by the House thousands of copiers were distributed to the eponymous state's legislature, for 10 points, name this document, which presented the author's views on nullification and protested against": {
+    "guess": "The Kentucky Resolutions",
+    "confidence": -9.0722914707
+  },
+  "It laments, \"we are the serfs of the system, out of whose labor is raised.\" And it mocks those \"who say that they cannot compete with foreigners at their own doors, without an advantage of 45 per cent.\" Prompted by a particular piece of legislation, it was submitted anonymously because as a member of the administration it was attacking, the author could not do so officially. Although it was not adopted by the House thousands of copiers were distributed to the eponymous state's legislature, for 10 points, name this document, which presented the author's views on nullification and protested against the 1828 Tariff of Abominations written by John C. Calhoun.": {
+    "guess": "The South Carolina Exposition and Protest",
+    "confidence": -0.634351752496
+  },
+  "Of the land he was depicting, this work's artist wrote, \"poets yet unborn will sanctify the soil\", and": {
+    "guess": "William Blake",
+    "confidence": -9.93023103556
+  },
+  "Of the land he was depicting, this work's artist wrote, \"poets yet unborn will sanctify the soil\", and it is believed to be a response to Basil Hall's Travels. Surviving sketches include the letters \"SW\"": {
+    "guess": "The Waste Land",
+    "confidence": -10.974946213
+  },
+  "Of the land he was depicting, this work's artist wrote, \"poets yet unborn will sanctify the soil\", and it is believed to be a response to Basil Hall's Travels. Surviving sketches include the letters \"SW\" at the top to indicate direction, and trees dominate the left side of the painting more in the final": {
+    "guess": "The Hay Wagon",
+    "confidence": -10.143365356
+  },
+  "Of the land he was depicting, this work's artist wrote, \"poets yet unborn will sanctify the soil\", and it is believed to be a response to Basil Hall's Travels. Surviving sketches include the letters \"SW\" at the top to indicate direction, and trees dominate the left side of the painting more in the final work. Commissioned by Luman Reed, it was meant to be a break from its artist's series which included": {
+    "guess": "The Course of Empire",
+    "confidence": -9.548981135275001
+  },
+  "Of the land he was depicting, this work's artist wrote, \"poets yet unborn will sanctify the soil\", and it is believed to be a response to Basil Hall's Travels. Surviving sketches include the letters \"SW\" at the top to indicate direction, and trees dominate the left side of the painting more in the final work. Commissioned by Luman Reed, it was meant to be a break from its artist's series which included titles like The Arcadian and (*) Desolation. Depicting a view from Mt. Holyoke, including characteristic": {
+    "guess": "The Hay Wagon",
+    "confidence": -11.6860432709
+  },
+  "Of the land he was depicting, this work's artist wrote, \"poets yet unborn will sanctify the soil\", and it is believed to be a response to Basil Hall's Travels. Surviving sketches include the letters \"SW\" at the top to indicate direction, and trees dominate the left side of the painting more in the final work. Commissioned by Luman Reed, it was meant to be a break from its artist's series which included titles like The Arcadian and (*) Desolation. Depicting a view from Mt. Holyoke, including characteristic broken tree branches, and featuring a winding river in the center, this is, for 10 points,": {
+    "guess": "The Hay Wagon",
+    "confidence": -11.309325016
+  },
+  "Of the land he was depicting, this work's artist wrote, \"poets yet unborn will sanctify the soil\", and it is believed to be a response to Basil Hall's Travels. Surviving sketches include the letters \"SW\" at the top to indicate direction, and trees dominate the left side of the painting more in the final work. Commissioned by Luman Reed, it was meant to be a break from its artist's series which included titles like The Arcadian and (*) Desolation. Depicting a view from Mt. Holyoke, including characteristic broken tree branches, and featuring a winding river in the center, this is, for 10 points, what work by Thomas Cole?": {
+    "guess": "The Course of Empire",
+    "confidence": -8.3119891588
+  },
+  "In 1989, this man lamented that the Republican Party had been taken over by \"a bunch of kooks.\" His opponent": {
+    "guess": "George H.W. Bush",
+    "confidence": -3.412572649897
+  },
+  "In 1989, this man lamented that the Republican Party had been taken over by \"a bunch of kooks.\" His opponent mocked one of his campaign slogans with the line \"In your guts, you know he's nuts.\" After narrowly": {
+    "guess": "George H.W. Bush",
+    "confidence": -2.918630134654
+  },
+  "In 1989, this man lamented that the Republican Party had been taken over by \"a bunch of kooks.\" His opponent mocked one of his campaign slogans with the line \"In your guts, you know he's nuts.\" After narrowly defeating Nelson Rockefeller for his party's nomination, this man declared that \"extremism in": {
+    "guess": "Ronald Reagan",
+    "confidence": -9.992424429300002
+  },
+  "In 1989, this man lamented that the Republican Party had been taken over by \"a bunch of kooks.\" His opponent mocked one of his campaign slogans with the line \"In your guts, you know he's nuts.\" After narrowly defeating Nelson Rockefeller for his party's nomination, this man declared that \"extremism in the defense of liberty is no vice.\" An advertisement that attacked this man's presidential campaign": {
+    "guess": "George H.W. Bush",
+    "confidence": -3.065841770905
+  },
+  "In 1989, this man lamented that the Republican Party had been taken over by \"a bunch of kooks.\" His opponent mocked one of his campaign slogans with the line \"In your guts, you know he's nuts.\" After narrowly defeating Nelson Rockefeller for his party's nomination, this man declared that \"extremism in the defense of liberty is no vice.\" An advertisement that attacked this man's presidential campaign depicted a young girl counting the petals of flower before a nuclear explosion and was called \"Daisy\".": {
+    "guess": "George H.W. Bush",
+    "confidence": -2.89882669515
+  },
+  "In 1989, this man lamented that the Republican Party had been taken over by \"a bunch of kooks.\" His opponent mocked one of his campaign slogans with the line \"In your guts, you know he's nuts.\" After narrowly defeating Nelson Rockefeller for his party's nomination, this man declared that \"extremism in the defense of liberty is no vice.\" An advertisement that attacked this man's presidential campaign depicted a young girl counting the petals of flower before a nuclear explosion and was called \"Daisy\". For 10 points, name this Arizona senator who lost to Lyndon B. Johnson in the 1964 presidential": {
+    "guess": "Barry Goldwater",
+    "confidence": -8.0878589669317
+  },
+  "In 1989, this man lamented that the Republican Party had been taken over by \"a bunch of kooks.\" His opponent mocked one of his campaign slogans with the line \"In your guts, you know he's nuts.\" After narrowly defeating Nelson Rockefeller for his party's nomination, this man declared that \"extremism in the defense of liberty is no vice.\" An advertisement that attacked this man's presidential campaign depicted a young girl counting the petals of flower before a nuclear explosion and was called \"Daisy\". For 10 points, name this Arizona senator who lost to Lyndon B. Johnson in the 1964 presidential election.": {
+    "guess": "Barry Goldwater",
+    "confidence": -8.15129581115
+  },
+  "For the Lane-Emden equation, having a polytropic index take on this value appropriately models a stable,": {
+    "guess": "Spherical",
+    "confidence": -10.030571383399998
+  },
+  "For the Lane-Emden equation, having a polytropic index take on this value appropriately models a stable, isothermally stratified atmosphere. This is the value in time at which the rate of expansion becomes": {
+    "guess": "3",
+    "confidence": -11.1178042126
+  },
+  "For the Lane-Emden equation, having a polytropic index take on this value appropriately models a stable, isothermally stratified atmosphere. This is the value in time at which the rate of expansion becomes zero if the density equals the critical density. When considering the Schwarzschild solution to": {
+    "guess": "Schwarzschild solution",
+    "confidence": -9.9976803165
+  },
+  "For the Lane-Emden equation, having a polytropic index take on this value appropriately models a stable, isothermally stratified atmosphere. This is the value in time at which the rate of expansion becomes zero if the density equals the critical density. When considering the Schwarzschild solution to the Field Equations, the curvature takes on this value when there is no radius. When calculating the": {
+    "guess": "Critical density",
+    "confidence": -11.089321737000002
+  },
+  "For the Lane-Emden equation, having a polytropic index take on this value appropriately models a stable, isothermally stratified atmosphere. This is the value in time at which the rate of expansion becomes zero if the density equals the critical density. When considering the Schwarzschild solution to the Field Equations, the curvature takes on this value when there is no radius. When calculating the escape velocity, this is the value that the distance takes on at the (*) final time. The luminosity": {
+    "guess": "",
+    "confidence": -8.5609839331864
+  },
+  "For the Lane-Emden equation, having a polytropic index take on this value appropriately models a stable, isothermally stratified atmosphere. This is the value in time at which the rate of expansion becomes zero if the density equals the critical density. When considering the Schwarzschild solution to the Field Equations, the curvature takes on this value when there is no radius. When calculating the escape velocity, this is the value that the distance takes on at the (*) final time. The luminosity of any point in a steady-state universe takes on this value according to the scenario analyzed in": {
+    "guess": "Black hole",
+    "confidence": -12.05483638
+  },
+  "For the Lane-Emden equation, having a polytropic index take on this value appropriately models a stable, isothermally stratified atmosphere. This is the value in time at which the rate of expansion becomes zero if the density equals the critical density. When considering the Schwarzschild solution to the Field Equations, the curvature takes on this value when there is no radius. When calculating the escape velocity, this is the value that the distance takes on at the (*) final time. The luminosity of any point in a steady-state universe takes on this value according to the scenario analyzed in Olber's Paradox. As one approaches a singularity, this is the amount of force needed to maintain a particle": {
+    "guess": "Mass",
+    "confidence": -12.199042522
+  },
+  "For the Lane-Emden equation, having a polytropic index take on this value appropriately models a stable, isothermally stratified atmosphere. This is the value in time at which the rate of expansion becomes zero if the density equals the critical density. When considering the Schwarzschild solution to the Field Equations, the curvature takes on this value when there is no radius. When calculating the escape velocity, this is the value that the distance takes on at the (*) final time. The luminosity of any point in a steady-state universe takes on this value according to the scenario analyzed in Olber's Paradox. As one approaches a singularity, this is the amount of force needed to maintain a particle in place. For 10 points, name this value at which things become immeasurably big.": {
+    "guess": "10",
+    "confidence": -13.043135870000002
+  }
+}

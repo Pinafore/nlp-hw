@@ -1,0 +1,58 @@
+{
+  "In Euler's formula, this function is multiplied by i. This function's namesake wave is integral to Fourier": {
+    "guess": "The Euler\u2013Lagrange equation",
+    "confidence": -3.50984249441
+  },
+  "In Euler's formula, this function is multiplied by i. This function's namesake wave is integral to Fourier analysis and represents constant, periodic oscillations. On the unit circle, this function is": {
+    "guess": "Sine wave",
+    "confidence": -9.4651915125
+  },
+  "In Euler's formula, this function is multiplied by i. This function's namesake wave is integral to Fourier analysis and represents constant, periodic oscillations. On the unit circle, this function is positive in the first and second quadrants. Additionally, this function is used to represent the y-value": {
+    "guess": "Cosine",
+    "confidence": -9.531370806630001
+  },
+  "In Euler's formula, this function is multiplied by i. This function's namesake wave is integral to Fourier analysis and represents constant, periodic oscillations. On the unit circle, this function is positive in the first and second quadrants. Additionally, this function is used to represent the y-value of a unit circle arc. For 10 points, identify this trigonometric function that is the inverse of": {
+    "guess": "Sin(x)",
+    "confidence": -9.6891891056
+  },
+  "In Euler's formula, this function is multiplied by i. This function's namesake wave is integral to Fourier analysis and represents constant, periodic oscillations. On the unit circle, this function is positive in the first and second quadrants. Additionally, this function is used to represent the y-value of a unit circle arc. For 10 points, identify this trigonometric function that is the inverse of cosecant and, for a right triangle, gives the ratio of the opposite side over the hypotenuse.": {
+    "guess": "Sin",
+    "confidence": -11.45088739
+  },
+  "The Euler (\"OIL-er\") line passes through the orthocenter (\"OR-tho-SEN-ter\"), circumcenter, and centroid": {
+    "guess": "Leonhard Euler",
+    "confidence": -8.1417444361382
+  },
+  "The Euler (\"OIL-er\") line passes through the orthocenter (\"OR-tho-SEN-ter\"), circumcenter, and centroid (\"SEN-troyd\") in this figure. The area of this polygon can be found by halving the product of two": {
+    "guess": "2",
+    "confidence": -12.1615018
+  },
+  "The Euler (\"OIL-er\") line passes through the orthocenter (\"OR-tho-SEN-ter\"), circumcenter, and centroid (\"SEN-troyd\") in this figure. The area of this polygon can be found by halving the product of two sides and the sine of the angle opposite of the third side or by simply using Heron's formula. It is": {
+    "guess": "",
+    "confidence": -2.505288810034
+  },
+  "The Euler (\"OIL-er\") line passes through the orthocenter (\"OR-tho-SEN-ter\"), circumcenter, and centroid (\"SEN-troyd\") in this figure. The area of this polygon can be found by halving the product of two sides and the sine of the angle opposite of the third side or by simply using Heron's formula. It is the only polygon that cannot be concave, because its angles must add to 180 degrees. For 10 points,": {
+    "guess": "Triangle",
+    "confidence": -10.479551368600001
+  },
+  "The Euler (\"OIL-er\") line passes through the orthocenter (\"OR-tho-SEN-ter\"), circumcenter, and centroid (\"SEN-troyd\") in this figure. The area of this polygon can be found by halving the product of two sides and the sine of the angle opposite of the third side or by simply using Heron's formula. It is the only polygon that cannot be concave, because its angles must add to 180 degrees. For 10 points, name this polygon with three sides.": {
+    "guess": "Pentagon",
+    "confidence": -11.581922854
+  },
+  "Eulogized by Henry Longfellow, Matthew Arnold, and William Morris, he's often seen as a sign of Chrisitan": {
+    "guess": "Matthew Arnold",
+    "confidence": -10.297539540999999
+  },
+  "Eulogized by Henry Longfellow, Matthew Arnold, and William Morris, he's often seen as a sign of Chrisitan influence. One legend his him killed in a lovers' quarrel by the sword of Miming, but the better": {
+    "guess": "The Scholar Gypsy",
+    "confidence": -11.965830083
+  },
+  "Eulogized by Henry Longfellow, Matthew Arnold, and William Morris, he's often seen as a sign of Chrisitan influence. One legend his him killed in a lovers' quarrel by the sword of Miming, but the better known one has this denizen of Breidhablik in Asgard slain by an arrow armed with mistletoe. FTP identify": {
+    "guess": "The Scholar Gypsy",
+    "confidence": -11.003459182
+  },
+  "Eulogized by Henry Longfellow, Matthew Arnold, and William Morris, he's often seen as a sign of Chrisitan influence. One legend his him killed in a lovers' quarrel by the sword of Miming, but the better known one has this denizen of Breidhablik in Asgard slain by an arrow armed with mistletoe. FTP identify this Norse deity, the god of light, purity, and \"the good.\"": {
+    "guess": "Baldr",
+    "confidence": -10.209419346999999
+  }
+}

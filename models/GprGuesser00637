@@ -1,0 +1,26 @@
+{
+  "BRCA1 was incorrectly believed to have post-transcriptionally modified a gene responsible for Fanconi": {
+    "guess": "Transcription",
+    "confidence": -11.023819788600001
+  },
+  "BRCA1 was incorrectly believed to have post-transcriptionally modified a gene responsible for Fanconi anemia, a risk factor for the acute myelogenous form of this class of diseases. The spleen enlarges": {
+    "guess": "Yes, the spleen enlarges in",
+    "confidence": -2.049063626768
+  },
+  "BRCA1 was incorrectly believed to have post-transcriptionally modified a gene responsible for Fanconi anemia, a risk factor for the acute myelogenous form of this class of diseases. The spleen enlarges in one neoplasm of it, a namesake \"hairy cell\" version, and patients with most forms of it can experience": {
+    "guess": "Splenomegaly",
+    "confidence": -8.893572408141
+  },
+  "BRCA1 was incorrectly believed to have post-transcriptionally modified a gene responsible for Fanconi anemia, a risk factor for the acute myelogenous form of this class of diseases. The spleen enlarges in one neoplasm of it, a namesake \"hairy cell\" version, and patients with most forms of it can experience petechiae, or pinprick bleeds. One type of it predominately affects myeloid tissue, or bone marrow,": {
+    "guess": "Myeloid leukemia",
+    "confidence": -9.6025008448
+  },
+  "BRCA1 was incorrectly believed to have post-transcriptionally modified a gene responsible for Fanconi anemia, a risk factor for the acute myelogenous form of this class of diseases. The spleen enlarges in one neoplasm of it, a namesake \"hairy cell\" version, and patients with most forms of it can experience petechiae, or pinprick bleeds. One type of it predominately affects myeloid tissue, or bone marrow, and the acute form of it must be given immediate treatment. For 10 points, name this cancer characterized": {
+    "guess": "Acute myeloid leukemia",
+    "confidence": -3.61314874562
+  },
+  "BRCA1 was incorrectly believed to have post-transcriptionally modified a gene responsible for Fanconi anemia, a risk factor for the acute myelogenous form of this class of diseases. The spleen enlarges in one neoplasm of it, a namesake \"hairy cell\" version, and patients with most forms of it can experience petechiae, or pinprick bleeds. One type of it predominately affects myeloid tissue, or bone marrow, and the acute form of it must be given immediate treatment. For 10 points, name this cancer characterized by the abnormal proliferation of white blood cells.": {
+    "guess": "Leukemia",
+    "confidence": -9.1625290506424
+  }
+}

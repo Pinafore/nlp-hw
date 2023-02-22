@@ -1,0 +1,34 @@
+{
+  "The Czochralski process can be used to obtain very small parts of these materials, while various recombination": {
+    "guess": "Techniques",
+    "confidence": -6.644985395041739
+  },
+  "The Czochralski process can be used to obtain very small parts of these materials, while various recombination processes for them include photon exchange and one named after Auger. The drift mobility and": {
+    "guess": "Electron",
+    "confidence": -10.457826717999998
+  },
+  "The Czochralski process can be used to obtain very small parts of these materials, while various recombination processes for them include photon exchange and one named after Auger. The drift mobility and diffusion coefficient of excess carriers in this kind of material can be measured by the Haynes-Shockley": {
+    "guess": "Semiconductor",
+    "confidence": -8.924050303762
+  },
+  "The Czochralski process can be used to obtain very small parts of these materials, while various recombination processes for them include photon exchange and one named after Auger. The drift mobility and diffusion coefficient of excess carriers in this kind of material can be measured by the Haynes-Shockley experiment, while Anderson's rule is used to construct diagrams of the heterojunction between": {
+    "guess": "Semiconductor",
+    "confidence": -8.87601472391
+  },
+  "The Czochralski process can be used to obtain very small parts of these materials, while various recombination processes for them include photon exchange and one named after Auger. The drift mobility and diffusion coefficient of excess carriers in this kind of material can be measured by the Haynes-Shockley experiment, while Anderson's rule is used to construct diagrams of the heterojunction between two materials of this type. Whether these materials contain a negative or positively charged current": {
+    "guess": "Semiconductor",
+    "confidence": -8.249068401030001
+  },
+  "The Czochralski process can be used to obtain very small parts of these materials, while various recombination processes for them include photon exchange and one named after Auger. The drift mobility and diffusion coefficient of excess carriers in this kind of material can be measured by the Haynes-Shockley experiment, while Anderson's rule is used to construct diagrams of the heterojunction between two materials of this type. Whether these materials contain a negative or positively charged current carrier distinguishes the N- and P-types, while adding impurities to their crystal lattices is known": {
+    "guess": "Semiconductor",
+    "confidence": -8.30378073583
+  },
+  "The Czochralski process can be used to obtain very small parts of these materials, while various recombination processes for them include photon exchange and one named after Auger. The drift mobility and diffusion coefficient of excess carriers in this kind of material can be measured by the Haynes-Shockley experiment, while Anderson's rule is used to construct diagrams of the heterojunction between two materials of this type. Whether these materials contain a negative or positively charged current carrier distinguishes the N- and P-types, while adding impurities to their crystal lattices is known as doping. FTP, name these materials which are often found in diodes and transistors and have electrical": {
+    "guess": "Semiconductor, Insulator, Metal",
+    "confidence": -4.267557715444
+  },
+  "The Czochralski process can be used to obtain very small parts of these materials, while various recombination processes for them include photon exchange and one named after Auger. The drift mobility and diffusion coefficient of excess carriers in this kind of material can be measured by the Haynes-Shockley experiment, while Anderson's rule is used to construct diagrams of the heterojunction between two materials of this type. Whether these materials contain a negative or positively charged current carrier distinguishes the N- and P-types, while adding impurities to their crystal lattices is known as doping. FTP, name these materials which are often found in diodes and transistors and have electrical conductivities between that of insulators and conductors.": {
+    "guess": "Semiconductor, Insulator",
+    "confidence": -5.4146214805140005
+  }
+}

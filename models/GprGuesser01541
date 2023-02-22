@@ -1,0 +1,30 @@
+{
+  "In Eagle Syndrome, hemophilia and in burn victims this process may occur in soft tissues. It can occur": {
+    "guess": "",
+    "confidence": -7.7652579375
+  },
+  "In Eagle Syndrome, hemophilia and in burn victims this process may occur in soft tissues. It can occur by two similar processes, the intramembranous and endochondral types. In each, it begins with the": {
+    "guess": "Intramembranous Ossification",
+    "confidence": -1.442482988065
+  },
+  "In Eagle Syndrome, hemophilia and in burn victims this process may occur in soft tissues. It can occur by two similar processes, the intramembranous and endochondral types. In each, it begins with the mesenchymal cells differentiating into osteoblasts, accompanied by formation of a mesh of collagen fibers.": {
+    "guess": "Gilbert Ryle",
+    "confidence": -9.1610674418
+  },
+  "In Eagle Syndrome, hemophilia and in burn victims this process may occur in soft tissues. It can occur by two similar processes, the intramembranous and endochondral types. In each, it begins with the mesenchymal cells differentiating into osteoblasts, accompanied by formation of a mesh of collagen fibers. Next, the deposition of the matrix from the osteoblasts occurs, and a network of fibers called": {
+    "guess": "Matrix",
+    "confidence": -13.140302250000001
+  },
+  "In Eagle Syndrome, hemophilia and in burn victims this process may occur in soft tissues. It can occur by two similar processes, the intramembranous and endochondral types. In each, it begins with the mesenchymal cells differentiating into osteoblasts, accompanied by formation of a mesh of collagen fibers. Next, the deposition of the matrix from the osteoblasts occurs, and a network of fibers called the primary spongiosa is formed. Finally, the marrow is formed during the transformation from the": {
+    "guess": "Endochondral bone",
+    "confidence": -10.05040300467
+  },
+  "In Eagle Syndrome, hemophilia and in burn victims this process may occur in soft tissues. It can occur by two similar processes, the intramembranous and endochondral types. In each, it begins with the mesenchymal cells differentiating into osteoblasts, accompanied by formation of a mesh of collagen fibers. Next, the deposition of the matrix from the osteoblasts occurs, and a network of fibers called the primary spongiosa is formed. Finally, the marrow is formed during the transformation from the spongiosa into secondary bone. FTP, name this process by which cartilage or fibrous tissue is converted": {
+    "guess": "Chondrogenesis",
+    "confidence": -8.68033941908
+  },
+  "In Eagle Syndrome, hemophilia and in burn victims this process may occur in soft tissues. It can occur by two similar processes, the intramembranous and endochondral types. In each, it begins with the mesenchymal cells differentiating into osteoblasts, accompanied by formation of a mesh of collagen fibers. Next, the deposition of the matrix from the osteoblasts occurs, and a network of fibers called the primary spongiosa is formed. Finally, the marrow is formed during the transformation from the spongiosa into secondary bone. FTP, name this process by which cartilage or fibrous tissue is converted into bone.": {
+    "guess": "Osteogenesis",
+    "confidence": -8.5051657015
+  }
+}

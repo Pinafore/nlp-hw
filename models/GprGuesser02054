@@ -1,0 +1,42 @@
+{
+  "A fixed gap \"h\" is used in one variation of this operation, which improves upon a simpler version in": {
+    "guess": "",
+    "confidence": -3.4468278855299994
+  },
+  "A fixed gap \"h\" is used in one variation of this operation, which improves upon a simpler version in which \"h\" would always equal one. A variation of this operation that can compare least significant digits": {
+    "guess": "Binary search",
+    "confidence": -11.8277589456
+  },
+  "A fixed gap \"h\" is used in one variation of this operation, which improves upon a simpler version in which \"h\" would always equal one. A variation of this operation that can compare least significant digits is called the radix type, and another type of this process randomly places elements and checks": {
+    "guess": "Algorithms",
+    "confidence": -8.702588280599999
+  },
+  "A fixed gap \"h\" is used in one variation of this operation, which improves upon a simpler version in which \"h\" would always equal one. A variation of this operation that can compare least significant digits is called the radix type, and another type of this process randomly places elements and checks if they are correct. One type of this operation uses a pivot to flip elements larger or smaller than": {
+    "guess": "Binary search",
+    "confidence": -11.069725125999998
+  },
+  "A fixed gap \"h\" is used in one variation of this operation, which improves upon a simpler version in which \"h\" would always equal one. A variation of this operation that can compare least significant digits is called the radix type, and another type of this process randomly places elements and checks if they are correct. One type of this operation uses a pivot to flip elements larger or smaller than the pivot, and notable types of this operation include the \"bubble\" and \"quick\" varieties. For 10": {
+    "guess": "Binary search",
+    "confidence": -11.341092942
+  },
+  "A fixed gap \"h\" is used in one variation of this operation, which improves upon a simpler version in which \"h\" would always equal one. A variation of this operation that can compare least significant digits is called the radix type, and another type of this process randomly places elements and checks if they are correct. One type of this operation uses a pivot to flip elements larger or smaller than the pivot, and notable types of this operation include the \"bubble\" and \"quick\" varieties. For 10 points, name this operation which puts elements of a list in order.": {
+    "guess": "Bubble sort",
+    "confidence": -9.98446535
+  },
+  "They are fixed points of the circular restricted three-body problem.  The first three are unstable to": {
+    "guess": "No",
+    "confidence": -12.20928279
+  },
+  "They are fixed points of the circular restricted three-body problem.  The first three are unstable to radial perturbations but the final two are in islands of stability.  The SoHO spacecraft orbits one": {
+    "guess": "Lagrange",
+    "confidence": -9.00219140932
+  },
+  "They are fixed points of the circular restricted three-body problem.  The first three are unstable to radial perturbations but the final two are in islands of stability.  The SoHO spacecraft orbits one in the Earth-Sun system, and for ten points, two in the Earth-Moon system are likely sites for space": {
+    "guess": "Lagrange",
+    "confidence": -8.882691792197999
+  },
+  "They are fixed points of the circular restricted three-body problem.  The first three are unstable to radial perturbations but the final two are in islands of stability.  The SoHO spacecraft orbits one in the Earth-Sun system, and for ten points, two in the Earth-Moon system are likely sites for space colonies built at what points named for a French mathematician.": {
+    "guess": "Lagrange",
+    "confidence": -9.016007104221
+  }
+}

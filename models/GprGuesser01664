@@ -1,0 +1,38 @@
+{
+  "The Einstein relation's most important application is in these materials because it sets the ratio of": {
+    "guess": "Refractive index",
+    "confidence": -8.885338973
+  },
+  "The Einstein relation's most important application is in these materials because it sets the ratio of diffusivity and mobility equal to k T over q. Wafers of one type of this material are grown with the": {
+    "guess": "",
+    "confidence": -3.2168045371
+  },
+  "The Einstein relation's most important application is in these materials because it sets the ratio of diffusivity and mobility equal to k T over q. Wafers of one type of this material are grown with the Czochralski process. III-V (\"three five\") and II-VI (\"two-six\") alloys are used to form the binary,": {
+    "guess": "Silicon",
+    "confidence": -10.84042637
+  },
+  "The Einstein relation's most important application is in these materials because it sets the ratio of diffusivity and mobility equal to k T over q. Wafers of one type of this material are grown with the Czochralski process. III-V (\"three five\") and II-VI (\"two-six\") alloys are used to form the binary, ternary, and quaternary \"compound\" types of this material. Analyzing these materials often involves": {
+    "guess": "The Einstein relation",
+    "confidence": -10.682652409
+  },
+  "The Einstein relation's most important application is in these materials because it sets the ratio of diffusivity and mobility equal to k T over q. Wafers of one type of this material are grown with the Czochralski process. III-V (\"three five\") and II-VI (\"two-six\") alloys are used to form the binary, ternary, and quaternary \"compound\" types of this material. Analyzing these materials often involves determining the rate and type of carrier generation and (*) recombination processes. These materials": {
+    "guess": "Semiconductor",
+    "confidence": -9.049431196776322
+  },
+  "The Einstein relation's most important application is in these materials because it sets the ratio of diffusivity and mobility equal to k T over q. Wafers of one type of this material are grown with the Czochralski process. III-V (\"three five\") and II-VI (\"two-six\") alloys are used to form the binary, ternary, and quaternary \"compound\" types of this material. Analyzing these materials often involves determining the rate and type of carrier generation and (*) recombination processes. These materials are useful because substitutional impurities can change their Fermi level in a process called doping,": {
+    "guess": "Semiconductor",
+    "confidence": -8.381425616
+  },
+  "The Einstein relation's most important application is in these materials because it sets the ratio of diffusivity and mobility equal to k T over q. Wafers of one type of this material are grown with the Czochralski process. III-V (\"three five\") and II-VI (\"two-six\") alloys are used to form the binary, ternary, and quaternary \"compound\" types of this material. Analyzing these materials often involves determining the rate and type of carrier generation and (*) recombination processes. These materials are useful because substitutional impurities can change their Fermi level in a process called doping, which can create its n-type and p- type. The most commonly used example of this material is silicon.": {
+    "guess": "Silicon",
+    "confidence": -10.548998350000002
+  },
+  "The Einstein relation's most important application is in these materials because it sets the ratio of diffusivity and mobility equal to k T over q. Wafers of one type of this material are grown with the Czochralski process. III-V (\"three five\") and II-VI (\"two-six\") alloys are used to form the binary, ternary, and quaternary \"compound\" types of this material. Analyzing these materials often involves determining the rate and type of carrier generation and (*) recombination processes. These materials are useful because substitutional impurities can change their Fermi level in a process called doping, which can create its n-type and p- type. The most commonly used example of this material is silicon. For 10 points, name these materials that have a conductivity intermediate between that of conductors": {
+    "guess": "Semiconductor, metal, dielect",
+    "confidence": -3.8452447228140003
+  },
+  "The Einstein relation's most important application is in these materials because it sets the ratio of diffusivity and mobility equal to k T over q. Wafers of one type of this material are grown with the Czochralski process. III-V (\"three five\") and II-VI (\"two-six\") alloys are used to form the binary, ternary, and quaternary \"compound\" types of this material. Analyzing these materials often involves determining the rate and type of carrier generation and (*) recombination processes. These materials are useful because substitutional impurities can change their Fermi level in a process called doping, which can create its n-type and p- type. The most commonly used example of this material is silicon. For 10 points, name these materials that have a conductivity intermediate between that of conductors and insulators.": {
+    "guess": "Semiconductor",
+    "confidence": -7.125699176567259
+  }
+}

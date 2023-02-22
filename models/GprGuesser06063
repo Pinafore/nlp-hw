@@ -1,0 +1,30 @@
+{
+  "The P type of these minerals is formed in peridotite, while their E type originates in eclogite. They": {
+    "guess": "Minerals",
+    "confidence": -9.6947079619742
+  },
+  "The P type of these minerals is formed in peridotite, while their E type originates in eclogite. They are often covered with a gum-like skin called nyf, and bort is a variety of this mineral that occurs": {
+    "guess": "Eclogite",
+    "confidence": -8.44547250272
+  },
+  "The P type of these minerals is formed in peridotite, while their E type originates in eclogite. They are often covered with a gum-like skin called nyf, and bort is a variety of this mineral that occurs as rough rounded masses without distinct cleavage. This mineral is lipophilic and hydrophobic due": {
+    "guess": "Mica, Bort",
+    "confidence": -8.305867979875
+  },
+  "The P type of these minerals is formed in peridotite, while their E type originates in eclogite. They are often covered with a gum-like skin called nyf, and bort is a variety of this mineral that occurs as rough rounded masses without distinct cleavage. This mineral is lipophilic and hydrophobic due to its strong intermolecular bonds, and its distinctively high thermal conductivity makes it desirable": {
+    "guess": "Diamond, Mica",
+    "confidence": -9.020496317666
+  },
+  "The P type of these minerals is formed in peridotite, while their E type originates in eclogite. They are often covered with a gum-like skin called nyf, and bort is a variety of this mineral that occurs as rough rounded masses without distinct cleavage. This mineral is lipophilic and hydrophobic due to its strong intermolecular bonds, and its distinctively high thermal conductivity makes it desirable in industrial machines such as (*) drills and cutters. They can often be found in kimberlite, and": {
+    "guess": "Diamond",
+    "confidence": -11.073577199999999
+  },
+  "The P type of these minerals is formed in peridotite, while their E type originates in eclogite. They are often covered with a gum-like skin called nyf, and bort is a variety of this mineral that occurs as rough rounded masses without distinct cleavage. This mineral is lipophilic and hydrophobic due to its strong intermolecular bonds, and its distinctively high thermal conductivity makes it desirable in industrial machines such as (*) drills and cutters. They can often be found in kimberlite, and along with graphite, this mineral is an allotrope of carbon. For ten points, name this mineral with": {
+    "guess": "Diamond",
+    "confidence": -11.157836224
+  },
+  "The P type of these minerals is formed in peridotite, while their E type originates in eclogite. They are often covered with a gum-like skin called nyf, and bort is a variety of this mineral that occurs as rough rounded masses without distinct cleavage. This mineral is lipophilic and hydrophobic due to its strong intermolecular bonds, and its distinctively high thermal conductivity makes it desirable in industrial machines such as (*) drills and cutters. They can often be found in kimberlite, and along with graphite, this mineral is an allotrope of carbon. For ten points, name this mineral with a hardness of 10 on the Mohs Hardness Scale, the hardest naturally occurring material.": {
+    "guess": "Diamond",
+    "confidence": -10.444156634
+  }
+}

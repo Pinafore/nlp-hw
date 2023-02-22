@@ -1,0 +1,62 @@
+{
+  "This man rallied a Yale student militia to defend a British assault on New Haven. This man asked for": {
+    "guess": "John Paul Jones",
+    "confidence": -10.707445935
+  },
+  "This man rallied a Yale student militia to defend a British assault on New Haven. This man asked for monetary assistance from the Marqu\u00e9s de Casa Irujo and mustered his forces on Blennerhassett Island.": {
+    "guess": "Paul Revere",
+    "confidence": -9.475748350034
+  },
+  "This man rallied a Yale student militia to defend a British assault on New Haven. This man asked for monetary assistance from the Marqu\u00e9s de Casa Irujo and mustered his forces on Blennerhassett Island. Eventually, he informed General James Wilkinson of his plan to invade Mexico. Acquitted of treason": {
+    "guess": "George Washington",
+    "confidence": -9.693711574699998
+  },
+  "This man rallied a Yale student militia to defend a British assault on New Haven. This man asked for monetary assistance from the Marqu\u00e9s de Casa Irujo and mustered his forces on Blennerhassett Island. Eventually, he informed General James Wilkinson of his plan to invade Mexico. Acquitted of treason at his trial, this man had earlier presided over the impeachment of Samuel Chase. He enlisted Tammany": {
+    "guess": "George Washington",
+    "confidence": -9.9978046217
+  },
+  "This man rallied a Yale student militia to defend a British assault on New Haven. This man asked for monetary assistance from the Marqu\u00e9s de Casa Irujo and mustered his forces on Blennerhassett Island. Eventually, he informed General James Wilkinson of his plan to invade Mexico. Acquitted of treason at his trial, this man had earlier presided over the impeachment of Samuel Chase. He enlisted Tammany Hall to win Thomas Jefferson the state of New York in 1800 and received an equal number of electoral": {
+    "guess": "Aaron Burr",
+    "confidence": -6.411303240343999
+  },
+  "This man rallied a Yale student militia to defend a British assault on New Haven. This man asked for monetary assistance from the Marqu\u00e9s de Casa Irujo and mustered his forces on Blennerhassett Island. Eventually, he informed General James Wilkinson of his plan to invade Mexico. Acquitted of treason at his trial, this man had earlier presided over the impeachment of Samuel Chase. He enlisted Tammany Hall to win Thomas Jefferson the state of New York in 1800 and received an equal number of electoral votes in the election, forcing the House to choose a winner. For 10 points, name this Vice-President": {
+    "guess": "John Adams",
+    "confidence": -9.79842944663
+  },
+  "This man rallied a Yale student militia to defend a British assault on New Haven. This man asked for monetary assistance from the Marqu\u00e9s de Casa Irujo and mustered his forces on Blennerhassett Island. Eventually, he informed General James Wilkinson of his plan to invade Mexico. Acquitted of treason at his trial, this man had earlier presided over the impeachment of Samuel Chase. He enlisted Tammany Hall to win Thomas Jefferson the state of New York in 1800 and received an equal number of electoral votes in the election, forcing the House to choose a winner. For 10 points, name this Vice-President who killed Alexander Hamilton in a duel.": {
+    "guess": "Aaron Burr",
+    "confidence": -9.1306244937124
+  },
+  "It's not Raman spectroscopy, but Ozaki, et al. developed a version of this technology using surface plasmons": {
+    "guess": "Ozaki, Murphy, et al.",
+    "confidence": -1.3435690935214004
+  },
+  "It's not Raman spectroscopy, but Ozaki, et al. developed a version of this technology using surface plasmons which captured multiple wavelengths at once. Surface displacements can be measured by using": {
+    "guess": "Surface plasmons",
+    "confidence": -10.956601826500002
+  },
+  "It's not Raman spectroscopy, but Ozaki, et al. developed a version of this technology using surface plasmons which captured multiple wavelengths at once. Surface displacements can be measured by using the \"frozen fringe\" form of this technique, which is a subtype of a form of interferometry named for": {
+    "guess": "Michelson\u2013Morley experiment",
+    "confidence": -3.199893513808
+  },
+  "It's not Raman spectroscopy, but Ozaki, et al. developed a version of this technology using surface plasmons which captured multiple wavelengths at once. Surface displacements can be measured by using the \"frozen fringe\" form of this technique, which is a subtype of a form of interferometry named for it. Media used in this technique include dichromatic gelatin, and a form of digital microscopy based": {
+    "guess": "Raman scattering",
+    "confidence": -8.89876515893
+  },
+  "It's not Raman spectroscopy, but Ozaki, et al. developed a version of this technology using surface plasmons which captured multiple wavelengths at once. Surface displacements can be measured by using the \"frozen fringe\" form of this technique, which is a subtype of a form of interferometry named for it. Media used in this technique include dichromatic gelatin, and a form of digital microscopy based on this technique requires the use of a reconstruction algorithm based on the angular spectrum method.": {
+    "guess": "Infrared Spectroscopy",
+    "confidence": -7.0750247639305
+  },
+  "It's not Raman spectroscopy, but Ozaki, et al. developed a version of this technology using surface plasmons which captured multiple wavelengths at once. Surface displacements can be measured by using the \"frozen fringe\" form of this technique, which is a subtype of a form of interferometry named for it. Media used in this technique include dichromatic gelatin, and a form of digital microscopy based on this technique requires the use of a reconstruction algorithm based on the angular spectrum method. Originally invented by Dennis Gabor, this technique splits a laser beam into an object beam and": {
+    "guess": "Raman spectroscopy",
+    "confidence": -7.5996643606695
+  },
+  "It's not Raman spectroscopy, but Ozaki, et al. developed a version of this technology using surface plasmons which captured multiple wavelengths at once. Surface displacements can be measured by using the \"frozen fringe\" form of this technique, which is a subtype of a form of interferometry named for it. Media used in this technique include dichromatic gelatin, and a form of digital microscopy based on this technique requires the use of a reconstruction algorithm based on the angular spectrum method. Originally invented by Dennis Gabor, this technique splits a laser beam into an object beam and a reference beam, which then cross on a recording apparatus. For 10 points, name this technique which": {
+    "guess": "Optical coherence tomography",
+    "confidence": -8.391554575331
+  },
+  "It's not Raman spectroscopy, but Ozaki, et al. developed a version of this technology using surface plasmons which captured multiple wavelengths at once. Surface displacements can be measured by using the \"frozen fringe\" form of this technique, which is a subtype of a form of interferometry named for it. Media used in this technique include dichromatic gelatin, and a form of digital microscopy based on this technique requires the use of a reconstruction algorithm based on the angular spectrum method. Originally invented by Dennis Gabor, this technique splits a laser beam into an object beam and a reference beam, which then cross on a recording apparatus. For 10 points, name this technique which can be used to generate three-dimensional images.": {
+    "guess": "3D scanning",
+    "confidence": -11.600474644
+  }
+}

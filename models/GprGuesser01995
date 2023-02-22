@@ -1,0 +1,26 @@
+{
+  "Feynman integrals can be rendered finite by introducing fictitious heavy particles in the regularization": {
+    "guess": "Wolfgang Pauli",
+    "confidence": -8.13859906336
+  },
+  "Feynman integrals can be rendered finite by introducing fictitious heavy particles in the regularization named for Villars and this man.  His fundamental theorem guarantees the representation independence": {
+    "guess": "Wolfgang Pauli",
+    "confidence": -8.062511341068
+  },
+  "Feynman integrals can be rendered finite by introducing fictitious heavy particles in the regularization named for Villars and this man.  His fundamental theorem guarantees the representation independence of the gamma matrices, and he lends his name to a set of three 2 by 2 sigma matrices for spin-1/2": {
+    "guess": "Murray Gell-Mann",
+    "confidence": -3.942677383415
+  },
+  "Feynman integrals can be rendered finite by introducing fictitious heavy particles in the regularization named for Villars and this man.  His fundamental theorem guarantees the representation independence of the gamma matrices, and he lends his name to a set of three 2 by 2 sigma matrices for spin-1/2 particles. Another of his results is built into the Slater determinant for multi-electron systems,": {
+    "guess": "Wolfgang Pauli",
+    "confidence": -8.071700637033
+  },
+  "Feynman integrals can be rendered finite by introducing fictitious heavy particles in the regularization named for Villars and this man.  His fundamental theorem guarantees the representation independence of the gamma matrices, and he lends his name to a set of three 2 by 2 sigma matrices for spin-1/2 particles. Another of his results is built into the Slater determinant for multi-electron systems, which vanishes if two columns are identical. FTP, name this man who stated that two identical fermions": {
+    "guess": "Paul Dirac",
+    "confidence": -9.089870044540001
+  },
+  "Feynman integrals can be rendered finite by introducing fictitious heavy particles in the regularization named for Villars and this man.  His fundamental theorem guarantees the representation independence of the gamma matrices, and he lends his name to a set of three 2 by 2 sigma matrices for spin-1/2 particles. Another of his results is built into the Slater determinant for multi-electron systems, which vanishes if two columns are identical. FTP, name this man who stated that two identical fermions cannot occupy the same quantum state in his exclusion principle.": {
+    "guess": "Wolfgang Pauli",
+    "confidence": -8.225197065125002
+  }
+}

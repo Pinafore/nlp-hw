@@ -1,0 +1,18 @@
+{
+  "Some zealously gender-neutral writers now use this three-letter word as a third-person singular nominative.": {
+    "guess": "Noun",
+    "confidence": -10.1555634997
+  },
+  "Some zealously gender-neutral writers now use this three-letter word as a third-person singular nominative.  In its language of origin, German, it is a specifically feminine third-person singular nominative": {
+    "guess": "neuter",
+    "confidence": -10.38886687
+  },
+  "Some zealously gender-neutral writers now use this three-letter word as a third-person singular nominative.  In its language of origin, German, it is a specifically feminine third-person singular nominative when lower case, but capitalized it is the polite formal version of the second person.  For 10": {
+    "guess": "English",
+    "confidence": -11.640398986
+  },
+  "Some zealously gender-neutral writers now use this three-letter word as a third-person singular nominative.  In its language of origin, German, it is a specifically feminine third-person singular nominative when lower case, but capitalized it is the polite formal version of the second person.  For 10 points, what word is pronounced the way that Americans pronounce the last letter of the Roman alphabet?": {
+    "guess": "Yacht",
+    "confidence": -12.791545900000001
+  }
+}

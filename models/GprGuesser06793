@@ -1,0 +1,18 @@
+{
+  "[RR-GR/DUKE]  26 This Greek shares his name with the monk who leapt into the Coliseum to stop a gladiator": {
+    "guess": "Saint Agathon",
+    "confidence": -11.341543464999999
+  },
+  "[RR-GR/DUKE]  26 This Greek shares his name with the monk who leapt into the Coliseum to stop a gladiator fight, leading to Honorius's abolition of the sport. He married Cassiphone, slew Cassiphone's mother": {
+    "guess": "Telemachus",
+    "confidence": -8.077294597193502
+  },
+  "[RR-GR/DUKE]  26 This Greek shares his name with the monk who leapt into the Coliseum to stop a gladiator fight, leading to Honorius's abolition of the sport. He married Cassiphone, slew Cassiphone's mother [*] Circe, and was assisted as a youth by the goddess Athena, disguised as Mentor. For 10 points\u2014name": {
+    "guess": "Telemachus",
+    "confidence": -8.03228290468
+  },
+  "[RR-GR/DUKE]  26 This Greek shares his name with the monk who leapt into the Coliseum to stop a gladiator fight, leading to Honorius's abolition of the sport. He married Cassiphone, slew Cassiphone's mother [*] Circe, and was assisted as a youth by the goddess Athena, disguised as Mentor. For 10 points\u2014name this son of Penelope and Odysseus.": {
+    "guess": "Aeneas",
+    "confidence": -8.99141052996
+  }
+}

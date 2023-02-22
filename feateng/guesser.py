@@ -4,11 +4,21 @@
 # Base class for our guessers
 
 import os
+import re
 import json
 
 from nltk.tokenize import sent_tokenize
 
+alphanum = re.compile('[^a-zA-Z0-9]')
+
 from params import load_guesser, load_questions, add_guesser_params, add_general_params, add_question_params
+
+def word_overlap(query, page):
+    query_words = set(alphanum.split(query))
+    page_words = set(alphanum.split(page))
+
+    return len(query_words.intersection(page_words)) / len(query_words)
+
 
 def print_guess(guess, max_char=20):
     """

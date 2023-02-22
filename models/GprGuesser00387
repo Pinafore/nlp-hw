@@ -1,0 +1,22 @@
+{
+  "Baeyer and Villiger name one of these reactions, whose states name the two-dimensional version of a Latimer": {
+    "guess": "",
+    "confidence": -1.773445118223
+  },
+  "Baeyer and Villiger name one of these reactions, whose states name the two-dimensional version of a Latimer Diagram, also named for Frost. That state often sees Lanthanide elements form triatomic ions.": {
+    "guess": "Ester",
+    "confidence": -9.29159284464
+  },
+  "Baeyer and Villiger name one of these reactions, whose states name the two-dimensional version of a Latimer Diagram, also named for Frost. That state often sees Lanthanide elements form triatomic ions. The number associated with this process is usually constant for oxygen, except in peroxide. Disproportionation": {
+    "guess": "Disproportionation",
+    "confidence": -8.01566547706
+  },
+  "Baeyer and Villiger name one of these reactions, whose states name the two-dimensional version of a Latimer Diagram, also named for Frost. That state often sees Lanthanide elements form triatomic ions. The number associated with this process is usually constant for oxygen, except in peroxide. Disproportionation involves one of these reactions and a reduction in the same reaction. FTP, name this type": {
+    "guess": "Redox",
+    "confidence": -9.793670795999999
+  },
+  "Baeyer and Villiger name one of these reactions, whose states name the two-dimensional version of a Latimer Diagram, also named for Frost. That state often sees Lanthanide elements form triatomic ions. The number associated with this process is usually constant for oxygen, except in peroxide. Disproportionation involves one of these reactions and a reduction in the same reaction. FTP, name this type of reaction, classified by the loss of an electron, a subset of redox reactions.": {
+    "guess": "Redox",
+    "confidence": -9.442625962140001
+  }
+}

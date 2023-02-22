@@ -1,0 +1,154 @@
+{
+  "A coefficient associated with this force is equal to one when stagnation pressure builds up over an entire": {
+    "guess": "Prandtl-Glauert rule",
+    "confidence": -2.0481150352884
+  },
+  "A coefficient associated with this force is equal to one when stagnation pressure builds up over an entire surface. Potential flow solutions to the Euler equation indicate that this force should be zero": {
+    "guess": "Dr\u00e1g",
+    "confidence": -8.184725529067
+  },
+  "A coefficient associated with this force is equal to one when stagnation pressure builds up over an entire surface. Potential flow solutions to the Euler equation indicate that this force should be zero in direct opposition to observation in a paradox named after Jean d'Alembert. The power needed to": {
+    "guess": "Dr\u00e1g",
+    "confidence": -8.22138947524
+  },
+  "A coefficient associated with this force is equal to one when stagnation pressure builds up over an entire surface. Potential flow solutions to the Euler equation indicate that this force should be zero in direct opposition to observation in a paradox named after Jean d'Alembert. The power needed to overcome this force is proportional to the third power of velocity and at very low Reynolds numbers,": {
+    "guess": "Dr\u00e1g",
+    "confidence": -8.185296667309998
+  },
+  "A coefficient associated with this force is equal to one when stagnation pressure builds up over an entire surface. Potential flow solutions to the Euler equation indicate that this force should be zero in direct opposition to observation in a paradox named after Jean d'Alembert. The power needed to overcome this force is proportional to the third power of velocity and at very low Reynolds numbers, this force for spherical objects is proportional to the fluid velocity, according to Stokes' Law. This": {
+    "guess": "Dr\u00e1g",
+    "confidence": -6.4673860730894
+  },
+  "A coefficient associated with this force is equal to one when stagnation pressure builds up over an entire surface. Potential flow solutions to the Euler equation indicate that this force should be zero in direct opposition to observation in a paradox named after Jean d'Alembert. The power needed to overcome this force is proportional to the third power of velocity and at very low Reynolds numbers, this force for spherical objects is proportional to the fluid velocity, according to Stokes' Law. This force leads to an object reaching terminal velocity and counteracts thrust. For 10 points, name": {
+    "guess": "Drag (physics).",
+    "confidence": -7.104407624809999
+  },
+  "A coefficient associated with this force is equal to one when stagnation pressure builds up over an entire surface. Potential flow solutions to the Euler equation indicate that this force should be zero in direct opposition to observation in a paradox named after Jean d'Alembert. The power needed to overcome this force is proportional to the third power of velocity and at very low Reynolds numbers, this force for spherical objects is proportional to the fluid velocity, according to Stokes' Law. This force leads to an object reaching terminal velocity and counteracts thrust. For 10 points, name this force which opposes an object's motion through fluid, including air.": {
+    "guess": "Drag (physics).",
+    "confidence": -6.99336238317
+  },
+  "The coelomic (SEE-loh-mihk) sac, found in the coxal glands of crustaceans, is analogous to this microscopic": {
+    "guess": "",
+    "confidence": -3.507052910725
+  },
+  "The coelomic (SEE-loh-mihk) sac, found in the coxal glands of crustaceans, is analogous to this microscopic structure in mammals. It has both vascular and urinary poles, and Bright's disease causes this": {
+    "guess": "Coelomic sac",
+    "confidence": -8.700307535150001
+  },
+  "The coelomic (SEE-loh-mihk) sac, found in the coxal glands of crustaceans, is analogous to this microscopic structure in mammals. It has both vascular and urinary poles, and Bright's disease causes this structure to become blocked with crystals and epithelial cells. Ultrafiltering podocytes in this structure": {
+    "guess": "Nephron",
+    "confidence": -10.811476884000001
+  },
+  "The coelomic (SEE-loh-mihk) sac, found in the coxal glands of crustaceans, is analogous to this microscopic structure in mammals. It has both vascular and urinary poles, and Bright's disease causes this structure to become blocked with crystals and epithelial cells. Ultrafiltering podocytes in this structure can collect solutes smaller than eight nanometers, explaining the high concentration of salt": {
+    "guess": "Nephron",
+    "confidence": -10.493533142999999
+  },
+  "The coelomic (SEE-loh-mihk) sac, found in the coxal glands of crustaceans, is analogous to this microscopic structure in mammals. It has both vascular and urinary poles, and Bright's disease causes this structure to become blocked with crystals and epithelial cells. Ultrafiltering podocytes in this structure can collect solutes smaller than eight nanometers, explaining the high concentration of salt and sugar in its lumen. The proximal tubule links this structure to the loop of Henle and it forms": {
+    "guess": "Urinary bladder",
+    "confidence": -9.391063670400001
+  },
+  "The coelomic (SEE-loh-mihk) sac, found in the coxal glands of crustaceans, is analogous to this microscopic structure in mammals. It has both vascular and urinary poles, and Bright's disease causes this structure to become blocked with crystals and epithelial cells. Ultrafiltering podocytes in this structure can collect solutes smaller than eight nanometers, explaining the high concentration of salt and sugar in its lumen. The proximal tubule links this structure to the loop of Henle and it forms the renal corpuscle together with the structure it surrounds, the glomeru- lus. Named for a nineteenth-century": {
+    "guess": "Renal corpuscle",
+    "confidence": -9.57597225706
+  },
+  "The coelomic (SEE-loh-mihk) sac, found in the coxal glands of crustaceans, is analogous to this microscopic structure in mammals. It has both vascular and urinary poles, and Bright's disease causes this structure to become blocked with crystals and epithelial cells. Ultrafiltering podocytes in this structure can collect solutes smaller than eight nanometers, explaining the high concentration of salt and sugar in its lumen. The proximal tubule links this structure to the loop of Henle and it forms the renal corpuscle together with the structure it surrounds, the glomeru- lus. Named for a nineteenth-century anatomist, identify this cup-like component of the nephron that first collects the blood": {
+    "guess": "Renal corpuscle",
+    "confidence": -9.3821705724
+  },
+  "The coelomic (SEE-loh-mihk) sac, found in the coxal glands of crustaceans, is analogous to this microscopic structure in mammals. It has both vascular and urinary poles, and Bright's disease causes this structure to become blocked with crystals and epithelial cells. Ultrafiltering podocytes in this structure can collect solutes smaller than eight nanometers, explaining the high concentration of salt and sugar in its lumen. The proximal tubule links this structure to the loop of Henle and it forms the renal corpuscle together with the structure it surrounds, the glomeru- lus. Named for a nineteenth-century anatomist, identify this cup-like component of the nephron that first collects the blood filtrate during urine production.": {
+    "guess": "Renal corpuscle",
+    "confidence": -9.6348530734
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three ": {
+    "guess": "",
+    "confidence": -2.5190523059873997
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three  sites of this motif are bound in aequorin. Proteins like sorcin, ALG-2, and peflin are notable for having": {
+    "guess": "Bioluminescence",
+    "confidence": -8.986402836278
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three  sites of this motif are bound in aequorin. Proteins like sorcin, ALG-2, and peflin are notable for having five of these motifs. Two of these motifs characterize a family of proteins named for their solubility": {
+    "guess": "Coelenterazine",
+    "confidence": -9.861685569363003
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three  sites of this motif are bound in aequorin. Proteins like sorcin, ALG-2, and peflin are notable for having five of these motifs. Two of these motifs characterize a family of proteins named for their solubility in a 100%  saturated solution of ammonium sulfate, the S100 subfamily. The amino acid at position": {
+    "guess": "Alanine",
+    "confidence": -10.45896289646
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three  sites of this motif are bound in aequorin. Proteins like sorcin, ALG-2, and peflin are notable for having five of these motifs. Two of these motifs characterize a family of proteins named for their solubility in a 100%  saturated solution of ammonium sulfate, the S100 subfamily. The amino acid at position 12 in this motif,  denoted with a hyphen Z, must provide two oxygens for a bidentate ligand,": {
+    "guess": "ATP-binding cassette transporter",
+    "confidence": -7.602715877930001
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three  sites of this motif are bound in aequorin. Proteins like sorcin, ALG-2, and peflin are notable for having five of these motifs. Two of these motifs characterize a family of proteins named for their solubility in a 100%  saturated solution of ammonium sulfate, the S100 subfamily. The amino acid at position 12 in this motif,  denoted with a hyphen Z, must provide two oxygens for a bidentate ligand, so that residue is almost  always glutamate, although it can be aspartate in parvalbumin. This motif": {
+    "guess": "Calcium",
+    "confidence": -10.912372775
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three  sites of this motif are bound in aequorin. Proteins like sorcin, ALG-2, and peflin are notable for having five of these motifs. Two of these motifs characterize a family of proteins named for their solubility in a 100%  saturated solution of ammonium sulfate, the S100 subfamily. The amino acid at position 12 in this motif,  denoted with a hyphen Z, must provide two oxygens for a bidentate ligand, so that residue is almost  always glutamate, although it can be aspartate in parvalbumin. This motif has a high affinity for  strontium since strontium is chemical y similar to the ion it binds, and it": {
+    "guess": "Calcium",
+    "confidence": -9.875576071
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three  sites of this motif are bound in aequorin. Proteins like sorcin, ALG-2, and peflin are notable for having five of these motifs. Two of these motifs characterize a family of proteins named for their solubility in a 100%  saturated solution of ammonium sulfate, the S100 subfamily. The amino acid at position 12 in this motif,  denoted with a hyphen Z, must provide two oxygens for a bidentate ligand, so that residue is almost  always glutamate, although it can be aspartate in parvalbumin. This motif has a high affinity for  strontium since strontium is chemical y similar to the ion it binds, and it is found in such prominent  proteins as troponin C and calmodulin. For 10 points, identify this most": {
+    "guess": "Calcium",
+    "confidence": -9.391371909999998
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three  sites of this motif are bound in aequorin. Proteins like sorcin, ALG-2, and peflin are notable for having five of these motifs. Two of these motifs characterize a family of proteins named for their solubility in a 100%  saturated solution of ammonium sulfate, the S100 subfamily. The amino acid at position 12 in this motif,  denoted with a hyphen Z, must provide two oxygens for a bidentate ligand, so that residue is almost  always glutamate, although it can be aspartate in parvalbumin. This motif has a high affinity for  strontium since strontium is chemical y similar to the ion it binds, and it is found in such prominent  proteins as troponin C and calmodulin. For 10 points, identify this most common calcium-binding motif  in proteins that is named for being the third helix-loop-helix domain": {
+    "guess": "Calcium-binding motif",
+    "confidence": -8.176986094
+  },
+  "Coelenterazine is oxidized to coelenteramide and a quantum of blue light is released when the three  sites of this motif are bound in aequorin. Proteins like sorcin, ALG-2, and peflin are notable for having five of these motifs. Two of these motifs characterize a family of proteins named for their solubility in a 100%  saturated solution of ammonium sulfate, the S100 subfamily. The amino acid at position 12 in this motif,  denoted with a hyphen Z, must provide two oxygens for a bidentate ligand, so that residue is almost  always glutamate, although it can be aspartate in parvalbumin. This motif has a high affinity for  strontium since strontium is chemical y similar to the ion it binds, and it is found in such prominent  proteins as troponin C and calmodulin. For 10 points, identify this most common calcium-binding motif  in proteins that is named for being the third helix-loop-helix domain in parvalbumin after the AB and CD  domains.": {
+    "guess": "EF hand",
+    "confidence": -10.722019940000001
+  },
+  "It was co-discovered by its namesake and Robert Ochsenfeld in 1933. When tin crystlals were cooled below": {
+    "guess": "Tin",
+    "confidence": -11.45303939
+  },
+  "It was co-discovered by its namesake and Robert Ochsenfeld in 1933. When tin crystlals were cooled below 3.72 Kelvin, the earth's magnetic field was expelled. A partial effect can be seen in some materials": {
+    "guess": "Meissner effect",
+    "confidence": -7.9777603381654
+  },
+  "It was co-discovered by its namesake and Robert Ochsenfeld in 1933. When tin crystlals were cooled below 3.72 Kelvin, the earth's magnetic field was expelled. A partial effect can be seen in some materials like vanadium and niobium, called type II superconductors, while an external magnetic field can": {
+    "guess": "Meissner effect",
+    "confidence": -8.335110094621399
+  },
+  "It was co-discovered by its namesake and Robert Ochsenfeld in 1933. When tin crystlals were cooled below 3.72 Kelvin, the earth's magnetic field was expelled. A partial effect can be seen in some materials like vanadium and niobium, called type II superconductors, while an external magnetic field can be made so strong that the effect does not occur. FTP, name this effect, the falling off of the magnetic": {
+    "guess": "The Meissner effect",
+    "confidence": -7.207923872687
+  },
+  "It was co-discovered by its namesake and Robert Ochsenfeld in 1933. When tin crystlals were cooled below 3.72 Kelvin, the earth's magnetic field was expelled. A partial effect can be seen in some materials like vanadium and niobium, called type II superconductors, while an external magnetic field can be made so strong that the effect does not occur. FTP, name this effect, the falling off of the magnetic flux within a superconductor when it is cooled below a critical temperature in a magnetic field.": {
+    "guess": "Meissner effect",
+    "confidence": -8.319851875577001
+  },
+  "The coefficients of Chebyshev polynomials of the first kind can be found using identities involving this": {
+    "guess": "The Legendre polynomial",
+    "confidence": -6.170732015757
+  },
+  "The coefficients of Chebyshev polynomials of the first kind can be found using identities involving this function. This function of a complex number z is the arithmetic mean of e to the i times z and that": {
+    "guess": "Euler's Formula",
+    "confidence": -9.868655272400002
+  },
+  "The coefficients of Chebyshev polynomials of the first kind can be found using identities involving this function. This function of a complex number z is the arithmetic mean of e to the i times z and that exponential's reciprocal. This function is on the main diagonal of a two-dimensional rotation matrix.": {
+    "guess": "Euler's Formula",
+    "confidence": -10.685563792700002
+  },
+  "The coefficients of Chebyshev polynomials of the first kind can be found using identities involving this function. This function of a complex number z is the arithmetic mean of e to the i times z and that exponential's reciprocal. This function is on the main diagonal of a two-dimensional rotation matrix. A complex number's magnitude times this function of its argument yields its (*) real part. This": {
+    "guess": "Exponential",
+    "confidence": -10.040985161399998
+  },
+  "The coefficients of Chebyshev polynomials of the first kind can be found using identities involving this function. This function of a complex number z is the arithmetic mean of e to the i times z and that exponential's reciprocal. This function is on the main diagonal of a two-dimensional rotation matrix. A complex number's magnitude times this function of its argument yields its (*) real part. This even function is equal to its own fourth derivative, and its Taylor expansion begins 1 minus x-squared": {
+    "guess": "Quadratic Formula",
+    "confidence": -10.472066446
+  },
+  "The coefficients of Chebyshev polynomials of the first kind can be found using identities involving this function. This function of a complex number z is the arithmetic mean of e to the i times z and that exponential's reciprocal. This function is on the main diagonal of a two-dimensional rotation matrix. A complex number's magnitude times this function of its argument yields its (*) real part. This even function is equal to its own fourth derivative, and its Taylor expansion begins 1 minus x-squared over 2. c-squared equals a- squared plus b-squared minus 2 a b times this function of angle C,": {
+    "guess": "Polynomials",
+    "confidence": -9.7639692772
+  },
+  "The coefficients of Chebyshev polynomials of the first kind can be found using identities involving this function. This function of a complex number z is the arithmetic mean of e to the i times z and that exponential's reciprocal. This function is on the main diagonal of a two-dimensional rotation matrix. A complex number's magnitude times this function of its argument yields its (*) real part. This even function is equal to its own fourth derivative, and its Taylor expansion begins 1 minus x-squared over 2. c-squared equals a- squared plus b-squared minus 2 a b times this function of angle C, according to its namesake law in triangles. For 10 points, identify this trigonometric function, which": {
+    "guess": "Sin(x)",
+    "confidence": -9.77962022385
+  },
+  "The coefficients of Chebyshev polynomials of the first kind can be found using identities involving this function. This function of a complex number z is the arithmetic mean of e to the i times z and that exponential's reciprocal. This function is on the main diagonal of a two-dimensional rotation matrix. A complex number's magnitude times this function of its argument yields its (*) real part. This even function is equal to its own fourth derivative, and its Taylor expansion begins 1 minus x-squared over 2. c-squared equals a- squared plus b-squared minus 2 a b times this function of angle C, according to its namesake law in triangles. For 10 points, identify this trigonometric function, which for an angle in a right triangle equals adjacent over hypotenuse.": {
+    "guess": "Sin(x)",
+    "confidence": -10.08026152707
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "A McCabe-Thiele diagram describes the application of this process to a binary feed. The Fenske equation": {
+    "guess": "Distillation",
+    "confidence": -9.081103014719998
+  },
+  "A McCabe-Thiele diagram describes the application of this process to a binary feed. The Fenske equation gives the number of theoretical plates required for one form of this process, which may utilize a": {
+    "guess": "Distillation",
+    "confidence": -9.181859457129999
+  },
+  "A McCabe-Thiele diagram describes the application of this process to a binary feed. The Fenske equation gives the number of theoretical plates required for one form of this process, which may utilize a rotavap or a Dean-Stark apparatus. A Perkin triangle allows it to be performed under vacuum, and mixtures": {
+    "guess": "Distillation",
+    "confidence": -9.1948849023
+  },
+  "A McCabe-Thiele diagram describes the application of this process to a binary feed. The Fenske equation gives the number of theoretical plates required for one form of this process, which may utilize a rotavap or a Dean-Stark apparatus. A Perkin triangle allows it to be performed under vacuum, and mixtures that do not obey Raoult's law require the azeotropic form of this technique. If the components'": {
+    "guess": "Distillation",
+    "confidence": -9.100189468759998
+  },
+  "A McCabe-Thiele diagram describes the application of this process to a binary feed. The Fenske equation gives the number of theoretical plates required for one form of this process, which may utilize a rotavap or a Dean-Stark apparatus. A Perkin triangle allows it to be performed under vacuum, and mixtures that do not obey Raoult's law require the azeotropic form of this technique. If the components' boiling points differ by less than 25 degrees, such as in crude oil mixtures, the fractional form": {
+    "guess": "Fractional distillation",
+    "confidence": -7.134556847524999
+  },
+  "A McCabe-Thiele diagram describes the application of this process to a binary feed. The Fenske equation gives the number of theoretical plates required for one form of this process, which may utilize a rotavap or a Dean-Stark apparatus. A Perkin triangle allows it to be performed under vacuum, and mixtures that do not obey Raoult's law require the azeotropic form of this technique. If the components' boiling points differ by less than 25 degrees, such as in crude oil mixtures, the fractional form of this technique is used. For 10 points, identify this technique used to separate liquid mixtures": {
+    "guess": "Chromatography",
+    "confidence": -9.216136932720001
+  },
+  "A McCabe-Thiele diagram describes the application of this process to a binary feed. The Fenske equation gives the number of theoretical plates required for one form of this process, which may utilize a rotavap or a Dean-Stark apparatus. A Perkin triangle allows it to be performed under vacuum, and mixtures that do not obey Raoult's law require the azeotropic form of this technique. If the components' boiling points differ by less than 25 degrees, such as in crude oil mixtures, the fractional form of this technique is used. For 10 points, identify this technique used to separate liquid mixtures through boiling.": {
+    "guess": "Distillation",
+    "confidence": -9.095951951986
+  },
+  "McClintic Sphere, a jazz musician, has a girlfriend named Ruby who is really Raola Maijstral Hod, married": {
+    "guess": "V.",
+    "confidence": -9.09886639558
+  },
+  "McClintic Sphere, a jazz musician, has a girlfriend named Ruby who is really Raola Maijstral Hod, married to Pappy. This novel concerns two plots, one an account of \"The Whole Sick Crew\" of people in New": {
+    "guess": "V.",
+    "confidence": -9.744309321100001
+  },
+  "McClintic Sphere, a jazz musician, has a girlfriend named Ruby who is really Raola Maijstral Hod, married to Pappy. This novel concerns two plots, one an account of \"The Whole Sick Crew\" of people in New York led by Benny Profane and the other Herbert Stencil's attempts to re-create the past of his father": {
+    "guess": "V.",
+    "confidence": -9.1672297615
+  },
+  "McClintic Sphere, a jazz musician, has a girlfriend named Ruby who is really Raola Maijstral Hod, married to Pappy. This novel concerns two plots, one an account of \"The Whole Sick Crew\" of people in New York led by Benny Profane and the other Herbert Stencil's attempts to re-create the past of his father Sidney. The plots resolve in Malta with the search for the title woman, who appears in various": {
+    "guess": "V.",
+    "confidence": -9.512492076380001
+  },
+  "McClintic Sphere, a jazz musician, has a girlfriend named Ruby who is really Raola Maijstral Hod, married to Pappy. This novel concerns two plots, one an account of \"The Whole Sick Crew\" of people in New York led by Benny Profane and the other Herbert Stencil's attempts to re-create the past of his father Sidney. The plots resolve in Malta with the search for the title woman, who appears in various forms as an English girl named Victoria, Botticelli's Venus, and the Virgin. FTP, identify this novel": {
+    "guess": "V.",
+    "confidence": -9.771529721270001
+  },
+  "McClintic Sphere, a jazz musician, has a girlfriend named Ruby who is really Raola Maijstral Hod, married to Pappy. This novel concerns two plots, one an account of \"The Whole Sick Crew\" of people in New York led by Benny Profane and the other Herbert Stencil's attempts to re-create the past of his father Sidney. The plots resolve in Malta with the search for the title woman, who appears in various forms as an English girl named Victoria, Botticelli's Venus, and the Virgin. FTP, identify this novel by Thomas Pynchon named for a mysterious woman from Sidney Stencil's past.": {
+    "guess": "V.",
+    "confidence": -6.3339765161234
+  }
+}

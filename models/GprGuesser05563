@@ -1,0 +1,50 @@
+{
+  "Omega languages with this property consist of infinite words which are equivalent to B\u00fcchi automata.": {
+    "guess": "REGULAR",
+    "confidence": -9.156095079756
+  },
+  "Omega languages with this property consist of infinite words which are equivalent to B\u00fcchi automata. This property describes sets of strings which correspond to DSPACE of big O of one; such languages must": {
+    "guess": "",
+    "confidence": -1.9897020134
+  },
+  "Omega languages with this property consist of infinite words which are equivalent to B\u00fcchi automata. This property describes sets of strings which correspond to DSPACE of big O of one; such languages must have a finite number of \"distinguishing strings\" such that each appended string forms an equivalence": {
+    "guess": "REGULAR",
+    "confidence": -8.960910273926
+  },
+  "Omega languages with this property consist of infinite words which are equivalent to B\u00fcchi automata. This property describes sets of strings which correspond to DSPACE of big O of one; such languages must have a finite number of \"distinguishing strings\" such that each appended string forms an equivalence class. These languages are the subject of the Myhill\u0096Nerode theorem and correspond to type-3 languages,": {
+    "guess": "REGULAR",
+    "confidence": -9.107698399876
+  },
+  "Omega languages with this property consist of infinite words which are equivalent to B\u00fcchi automata. This property describes sets of strings which correspond to DSPACE of big O of one; such languages must have a finite number of \"distinguishing strings\" such that each appended string forms an equivalence class. These languages are the subject of the Myhill\u0096Nerode theorem and correspond to type-3 languages, right-linear grammars, and left-linear grammars. Concatenation and the Kleene Star are two": {
+    "guess": "CONJUNCTION",
+    "confidence": -8.29395635622
+  },
+  "Omega languages with this property consist of infinite words which are equivalent to B\u00fcchi automata. This property describes sets of strings which correspond to DSPACE of big O of one; such languages must have a finite number of \"distinguishing strings\" such that each appended string forms an equivalence class. These languages are the subject of the Myhill\u0096Nerode theorem and correspond to type-3 languages, right-linear grammars, and left-linear grammars. Concatenation and the Kleene Star are two operations that can be applied to a tool described by this adjective, which can be used to search for": {
+    "guess": "CONTAINER",
+    "confidence": -10.06082508045
+  },
+  "Omega languages with this property consist of infinite words which are equivalent to B\u00fcchi automata. This property describes sets of strings which correspond to DSPACE of big O of one; such languages must have a finite number of \"distinguishing strings\" such that each appended string forms an equivalence class. These languages are the subject of the Myhill\u0096Nerode theorem and correspond to type-3 languages, right-linear grammars, and left-linear grammars. Concatenation and the Kleene Star are two operations that can be applied to a tool described by this adjective, which can be used to search for strings. For 10 points, expressions that are used by Linux's \"grep\" can be described by what adjective?": {
+    "guess": "REGULAR",
+    "confidence": -6.459044878482669
+  },
+  "The omega minus one of these particles was predicted by Murray Gell-Mann. A strangeness number is added": {
+    "guess": "Electron",
+    "confidence": -10.365439315700002
+  },
+  "The omega minus one of these particles was predicted by Murray Gell-Mann. A strangeness number is added to this class of particles, which is equal to negative one times the number of strange quarks included": {
+    "guess": "Strange quark",
+    "confidence": -8.742410901700001
+  },
+  "The omega minus one of these particles was predicted by Murray Gell-Mann. A strangeness number is added to this class of particles, which is equal to negative one times the number of strange quarks included in one of these particles, and they are organized via the (*) Eightfold Way. These particles are": {
+    "guess": "Gluons",
+    "confidence": -10.44712676665
+  },
+  "The omega minus one of these particles was predicted by Murray Gell-Mann. A strangeness number is added to this class of particles, which is equal to negative one times the number of strange quarks included in one of these particles, and they are organized via the (*) Eightfold Way. These particles are made of up of three quarks. For 10 points, identify this class of particles, which includes the protons": {
+    "guess": "Protons",
+    "confidence": -9.973349987206
+  },
+  "The omega minus one of these particles was predicted by Murray Gell-Mann. A strangeness number is added to this class of particles, which is equal to negative one times the number of strange quarks included in one of these particles, and they are organized via the (*) Eightfold Way. These particles are made of up of three quarks. For 10 points, identify this class of particles, which includes the protons and neutrons.": {
+    "guess": "Quark",
+    "confidence": -10.07422519
+  }
+}

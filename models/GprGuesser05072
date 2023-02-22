@@ -1,0 +1,70 @@
+{
+  "The next version of this language has the designation 0x (zero x). One important part of this language": {
+    "guess": "Unicode",
+    "confidence": -11.284771833
+  },
+  "The next version of this language has the designation 0x (zero x). One important part of this language is templates and it supports references. One can manage memory in it by using the delete and new operators.": {
+    "guess": "C++",
+    "confidence": -6.2956030509395005
+  },
+  "The next version of this language has the designation 0x (zero x). One important part of this language is templates and it supports references. One can manage memory in it by using the delete and new operators. In it, one can print to the standard output using cout. Unlike its ancestor, this language": {
+    "guess": "C++",
+    "confidence": -7.2632868858725
+  },
+  "The next version of this language has the designation 0x (zero x). One important part of this language is templates and it supports references. One can manage memory in it by using the delete and new operators. In it, one can print to the standard output using cout. Unlike its ancestor, this language supports classes. For 10 points, name this programming language whose name reflects that it is a step": {
+    "guess": "C++",
+    "confidence": -9.1496504218
+  },
+  "The next version of this language has the designation 0x (zero x). One important part of this language is templates and it supports references. One can manage memory in it by using the delete and new operators. In it, one can print to the standard output using cout. Unlike its ancestor, this language supports classes. For 10 points, name this programming language whose name reflects that it is a step up from its predecessor, C.": {
+    "guess": "C++",
+    "confidence": -9.0099938152
+  },
+  "The next NASA probe to visit this body will launch in November 2011 and is named Curiosity. Its highest": {
+    "guess": "Mars",
+    "confidence": -10.958171947199999
+  },
+  "The next NASA probe to visit this body will launch in November 2011 and is named Curiosity. Its highest point is located just outside the volcanic Tharsis region, and it is home to a large canyon known": {
+    "guess": "Gale Crater",
+    "confidence": -9.0650559908
+  },
+  "The next NASA probe to visit this body will launch in November 2011 and is named Curiosity. Its highest point is located just outside the volcanic Tharsis region, and it is home to a large canyon known as Valles Marineris. The tallest mountain in the Solar System, Olympus Mons, is located on this planet,": {
+    "guess": "Mars",
+    "confidence": -10.2871575605
+  },
+  "The next NASA probe to visit this body will launch in November 2011 and is named Curiosity. Its highest point is located just outside the volcanic Tharsis region, and it is home to a large canyon known as Valles Marineris. The tallest mountain in the Solar System, Olympus Mons, is located on this planet, which is orbited by two Asaph Hall-discovered moons called Deimos and Phobos. For 10 points, name": {
+    "guess": "Mars",
+    "confidence": -10.249762017
+  },
+  "The next NASA probe to visit this body will launch in November 2011 and is named Curiosity. Its highest point is located just outside the volcanic Tharsis region, and it is home to a large canyon known as Valles Marineris. The tallest mountain in the Solar System, Olympus Mons, is located on this planet, which is orbited by two Asaph Hall-discovered moons called Deimos and Phobos. For 10 points, name our Solar System's 4th planet often known as the \"red planet.\"": {
+    "guess": "Mars",
+    "confidence": -10.274644774399999
+  },
+  "Neylan McBaine leads a \"project\" named for these people. Since 1978, these people have been allowed to": {
+    "guess": "BLACK PEOPLE",
+    "confidence": -11.2304031903
+  },
+  "Neylan McBaine leads a \"project\" named for these people. Since 1978, these people have been allowed to speak in general conference. These people comprise the entire membership of the Relief Society, which": {
+    "guess": "The Church of Jesus Christ of Latter-",
+    "confidence": -2.0987186918459995
+  },
+  "Neylan McBaine leads a \"project\" named for these people. Since 1978, these people have been allowed to speak in general conference. These people comprise the entire membership of the Relief Society, which since 1977 has been considered on par with the Melchizedek priesthood. A protest for the ordination": {
+    "guess": "BLACK LIVES MATTER",
+    "confidence": -10.498576334441502
+  },
+  "Neylan McBaine leads a \"project\" named for these people. Since 1978, these people have been allowed to speak in general conference. These people comprise the entire membership of the Relief Society, which since 1977 has been considered on par with the Melchizedek priesthood. A protest for the ordination of these people in April 2014 aroused ire by refusing to leave (*) Temple Square. In December 2012,": {
+    "guess": "",
+    "confidence": -1.8004137865899998
+  },
+  "Neylan McBaine leads a \"project\" named for these people. Since 1978, these people have been allowed to speak in general conference. These people comprise the entire membership of the Relief Society, which since 1977 has been considered on par with the Melchizedek priesthood. A protest for the ordination of these people in April 2014 aroused ire by refusing to leave (*) Temple Square. In December 2012, these people staged a \"wear pants to church\" protest. For 10 points, identify these people who are": {
+    "guess": "",
+    "confidence": -1.44980894762
+  },
+  "Neylan McBaine leads a \"project\" named for these people. Since 1978, these people have been allowed to speak in general conference. These people comprise the entire membership of the Relief Society, which since 1977 has been considered on par with the Melchizedek priesthood. A protest for the ordination of these people in April 2014 aroused ire by refusing to leave (*) Temple Square. In December 2012, these people staged a \"wear pants to church\" protest. For 10 points, identify these people who are currently barred from most leadership positions in the Latter-Day Saint movement, and are instead": {
+    "guess": "",
+    "confidence": -2.41023044525
+  },
+  "Neylan McBaine leads a \"project\" named for these people. Since 1978, these people have been allowed to speak in general conference. These people comprise the entire membership of the Relief Society, which since 1977 has been considered on par with the Melchizedek priesthood. A protest for the ordination of these people in April 2014 aroused ire by refusing to leave (*) Temple Square. In December 2012, these people staged a \"wear pants to church\" protest. For 10 points, identify these people who are currently barred from most leadership positions in the Latter-Day Saint movement, and are instead expected to marry and bear children.": {
+    "guess": "",
+    "confidence": -3.3590224744599997
+  }
+}

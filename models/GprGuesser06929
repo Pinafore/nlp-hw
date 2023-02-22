@@ -1,0 +1,394 @@
+{
+  "In samples, the presence of gram negative cocci pairs displaying a typical kidney bean shape is usually": {
+    "guess": "Indicates the presence of gram negative bacteria",
+    "confidence": -3.560055476616
+  },
+  "In samples, the presence of gram negative cocci pairs displaying a typical kidney bean shape is usually a diagnostic of this disease.  Occasionally, it can lead to pelvic inflammatory disease or even death": {
+    "guess": "E. coli",
+    "confidence": -10.746402740000002
+  },
+  "In samples, the presence of gram negative cocci pairs displaying a typical kidney bean shape is usually a diagnostic of this disease.  Occasionally, it can lead to pelvic inflammatory disease or even death if the infection spreads to the lungs, heart, or brain.  A member of the genus Neisseria, it is": {
+    "guess": "Neisseria meningitidis",
+    "confidence": -0.69979888296
+  },
+  "In samples, the presence of gram negative cocci pairs displaying a typical kidney bean shape is usually a diagnostic of this disease.  Occasionally, it can lead to pelvic inflammatory disease or even death if the infection spreads to the lungs, heart, or brain.  A member of the genus Neisseria, it is usually treated with Cetriaxone, Cefixime, Ciprofloaxin, or Ofloxacin, but not Penicillin, as it has": {
+    "guess": "Neisseria meningitidis",
+    "confidence": -2.00491062492
+  },
+  "In samples, the presence of gram negative cocci pairs displaying a typical kidney bean shape is usually a diagnostic of this disease.  Occasionally, it can lead to pelvic inflammatory disease or even death if the infection spreads to the lungs, heart, or brain.  A member of the genus Neisseria, it is usually treated with Cetriaxone, Cefixime, Ciprofloaxin, or Ofloxacin, but not Penicillin, as it has developed resistance to that drug.  Characterized by appearance of pus and a burning feeling during": {
+    "guess": "UTI",
+    "confidence": -11.717593712599998
+  },
+  "In samples, the presence of gram negative cocci pairs displaying a typical kidney bean shape is usually a diagnostic of this disease.  Occasionally, it can lead to pelvic inflammatory disease or even death if the infection spreads to the lungs, heart, or brain.  A member of the genus Neisseria, it is usually treated with Cetriaxone, Cefixime, Ciprofloaxin, or Ofloxacin, but not Penicillin, as it has developed resistance to that drug.  Characterized by appearance of pus and a burning feeling during urination, this is, FTP, what venereal disease also known as \"the clap?\"": {
+    "guess": "Chlamydia",
+    "confidence": -8.3538811459265
+  },
+  "When Samos fell to the Persians, the Athenian tyrant Hipparchus made sure to rescue this poet. His popularity": {
+    "guess": "Pindar",
+    "confidence": -8.75809622128
+  },
+  "When Samos fell to the Persians, the Athenian tyrant Hipparchus made sure to rescue this poet. His popularity was reflected in the statue of him on the Acropolis, and in the many red-figure vases which": {
+    "guess": "Pindar",
+    "confidence": -8.958854225300001
+  },
+  "When Samos fell to the Persians, the Athenian tyrant Hipparchus made sure to rescue this poet. His popularity was reflected in the statue of him on the Acropolis, and in the many red-figure vases which show him playing the lyre as young men dance around him with abandon. When Francis Scott Key wrote": {
+    "guess": "Simonides",
+    "confidence": -10.02076693425
+  },
+  "When Samos fell to the Persians, the Athenian tyrant Hipparchus made sure to rescue this poet. His popularity was reflected in the statue of him on the Acropolis, and in the many red-figure vases which show him playing the lyre as young men dance around him with abandon. When Francis Scott Key wrote his famous lines, he matched them to the tune of a British drinking song that invoked the name of this": {
+    "guess": "Simonides",
+    "confidence": -10.1682128373
+  },
+  "When Samos fell to the Persians, the Athenian tyrant Hipparchus made sure to rescue this poet. His popularity was reflected in the statue of him on the Acropolis, and in the many red-figure vases which show him playing the lyre as young men dance around him with abandon. When Francis Scott Key wrote his famous lines, he matched them to the tune of a British drinking song that invoked the name of this Greek poet. FTP, name the 6th-century B.C. poet of many drinking songs and frivolous love songs.": {
+    "guess": "Homer",
+    "confidence": -10.521610690600001
+  },
+  "Sanderson's version of this property allows estimation of bond energies due to known bond lengths, while": {
+    "guess": "Bond energy",
+    "confidence": -9.670116656200001
+  },
+  "Sanderson's version of this property allows estimation of bond energies due to known bond lengths, while the Allred-Rochow scale define it in terms of covalent radius. A small difference in this quantity": {
+    "guess": "Electronegativity",
+    "confidence": -7.873083450021
+  },
+  "Sanderson's version of this property allows estimation of bond energies due to known bond lengths, while the Allred-Rochow scale define it in terms of covalent radius. A small difference in this quantity leads to a polar covalent bond, while a large difference results in an ionic bond. The Mulliken scale": {
+    "guess": "Electronegativity",
+    "confidence": -6.929908630273999
+  },
+  "Sanderson's version of this property allows estimation of bond energies due to known bond lengths, while the Allred-Rochow scale define it in terms of covalent radius. A small difference in this quantity leads to a polar covalent bond, while a large difference results in an ionic bond. The Mulliken scale defines it as the mean of electron affinity and ionization energy, while the more common Pauling": {
+    "guess": "Electronegativity",
+    "confidence": -6.35732009197
+  },
+  "Sanderson's version of this property allows estimation of bond energies due to known bond lengths, while the Allred-Rochow scale define it in terms of covalent radius. A small difference in this quantity leads to a polar covalent bond, while a large difference results in an ionic bond. The Mulliken scale defines it as the mean of electron affinity and ionization energy, while the more common Pauling scale sets the greatest value at 4.0. For 10 points, name this property defined as the tendency of": {
+    "guess": "Electronegativity",
+    "confidence": -6.4692042164284995
+  },
+  "Sanderson's version of this property allows estimation of bond energies due to known bond lengths, while the Allred-Rochow scale define it in terms of covalent radius. A small difference in this quantity leads to a polar covalent bond, while a large difference results in an ionic bond. The Mulliken scale defines it as the mean of electron affinity and ionization energy, while the more common Pauling scale sets the greatest value at 4.0. For 10 points, name this property defined as the tendency of an atom to attract electrons in a bond.": {
+    "guess": "Electronegativity",
+    "confidence": -6.290838790421
+  },
+  "Samuel Zasadius was expelled from Poland for attempting to spread this religion, which John Honterus": {
+    "guess": "Lutheranism",
+    "confidence": -10.36200576776
+  },
+  "Samuel Zasadius was expelled from Poland for attempting to spread this religion, which John Honterus introduced to Transylvania. More radical forms of this Christian denomination were advocated by Andreas": {
+    "guess": "Protestantism",
+    "confidence": -10.146548261000001
+  },
+  "Samuel Zasadius was expelled from Poland for attempting to spread this religion, which John Honterus introduced to Transylvania. More radical forms of this Christian denomination were advocated by Andreas Karlstadt, a colleague of this faith's early leaders, and by Phillip Spener, who stressed mysticism.": {
+    "guess": "Protestantism",
+    "confidence": -9.53231254964
+  },
+  "Samuel Zasadius was expelled from Poland for attempting to spread this religion, which John Honterus introduced to Transylvania. More radical forms of this Christian denomination were advocated by Andreas Karlstadt, a colleague of this faith's early leaders, and by Phillip Spener, who stressed mysticism. In one country, this religion was adopted because of the unpopularity of the Catholic Archbishop": {
+    "guess": "Protestantism",
+    "confidence": -9.59384511667
+  },
+  "Samuel Zasadius was expelled from Poland for attempting to spread this religion, which John Honterus introduced to Transylvania. More radical forms of this Christian denomination were advocated by Andreas Karlstadt, a colleague of this faith's early leaders, and by Phillip Spener, who stressed mysticism. In one country, this religion was adopted because of the unpopularity of the Catholic Archbishop Trolle, and its sub-groups include the Pietists. This faith's doctrine of \"Sacramental Union\", which": {
+    "guess": "Lutheranism",
+    "confidence": -9.159694999045
+  },
+  "Samuel Zasadius was expelled from Poland for attempting to spread this religion, which John Honterus introduced to Transylvania. More radical forms of this Christian denomination were advocated by Andreas Karlstadt, a colleague of this faith's early leaders, and by Phillip Spener, who stressed mysticism. In one country, this religion was adopted because of the unpopularity of the Catholic Archbishop Trolle, and its sub-groups include the Pietists. This faith's doctrine of \"Sacramental Union\", which affirms the Real Presence while rejecting Transubstantiation, is sometimes called Consubstantiation.": {
+    "guess": "Lutheranism",
+    "confidence": -9.0570602865
+  },
+  "Samuel Zasadius was expelled from Poland for attempting to spread this religion, which John Honterus introduced to Transylvania. More radical forms of this Christian denomination were advocated by Andreas Karlstadt, a colleague of this faith's early leaders, and by Phillip Spener, who stressed mysticism. In one country, this religion was adopted because of the unpopularity of the Catholic Archbishop Trolle, and its sub-groups include the Pietists. This faith's doctrine of \"Sacramental Union\", which affirms the Real Presence while rejecting Transubstantiation, is sometimes called Consubstantiation. Heeding the Augsburg Confession, for ten points name this Protestant denomination originating from": {
+    "guess": "Lutheranism",
+    "confidence": -8.91655368093
+  },
+  "Samuel Zasadius was expelled from Poland for attempting to spread this religion, which John Honterus introduced to Transylvania. More radical forms of this Christian denomination were advocated by Andreas Karlstadt, a colleague of this faith's early leaders, and by Phillip Spener, who stressed mysticism. In one country, this religion was adopted because of the unpopularity of the Catholic Archbishop Trolle, and its sub-groups include the Pietists. This faith's doctrine of \"Sacramental Union\", which affirms the Real Presence while rejecting Transubstantiation, is sometimes called Consubstantiation. Heeding the Augsburg Confession, for ten points name this Protestant denomination originating from the 95 theses of its namesake German founder.": {
+    "guess": "Lutheranism",
+    "confidence": -8.963064208728
+  },
+  "Sanderson defined it as the ratio of atomic number to atomic volume, divided by the expected ratio as": {
+    "guess": "Electronegativity",
+    "confidence": -7.965748429656999
+  },
+  "Sanderson defined it as the ratio of atomic number to atomic volume, divided by the expected ratio as extrapolated from noble gas data. Another measure of it is based on the square root of differences": {
+    "guess": "The density of Helium is 3.",
+    "confidence": -3.229183631274
+  },
+  "Sanderson defined it as the ratio of atomic number to atomic volume, divided by the expected ratio as extrapolated from noble gas data. Another measure of it is based on the square root of differences in ionic resonance energy between two elements, while Mulliken defines it as the average of first ionization": {
+    "guess": "The atomic number is the most important factor",
+    "confidence": -5.072562905
+  },
+  "Sanderson defined it as the ratio of atomic number to atomic volume, divided by the expected ratio as extrapolated from noble gas data. Another measure of it is based on the square root of differences in ionic resonance energy between two elements, while Mulliken defines it as the average of first ionization energy and electron affinity. For 10 points, name this tendency of an atom to attract electrons": {
+    "guess": "Electronegativity",
+    "confidence": -8.192136437818
+  },
+  "Sanderson defined it as the ratio of atomic number to atomic volume, divided by the expected ratio as extrapolated from noble gas data. Another measure of it is based on the square root of differences in ionic resonance energy between two elements, while Mulliken defines it as the average of first ionization energy and electron affinity. For 10 points, name this tendency of an atom to attract electrons of other atoms to itself, for which fluorine has a value of 4.0 according to the Pauling scale.": {
+    "guess": "Electronegativity",
+    "confidence": -8.19438217576
+  },
+  "Samples prepared for this process are often either stained with uranyl acetate, or are adsorbed to metal,": {
+    "guess": "Electron microscopes",
+    "confidence": -8.315694872689999
+  },
+  "Samples prepared for this process are often either stained with uranyl acetate, or are adsorbed to metal, which is then dissolved by acid. Since most biological specimens are destroyed by this technique,": {
+    "guess": "Electron microscopes",
+    "confidence": -9.112926104443
+  },
+  "Samples prepared for this process are often either stained with uranyl acetate, or are adsorbed to metal, which is then dissolved by acid. Since most biological specimens are destroyed by this technique, it often takes place at \"cryo\" temperatures. Samples for this process are often sliced into thin": {
+    "guess": "Thin section",
+    "confidence": -10.63788585
+  },
+  "Samples prepared for this process are often either stained with uranyl acetate, or are adsorbed to metal, which is then dissolved by acid. Since most biological specimens are destroyed by this technique, it often takes place at \"cryo\" temperatures. Samples for this process are often sliced into thin pieces and coated in gold. This technique can determine the morphology of a surface in its \"scanning\"": {
+    "guess": "Electron microscope",
+    "confidence": -8.7025030504
+  },
+  "Samples prepared for this process are often either stained with uranyl acetate, or are adsorbed to metal, which is then dissolved by acid. Since most biological specimens are destroyed by this technique, it often takes place at \"cryo\" temperatures. Samples for this process are often sliced into thin pieces and coated in gold. This technique can determine the morphology of a surface in its \"scanning\" variant. Both that type and the \"transmission\" form of this technique use particles with shorter de": {
+    "guess": "Electron microscope",
+    "confidence": -8.126673628899999
+  },
+  "Samples prepared for this process are often either stained with uranyl acetate, or are adsorbed to metal, which is then dissolved by acid. Since most biological specimens are destroyed by this technique, it often takes place at \"cryo\" temperatures. Samples for this process are often sliced into thin pieces and coated in gold. This technique can determine the morphology of a surface in its \"scanning\" variant. Both that type and the \"transmission\" form of this technique use particles with shorter de Broglie wavelengths than photons. For 10 points, name this technique which fires a beam of negatively": {
+    "guess": "Electron microscope",
+    "confidence": -8.973686924
+  },
+  "Samples prepared for this process are often either stained with uranyl acetate, or are adsorbed to metal, which is then dissolved by acid. Since most biological specimens are destroyed by this technique, it often takes place at \"cryo\" temperatures. Samples for this process are often sliced into thin pieces and coated in gold. This technique can determine the morphology of a surface in its \"scanning\" variant. Both that type and the \"transmission\" form of this technique use particles with shorter de Broglie wavelengths than photons. For 10 points, name this technique which fires a beam of negatively charged particles to magnify images.": {
+    "guess": "Electron microscope",
+    "confidence": -9.4344658764
+  },
+  "\"Salvator Mundi\" by Herbert Howells. Psalm 130, \"Out of the Deep\", by John Rutter. Psalm 121, \"I Will": {
+    "guess": "Requiem aeternam",
+    "confidence": -3.5104590296865004
+  },
+  "\"Salvator Mundi\" by Herbert Howells. Psalm 130, \"Out of the Deep\", by John Rutter. Psalm 121, \"I Will Lift Up My Eyes\", also by Herbert Howells. The words \"Hallelujah\" and \"La il Allah\", by Delius. \"In": {
+    "guess": "Requiem",
+    "confidence": -9.853237954345
+  },
+  "\"Salvator Mundi\" by Herbert Howells. Psalm 130, \"Out of the Deep\", by John Rutter. Psalm 121, \"I Will Lift Up My Eyes\", also by Herbert Howells. The words \"Hallelujah\" and \"La il Allah\", by Delius. \"In Paradisum\", by Gabriel Faure. \"Wie lieb-lich sind dei-ne Woh-nun-gen\", by Johannes Brahms. \"When Lilacs": {
+    "guess": "Requiem",
+    "confidence": -10.078537935449999
+  },
+  "\"Salvator Mundi\" by Herbert Howells. Psalm 130, \"Out of the Deep\", by John Rutter. Psalm 121, \"I Will Lift Up My Eyes\", also by Herbert Howells. The words \"Hallelujah\" and \"La il Allah\", by Delius. \"In Paradisum\", by Gabriel Faure. \"Wie lieb-lich sind dei-ne Woh-nun-gen\", by Johannes Brahms. \"When Lilacs Last in the Dooryard Bloom'd\", by Paul Hindemith. Wilfred Owen's \"Strange Meeting\", by Benjamin": {
+    "guess": "Requiem",
+    "confidence": -6.741471201381939
+  },
+  "\"Salvator Mundi\" by Herbert Howells. Psalm 130, \"Out of the Deep\", by John Rutter. Psalm 121, \"I Will Lift Up My Eyes\", also by Herbert Howells. The words \"Hallelujah\" and \"La il Allah\", by Delius. \"In Paradisum\", by Gabriel Faure. \"Wie lieb-lich sind dei-ne Woh-nun-gen\", by Johannes Brahms. \"When Lilacs Last in the Dooryard Bloom'd\", by Paul Hindemith. Wilfred Owen's \"Strange Meeting\", by Benjamin Britten. All of these are non-traditional texts used in musical settings of, FTP, what Office of the": {
+    "guess": "Requiem",
+    "confidence": -9.0588385240124
+  },
+  "\"Salvator Mundi\" by Herbert Howells. Psalm 130, \"Out of the Deep\", by John Rutter. Psalm 121, \"I Will Lift Up My Eyes\", also by Herbert Howells. The words \"Hallelujah\" and \"La il Allah\", by Delius. \"In Paradisum\", by Gabriel Faure. \"Wie lieb-lich sind dei-ne Woh-nun-gen\", by Johannes Brahms. \"When Lilacs Last in the Dooryard Bloom'd\", by Paul Hindemith. Wilfred Owen's \"Strange Meeting\", by Benjamin Britten. All of these are non-traditional texts used in musical settings of, FTP, what Office of the Dead?": {
+    "guess": "Requiem",
+    "confidence": -6.37582384921557
+  },
+  "Samuel Monk wrote a 1935 work that studied \"critical theories\" of this concept in 18th century England.": {
+    "guess": "The Concept of Criticism",
+    "confidence": -8.64428539965
+  },
+  "Samuel Monk wrote a 1935 work that studied \"critical theories\" of this concept in 18th century England.   One of the earliest descriptions of it in modern times comes from John Dennis, who discussed it": {
+    "guess": "Critical theory",
+    "confidence": -8.162777926882201
+  },
+  "Samuel Monk wrote a 1935 work that studied \"critical theories\" of this concept in 18th century England.   One of the earliest descriptions of it in modern times comes from John Dennis, who discussed it in relation to a Grand Tour of the Alps he had made, while it was said to \"arise from visible objects\"": {
+    "guess": "Electromagnetism",
+    "confidence": -8.596207333565001
+  },
+  "Samuel Monk wrote a 1935 work that studied \"critical theories\" of this concept in 18th century England.   One of the earliest descriptions of it in modern times comes from John Dennis, who discussed it in relation to a Grand Tour of the Alps he had made, while it was said to \"arise from visible objects\" in a work by Joseph Addison.  Jean-Francois Lyotard wrote a work discussing this from a postmodern": {
+    "guess": "Critical Theory",
+    "confidence": -9.26317596613
+  },
+  "Samuel Monk wrote a 1935 work that studied \"critical theories\" of this concept in 18th century England.   One of the earliest descriptions of it in modern times comes from John Dennis, who discussed it in relation to a Grand Tour of the Alps he had made, while it was said to \"arise from visible objects\" in a work by Joseph Addison.  Jean-Francois Lyotard wrote a work discussing this from a postmodern perspective, called \"Lessons on the Analytic of\" this concept.  It was divided into mathematical": {
+    "guess": "Sublime",
+    "confidence": -10.6564950642
+  },
+  "Samuel Monk wrote a 1935 work that studied \"critical theories\" of this concept in 18th century England.   One of the earliest descriptions of it in modern times comes from John Dennis, who discussed it in relation to a Grand Tour of the Alps he had made, while it was said to \"arise from visible objects\" in a work by Joseph Addison.  Jean-Francois Lyotard wrote a work discussing this from a postmodern perspective, called \"Lessons on the Analytic of\" this concept.  It was divided into mathematical and dynamical forms and said to belong to Reason rather than Understanding in Critique of Judgment,": {
+    "guess": "Sublime (philosophy)",
+    "confidence": -2.21465611924
+  },
+  "Samuel Monk wrote a 1935 work that studied \"critical theories\" of this concept in 18th century England.   One of the earliest descriptions of it in modern times comes from John Dennis, who discussed it in relation to a Grand Tour of the Alps he had made, while it was said to \"arise from visible objects\" in a work by Joseph Addison.  Jean-Francois Lyotard wrote a work discussing this from a postmodern perspective, called \"Lessons on the Analytic of\" this concept.  It was divided into mathematical and dynamical forms and said to belong to Reason rather than Understanding in Critique of Judgment, while vastness, obscurity, and terror were associated with this concept by Edmund Burke.  Subject of": {
+    "guess": "Beauty",
+    "confidence": -12.040202721530001
+  },
+  "Samuel Monk wrote a 1935 work that studied \"critical theories\" of this concept in 18th century England.   One of the earliest descriptions of it in modern times comes from John Dennis, who discussed it in relation to a Grand Tour of the Alps he had made, while it was said to \"arise from visible objects\" in a work by Joseph Addison.  Jean-Francois Lyotard wrote a work discussing this from a postmodern perspective, called \"Lessons on the Analytic of\" this concept.  It was divided into mathematical and dynamical forms and said to belong to Reason rather than Understanding in Critique of Judgment, while vastness, obscurity, and terror were associated with this concept by Edmund Burke.  Subject of a treatise by Longinus, FTP,  name this aesthetic notion that both Kant and Burke contrasted with \"the": {
+    "guess": "Sublime",
+    "confidence": -9.3775333032
+  },
+  "Samuel Monk wrote a 1935 work that studied \"critical theories\" of this concept in 18th century England.   One of the earliest descriptions of it in modern times comes from John Dennis, who discussed it in relation to a Grand Tour of the Alps he had made, while it was said to \"arise from visible objects\" in a work by Joseph Addison.  Jean-Francois Lyotard wrote a work discussing this from a postmodern perspective, called \"Lessons on the Analytic of\" this concept.  It was divided into mathematical and dynamical forms and said to belong to Reason rather than Understanding in Critique of Judgment, while vastness, obscurity, and terror were associated with this concept by Edmund Burke.  Subject of a treatise by Longinus, FTP,  name this aesthetic notion that both Kant and Burke contrasted with \"the Beautiful.\"": {
+    "guess": "Sublime",
+    "confidence": -9.782452878600001
+  },
+  "Samuel Chase was impeached for his vigorous prosecution of these laws. William Duane, Matthew Lyon, and": {
+    "guess": "James Callender",
+    "confidence": -9.50286059028
+  },
+  "Samuel Chase was impeached for his vigorous prosecution of these laws. William Duane, Matthew Lyon, and James Callender were among those convicted under these laws, which guard against possible hostilities": {
+    "guess": "Alien and sedition",
+    "confidence": -8.744614408250001
+  },
+  "Samuel Chase was impeached for his vigorous prosecution of these laws. William Duane, Matthew Lyon, and James Callender were among those convicted under these laws, which guard against possible hostilities erupting from the XYZ affair. Opposed by the Virginia and Kentucky Resolutions, they banned publishing": {
+    "guess": "Alien and sedition",
+    "confidence": -8.920991188259999
+  },
+  "Samuel Chase was impeached for his vigorous prosecution of these laws. William Duane, Matthew Lyon, and James Callender were among those convicted under these laws, which guard against possible hostilities erupting from the XYZ affair. Opposed by the Virginia and Kentucky Resolutions, they banned publishing \"false, scandalous, and malicious\" writings. For 10 points, the Naturalization Act and the Enemies": {
+    "guess": "The Naturalization Act and the Enemies",
+    "confidence": -1.49355510457
+  },
+  "Samuel Chase was impeached for his vigorous prosecution of these laws. William Duane, Matthew Lyon, and James Callender were among those convicted under these laws, which guard against possible hostilities erupting from the XYZ affair. Opposed by the Virginia and Kentucky Resolutions, they banned publishing \"false, scandalous, and malicious\" writings. For 10 points, the Naturalization Act and the Enemies Act were part of what set of laws passed by the John Adams administration?": {
+    "guess": "Alien and sedition",
+    "confidence": -8.47784528426
+  },
+  "Sam Green killed Bill Lang over the lynching of this man's half-brother Jesus (HAY-soos). Harry Love": {
+    "guess": "Sam Green",
+    "confidence": -9.284235072
+  },
+  "Sam Green killed Bill Lang over the lynching of this man's half-brother Jesus (HAY-soos). Harry Love led a group of rangers tracking him down. After Love caught up to his group of bandits at Arroyo Cantua,": {
+    "guess": "Sam Green",
+    "confidence": -10.297703057760001
+  },
+  "Sam Green killed Bill Lang over the lynching of this man's half-brother Jesus (HAY-soos). Harry Love led a group of rangers tracking him down. After Love caught up to his group of bandits at Arroyo Cantua, William Byrnes supposedly shot, then decapitated him, although modern historians believe the head": {
+    "guess": "Sam Green",
+    "confidence": -9.289536235759998
+  },
+  "Sam Green killed Bill Lang over the lynching of this man's half-brother Jesus (HAY-soos). Harry Love led a group of rangers tracking him down. After Love caught up to his group of bandits at Arroyo Cantua, William Byrnes supposedly shot, then decapitated him, although modern historians believe the head belonged to an Indian named Chappo. Family history says he died shortly after the attack at a rancho": {
+    "guess": "Sam Green",
+    "confidence": -9.438555245380002
+  },
+  "Sam Green killed Bill Lang over the lynching of this man's half-brother Jesus (HAY-soos). Harry Love led a group of rangers tracking him down. After Love caught up to his group of bandits at Arroyo Cantua, William Byrnes supposedly shot, then decapitated him, although modern historians believe the head belonged to an Indian named Chappo. Family history says he died shortly after the attack at a rancho in Alameda County, insisting that the \"Anglos\" must never know his fate. FTP, name this Chicano": {
+    "guess": "Joaquin Murrieta",
+    "confidence": -8.5779110858
+  },
+  "Sam Green killed Bill Lang over the lynching of this man's half-brother Jesus (HAY-soos). Harry Love led a group of rangers tracking him down. After Love caught up to his group of bandits at Arroyo Cantua, William Byrnes supposedly shot, then decapitated him, although modern historians believe the head belonged to an Indian named Chappo. Family history says he died shortly after the attack at a rancho in Alameda County, insisting that the \"Anglos\" must never know his fate. FTP, name this Chicano folk hero, the subject of the 1936 film The Robin Hood of El Dorado.": {
+    "guess": "Pancho Villa",
+    "confidence": -8.99268921176
+  },
+  "Salt-free conditions prevent stereochemical drift from occurring in this reaction. The conversion of": {
+    "guess": "Wittig reaction",
+    "confidence": -9.034669626009999
+  },
+  "Salt-free conditions prevent stereochemical drift from occurring in this reaction. The conversion of an erythro compound to a threo compound in this reaction changes the stereochemistry of the product": {
+    "guess": "Wittig reaction",
+    "confidence": -8.12393549009
+  },
+  "Salt-free conditions prevent stereochemical drift from occurring in this reaction. The conversion of an erythro compound to a threo compound in this reaction changes the stereochemistry of the product from Z to E in its Schlosser modification. Either a betaine [BEE-tuh-een] or a compound containing a": {
+    "guess": "Georg Wittig",
+    "confidence": -8.168712302735
+  },
+  "Salt-free conditions prevent stereochemical drift from occurring in this reaction. The conversion of an erythro compound to a threo compound in this reaction changes the stereochemistry of the product from Z to E in its Schlosser modification. Either a betaine [BEE-tuh-een] or a compound containing a four-membered ring called oxaphosphetane is the intermediate in this reaction, which begins with a": {
+    "guess": "Schlosser modification",
+    "confidence": -8.5860453512217
+  },
+  "Salt-free conditions prevent stereochemical drift from occurring in this reaction. The conversion of an erythro compound to a threo compound in this reaction changes the stereochemistry of the product from Z to E in its Schlosser modification. Either a betaine [BEE-tuh-een] or a compound containing a four-membered ring called oxaphosphetane is the intermediate in this reaction, which begins with a phosphonium salt being treated with a strong base to give an ylide [IL-id]. For 10 points, name this": {
+    "guess": "Alkene",
+    "confidence": -8.9396510668
+  },
+  "Salt-free conditions prevent stereochemical drift from occurring in this reaction. The conversion of an erythro compound to a threo compound in this reaction changes the stereochemistry of the product from Z to E in its Schlosser modification. Either a betaine [BEE-tuh-een] or a compound containing a four-membered ring called oxaphosphetane is the intermediate in this reaction, which begins with a phosphonium salt being treated with a strong base to give an ylide [IL-id]. For 10 points, name this organic chemistry reaction that converts aldehydes or ketones into alkenes.": {
+    "guess": "The Schlosser modification",
+    "confidence": -7.4814865635003205
+  },
+  "Sammy Singer's friend Lew Rabinowitz dies in this author's novel Closing Time. One of this man's characters": {
+    "guess": "Joseph Heller",
+    "confidence": -9.1917920221093
+  },
+  "Sammy Singer's friend Lew Rabinowitz dies in this author's novel Closing Time. One of this man's characters asks if there are any prayers without reference to God. Colonel Cathcart and the owner of M+M": {
+    "guess": "Joseph Heller",
+    "confidence": -9.4205982655464
+  },
+  "Sammy Singer's friend Lew Rabinowitz dies in this author's novel Closing Time. One of this man's characters asks if there are any prayers without reference to God. Colonel Cathcart and the owner of M+M Enterprises appear in another of his works, in which (*) Major Major Major is promoted because of his": {
+    "guess": "(*) Catch-22",
+    "confidence": -7.5948278495
+  },
+  "Sammy Singer's friend Lew Rabinowitz dies in this author's novel Closing Time. One of this man's characters asks if there are any prayers without reference to God. Colonel Cathcart and the owner of M+M Enterprises appear in another of his works, in which (*) Major Major Major is promoted because of his name and Milo Minderbinder profits from war. For 10 points, name this author who created John Yossarian": {
+    "guess": "Joseph Heller",
+    "confidence": -8.895146548690938
+  },
+  "Sammy Singer's friend Lew Rabinowitz dies in this author's novel Closing Time. One of this man's characters asks if there are any prayers without reference to God. Colonel Cathcart and the owner of M+M Enterprises appear in another of his works, in which (*) Major Major Major is promoted because of his name and Milo Minderbinder profits from war. For 10 points, name this author who created John Yossarian in his novel Catch-22.": {
+    "guess": "Joseph Heller",
+    "confidence": -6.20280349118499
+  },
+  "Sandwiching the metric between this operation and its transpose gives back the metric. The six parametersdescribing": {
+    "guess": "Euler's equation",
+    "confidence": -10.72418306
+  },
+  "Sandwiching the metric between this operation and its transpose gives back the metric. The six parametersdescribing these operations combine with four translational parameters to form the Poincare group.": {
+    "guess": "Group theory",
+    "confidence": -10.218884424600002
+  },
+  "Sandwiching the metric between this operation and its transpose gives back the metric. The six parametersdescribing these operations combine with four translational parameters to form the Poincare group. Theseoperations do not change the invariant interval, which is often written as \"delta s-squared.\"": {
+    "guess": "Poincare group",
+    "confidence": -8.812949911039999
+  },
+  "Sandwiching the metric between this operation and its transpose gives back the metric. The six parametersdescribing these operations combine with four translational parameters to form the Poincare group. Theseoperations do not change the invariant interval, which is often written as \"delta s-squared.\" If these operationsare purely spatial, they correspond to rotations, while those without rotations": {
+    "guess": "The Poincare group",
+    "confidence": -8.254691166908
+  },
+  "Sandwiching the metric between this operation and its transpose gives back the metric. The six parametersdescribing these operations combine with four translational parameters to form the Poincare group. Theseoperations do not change the invariant interval, which is often written as \"delta s-squared.\" If these operationsare purely spatial, they correspond to rotations, while those without rotations are called \"boosts.\" A onedimensionalone of them sets the new position equal to old position minus": {
+    "guess": "The Poincare\u0301 group",
+    "confidence": -1.2219821677149998
+  },
+  "Sandwiching the metric between this operation and its transpose gives back the metric. The six parametersdescribing these operations combine with four translational parameters to form the Poincare group. Theseoperations do not change the invariant interval, which is often written as \"delta s-squared.\" If these operationsare purely spatial, they correspond to rotations, while those without rotations are called \"boosts.\" A onedimensionalone of them sets the new position equal to old position minus velocity times old time, all times itsnamesake's relativistic gamma factor. For 10 points, name these": {
+    "guess": "Special relativity",
+    "confidence": -10.362994321999999
+  },
+  "Sandwiching the metric between this operation and its transpose gives back the metric. The six parametersdescribing these operations combine with four translational parameters to form the Poincare group. Theseoperations do not change the invariant interval, which is often written as \"delta s-squared.\" If these operationsare purely spatial, they correspond to rotations, while those without rotations are called \"boosts.\" A onedimensionalone of them sets the new position equal to old position minus velocity times old time, all times itsnamesake's relativistic gamma factor. For 10 points, name these relativistic transformations that relatecoordinates in different inertial reference frames, named": {
+    "guess": "translations, rotations, boosts, and",
+    "confidence": -1.4874069012
+  },
+  "Sandwiching the metric between this operation and its transpose gives back the metric. The six parametersdescribing these operations combine with four translational parameters to form the Poincare group. Theseoperations do not change the invariant interval, which is often written as \"delta s-squared.\" If these operationsare purely spatial, they correspond to rotations, while those without rotations are called \"boosts.\" A onedimensionalone of them sets the new position equal to old position minus velocity times old time, all times itsnamesake's relativistic gamma factor. For 10 points, name these relativistic transformations that relatecoordinates in different inertial reference frames, named for a Dutch physicist. ": {
+    "guess": "",
+    "confidence": -4.2043253977039985
+  },
+  "In 2000, a sanctuary for these creatures was established on the Coromandel peninsula. Eco-activistPhilip": {
+    "guess": "Eco-activist Philip",
+    "confidence": -8.3678002953
+  },
+  "In 2000, a sanctuary for these creatures was established on the Coromandel peninsula. Eco-activistPhilip Anderton faked the death of one of these creatures to inspire outrage against the pesticide 1080,which": {
+    "guess": "The Kudu",
+    "confidence": -13.142219045
+  },
+  "In 2000, a sanctuary for these creatures was established on the Coromandel peninsula. Eco-activistPhilip Anderton faked the death of one of these creatures to inspire outrage against the pesticide 1080,which has little effect on them. A giant one of these creatures was carved in chalk on Sling Hill in": {
+    "guess": "Dragons",
+    "confidence": -12.440988051500002
+  },
+  "In 2000, a sanctuary for these creatures was established on the Coromandel peninsula. Eco-activistPhilip Anderton faked the death of one of these creatures to inspire outrage against the pesticide 1080,which has little effect on them. A giant one of these creatures was carved in chalk on Sling Hill in Englandby visiting soldiers. These creatures, the smallest ratites, include a small brown-colored": {
+    "guess": "Ratite",
+    "confidence": -11.680593245
+  },
+  "In 2000, a sanctuary for these creatures was established on the Coromandel peninsula. Eco-activistPhilip Anderton faked the death of one of these creatures to inspire outrage against the pesticide 1080,which has little effect on them. A giant one of these creatures was carved in chalk on Sling Hill in Englandby visiting soldiers. These creatures, the smallest ratites, include a small brown-colored population whichoutlasted a now-extinct eagle in the Haast area. The (*) tokoeka and rowi are varieties": {
+    "guess": "Rowi",
+    "confidence": -11.301944144
+  },
+  "In 2000, a sanctuary for these creatures was established on the Coromandel peninsula. Eco-activistPhilip Anderton faked the death of one of these creatures to inspire outrage against the pesticide 1080,which has little effect on them. A giant one of these creatures was carved in chalk on Sling Hill in Englandby visiting soldiers. These creatures, the smallest ratites, include a small brown-colored population whichoutlasted a now-extinct eagle in the Haast area. The (*) tokoeka and rowi are varieties of these birds, which aredistantly related to the predatory moa which once walked the same islands.": {
+    "guess": "Kiwis",
+    "confidence": -11.82906128
+  },
+  "In 2000, a sanctuary for these creatures was established on the Coromandel peninsula. Eco-activistPhilip Anderton faked the death of one of these creatures to inspire outrage against the pesticide 1080,which has little effect on them. A giant one of these creatures was carved in chalk on Sling Hill in Englandby visiting soldiers. These creatures, the smallest ratites, include a small brown-colored population whichoutlasted a now-extinct eagle in the Haast area. The (*) tokoeka and rowi are varieties of these birds, which aredistantly related to the predatory moa which once walked the same islands. Cloaks made from them were describedby James Cook. For 10 points, name these enormous-egged flightless": {
+    "guess": "Giant Ratites",
+    "confidence": -12.206690001499998
+  },
+  "In 2000, a sanctuary for these creatures was established on the Coromandel peninsula. Eco-activistPhilip Anderton faked the death of one of these creatures to inspire outrage against the pesticide 1080,which has little effect on them. A giant one of these creatures was carved in chalk on Sling Hill in Englandby visiting soldiers. These creatures, the smallest ratites, include a small brown-colored population whichoutlasted a now-extinct eagle in the Haast area. The (*) tokoeka and rowi are varieties of these birds, which aredistantly related to the predatory moa which once walked the same islands. Cloaks made from them were describedby James Cook. For 10 points, name these enormous-egged flightless birds, whose name is also used to refer tohuman New Zealanders. ": {
+    "guess": "Kiwis",
+    "confidence": -9.658444083000001
+  },
+  "A Samuel Huntington book analyzes the professionalization of this institution since the 17th century.": {
+    "guess": "Huntington's",
+    "confidence": -3.6345770779999995
+  },
+  "A Samuel Huntington book analyzes the professionalization of this institution since the 17th century. The Human Terrain System was criticized by anthropologists for its connections to this institution.": {
+    "guess": "The military",
+    "confidence": -11.039136527000002
+  },
+  "A Samuel Huntington book analyzes the professionalization of this institution since the 17th century. The Human Terrain System was criticized by anthropologists for its connections to this institution. The May 15th Incident is an example of gekokujo, or overthrowing one's superiors, within this institution": {
+    "guess": "Military",
+    "confidence": -11.556953190000002
+  },
+  "A Samuel Huntington book analyzes the professionalization of this institution since the 17th century. The Human Terrain System was criticized by anthropologists for its connections to this institution. The May 15th Incident is an example of gekokujo, or overthrowing one's superiors, within this institution in Japan. The first clause of Article Two Section Two of the Constitution gives the President": {
+    "guess": "The Prime Minister",
+    "confidence": -9.415889339559998
+  },
+  "A Samuel Huntington book analyzes the professionalization of this institution since the 17th century. The Human Terrain System was criticized by anthropologists for its connections to this institution. The May 15th Incident is an example of gekokujo, or overthrowing one's superiors, within this institution in Japan. The first clause of Article Two Section Two of the Constitution gives the President (*) control over this institution. Dwight Eisenhower's Farewell Address warns of a complex created": {
+    "guess": "The military",
+    "confidence": -11.2864106
+  },
+  "A Samuel Huntington book analyzes the professionalization of this institution since the 17th century. The Human Terrain System was criticized by anthropologists for its connections to this institution. The May 15th Incident is an example of gekokujo, or overthrowing one's superiors, within this institution in Japan. The first clause of Article Two Section Two of the Constitution gives the President (*) control over this institution. Dwight Eisenhower's Farewell Address warns of a complex created through the alliance of industry with this institution. In the United States, this institution is subject": {
+    "guess": "Military",
+    "confidence": -11.312855970000001
+  },
+  "A Samuel Huntington book analyzes the professionalization of this institution since the 17th century. The Human Terrain System was criticized by anthropologists for its connections to this institution. The May 15th Incident is an example of gekokujo, or overthrowing one's superiors, within this institution in Japan. The first clause of Article Two Section Two of the Constitution gives the President (*) control over this institution. Dwight Eisenhower's Farewell Address warns of a complex created through the alliance of industry with this institution. In the United States, this institution is subject to civilian control. For 10 points, name this institution controlled in the US by the Department": {
+    "guess": "Department of Defense",
+    "confidence": -8.318199357954999
+  },
+  "A Samuel Huntington book analyzes the professionalization of this institution since the 17th century. The Human Terrain System was criticized by anthropologists for its connections to this institution. The May 15th Incident is an example of gekokujo, or overthrowing one's superiors, within this institution in Japan. The first clause of Article Two Section Two of the Constitution gives the President (*) control over this institution. Dwight Eisenhower's Farewell Address warns of a complex created through the alliance of industry with this institution. In the United States, this institution is subject to civilian control. For 10 points, name this institution controlled in the US by the Department of Defense that includes branches like the Coast Guard, Marines, and Army.": {
+    "guess": "Department of Defense",
+    "confidence": -6.86830460306694
+  }
+}

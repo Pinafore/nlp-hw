@@ -1,0 +1,166 @@
+{
+  "In image processing, this statistic is used to reduce salt-and-pepper noise. It can be estimated by Pareto": {
+    "guess": "Pareto",
+    "confidence": -8.971091720948
+  },
+  "In image processing, this statistic is used to reduce salt-and-pepper noise. It can be estimated by Pareto interpola- tion, and for continuous distributions this statistic cannot be more than one standard": {
+    "guess": "Mean",
+    "confidence": -12.694706686
+  },
+  "In image processing, this statistic is used to reduce salt-and-pepper noise. It can be estimated by Pareto interpola- tion, and for continuous distributions this statistic cannot be more than one standard deviation from the mean. For a distribution, this is the point that minimizes the average of the": {
+    "guess": "Mean",
+    "confidence": -11.994795430000002
+  },
+  "In image processing, this statistic is used to reduce salt-and-pepper noise. It can be estimated by Pareto interpola- tion, and for continuous distributions this statistic cannot be more than one standard deviation from the mean. For a distribution, this is the point that minimizes the average of the absolute deviations. It can be defined as the spot where the cumulative distribution function equals": {
+    "guess": "",
+    "confidence": -10.4783066343
+  },
+  "In image processing, this statistic is used to reduce salt-and-pepper noise. It can be estimated by Pareto interpola- tion, and for continuous distributions this statistic cannot be more than one standard deviation from the mean. For a distribution, this is the point that minimizes the average of the absolute deviations. It can be defined as the spot where the cumulative distribution function equals one half. A measure of central tendency, it is less sensitive to outliers than the mean. Name this": {
+    "guess": "Mean",
+    "confidence": -11.640575799
+  },
+  "In image processing, this statistic is used to reduce salt-and-pepper noise. It can be estimated by Pareto interpola- tion, and for continuous distributions this statistic cannot be more than one standard deviation from the mean. For a distribution, this is the point that minimizes the average of the absolute deviations. It can be defined as the spot where the cumulative distribution function equals one half. A measure of central tendency, it is less sensitive to outliers than the mean. Name this value that can be found by finding the value at the fiftieth percentile or, for finite sets with an": {
+    "guess": "Median",
+    "confidence": -12.087094254
+  },
+  "In image processing, this statistic is used to reduce salt-and-pepper noise. It can be estimated by Pareto interpola- tion, and for continuous distributions this statistic cannot be more than one standard deviation from the mean. For a distribution, this is the point that minimizes the average of the absolute deviations. It can be defined as the spot where the cumulative distribution function equals one half. A measure of central tendency, it is less sensitive to outliers than the mean. Name this value that can be found by finding the value at the fiftieth percentile or, for finite sets with an odd number of elements, the middle number of the set.": {
+    "guess": "Median",
+    "confidence": -11.2112912408
+  },
+  "The image of this figure on his mount is associated with three interlocking triangles, the Valknut. This": {
+    "guess": "Triangles",
+    "confidence": -10.0710727082
+  },
+  "The image of this figure on his mount is associated with three interlocking triangles, the Valknut. This god worked for Baugi and seduced Gunnlod to obtain a substance made from Kvasir's blood. Along with": {
+    "guess": "Odin",
+    "confidence": -10.3552543898
+  },
+  "The image of this figure on his mount is associated with three interlocking triangles, the Valknut. This god worked for Baugi and seduced Gunnlod to obtain a substance made from Kvasir's blood. Along with Vili and Ve, this god was the son of Borr and Bestla. This god's possessions include the throne": {
+    "guess": "Odin",
+    "confidence": -10.303810347399999
+  },
+  "The image of this figure on his mount is associated with three interlocking triangles, the Valknut. This god worked for Baugi and seduced Gunnlod to obtain a substance made from Kvasir's blood. Along with Vili and Ve, this god was the son of Borr and Bestla. This god's possessions include the throne Hlidskjalf and the ring Draupnir. This god receives half of the Einherjar in Valhalla, where they are": {
+    "guess": "Odin",
+    "confidence": -10.342218373549999
+  },
+  "The image of this figure on his mount is associated with three interlocking triangles, the Valknut. This god worked for Baugi and seduced Gunnlod to obtain a substance made from Kvasir's blood. Along with Vili and Ve, this god was the son of Borr and Bestla. This god's possessions include the throne Hlidskjalf and the ring Draupnir. This god receives half of the Einherjar in Valhalla, where they are served by his Valkyrie messengers. After making a trip to Mimir's Well, this god lost one eye. Huginn": {
+    "guess": "Odin",
+    "confidence": -10.452846013970001
+  },
+  "The image of this figure on his mount is associated with three interlocking triangles, the Valknut. This god worked for Baugi and seduced Gunnlod to obtain a substance made from Kvasir's blood. Along with Vili and Ve, this god was the son of Borr and Bestla. This god's possessions include the throne Hlidskjalf and the ring Draupnir. This god receives half of the Einherjar in Valhalla, where they are served by his Valkyrie messengers. After making a trip to Mimir's Well, this god lost one eye. Huginn and Muninn are ravens loyal to, for 10 points, what chief Norse deity?": {
+    "guess": "Odin",
+    "confidence": -10.423953832599999
+  },
+  "This image includes a man in a pointy black hat using a comically oversized knife to retrieve a roasted": {
+    "guess": "Roast Pig",
+    "confidence": -7.3215909375192
+  },
+  "This image includes a man in a pointy black hat using a comically oversized knife to retrieve a roasted chicken, two overturned jugs, and an effigy of an old woman's head on the top of a walking stick.": {
+    "guess": "The Scream",
+    "confidence": -7.727615190871939
+  },
+  "This image includes a man in a pointy black hat using a comically oversized knife to retrieve a roasted chicken, two overturned jugs, and an effigy of an old woman's head on the top of a walking stick. At the top are a mask in a tree and a long yellow banner with a crescent on it. A monk is divided from": {
+    "guess": "Vincent van Gogh",
+    "confidence": -7.599596470903701
+  },
+  "This image includes a man in a pointy black hat using a comically oversized knife to retrieve a roasted chicken, two overturned jugs, and an effigy of an old woman's head on the top of a walking stick. At the top are a mask in a tree and a long yellow banner with a crescent on it. A monk is divided from a nun playing a lute by a hanging loaf of bread, and their table hangs over the head of one of two": {
+    "guess": "The Last Supper",
+    "confidence": -8.868814997761001
+  },
+  "This image includes a man in a pointy black hat using a comically oversized knife to retrieve a roasted chicken, two overturned jugs, and an effigy of an old woman's head on the top of a walking stick. At the top are a mask in a tree and a long yellow banner with a crescent on it. A monk is divided from a nun playing a lute by a hanging loaf of bread, and their table hangs over the head of one of two figures begging for food from the water, while only one of the twelve figures in the painting appears": {
+    "guess": "The Last Supper",
+    "confidence": -9.1071051776812
+  },
+  "This image includes a man in a pointy black hat using a comically oversized knife to retrieve a roasted chicken, two overturned jugs, and an effigy of an old woman's head on the top of a walking stick. At the top are a mask in a tree and a long yellow banner with a crescent on it. A monk is divided from a nun playing a lute by a hanging loaf of bread, and their table hangs over the head of one of two figures begging for food from the water, while only one of the twelve figures in the painting appears interested in the direction of the oar. For 10 points, name this Hieronymus Bosch painting condemning": {
+    "guess": "The Last Supper",
+    "confidence": -7.3281522933979995
+  },
+  "This image includes a man in a pointy black hat using a comically oversized knife to retrieve a roasted chicken, two overturned jugs, and an effigy of an old woman's head on the top of a walking stick. At the top are a mask in a tree and a long yellow banner with a crescent on it. A monk is divided from a nun playing a lute by a hanging loaf of bread, and their table hangs over the head of one of two figures begging for food from the water, while only one of the twelve figures in the painting appears interested in the direction of the oar. For 10 points, name this Hieronymus Bosch painting condemning human folly.": {
+    "guess": "The Last Supper",
+    "confidence": -7.2490437174375
+  },
+  "An image of this figure swallowing someone else is carved on Thorwald's Cross, and the river Van was": {
+    "guess": "Odin",
+    "confidence": -12.064002581999999
+  },
+  "An image of this figure swallowing someone else is carved on Thorwald's Cross, and the river Van was created from his saliva. He managed to break Laeding and Dromi before the dwarves made an object from": {
+    "guess": "Fenrir",
+    "confidence": -10.316367705600001
+  },
+  "An image of this figure swallowing someone else is carved on Thorwald's Cross, and the river Van was created from his saliva. He managed to break Laeding and Dromi before the dwarves made an object from things like the roots of a mountain and the footsteps of a cat. This son of the giantess Angrboda": {
+    "guess": "Fenrir",
+    "confidence": -6.415981590872869
+  },
+  "An image of this figure swallowing someone else is carved on Thorwald's Cross, and the river Van was created from his saliva. He managed to break Laeding and Dromi before the dwarves made an object from things like the roots of a mountain and the footsteps of a cat. This son of the giantess Angrboda fathered Skoll and Hati, two children who will eventually (*) eat the Sun and Moon. This creature's": {
+    "guess": "Fenrir",
+    "confidence": -6.782887712673699
+  },
+  "An image of this figure swallowing someone else is carved on Thorwald's Cross, and the river Van was created from his saliva. He managed to break Laeding and Dromi before the dwarves made an object from things like the roots of a mountain and the footsteps of a cat. This son of the giantess Angrboda fathered Skoll and Hati, two children who will eventually (*) eat the Sun and Moon. This creature's mouth is ripped open with a leather shoe by Vidar for killing Odin at Ragnarok, and he bit off the right": {
+    "guess": "Loki",
+    "confidence": -6.337845884238
+  },
+  "An image of this figure swallowing someone else is carved on Thorwald's Cross, and the river Van was created from his saliva. He managed to break Laeding and Dromi before the dwarves made an object from things like the roots of a mountain and the footsteps of a cat. This son of the giantess Angrboda fathered Skoll and Hati, two children who will eventually (*) eat the Sun and Moon. This creature's mouth is ripped open with a leather shoe by Vidar for killing Odin at Ragnarok, and he bit off the right hand of Tyr after being unable to break the chain Gleipnir. For ten points, name this son of Loki,": {
+    "guess": "Fenrir",
+    "confidence": -6.4571108616717
+  },
+  "An image of this figure swallowing someone else is carved on Thorwald's Cross, and the river Van was created from his saliva. He managed to break Laeding and Dromi before the dwarves made an object from things like the roots of a mountain and the footsteps of a cat. This son of the giantess Angrboda fathered Skoll and Hati, two children who will eventually (*) eat the Sun and Moon. This creature's mouth is ripped open with a leather shoe by Vidar for killing Odin at Ragnarok, and he bit off the right hand of Tyr after being unable to break the chain Gleipnir. For ten points, name this son of Loki, a monstrous wolf in Norse mythology.": {
+    "guess": "Fenrir",
+    "confidence": -6.155335325787001
+  },
+  "His image first became known to the world on December 13, 1968, when he  appeared on the cover of Time": {
+    "guess": "Robert Lowell",
+    "confidence": -9.878811875
+  },
+  "His image first became known to the world on December 13, 1968, when he  appeared on the cover of Time Magazine. The event covered was the Battle of  Karemeh, in which Israeli Defense Forces attacked Fatah's": {
+    "guess": "Gamal Abdel Nasser",
+    "confidence": -6.9206428777
+  },
+  "His image first became known to the world on December 13, 1968, when he  appeared on the cover of Time Magazine. The event covered was the Battle of  Karemeh, in which Israeli Defense Forces attacked Fatah's headquarters in Jordan.  In 1970, he was forced by Arab leaders to apologize for his role in": {
+    "guess": "Yitzhak Rabin",
+    "confidence": -6.53769499206
+  },
+  "His image first became known to the world on December 13, 1968, when he  appeared on the cover of Time Magazine. The event covered was the Battle of  Karemeh, in which Israeli Defense Forces attacked Fatah's headquarters in Jordan.  In 1970, he was forced by Arab leaders to apologize for his role in the Black  September uprisings. Over twenty years later, he shared the Nobel Peace Prize with  Israeli": {
+    "guess": "Yitzhak Rabin",
+    "confidence": -6.451616624415999
+  },
+  "His image first became known to the world on December 13, 1968, when he  appeared on the cover of Time Magazine. The event covered was the Battle of  Karemeh, in which Israeli Defense Forces attacked Fatah's headquarters in Jordan.  In 1970, he was forced by Arab leaders to apologize for his role in the Black  September uprisings. Over twenty years later, he shared the Nobel Peace Prize with  Israeli Prime Minister Yitzhak Rabin for his peace-making efforts in the Oslo  Accords. FTP name this longtime": {
+    "guess": "Yitzhak Rabin",
+    "confidence": -6.711519863124
+  },
+  "His image first became known to the world on December 13, 1968, when he  appeared on the cover of Time Magazine. The event covered was the Battle of  Karemeh, in which Israeli Defense Forces attacked Fatah's headquarters in Jordan.  In 1970, he was forced by Arab leaders to apologize for his role in the Black  September uprisings. Over twenty years later, he shared the Nobel Peace Prize with  Israeli Prime Minister Yitzhak Rabin for his peace-making efforts in the Oslo  Accords. FTP name this longtime Chairman of the PLO.": {
+    "guess": "Yasser Arafat",
+    "confidence": -8.052289645630001
+  },
+  "One image in this poem describes men \"who walked all night with their shoes full of blood\" before finding": {
+    "guess": "The Waste Land",
+    "confidence": -10.485173525999999
+  },
+  "One image in this poem describes men \"who walked all night with their shoes full of blood\" before finding a room full of \"steamheat and opium.\"\u00a0 Another image contemplates men that \"ate lamb stem of the": {
+    "guess": "\"Herbert Huncke's condition",
+    "confidence": -1.3949277427745
+  },
+  "One image in this poem describes men \"who walked all night with their shoes full of blood\" before finding a room full of \"steamheat and opium.\"\u00a0 Another image contemplates men that \"ate lamb stem of the imagination\" and dreamed \"of the pure vegetable kingdom.\"\u00a0 It compares sailors to \"American seraphim\"": {
+    "guess": "Roy Lichtenstein",
+    "confidence": -6.883984593655
+  },
+  "One image in this poem describes men \"who walked all night with their shoes full of blood\" before finding a room full of \"steamheat and opium.\"\u00a0 Another image contemplates men that \"ate lamb stem of the imagination\" and dreamed \"of the pure vegetable kingdom.\"\u00a0 It compares sailors to \"American seraphim\" before describing a \"blond and naked angel\" in a Turkish bath.\u00a0 The second part of this poem recites": {
+    "guess": "Howl",
+    "confidence": -6.45901282647494
+  },
+  "One image in this poem describes men \"who walked all night with their shoes full of blood\" before finding a room full of \"steamheat and opium.\"\u00a0 Another image contemplates men that \"ate lamb stem of the imagination\" and dreamed \"of the pure vegetable kingdom.\"\u00a0 It compares sailors to \"American seraphim\" before describing a \"blond and naked angel\" in a Turkish bath.\u00a0 The second part of this poem recites names for one figure such as \"the incomprehensible prison\" and \"whose fate is a cloud of sexless": {
+    "guess": "Howl",
+    "confidence": -6.09989189546194
+  },
+  "One image in this poem describes men \"who walked all night with their shoes full of blood\" before finding a room full of \"steamheat and opium.\"\u00a0 Another image contemplates men that \"ate lamb stem of the imagination\" and dreamed \"of the pure vegetable kingdom.\"\u00a0 It compares sailors to \"American seraphim\" before describing a \"blond and naked angel\" in a Turkish bath.\u00a0 The second part of this poem recites names for one figure such as \"the incomprehensible prison\" and \"whose fate is a cloud of sexless hydrogen\" while the third part is a plea to another figure in Rockland--those figures are Moloch and": {
+    "guess": "Howl",
+    "confidence": -6.040233508514199
+  },
+  "One image in this poem describes men \"who walked all night with their shoes full of blood\" before finding a room full of \"steamheat and opium.\"\u00a0 Another image contemplates men that \"ate lamb stem of the imagination\" and dreamed \"of the pure vegetable kingdom.\"\u00a0 It compares sailors to \"American seraphim\" before describing a \"blond and naked angel\" in a Turkish bath.\u00a0 The second part of this poem recites names for one figure such as \"the incomprehensible prison\" and \"whose fate is a cloud of sexless hydrogen\" while the third part is a plea to another figure in Rockland--those figures are Moloch and Carl Solomon respectively.\u00a0 For 10 points, name this Ginsberg poem that begins \"I saw the best minds": {
+    "guess": "Howl",
+    "confidence": -6.0757810315751986
+  },
+  "One image in this poem describes men \"who walked all night with their shoes full of blood\" before finding a room full of \"steamheat and opium.\"\u00a0 Another image contemplates men that \"ate lamb stem of the imagination\" and dreamed \"of the pure vegetable kingdom.\"\u00a0 It compares sailors to \"American seraphim\" before describing a \"blond and naked angel\" in a Turkish bath.\u00a0 The second part of this poem recites names for one figure such as \"the incomprehensible prison\" and \"whose fate is a cloud of sexless hydrogen\" while the third part is a plea to another figure in Rockland--those figures are Moloch and Carl Solomon respectively.\u00a0 For 10 points, name this Ginsberg poem that begins \"I saw the best minds of my generation destroyed by madness.\"": {
+    "guess": "Howl",
+    "confidence": -6.09374718614694
+  }
+}

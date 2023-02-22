@@ -1,0 +1,46 @@
+{
+  "In x86 architectures, the frame pointer and a pointer by this name are used to access local variables": {
+    "guess": "Pointer",
+    "confidence": -9.423880096799998
+  },
+  "In x86 architectures, the frame pointer and a pointer by this name are used to access local variables and function information. Factor and Forth are languages based on the structure by this name. Operations": {
+    "guess": "Pointer",
+    "confidence": -9.6054695335
+  },
+  "In x86 architectures, the frame pointer and a pointer by this name are used to access local variables and function information. Factor and Forth are languages based on the structure by this name. Operations in reverse Polish notation and other postfix systems are implemented using the data structure": {
+    "guess": "Stack (abstract data type)",
+    "confidence": -2.3832512404650004
+  },
+  "In x86 architectures, the frame pointer and a pointer by this name are used to access local variables and function information. Factor and Forth are languages based on the structure by this name. Operations in reverse Polish notation and other postfix systems are implemented using the data structure of this name. The canonical machine that decides context-free grammars contains one instance of this": {
+    "guess": "Frame pointer",
+    "confidence": -9.890270158000002
+  },
+  "In x86 architectures, the frame pointer and a pointer by this name are used to access local variables and function information. Factor and Forth are languages based on the structure by this name. Operations in reverse Polish notation and other postfix systems are implemented using the data structure of this name. The canonical machine that decides context-free grammars contains one instance of this data structure. This data structure can be inspected but not modified using the top operation, but": {
+    "guess": "Heap",
+    "confidence": -9.925224388
+  },
+  "In x86 architectures, the frame pointer and a pointer by this name are used to access local variables and function information. Factor and Forth are languages based on the structure by this name. Operations in reverse Polish notation and other postfix systems are implemented using the data structure of this name. The canonical machine that decides context-free grammars contains one instance of this data structure. This data structure can be inspected but not modified using the top operation, but is built up and broken down using the operations push and pop. For 10 points, name this data structure": {
+    "guess": "Stack",
+    "confidence": -11.038116599999999
+  },
+  "In x86 architectures, the frame pointer and a pointer by this name are used to access local variables and function information. Factor and Forth are languages based on the structure by this name. Operations in reverse Polish notation and other postfix systems are implemented using the data structure of this name. The canonical machine that decides context-free grammars contains one instance of this data structure. This data structure can be inspected but not modified using the top operation, but is built up and broken down using the operations push and pop. For 10 points, name this data structure that implements first-in last-out ordering, as contrasted with a queue.": {
+    "guess": "DEqueue",
+    "confidence": -11.460975987000001
+  },
+  "As x approaches infinity, this function of x approaches e-to-the-x-power over two.  It ranges up to infinity": {
+    "guess": "Exponential function",
+    "confidence": -8.899755889500002
+  },
+  "As x approaches infinity, this function of x approaches e-to-the-x-power over two.  It ranges up to infinity but never takes a value lower than one.  It describes the shape of a hanging cable-the caternary-and": {
+    "guess": "Exponential function",
+    "confidence": -9.148141097
+  },
+  "As x approaches infinity, this function of x approaches e-to-the-x-power over two.  It ranges up to infinity but never takes a value lower than one.  It describes the shape of a hanging cable-the caternary-and it repeats itself every 2-pi-i radians in complex space.  FTP, name this hyperbolic function,": {
+    "guess": "e-to-the-x-",
+    "confidence": -2.3961790815139996
+  },
+  "As x approaches infinity, this function of x approaches e-to-the-x-power over two.  It ranges up to infinity but never takes a value lower than one.  It describes the shape of a hanging cable-the caternary-and it repeats itself every 2-pi-i radians in complex space.  FTP, name this hyperbolic function, defined as one-half times (e to the x) plus (e to the minus x).": {
+    "guess": "e^x",
+    "confidence": -10.341688434999998
+  }
+}

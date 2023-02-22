@@ -1,0 +1,26 @@
+{
+  "HDA is a low temperature alternative to this process that fails for high BP count, and speed can be increased": {
+    "guess": "High-density polyethylene",
+    "confidence": -6.21684612022
+  },
+  "HDA is a low temperature alternative to this process that fails for high BP count, and speed can be increased in hot-start variants. The Klenow fragment was the original enzyme used in this process, though": {
+    "guess": "DNA replication",
+    "confidence": -9.070337624099999
+  },
+  "HDA is a low temperature alternative to this process that fails for high BP count, and speed can be increased in hot-start variants. The Klenow fragment was the original enzyme used in this process, though its instability at high temperatures led it to be replaced by the homologous protein from Thermus": {
+    "guess": "High-density oligonucleotide",
+    "confidence": -2.805177788946
+  },
+  "HDA is a low temperature alternative to this process that fails for high BP count, and speed can be increased in hot-start variants. The Klenow fragment was the original enzyme used in this process, though its instability at high temperatures led it to be replaced by the homologous protein from Thermus aquaticus. This process occurs via repeated steps of thermal cycling through denaturing, annealing,": {
+    "guess": "HDA",
+    "confidence": -9.765504055799997
+  },
+  "HDA is a low temperature alternative to this process that fails for high BP count, and speed can be increased in hot-start variants. The Klenow fragment was the original enzyme used in this process, though its instability at high temperatures led it to be replaced by the homologous protein from Thermus aquaticus. This process occurs via repeated steps of thermal cycling through denaturing, annealing, and elongating phases. That enzyme adds nucleotide bases to match a template strand, forming a copy.": {
+    "guess": "DNA replication",
+    "confidence": -9.1391850663
+  },
+  "HDA is a low temperature alternative to this process that fails for high BP count, and speed can be increased in hot-start variants. The Klenow fragment was the original enzyme used in this process, though its instability at high temperatures led it to be replaced by the homologous protein from Thermus aquaticus. This process occurs via repeated steps of thermal cycling through denaturing, annealing, and elongating phases. That enzyme adds nucleotide bases to match a template strand, forming a copy. For 10 points, name this technique to create many copies of a single piece of DNA.": {
+    "guess": "Polymerase chain reaction",
+    "confidence": -7.07505002746
+  }
+}

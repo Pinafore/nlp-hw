@@ -1,0 +1,334 @@
+{
+  "In 1993, Peter Shor demonstrated that a quantum computer would render it obsolete. Daniel Ble-ichenbacher": {
+    "guess": "Algorithm",
+    "confidence": -10.132122861500001
+  },
+  "In 1993, Peter Shor demonstrated that a quantum computer would render it obsolete. Daniel Ble-ichenbacher described the first practical adaptive chosen cyphertext attack against it using a redundancy function,": {
+    "guess": "False",
+    "confidence": -12.73516153
+  },
+  "In 1993, Peter Shor demonstrated that a quantum computer would render it obsolete. Daniel Ble-ichenbacher described the first practical adaptive chosen cyphertext attack against it using a redundancy function, and a method called blinding is used to thwart timing attacks. It is slower than DES and other": {
+    "guess": "Polynomial",
+    "confidence": -8.416097968599999
+  },
+  "In 1993, Peter Shor demonstrated that a quantum computer would render it obsolete. Daniel Ble-ichenbacher described the first practical adaptive chosen cyphertext attack against it using a redundancy function, and a method called blinding is used to thwart timing attacks. It is slower than DES and other symmetric cryptosystems, and it is important that the prime numbers used for it not be too close,": {
+    "guess": "Infinity",
+    "confidence": -12.017591703999999
+  },
+  "In 1993, Peter Shor demonstrated that a quantum computer would render it obsolete. Daniel Ble-ichenbacher described the first practical adaptive chosen cyphertext attack against it using a redundancy function, and a method called blinding is used to thwart timing attacks. It is slower than DES and other symmetric cryptosystems, and it is important that the prime numbers used for it not be too close, which would allow attackers to find the by means of Fermat factorization. Since the 512-bit modulus": {
+    "guess": "Shor's algorithm",
+    "confidence": -9.674042566299999
+  },
+  "In 1993, Peter Shor demonstrated that a quantum computer would render it obsolete. Daniel Ble-ichenbacher described the first practical adaptive chosen cyphertext attack against it using a redundancy function, and a method called blinding is used to thwart timing attacks. It is slower than DES and other symmetric cryptosystems, and it is important that the prime numbers used for it not be too close, which would allow attackers to find the by means of Fermat factorization. Since the 512-bit modulus was broken in 1999, it is recommended that moduli be at least 1024 bits long. Consisting of a system": {
+    "guess": "Cryptography",
+    "confidence": -10.560165741
+  },
+  "In 1993, Peter Shor demonstrated that a quantum computer would render it obsolete. Daniel Ble-ichenbacher described the first practical adaptive chosen cyphertext attack against it using a redundancy function, and a method called blinding is used to thwart timing attacks. It is slower than DES and other symmetric cryptosystems, and it is important that the prime numbers used for it not be too close, which would allow attackers to find the by means of Fermat factorization. Since the 512-bit modulus was broken in 1999, it is recommended that moduli be at least 1024 bits long. Consisting of a system of private and public keys, FTP, what is this encryption system named for its inventors, Ron Rivest,": {
+    "guess": "RSA",
+    "confidence": -10.91630728
+  },
+  "In 1993, Peter Shor demonstrated that a quantum computer would render it obsolete. Daniel Ble-ichenbacher described the first practical adaptive chosen cyphertext attack against it using a redundancy function, and a method called blinding is used to thwart timing attacks. It is slower than DES and other symmetric cryptosystems, and it is important that the prime numbers used for it not be too close, which would allow attackers to find the by means of Fermat factorization. Since the 512-bit modulus was broken in 1999, it is recommended that moduli be at least 1024 bits long. Consisting of a system of private and public keys, FTP, what is this encryption system named for its inventors, Ron Rivest, Adi Shamir, and Leonard Adleman.": {
+    "guess": "RSA",
+    "confidence": -10.705583601
+  },
+  "The Pesin identity shows that the Kolmogorov-Sinai entropy is equal to the sum of these in a dynamical": {
+    "guess": "Chaos theory",
+    "confidence": -10.185250503999999
+  },
+  "The Pesin identity shows that the Kolmogorov-Sinai entropy is equal to the sum of these in a dynamical system, while the Osedelec theorem gives them for an n-dimensional map. For Hamiltonian systems, they": {
+    "guess": "Chaos theory",
+    "confidence": -9.644130455000003
+  },
+  "The Pesin identity shows that the Kolmogorov-Sinai entropy is equal to the sum of these in a dynamical system, while the Osedelec theorem gives them for an n-dimensional map. For Hamiltonian systems, they exist in additive invers pairs and one of these is always 0 for any system. They are never negative,": {
+    "guess": "Chaos theory",
+    "confidence": -10.614556879
+  },
+  "The Pesin identity shows that the Kolmogorov-Sinai entropy is equal to the sum of these in a dynamical system, while the Osedelec theorem gives them for an n-dimensional map. For Hamiltonian systems, they exist in additive invers pairs and one of these is always 0 for any system. They are never negative, which is why convergence of orbits is never observed in Hamiltonian systems, and a positive value": {
+    "guess": "Entropy",
+    "confidence": -10.4770795357
+  },
+  "The Pesin identity shows that the Kolmogorov-Sinai entropy is equal to the sum of these in a dynamical system, while the Osedelec theorem gives them for an n-dimensional map. For Hamiltonian systems, they exist in additive invers pairs and one of these is always 0 for any system. They are never negative, which is why convergence of orbits is never observed in Hamiltonian systems, and a positive value for these values indicates that the system is not integrable. For ten points, what is this quantity,": {
+    "guess": "The KAM theorem states that integr",
+    "confidence": -2.8311772384762
+  },
+  "The Pesin identity shows that the Kolmogorov-Sinai entropy is equal to the sum of these in a dynamical system, while the Osedelec theorem gives them for an n-dimensional map. For Hamiltonian systems, they exist in additive invers pairs and one of these is always 0 for any system. They are never negative, which is why convergence of orbits is never observed in Hamiltonian systems, and a positive value for these values indicates that the system is not integrable. For ten points, what is this quantity, which describes the rate at which two initially-close trajectories diverge, a measure of chaos in": {
+    "guess": "The Lyapunov exponents",
+    "confidence": -3.973190720214
+  },
+  "The Pesin identity shows that the Kolmogorov-Sinai entropy is equal to the sum of these in a dynamical system, while the Osedelec theorem gives them for an n-dimensional map. For Hamiltonian systems, they exist in additive invers pairs and one of these is always 0 for any system. They are never negative, which is why convergence of orbits is never observed in Hamiltonian systems, and a positive value for these values indicates that the system is not integrable. For ten points, what is this quantity, which describes the rate at which two initially-close trajectories diverge, a measure of chaos in a dynamical system?": {
+    "guess": "Chaos",
+    "confidence": -11.296985204
+  },
+  "The Petasis reagent contains an atom of this element at the center, and it coordinates to the two cyclopentadiene": {
+    "guess": "Titanium",
+    "confidence": -10.4040558501
+  },
+  "The Petasis reagent contains an atom of this element at the center, and it coordinates to the two cyclopentadiene molecules in Tebbe's reagent. Another compound that contains this element and aluminum": {
+    "guess": "Titanium",
+    "confidence": -10.343234481499998
+  },
+  "The Petasis reagent contains an atom of this element at the center, and it coordinates to the two cyclopentadiene molecules in Tebbe's reagent. Another compound that contains this element and aluminum operates via the Cosee-Arleman mechanism, and this metal can be extracted via the Kroll process from": {
+    "guess": "Titanium",
+    "confidence": -10.707823491699997
+  },
+  "The Petasis reagent contains an atom of this element at the center, and it coordinates to the two cyclopentadiene molecules in Tebbe's reagent. Another compound that contains this element and aluminum operates via the Cosee-Arleman mechanism, and this metal can be extracted via the Kroll process from rutile or ilmentite. In addition to its use in the Ziegler-Natta catalyst, this metal's tetrachloride": {
+    "guess": "Titanium",
+    "confidence": -10.455096205999999
+  },
+  "The Petasis reagent contains an atom of this element at the center, and it coordinates to the two cyclopentadiene molecules in Tebbe's reagent. Another compound that contains this element and aluminum operates via the Cosee-Arleman mechanism, and this metal can be extracted via the Kroll process from rutile or ilmentite. In addition to its use in the Ziegler-Natta catalyst, this metal's tetrachloride is commonly used in organic reactions as a Lewis acid. Its dioxide is commonly found in paint. FTP,": {
+    "guess": "Titanium",
+    "confidence": -10.8622433204
+  },
+  "The Petasis reagent contains an atom of this element at the center, and it coordinates to the two cyclopentadiene molecules in Tebbe's reagent. Another compound that contains this element and aluminum operates via the Cosee-Arleman mechanism, and this metal can be extracted via the Kroll process from rutile or ilmentite. In addition to its use in the Ziegler-Natta catalyst, this metal's tetrachloride is commonly used in organic reactions as a Lewis acid. Its dioxide is commonly found in paint. FTP, name this metal which is used in aerospace applications due to its durability, with atomic number": {
+    "guess": "Aluminum",
+    "confidence": -11.7351672209
+  },
+  "The Petasis reagent contains an atom of this element at the center, and it coordinates to the two cyclopentadiene molecules in Tebbe's reagent. Another compound that contains this element and aluminum operates via the Cosee-Arleman mechanism, and this metal can be extracted via the Kroll process from rutile or ilmentite. In addition to its use in the Ziegler-Natta catalyst, this metal's tetrachloride is commonly used in organic reactions as a Lewis acid. Its dioxide is commonly found in paint. FTP, name this metal which is used in aerospace applications due to its durability, with atomic number 22 and symbol Ti.": {
+    "guess": "Titanium",
+    "confidence": -10.62517522893
+  },
+  "His Petite Messe Solennelle for twelve voices was written shortly before his death and other works of": {
+    "guess": "Gioachino Rossini",
+    "confidence": -3.222899547861
+  },
+  "His Petite Messe Solennelle for twelve voices was written shortly before his death and other works of his include The Sins of Old Age, a collection of thirteen volumes of vocal and instrumental music.": {
+    "guess": "The Petite Messe Solennelle",
+    "confidence": -2.1982162331997004
+  },
+  "His Petite Messe Solennelle for twelve voices was written shortly before his death and other works of his include The Sins of Old Age, a collection of thirteen volumes of vocal and instrumental music. Known primarily for opera, he achieved wide acclaim for an opera based on a Voltaire work, Tancredi.": {
+    "guess": "Gioachino Rossini",
+    "confidence": -3.367607513901
+  },
+  "His Petite Messe Solennelle for twelve voices was written shortly before his death and other works of his include The Sins of Old Age, a collection of thirteen volumes of vocal and instrumental music. Known primarily for opera, he achieved wide acclaim for an opera based on a Voltaire work, Tancredi. Because of public demand, he wrote an alternative \"happy ending\" for his Otello and his writing style": {
+    "guess": "Otello",
+    "confidence": -8.821224915252
+  },
+  "His Petite Messe Solennelle for twelve voices was written shortly before his death and other works of his include The Sins of Old Age, a collection of thirteen volumes of vocal and instrumental music. Known primarily for opera, he achieved wide acclaim for an opera based on a Voltaire work, Tancredi. Because of public demand, he wrote an alternative \"happy ending\" for his Otello and his writing style gained him the nickname \"Monsieur Crescendo.\" Other successes included Elisabetta and The Italian": {
+    "guess": "Gioachino Rossini",
+    "confidence": -3.6516233310869994
+  },
+  "His Petite Messe Solennelle for twelve voices was written shortly before his death and other works of his include The Sins of Old Age, a collection of thirteen volumes of vocal and instrumental music. Known primarily for opera, he achieved wide acclaim for an opera based on a Voltaire work, Tancredi. Because of public demand, he wrote an alternative \"happy ending\" for his Otello and his writing style gained him the nickname \"Monsieur Crescendo.\" Other successes included Elisabetta and The Italian Girl in Algiers. A later visit to Vienna ended with a benefit where he joined the crowd in singing": {
+    "guess": "\"Monsieur Crescend",
+    "confidence": -1.9958535652113998
+  },
+  "His Petite Messe Solennelle for twelve voices was written shortly before his death and other works of his include The Sins of Old Age, a collection of thirteen volumes of vocal and instrumental music. Known primarily for opera, he achieved wide acclaim for an opera based on a Voltaire work, Tancredi. Because of public demand, he wrote an alternative \"happy ending\" for his Otello and his writing style gained him the nickname \"Monsieur Crescendo.\" Other successes included Elisabetta and The Italian Girl in Algiers. A later visit to Vienna ended with a benefit where he joined the crowd in singing his \"Largo al factotum\" from his most famous opera. FTP, identify this opera composer who stopped writing": {
+    "guess": "Gioachino Rossini",
+    "confidence": -2.8176980842942
+  },
+  "His Petite Messe Solennelle for twelve voices was written shortly before his death and other works of his include The Sins of Old Age, a collection of thirteen volumes of vocal and instrumental music. Known primarily for opera, he achieved wide acclaim for an opera based on a Voltaire work, Tancredi. Because of public demand, he wrote an alternative \"happy ending\" for his Otello and his writing style gained him the nickname \"Monsieur Crescendo.\" Other successes included Elisabetta and The Italian Girl in Algiers. A later visit to Vienna ended with a benefit where he joined the crowd in singing his \"Largo al factotum\" from his most famous opera. FTP, identify this opera composer who stopped writing opera at the age of 37 after completing William Tell and who is best known for The Barber of Seville.": {
+    "guess": "Wolfgang Amadeus Mozart",
+    "confidence": -3.0441913091350004
+  },
+  "Peter Mitchell first enunciated its mechanism of action in 1961. All the clusters involved are non-heme": {
+    "guess": "Peter Mitchell",
+    "confidence": -11.94857018685
+  },
+  "Peter Mitchell first enunciated its mechanism of action in 1961. All the clusters involved are non-heme proteins and are Iron-Sulfur conglomerations. All four transitions possess a negative delta G in": {
+    "guess": "Electron transport chain",
+    "confidence": -9.45519134913
+  },
+  "Peter Mitchell first enunciated its mechanism of action in 1961. All the clusters involved are non-heme proteins and are Iron-Sulfur conglomerations. All four transitions possess a negative delta G in this series of reactions that were the centerpiece of Mitchell's chemiosmotic theory. The b-c2 complex": {
+    "guess": "Mitochondrion",
+    "confidence": -8.449766070401001
+  },
+  "Peter Mitchell first enunciated its mechanism of action in 1961. All the clusters involved are non-heme proteins and are Iron-Sulfur conglomerations. All four transitions possess a negative delta G in this series of reactions that were the centerpiece of Mitchell's chemiosmotic theory. The b-c2 complex follows ubiquinone in this pathway that also utilizes NADH dehydrogenase and several cytochromes.": {
+    "guess": "Mitochondrion",
+    "confidence": -8.168004145964
+  },
+  "Peter Mitchell first enunciated its mechanism of action in 1961. All the clusters involved are non-heme proteins and are Iron-Sulfur conglomerations. All four transitions possess a negative delta G in this series of reactions that were the centerpiece of Mitchell's chemiosmotic theory. The b-c2 complex follows ubiquinone in this pathway that also utilizes NADH dehydrogenase and several cytochromes. The final step results in the production of two water molecules, FTP, in this pathway that follows": {
+    "guess": "Mitochondrion",
+    "confidence": -8.152116087893999
+  },
+  "Peter Mitchell first enunciated its mechanism of action in 1961. All the clusters involved are non-heme proteins and are Iron-Sulfur conglomerations. All four transitions possess a negative delta G in this series of reactions that were the centerpiece of Mitchell's chemiosmotic theory. The b-c2 complex follows ubiquinone in this pathway that also utilizes NADH dehydrogenase and several cytochromes. The final step results in the production of two water molecules, FTP, in this pathway that follows the Krebs cycle in aerobic metabolism and releases energy for ATP formation.": {
+    "guess": "Mitochondrion",
+    "confidence": -8.58436022745
+  },
+  "Peter Shor developed an algorithm that does activity, which would nullify RSA's usefulness; that algorithm": {
+    "guess": "Quantum computers",
+    "confidence": -10.221655362
+  },
+  "Peter Shor developed an algorithm that does activity, which would nullify RSA's usefulness; that algorithm performs in polynomial time. The Gauss-Jordan method can be used in part to perform the \"LU\" type": {
+    "guess": "Cryptography",
+    "confidence": -9.55734544324
+  },
+  "Peter Shor developed an algorithm that does activity, which would nullify RSA's usefulness; that algorithm performs in polynomial time. The Gauss-Jordan method can be used in part to perform the \"LU\" type of this. For 10 points, name this activity that can be done on a polynomial with a perfect square": {
+    "guess": "Polynomial time algorithm to find the",
+    "confidence": -4.21564876544
+  },
+  "Peter Shor developed an algorithm that does activity, which would nullify RSA's usefulness; that algorithm performs in polynomial time. The Gauss-Jordan method can be used in part to perform the \"LU\" type of this. For 10 points, name this activity that can be done on a polynomial with a perfect square discriminant, which for the number 49 would produce 7 and 7.": {
+    "guess": "Polynomial",
+    "confidence": -9.891686879
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation": {
+    "guess": "",
+    "confidence": -2.7582143502025
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana": {
+    "guess": "Pete Townshend",
+    "confidence": -7.063852643748
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural": {
+    "guess": "Band",
+    "confidence": -10.426223409700002
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural form this name hails from Australia and to date have only released the much- acclaimed and sample-filled": {
+    "guess": "The Fall of Troy",
+    "confidence": -11.16697771343
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural form this name hails from Australia and to date have only released the much- acclaimed and sample-filled album Since I Left You, which included the dance hit \"Frontier Psychiatrist.\" It also names": {
+    "guess": "The Who",
+    "confidence": -9.964479948400001
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural form this name hails from Australia and to date have only released the much- acclaimed and sample-filled album Since I Left You, which included the dance hit \"Frontier Psychiatrist.\" It also names an album subtitled \"Outtakes and Extras from the Illinois Album\" by Sufjan Stevens and an X-Man with": {
+    "guess": "The Movielife",
+    "confidence": -9.593230709198
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural form this name hails from Australia and to date have only released the much- acclaimed and sample-filled album Since I Left You, which included the dance hit \"Frontier Psychiatrist.\" It also names an album subtitled \"Outtakes and Extras from the Illinois Album\" by Sufjan Stevens and an X-Man with the alter ego Dominikos Ioannis Petrakis who has the power to generate (*) vibrational waves. A variation": {
+    "guess": "Sufjan Stevens",
+    "confidence": -8.91793204631
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural form this name hails from Australia and to date have only released the much- acclaimed and sample-filled album Since I Left You, which included the dance hit \"Frontier Psychiatrist.\" It also names an album subtitled \"Outtakes and Extras from the Illinois Album\" by Sufjan Stevens and an X-Man with the alter ego Dominikos Ioannis Petrakis who has the power to generate (*) vibrational waves. A variation on Chevrolet's Suburban sold under this name is characterized by the ability to convert the": {
+    "guess": "Weezer",
+    "confidence": -9.890678260279
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural form this name hails from Australia and to date have only released the much- acclaimed and sample-filled album Since I Left You, which included the dance hit \"Frontier Psychiatrist.\" It also names an album subtitled \"Outtakes and Extras from the Illinois Album\" by Sufjan Stevens and an X-Man with the alter ego Dominikos Ioannis Petrakis who has the power to generate (*) vibrational waves. A variation on Chevrolet's Suburban sold under this name is characterized by the ability to convert the back end of the SUV into pickup- style flatbed. A hockey team with this name plays in the Pepsi Center": {
+    "guess": "The Movielife",
+    "confidence": -8.91135119316
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural form this name hails from Australia and to date have only released the much- acclaimed and sample-filled album Since I Left You, which included the dance hit \"Frontier Psychiatrist.\" It also names an album subtitled \"Outtakes and Extras from the Illinois Album\" by Sufjan Stevens and an X-Man with the alter ego Dominikos Ioannis Petrakis who has the power to generate (*) vibrational waves. A variation on Chevrolet's Suburban sold under this name is characterized by the ability to convert the back end of the SUV into pickup- style flatbed. A hockey team with this name plays in the Pepsi Center and recently retired Joe Sakic's jersey, and won the 1996 Stanley Cup with Patrick Roy in goal after": {
+    "guess": "The Denver Nuggets",
+    "confidence": -10.814091789599999
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural form this name hails from Australia and to date have only released the much- acclaimed and sample-filled album Since I Left You, which included the dance hit \"Frontier Psychiatrist.\" It also names an album subtitled \"Outtakes and Extras from the Illinois Album\" by Sufjan Stevens and an X-Man with the alter ego Dominikos Ioannis Petrakis who has the power to generate (*) vibrational waves. A variation on Chevrolet's Suburban sold under this name is characterized by the ability to convert the back end of the SUV into pickup- style flatbed. A hockey team with this name plays in the Pepsi Center and recently retired Joe Sakic's jersey, and won the 1996 Stanley Cup with Patrick Roy in goal after moving from Quebec. FTP, identify this name which describes an NHL team from Colorado as well as": {
+    "guess": "Avalanche",
+    "confidence": -11.417550309700001
+  },
+  "Pete Townshend's arrest for allegedly accessing child pornography occurred during Britain's Operation Ore, a re-working of a similar law enforcement operation in the U.S. known by this name. Vinnie Caruana of The Movielife also plays in a post-hardcore band called \"I Am the [This]\". A band with a plural form this name hails from Australia and to date have only released the much- acclaimed and sample-filled album Since I Left You, which included the dance hit \"Frontier Psychiatrist.\" It also names an album subtitled \"Outtakes and Extras from the Illinois Album\" by Sufjan Stevens and an X-Man with the alter ego Dominikos Ioannis Petrakis who has the power to generate (*) vibrational waves. A variation on Chevrolet's Suburban sold under this name is characterized by the ability to convert the back end of the SUV into pickup- style flatbed. A hockey team with this name plays in the Pepsi Center and recently retired Joe Sakic's jersey, and won the 1996 Stanley Cup with Patrick Roy in goal after moving from Quebec. FTP, identify this name which describes an NHL team from Colorado as well as any large mass of snow hurdling down a mountain at you.": {
+    "guess": "Avalanche",
+    "confidence": -10.7957241438
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another": {
+    "guess": "Athanasius of Alexandria",
+    "confidence": -8.43509313703
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another noted proponent of this belief. The Theopaschite formula was one attempt to reconcile this belief,": {
+    "guess": "Monotheism",
+    "confidence": -9.5623624885
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another noted proponent of this belief. The Theopaschite formula was one attempt to reconcile this belief, supporters of which opposed certain writings of Theodoret, Ibas of Edessa, and Theodore of Mopseustia;": {
+    "guess": "Monotheism",
+    "confidence": -9.08085029865
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another noted proponent of this belief. The Theopaschite formula was one attempt to reconcile this belief, supporters of which opposed certain writings of Theodoret, Ibas of Edessa, and Theodore of Mopseustia; those works condemned by this belief were known as the \"Three Chapters.\" Followers of this": {
+    "guess": "Monotheism",
+    "confidence": -8.0306235451492
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another noted proponent of this belief. The Theopaschite formula was one attempt to reconcile this belief, supporters of which opposed certain writings of Theodoret, Ibas of Edessa, and Theodore of Mopseustia; those works condemned by this belief were known as the \"Three Chapters.\" Followers of this belief also rejected the Tome of Leo I, and Felix III excommunicated Acacius for promulgating an edict": {
+    "guess": "Monotheism",
+    "confidence": -8.0755234328235
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another noted proponent of this belief. The Theopaschite formula was one attempt to reconcile this belief, supporters of which opposed certain writings of Theodoret, Ibas of Edessa, and Theodore of Mopseustia; those works condemned by this belief were known as the \"Three Chapters.\" Followers of this belief also rejected the Tome of Leo I, and Felix III excommunicated Acacius for promulgating an edict attempting a restitution with this belief, the Henotikon. This heresy was the subject of the Second": {
+    "guess": "Monotheism",
+    "confidence": -9.2146543469
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another noted proponent of this belief. The Theopaschite formula was one attempt to reconcile this belief, supporters of which opposed certain writings of Theodoret, Ibas of Edessa, and Theodore of Mopseustia; those works condemned by this belief were known as the \"Three Chapters.\" Followers of this belief also rejected the Tome of Leo I, and Felix III excommunicated Acacius for promulgating an edict attempting a restitution with this belief, the Henotikon. This heresy was the subject of the Second Council of (*) Constantinople, and was originally formulated by Eutyches. Conceived as a response": {
+    "guess": "Monotheism",
+    "confidence": -8.9011427269
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another noted proponent of this belief. The Theopaschite formula was one attempt to reconcile this belief, supporters of which opposed certain writings of Theodoret, Ibas of Edessa, and Theodore of Mopseustia; those works condemned by this belief were known as the \"Three Chapters.\" Followers of this belief also rejected the Tome of Leo I, and Felix III excommunicated Acacius for promulgating an edict attempting a restitution with this belief, the Henotikon. This heresy was the subject of the Second Council of (*) Constantinople, and was originally formulated by Eutyches. Conceived as a response to Nestorianism, this heresy rejected the central teachings of the Council of Chalcedon. FTP, name": {
+    "guess": "Monophysitism",
+    "confidence": -8.5101978301
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another noted proponent of this belief. The Theopaschite formula was one attempt to reconcile this belief, supporters of which opposed certain writings of Theodoret, Ibas of Edessa, and Theodore of Mopseustia; those works condemned by this belief were known as the \"Three Chapters.\" Followers of this belief also rejected the Tome of Leo I, and Felix III excommunicated Acacius for promulgating an edict attempting a restitution with this belief, the Henotikon. This heresy was the subject of the Second Council of (*) Constantinople, and was originally formulated by Eutyches. Conceived as a response to Nestorianism, this heresy rejected the central teachings of the Council of Chalcedon. FTP, name this heresy still held by the Armenian and Coptic churches, whose Greek name reflects its belief that": {
+    "guess": "Monophysitism",
+    "confidence": -8.221312128900001
+  },
+  "Peter the Fuller supported this belief by adding a clause to the Trisagion, and Jacob Baradaeus was another noted proponent of this belief. The Theopaschite formula was one attempt to reconcile this belief, supporters of which opposed certain writings of Theodoret, Ibas of Edessa, and Theodore of Mopseustia; those works condemned by this belief were known as the \"Three Chapters.\" Followers of this belief also rejected the Tome of Leo I, and Felix III excommunicated Acacius for promulgating an edict attempting a restitution with this belief, the Henotikon. This heresy was the subject of the Second Council of (*) Constantinople, and was originally formulated by Eutyches. Conceived as a response to Nestorianism, this heresy rejected the central teachings of the Council of Chalcedon. FTP, name this heresy still held by the Armenian and Coptic churches, whose Greek name reflects its belief that Christ had just a single, unitary nature.": {
+    "guess": "Monophysitism",
+    "confidence": -6.45679715913467
+  },
+  "Peter Schenjeldahl's poem about this creature notes \"its succulent useless meat is hidden.\" Northrop": {
+    "guess": "Peter Schenjeldahl's poem",
+    "confidence": -0.9514852243197002
+  },
+  "Peter Schenjeldahl's poem about this creature notes \"its succulent useless meat is hidden.\" Northrop Frye's diaries recalls coming across a catabasis when he found out a fact about it. According to a biography": {
+    "guess": "Schenjeldahl's poem",
+    "confidence": -2.988949595712
+  },
+  "Peter Schenjeldahl's poem about this creature notes \"its succulent useless meat is hidden.\" Northrop Frye's diaries recalls coming across a catabasis when he found out a fact about it. According to a biography of its owner, this animal \"doesn't bark and knows the secrets of the sea.\" Its owner once tossed": {
+    "guess": "Felis silvestris",
+    "confidence": -9.3531447487
+  },
+  "Peter Schenjeldahl's poem about this creature notes \"its succulent useless meat is hidden.\" Northrop Frye's diaries recalls coming across a catabasis when he found out a fact about it. According to a biography of its owner, this animal \"doesn't bark and knows the secrets of the sea.\" Its owner once tossed his hat at a hippopotamus, and it was always seen in public with its blue leash. With a real name": {
+    "guess": "Hippopotamus",
+    "confidence": -8.6487662661
+  },
+  "Peter Schenjeldahl's poem about this creature notes \"its succulent useless meat is hidden.\" Northrop Frye's diaries recalls coming across a catabasis when he found out a fact about it. According to a biography of its owner, this animal \"doesn't bark and knows the secrets of the sea.\" Its owner once tossed his hat at a hippopotamus, and it was always seen in public with its blue leash. With a real name (*) \"Thibault,\" it is owned by a man that wrote \"his starry lute carries the black sun of Melancholy\"": {
+    "guess": "Serval",
+    "confidence": -11.044729748
+  },
+  "Peter Schenjeldahl's poem about this creature notes \"its succulent useless meat is hidden.\" Northrop Frye's diaries recalls coming across a catabasis when he found out a fact about it. According to a biography of its owner, this animal \"doesn't bark and knows the secrets of the sea.\" Its owner once tossed his hat at a hippopotamus, and it was always seen in public with its blue leash. With a real name (*) \"Thibault,\" it is owned by a man that wrote \"his starry lute carries the black sun of Melancholy\" and described \"The Prince of Aquitane in the High Tower.\" For ten points, name this creature owned": {
+    "guess": "Hippopotamus",
+    "confidence": -9.720159420084
+  },
+  "Peter Schenjeldahl's poem about this creature notes \"its succulent useless meat is hidden.\" Northrop Frye's diaries recalls coming across a catabasis when he found out a fact about it. According to a biography of its owner, this animal \"doesn't bark and knows the secrets of the sea.\" Its owner once tossed his hat at a hippopotamus, and it was always seen in public with its blue leash. With a real name (*) \"Thibault,\" it is owned by a man that wrote \"his starry lute carries the black sun of Melancholy\" and described \"The Prince of Aquitane in the High Tower.\" For ten points, name this creature owned by the author of Sylvie and \"El Desdichado,\" a crustacean belonging to a French poet.": {
+    "guess": "The lobster",
+    "confidence": -12.702121634999997
+  },
+  "Peter Stewart believed that SID and the partial pressure of carbon dioxide in water can determine this": {
+    "guess": "Yes, Peter Stewart believed that SID",
+    "confidence": -1.6330262939119997
+  },
+  "Peter Stewart believed that SID and the partial pressure of carbon dioxide in water can determine this quantity, which is plotted on the x-axis of a Pourbaix diagram. A glass electrode is used to measure": {
+    "guess": "Voltage",
+    "confidence": -11.611900270000001
+  },
+  "Peter Stewart believed that SID and the partial pressure of carbon dioxide in water can determine this quantity, which is plotted on the x-axis of a Pourbaix diagram. A glass electrode is used to measure this quantity, which is estimated in the Henderson\u0096Hasselbalch equation. At high values of this quantity,": {
+    "guess": "Temperature",
+    "confidence": -11.282163672400001
+  },
+  "Peter Stewart believed that SID and the partial pressure of carbon dioxide in water can determine this quantity, which is plotted on the x-axis of a Pourbaix diagram. A glass electrode is used to measure this quantity, which is estimated in the Henderson\u0096Hasselbalch equation. At high values of this quantity, the indicator phenolphthalein [fee-nawl-THAL-een] turns from colorless to pink. The compound": {
+    "guess": "Sulfur dioxide",
+    "confidence": -9.931254661
+  },
+  "Peter Stewart believed that SID and the partial pressure of carbon dioxide in water can determine this quantity, which is plotted on the x-axis of a Pourbaix diagram. A glass electrode is used to measure this quantity, which is estimated in the Henderson\u0096Hasselbalch equation. At high values of this quantity, the indicator phenolphthalein [fee-nawl-THAL-een] turns from colorless to pink. The compound Tris is used to resist changes in this quantity and is called a buffer. For 10 points, name this quantity": {
+    "guess": "Pressure",
+    "confidence": -11.12368508786
+  },
+  "Peter Stewart believed that SID and the partial pressure of carbon dioxide in water can determine this quantity, which is plotted on the x-axis of a Pourbaix diagram. A glass electrode is used to measure this quantity, which is estimated in the Henderson\u0096Hasselbalch equation. At high values of this quantity, the indicator phenolphthalein [fee-nawl-THAL-een] turns from colorless to pink. The compound Tris is used to resist changes in this quantity and is called a buffer. For 10 points, name this quantity that expresses the acidity or basicity of a solution, and is seven for water.": {
+    "guess": "pH",
+    "confidence": -10.652324893000001
+  },
+  "Peter Heather finds a possible cause for this war in the southern expansion of stone burial circles characteristic": {
+    "guess": "",
+    "confidence": -9.5659576613
+  },
+  "Peter Heather finds a possible cause for this war in the southern expansion of stone burial circles characteristic of the Wielbark culture. In the aftermath of this war, the newly established Second and": {
+    "guess": "Second World War",
+    "confidence": -9.773729352999998
+  },
+  "Peter Heather finds a possible cause for this war in the southern expansion of stone burial circles characteristic of the Wielbark culture. In the aftermath of this war, the newly established Second and Third Italian Legions settled new military camps in Raetia and Noricum. A column in memory of this": {
+    "guess": "Second World War",
+    "confidence": -8.445191337493
+  },
+  "Peter Heather finds a possible cause for this war in the southern expansion of stone burial circles characteristic of the Wielbark culture. In the aftermath of this war, the newly established Second and Third Italian Legions settled new military camps in Raetia and Noricum. A column in memory of this non-Dacian War stands in the Piazza Colonna and depicts a sudden downpour saving the Legio XII Fulminata.": {
+    "guess": "Second Opium War",
+    "confidence": -8.3304838636869
+  },
+  "Peter Heather finds a possible cause for this war in the southern expansion of stone burial circles characteristic of the Wielbark culture. In the aftermath of this war, the newly established Second and Third Italian Legions settled new military camps in Raetia and Noricum. A column in memory of this non-Dacian War stands in the Piazza Colonna and depicts a sudden downpour saving the Legio XII Fulminata. Aquileia on the Adriatic was besieged during this war, whose most famous incident was the so-called": {
+    "guess": "Second Punic War",
+    "confidence": -8.67311919208
+  },
+  "Peter Heather finds a possible cause for this war in the southern expansion of stone burial circles characteristic of the Wielbark culture. In the aftermath of this war, the newly established Second and Third Italian Legions settled new military camps in Raetia and Noricum. A column in memory of this non-Dacian War stands in the Piazza Colonna and depicts a sudden downpour saving the Legio XII Fulminata. Aquileia on the Adriatic was besieged during this war, whose most famous incident was the so-called \"miracle of the (*) rain.\" During these wars, barbarian tribes penetrated into Northern Italy": {
+    "guess": "Second Punic War",
+    "confidence": -9.77499367596
+  },
+  "Peter Heather finds a possible cause for this war in the southern expansion of stone burial circles characteristic of the Wielbark culture. In the aftermath of this war, the newly established Second and Third Italian Legions settled new military camps in Raetia and Noricum. A column in memory of this non-Dacian War stands in the Piazza Colonna and depicts a sudden downpour saving the Legio XII Fulminata. Aquileia on the Adriatic was besieged during this war, whose most famous incident was the so-called \"miracle of the (*) rain.\" During these wars, barbarian tribes penetrated into Northern Italy for the first time since the Cimbrian War, presaging the Crisis of the Third Century. For 10 points,": {
+    "guess": "The Crisis of the Third Century",
+    "confidence": -4.312339963126
+  },
+  "Peter Heather finds a possible cause for this war in the southern expansion of stone burial circles characteristic of the Wielbark culture. In the aftermath of this war, the newly established Second and Third Italian Legions settled new military camps in Raetia and Noricum. A column in memory of this non-Dacian War stands in the Piazza Colonna and depicts a sudden downpour saving the Legio XII Fulminata. Aquileia on the Adriatic was besieged during this war, whose most famous incident was the so-called \"miracle of the (*) rain.\" During these wars, barbarian tribes penetrated into Northern Italy for the first time since the Cimbrian War, presaging the Crisis of the Third Century. For 10 points, name these wars that lasted from 166 to 180 A.D., between Danubian tribes and Rome under Marcus Aurelius.": {
+    "guess": "Cimbrian War, Social War,",
+    "confidence": -1.095684798164
+  }
+}

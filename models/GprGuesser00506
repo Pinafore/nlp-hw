@@ -1,0 +1,54 @@
+{
+  "One of the biggest undertaking of 20th century mathematics was the classification of the finite kind": {
+    "guess": "",
+    "confidence": -1.86630670368
+  },
+  "One of the biggest undertaking of 20th century mathematics was the classification of the finite kind of these objects, which was completed in the early 1980s. The last one discovered was so large that": {
+    "guess": "The classification of the finite kind of these",
+    "confidence": -1.3799050020499999
+  },
+  "One of the biggest undertaking of 20th century mathematics was the classification of the finite kind of these objects, which was completed in the early 1980s. The last one discovered was so large that it was known as \"The Monster.\" The smallest example of one is the alternating group of even permutations": {
+    "guess": "Eve",
+    "confidence": -11.815480657
+  },
+  "One of the biggest undertaking of 20th century mathematics was the classification of the finite kind of these objects, which was completed in the early 1980s. The last one discovered was so large that it was known as \"The Monster.\" The smallest example of one is the alternating group of even permutations of 5 objects. FTP, name this type of group, which is defined as one that has no non-trivial normal": {
+    "guess": "The alternating group of order 5",
+    "confidence": -5.41120343504
+  },
+  "One of the biggest undertaking of 20th century mathematics was the classification of the finite kind of these objects, which was completed in the early 1980s. The last one discovered was so large that it was known as \"The Monster.\" The smallest example of one is the alternating group of even permutations of 5 objects. FTP, name this type of group, which is defined as one that has no non-trivial normal subgroups.": {
+    "guess": "The Monster",
+    "confidence": -12.474686369999999
+  },
+  "A big reasons to construct active filters, usually with op-amps, is that you can eliminate this element,": {
+    "guess": "Capacitor",
+    "confidence": -9.25694980982
+  },
+  "A big reasons to construct active filters, usually with op-amps, is that you can eliminate this element, whichyou'll very rarely see in an op-amp circuit. Transforming these elements to the s-domain requires": {
+    "guess": "Sampling",
+    "confidence": -11.788467898
+  },
+  "A big reasons to construct active filters, usually with op-amps, is that you can eliminate this element, whichyou'll very rarely see in an op-amp circuit. Transforming these elements to the s-domain requires representingthem in parallel with a current source that has a value of the initial current over": {
+    "guess": "Capacitor",
+    "confidence": -7.344180045259501
+  },
+  "A big reasons to construct active filters, usually with op-amps, is that you can eliminate this element, whichyou'll very rarely see in an op-amp circuit. Transforming these elements to the s-domain requires representingthem in parallel with a current source that has a value of the initial current over s. In lumped element modelsof transmission lines, these elements occur in series with resistors.": {
+    "guess": "Capacitor",
+    "confidence": -7.2722082683225
+  },
+  "A big reasons to construct active filters, usually with op-amps, is that you can eliminate this element, whichyou'll very rarely see in an op-amp circuit. Transforming these elements to the s-domain requires representingthem in parallel with a current source that has a value of the initial current over s. In lumped element modelsof transmission lines, these elements occur in series with resistors. Under DC conditions, they act as a shortcircuit. The current in these devices cannot undergo an instantaneous": {
+    "guess": "Capacitor",
+    "confidence": -7.3732244990825
+  },
+  "A big reasons to construct active filters, usually with op-amps, is that you can eliminate this element, whichyou'll very rarely see in an op-amp circuit. Transforming these elements to the s-domain requires representingthem in parallel with a current source that has a value of the initial current over s. In lumped element modelsof transmission lines, these elements occur in series with resistors. Under DC conditions, they act as a shortcircuit. The current in these devices cannot undergo an instantaneous change and must be continuous. Theyhave memory because their branch current depends on the": {
+    "guess": "Capacitor",
+    "confidence": -9.305212843263
+  },
+  "A big reasons to construct active filters, usually with op-amps, is that you can eliminate this element, whichyou'll very rarely see in an op-amp circuit. Transforming these elements to the s-domain requires representingthem in parallel with a current source that has a value of the initial current over s. In lumped element modelsof transmission lines, these elements occur in series with resistors. Under DC conditions, they act as a shortcircuit. The current in these devices cannot undergo an instantaneous change and must be continuous. Theyhave memory because their branch current depends on the history of their branch voltage. These energystorageelements are the magnetic duals of capacitors.": {
+    "guess": "inductor",
+    "confidence": -7.084284002639
+  },
+  "A big reasons to construct active filters, usually with op-amps, is that you can eliminate this element, whichyou'll very rarely see in an op-amp circuit. Transforming these elements to the s-domain requires representingthem in parallel with a current source that has a value of the initial current over s. In lumped element modelsof transmission lines, these elements occur in series with resistors. Under DC conditions, they act as a shortcircuit. The current in these devices cannot undergo an instantaneous change and must be continuous. Theyhave memory because their branch current depends on the history of their branch voltage. These energystorageelements are the magnetic duals of capacitors. For 10 points, name these coiled devices whosenamesake property is measured in Henrys. ": {
+    "guess": "Inductors",
+    "confidence": -10.426742634
+  }
+}

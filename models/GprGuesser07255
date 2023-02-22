@@ -1,0 +1,42 @@
+{
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy": {
+    "guess": "",
+    "confidence": -2.544831525954
+  },
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy alternative to standard parsimony analysis for distantly related taxa. Kimura's two-parameter model": {
+    "guess": "",
+    "confidence": -3.9729410035740007
+  },
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy alternative to standard parsimony analysis for distantly related taxa. Kimura's two-parameter model improved on the Jukes-Cantor model by introducing a term to account for the unexpected rarity of": {
+    "guess": "Kimura's two-parameter model",
+    "confidence": -0.6912105784600001
+  },
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy alternative to standard parsimony analysis for distantly related taxa. Kimura's two-parameter model improved on the Jukes-Cantor model by introducing a term to account for the unexpected rarity of these events. In E. coli, the mutY, mutM, and mutT gene products are required for to prevent these": {
+    "guess": "Kimura's two-parameter model",
+    "confidence": -1.5567533981000001
+  },
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy alternative to standard parsimony analysis for distantly related taxa. Kimura's two-parameter model improved on the Jukes-Cantor model by introducing a term to account for the unexpected rarity of these events. In E. coli, the mutY, mutM, and mutT gene products are required for to prevent these events because of their ability to recognize 8-oxo-guanine. The \"hotspot arginines\" of p53 are affected": {
+    "guess": "Mutations",
+    "confidence": -10.750431299999999
+  },
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy alternative to standard parsimony analysis for distantly related taxa. Kimura's two-parameter model improved on the Jukes-Cantor model by introducing a term to account for the unexpected rarity of these events. In E. coli, the mutY, mutM, and mutT gene products are required for to prevent these events because of their ability to recognize 8-oxo-guanine. The \"hotspot arginines\" of p53 are affected by these events in lung cancer due to o-quinones and other polycyclic aromatic hydrocarbons. The": {
+    "guess": "Mutations",
+    "confidence": -10.838075969999998
+  },
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy alternative to standard parsimony analysis for distantly related taxa. Kimura's two-parameter model improved on the Jukes-Cantor model by introducing a term to account for the unexpected rarity of these events. In E. coli, the mutY, mutM, and mutT gene products are required for to prevent these events because of their ability to recognize 8-oxo-guanine. The \"hotspot arginines\" of p53 are affected by these events in lung cancer due to o-quinones and other polycyclic aromatic hydrocarbons. The missense mutation that causes sickle-cell anemia is also this type of mutation. Aflatoxin B1 causes": {
+    "guess": "Aflatoxin B1",
+    "confidence": -6.5111594315864
+  },
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy alternative to standard parsimony analysis for distantly related taxa. Kimura's two-parameter model improved on the Jukes-Cantor model by introducing a term to account for the unexpected rarity of these events. In E. coli, the mutY, mutM, and mutT gene products are required for to prevent these events because of their ability to recognize 8-oxo-guanine. The \"hotspot arginines\" of p53 are affected by these events in lung cancer due to o-quinones and other polycyclic aromatic hydrocarbons. The missense mutation that causes sickle-cell anemia is also this type of mutation. Aflatoxin B1 causes these mutations because it creates abasic sites at guanines, which are most often filled in with adenine.": {
+    "guess": "Mutations in the gene for hemoglobin",
+    "confidence": -2.59996321333
+  },
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy alternative to standard parsimony analysis for distantly related taxa. Kimura's two-parameter model improved on the Jukes-Cantor model by introducing a term to account for the unexpected rarity of these events. In E. coli, the mutY, mutM, and mutT gene products are required for to prevent these events because of their ability to recognize 8-oxo-guanine. The \"hotspot arginines\" of p53 are affected by these events in lung cancer due to o-quinones and other polycyclic aromatic hydrocarbons. The missense mutation that causes sickle-cell anemia is also this type of mutation. Aflatoxin B1 causes these mutations because it creates abasic sites at guanines, which are most often filled in with adenine. For 10 points, name this less-common type of nucleotide substitution in which a pyrimidine is": {
+    "guess": "nonsense mutations.",
+    "confidence": -9.814132749299999
+  },
+  "Swofford and Olsen described the use of parsimony analysis based on these events to provide a less noisy alternative to standard parsimony analysis for distantly related taxa. Kimura's two-parameter model improved on the Jukes-Cantor model by introducing a term to account for the unexpected rarity of these events. In E. coli, the mutY, mutM, and mutT gene products are required for to prevent these events because of their ability to recognize 8-oxo-guanine. The \"hotspot arginines\" of p53 are affected by these events in lung cancer due to o-quinones and other polycyclic aromatic hydrocarbons. The missense mutation that causes sickle-cell anemia is also this type of mutation. Aflatoxin B1 causes these mutations because it creates abasic sites at guanines, which are most often filled in with adenine. For 10 points, name this less-common type of nucleotide substitution in which a pyrimidine is mutated to a purine or vice versa.": {
+    "guess": "nonsense mutations.",
+    "confidence": -8.2685325022292
+  }
+}

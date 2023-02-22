@@ -1,0 +1,34 @@
+{
+  "The TRPM8 receptor is activated either directly or indirectly by a change in this variable. The symptoms": {
+    "guess": "Multiple sclerosis",
+    "confidence": -10.264754489
+  },
+  "The TRPM8 receptor is activated either directly or indirectly by a change in this variable. The symptoms of multiple sclerosis worsen with a change in this variable in Uhthoff's phenomenon. If altered,": {
+    "guess": "Basal Body Temperature",
+    "confidence": -8.4498318928624
+  },
+  "The TRPM8 receptor is activated either directly or indirectly by a change in this variable. The symptoms of multiple sclerosis worsen with a change in this variable in Uhthoff's phenomenon. If altered, this variable can change the firing rate of nerve fibers in the pit organ. It lowers for the annealing": {
+    "guess": "Basal Body Temperature",
+    "confidence": -8.2301025775693
+  },
+  "The TRPM8 receptor is activated either directly or indirectly by a change in this variable. The symptoms of multiple sclerosis worsen with a change in this variable in Uhthoff's phenomenon. If altered, this variable can change the firing rate of nerve fibers in the pit organ. It lowers for the annealing step and increases again for the elongation step of PCR. The (*) HSP chaperone proteins are upregulated": {
+    "guess": "Basal Body Temperature",
+    "confidence": -8.10907341777094
+  },
+  "The TRPM8 receptor is activated either directly or indirectly by a change in this variable. The symptoms of multiple sclerosis worsen with a change in this variable in Uhthoff's phenomenon. If altered, this variable can change the firing rate of nerve fibers in the pit organ. It lowers for the annealing step and increases again for the elongation step of PCR. The (*) HSP chaperone proteins are upregulated when this variable increases. Progesterone slightly increases the value of this variable on": {
+    "guess": "Basal Body Temperature",
+    "confidence": -8.0813848337695
+  },
+  "The TRPM8 receptor is activated either directly or indirectly by a change in this variable. The symptoms of multiple sclerosis worsen with a change in this variable in Uhthoff's phenomenon. If altered, this variable can change the firing rate of nerve fibers in the pit organ. It lowers for the annealing step and increases again for the elongation step of PCR. The (*) HSP chaperone proteins are upregulated when this variable increases. Progesterone slightly increases the value of this variable on the day of ovulation, whereas in men, spermatogenesis requires that it be slightly lower in the testes": {
+    "guess": "Basal Body Temperature",
+    "confidence": -8.0481649543795
+  },
+  "The TRPM8 receptor is activated either directly or indirectly by a change in this variable. The symptoms of multiple sclerosis worsen with a change in this variable in Uhthoff's phenomenon. If altered, this variable can change the firing rate of nerve fibers in the pit organ. It lowers for the annealing step and increases again for the elongation step of PCR. The (*) HSP chaperone proteins are upregulated when this variable increases. Progesterone slightly increases the value of this variable on the day of ovulation, whereas in men, spermatogenesis requires that it be slightly lower in the testes than in the rest of the body. A large drop in this variable results in hypothermia. For 10 points,": {
+    "guess": "Basal Body Temperature",
+    "confidence": -8.747959089012
+  },
+  "The TRPM8 receptor is activated either directly or indirectly by a change in this variable. The symptoms of multiple sclerosis worsen with a change in this variable in Uhthoff's phenomenon. If altered, this variable can change the firing rate of nerve fibers in the pit organ. It lowers for the annealing step and increases again for the elongation step of PCR. The (*) HSP chaperone proteins are upregulated when this variable increases. Progesterone slightly increases the value of this variable on the day of ovulation, whereas in men, spermatogenesis requires that it be slightly lower in the testes than in the rest of the body. A large drop in this variable results in hypothermia. For 10 points, name this variable, which in the human body is optimally 98.6 degrees Fahrenheit.": {
+    "guess": "Temperature",
+    "confidence": -11.07436775
+  }
+}

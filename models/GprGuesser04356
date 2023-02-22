@@ -1,0 +1,630 @@
+{
+  "In one line, a patriarch of sheep is compared to the Egyptian God Amun. One activity described is a reading": {
+    "guess": "Abraham is compared to Amun in the",
+    "confidence": -4.213022679224
+  },
+  "In one line, a patriarch of sheep is compared to the Egyptian God Amun. One activity described is a reading from The Chief of Gambia, an allusion to a poem by Sarah Wentworth Morton. One character in the": {
+    "guess": "Jethro",
+    "confidence": -10.493150466856
+  },
+  "In one line, a patriarch of sheep is compared to the Egyptian God Amun. One activity described is a reading from The Chief of Gambia, an allusion to a poem by Sarah Wentworth Morton. One character in the poem is compared to Apollonius and Hermes and he discusses \"the eagle's eggs he got\" and his \"prodigies": {
+    "guess": "The Chief of Gambia by Sarah Went",
+    "confidence": -0.84076301151
+  },
+  "In one line, a patriarch of sheep is compared to the Egyptian God Amun. One activity described is a reading from The Chief of Gambia, an allusion to a poem by Sarah Wentworth Morton. One character in the poem is compared to Apollonius and Hermes and he discusses \"the eagle's eggs he got\" and his \"prodigies of rod and gun.\" After this, the old Doctor comes around to make sure everyone is all right.": {
+    "guess": "The Chief of Gambia by Sarah Went",
+    "confidence": -1.237440762678
+  },
+  "In one line, a patriarch of sheep is compared to the Egyptian God Amun. One activity described is a reading from The Chief of Gambia, an allusion to a poem by Sarah Wentworth Morton. One character in the poem is compared to Apollonius and Hermes and he discusses \"the eagle's eggs he got\" and his \"prodigies of rod and gun.\" After this, the old Doctor comes around to make sure everyone is all right. Then they try to assuage their boredom by studying the Almanac. FTP, identify this poem, subtitled \"A": {
+    "guess": "The Chief of Gambia",
+    "confidence": -7.769619573360001
+  },
+  "In one line, a patriarch of sheep is compared to the Egyptian God Amun. One activity described is a reading from The Chief of Gambia, an allusion to a poem by Sarah Wentworth Morton. One character in the poem is compared to Apollonius and Hermes and he discusses \"the eagle's eggs he got\" and his \"prodigies of rod and gun.\" After this, the old Doctor comes around to make sure everyone is all right. Then they try to assuage their boredom by studying the Almanac. FTP, identify this poem, subtitled \"A Winter Idyll,\" which concerns a group of people trapped by a blizzard; a work of John Greenleaf Whittier.": {
+    "guess": "The Almanac",
+    "confidence": -9.579563086
+  },
+  "One line of these devices can be extended and modified through Services Ready Engine modules. High  performance": {
+    "guess": "Computer",
+    "confidence": -11.97777478
+  },
+  "One line of these devices can be extended and modified through Services Ready Engine modules. High  performance examples of these machines and their less sophisticated brothers use ternary content  addressable": {
+    "guess": "",
+    "confidence": -10.056693474644
+  },
+  "One line of these devices can be extended and modified through Services Ready Engine modules. High  performance examples of these machines and their less sophisticated brothers use ternary content  addressable memory. A scheme based on tries of bitmaps and named for Lulea is used on some of these devices.": {
+    "guess": "Computer",
+    "confidence": -11.265214369999999
+  },
+  "One line of these devices can be extended and modified through Services Ready Engine modules. High  performance examples of these machines and their less sophisticated brothers use ternary content  addressable memory. A scheme based on tries of bitmaps and named for Lulea is used on some of these devices.  The CRS-1 is one of the highest throughput examples of these machines. It's not an exclusively": {
+    "guess": "Computer",
+    "confidence": -12.476546806
+  },
+  "One line of these devices can be extended and modified through Services Ready Engine modules. High  performance examples of these machines and their less sophisticated brothers use ternary content  addressable memory. A scheme based on tries of bitmaps and named for Lulea is used on some of these devices.  The CRS-1 is one of the highest throughput examples of these machines. It's not an exclusively Apple product, but  many of these devices run JUNOS or IOS. These machines can coordinate their actions": {
+    "guess": "Routers",
+    "confidence": -10.632159038880001
+  },
+  "One line of these devices can be extended and modified through Services Ready Engine modules. High  performance examples of these machines and their less sophisticated brothers use ternary content  addressable memory. A scheme based on tries of bitmaps and named for Lulea is used on some of these devices.  The CRS-1 is one of the highest throughput examples of these machines. It's not an exclusively Apple product, but  many of these devices run JUNOS or IOS. These machines can coordinate their actions through BGP. These devices  can perform NAT to handle many devices when there is a limited number": {
+    "guess": "Router",
+    "confidence": -11.1749172885
+  },
+  "One line of these devices can be extended and modified through Services Ready Engine modules. High  performance examples of these machines and their less sophisticated brothers use ternary content  addressable memory. A scheme based on tries of bitmaps and named for Lulea is used on some of these devices.  The CRS-1 is one of the highest throughput examples of these machines. It's not an exclusively Apple product, but  many of these devices run JUNOS or IOS. These machines can coordinate their actions through BGP. These devices  can perform NAT to handle many devices when there is a limited number of a certain identifier. These devices  maintain a table with entries like gateway, interface, and": {
+    "guess": "Transistor",
+    "confidence": -9.3072445586
+  },
+  "One line of these devices can be extended and modified through Services Ready Engine modules. High  performance examples of these machines and their less sophisticated brothers use ternary content  addressable memory. A scheme based on tries of bitmaps and named for Lulea is used on some of these devices.  The CRS-1 is one of the highest throughput examples of these machines. It's not an exclusively Apple product, but  many of these devices run JUNOS or IOS. These machines can coordinate their actions through BGP. These devices  can perform NAT to handle many devices when there is a limited number of a certain identifier. These devices  maintain a table with entries like gateway, interface, and netmask. Consumer brands of these devices include D-  Link, Netgear, and Linksys. For 10 points,": {
+    "guess": "Router",
+    "confidence": -10.979974623
+  },
+  "One line of these devices can be extended and modified through Services Ready Engine modules. High  performance examples of these machines and their less sophisticated brothers use ternary content  addressable memory. A scheme based on tries of bitmaps and named for Lulea is used on some of these devices.  The CRS-1 is one of the highest throughput examples of these machines. It's not an exclusively Apple product, but  many of these devices run JUNOS or IOS. These machines can coordinate their actions through BGP. These devices  can perform NAT to handle many devices when there is a limited number of a certain identifier. These devices  maintain a table with entries like gateway, interface, and netmask. Consumer brands of these devices include D-  Link, Netgear, and Linksys. For 10 points, name these devices that can maneuver packets between two IP networks.": {
+    "guess": "Router, Switch, Bridge, NAT,",
+    "confidence": -3.1989136157
+  },
+  "In Lionel Gossman's essay about this group he confusingly terms them the \"Unwilling Moderns.\" An early": {
+    "guess": "Nazarene movement",
+    "confidence": -6.938006671629999
+  },
+  "In Lionel Gossman's essay about this group he confusingly terms them the \"Unwilling Moderns.\" An early member of this group imitated an earlier Ingres painting with his The Entry of Rudolf of Hapsburg": {
+    "guess": "The Apotheosis of Homer",
+    "confidence": -2.8902493054072997
+  },
+  "In Lionel Gossman's essay about this group he confusingly terms them the \"Unwilling Moderns.\" An early member of this group imitated an earlier Ingres painting with his The Entry of Rudolf of Hapsburg into Basel, and typified this group's style with his diptych of two contrasting women Shulamit and Maria.": {
+    "guess": "Nazarene movement",
+    "confidence": -8.91789177815
+  },
+  "In Lionel Gossman's essay about this group he confusingly terms them the \"Unwilling Moderns.\" An early member of this group imitated an earlier Ingres painting with his The Entry of Rudolf of Hapsburg into Basel, and typified this group's style with his diptych of two contrasting women Shulamit and Maria. Another member executed a series of frescoes showing Dante, Ariosto, and Tasso as part of their": {
+    "guess": "The Unwilling Moderns",
+    "confidence": -4.160124191495999
+  },
+  "In Lionel Gossman's essay about this group he confusingly terms them the \"Unwilling Moderns.\" An early member of this group imitated an earlier Ingres painting with his The Entry of Rudolf of Hapsburg into Basel, and typified this group's style with his diptych of two contrasting women Shulamit and Maria. Another member executed a series of frescoes showing Dante, Ariosto, and Tasso as part of their communal decoration of the Villa Massimo. By then they had already taken up quarters at the monastery": {
+    "guess": "The Ingres painting is The Apothe",
+    "confidence": -3.886406020869
+  },
+  "In Lionel Gossman's essay about this group he confusingly terms them the \"Unwilling Moderns.\" An early member of this group imitated an earlier Ingres painting with his The Entry of Rudolf of Hapsburg into Basel, and typified this group's style with his diptych of two contrasting women Shulamit and Maria. Another member executed a series of frescoes showing Dante, Ariosto, and Tasso as part of their communal decoration of the Villa Massimo. By then they had already taken up quarters at the monastery of San Isidro and their founder, in Assisi's Portiuncula Chapel, painted his major fresco on the": {
+    "guess": "The Apotheosis of Homer",
+    "confidence": -2.9420793161053003
+  },
+  "In Lionel Gossman's essay about this group he confusingly terms them the \"Unwilling Moderns.\" An early member of this group imitated an earlier Ingres painting with his The Entry of Rudolf of Hapsburg into Basel, and typified this group's style with his diptych of two contrasting women Shulamit and Maria. Another member executed a series of frescoes showing Dante, Ariosto, and Tasso as part of their communal decoration of the Villa Massimo. By then they had already taken up quarters at the monastery of San Isidro and their founder, in Assisi's Portiuncula Chapel, painted his major fresco on the Rose Miracle of St. Francis. As seen in their founder's The Triumph of Religion in the Arts, they sought": {
+    "guess": "Nazarenes",
+    "confidence": -7.3667134857764
+  },
+  "In Lionel Gossman's essay about this group he confusingly terms them the \"Unwilling Moderns.\" An early member of this group imitated an earlier Ingres painting with his The Entry of Rudolf of Hapsburg into Basel, and typified this group's style with his diptych of two contrasting women Shulamit and Maria. Another member executed a series of frescoes showing Dante, Ariosto, and Tasso as part of their communal decoration of the Villa Massimo. By then they had already taken up quarters at the monastery of San Isidro and their founder, in Assisi's Portiuncula Chapel, painted his major fresco on the Rose Miracle of St. Francis. As seen in their founder's The Triumph of Religion in the Arts, they sought to renew the style of the Renaissance through the Christian faith. For 10 points, name this group": {
+    "guess": "Nazarenes",
+    "confidence": -9.260330825999999
+  },
+  "In Lionel Gossman's essay about this group he confusingly terms them the \"Unwilling Moderns.\" An early member of this group imitated an earlier Ingres painting with his The Entry of Rudolf of Hapsburg into Basel, and typified this group's style with his diptych of two contrasting women Shulamit and Maria. Another member executed a series of frescoes showing Dante, Ariosto, and Tasso as part of their communal decoration of the Villa Massimo. By then they had already taken up quarters at the monastery of San Isidro and their founder, in Assisi's Portiuncula Chapel, painted his major fresco on the Rose Miracle of St. Francis. As seen in their founder's The Triumph of Religion in the Arts, they sought to renew the style of the Renaissance through the Christian faith. For 10 points, name this group of German artists that included Peter Cornelius, Franz Pforr, and Johann Overbeck.": {
+    "guess": "Nazarenes",
+    "confidence": -8.889206402
+  },
+  "In linear algebra, this function is only defined for square matrices, and is a function of a matrix A": {
+    "guess": "Matrix multiplication",
+    "confidence": -11.1803169477
+  },
+  "In linear algebra, this function is only defined for square matrices, and is a function of a matrix A such that A times this function of A equals the identity matrix. A function f(x) is (*) one-to-one": {
+    "guess": "Inverse Matrix",
+    "confidence": -9.972006343
+  },
+  "In linear algebra, this function is only defined for square matrices, and is a function of a matrix A such that A times this function of A equals the identity matrix. A function f(x) is (*) one-to-one if one of these functions g(x) exists such that f of g of x equals x. The multiplicative form of this": {
+    "guess": "Inverse Matrix",
+    "confidence": -10.288624394000001
+  },
+  "In linear algebra, this function is only defined for square matrices, and is a function of a matrix A such that A times this function of A equals the identity matrix. A function f(x) is (*) one-to-one if one of these functions g(x) exists such that f of g of x equals x. The multiplicative form of this function is also known as the reciprocal, and in addition it can be found by simply negating the expression.": {
+    "guess": "Inverse Logarithm",
+    "confidence": -4.314029190413
+  },
+  "In linear algebra, this function is only defined for square matrices, and is a function of a matrix A such that A times this function of A equals the identity matrix. A function f(x) is (*) one-to-one if one of these functions g(x) exists such that f of g of x equals x. The multiplicative form of this function is also known as the reciprocal, and in addition it can be found by simply negating the expression. For 10 points, name this kind of function that undoes the effect of another function, which": {
+    "guess": "Inverse Function",
+    "confidence": -9.685402338
+  },
+  "In linear algebra, this function is only defined for square matrices, and is a function of a matrix A such that A times this function of A equals the identity matrix. A function f(x) is (*) one-to-one if one of these functions g(x) exists such that f of g of x equals x. The multiplicative form of this function is also known as the reciprocal, and in addition it can be found by simply negating the expression. For 10 points, name this kind of function that undoes the effect of another function, which in addition involves adding a number such that the result is zero.": {
+    "guess": "Inverse Function",
+    "confidence": -10.092668937
+  },
+  "The linear variation of this quantity with applied electric field is known as the Pockels effect and": {
+    "guess": "Refractive index",
+    "confidence": -8.393867934400001
+  },
+  "The linear variation of this quantity with applied electric field is known as the Pockels effect and evanescence occurs when the magnitude of this physical quantity is dominated by the extinction coefficient.": {
+    "guess": "Refractive index",
+    "confidence": -9.33856286992
+  },
+  "The linear variation of this quantity with applied electric field is known as the Pockels effect and evanescence occurs when the magnitude of this physical quantity is dominated by the extinction coefficient. The path integral of this quantity is classically stationary according to Fermat's principle;": {
+    "guess": "Refractive index",
+    "confidence": -8.828802634299999
+  },
+  "The linear variation of this quantity with applied electric field is known as the Pockels effect and evanescence occurs when the magnitude of this physical quantity is dominated by the extinction coefficient. The path integral of this quantity is classically stationary according to Fermat's principle; a fact which may be used to derive the law of Snellius, which governs this property's namesake phenomenon": {
+    "guess": "Refractive index",
+    "confidence": -8.22843729575
+  },
+  "The linear variation of this quantity with applied electric field is known as the Pockels effect and evanescence occurs when the magnitude of this physical quantity is dominated by the extinction coefficient. The path integral of this quantity is classically stationary according to Fermat's principle; a fact which may be used to derive the law of Snellius, which governs this property's namesake phenomenon at the interface of two media with different values for it. FTP, identify this physical property": {
+    "guess": "Refractive index",
+    "confidence": -9.042789969
+  },
+  "The linear variation of this quantity with applied electric field is known as the Pockels effect and evanescence occurs when the magnitude of this physical quantity is dominated by the extinction coefficient. The path integral of this quantity is classically stationary according to Fermat's principle; a fact which may be used to derive the law of Snellius, which governs this property's namesake phenomenon at the interface of two media with different values for it. FTP, identify this physical property that is commonly defined as the ratio of the speed light in a medium to that in a vacuum.": {
+    "guess": "Refractive index",
+    "confidence": -8.6809658641
+  },
+  "The lines \"the eyes are not here, there are no eyes here in this valley of dying stars\" open the fourth": {
+    "guess": "Eliot, T.S. \"The",
+    "confidence": -2.55521248368
+  },
+  "The lines \"the eyes are not here, there are no eyes here in this valley of dying stars\" open the fourth section of one of this man's works, which also contains the lines \"here the stone images are raised,": {
+    "guess": "T. S. Eliot",
+    "confidence": -7.471269435650001
+  },
+  "The lines \"the eyes are not here, there are no eyes here in this valley of dying stars\" open the fourth section of one of this man's works, which also contains the lines \"here the stone images are raised, here they receive the supplication of a dead man's hand\" and describes \"eyes I dare not meet in": {
+    "guess": "The Hollow Men",
+    "confidence": -8.96059466394
+  },
+  "The lines \"the eyes are not here, there are no eyes here in this valley of dying stars\" open the fourth section of one of this man's works, which also contains the lines \"here the stone images are raised, here they receive the supplication of a dead man's hand\" and describes \"eyes I dare not meet in dreams\".  In another work by this man, the title character laments, \"I should have been a pair of ragged": {
+    "guess": "The Hollow Men",
+    "confidence": -8.322481937520001
+  },
+  "The lines \"the eyes are not here, there are no eyes here in this valley of dying stars\" open the fourth section of one of this man's works, which also contains the lines \"here the stone images are raised, here they receive the supplication of a dead man's hand\" and describes \"eyes I dare not meet in dreams\".  In another work by this man, the title character laments, \"I should have been a pair of ragged claws scuttling across the floors of silent seas\" and asserts that he is \"not Prince Hamlet, nor": {
+    "guess": "The Hollow Men",
+    "confidence": -8.2555833578
+  },
+  "The lines \"the eyes are not here, there are no eyes here in this valley of dying stars\" open the fourth section of one of this man's works, which also contains the lines \"here the stone images are raised, here they receive the supplication of a dead man's hand\" and describes \"eyes I dare not meet in dreams\".  In another work by this man, the title character laments, \"I should have been a pair of ragged claws scuttling across the floors of silent seas\" and asserts that he is \"not Prince Hamlet, nor was meant to be\" before asking, \"do I dare eat a peach?\"  That work by this author begins with an": {
+    "guess": "The Waste Land",
+    "confidence": -8.18204421833
+  },
+  "The lines \"the eyes are not here, there are no eyes here in this valley of dying stars\" open the fourth section of one of this man's works, which also contains the lines \"here the stone images are raised, here they receive the supplication of a dead man's hand\" and describes \"eyes I dare not meet in dreams\".  In another work by this man, the title character laments, \"I should have been a pair of ragged claws scuttling across the floors of silent seas\" and asserts that he is \"not Prince Hamlet, nor was meant to be\" before asking, \"do I dare eat a peach?\"  That work by this author begins with an epigraph referring to Dante's meeting with Guido da Montefeltro in the Inferno, while another work by": {
+    "guess": "The Love Song of J. Alfred Pru",
+    "confidence": -0.75507009116524
+  },
+  "The lines \"the eyes are not here, there are no eyes here in this valley of dying stars\" open the fourth section of one of this man's works, which also contains the lines \"here the stone images are raised, here they receive the supplication of a dead man's hand\" and describes \"eyes I dare not meet in dreams\".  In another work by this man, the title character laments, \"I should have been a pair of ragged claws scuttling across the floors of silent seas\" and asserts that he is \"not Prince Hamlet, nor was meant to be\" before asking, \"do I dare eat a peach?\"  That work by this author begins with an epigraph referring to Dante's meeting with Guido da Montefeltro in the Inferno, while another work by this man begins by simply noting, \"Mistah Kurtz- he dead\".  For 10 points\u2014name this author of \"The": {
+    "guess": "T.S. Eliot",
+    "confidence": -8.52351093033
+  },
+  "The lines \"the eyes are not here, there are no eyes here in this valley of dying stars\" open the fourth section of one of this man's works, which also contains the lines \"here the stone images are raised, here they receive the supplication of a dead man's hand\" and describes \"eyes I dare not meet in dreams\".  In another work by this man, the title character laments, \"I should have been a pair of ragged claws scuttling across the floors of silent seas\" and asserts that he is \"not Prince Hamlet, nor was meant to be\" before asking, \"do I dare eat a peach?\"  That work by this author begins with an epigraph referring to Dante's meeting with Guido da Montefeltro in the Inferno, while another work by this man begins by simply noting, \"Mistah Kurtz- he dead\".  For 10 points\u2014name this author of \"The Hollow Men\" and \"The Love Song of J. Alfred Prufrock\".": {
+    "guess": "T.S. Eliot",
+    "confidence": -6.591880807735
+  },
+  "The link between Lie algebras and Lie groups is a map with this name; that map involves applying this": {
+    "guess": "Lie algebra",
+    "confidence": -11.62111954
+  },
+  "The link between Lie algebras and Lie groups is a map with this name; that map involves applying this function to the infinitesimal elements of the Lie algebra, which are the generators of the Lie group.": {
+    "guess": "Lie algebra",
+    "confidence": -11.93428115
+  },
+  "The link between Lie algebras and Lie groups is a map with this name; that map involves applying this function to the infinitesimal elements of the Lie algebra, which are the generators of the Lie group. The Baker\u0096Campbell\u0096Hausdorff formula gives a way to find the product of this function applied to": {
+    "guess": "Lie Group",
+    "confidence": -12.47497802
+  },
+  "The link between Lie algebras and Lie groups is a map with this name; that map involves applying this function to the infinitesimal elements of the Lie algebra, which are the generators of the Lie group. The Baker\u0096Campbell\u0096Hausdorff formula gives a way to find the product of this function applied to two non-commuting operators. Applying this to two irrational algebraic numbers always results in a transcendental": {
+    "guess": "transcendental function",
+    "confidence": -9.793261199599998
+  },
+  "The link between Lie algebras and Lie groups is a map with this name; that map involves applying this function to the infinitesimal elements of the Lie algebra, which are the generators of the Lie group. The Baker\u0096Campbell\u0096Hausdorff formula gives a way to find the product of this function applied to two non-commuting operators. Applying this to two irrational algebraic numbers always results in a transcendental number according to the (*) Gelfond\u0096Schneider theorem. Like the geometric distribution,": {
+    "guess": "Gaussian distribution",
+    "confidence": -10.9033851295
+  },
+  "The link between Lie algebras and Lie groups is a map with this name; that map involves applying this function to the infinitesimal elements of the Lie algebra, which are the generators of the Lie group. The Baker\u0096Campbell\u0096Hausdorff formula gives a way to find the product of this function applied to two non-commuting operators. Applying this to two irrational algebraic numbers always results in a transcendental number according to the (*) Gelfond\u0096Schneider theorem. Like the geometric distribution, the distribution with this name is memoryless, and its mean equals one over its rate parameter. This": {
+    "guess": "Laplace transform",
+    "confidence": -12.091225945
+  },
+  "The link between Lie algebras and Lie groups is a map with this name; that map involves applying this function to the infinitesimal elements of the Lie algebra, which are the generators of the Lie group. The Baker\u0096Campbell\u0096Hausdorff formula gives a way to find the product of this function applied to two non-commuting operators. Applying this to two irrational algebraic numbers always results in a transcendental number according to the (*) Gelfond\u0096Schneider theorem. Like the geometric distribution, the distribution with this name is memoryless, and its mean equals one over its rate parameter. This function solves the differential equation y equals y prime. For 10 points, name this function which": {
+    "guess": "Gamma function",
+    "confidence": -10.920656850000002
+  },
+  "The link between Lie algebras and Lie groups is a map with this name; that map involves applying this function to the infinitesimal elements of the Lie algebra, which are the generators of the Lie group. The Baker\u0096Campbell\u0096Hausdorff formula gives a way to find the product of this function applied to two non-commuting operators. Applying this to two irrational algebraic numbers always results in a transcendental number according to the (*) Gelfond\u0096Schneider theorem. Like the geometric distribution, the distribution with this name is memoryless, and its mean equals one over its rate parameter. This function solves the differential equation y equals y prime. For 10 points, name this function which is its own derivative and is the inverse function of the natural logarithm.": {
+    "guess": "Logarithm",
+    "confidence": -8.896971333024
+  },
+  "The linear type of this phenomenon include screw and edge dislocations and their direction and strength": {
+    "guess": "Linearity",
+    "confidence": -10.536328321
+  },
+  "The linear type of this phenomenon include screw and edge dislocations and their direction and strength can be calculated with the help of the Burgers vector. Planar ones involve interfaces between material": {
+    "guess": "Crystals",
+    "confidence": -9.154172929359998
+  },
+  "The linear type of this phenomenon include screw and edge dislocations and their direction and strength can be calculated with the help of the Burgers vector. Planar ones involve interfaces between material regions, and the number of vacancies resulting from point ones can be computed using the Boltzmann": {
+    "guess": "Crystals",
+    "confidence": -9.2749592201
+  },
+  "The linear type of this phenomenon include screw and edge dislocations and their direction and strength can be calculated with the help of the Burgers vector. Planar ones involve interfaces between material regions, and the number of vacancies resulting from point ones can be computed using the Boltzmann factor.  Interstitial ones involve atoms being squeezed between vertices, while twin boundaries": {
+    "guess": "Twin boundaries",
+    "confidence": -9.510289346399999
+  },
+  "The linear type of this phenomenon include screw and edge dislocations and their direction and strength can be calculated with the help of the Burgers vector. Planar ones involve interfaces between material regions, and the number of vacancies resulting from point ones can be computed using the Boltzmann factor.  Interstitial ones involve atoms being squeezed between vertices, while twin boundaries give rise to shape memory metals. With the point type existing in Frankel and Schottky types, FTP,": {
+    "guess": "Interstitial",
+    "confidence": -10.33053187833
+  },
+  "The linear type of this phenomenon include screw and edge dislocations and their direction and strength can be calculated with the help of the Burgers vector. Planar ones involve interfaces between material regions, and the number of vacancies resulting from point ones can be computed using the Boltzmann factor.  Interstitial ones involve atoms being squeezed between vertices, while twin boundaries give rise to shape memory metals. With the point type existing in Frankel and Schottky types, FTP, identify these \"mistakes\"  in the lattices of regular solids.": {
+    "guess": "Twin boundaries",
+    "confidence": -10.654442915999999
+  },
+  "The line, \"Into each life some rain must fall,\" comes from his early poem \"The Rainy Day\" from the collection": {
+    "guess": "\"The Rainy Day\"",
+    "confidence": -4.077611144149301
+  },
+  "The line, \"Into each life some rain must fall,\" comes from his early poem \"The Rainy Day\" from the collection \"Voices of the Night.\" Some of this man's other work includes The Spanish Student and Christus,": {
+    "guess": "Wallace Stevens",
+    "confidence": -9.743007816899999
+  },
+  "The line, \"Into each life some rain must fall,\" comes from his early poem \"The Rainy Day\" from the collection \"Voices of the Night.\" Some of this man's other work includes The Spanish Student and Christus, while his poetry includes \"The Belfry of Bruges\" and \"The Golden Legend.\" After seven years of": {
+    "guess": "\"The Rainy Day\"",
+    "confidence": -3.9715120407000004
+  },
+  "The line, \"Into each life some rain must fall,\" comes from his early poem \"The Rainy Day\" from the collection \"Voices of the Night.\" Some of this man's other work includes The Spanish Student and Christus, while his poetry includes \"The Belfry of Bruges\" and \"The Golden Legend.\" After seven years of courting, he married his second wife, about whom he wrote \"The Cross of Snow\" and \"The Evening Star,\"": {
+    "guess": "Henry Wadsworth Longfellow",
+    "confidence": -2.705202753429
+  },
+  "The line, \"Into each life some rain must fall,\" comes from his early poem \"The Rainy Day\" from the collection \"Voices of the Night.\" Some of this man's other work includes The Spanish Student and Christus, while his poetry includes \"The Belfry of Bruges\" and \"The Golden Legend.\" After seven years of courting, he married his second wife, about whom he wrote \"The Cross of Snow\" and \"The Evening Star,\" this man's only love poem. This poet's more famous works include \"The Jewish Cemetery at Newport,\"": {
+    "guess": "Henry Wadsworth Longfellow",
+    "confidence": -3.6873907426558006
+  },
+  "The line, \"Into each life some rain must fall,\" comes from his early poem \"The Rainy Day\" from the collection \"Voices of the Night.\" Some of this man's other work includes The Spanish Student and Christus, while his poetry includes \"The Belfry of Bruges\" and \"The Golden Legend.\" After seven years of courting, he married his second wife, about whom he wrote \"The Cross of Snow\" and \"The Evening Star,\" this man's only love poem. This poet's more famous works include \"The Jewish Cemetery at Newport,\" \"The Psalm of Life,\" and an epic which takes place \"by the shores of Gitchee Gumee.\" For 10 points,": {
+    "guess": "Walt Whitman",
+    "confidence": -6.815998608576
+  },
+  "The line, \"Into each life some rain must fall,\" comes from his early poem \"The Rainy Day\" from the collection \"Voices of the Night.\" Some of this man's other work includes The Spanish Student and Christus, while his poetry includes \"The Belfry of Bruges\" and \"The Golden Legend.\" After seven years of courting, he married his second wife, about whom he wrote \"The Cross of Snow\" and \"The Evening Star,\" this man's only love poem. This poet's more famous works include \"The Jewish Cemetery at Newport,\" \"The Psalm of Life,\" and an epic which takes place \"by the shores of Gitchee Gumee.\" For 10 points, name this poet who wrote \"The Song of Hiawatha.\"": {
+    "guess": "Henry Wadsworth Longfellow",
+    "confidence": -2.34752355401494
+  },
+  "The 11 lines of poetry appended to this work are attributed to a larger work called \"Fallacies of Hope.\"": {
+    "guess": "J. M. W. Turner",
+    "confidence": -0.033997303989000006
+  },
+  "The 11 lines of poetry appended to this work are attributed to a larger work called \"Fallacies of Hope.\" On the bottom right, a man holds his arms up in the air, while on the lower left various men are": {
+    "guess": "J. M. W. Turner",
+    "confidence": -0.126668846025
+  },
+  "The 11 lines of poetry appended to this work are attributed to a larger work called \"Fallacies of Hope.\" On the bottom right, a man holds his arms up in the air, while on the lower left various men are helping one another under an orange sun that threatens to be obscured. Currently housed in the Tate": {
+    "guess": "J. M. W. Turner",
+    "confidence": -0.37323983566999996
+  },
+  "The 11 lines of poetry appended to this work are attributed to a larger work called \"Fallacies of Hope.\" On the bottom right, a man holds his arms up in the air, while on the lower left various men are helping one another under an orange sun that threatens to be obscured. Currently housed in the Tate Gallery and arranged using dark vortices, the painter does not show the title character in detail;": {
+    "guess": "J. M. W. Turner",
+    "confidence": -0.1174779263127
+  },
+  "The 11 lines of poetry appended to this work are attributed to a larger work called \"Fallacies of Hope.\" On the bottom right, a man holds his arms up in the air, while on the lower left various men are helping one another under an orange sun that threatens to be obscured. Currently housed in the Tate Gallery and arranged using dark vortices, the painter does not show the title character in detail; instead he depicts the character's charges in distress during the title event. Inspired by his own experiences": {
+    "guess": "J. M. W. Turner",
+    "confidence": -0.837071689185
+  },
+  "The 11 lines of poetry appended to this work are attributed to a larger work called \"Fallacies of Hope.\" On the bottom right, a man holds his arms up in the air, while on the lower left various men are helping one another under an orange sun that threatens to be obscured. Currently housed in the Tate Gallery and arranged using dark vortices, the painter does not show the title character in detail; instead he depicts the character's charges in distress during the title event. Inspired by his own experiences of a storm in Yorkshire, FTP name this 1812 work by Turner depicting a certain Carthaginian's": {
+    "guess": "The Battle of the Nile",
+    "confidence": -9.236684255300002
+  },
+  "The 11 lines of poetry appended to this work are attributed to a larger work called \"Fallacies of Hope.\" On the bottom right, a man holds his arms up in the air, while on the lower left various men are helping one another under an orange sun that threatens to be obscured. Currently housed in the Tate Gallery and arranged using dark vortices, the painter does not show the title character in detail; instead he depicts the character's charges in distress during the title event. Inspired by his own experiences of a storm in Yorkshire, FTP name this 1812 work by Turner depicting a certain Carthaginian's trek over some mountains.": {
+    "guess": "The Battle of Pharsalus",
+    "confidence": -5.33129915285
+  },
+  "The line\u2011item veto, resurrected in 1995 with the Republican congress, had its origins in this document.": {
+    "guess": "The Congressional Review Act of 1996",
+    "confidence": -4.51767807614
+  },
+  "The line\u2011item veto, resurrected in 1995 with the Republican congress, had its origins in this document. Members of congress were, except for felonies, breach of peace, and treason, immune from arrest.": {
+    "guess": "The Constitution of the United States of America",
+    "confidence": -1.044274357118
+  },
+  "The line\u2011item veto, resurrected in 1995 with the Republican congress, had its origins in this document. Members of congress were, except for felonies, breach of peace, and treason, immune from arrest. In reaction to the times, it also forbade the suspension of habeas corpus, and allowed the quartering": {
+    "guess": "The Constitution",
+    "confidence": -9.746712550000002
+  },
+  "The line\u2011item veto, resurrected in 1995 with the Republican congress, had its origins in this document. Members of congress were, except for felonies, breach of peace, and treason, immune from arrest. In reaction to the times, it also forbade the suspension of habeas corpus, and allowed the quartering of soldiers in private houses without the consent of owners. FTP, name this document, signed in 1861": {
+    "guess": "The Emancipation Proclamation",
+    "confidence": -1.22366215231
+  },
+  "The line\u2011item veto, resurrected in 1995 with the Republican congress, had its origins in this document. Members of congress were, except for felonies, breach of peace, and treason, immune from arrest. In reaction to the times, it also forbade the suspension of habeas corpus, and allowed the quartering of soldiers in private houses without the consent of owners. FTP, name this document, signed in 1861 by seven states: South Carolina, Georgia, Florida, Alabama, Mississippi, Louisiana, and Texas.": {
+    "guess": "Confederate States of America Constitution",
+    "confidence": -7.97190112182
+  },
+  "A linear one in which p and q are equal exemplifies of a martingale, while a periodic radial one may": {
+    "guess": "Pulses",
+    "confidence": -11.843452183
+  },
+  "A linear one in which p and q are equal exemplifies of a martingale, while a periodic radial one may be used to model loss of magnetic confinement of ions in a collisional torus.  An open problem is to": {
+    "guess": "Equation",
+    "confidence": -9.000233483999999
+  },
+  "A linear one in which p and q are equal exemplifies of a martingale, while a periodic radial one may be used to model loss of magnetic confinement of ions in a collisional torus.  An open problem is to find a general formula for the number of finite non-intersecting ones in a plane.  A given non-trivial": {
+    "guess": "Hyperbola",
+    "confidence": -10.1437140678
+  },
+  "A linear one in which p and q are equal exemplifies of a martingale, while a periodic radial one may be used to model loss of magnetic confinement of ions in a collisional torus.  An open problem is to find a general formula for the number of finite non-intersecting ones in a plane.  A given non-trivial one always eventually returns to its beginning in one- and two-space, but in 3-space only does so": {
+    "guess": "3-space",
+    "confidence": -9.616685966
+  },
+  "A linear one in which p and q are equal exemplifies of a martingale, while a periodic radial one may be used to model loss of magnetic confinement of ions in a collisional torus.  An open problem is to find a general formula for the number of finite non-intersecting ones in a plane.  A given non-trivial one always eventually returns to its beginning in one- and two-space, but in 3-space only does so with probability about 0.34, which is known as P?ya's third constant of this kind.  FTP, name this": {
+    "guess": "P?ya's third constant",
+    "confidence": -4.884503561000001
+  },
+  "A linear one in which p and q are equal exemplifies of a martingale, while a periodic radial one may be used to model loss of magnetic confinement of ions in a collisional torus.  An open problem is to find a general formula for the number of finite non-intersecting ones in a plane.  A given non-trivial one always eventually returns to its beginning in one- and two-space, but in 3-space only does so with probability about 0.34, which is known as P?ya's third constant of this kind.  FTP, name this type of Markov chain in which a point takes a certain number of fixed-length \"steps\" in a probabilistic": {
+    "guess": "Poisson",
+    "confidence": -11.335980579999998
+  },
+  "A linear one in which p and q are equal exemplifies of a martingale, while a periodic radial one may be used to model loss of magnetic confinement of ions in a collisional torus.  An open problem is to find a general formula for the number of finite non-intersecting ones in a plane.  A given non-trivial one always eventually returns to its beginning in one- and two-space, but in 3-space only does so with probability about 0.34, which is known as P?ya's third constant of this kind.  FTP, name this type of Markov chain in which a point takes a certain number of fixed-length \"steps\" in a probabilistic direction and which can be used to model such stochastic processes as Brownian motion and diffusion.": {
+    "guess": "Markov chain",
+    "confidence": -6.63409670952794
+  },
+  "A lion had its teeth torn out by this deity, who rode to battle in a chariot drawn by seven lions. Aurochs": {
+    "guess": "Aurochs",
+    "confidence": -9.1035234766287
+  },
+  "A lion had its teeth torn out by this deity, who rode to battle in a chariot drawn by seven lions. Aurochs are depicted on an entrance into one of this deity's cities, along with eight-pointed stars. This": {
+    "guess": "Mithras",
+    "confidence": -11.245431901729999
+  },
+  "A lion had its teeth torn out by this deity, who rode to battle in a chariot drawn by seven lions. Aurochs are depicted on an entrance into one of this deity's cities, along with eight-pointed stars. This deity's spouse and sister-in-law had to spend part of each year in the underworld after this deity": {
+    "guess": "Hades",
+    "confidence": -11.66368784
+  },
+  "A lion had its teeth torn out by this deity, who rode to battle in a chariot drawn by seven lions. Aurochs are depicted on an entrance into one of this deity's cities, along with eight-pointed stars. This deity's spouse and sister-in-law had to spend part of each year in the underworld after this deity was revived by the charming eunuch Asushunamir and escaped Irkalla, retrieving an item of clothing": {
+    "guess": "Osiris",
+    "confidence": -12.550321891800001
+  },
+  "A lion had its teeth torn out by this deity, who rode to battle in a chariot drawn by seven lions. Aurochs are depicted on an entrance into one of this deity's cities, along with eight-pointed stars. This deity's spouse and sister-in-law had to spend part of each year in the underworld after this deity was revived by the charming eunuch Asushunamir and escaped Irkalla, retrieving an item of clothing previously discarded at each of seven gates. This daughter of Nanna or Anu had the Bull of Heaven": {
+    "guess": "Nanna",
+    "confidence": -10.33138968
+  },
+  "A lion had its teeth torn out by this deity, who rode to battle in a chariot drawn by seven lions. Aurochs are depicted on an entrance into one of this deity's cities, along with eight-pointed stars. This deity's spouse and sister-in-law had to spend part of each year in the underworld after this deity was revived by the charming eunuch Asushunamir and escaped Irkalla, retrieving an item of clothing previously discarded at each of seven gates. This daughter of Nanna or Anu had the Bull of Heaven sent to attack Gilgamesh after he rejected her. For 10 points, name this Sumero-Babylonian goddess of": {
+    "guess": "Ishtar",
+    "confidence": -9.196441234221503
+  },
+  "A lion had its teeth torn out by this deity, who rode to battle in a chariot drawn by seven lions. Aurochs are depicted on an entrance into one of this deity's cities, along with eight-pointed stars. This deity's spouse and sister-in-law had to spend part of each year in the underworld after this deity was revived by the charming eunuch Asushunamir and escaped Irkalla, retrieving an item of clothing previously discarded at each of seven gates. This daughter of Nanna or Anu had the Bull of Heaven sent to attack Gilgamesh after he rejected her. For 10 points, name this Sumero-Babylonian goddess of love and war.": {
+    "guess": "Ishtar",
+    "confidence": -6.4345718668614404
+  },
+  "Lindstrom's theorem states that first-order logic is the strongest logic having both this property and": {
+    "guess": "Compactness",
+    "confidence": -9.153706283190001
+  },
+  "Lindstrom's theorem states that first-order logic is the strongest logic having both this property and satisfying the Lowenheim-Skolem property. A method for finding a Hausdorff space with this property": {
+    "guess": "Countability",
+    "confidence": -9.620272702
+  },
+  "Lindstrom's theorem states that first-order logic is the strongest logic having both this property and satisfying the Lowenheim-Skolem property. A method for finding a Hausdorff space with this property containing a given space is named for Stone and Cech. Equicontinuity is the main condition for determining": {
+    "guess": "Compactness",
+    "confidence": -9.266170409299999
+  },
+  "Lindstrom's theorem states that first-order logic is the strongest logic having both this property and satisfying the Lowenheim-Skolem property. A method for finding a Hausdorff space with this property containing a given space is named for Stone and Cech. Equicontinuity is the main condition for determining whether a family of functions has this property by the Arzela-Ascoli theorem. Using the axiom": {
+    "guess": "Convergence",
+    "confidence": -10.2568661154
+  },
+  "Lindstrom's theorem states that first-order logic is the strongest logic having both this property and satisfying the Lowenheim-Skolem property. A method for finding a Hausdorff space with this property containing a given space is named for Stone and Cech. Equicontinuity is the main condition for determining whether a family of functions has this property by the Arzela-Ascoli theorem. Using the axiom of choice, it can be shown that an arbitrary product of spaces with this property has this property,": {
+    "guess": "Compactness",
+    "confidence": -9.91865142413
+  },
+  "Lindstrom's theorem states that first-order logic is the strongest logic having both this property and satisfying the Lowenheim-Skolem property. A method for finding a Hausdorff space with this property containing a given space is named for Stone and Cech. Equicontinuity is the main condition for determining whether a family of functions has this property by the Arzela-Ascoli theorem. Using the axiom of choice, it can be shown that an arbitrary product of spaces with this property has this property, a result known as Tychonoff's theorem. In Euclidean space, being closed and bounded is sufficient": {
+    "guess": "Compactness",
+    "confidence": -9.38039113224
+  },
+  "Lindstrom's theorem states that first-order logic is the strongest logic having both this property and satisfying the Lowenheim-Skolem property. A method for finding a Hausdorff space with this property containing a given space is named for Stone and Cech. Equicontinuity is the main condition for determining whether a family of functions has this property by the Arzela-Ascoli theorem. Using the axiom of choice, it can be shown that an arbitrary product of spaces with this property has this property, a result known as Tychonoff's theorem. In Euclidean space, being closed and bounded is sufficient to show, according to the Heine-Borel theorem, that a set has this property. For 10 points, identify": {
+    "guess": "Equicontinuity",
+    "confidence": -8.346204372512
+  },
+  "Lindstrom's theorem states that first-order logic is the strongest logic having both this property and satisfying the Lowenheim-Skolem property. A method for finding a Hausdorff space with this property containing a given space is named for Stone and Cech. Equicontinuity is the main condition for determining whether a family of functions has this property by the Arzela-Ascoli theorem. Using the axiom of choice, it can be shown that an arbitrary product of spaces with this property has this property, a result known as Tychonoff's theorem. In Euclidean space, being closed and bounded is sufficient to show, according to the Heine-Borel theorem, that a set has this property. For 10 points, identify this property which holds of a set on which every open cover has a finite subcover.": {
+    "guess": "Compactness",
+    "confidence": -9.92802921777
+  },
+  "Lines of his that remain familiar today include \"O revenge, how sweet thou art!\" and \"Fortune, that favors": {
+    "guess": "Julius Caesar",
+    "confidence": -10.816315376999999
+  },
+  "Lines of his that remain familiar today include \"O revenge, how sweet thou art!\" and \"Fortune, that favors fools.\" He supported King James' Demonology with the witch-filled The Masque of Queens, possibly": {
+    "guess": "Macbeth",
+    "confidence": -8.298756643736
+  },
+  "Lines of his that remain familiar today include \"O revenge, how sweet thou art!\" and \"Fortune, that favors fools.\" He supported King James' Demonology with the witch-filled The Masque of Queens, possibly one reason he was a favorite of the early Stuart court. He insisted on classical rules, demanding": {
+    "guess": "William Shakespeare",
+    "confidence": -9.3947840697
+  },
+  "Lines of his that remain familiar today include \"O revenge, how sweet thou art!\" and \"Fortune, that favors fools.\" He supported King James' Demonology with the witch-filled The Masque of Queens, possibly one reason he was a favorite of the early Stuart court. He insisted on classical rules, demanding a separation between tragedies, of which his included Catiline and Sejanus, and comedies, which included": {
+    "guess": "William Shakespeare",
+    "confidence": -9.759338256
+  },
+  "Lines of his that remain familiar today include \"O revenge, how sweet thou art!\" and \"Fortune, that favors fools.\" He supported King James' Demonology with the witch-filled The Masque of Queens, possibly one reason he was a favorite of the early Stuart court. He insisted on classical rules, demanding a separation between tragedies, of which his included Catiline and Sejanus, and comedies, which included Epicene, or the Silent Woman, and Every Man in His Humor. FTP, name this playwright of The Alchemist": {
+    "guess": "Ben Jonson",
+    "confidence": -8.1158906886755
+  },
+  "Lionel Trilling wrote the preface to his first translation into English, which featured such independent": {
+    "guess": "John Dee",
+    "confidence": -8.98650986225
+  },
+  "Lionel Trilling wrote the preface to his first translation into English, which featured such independent stories as \"Guy de Maupassant\" and \"Line and Colour.\" Though he wrote plays like Maria and Sunset,": {
+    "guess": "Eugene O'Neill",
+    "confidence": -8.96641423947
+  },
+  "Lionel Trilling wrote the preface to his first translation into English, which featured such independent stories as \"Guy de Maupassant\" and \"Line and Colour.\" Though he wrote plays like Maria and Sunset, he is much better known for fiction which includes \"The Story of my Dovecote\" about surviving a pogrom.": {
+    "guess": "Lionel Trilling",
+    "confidence": -9.039533632120001
+  },
+  "Lionel Trilling wrote the preface to his first translation into English, which featured such independent stories as \"Guy de Maupassant\" and \"Line and Colour.\" Though he wrote plays like Maria and Sunset, he is much better known for fiction which includes \"The Story of my Dovecote\" about surviving a pogrom. \"My First Goose,\" \"The Way to Brody,\" and \"The Death of Dolgushov\" are stories narrated by Kirill": {
+    "guess": "Saki",
+    "confidence": -9.8198663988
+  },
+  "Lionel Trilling wrote the preface to his first translation into English, which featured such independent stories as \"Guy de Maupassant\" and \"Line and Colour.\" Though he wrote plays like Maria and Sunset, he is much better known for fiction which includes \"The Story of my Dovecote\" about surviving a pogrom. \"My First Goose,\" \"The Way to Brody,\" and \"The Death of Dolgushov\" are stories narrated by Kirill Liutov, a war correspondent who finds himself amongst a band of mostly Cossack soldiers. That series": {
+    "guess": "Red Cavalry",
+    "confidence": -9.56500822572
+  },
+  "Lionel Trilling wrote the preface to his first translation into English, which featured such independent stories as \"Guy de Maupassant\" and \"Line and Colour.\" Though he wrote plays like Maria and Sunset, he is much better known for fiction which includes \"The Story of my Dovecote\" about surviving a pogrom. \"My First Goose,\" \"The Way to Brody,\" and \"The Death of Dolgushov\" are stories narrated by Kirill Liutov, a war correspondent who finds himself amongst a band of mostly Cossack soldiers. That series of stories is often compared with those centered on the ruthless King of the gangsters, Benia": {
+    "guess": "The King of the Gangsters",
+    "confidence": -4.7466345157
+  },
+  "Lionel Trilling wrote the preface to his first translation into English, which featured such independent stories as \"Guy de Maupassant\" and \"Line and Colour.\" Though he wrote plays like Maria and Sunset, he is much better known for fiction which includes \"The Story of my Dovecote\" about surviving a pogrom. \"My First Goose,\" \"The Way to Brody,\" and \"The Death of Dolgushov\" are stories narrated by Kirill Liutov, a war correspondent who finds himself amongst a band of mostly Cossack soldiers. That series of stories is often compared with those centered on the ruthless King of the gangsters, Benia Krik. For 10 points, identify this author of Red Cavalry and Odessa Stories.": {
+    "guess": "Isaac Babel",
+    "confidence": -9.76723252855
+  },
+  "Lines from \"Out of the Cradle Endlessly Rocking\" and the reoccurring appearance of Lillian Gish serve": {
+    "guess": "to explore the author's views on love",
+    "confidence": -5.625898080100001
+  },
+  "Lines from \"Out of the Cradle Endlessly Rocking\" and the reoccurring appearance of Lillian Gish serve as unifying themes in this work. Green, blue, sepia, and amber tints are used to differentiate between": {
+    "guess": "Leaves of Grass",
+    "confidence": -9.512782352459999
+  },
+  "Lines from \"Out of the Cradle Endlessly Rocking\" and the reoccurring appearance of Lillian Gish serve as unifying themes in this work. Green, blue, sepia, and amber tints are used to differentiate between its four major segments. The Mountain Girl's attempt to save Prince Belshazzar's kingdom from Cyrus": {
+    "guess": "The Prince and the Pauper",
+    "confidence": -5.2133613575
+  },
+  "Lines from \"Out of the Cradle Endlessly Rocking\" and the reoccurring appearance of Lillian Gish serve as unifying themes in this work. Green, blue, sepia, and amber tints are used to differentiate between its four major segments. The Mountain Girl's attempt to save Prince Belshazzar's kingdom from Cyrus the Great; the crucifixion of Jesus, the murder of Prosper's fianc\u00e9 Brown Eyes during the St. Bartholomew's": {
+    "guess": "Leaves of Grass",
+    "confidence": -9.248657604380002
+  },
+  "Lines from \"Out of the Cradle Endlessly Rocking\" and the reoccurring appearance of Lillian Gish serve as unifying themes in this work. Green, blue, sepia, and amber tints are used to differentiate between its four major segments. The Mountain Girl's attempt to save Prince Belshazzar's kingdom from Cyrus the Great; the crucifixion of Jesus, the murder of Prosper's fianc\u00e9 Brown Eyes during the St. Bartholomew's Day Massacre, and the suffering of an Irish boy at the hands of the mill owner Jenkins all": {
+    "guess": "Broken Blossoms",
+    "confidence": -7.4553823329207995
+  },
+  "Lines from \"Out of the Cradle Endlessly Rocking\" and the reoccurring appearance of Lillian Gish serve as unifying themes in this work. Green, blue, sepia, and amber tints are used to differentiate between its four major segments. The Mountain Girl's attempt to save Prince Belshazzar's kingdom from Cyrus the Great; the crucifixion of Jesus, the murder of Prosper's fianc\u00e9 Brown Eyes during the St. Bartholomew's Day Massacre, and the suffering of an Irish boy at the hands of the mill owner Jenkins all illustrate the results of the titular evil in, FTP, what 1916 D.W. Griffith epic?": {
+    "guess": "The Birth of a Nation",
+    "confidence": -6.48265057461
+  },
+  "Lin and Shu proposed the density-wave theory to explain how the structure of these entities is sustained.": {
+    "guess": "Spiral galaxy",
+    "confidence": -8.9339857523
+  },
+  "Lin and Shu proposed the density-wave theory to explain how the structure of these entities is sustained. The most accurate method for measuring the distances to distant ones uses a relation between their": {
+    "guess": "Spiral galaxy",
+    "confidence": -9.005270348099998
+  },
+  "Lin and Shu proposed the density-wave theory to explain how the structure of these entities is sustained. The most accurate method for measuring the distances to distant ones uses a relation between their maximum rotational velocity and absolute magnitude, which is known as the Tully-Fisher method. They": {
+    "guess": "Spiral galaxy",
+    "confidence": -9.4642704372
+  },
+  "Lin and Shu proposed the density-wave theory to explain how the structure of these entities is sustained. The most accurate method for measuring the distances to distant ones uses a relation between their maximum rotational velocity and absolute magnitude, which is known as the Tully-Fisher method. They are generally blue because of their high content of old stars, and one type of them features arms": {
+    "guess": "Spiral galaxy",
+    "confidence": -9.398838607
+  },
+  "Lin and Shu proposed the density-wave theory to explain how the structure of these entities is sustained. The most accurate method for measuring the distances to distant ones uses a relation between their maximum rotational velocity and absolute magnitude, which is known as the Tully-Fisher method. They are generally blue because of their high content of old stars, and one type of them features arms that emanate from each end of a namesake structure. They have discs like the lenticular type, but": {
+    "guess": "Spiral galaxy",
+    "confidence": -9.300273145999999
+  },
+  "Lin and Shu proposed the density-wave theory to explain how the structure of these entities is sustained. The most accurate method for measuring the distances to distant ones uses a relation between their maximum rotational velocity and absolute magnitude, which is known as the Tully-Fisher method. They are generally blue because of their high content of old stars, and one type of them features arms that emanate from each end of a namesake structure. They have discs like the lenticular type, but contain much more angular momentum than the elliptical type. FTP name these galaxies, some of which": {
+    "guess": "Spiral galaxy",
+    "confidence": -9.425433025
+  },
+  "Lin and Shu proposed the density-wave theory to explain how the structure of these entities is sustained. The most accurate method for measuring the distances to distant ones uses a relation between their maximum rotational velocity and absolute magnitude, which is known as the Tully-Fisher method. They are generally blue because of their high content of old stars, and one type of them features arms that emanate from each end of a namesake structure. They have discs like the lenticular type, but contain much more angular momentum than the elliptical type. FTP name these galaxies, some of which are barred, including the Milky Way.": {
+    "guess": "Spiral galaxy",
+    "confidence": -9.585307852200001
+  },
+  "Its lines include references to \"the hills, rock-ribbed and ancient as the sun\" and \"Old Ocean's gray": {
+    "guess": "Thanatopsis",
+    "confidence": -7.991141119319
+  },
+  "Its lines include references to \"the hills, rock-ribbed and ancient as the sun\" and \"Old Ocean's gray and melancholy waste,\" among its \"solemn decorations.\" Published in the North American Review, it opens": {
+    "guess": "Thanatopsis",
+    "confidence": -8.223004183334
+  },
+  "Its lines include references to \"the hills, rock-ribbed and ancient as the sun\" and \"Old Ocean's gray and melancholy waste,\" among its \"solemn decorations.\" Published in the North American Review, it opens by addressing \"him who in the love of nature holds / Communion with her visible forms.\" It was": {
+    "guess": "Thanatopsis",
+    "confidence": -8.195959007779999
+  },
+  "Its lines include references to \"the hills, rock-ribbed and ancient as the sun\" and \"Old Ocean's gray and melancholy waste,\" among its \"solemn decorations.\" Published in the North American Review, it opens by addressing \"him who in the love of nature holds / Communion with her visible forms.\" It was rewritten seven years later to end with the lines \"Approach thy grave like one who wraps the drapery": {
+    "guess": "Thanatopsis",
+    "confidence": -6.4111448118942
+  },
+  "Its lines include references to \"the hills, rock-ribbed and ancient as the sun\" and \"Old Ocean's gray and melancholy waste,\" among its \"solemn decorations.\" Published in the North American Review, it opens by addressing \"him who in the love of nature holds / Communion with her visible forms.\" It was rewritten seven years later to end with the lines \"Approach thy grave like one who wraps the drapery of his couch about him, and lies down to pleasant dreams.\" For 10 points, name this poem, a Meditation": {
+    "guess": "The Waste Land",
+    "confidence": -8.889542642999201
+  },
+  "Its lines include references to \"the hills, rock-ribbed and ancient as the sun\" and \"Old Ocean's gray and melancholy waste,\" among its \"solemn decorations.\" Published in the North American Review, it opens by addressing \"him who in the love of nature holds / Communion with her visible forms.\" It was rewritten seven years later to end with the lines \"Approach thy grave like one who wraps the drapery of his couch about him, and lies down to pleasant dreams.\" For 10 points, name this poem, a Meditation on Death written when only 17 years old by William Cullen Bryant.": {
+    "guess": "\"Thanatopsis\"",
+    "confidence": -4.133129741664
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators": {
+    "guess": "Judith Jarvis Thomson",
+    "confidence": -10.7251136596
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators of this concept is Herbert James Paton. One objection to this concept by David Ross relies on the certainty": {
+    "guess": "Philosophy",
+    "confidence": -11.4804808282
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators of this concept is Herbert James Paton. One objection to this concept by David Ross relies on the certainty of everyone lying, while Louis Beck questioned this concept's scope with an example of writing": {
+    "guess": "Truth",
+    "confidence": -12.009462014399999
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators of this concept is Herbert James Paton. One objection to this concept by David Ross relies on the certainty of everyone lying, while Louis Beck questioned this concept's scope with an example of writing your name in a book. One of the best-known objections came from Benjamin Constant, inspiring this": {
+    "guess": "Ad hominem",
+    "confidence": -11.722563847899998
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators of this concept is Herbert James Paton. One objection to this concept by David Ross relies on the certainty of everyone lying, while Louis Beck questioned this concept's scope with an example of writing your name in a book. One of the best-known objections came from Benjamin Constant, inspiring this concept's originator to reply with \"On a Supposed Right to Tell Lies from Benevolent Motives.\" That": {
+    "guess": "On a Supposed Right to Tell Lies",
+    "confidence": -0.46715830882369996
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators of this concept is Herbert James Paton. One objection to this concept by David Ross relies on the certainty of everyone lying, while Louis Beck questioned this concept's scope with an example of writing your name in a book. One of the best-known objections came from Benjamin Constant, inspiring this concept's originator to reply with \"On a Supposed Right to Tell Lies from Benevolent Motives.\" That reply argues that an \"enquiring murderer\" asking about the location of his victim should still be": {
+    "guess": "On a Supposed Right to Tell Lies",
+    "confidence": -0.8583588716013999
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators of this concept is Herbert James Paton. One objection to this concept by David Ross relies on the certainty of everyone lying, while Louis Beck questioned this concept's scope with an example of writing your name in a book. One of the best-known objections came from Benjamin Constant, inspiring this concept's originator to reply with \"On a Supposed Right to Tell Lies from Benevolent Motives.\" That reply argues that an \"enquiring murderer\" asking about the location of his victim should still be answered truthfully to respect this concept. Coming in \"Kingdom of Heaven\" and \"Universal Law\" formulations,": {
+    "guess": "The concept of lying",
+    "confidence": -13.510469206
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators of this concept is Herbert James Paton. One objection to this concept by David Ross relies on the certainty of everyone lying, while Louis Beck questioned this concept's scope with an example of writing your name in a book. One of the best-known objections came from Benjamin Constant, inspiring this concept's originator to reply with \"On a Supposed Right to Tell Lies from Benevolent Motives.\" That reply argues that an \"enquiring murderer\" asking about the location of his victim should still be answered truthfully to respect this concept. Coming in \"Kingdom of Heaven\" and \"Universal Law\" formulations, FTP, identify this construct set forth in Groundwork for the Metaphysics of Morals that says": {
+    "guess": "Categorical imperative",
+    "confidence": -8.59964752708
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators of this concept is Herbert James Paton. One objection to this concept by David Ross relies on the certainty of everyone lying, while Louis Beck questioned this concept's scope with an example of writing your name in a book. One of the best-known objections came from Benjamin Constant, inspiring this concept's originator to reply with \"On a Supposed Right to Tell Lies from Benevolent Motives.\" That reply argues that an \"enquiring murderer\" asking about the location of his victim should still be answered truthfully to respect this concept. Coming in \"Kingdom of Heaven\" and \"Universal Law\" formulations, FTP, identify this construct set forth in Groundwork for the Metaphysics of Morals that says to act as if your actions would be made a universal law, the best known ethical construct of Immanuel": {
+    "guess": "Categorical imperative",
+    "confidence": -8.093514237524
+  },
+  "Y.S. Lincoln argues for using this as a guide in research ethics while one of the leading explicators of this concept is Herbert James Paton. One objection to this concept by David Ross relies on the certainty of everyone lying, while Louis Beck questioned this concept's scope with an example of writing your name in a book. One of the best-known objections came from Benjamin Constant, inspiring this concept's originator to reply with \"On a Supposed Right to Tell Lies from Benevolent Motives.\" That reply argues that an \"enquiring murderer\" asking about the location of his victim should still be answered truthfully to respect this concept. Coming in \"Kingdom of Heaven\" and \"Universal Law\" formulations, FTP, identify this construct set forth in Groundwork for the Metaphysics of Morals that says to act as if your actions would be made a universal law, the best known ethical construct of Immanuel Kant.": {
+    "guess": "Categorical imperative",
+    "confidence": -8.13675770656
+  },
+  "This line is replaced with gibberish in a sketch from the \"Ben Stiller Show\" set in a grocery store.": {
+    "guess": "\"Whatcha buyin'?\"",
+    "confidence": -4.9668164604000005
+  },
+  "This line is replaced with gibberish in a sketch from the \"Ben Stiller Show\" set in a grocery store. A character suggests that this line should appear on his tombstone instead of \"always in the wrong place": {
+    "guess": "SNL Transcripts",
+    "confidence": -11.235035011399999
+  },
+  "This line is replaced with gibberish in a sketch from the \"Ben Stiller Show\" set in a grocery store. A character suggests that this line should appear on his tombstone instead of \"always in the wrong place at the wrong time\" shortly before shooting himself in the shoulder, killing a man behind him. This": {
+    "guess": "Adolf Hitler",
+    "confidence": -8.9111978231252
+  },
+  "This line is replaced with gibberish in a sketch from the \"Ben Stiller Show\" set in a grocery store. A character suggests that this line should appear on his tombstone instead of \"always in the wrong place at the wrong time\" shortly before shooting himself in the shoulder, killing a man behind him. This line is said after a man drops a lighter on a trail of leaking jet fuel, which somehow leads to": {
+    "guess": "You Must Change Your Life",
+    "confidence": -8.037493030890001
+  },
+  "This line is replaced with gibberish in a sketch from the \"Ben Stiller Show\" set in a grocery store. A character suggests that this line should appear on his tombstone instead of \"always in the wrong place at the wrong time\" shortly before shooting himself in the shoulder, killing a man behind him. This line is said after a man drops a lighter on a trail of leaking jet fuel, which somehow leads to a plane that's already off the ground exploding. This line is first said as a response to, \"Do you really": {
+    "guess": "",
+    "confidence": -3.935764997
+  },
+  "This line is replaced with gibberish in a sketch from the \"Ben Stiller Show\" set in a grocery store. A character suggests that this line should appear on his tombstone instead of \"always in the wrong place at the wrong time\" shortly before shooting himself in the shoulder, killing a man behind him. This line is said after a man drops a lighter on a trail of leaking jet fuel, which somehow leads to a plane that's already off the ground exploding. This line is first said as a response to, \"Do you really think you have a chance against us, Mr. Cowboy?\" by a cop who is communicating with a criminal": {
+    "guess": "You Must Change Your Life",
+    "confidence": -9.214082760370001
+  },
+  "This line is replaced with gibberish in a sketch from the \"Ben Stiller Show\" set in a grocery store. A character suggests that this line should appear on his tombstone instead of \"always in the wrong place at the wrong time\" shortly before shooting himself in the shoulder, killing a man behind him. This line is said after a man drops a lighter on a trail of leaking jet fuel, which somehow leads to a plane that's already off the ground exploding. This line is first said as a response to, \"Do you really think you have a chance against us, Mr. Cowboy?\" by a cop who is communicating with a criminal in the Nakatomi Plaza building via walkie-talkie. For 10 points, name this line which is repeated by": {
+    "guess": "\"I'm not going to let you",
+    "confidence": -4.693350495000001
+  },
+  "This line is replaced with gibberish in a sketch from the \"Ben Stiller Show\" set in a grocery store. A character suggests that this line should appear on his tombstone instead of \"always in the wrong place at the wrong time\" shortly before shooting himself in the shoulder, killing a man behind him. This line is said after a man drops a lighter on a trail of leaking jet fuel, which somehow leads to a plane that's already off the ground exploding. This line is first said as a response to, \"Do you really think you have a chance against us, Mr. Cowboy?\" by a cop who is communicating with a criminal in the Nakatomi Plaza building via walkie-talkie. For 10 points, name this line which is repeated by Hans Gruber shortly before his death, the catchphrase of John McClane in the Die Hard movies.": {
+    "guess": "\"I have a feeling we're not",
+    "confidence": -3.3603148018
+  },
+  "About 20 lines into this text, its narrator remembers declaiming shepherds such as himself as \"mere bellies\"who": {
+    "guess": "Hugo does not give the narrator a name",
+    "confidence": -3.1459174522899995
+  },
+  "About 20 lines into this text, its narrator remembers declaiming shepherds such as himself as \"mere bellies\"who \"know how to speak many false things\" and recalls being given a laurel rod by all the Heliconian": {
+    "guess": "Oedipus Rex",
+    "confidence": -7.51963604856
+  },
+  "About 20 lines into this text, its narrator remembers declaiming shepherds such as himself as \"mere bellies\"who \"know how to speak many false things\" and recalls being given a laurel rod by all the Heliconian muses towhom it is dedicated. Nausithous and Nausinous are the final characters introduced in": {
+    "guess": "Hesiod",
+    "confidence": -6.634986444317171
+  },
+  "About 20 lines into this text, its narrator remembers declaiming shepherds such as himself as \"mere bellies\"who \"know how to speak many false things\" and recalls being given a laurel rod by all the Heliconian muses towhom it is dedicated. Nausithous and Nausinous are the final characters introduced in the 1,022 survivinglines of this text, which claims that Eros predated the darkness spirits Erebus": {
+    "guess": "Eros",
+    "confidence": -7.25595266252567
+  },
+  "About 20 lines into this text, its narrator remembers declaiming shepherds such as himself as \"mere bellies\"who \"know how to speak many false things\" and recalls being given a laurel rod by all the Heliconian muses towhom it is dedicated. Nausithous and Nausinous are the final characters introduced in the 1,022 survivinglines of this text, which claims that Eros predated the darkness spirits Erebus and Nyx. One of the earliestsources to mention the hundred-handed Hecatonchires, this text claims that": {
+    "guess": "Homer",
+    "confidence": -7.8126241337085
+  },
+  "About 20 lines into this text, its narrator remembers declaiming shepherds such as himself as \"mere bellies\"who \"know how to speak many false things\" and recalls being given a laurel rod by all the Heliconian muses towhom it is dedicated. Nausithous and Nausinous are the final characters introduced in the 1,022 survivinglines of this text, which claims that Eros predated the darkness spirits Erebus and Nyx. One of the earliestsources to mention the hundred-handed Hecatonchires, this text claims that the arche, or first substance, ofthe universe was Chaos, which existed before the many Titans, gods,": {
+    "guess": "Homer",
+    "confidence": -8.196804229779172
+  },
+  "About 20 lines into this text, its narrator remembers declaiming shepherds such as himself as \"mere bellies\"who \"know how to speak many false things\" and recalls being given a laurel rod by all the Heliconian muses towhom it is dedicated. Nausithous and Nausinous are the final characters introduced in the 1,022 survivinglines of this text, which claims that Eros predated the darkness spirits Erebus and Nyx. One of the earliestsources to mention the hundred-handed Hecatonchires, this text claims that the arche, or first substance, ofthe universe was Chaos, which existed before the many Titans, gods, and beasts it lists later on. For 10 points,name this eighth-century BCE account of the origins": {
+    "guess": "Odyssey",
+    "confidence": -7.825868641605439
+  },
+  "About 20 lines into this text, its narrator remembers declaiming shepherds such as himself as \"mere bellies\"who \"know how to speak many false things\" and recalls being given a laurel rod by all the Heliconian muses towhom it is dedicated. Nausithous and Nausinous are the final characters introduced in the 1,022 survivinglines of this text, which claims that Eros predated the darkness spirits Erebus and Nyx. One of the earliestsources to mention the hundred-handed Hecatonchires, this text claims that the arche, or first substance, ofthe universe was Chaos, which existed before the many Titans, gods, and beasts it lists later on. For 10 points,name this eighth-century BCE account of the origins and genealogy of the gods by Hesiod. ": {
+    "guess": "Theogony",
+    "confidence": -8.3231684124
+  }
+}

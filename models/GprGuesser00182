@@ -1,0 +1,102 @@
+{
+  "The amino acid GABA causes an increase of this property for chlorine ions, resulting in a depolarization": {
+    "guess": "Chloride",
+    "confidence": -10.343723511820999
+  },
+  "The amino acid GABA causes an increase of this property for chlorine ions, resulting in a depolarization of the cell membrane. Patch-clamp studies show that calcium has two types of channels, one with": {
+    "guess": "GABA",
+    "confidence": -10.978779099999999
+  },
+  "The amino acid GABA causes an increase of this property for chlorine ions, resulting in a depolarization of the cell membrane. Patch-clamp studies show that calcium has two types of channels, one with a high and one with a low level of this property. One of the units used to express it is the siemens,": {
+    "guess": "Calcium",
+    "confidence": -9.9860040409
+  },
+  "The amino acid GABA causes an increase of this property for chlorine ions, resulting in a depolarization of the cell membrane. Patch-clamp studies show that calcium has two types of channels, one with a high and one with a low level of this property. One of the units used to express it is the siemens, which can be represented by current divided by voltage. However its better known unit of measure is": {
+    "guess": "Calcium ion",
+    "confidence": -9.9675629642
+  },
+  "The amino acid GABA causes an increase of this property for chlorine ions, resulting in a depolarization of the cell membrane. Patch-clamp studies show that calcium has two types of channels, one with a high and one with a low level of this property. One of the units used to express it is the siemens, which can be represented by current divided by voltage. However its better known unit of measure is the mho, the reciprocal of the ohm. FTP, name this electrical property defined as 1 over R, or the": {
+    "guess": "Resistance",
+    "confidence": -11.397638038
+  },
+  "The amino acid GABA causes an increase of this property for chlorine ions, resulting in a depolarization of the cell membrane. Patch-clamp studies show that calcium has two types of channels, one with a high and one with a low level of this property. One of the units used to express it is the siemens, which can be represented by current divided by voltage. However its better known unit of measure is the mho, the reciprocal of the ohm. FTP, name this electrical property defined as 1 over R, or the reciprocal of resistance.": {
+    "guess": "Resistance",
+    "confidence": -8.62495864987574
+  },
+  "Amino acids are least soluble at the isoelectric point, a point on the curve associated with this lab": {
+    "guess": "Electrolysis",
+    "confidence": -9.8366899621
+  },
+  "Amino acids are least soluble at the isoelectric point, a point on the curve associated with this lab technique. Finding the end point for this lab technique requires substances like (*) phenolphthalein": {
+    "guess": "Titration",
+    "confidence": -8.918871626280001
+  },
+  "Amino acids are least soluble at the isoelectric point, a point on the curve associated with this lab technique. Finding the end point for this lab technique requires substances like (*) phenolphthalein and litmus, which are known as indicators. The curve associated with this technique has an inflection": {
+    "guess": "Titration",
+    "confidence": -9.056677623307
+  },
+  "Amino acids are least soluble at the isoelectric point, a point on the curve associated with this lab technique. Finding the end point for this lab technique requires substances like (*) phenolphthalein and litmus, which are known as indicators. The curve associated with this technique has an inflection point when the amount of a reagent added from a buret is the same as the amount of analyte in the": {
+    "guess": "Titration",
+    "confidence": -9.0842513552155
+  },
+  "Amino acids are least soluble at the isoelectric point, a point on the curve associated with this lab technique. Finding the end point for this lab technique requires substances like (*) phenolphthalein and litmus, which are known as indicators. The curve associated with this technique has an inflection point when the amount of a reagent added from a buret is the same as the amount of analyte in the sample; that point is the equivalence point. For 10 points, name this technique that is used to determine": {
+    "guess": "Titration",
+    "confidence": -9.160137145499998
+  },
+  "Amino acids are least soluble at the isoelectric point, a point on the curve associated with this lab technique. Finding the end point for this lab technique requires substances like (*) phenolphthalein and litmus, which are known as indicators. The curve associated with this technique has an inflection point when the amount of a reagent added from a buret is the same as the amount of analyte in the sample; that point is the equivalence point. For 10 points, name this technique that is used to determine the unknown concentration of a known reactant.": {
+    "guess": "Titration",
+    "confidence": -9.05647368772
+  },
+  "Amidst threats of the presence of the outlaw Mantee a drifter and former author named Alan Squier meets": {
+    "guess": "Robert E. Sherwood",
+    "confidence": -6.699336888382399
+  },
+  "Amidst threats of the presence of the outlaw Mantee a drifter and former author named Alan Squier meets and falls in love with Gabby Maple, and young girl who longs to leave the Arizona desert town where": {
+    "guess": "Eugene O'Neill",
+    "confidence": -7.679375239810001
+  },
+  "Amidst threats of the presence of the outlaw Mantee a drifter and former author named Alan Squier meets and falls in love with Gabby Maple, and young girl who longs to leave the Arizona desert town where she lives and go to France to be with her mother. When Mantee shows up Squier, who respects his Robin": {
+    "guess": "Eugene O'Neill",
+    "confidence": -8.750031717839999
+  },
+  "Amidst threats of the presence of the outlaw Mantee a drifter and former author named Alan Squier meets and falls in love with Gabby Maple, and young girl who longs to leave the Arizona desert town where she lives and go to France to be with her mother. When Mantee shows up Squier, who respects his Robin Hood-like nobility, makes an unusual request that Mantee kill him so he can leave his life insurance": {
+    "guess": "Robert E. Sherwood",
+    "confidence": -7.760160880699
+  },
+  "Amidst threats of the presence of the outlaw Mantee a drifter and former author named Alan Squier meets and falls in love with Gabby Maple, and young girl who longs to leave the Arizona desert town where she lives and go to France to be with her mother. When Mantee shows up Squier, who respects his Robin Hood-like nobility, makes an unusual request that Mantee kill him so he can leave his life insurance to Gabby, which Mantee does. This is, FTP, a brief synopsis of what play by Robert Sherwood?": {
+    "guess": "Idiot's Delight",
+    "confidence": -6.6820006117254
+  },
+  "Some aminoglycoside antibiotics, such as kanamycin, inhibit the activity of these structures. The binding": {
+    "guess": "Ribosome",
+    "confidence": -8.465901129657
+  },
+  "Some aminoglycoside antibiotics, such as kanamycin, inhibit the activity of these structures. The binding of certain molecules to their A-sites is facilitated by elongation factors; those molecules are": {
+    "guess": "Elongation factors",
+    "confidence": -8.902537640013
+  },
+  "Some aminoglycoside antibiotics, such as kanamycin, inhibit the activity of these structures. The binding of certain molecules to their A-sites is facilitated by elongation factors; those molecules are later shifted to the E-site for removal. In bacteria, they recognize and bind to purine-only segments": {
+    "guess": "Transfer RNA",
+    "confidence": -9.8674132017
+  },
+  "Some aminoglycoside antibiotics, such as kanamycin, inhibit the activity of these structures. The binding of certain molecules to their A-sites is facilitated by elongation factors; those molecules are later shifted to the E-site for removal. In bacteria, they recognize and bind to purine-only segments upstream of f-met called (*) Shine-Dalgarno sequences. The prokaryotic versions of these structures": {
+    "guess": "Riboswitches",
+    "confidence": -8.454230431294
+  },
+  "Some aminoglycoside antibiotics, such as kanamycin, inhibit the activity of these structures. The binding of certain molecules to their A-sites is facilitated by elongation factors; those molecules are later shifted to the E-site for removal. In bacteria, they recognize and bind to purine-only segments upstream of f-met called (*) Shine-Dalgarno sequences. The prokaryotic versions of these structures are composed of two subunits, 30S and 50S. They may be free-floating in the cytosol or membrane-bound": {
+    "guess": "Ribosome",
+    "confidence": -8.935365352874001
+  },
+  "Some aminoglycoside antibiotics, such as kanamycin, inhibit the activity of these structures. The binding of certain molecules to their A-sites is facilitated by elongation factors; those molecules are later shifted to the E-site for removal. In bacteria, they recognize and bind to purine-only segments upstream of f-met called (*) Shine-Dalgarno sequences. The prokaryotic versions of these structures are composed of two subunits, 30S and 50S. They may be free-floating in the cytosol or membrane-bound within the endoplasmic reticulum, and they name the type of RNA most abundant in the cell. For": {
+    "guess": "Ribosome",
+    "confidence": -9.07941331723
+  },
+  "Some aminoglycoside antibiotics, such as kanamycin, inhibit the activity of these structures. The binding of certain molecules to their A-sites is facilitated by elongation factors; those molecules are later shifted to the E-site for removal. In bacteria, they recognize and bind to purine-only segments upstream of f-met called (*) Shine-Dalgarno sequences. The prokaryotic versions of these structures are composed of two subunits, 30S and 50S. They may be free-floating in the cytosol or membrane-bound within the endoplasmic reticulum, and they name the type of RNA most abundant in the cell. For 10 points, identify these tiny structures synthesized in the nucleolus, which produce polypeptide chains": {
+    "guess": "Ribosome",
+    "confidence": -8.79521513275
+  },
+  "Some aminoglycoside antibiotics, such as kanamycin, inhibit the activity of these structures. The binding of certain molecules to their A-sites is facilitated by elongation factors; those molecules are later shifted to the E-site for removal. In bacteria, they recognize and bind to purine-only segments upstream of f-met called (*) Shine-Dalgarno sequences. The prokaryotic versions of these structures are composed of two subunits, 30S and 50S. They may be free-floating in the cytosol or membrane-bound within the endoplasmic reticulum, and they name the type of RNA most abundant in the cell. For 10 points, identify these tiny structures synthesized in the nucleolus, which produce polypeptide chains in translation.": {
+    "guess": "Ribosome",
+    "confidence": -8.51934743283
+  }
+}

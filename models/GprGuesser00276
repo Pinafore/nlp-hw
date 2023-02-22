@@ -1,0 +1,450 @@
+{
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the": {
+    "guess": "Telomerase",
+    "confidence": -9.04281650545
+  },
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the accumulation of the product of that hydrolysis reaction, fluorescin, is a marker for the activity of": {
+    "guess": "Telomerase",
+    "confidence": -8.281205248852999
+  },
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the accumulation of the product of that hydrolysis reaction, fluorescin, is a marker for the activity of this enzyme. The combined deficiency of neuraminidase and this enzyme occurs due to the lack of a glycoprotein": {
+    "guess": "Neuraminidase",
+    "confidence": -7.467667778280999
+  },
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the accumulation of the product of that hydrolysis reaction, fluorescin, is a marker for the activity of this enzyme. The combined deficiency of neuraminidase and this enzyme occurs due to the lack of a glycoprotein which prevents the proteolytic degradation of this enzyme, and is called the Goldberg syndrome.": {
+    "guess": "Neuraminidase",
+    "confidence": -6.6076495960375
+  },
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the accumulation of the product of that hydrolysis reaction, fluorescin, is a marker for the activity of this enzyme. The combined deficiency of neuraminidase and this enzyme occurs due to the lack of a glycoprotein which prevents the proteolytic degradation of this enzyme, and is called the Goldberg syndrome. This enzyme also carries out an isomerization to produce a product which, like\u00a0IPTG, acts as": {
+    "guess": "Ethanol",
+    "confidence": -9.979647040000001
+  },
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the accumulation of the product of that hydrolysis reaction, fluorescin, is a marker for the activity of this enzyme. The combined deficiency of neuraminidase and this enzyme occurs due to the lack of a glycoprotein which prevents the proteolytic degradation of this enzyme, and is called the Goldberg syndrome. This enzyme also carries out an isomerization to produce a product which, like\u00a0IPTG, acts as in inducer for this enzyme by inactivating its repressor, whereas PETG is a reversible inhibitor for": {
+    "guess": "Glycogen",
+    "confidence": -9.372741613874668
+  },
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the accumulation of the product of that hydrolysis reaction, fluorescin, is a marker for the activity of this enzyme. The combined deficiency of neuraminidase and this enzyme occurs due to the lack of a glycoprotein which prevents the proteolytic degradation of this enzyme, and is called the Goldberg syndrome. This enzyme also carries out an isomerization to produce a product which, like\u00a0IPTG, acts as in inducer for this enzyme by inactivating its repressor, whereas PETG is a reversible inhibitor for it. It is the product of a polycistronic mRNA which also codes for a ?permease and a transacetylase,": {
+    "guess": "Glucose-6-phosph",
+    "confidence": -2.4850085731399996
+  },
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the accumulation of the product of that hydrolysis reaction, fluorescin, is a marker for the activity of this enzyme. The combined deficiency of neuraminidase and this enzyme occurs due to the lack of a glycoprotein which prevents the proteolytic degradation of this enzyme, and is called the Goldberg syndrome. This enzyme also carries out an isomerization to produce a product which, like\u00a0IPTG, acts as in inducer for this enzyme by inactivating its repressor, whereas PETG is a reversible inhibitor for it. It is the product of a polycistronic mRNA which also codes for a ?permease and a transacetylase, and its activity can be probed by a colorimetric assay wherein a dark-blue product is formed from": {
+    "guess": "Telomerase",
+    "confidence": -8.76759942244
+  },
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the accumulation of the product of that hydrolysis reaction, fluorescin, is a marker for the activity of this enzyme. The combined deficiency of neuraminidase and this enzyme occurs due to the lack of a glycoprotein which prevents the proteolytic degradation of this enzyme, and is called the Goldberg syndrome. This enzyme also carries out an isomerization to produce a product which, like\u00a0IPTG, acts as in inducer for this enzyme by inactivating its repressor, whereas PETG is a reversible inhibitor for it. It is the product of a polycistronic mRNA which also codes for a ?permease and a transacetylase, and its activity can be probed by a colorimetric assay wherein a dark-blue product is formed from ONPG or X-Gal. For 10 points, identify this protein synthesized by the lac operon, which helps digest": {
+    "guess": "Lac operon",
+    "confidence": -9.348643664344
+  },
+  "One assay used to measure its activity involves the introduction of FdG via hypotonic shock, and the accumulation of the product of that hydrolysis reaction, fluorescin, is a marker for the activity of this enzyme. The combined deficiency of neuraminidase and this enzyme occurs due to the lack of a glycoprotein which prevents the proteolytic degradation of this enzyme, and is called the Goldberg syndrome. This enzyme also carries out an isomerization to produce a product which, like\u00a0IPTG, acts as in inducer for this enzyme by inactivating its repressor, whereas PETG is a reversible inhibitor for it. It is the product of a polycistronic mRNA which also codes for a ?permease and a transacetylase, and its activity can be probed by a colorimetric assay wherein a dark-blue product is formed from ONPG or X-Gal. For 10 points, identify this protein synthesized by the lac operon, which helps digest a namesake monosaccharide.": {
+    "guess": "Lac operon protein",
+    "confidence": -9.421754291457999
+  },
+  "If one assumes a hidden variable theory as well as locality, general arguments produce this prediction": {
+    "guess": "The wavefunction collapses to a particular value",
+    "confidence": -6.88043073
+  },
+  "If one assumes a hidden variable theory as well as locality, general arguments produce this prediction for the measurement of, for example, the correlations of particle spins.  However, it has been experimentally": {
+    "guess": "No",
+    "confidence": -13.232109569999999
+  },
+  "If one assumes a hidden variable theory as well as locality, general arguments produce this prediction for the measurement of, for example, the correlations of particle spins.  However, it has been experimentally shown to be untrue in a manner consistent with standard quantum mechanics.  First proposed": {
+    "guess": "Erwin Schr\u00f6dinger",
+    "confidence": -3.570303230864
+  },
+  "If one assumes a hidden variable theory as well as locality, general arguments produce this prediction for the measurement of, for example, the correlations of particle spins.  However, it has been experimentally shown to be untrue in a manner consistent with standard quantum mechanics.  First proposed in 1964 in response to the EPR paradox is, for ten points, what inequality?": {
+    "guess": "Bell's inequality",
+    "confidence": -9.712198560000001
+  },
+  "After the assassination of Gedaliah, this prophet took over his ministry, and he was noted for using": {
+    "guess": "Jeremiah",
+    "confidence": -13.145166784999999
+  },
+  "After the assassination of Gedaliah, this prophet took over his ministry, and he was noted for using props like a yoke around his neck while preaching. Catholics believe that this prophet was stoned to": {
+    "guess": "Jeremiah",
+    "confidence": -11.29131033
+  },
+  "After the assassination of Gedaliah, this prophet took over his ministry, and he was noted for using props like a yoke around his neck while preaching. Catholics believe that this prophet was stoned to death by Egyptians because of his preaching. This prophet was rescued from a pit that he was caught": {
+    "guess": "Isaiah",
+    "confidence": -11.437960422
+  },
+  "After the assassination of Gedaliah, this prophet took over his ministry, and he was noted for using props like a yoke around his neck while preaching. Catholics believe that this prophet was stoned to death by Egyptians because of his preaching. This prophet was rescued from a pit that he was caught in by the slave Ebed-melech. This prophet was the son of Hilikiah, and he  was told \"You will go to": {
+    "guess": "Jeremiah",
+    "confidence": -10.588245134000001
+  },
+  "After the assassination of Gedaliah, this prophet took over his ministry, and he was noted for using props like a yoke around his neck while preaching. Catholics believe that this prophet was stoned to death by Egyptians because of his preaching. This prophet was rescued from a pit that he was caught in by the slave Ebed-melech. This prophet was the son of Hilikiah, and he  was told \"You will go to them; but for their part, they will not listen to you\" by God. For ten points, identify this prophet": {
+    "guess": "Jeremiah",
+    "confidence": -10.497582735
+  },
+  "After the assassination of Gedaliah, this prophet took over his ministry, and he was noted for using props like a yoke around his neck while preaching. Catholics believe that this prophet was stoned to death by Egyptians because of his preaching. This prophet was rescued from a pit that he was caught in by the slave Ebed-melech. This prophet was the son of Hilikiah, and he  was told \"You will go to them; but for their part, they will not listen to you\" by God. For ten points, identify this prophet of the old testiment who wrote the Book of Lamentations and his own namesake book, which comes between": {
+    "guess": "Jeremiah",
+    "confidence": -10.4071534424
+  },
+  "After the assassination of Gedaliah, this prophet took over his ministry, and he was noted for using props like a yoke around his neck while preaching. Catholics believe that this prophet was stoned to death by Egyptians because of his preaching. This prophet was rescued from a pit that he was caught in by the slave Ebed-melech. This prophet was the son of Hilikiah, and he  was told \"You will go to them; but for their part, they will not listen to you\" by God. For ten points, identify this prophet of the old testiment who wrote the Book of Lamentations and his own namesake book, which comes between Isaiah and Ezekiel.": {
+    "guess": "Jeremiah",
+    "confidence": -10.3628788024
+  },
+  "Assuming that an ekpyrotic phase precedes this event implies that the scalar \ufb01eld kinetic energy would": {
+    "guess": "Big Crunch",
+    "confidence": -9.3606778093
+  },
+  "Assuming that an ekpyrotic phase precedes this event implies that the scalar \ufb01eld kinetic energy would dominate the energy density. Steinhardt and Turok proposed that this event is a collision between": {
+    "guess": "Big Crunch",
+    "confidence": -9.1124716272
+  },
+  "Assuming that an ekpyrotic phase precedes this event implies that the scalar \ufb01eld kinetic energy would dominate the energy density. Steinhardt and Turok proposed that this event is a collision between two branes. A universe with positive (*) curvature, or density parameter greater than 1, and no dark": {
+    "guess": "Big Crunch",
+    "confidence": -9.500517711499999
+  },
+  "Assuming that an ekpyrotic phase precedes this event implies that the scalar \ufb01eld kinetic energy would dominate the energy density. Steinhardt and Turok proposed that this event is a collision between two branes. A universe with positive (*) curvature, or density parameter greater than 1, and no dark energy would end in this way. This outcome is contrasted with maximum entropy and no thermodynamic": {
+    "guess": "Big Crunch",
+    "confidence": -9.648652249
+  },
+  "Assuming that an ekpyrotic phase precedes this event implies that the scalar \ufb01eld kinetic energy would dominate the energy density. Steinhardt and Turok proposed that this event is a collision between two branes. A universe with positive (*) curvature, or density parameter greater than 1, and no dark energy would end in this way. This outcome is contrasted with maximum entropy and no thermodynamic free energy called the Big Freeze. For 10 points, what event is the theoretical fate of the universe": {
+    "guess": "The Big Crunch",
+    "confidence": -7.9970484443192
+  },
+  "Assuming that an ekpyrotic phase precedes this event implies that the scalar \ufb01eld kinetic energy would dominate the energy density. Steinhardt and Turok proposed that this event is a collision between two branes. A universe with positive (*) curvature, or density parameter greater than 1, and no dark energy would end in this way. This outcome is contrasted with maximum entropy and no thermodynamic free energy called the Big Freeze. For 10 points, what event is the theoretical fate of the universe if the expansion is not sufficient to counteract gravitation so that everything contracts to a black": {
+    "guess": "Big Crunch",
+    "confidence": -7.22817851771344
+  },
+  "Assuming that an ekpyrotic phase precedes this event implies that the scalar \ufb01eld kinetic energy would dominate the energy density. Steinhardt and Turok proposed that this event is a collision between two branes. A universe with positive (*) curvature, or density parameter greater than 1, and no dark energy would end in this way. This outcome is contrasted with maximum entropy and no thermodynamic free energy called the Big Freeze. For 10 points, what event is the theoretical fate of the universe if the expansion is not sufficient to counteract gravitation so that everything contracts to a black hole?": {
+    "guess": "Big Crunch",
+    "confidence": -6.94501113698394
+  },
+  "Asserting that \"a tub had caught all,\" the narrator of this story invites three police officers to sit": {
+    "guess": "The Tale of the Wife's Tub",
+    "confidence": -0.6061384145300001
+  },
+  "Asserting that \"a tub had caught all,\" the narrator of this story invites three police officers to sit down, believing that no one will discover his reaction to the victim's vulture-like eye. Though the": {
+    "guess": "\"The Tell-Tale Heart\"",
+    "confidence": -2.866333762179999
+  },
+  "Asserting that \"a tub had caught all,\" the narrator of this story invites three police officers to sit down, believing that no one will discover his reaction to the victim's vulture-like eye. Though the narrator asserts that he is not a madman, he describes the torment of a sound \"much as a sound a watch": {
+    "guess": "Edgar Allan Poe",
+    "confidence": -8.226312400400001
+  },
+  "Asserting that \"a tub had caught all,\" the narrator of this story invites three police officers to sit down, believing that no one will discover his reaction to the victim's vulture-like eye. Though the narrator asserts that he is not a madman, he describes the torment of a sound \"much as a sound a watch makes when enveloped in cotton.\" For 10 points\u2014name this story in which the narrator reveals himself": {
+    "guess": "\"The Tell-Tale Heart\"",
+    "confidence": -0.9721468047000001
+  },
+  "Asserting that \"a tub had caught all,\" the narrator of this story invites three police officers to sit down, believing that no one will discover his reaction to the victim's vulture-like eye. Though the narrator asserts that he is not a madman, he describes the torment of a sound \"much as a sound a watch makes when enveloped in cotton.\" For 10 points\u2014name this story in which the narrator reveals himself by tearing up the planks and revealing the dead body of the old man, to end the beating of the": {
+    "guess": "\"The Tell-Tale Heart\"",
+    "confidence": -1.3314548015
+  },
+  "Asserting that \"a tub had caught all,\" the narrator of this story invites three police officers to sit down, believing that no one will discover his reaction to the victim's vulture-like eye. Though the narrator asserts that he is not a madman, he describes the torment of a sound \"much as a sound a watch makes when enveloped in cotton.\" For 10 points\u2014name this story in which the narrator reveals himself by tearing up the planks and revealing the dead body of the old man, to end the beating of the title object.": {
+    "guess": "\"The Tell-Tale Heart\"",
+    "confidence": -0.9156011310999999
+  },
+  "Assuming an electron's charge is distributed over its surface, this value will be two-thirds pi times": {
+    "guess": "Electron's charge",
+    "confidence": -9.716110349000001
+  },
+  "Assuming an electron's charge is distributed over its surface, this value will be two-thirds pi times the electron's charge, times the electron's radius squared, divided by the period of the electron's": {
+    "guess": "2.pi times the electron's charge",
+    "confidence": -4.0439131275
+  },
+  "Assuming an electron's charge is distributed over its surface, this value will be two-thirds pi times the electron's charge, times the electron's radius squared, divided by the period of the electron's spin. Steiner's theorem and the plane-figure theorem relate this concept relative to other axes passing": {
+    "guess": "Steiner's theorem and the plane-",
+    "confidence": -1.7637836462300003
+  },
+  "Assuming an electron's charge is distributed over its surface, this value will be two-thirds pi times the electron's charge, times the electron's radius squared, divided by the period of the electron's spin. Steiner's theorem and the plane-figure theorem relate this concept relative to other axes passing through the center of mass. Its value for a solid cylinder is half that of a cylindrical shell": {
+    "guess": "Steiner's theorem and the plane-",
+    "confidence": -1.68772674922
+  },
+  "Assuming an electron's charge is distributed over its surface, this value will be two-thirds pi times the electron's charge, times the electron's radius squared, divided by the period of the electron's spin. Steiner's theorem and the plane-figure theorem relate this concept relative to other axes passing through the center of mass. Its value for a solid cylinder is half that of a cylindrical shell with the same mass and radius. For 10 points, name this physical property of an object's resistance": {
+    "guess": "Electrical resistance",
+    "confidence": -11.49496683
+  },
+  "Assuming an electron's charge is distributed over its surface, this value will be two-thirds pi times the electron's charge, times the electron's radius squared, divided by the period of the electron's spin. Steiner's theorem and the plane-figure theorem relate this concept relative to other axes passing through the center of mass. Its value for a solid cylinder is half that of a cylindrical shell with the same mass and radius. For 10 points, name this physical property of an object's resistance to angular acceleration, the rotational analog of mass.": {
+    "guess": "Rotational inertia",
+    "confidence": -9.6840331811
+  },
+  "The assumption in Britton's lemma is that the word is equal to this. Any element of a coset H acts as": {
+    "guess": "",
+    "confidence": -6.39182319258
+  },
+  "The assumption in Britton's lemma is that the word is equal to this. Any element of a coset H acts as one\n of these for H. In a group, if an element is of this type, it must commute with all other group": {
+    "guess": "Commutative law",
+    "confidence": -9.038596337
+  },
+  "The assumption in Britton's lemma is that the word is equal to this. Any element of a coset H acts as one\n of these for H. In a group, if an element is of this type, it must commute with all other group elements and\n furthermore there is only one of these elements in a group. This is the result of a": {
+    "guess": "Electron",
+    "confidence": -10.409740669000001
+  },
+  "The assumption in Britton's lemma is that the word is equal to this. Any element of a coset H acts as one\n of these for H. In a group, if an element is of this type, it must commute with all other group elements and\n furthermore there is only one of these elements in a group. This is the result of a function composed with its\n inverse. In algebra, there are usually written as e. For matrices, this": {
+    "guess": "Inverses",
+    "confidence": -10.30977467255
+  },
+  "The assumption in Britton's lemma is that the word is equal to this. Any element of a coset H acts as one\n of these for H. In a group, if an element is of this type, it must commute with all other group elements and\n furthermore there is only one of these elements in a group. This is the result of a function composed with its\n inverse. In algebra, there are usually written as e. For matrices, this a matrix with ones down the diagonal\n and zeros elsewhere. For 10 points, name these elements and functions": {
+    "guess": "e, inverse, x, y,",
+    "confidence": -6.145225128
+  },
+  "The assumption in Britton's lemma is that the word is equal to this. Any element of a coset H acts as one\n of these for H. In a group, if an element is of this type, it must commute with all other group elements and\n furthermore there is only one of these elements in a group. This is the result of a function composed with its\n inverse. In algebra, there are usually written as e. For matrices, this a matrix with ones down the diagonal\n and zeros elsewhere. For 10 points, name these elements and functions that preserve the operand\n exemplified by how one times any integer b is b.": {
+    "guess": "e, inverse, b",
+    "confidence": -12.270356790000001
+  },
+  "This being was associated with peaches, and he once got out of a jam by throwing peaches at enemy soldiers.": {
+    "guess": "Monkey King",
+    "confidence": -7.304957365702999
+  },
+  "This being was associated with peaches, and he once got out of a jam by throwing peaches at enemy soldiers. This father of Hirugo the Leech Boy once cut a serpent into three pieces, each of which turned": {
+    "guess": "Perseus",
+    "confidence": -8.502582694144502
+  },
+  "This being was associated with peaches, and he once got out of a jam by throwing peaches at enemy soldiers. This father of Hirugo the Leech Boy once cut a serpent into three pieces, each of which turned into new divine beings. This being owns a sword named Amenowohabari, which he used to behead Kagutsuchi,": {
+    "guess": "Amenominakanushi",
+    "confidence": -9.1881694634
+  },
+  "This being was associated with peaches, and he once got out of a jam by throwing peaches at enemy soldiers. This father of Hirugo the Leech Boy once cut a serpent into three pieces, each of which turned into new divine beings. This being owns a sword named Amenowohabari, which he used to behead Kagutsuchi, the divinity of fire, after which this being created eight volcanoes. He also owns the spear": {
+    "guess": "Hirugo the Leech Boy",
+    "confidence": -2.36010127757
+  },
+  "This being was associated with peaches, and he once got out of a jam by throwing peaches at enemy soldiers. This father of Hirugo the Leech Boy once cut a serpent into three pieces, each of which turned into new divine beings. This being owns a sword named Amenowohabari, which he used to behead Kagutsuchi, the divinity of fire, after which this being created eight volcanoes. He also owns the spear Amenonuhoko, which can be use to raise landmasses from the sea. When this being entered a castle after": {
+    "guess": "Amenominakanushi",
+    "confidence": -9.59585850118
+  },
+  "This being was associated with peaches, and he once got out of a jam by throwing peaches at enemy soldiers. This father of Hirugo the Leech Boy once cut a serpent into three pieces, each of which turned into new divine beings. This being owns a sword named Amenowohabari, which he used to behead Kagutsuchi, the divinity of fire, after which this being created eight volcanoes. He also owns the spear Amenonuhoko, which can be use to raise landmasses from the sea. When this being entered a castle after being told not to, he saw a monstrous version of his wife and ran away to the ocean, where he took": {
+    "guess": "Amaterasu",
+    "confidence": -11.619592049
+  },
+  "This being was associated with peaches, and he once got out of a jam by throwing peaches at enemy soldiers. This father of Hirugo the Leech Boy once cut a serpent into three pieces, each of which turned into new divine beings. This being owns a sword named Amenowohabari, which he used to behead Kagutsuchi, the divinity of fire, after which this being created eight volcanoes. He also owns the spear Amenonuhoko, which can be use to raise landmasses from the sea. When this being entered a castle after being told not to, he saw a monstrous version of his wife and ran away to the ocean, where he took a bath that resulted in the birth of other divine beings from his eye and nose. For ten points, name": {
+    "guess": "Zeus",
+    "confidence": -7.028309823201699
+  },
+  "This being was associated with peaches, and he once got out of a jam by throwing peaches at enemy soldiers. This father of Hirugo the Leech Boy once cut a serpent into three pieces, each of which turned into new divine beings. This being owns a sword named Amenowohabari, which he used to behead Kagutsuchi, the divinity of fire, after which this being created eight volcanoes. He also owns the spear Amenonuhoko, which can be use to raise landmasses from the sea. When this being entered a castle after being told not to, he saw a monstrous version of his wife and ran away to the ocean, where he took a bath that resulted in the birth of other divine beings from his eye and nose. For ten points, name this kami who unsuccessfully tried to bring his wife back from the underworld and fathered Tsukuyomi,": {
+    "guess": "Amaterasu",
+    "confidence": -7.592740257038199
+  },
+  "This being was associated with peaches, and he once got out of a jam by throwing peaches at enemy soldiers. This father of Hirugo the Leech Boy once cut a serpent into three pieces, each of which turned into new divine beings. This being owns a sword named Amenowohabari, which he used to behead Kagutsuchi, the divinity of fire, after which this being created eight volcanoes. He also owns the spear Amenonuhoko, which can be use to raise landmasses from the sea. When this being entered a castle after being told not to, he saw a monstrous version of his wife and ran away to the ocean, where he took a bath that resulted in the birth of other divine beings from his eye and nose. For ten points, name this kami who unsuccessfully tried to bring his wife back from the underworld and fathered Tsukuyomi, Susano'o, and Amateratsu.": {
+    "guess": "Amaterasu",
+    "confidence": -7.429398636014699
+  },
+  "An assassination that occurred during this conflict was acknowledged by Anton Balasingham and killed": {
+    "guess": "Anton Balasingham",
+    "confidence": -9.892341513571001
+  },
+  "An assassination that occurred during this conflict was acknowledged by Anton Balasingham and killed a man who some  feared would reinstitute a \"satanic force\" better known as the IPKF. During this conflict,": {
+    "guess": "assassination of Rajiv Gandhi",
+    "confidence": -8.07868307
+  },
+  "An assassination that occurred during this conflict was acknowledged by Anton Balasingham and killed a man who some  feared would reinstitute a \"satanic force\" better known as the IPKF. During this conflict, one side enacted the Thirteenth  Amendment to officially recognize the official language of the": {
+    "guess": "Quebec",
+    "confidence": -12.14480187
+  },
+  "An assassination that occurred during this conflict was acknowledged by Anton Balasingham and killed a man who some  feared would reinstitute a \"satanic force\" better known as the IPKF. During this conflict, one side enacted the Thirteenth  Amendment to officially recognize the official language of the other side. One side in this conflict carried out three  offensives known as Operation Unceasing": {
+    "guess": "World War II",
+    "confidence": -6.80507980398467
+  },
+  "An assassination that occurred during this conflict was acknowledged by Anton Balasingham and killed a man who some  feared would reinstitute a \"satanic force\" better known as the IPKF. During this conflict, one side enacted the Thirteenth  Amendment to officially recognize the official language of the other side. One side in this conflict carried out three  offensives known as Operation Unceasing Waves I through III. Low points in this conflict include the murder of over 600  policemen in 1990 and": {
+    "guess": "Sri Lankan Civil War",
+    "confidence": -7.9152548301992995
+  },
+  "An assassination that occurred during this conflict was acknowledged by Anton Balasingham and killed a man who some  feared would reinstitute a \"satanic force\" better known as the IPKF. During this conflict, one side enacted the Thirteenth  Amendment to officially recognize the official language of the other side. One side in this conflict carried out three  offensives known as Operation Unceasing Waves I through III. Low points in this conflict include the murder of over 600  policemen in 1990 and this conflict's catalytic event, a month of pogroms called \"Black July.\" The Lessons Learnt and ": {
+    "guess": "Rwandan Genocide",
+    "confidence": -9.257146237699999
+  },
+  "An assassination that occurred during this conflict was acknowledged by Anton Balasingham and killed a man who some  feared would reinstitute a \"satanic force\" better known as the IPKF. During this conflict, one side enacted the Thirteenth  Amendment to officially recognize the official language of the other side. One side in this conflict carried out three  offensives known as Operation Unceasing Waves I through III. Low points in this conflict include the murder of over 600  policemen in 1990 and this conflict's catalytic event, a month of pogroms called \"Black July.\" The Lessons Learnt and  Reconciliation Commission investigated this conflict, which was split into four phases called (*) Eelam": {
+    "guess": "Sri Lanka Civil War",
+    "confidence": -8.933427516
+  },
+  "An assassination that occurred during this conflict was acknowledged by Anton Balasingham and killed a man who some  feared would reinstitute a \"satanic force\" better known as the IPKF. During this conflict, one side enacted the Thirteenth  Amendment to officially recognize the official language of the other side. One side in this conflict carried out three  offensives known as Operation Unceasing Waves I through III. Low points in this conflict include the murder of over 600  policemen in 1990 and this conflict's catalytic event, a month of pogroms called \"Black July.\" The Lessons Learnt and  Reconciliation Commission investigated this conflict, which was split into four phases called (*) Eelam Wars. The victorious  side in this conflict was led at its end by president Mahinda Rajapaksa. For": {
+    "guess": "Sri Lanka Civil War",
+    "confidence": -9.25578694426
+  },
+  "An assassination that occurred during this conflict was acknowledged by Anton Balasingham and killed a man who some  feared would reinstitute a \"satanic force\" better known as the IPKF. During this conflict, one side enacted the Thirteenth  Amendment to officially recognize the official language of the other side. One side in this conflict carried out three  offensives known as Operation Unceasing Waves I through III. Low points in this conflict include the murder of over 600  policemen in 1990 and this conflict's catalytic event, a month of pogroms called \"Black July.\" The Lessons Learnt and  Reconciliation Commission investigated this conflict, which was split into four phases called (*) Eelam Wars. The victorious  side in this conflict was led at its end by president Mahinda Rajapaksa. For 10 points, name this 1983 to 2009 war between a  Sinhalese government and the Tamil Tigers.": {
+    "guess": "Sri Lankan Civil War",
+    "confidence": -6.7419590916682
+  },
+  "With the assistence of his chief minister, the Duc de Sully, he lowered taxes on peasantry, promoted": {
+    "guess": "Louis XIV of France",
+    "confidence": -8.758615087481
+  },
+  "With the assistence of his chief minister, the Duc de Sully, he lowered taxes on peasantry, promoted economic recovery, and instituted a tax on the Paulette.  Victor at Ivry and Arquet, he was excluded": {
+    "guess": "",
+    "confidence": -2.18053148775
+  },
+  "With the assistence of his chief minister, the Duc de Sully, he lowered taxes on peasantry, promoted economic recovery, and instituted a tax on the Paulette.  Victor at Ivry and Arquet, he was excluded from succession by the Treaty of Nemours, but won a great victory at Coutras.  His excommunication": {
+    "guess": "Louis XIV of France",
+    "confidence": -9.20905270707
+  },
+  "With the assistence of his chief minister, the Duc de Sully, he lowered taxes on peasantry, promoted economic recovery, and instituted a tax on the Paulette.  Victor at Ivry and Arquet, he was excluded from succession by the Treaty of Nemours, but won a great victory at Coutras.  His excommunication was lifted by Clement VIII, but that pope later claimed to be crucified when this monarch promulgated": {
+    "guess": "Henry IV of France",
+    "confidence": -7.982327538739
+  },
+  "With the assistence of his chief minister, the Duc de Sully, he lowered taxes on peasantry, promoted economic recovery, and instituted a tax on the Paulette.  Victor at Ivry and Arquet, he was excluded from succession by the Treaty of Nemours, but won a great victory at Coutras.  His excommunication was lifted by Clement VIII, but that pope later claimed to be crucified when this monarch promulgated the Edict of Nantes.  For 10 points, name this French king, the first Bourbon who admitted that \"Paris": {
+    "guess": "Louis XIV of France",
+    "confidence": -9.278882755709999
+  },
+  "With the assistence of his chief minister, the Duc de Sully, he lowered taxes on peasantry, promoted economic recovery, and instituted a tax on the Paulette.  Victor at Ivry and Arquet, he was excluded from succession by the Treaty of Nemours, but won a great victory at Coutras.  His excommunication was lifted by Clement VIII, but that pope later claimed to be crucified when this monarch promulgated the Edict of Nantes.  For 10 points, name this French king, the first Bourbon who admitted that \"Paris is worth a mass\" when he converted following the War of the Three Henrys.": {
+    "guess": "Henry IV of France",
+    "confidence": -8.29883316458
+  },
+  "He asserts \"deep waves, what dreadful tales you could recite\" in his poem \"Oceano Nox,\" found in the": {
+    "guess": "Wallace Stevens",
+    "confidence": -10.21028267619
+  },
+  "He asserts \"deep waves, what dreadful tales you could recite\" in his poem \"Oceano Nox,\" found in the collection Sunlight and Shadows. The \"Comprachicos\" deform Gwynplaine's face, giving him a permanent": {
+    "guess": "\"Comprachicos\"",
+    "confidence": -2.2981285138832006
+  },
+  "He asserts \"deep waves, what dreadful tales you could recite\" in his poem \"Oceano Nox,\" found in the collection Sunlight and Shadows. The \"Comprachicos\" deform Gwynplaine's face, giving him a permanent smirk in The Man Who Laughs, and he wrote about the bandit who serves Ruy Gomez in Hernani. Deruchette": {
+    "guess": "Victor Hugo",
+    "confidence": -9.59688963072
+  },
+  "He asserts \"deep waves, what dreadful tales you could recite\" in his poem \"Oceano Nox,\" found in the collection Sunlight and Shadows. The \"Comprachicos\" deform Gwynplaine's face, giving him a permanent smirk in The Man Who Laughs, and he wrote about the bandit who serves Ruy Gomez in Hernani. Deruchette will marry anyone who saves the Durande from a dangerous reef in a novel about the fisherman Gilliatt.": {
+    "guess": "Victor Hugo",
+    "confidence": -9.080208390773
+  },
+  "He asserts \"deep waves, what dreadful tales you could recite\" in his poem \"Oceano Nox,\" found in the collection Sunlight and Shadows. The \"Comprachicos\" deform Gwynplaine's face, giving him a permanent smirk in The Man Who Laughs, and he wrote about the bandit who serves Ruy Gomez in Hernani. Deruchette will marry anyone who saves the Durande from a dangerous reef in a novel about the fisherman Gilliatt. In addition to The Toilers of the Sea, one of his protagonists is imprisoned for stealing a loaf": {
+    "guess": "Victor Hugo",
+    "confidence": -9.01347410371
+  },
+  "He asserts \"deep waves, what dreadful tales you could recite\" in his poem \"Oceano Nox,\" found in the collection Sunlight and Shadows. The \"Comprachicos\" deform Gwynplaine's face, giving him a permanent smirk in The Man Who Laughs, and he wrote about the bandit who serves Ruy Gomez in Hernani. Deruchette will marry anyone who saves the Durande from a dangerous reef in a novel about the fisherman Gilliatt. In addition to The Toilers of the Sea, one of his protagonists is imprisoned for stealing a loaf of bread, takes care of Cosette, and is tracked by Inspector Javert. For 10 points, name this man": {
+    "guess": "Victor Hugo",
+    "confidence": -9.046487194698
+  },
+  "He asserts \"deep waves, what dreadful tales you could recite\" in his poem \"Oceano Nox,\" found in the collection Sunlight and Shadows. The \"Comprachicos\" deform Gwynplaine's face, giving him a permanent smirk in The Man Who Laughs, and he wrote about the bandit who serves Ruy Gomez in Hernani. Deruchette will marry anyone who saves the Durande from a dangerous reef in a novel about the fisherman Gilliatt. In addition to The Toilers of the Sea, one of his protagonists is imprisoned for stealing a loaf of bread, takes care of Cosette, and is tracked by Inspector Javert. For 10 points, name this man who created Jean Valjean in Les Miserables.": {
+    "guess": "Victor Hugo",
+    "confidence": -6.356190967566939
+  },
+  "He assumed the guise of the beautiful girl Mohini following the churning of the oceans and tricked the": {
+    "guess": "Vishnu",
+    "confidence": -8.958188872384
+  },
+  "He assumed the guise of the beautiful girl Mohini following the churning of the oceans and tricked the demons out of their share of amrita. His devotees included Prahlada, and he eventually killed Prahlada's": {
+    "guess": "Vishnu",
+    "confidence": -9.05016556500467
+  },
+  "He assumed the guise of the beautiful girl Mohini following the churning of the oceans and tricked the demons out of their share of amrita. His devotees included Prahlada, and he eventually killed Prahlada's father Hiranyakasipu, stepping out of a pillar in the form of a half-man, half-lion. In the Vedas,": {
+    "guess": "Vishnu",
+    "confidence": -9.1096605900492
+  },
+  "He assumed the guise of the beautiful girl Mohini following the churning of the oceans and tricked the demons out of their share of amrita. His devotees included Prahlada, and he eventually killed Prahlada's father Hiranyakasipu, stepping out of a pillar in the form of a half-man, half-lion. In the Vedas, he measures out the earth and heavens in three steps, a theme repeated in his incarnation as the": {
+    "guess": "Vishnu",
+    "confidence": -9.25946369040467
+  },
+  "He assumed the guise of the beautiful girl Mohini following the churning of the oceans and tricked the demons out of their share of amrita. His devotees included Prahlada, and he eventually killed Prahlada's father Hiranyakasipu, stepping out of a pillar in the form of a half-man, half-lion. In the Vedas, he measures out the earth and heavens in three steps, a theme repeated in his incarnation as the dwarf Vamana. FTP, name this god whose ten avatars include Khalki and Buddha, known as the preserver.": {
+    "guess": "Vishnu",
+    "confidence": -9.13052547464094
+  },
+  "It assumes that the steric factor and the collision rate are constants, because these parameters have": {
+    "guess": "Svante Arrhenius",
+    "confidence": -1.0236897559885
+  },
+  "It assumes that the steric factor and the collision rate are constants, because these parameters have very little dependence on temperature. In electronics, it can be used to predict failure mechanisms": {
+    "guess": "Arrhenius equation",
+    "confidence": -6.60613131966
+  },
+  "It assumes that the steric factor and the collision rate are constants, because these parameters have very little dependence on temperature. In electronics, it can be used to predict failure mechanisms such as corrosion, intermetallic growth, metal migration, and dielectric breakdown. When plotting results,": {
+    "guess": "Arrhenius equation",
+    "confidence": -6.573557331623
+  },
+  "It assumes that the steric factor and the collision rate are constants, because these parameters have very little dependence on temperature. In electronics, it can be used to predict failure mechanisms such as corrosion, intermetallic growth, metal migration, and dielectric breakdown. When plotting results, the logarithm of both sides is taken to produce a linear model. The large effect of catalysts": {
+    "guess": "Catalysts",
+    "confidence": -8.428165967999998
+  },
+  "It assumes that the steric factor and the collision rate are constants, because these parameters have very little dependence on temperature. In electronics, it can be used to predict failure mechanisms such as corrosion, intermetallic growth, metal migration, and dielectric breakdown. When plotting results, the logarithm of both sides is taken to produce a linear model. The large effect of catalysts can be seen by the presence of the activation energy in the exponential term, along with the universal": {
+    "guess": "Arrhenius equation",
+    "confidence": -6.705610196304
+  },
+  "It assumes that the steric factor and the collision rate are constants, because these parameters have very little dependence on temperature. In electronics, it can be used to predict failure mechanisms such as corrosion, intermetallic growth, metal migration, and dielectric breakdown. When plotting results, the logarithm of both sides is taken to produce a linear model. The large effect of catalysts can be seen by the presence of the activation energy in the exponential term, along with the universal gas constant. FTP, identify this chemical equation which related the temperature of a reaction": {
+    "guess": "Arrhenius equation",
+    "confidence": -7.105232308527
+  },
+  "It assumes that the steric factor and the collision rate are constants, because these parameters have very little dependence on temperature. In electronics, it can be used to predict failure mechanisms such as corrosion, intermetallic growth, metal migration, and dielectric breakdown. When plotting results, the logarithm of both sides is taken to produce a linear model. The large effect of catalysts can be seen by the presence of the activation energy in the exponential term, along with the universal gas constant. FTP, identify this chemical equation which related the temperature of a reaction environment to the reaction rate, symbolized by the rate constant k.": {
+    "guess": "Arrhenius equation",
+    "confidence": -6.8046811432
+  },
+  "It was assembled by a Thespian in Pagasae. At one point, a fluttering halcyon announced that it would": {
+    "guess": "The Halcyon Days",
+    "confidence": -9.605315992443998
+  },
+  "It was assembled by a Thespian in Pagasae. At one point, a fluttering halcyon announced that it would remain immobile until Rhea had been placated, and when it was completed, it took Orpheus's help to": {
+    "guess": "The Parthenon",
+    "confidence": -10.35397572082
+  },
+  "It was assembled by a Thespian in Pagasae. At one point, a fluttering halcyon announced that it would remain immobile until Rhea had been placated, and when it was completed, it took Orpheus's help to get it started. Constructed of materials taken from Mount Pelion, and an oracular piece from the Dodonian": {
+    "guess": "The Halcyon",
+    "confidence": -9.75439315295
+  },
+  "It was assembled by a Thespian in Pagasae. At one point, a fluttering halcyon announced that it would remain immobile until Rhea had been placated, and when it was completed, it took Orpheus's help to get it started. Constructed of materials taken from Mount Pelion, and an oracular piece from the Dodonian oak of Zeus, it lost an ornament to the Cyaneae, or Planctae, or Sympleglades, at the entrance": {
+    "guess": "The Halcyon",
+    "confidence": -9.25039703254
+  },
+  "It was assembled by a Thespian in Pagasae. At one point, a fluttering halcyon announced that it would remain immobile until Rhea had been placated, and when it was completed, it took Orpheus's help to get it started. Constructed of materials taken from Mount Pelion, and an oracular piece from the Dodonian oak of Zeus, it lost an ornament to the Cyaneae, or Planctae, or Sympleglades, at the entrance to the Bosporus, but it would have suffered more damage if it hadn't been for the advice of Phineus.": {
+    "guess": "The Halcyon",
+    "confidence": -6.82515409013
+  },
+  "It was assembled by a Thespian in Pagasae. At one point, a fluttering halcyon announced that it would remain immobile until Rhea had been placated, and when it was completed, it took Orpheus's help to get it started. Constructed of materials taken from Mount Pelion, and an oracular piece from the Dodonian oak of Zeus, it lost an ornament to the Cyaneae, or Planctae, or Sympleglades, at the entrance to the Bosporus, but it would have suffered more damage if it hadn't been for the advice of Phineus. It was dedicated to Poseidon at the Isthmus of Corinth, where it was beached after returning from": {
+    "guess": "Orpheus",
+    "confidence": -9.919601822999999
+  },
+  "It was assembled by a Thespian in Pagasae. At one point, a fluttering halcyon announced that it would remain immobile until Rhea had been placated, and when it was completed, it took Orpheus's help to get it started. Constructed of materials taken from Mount Pelion, and an oracular piece from the Dodonian oak of Zeus, it lost an ornament to the Cyaneae, or Planctae, or Sympleglades, at the entrance to the Bosporus, but it would have suffered more damage if it hadn't been for the advice of Phineus. It was dedicated to Poseidon at the Isthmus of Corinth, where it was beached after returning from Colchis. FTP, name this ship used on the quest for the golden fleece, captained by Jason.": {
+    "guess": "Argo",
+    "confidence": -7.2274989503919
+  },
+  "This man assisted Marshal Radetsky at the Battle of Santa Lucia in the First War of Italian Independence": {
+    "guess": "Henry Moore",
+    "confidence": -9.175538015
+  },
+  "This man assisted Marshal Radetsky at the Battle of Santa Lucia in the First War of Italian Independence and later was opposed by Prince Albert of Sardinia. He was the addressee of the Transylvanian Memorandum,": {
+    "guess": "Giuseppe Garibaldi",
+    "confidence": -3.6934025962390002
+  },
+  "This man assisted Marshal Radetsky at the Battle of Santa Lucia in the First War of Italian Independence and later was opposed by Prince Albert of Sardinia. He was the addressee of the Transylvanian Memorandum, a petition asking for equal rights for Romanians and the end of Magyarization, and he assumed": {
+    "guess": "Giuseppe Mazzini",
+    "confidence": -3.584806375448
+  },
+  "This man assisted Marshal Radetsky at the Battle of Santa Lucia in the First War of Italian Independence and later was opposed by Prince Albert of Sardinia. He was the addressee of the Transylvanian Memorandum, a petition asking for equal rights for Romanians and the end of Magyarization, and he assumed the duties of prime minister after the death of Schwarzenberg. He survived an assassination attempt": {
+    "guess": "Lajos Kossuth",
+    "confidence": -2.55661399155
+  },
+  "This man assisted Marshal Radetsky at the Battle of Santa Lucia in the First War of Italian Independence and later was opposed by Prince Albert of Sardinia. He was the addressee of the Transylvanian Memorandum, a petition asking for equal rights for Romanians and the end of Magyarization, and he assumed the duties of prime minister after the death of Schwarzenberg. He survived an assassination attempt from the Hungarian nationalist J\u00e1nos Lib\u00e9nyi in 1853, four years after putting down the Hungarian": {
+    "guess": "Lajos Kossuth",
+    "confidence": -2.3300674589
+  },
+  "This man assisted Marshal Radetsky at the Battle of Santa Lucia in the First War of Italian Independence and later was opposed by Prince Albert of Sardinia. He was the addressee of the Transylvanian Memorandum, a petition asking for equal rights for Romanians and the end of Magyarization, and he assumed the duties of prime minister after the death of Schwarzenberg. He survived an assassination attempt from the Hungarian nationalist J\u00e1nos Lib\u00e9nyi in 1853, four years after putting down the Hungarian Revolution. The brother of Emperor Maximilian of Mexico, he assumed the throne after the abdication": {
+    "guess": "Lajos Kossuth",
+    "confidence": -3.0215424411700003
+  },
+  "This man assisted Marshal Radetsky at the Battle of Santa Lucia in the First War of Italian Independence and later was opposed by Prince Albert of Sardinia. He was the addressee of the Transylvanian Memorandum, a petition asking for equal rights for Romanians and the end of Magyarization, and he assumed the duties of prime minister after the death of Schwarzenberg. He survived an assassination attempt from the Hungarian nationalist J\u00e1nos Lib\u00e9nyi in 1853, four years after putting down the Hungarian Revolution. The brother of Emperor Maximilian of Mexico, he assumed the throne after the abdication of his epileptic uncle Ferdinand I. For 10 points, name this second-to-last ruler of the Austro-Hungarian": {
+    "guess": "Franz Joseph I",
+    "confidence": -8.7168864896
+  },
+  "This man assisted Marshal Radetsky at the Battle of Santa Lucia in the First War of Italian Independence and later was opposed by Prince Albert of Sardinia. He was the addressee of the Transylvanian Memorandum, a petition asking for equal rights for Romanians and the end of Magyarization, and he assumed the duties of prime minister after the death of Schwarzenberg. He survived an assassination attempt from the Hungarian nationalist J\u00e1nos Lib\u00e9nyi in 1853, four years after putting down the Hungarian Revolution. The brother of Emperor Maximilian of Mexico, he assumed the throne after the abdication of his epileptic uncle Ferdinand I. For 10 points, name this second-to-last ruler of the Austro-Hungarian Empire, the uncle of Franz Ferdinand and the loser in the Six Weeks' War.": {
+    "guess": "Franz Joseph I of Austria",
+    "confidence": -8.05640998435
+  },
+  "When this man assumed his highest post, an observer warned \"Now we are in the power of a wolf... And": {
+    "guess": "Adolf Hitler",
+    "confidence": -9.82424539918
+  },
+  "When this man assumed his highest post, an observer warned \"Now we are in the power of a wolf... And if we do not flee, he will inevitably devour us all.\" This man put to rest any rumors that his son Gioffre": {
+    "guess": "Berlusconi",
+    "confidence": -7.08690109474444
+  },
+  "When this man assumed his highest post, an observer warned \"Now we are in the power of a wolf... And if we do not flee, he will inevitably devour us all.\" This man put to rest any rumors that his son Gioffre had murdered his other son Giovanni. This man commissioned Pinturicchio to decorate his namesake": {
+    "guess": "Michelangelo",
+    "confidence": -6.8488435460343995
+  },
+  "When this man assumed his highest post, an observer warned \"Now we are in the power of a wolf... And if we do not flee, he will inevitably devour us all.\" This man put to rest any rumors that his son Gioffre had murdered his other son Giovanni. This man commissioned Pinturicchio to decorate his namesake apartments and organized the simultaneous opening of the holy doors of the four major basilicas": {
+    "guess": "Lorenzo de' Medici",
+    "confidence": -7.70398930887
+  },
+  "When this man assumed his highest post, an observer warned \"Now we are in the power of a wolf... And if we do not flee, he will inevitably devour us all.\" This man put to rest any rumors that his son Gioffre had murdered his other son Giovanni. This man commissioned Pinturicchio to decorate his namesake apartments and organized the simultaneous opening of the holy doors of the four major basilicas as part of the Jubilee for the year (*) 1500. Charles VIII formed a coalition against this nephew of": {
+    "guess": "Lorenzo de' Medici",
+    "confidence": -7.00404531424
+  },
+  "When this man assumed his highest post, an observer warned \"Now we are in the power of a wolf... And if we do not flee, he will inevitably devour us all.\" This man put to rest any rumors that his son Gioffre had murdered his other son Giovanni. This man commissioned Pinturicchio to decorate his namesake apartments and organized the simultaneous opening of the holy doors of the four major basilicas as part of the Jubilee for the year (*) 1500. Charles VIII formed a coalition against this nephew of Calixtus III, who issued bulls dividing Spanish and Portuguese claims in the New World, and excommunicated": {
+    "guess": "Julius II",
+    "confidence": -6.90912409028167
+  },
+  "When this man assumed his highest post, an observer warned \"Now we are in the power of a wolf... And if we do not flee, he will inevitably devour us all.\" This man put to rest any rumors that his son Gioffre had murdered his other son Giovanni. This man commissioned Pinturicchio to decorate his namesake apartments and organized the simultaneous opening of the holy doors of the four major basilicas as part of the Jubilee for the year (*) 1500. Charles VIII formed a coalition against this nephew of Calixtus III, who issued bulls dividing Spanish and Portuguese claims in the New World, and excommunicated Girolamo Savonarola. This Pope's son inspired Machiavelli's The Prince. For 10 points, name": {
+    "guess": "Julius II",
+    "confidence": -6.5313322927524
+  },
+  "When this man assumed his highest post, an observer warned \"Now we are in the power of a wolf... And if we do not flee, he will inevitably devour us all.\" This man put to rest any rumors that his son Gioffre had murdered his other son Giovanni. This man commissioned Pinturicchio to decorate his namesake apartments and organized the simultaneous opening of the holy doors of the four major basilicas as part of the Jubilee for the year (*) 1500. Charles VIII formed a coalition against this nephew of Calixtus III, who issued bulls dividing Spanish and Portuguese claims in the New World, and excommunicated Girolamo Savonarola. This Pope's son inspired Machiavelli's The Prince. For 10 points, name this Spanish-born pope, father of the notorious Lucrezia and Cesare (say-ZAR-ay).": {
+    "guess": "Pope Julius II",
+    "confidence": -6.776386095854
+  }
+}

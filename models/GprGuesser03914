@@ -1,0 +1,26 @@
+{
+  "The Kerr type of these objects have angular momentum but no electric charge. They emit energy in the": {
+    "guess": "Black hole",
+    "confidence": -9.193633676
+  },
+  "The Kerr type of these objects have angular momentum but no electric charge. They emit energy in the form of Hawking radiation, which may eventually cause them to evaporate. The no hair theorem says that": {
+    "guess": "Black hole",
+    "confidence": -9.0652798353
+  },
+  "The Kerr type of these objects have angular momentum but no electric charge. They emit energy in the form of Hawking radiation, which may eventually cause them to evaporate. The no hair theorem says that their only observable properties are mass, charge and angular momentum. Supermassive ones can be": {
+    "guess": "Black hole",
+    "confidence": -8.9295002416
+  },
+  "The Kerr type of these objects have angular momentum but no electric charge. They emit energy in the form of Hawking radiation, which may eventually cause them to evaporate. The no hair theorem says that their only observable properties are mass, charge and angular momentum. Supermassive ones can be found at the centers of some galaxies, including the Milky Way, while smaller ones are the end products": {
+    "guess": "Black hole",
+    "confidence": -8.916762013900001
+  },
+  "The Kerr type of these objects have angular momentum but no electric charge. They emit energy in the form of Hawking radiation, which may eventually cause them to evaporate. The no hair theorem says that their only observable properties are mass, charge and angular momentum. Supermassive ones can be found at the centers of some galaxies, including the Milky Way, while smaller ones are the end products of stars too massive to form neutron stars. For ten points, name these objects from which not even": {
+    "guess": "Black hole, neutron star, white dwarf",
+    "confidence": -2.2022320331999996
+  },
+  "The Kerr type of these objects have angular momentum but no electric charge. They emit energy in the form of Hawking radiation, which may eventually cause them to evaporate. The no hair theorem says that their only observable properties are mass, charge and angular momentum. Supermassive ones can be found at the centers of some galaxies, including the Milky Way, while smaller ones are the end products of stars too massive to form neutron stars. For ten points, name these objects from which not even light can escape after crossing the event horizon.": {
+    "guess": "Black hole, neutron star, black hole",
+    "confidence": -1.4786992635999998
+  }
+}

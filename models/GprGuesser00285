@@ -1,0 +1,194 @@
+{
+  "Athena reassured this figure by sending her a vision of her sister Iphthime in a dream. She tells a stranger": {
+    "guess": "Penelope",
+    "confidence": -8.575601617494
+  },
+  "Athena reassured this figure by sending her a vision of her sister Iphthime in a dream. She tells a stranger that dreams can come through a horn gate or an ivory gate after asking him to interpret her": {
+    "guess": "Athena",
+    "confidence": -11.59490056
+  },
+  "Athena reassured this figure by sending her a vision of her sister Iphthime in a dream. She tells a stranger that dreams can come through a horn gate or an ivory gate after asking him to interpret her dream in which an eagle attacks twenty geese. Her bed was built around a giant olive tree, and her husband": {
+    "guess": "Anchises",
+    "confidence": -10.539004917639998
+  },
+  "Athena reassured this figure by sending her a vision of her sister Iphthime in a dream. She tells a stranger that dreams can come through a horn gate or an ivory gate after asking him to interpret her dream in which an eagle attacks twenty geese. Her bed was built around a giant olive tree, and her husband married her after giving her uncle (*) Tyndareus the idea of extracting an oath from the suitors": {
+    "guess": "Penelope",
+    "confidence": -9.430564361870001
+  },
+  "Athena reassured this figure by sending her a vision of her sister Iphthime in a dream. She tells a stranger that dreams can come through a horn gate or an ivory gate after asking him to interpret her dream in which an eagle attacks twenty geese. Her bed was built around a giant olive tree, and her husband married her after giving her uncle (*) Tyndareus the idea of extracting an oath from the suitors of Helen or winning her in a footrace held by Icarius. Every night, she unravels a shroud that she": {
+    "guess": "Diomedes",
+    "confidence": -6.9302343946215
+  },
+  "Athena reassured this figure by sending her a vision of her sister Iphthime in a dream. She tells a stranger that dreams can come through a horn gate or an ivory gate after asking him to interpret her dream in which an eagle attacks twenty geese. Her bed was built around a giant olive tree, and her husband married her after giving her uncle (*) Tyndareus the idea of extracting an oath from the suitors of Helen or winning her in a footrace held by Icarius. Every night, she unravels a shroud that she weaves for her father in law Laertes. She withstood the advances of Eurymachus, Antinous, and a host": {
+    "guess": "Penelope",
+    "confidence": -6.4517653368049395
+  },
+  "Athena reassured this figure by sending her a vision of her sister Iphthime in a dream. She tells a stranger that dreams can come through a horn gate or an ivory gate after asking him to interpret her dream in which an eagle attacks twenty geese. Her bed was built around a giant olive tree, and her husband married her after giving her uncle (*) Tyndareus the idea of extracting an oath from the suitors of Helen or winning her in a footrace held by Icarius. Every night, she unravels a shroud that she weaves for her father in law Laertes. She withstood the advances of Eurymachus, Antinous, and a host of other pillaging suitors with the help of her son Telemachus. For 10 points, name this wife of": {
+    "guess": "Penelope",
+    "confidence": -9.078653979130001
+  },
+  "Athena reassured this figure by sending her a vision of her sister Iphthime in a dream. She tells a stranger that dreams can come through a horn gate or an ivory gate after asking him to interpret her dream in which an eagle attacks twenty geese. Her bed was built around a giant olive tree, and her husband married her after giving her uncle (*) Tyndareus the idea of extracting an oath from the suitors of Helen or winning her in a footrace held by Icarius. Every night, she unravels a shroud that she weaves for her father in law Laertes. She withstood the advances of Eurymachus, Antinous, and a host of other pillaging suitors with the help of her son Telemachus. For 10 points, name this wife of Odysseus.": {
+    "guess": "Penelope",
+    "confidence": -9.032689269474002
+  },
+  "Athanasios Papoulis introduced an extension of this theorem involving linear shift-invariant systems,": {
+    "guess": "Noether's theorem",
+    "confidence": -8.293225142914
+  },
+  "Athanasios Papoulis introduced an extension of this theorem involving linear shift-invariant systems, and the Raabe condition associated with it concerns the criterion for unambiguous representation. This": {
+    "guess": "Raabe condition",
+    "confidence": -9.395793185150001
+  },
+  "Athanasios Papoulis introduced an extension of this theorem involving linear shift-invariant systems, and the Raabe condition associated with it concerns the criterion for unambiguous representation. This theorem gives a value that is necessary in order to recover all Fourier components of a periodic": {
+    "guess": "Laplace transform",
+    "confidence": -9.479107644
+  },
+  "Athanasios Papoulis introduced an extension of this theorem involving linear shift-invariant systems, and the Raabe condition associated with it concerns the criterion for unambiguous representation. This theorem gives a value that is necessary in order to recover all Fourier components of a periodic waveform, or else distortion known as aliasing can occur. Its proof often uses the Dirac comb, and": {
+    "guess": "The Raabe condition",
+    "confidence": -7.82833419225
+  },
+  "Athanasios Papoulis introduced an extension of this theorem involving linear shift-invariant systems, and the Raabe condition associated with it concerns the criterion for unambiguous representation. This theorem gives a value that is necessary in order to recover all Fourier components of a periodic waveform, or else distortion known as aliasing can occur. Its proof often uses the Dirac comb, and it can be used to reconstruct a signal via a sinc interpolation function. For 10 points, name this theorem,": {
+    "guess": "The Raabe condition.",
+    "confidence": -9.46087904124
+  },
+  "Athanasios Papoulis introduced an extension of this theorem involving linear shift-invariant systems, and the Raabe condition associated with it concerns the criterion for unambiguous representation. This theorem gives a value that is necessary in order to recover all Fourier components of a periodic waveform, or else distortion known as aliasing can occur. Its proof often uses the Dirac comb, and it can be used to reconstruct a signal via a sinc interpolation function. For 10 points, name this theorem, sometimes named for Whittaker and Kotelnikov, that states a band-limited signal may be fully": {
+    "guess": "The Fourier transform theorem",
+    "confidence": -9.880241658587
+  },
+  "Athanasios Papoulis introduced an extension of this theorem involving linear shift-invariant systems, and the Raabe condition associated with it concerns the criterion for unambiguous representation. This theorem gives a value that is necessary in order to recover all Fourier components of a periodic waveform, or else distortion known as aliasing can occur. Its proof often uses the Dirac comb, and it can be used to reconstruct a signal via a sinc interpolation function. For 10 points, name this theorem, sometimes named for Whittaker and Kotelnikov, that states a band-limited signal may be fully reconstructed if it is sampled at a frequency at least twice the signal bandwidth.": {
+    "guess": "The Nyquist\u2013Shannon sampling theorem",
+    "confidence": -0.255317324798
+  },
+  "Athens produced a type of these things known as \"owls\" with material found at Laurium, which competed": {
+    "guess": "The Birds (play)",
+    "confidence": -9.04716043046
+  },
+  "Athens produced a type of these things known as \"owls\" with material found at Laurium, which competed with a rival type in Aegina called the \"turtle\". The earliest examples of this technology were found": {
+    "guess": "Electron microscopy",
+    "confidence": -10.4293428377
+  },
+  "Athens produced a type of these things known as \"owls\" with material found at Laurium, which competed with a rival type in Aegina called the \"turtle\". The earliest examples of this technology were found under the temple of Artemis at Ephesus, and Roman types include the sestertius. These objects were": {
+    "guess": "Coins",
+    "confidence": -10.528328253
+  },
+  "Athens produced a type of these things known as \"owls\" with material found at Laurium, which competed with a rival type in Aegina called the \"turtle\". The earliest examples of this technology were found under the temple of Artemis at Ephesus, and Roman types include the sestertius. These objects were first used in Lydia, and were placed in the mouth of a dead Greek man before burial. These subjects": {
+    "guess": "The Birds",
+    "confidence": -10.84148453
+  },
+  "Athens produced a type of these things known as \"owls\" with material found at Laurium, which competed with a rival type in Aegina called the \"turtle\". The earliest examples of this technology were found under the temple of Artemis at Ephesus, and Roman types include the sestertius. These objects were first used in Lydia, and were placed in the mouth of a dead Greek man before burial. These subjects of numismatic history included the obol and the standard unit, the drachma. For 10 points, name these": {
+    "guess": "Drachma, Obol",
+    "confidence": -4.370905354507
+  },
+  "Athens produced a type of these things known as \"owls\" with material found at Laurium, which competed with a rival type in Aegina called the \"turtle\". The earliest examples of this technology were found under the temple of Artemis at Ephesus, and Roman types include the sestertius. These objects were first used in Lydia, and were placed in the mouth of a dead Greek man before burial. These subjects of numismatic history included the obol and the standard unit, the drachma. For 10 points, name these valuable objects whose obverses often depicted rulers or gods, which Greeks used for payment.": {
+    "guess": "COINS",
+    "confidence": -9.2099808564
+  },
+  "This athlete was the first non-wrestling personality to enter the WWE Hall of Fame, in honor of three": {
+    "guess": "Arnold Schwarzenegger",
+    "confidence": -10.313811647499998
+  },
+  "This athlete was the first non-wrestling personality to enter the WWE Hall of Fame, in honor of three straight WrestleMania appearances in which he was assaulted by Kane. He is currently dating Playboy": {
+    "guess": "Stone Cold Steve Austin",
+    "confidence": -9.05063922019
+  },
+  "This athlete was the first non-wrestling personality to enter the WWE Hall of Fame, in honor of three straight WrestleMania appearances in which he was assaulted by Kane. He is currently dating Playboy model Kiana Kim and appearing on the TLC series Hits & Mrs. This subject of the Dowd Report is the": {
+    "guess": "Hulk Hogan",
+    "confidence": -9.091666943413001
+  },
+  "This athlete was the first non-wrestling personality to enter the WWE Hall of Fame, in honor of three straight WrestleMania appearances in which he was assaulted by Kane. He is currently dating Playboy model Kiana Kim and appearing on the TLC series Hits & Mrs. This subject of the Dowd Report is the author of My Prison Without Bars. After he slid (*) hard into second, this player got into a fight in": {
+    "guess": "Jose Canseco",
+    "confidence": -11.116232782276322
+  },
+  "This athlete was the first non-wrestling personality to enter the WWE Hall of Fame, in honor of three straight WrestleMania appearances in which he was assaulted by Kane. He is currently dating Playboy model Kiana Kim and appearing on the TLC series Hits & Mrs. This subject of the Dowd Report is the author of My Prison Without Bars. After he slid (*) hard into second, this player got into a fight in the playoffs with the Mets' Bud Harrelson, and he barreled into catcher Ray Fosse when scoring a run": {
+    "guess": "Hulk Hogan",
+    "confidence": -10.106060306244
+  },
+  "This athlete was the first non-wrestling personality to enter the WWE Hall of Fame, in honor of three straight WrestleMania appearances in which he was assaulted by Kane. He is currently dating Playboy model Kiana Kim and appearing on the TLC series Hits & Mrs. This subject of the Dowd Report is the author of My Prison Without Bars. After he slid (*) hard into second, this player got into a fight in the playoffs with the Mets' Bud Harrelson, and he barreled into catcher Ray Fosse when scoring a run in the 1970 All-Star Game. He was a player-manager when he broke a Ty Cobb record in 1985. For 10": {
+    "guess": "Pete Rose",
+    "confidence": -9.73050950303
+  },
+  "This athlete was the first non-wrestling personality to enter the WWE Hall of Fame, in honor of three straight WrestleMania appearances in which he was assaulted by Kane. He is currently dating Playboy model Kiana Kim and appearing on the TLC series Hits & Mrs. This subject of the Dowd Report is the author of My Prison Without Bars. After he slid (*) hard into second, this player got into a fight in the playoffs with the Mets' Bud Harrelson, and he barreled into catcher Ray Fosse when scoring a run in the 1970 All-Star Game. He was a player-manager when he broke a Ty Cobb record in 1985. For 10 points, name this baseball player known as \"Charlie Hustle,\" the all-time leader in hits, who has a": {
+    "guess": "Hank Aaron",
+    "confidence": -7.456124008914939
+  },
+  "This athlete was the first non-wrestling personality to enter the WWE Hall of Fame, in honor of three straight WrestleMania appearances in which he was assaulted by Kane. He is currently dating Playboy model Kiana Kim and appearing on the TLC series Hits & Mrs. This subject of the Dowd Report is the author of My Prison Without Bars. After he slid (*) hard into second, this player got into a fight in the playoffs with the Mets' Bud Harrelson, and he barreled into catcher Ray Fosse when scoring a run in the 1970 All-Star Game. He was a player-manager when he broke a Ty Cobb record in 1985. For 10 points, name this baseball player known as \"Charlie Hustle,\" the all-time leader in hits, who has a lifetime ban due to his gambling activities.": {
+    "guess": "Pete Rose",
+    "confidence": -7.253947234726939
+  },
+  "The Athenians waited for the Spartans to join them, but with the fall of Eritrea (ER-ih-TREE-ah), Athens": {
+    "guess": "The Peloponnesian War",
+    "confidence": -1.7711437400054
+  },
+  "The Athenians waited for the Spartans to join them, but with the fall of Eritrea (ER-ih-TREE-ah), Athens was forced to engage the Persian army before reinforcements could arrive. Because the Athenians'": {
+    "guess": "Battle of Marathon",
+    "confidence": -8.94420754239
+  },
+  "The Athenians waited for the Spartans to join them, but with the fall of Eritrea (ER-ih-TREE-ah), Athens was forced to engage the Persian army before reinforcements could arrive. Because the Athenians' center was under heavier attack, it moved more slowly than the wings, unintentionally leading their": {
+    "guess": "Battle of Plataea",
+    "confidence": -7.324003783159999
+  },
+  "The Athenians waited for the Spartans to join them, but with the fall of Eritrea (ER-ih-TREE-ah), Athens was forced to engage the Persian army before reinforcements could arrive. Because the Athenians' center was under heavier attack, it moved more slowly than the wings, unintentionally leading their force to envelop the Persian army, which broke and retreated to its ships. For ten points, name this": {
+    "guess": "Battle of Marathon",
+    "confidence": -6.4551096961335
+  },
+  "The Athenians waited for the Spartans to join them, but with the fall of Eritrea (ER-ih-TREE-ah), Athens was forced to engage the Persian army before reinforcements could arrive. Because the Athenians' center was under heavier attack, it moved more slowly than the wings, unintentionally leading their force to envelop the Persian army, which broke and retreated to its ships. For ten points, name this 490 BC battle after which, allegedly, an Athenian soldier ran 34 km to announce the victory to Athens.": {
+    "guess": "Battle of Marathon",
+    "confidence": -8.415502720429
+  },
+  "This athlete was criticized for saying \"ching chong yang\" when talking about Yao Ming. When traded in": {
+    "guess": "Tracy McGrady",
+    "confidence": -9.8898984854
+  },
+  "This athlete was criticized for saying \"ching chong yang\" when talking about Yao Ming. When traded in 2009, he said he would \"win a Ring for the King,\" referring to teammate LeBron James. When he retired": {
+    "guess": "Kobe Bryant",
+    "confidence": -10.11608513224
+  },
+  "This athlete was criticized for saying \"ching chong yang\" when talking about Yao Ming. When traded in 2009, he said he would \"win a Ring for the King,\" referring to teammate LeBron James. When he retired in June 2011, he was the NBA's oldest active player. This man played the title characters\u0097a genie": {
+    "guess": "Kareem Abdul-Jabbar",
+    "confidence": -0.6977044283130001
+  },
+  "This athlete was criticized for saying \"ching chong yang\" when talking about Yao Ming. When traded in 2009, he said he would \"win a Ring for the King,\" referring to teammate LeBron James. When he retired in June 2011, he was the NBA's oldest active player. This man played the title characters\u0097a genie and superhero respectively\u0097in the movies Kazaam and Steel. His nicknames include \"The Big Aristotle\"": {
+    "guess": "Shaquille O'Neal",
+    "confidence": -2.98527049391
+  },
+  "This athlete was criticized for saying \"ching chong yang\" when talking about Yao Ming. When traded in 2009, he said he would \"win a Ring for the King,\" referring to teammate LeBron James. When he retired in June 2011, he was the NBA's oldest active player. This man played the title characters\u0097a genie and superhero respectively\u0097in the movies Kazaam and Steel. His nicknames include \"The Big Aristotle\" and \"The Diesel,\" and many teams intentionally fouled him due to his poor free throw shooting. For": {
+    "guess": "Kareem Abdul-Jabbar",
+    "confidence": -0.95348955497
+  },
+  "This athlete was criticized for saying \"ching chong yang\" when talking about Yao Ming. When traded in 2009, he said he would \"win a Ring for the King,\" referring to teammate LeBron James. When he retired in June 2011, he was the NBA's oldest active player. This man played the title characters\u0097a genie and superhero respectively\u0097in the movies Kazaam and Steel. His nicknames include \"The Big Aristotle\" and \"The Diesel,\" and many teams intentionally fouled him due to his poor free throw shooting. For 10 points, name this recently retired NBA player, best known for teaming with Kobe Bryant to lead the": {
+    "guess": "Shaquille O'Neal",
+    "confidence": -3.7210050794200002
+  },
+  "This athlete was criticized for saying \"ching chong yang\" when talking about Yao Ming. When traded in 2009, he said he would \"win a Ring for the King,\" referring to teammate LeBron James. When he retired in June 2011, he was the NBA's oldest active player. This man played the title characters\u0097a genie and superhero respectively\u0097in the movies Kazaam and Steel. His nicknames include \"The Big Aristotle\" and \"The Diesel,\" and many teams intentionally fouled him due to his poor free throw shooting. For 10 points, name this recently retired NBA player, best known for teaming with Kobe Bryant to lead the Lakers to three straight championships.": {
+    "guess": "Kobe Bryant",
+    "confidence": -9.921211819399998
+  },
+  "An Athenian from the borough of Cephisia, he is remembered as a handsome ladies' man, elegant of manners,": {
+    "guess": "Aristophanes",
+    "confidence": -10.01540210009
+  },
+  "An Athenian from the borough of Cephisia, he is remembered as a handsome ladies' man, elegant of manners, contented with his life and decidedly apolitical. He was trained for drama by Theophrastus in a": {
+    "guess": "Aristophanes",
+    "confidence": -8.397722402084
+  },
+  "An Athenian from the borough of Cephisia, he is remembered as a handsome ladies' man, elegant of manners, contented with his life and decidedly apolitical. He was trained for drama by Theophrastus in a direct line of scholarly descent from Aristotle. He was known to fraternize with the lawgiver, Demetrius,": {
+    "guess": "Lysimachus",
+    "confidence": -10.341532045000001
+  },
+  "An Athenian from the borough of Cephisia, he is remembered as a handsome ladies' man, elegant of manners, contented with his life and decidedly apolitical. He was trained for drama by Theophrastus in a direct line of scholarly descent from Aristotle. He was known to fraternize with the lawgiver, Demetrius, the comedy writer, Alexis, and most notably his army buddy, Epicurus. A believer in the goodness": {
+    "guess": "Plato",
+    "confidence": -11.044482152999999
+  },
+  "An Athenian from the borough of Cephisia, he is remembered as a handsome ladies' man, elegant of manners, contented with his life and decidedly apolitical. He was trained for drama by Theophrastus in a direct line of scholarly descent from Aristotle. He was known to fraternize with the lawgiver, Demetrius, the comedy writer, Alexis, and most notably his army buddy, Epicurus. A believer in the goodness of human beings, he led a peaceful life in his villa at Piraeus where he eventually died in a swimming": {
+    "guess": "Plato",
+    "confidence": -11.29685318556
+  },
+  "An Athenian from the borough of Cephisia, he is remembered as a handsome ladies' man, elegant of manners, contented with his life and decidedly apolitical. He was trained for drama by Theophrastus in a direct line of scholarly descent from Aristotle. He was known to fraternize with the lawgiver, Demetrius, the comedy writer, Alexis, and most notably his army buddy, Epicurus. A believer in the goodness of human beings, he led a peaceful life in his villa at Piraeus where he eventually died in a swimming accident. Orge was the first of his 108 plays over a thirty year span. FTP, identify this playwright": {
+    "guess": "Aristophanes",
+    "confidence": -8.359794314299998
+  },
+  "An Athenian from the borough of Cephisia, he is remembered as a handsome ladies' man, elegant of manners, contented with his life and decidedly apolitical. He was trained for drama by Theophrastus in a direct line of scholarly descent from Aristotle. He was known to fraternize with the lawgiver, Demetrius, the comedy writer, Alexis, and most notably his army buddy, Epicurus. A believer in the goodness of human beings, he led a peaceful life in his villa at Piraeus where he eventually died in a swimming accident. Orge was the first of his 108 plays over a thirty year span. FTP, identify this playwright of such works as The Shearing of Glycera, The Girl From Samos, and Dyskolos or The Grouch.": {
+    "guess": "Euripides",
+    "confidence": -6.94106830653497
+  }
+}

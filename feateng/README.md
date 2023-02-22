@@ -20,7 +20,7 @@ classifier.
 
 This assignment is structured in a way that approximates how classification
 works in the real world: features are typically underspecified (or not
-specified at all). You, the data digger, have to articulate the features you
+specified at all). You have to articulate the features you
 need. You then compete against others to provide useful predictions.
 
 It may seem straightforward, but do not start this at the last minute. There
@@ -42,9 +42,8 @@ creating
 How to add a feature?
 -
 
-0.  First, get an idea of what you want to do.  After training the classifier,
-look at your predictions on
-the dev set and see where they're going wrong.
+First, get an idea of what you want to do.  After training the classifier,
+look at your predictions on the dev set and see where they're going wrong.
 
 1.  To add a feature, you need to create a new subclass of the Feature class
 in ``features.py``.  This is important so that you can try out different
@@ -53,7 +52,9 @@ features by turning them on and off with the command line.
 2.  Add code to instantiate the feature in ``params.py``.
 
 3.  (Optionally) Change the API to feed in more information into the feature
-generation process.  This would be necessary to capture temporal dynamics or   
+generation process.  This would be necessary to capture temporal dynamics or
+use, say, information from Wikipedia:
+https://drive.google.com/file/d/1-AhjvqsoZ01gz7EMt5VmlCnVpsE96A5n/view?usp=sharing
 
 To walk you through the process, let's create a new feature that encodes how
 often the guess appeared in the training set.  The first step is to define the
@@ -77,7 +78,6 @@ class in ``features.py``.
     def __call__(self, question, run, guess):                               
             yield ("guess", log(1 + self.counts[self.normalize(guess)]))        
     
-
 Then the class needs to be loaded.  This happens in ``params.py``.  Now you can
 add the feature name to the command line to turn it on.
 
@@ -359,12 +359,15 @@ How to Turn in Your System
 -
 * ``features.py``: This file includes an implementation of your new features.
 * ``params.py``: This instantiates your new features.  Modify this so that the
-set of your best features runs by default.  
+set of your best features runs by *default*.  
 * **Custom Training Data** (If you used additional training data beyond the Wikipedia pages, upload that as well
-    * (OR) If either any of your files are >100MB, please submit a shell script named ``gather_resources.sh`` that will retrieve one or both of the files above programatically from a public location (i.e a public S3 bucket).
+    * (OR) If either any of your files are >100MB, please submit a shell
+    script named ``gather_resources.sh`` that will retrieve one or both of the
+    files above programatically from a public location (i.e a public S3
+    bucket).
+* The LogisticBuzzer.pkl file created by training the classifier.
 * ``analysis.pdf``: Your **PDF** file containing your feature engineering
 analysis.
-
 
 Turn in the above files as usual via Gradescope, where we'll be using the
 leaderboard as before.  However, the position on the leaderboard will count
@@ -384,10 +387,12 @@ FAQ
 *A:* Clear it first on Piazza.  We'll provide spacy and nltk for sure (along
  with all of the packages already used in this homework).  We
  won't allow packages that require internet access (e.g., wikipedia).  We
- don't have anything against Wikipedia, but we don't want to get our IP
+ don't have anything against Wikipedia (we provide this json file so you can
+ use it), but we don't want to get our IP
  address banned.
 
-*Q:* Sometimes the guess is correct but it isn't counted that way.
+*Q:* Sometimes the guess is correct but it isn't counted that way.  And
+ sometimes a wrong answer is counted as correct.
 
 *A:* Yes, and we'll cover this in more detail later in the course.  For now,
  this is something we'll have to live with.

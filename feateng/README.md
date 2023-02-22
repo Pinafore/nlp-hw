@@ -59,23 +59,22 @@ To walk you through the process, let's create a new feature that encodes how
 often the guess appeared in the training set.  The first step is to define the
 class in ``features.py``.
 
-    class FrequencyFeature:                       
-        def __init__(self, name):                 
-            from buzzer import normalize_answer   
-            self.name = name                      
-            self.counts = Counter()               
-            self.normalize = normalize_answer     
-    
-    def add_training(self, question_source):    
-            import json                             
-    
-        with open(question_source) as infile:                   
-                questions = json.load(infile)                       
-                for ii in questions:                                
-                    self.counts[self.normalize(ii["page"])] += 1    
-    
-    def __call__(self, question, run, guess):                               
-            yield ("guess", log(1 + self.counts[self.normalize(guess)]))        
+	class FrequencyFeature:                       
+	    def __init__(self, name):                 
+		from buzzer import normalize_answer   
+		self.name = name                      
+		self.counts = Counter()               
+		self.normalize = normalize_answer     
+
+	    def add_training(self, question_source):    
+		import json                 
+		with open(question_source) as infile:                   
+			questions = json.load(infile)                       
+			for ii in questions:                                
+			    self.counts[self.normalize(ii["page"])] += 1    
+
+	    def __call__(self, question, run, guess):                               
+		yield ("guess", log(1 + self.counts[self.normalize(guess)]))          
     
 
 Then the class needs to be loaded.  This happens in ``params.py``.  Now you can
@@ -90,7 +89,7 @@ add the feature name to the command line to turn it on.
         if ff == "Frequency":                                  
             from features import FrequencyFeature              
             feature = FrequencyFeature(ff)                     
-            feature.add_training("data/qanta.guesstrain.json") 
+            feature.add_training("../data/qanta.guesstrain.json") 
             buzzer.add_feature(feature)                        
 
 

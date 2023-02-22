@@ -89,7 +89,7 @@ add the feature name to the command line to turn it on.
         if ff == "Frequency":                                  
             from features import FrequencyFeature              
             feature = FrequencyFeature(ff)                     
-            feature.add_training("../data/qanta.guesstrain.json") 
+            feature.add_training("../data/qanta.buzztrain.json")
             buzzer.add_feature(feature)                        
 
 

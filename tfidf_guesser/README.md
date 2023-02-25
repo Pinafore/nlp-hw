@@ -31,9 +31,10 @@ Coding (15 points in the tfidf_guesser.py):
 
 Analysis (5 points):
 
-1.  What is the role of the number of training points to accuracy?
-1.  What answers get confused with each other most easily?
-1.  Compute precision and recall as you increase the number of guesses.
+1.  What answers get confused with each other most easily?  What kinds of
+    mistakes does this guesser make?
+1.  How does this guesser compare to GPT3?
+1.  Compute recall as you increase the number of guesses.
 
 Accuracy (10 points): How well you do on the leaderboard.
 
@@ -69,8 +70,10 @@ Extra Credit
 2. Do well in the overall leaderboard (while overall score is important, more
    important is using features that take advantage of tfidf guesser features or
    multiple guessers.
-3. Add additional tf-idf guessers (e.g., from the provided Wikipedia pages).
-   Finally, you can get extra credit for by submitting your system on Dynabench (assuming
+3. Add additional tf-idf guessers (e.g., from the provided Wikipedia pages).  You can create an additional
+    guesser if you want to keep it separate from the tfidf_guesser.  If you do
+    that, make sure to upload that file too.
+4. Finally, you can get extra credit for by submitting your system on Dynabench (assuming
    we can get it up in time ... watch Piazza for announcements).
 
 
@@ -453,16 +456,13 @@ Hints
 
 1.  Don't use all of the data, especially at first.  Use the _limit_
     command line argument (as in the above example).
-2.  You probably want to tune tf-idf parameters.  Play around with what works well!
-3.  You can add additional data if you want.  You can create an additional
-    guesser if you want to keep it separate from the tfidf_guesser.  If you do
-    that, make sure to upload that file too.
-4.  tf-idf representations do not know anything about syntax or part of
-    speech.  You could add features to correct some of these problems.
 5.  The leaderboard will report both retrieval accuracy and final buzz
     accuracy.  Both are important, as you can only decide if a guess is
     correct if the correct guess is an option.
+2.  tf-idf representations do not know anything about syntax or part of
+    speech.  You could add features to correct some of these problems.  (This
+    is just for the extra credit!)    
 6.  Don't forget about the definition of what a token is and how it's flexible.  The sklearn
-    tokenizer does support n-grams, which may help you (but consume more
+    tokenizer does support n-grams, which may help you in the extra credit (but consume more
     memory):
     https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html 

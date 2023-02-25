@@ -47,6 +47,10 @@ paramters.  You probably shouldn't modify it, but it's probably useful to
 understand it for future homeworks (you'll need to write/call code like it in
 the future).
 
+You also don't have to save the vectorizer and tfidf representations, we'll do
+that for you.  Take a look at the base guesser class, it needs to track the
+questions and answer.  This will also be saved to a pickle.
+
 
 What to turn in
 -
@@ -59,17 +63,44 @@ homework), also upload your _params.py_ and _features.py_ files.
 
 Extra Credit
 =
-You can get extra credit for by submitting your system on Dynabench (assuming
-we can get it up in time ... watch Piazza for announcements).
+
+1. Optimize the retrieval mechanism by tuning parameters, weighting, and/or using
+   bigrams.
+2. Do well in the overall leaderboard (while overall score is important, more
+   important is using features that take advantage of tfidf guesser features or
+   multiple guessers.
+3. Add additional tf-idf guessers (e.g., from the provided Wikipedia pages).
+   Finally, you can get extra credit for by submitting your system on Dynabench (assuming
+   we can get it up in time ... watch Piazza for announcements).
 
 
 Example
 -
 
+Let's first test out the train function; you must run this before the eval
+function, because this establishes your tf-idf index.
+
+    python3 guesser.py --guesser_type=TfidfGuesser --question_source=gzjson
+    --questions=../data/qanta.guesstrain.json.gz --logging_file=guesser.log
+    --limit=10
+    100%|█████████████████████████████████████████| 10/10 [00:00<00:00, 2743.89it/s]
+    100%|███████████████████████████████████████| 10/10 [00:00<00:00, 441505.68it/s]
+
+
+This outputs the vectorizer (which turns text into a matrix) into the models
+directory (you might need to create the directory called ``models``).  After
+you've done that, you can now run the guesser.
+
+*BEWARE*: The code I've given you runs end to end, but it's not correct.  It
+ creates random representations of all of the documents and the retrieval
+ component always returns the zeroth document.  This is why eval will always
+ answer the same darn answer to all of the questions.  You'll obviously need
+ to fix this.
+
 This is an example of what your code (tfidf_guesser.py) output should look like:
 ```
 > python3 eval.py --evaluate=guesser --question_source=gzjson
---questions=data/qanta.guessdev.json.gz --limit=500
+--questions=../data/qanta.guessdev.json.gz --limit=500
 
 hit 0.20
 ===================

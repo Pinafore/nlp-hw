@@ -14,21 +14,21 @@ def add_general_params(parser):
     parser.add_argument('--logging_file', type=str, default='qanta.log')
 
 def add_question_params(parser):
-    parser.add_argument('--limit', type=int, default=-1)
-    parser.add_argument('--question_source', type=str, default='csv')
-    parser.add_argument('--questions', type=str)
+    parser.add_argument('--limit', type=int, default=50)
+    parser.add_argument('--question_source', type=str, default='json')
+    parser.add_argument('--questions', default = "./qanta.buzztrain.json",type=str)
     parser.add_argument('--expo_output_root', default="expo/expo", type=str)
     parser.add_argument('--expo_questions', type=str)
 
 def add_buzzer_params(parser):
-    parser.add_argument('--buzzer_guessers', nargs='+', help='Guessers to feed into Buzzer', type=str, required=True)
+    parser.add_argument('--buzzer_guessers', nargs='+', default = ['GprGuesser'], help='Guessers to feed into Buzzer', type=str)
     parser.add_argument('--features', nargs='+', help='Features to feed into Buzzer', type=str,  default=['Length'])    
     parser.add_argument('--buzzer_type', type=str, default="LogisticBuzzer")
     parser.add_argument('--run_length', type=int, default=100)
     parser.add_argument('--LogisticBuzzer_filename', type=str, default="models/LogisticBuzzer")    
     
 def add_guesser_params(parser):
-    parser.add_argument('--guesser_type', type=str, default="TfidfGuesser")
+    parser.add_argument('--guesser_type', type=str, default="GprGuesser")
     parser.add_argument('--tfidf_min_length', type=int, help="How long (in characters) must text be before it is indexed?", default=50)
     parser.add_argument('--tfidf_max_length', type=int, help="How long (in characters) must text be to be removed?", default=500)    
     parser.add_argument('--tfidf_split_sentence', type=bool, default=True, help="Index sentences rather than paragraphs")
@@ -41,7 +41,6 @@ def add_guesser_params(parser):
     
 
 def setup_logging(flags):
-    print("Setting Logging level to ", flags.logging_level)
     logging.basicConfig(level=flags.logging_level, force=True)
     
 def load_questions(flags):
@@ -75,11 +74,10 @@ def instantiate_guesser(guesser_type, flags):
     from gpr_guesser import GprGuesser
 
     guesser = None
+    print(guesser_type)
     if guesser_type == "GprGuesser":
         print("HERE")
         guesser = GprGuesser(flags.GprGuesser_filename)
-        
-
         
     assert guesser is not None, "Guesser (type=%s) not initialized" % flags.guesser_type
 
@@ -112,7 +110,7 @@ def load_buzzer(flags):
         buzzer.add_guesser(gg, guesser, gg==flags.guesser_type)
 
     print("Initializing features: %s" % str(flags.features))
-
+    print("dataset: %s" % str(flags.questions))
 
     ######################################################################
     ######################################################################
@@ -133,5 +131,4 @@ def load_buzzer(flags):
             feature = LengthFeature(ff)
             buzzer.add_feature(feature)
 
-    
     return buzzer

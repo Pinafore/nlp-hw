@@ -32,7 +32,8 @@ Getting Started
 
 We'll use some more packages than we had before:
 
-    pip3 install unidecode nltk
+    pip3 install unidecode nltk sklearn baseconv spacy
+    python -m nltk.downloader stopwords
 
 You'll also need to create a directory for the models you'll be
 creating

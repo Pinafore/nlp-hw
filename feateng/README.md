@@ -365,7 +365,7 @@ set of your best features runs by *default*.
     script named ``gather_resources.sh`` that will retrieve one or both of the
     files above programatically from a public location (i.e a public S3
     bucket).
-* The LogisticBuzzer.pkl file created by training the classifier.
+* The LogisticBuzzer.model.pkl file and LogisticBuzzer.featurizer.pkl file created by training the classifier.
 * ``analysis.pdf``: Your **PDF** file containing your feature engineering
 analysis.
 

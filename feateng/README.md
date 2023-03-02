@@ -183,15 +183,15 @@ It's only answering two questions correctly.  And it's waiting a lot when the
 answer is correct.  So let's try it with the feature turned on (don't forget
 to retrain the model).
 
-    python3 buzzer.py --guesser_type=GprGuesser --limit=50
-    --question_source=json --GprGuesser_filename=../models/GprGuesser
-    --questions=../data/qanta.buzztrain.json --buzzer_guessers GprGuesser
+    python3 buzzer.py --guesser_type=GprGuesser --limit=50 \
+    --question_source=json --GprGuesser_filename=../models/GprGuesser \
+    --questions=../data/qanta.buzztrain.json --buzzer_guessers GprGuesser \
     --features Length Frequency
 
-    python3 eval.py --guesser_type=GprGuesser
-    --TfidfGuesser_filename=models/TfidfGuesser --limit=25
-    --question_source=json --questions=../data/qanta.buzzdev.json
-    --logging_file=buzzer.log --buzzer_guessers GprGuesser
+    python3 eval.py --guesser_type=GprGuesser \
+    --TfidfGuesser_filename=models/TfidfGuesser --limit=25 \
+    --question_source=json --questions=../data/qanta.buzzdev.json \
+    --logging_file=buzzer.log --buzzer_guessers GprGuesser \
     --GprGuesser_filename=../models/GprGuesser --features Length Frequency
 
 

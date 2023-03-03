@@ -99,8 +99,8 @@ it did *without* that feature.
 
 
     mkdir -p models
-    python3 buzzer.py --guesser_type=GprGuesser --limit=50
-      --question_source=json --GprGuesser_filename=../models/GprGuesser
+    python3 buzzer.py --guesser_type=GprGuesser --limit=50 \
+      --question_source=json --GprGuesser_filename=../models/GprGuesser \
       --questions=../data/qanta.buzztrain.json --buzzer_guessers GprGuesser
 
 After training the classifer, you should see something that looks like this:

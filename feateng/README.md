@@ -126,11 +126,12 @@ After training the classifer, you should see something that looks like this:
 more features!)
 
 Now you need to evaluate the classifier.  The script eval.py will run the classifier on all of your data and then record the outcome.  There are several things that could happen:
- * ~best~: Guess was correct, Buzz was correct
- * ~timid~: Guess was correct, Buzz was not
- * ~aggressive~: Guess was wrong, Buzz was wrong
- * ~waiting~: Guess was wrong, Buzz was correct
- Now, both "best" and "waiting" are *correct*, but obviously "best" is best.  So we don't just report the accuracy, we also report the buzz ratio: the number of correct questions minus half the number of wrong answers.
+ * _best_: Guess was correct, Buzz was correct
+ * _timid_: Guess was correct, Buzz was not
+ * _aggressive_: Guess was wrong, Buzz was wrong
+ * _waiting_: Guess was wrong, Buzz was correct
+
+ Now, both "best" and "waiting" are *correct*, but obviously "best" is best.  It's important to know what kind of examples contribute to each of these outcomes, so eval samples a subset for each of these and prints them and their features out.  
 
         python3 eval.py --guesser_type=GprGuesser --TfidfGuesser_filename=models/TfidfGuesser --limit=25 --question_source=json --questions=../data/qanta.buzzdev.json --logging_file=buzzer.log --buzzer_guessers GprGuesser --GprGuesser_filename=../models/GprGuesser
 

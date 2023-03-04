@@ -76,7 +76,7 @@ def load_questions(flags):
         
     return questions
 
-def instantiate_guesser(guesser_type, flags, load):
+def instantiate_guesser(guesser_type, flags, load=True):
     from tfidf_guesser import TfidfGuesser 
 
     guesser = None

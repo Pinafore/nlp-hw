@@ -102,6 +102,11 @@ you've done that, you can now run the guesser.
  answer the same darn answer to all of the questions.  You'll obviously need
  to fix this.
 
+This is an example of how you can run the ```buzzer.py``` file on the ```qanta.guesstrain.json.gz``` file to generate the buzzer pickle files:
+```
+python3 buzzer.py --guesser_type=TfidfGuesser --limit=50  --question_source=gzjson --TfidfGuesser_filename=models/TfidfGuesser  --questions=../data/qanta.guesstrain.json.gz --buzzer_guessers=TfidfGuesser
+```
+
 This is an example of what your code (tfidf_guesser.py) output should look like:
 ```
 > python3 eval.py --evaluate=guesser --question_source=gzjson

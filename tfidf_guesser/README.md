@@ -26,6 +26,7 @@ What you have to do
 Coding (15 points in the tfidf_guesser.py):
 
 1.  (Optional) Store necessary data in the constructor so you can do classification later.
+1.  You will need the pickle files generated from ``buzzer.py``. You can either reuse your ``LogisticBuzzer.featurizer.pkl`` and the ``LogisticBuzzer.model.pkl`` from the Feature Engineering Homework, or you can generate these files again using the ``qanta.guesstrain.json.gz`` file in the data directory.  
 1.  Modify the _train_ function so that the class stores what it needs to store to guess at what the answer is.
 1.  Modify the _call_ function so that it finds the closest indicies (in terms of *cosine* similarity) to the query.
 
@@ -59,7 +60,8 @@ What to turn in
 1.  Submit your _tfidf_guesser.py_ file
 2.  If you create new features (or reuse features from the feature engineering
 homework), also upload your _params.py_ and _features.py_ files.
-3.  Submit your _analysis.pdf_ file (no more than one page; pictures
+3. Submit the ``LogisticBuzzer.featurizer.pkl``, ``LogisticBuzzer.model.pkl``, ``TfidfGuesser.answers.pkl``, ``TfidfGuesser.questions.pkl``, ``TfidfGuesser.tfidf.pkl`` and the ``TfidfGuesser.vectorizer.pkl`` files. 
+4.  Submit your _analysis.pdf_ file (no more than one page; pictures
     are better than text)
 
 Extra Credit

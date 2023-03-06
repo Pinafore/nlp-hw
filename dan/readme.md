@@ -9,22 +9,15 @@ framework, but they work well for a variety of tasks and will help
 introduce some of the core concepts of using deep learning in
 practice.
 
-In this homework, you'll use Pytorch to implement a DAN classifier for
-determining the answer to a Quizbowl question (a minor switch on lines 41-42
-allows change to the much simpler task of predicting the category of a
-Quizbowl question).
-
-This is similar (but simpler) than dense passage retrieval (DPR) that we talked
-about in class.
+In this homework, you'll use Pytorch to implement a DAN embedder for
+determining the answer to a Quizbowl question.
 
 You'll turn in your code on Gradescope. This assignment is worth 35 points.
 
 Dataset
 ----------------
 
-The data is sampled from Quizbowl questions. We tokenize questions and
-split them into train/dev/test set.  Each example includes the question text
-and the label.
+We're working with the same data as before, except this time (because we need to use representations) we will need to create a vocabulary explicitly (like we did for the earlier tf-idf homework).  However, we'll do that for you.
 
 Pytorch DataLoader
 ----------------
@@ -39,6 +32,10 @@ vocabulary. In this assignment, you need to write the `vectorize()` function
 yourself. We provide the `batchify()` function to split the dataset into
 mini-batches.
 
+What's the loss function?
+----------------
+
+Given your question $$q_i$$, a positive match $$p^{+}_i$$ and many negative examples $$p_{i,1}^{-} \dots p_{i,n}^{-}$$, you need to optimize $$-\log{\frac{e^{q_i \cdot p^{+}_i}{e^{q_i \cdot p^{+}_i} + \sum_j e^{q_i \cdot p_{i,j}^{-}}}
 
 What you have to do
 ----------------
@@ -48,10 +45,10 @@ What you have to do
 2. Write the data `vectorize()` funtion.
 3. Write DAN model initialization. 
 4. Write model `forward()` function.
-5. Write the model training/testing function. We don't have unit test for this part, but it's necessary to get it correct to achieve reasonable performance.
+5. Write the model training/testing function. We don't have unit tests for this part, but it's necessary to get it correct to achieve reasonable performance.
 
 **Analysis**: (5 points)
-1. Report the accuracy on the test set. (You should easily get above 0.8 for category prediction. Answer prediction is trickier, but please report the things you tried.)
+1. Report the accuracy on the dev set. 
 2. Look at the development set and give some examples and explain the possible reasons why these examples are predicted incorrectly. 
 
 
@@ -85,6 +82,9 @@ change. Write down your findings in analysis.pdf.
 What to turn in 
 ----------------
 
+TODO: Update for Gradescope
+
+0. Submit your model file
 1. Submit your `dan.py` file.
 2. Submit your `analysis.pdf` file. (Please make sure that this is **PDF** file!)
 

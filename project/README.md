@@ -129,7 +129,7 @@ Each group has 10 minutes to deliver their presentation. Please record the video
 System Submission
 ======================
 
-By Dec 9, you must tell us all dependencies you need for the Gradescope submission, and the final submission of your sustem must happen the following week.  The last submission for eligibility with the human compeition will be announced the week of Thanksgiving.
+You must submit a version of your system by May 10.  It may not be perfect, but this what the question writing teams will use to test their results.
 
 
 Project Writeup

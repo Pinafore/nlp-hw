@@ -463,8 +463,8 @@ Hints
 
 1.  Don't use all of the data, especially at first.  Use the _limit_
     command line argument (as in the above example).
-2.  In case you see an error that your submission timed out on Gradescope, that means that  
-    your code needs to be simplified. This is essential for your code to work on Gradescope, so think of ways you can optimize your code.
+2.  In case you see an error that your submission timed out on Gradescope, that means that your code needs to be simplified. 
+    This is essential for your  code to work on Gradescope, so think of ways you can optimize your code.
 5.  The leaderboard will report both retrieval accuracy and final buzz
     accuracy.  Both are important, as you can only decide if a guess is
     correct if the correct guess is an option.

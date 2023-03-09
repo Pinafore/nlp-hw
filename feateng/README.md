@@ -424,6 +424,13 @@ FAQ
 *A:* Yes, and we'll cover this in more detail later in the course.  For now,
  this is something we'll have to live with.
 
+*Q:* What is the guesser that we're using?  Where are the guesses
+coming from?
+
+*A:* These are cached guesses from OpenAI's GPT.  We'll get into
+ generating our own guesses in the next homework.  However, you do get
+ a float that encodes its confidence that you can use as a feature.
+
 *Q:* What if I get the error that ``GprGuesser`` has no attribute 'predict'?
 
 *A:* This means that you're running it on a guesser result that hasn't been

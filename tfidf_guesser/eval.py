@@ -34,18 +34,18 @@ def eval_retrieval(guesser, questions, num_test, n_guesses=1, cutoff=None):
         else:
             text = text[:cutoff]
 
-        guesses = guesser(text)
+        guesses = list(guesser(text))
         top_guess = guesses[0]["guess"]
         answer = question["page"]
 
         example = {"text": text, "guess": top_guess, "answer": answer, "id": question["qanta_id"]}
 
-        if rough_compare(top_guess, answer):
-            outcomes["hit"] += 1
-            examples["hit"].append(example)        
-        elif any(rough_compare(x["guess"], answer) for x in guesses):
+        if any(rough_compare(x["guess"], answer) for x in guesses):
             outcomes["close"] += 1
             examples["close"].append(example)
+            if rough_compare(top_guess, answer):
+                outcomes["hit"] += 1
+                examples["hit"].append(example)        
         else:
             outcomes["miss"] += 1
             examples["miss"].append(example)

@@ -75,7 +75,7 @@ class Guesser:
                 for ss in sent_tokenize(qq["text"]):
                     if len(ss) > min_length and len(ss) < max_length:
                         answers_to_questions[qq[answer_field]].add(ss)
-        else:
+        else: 
             for qq in tqdm(training_data):
                 answers_to_questions[qq[answer_field]].add(x["text"])
 

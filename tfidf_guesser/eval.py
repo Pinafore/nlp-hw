@@ -42,10 +42,11 @@ def eval_retrieval(guesser, questions, num_test, n_guesses=1, cutoff=None):
 
         if any(rough_compare(x["guess"], answer) for x in guesses):
             outcomes["close"] += 1
-            examples["close"].append(example)
             if rough_compare(top_guess, answer):
                 outcomes["hit"] += 1
-                examples["hit"].append(example)        
+                examples["hit"].append(example)
+            else:
+                examples["close"].append(example)
         else:
             outcomes["miss"] += 1
             examples["miss"].append(example)

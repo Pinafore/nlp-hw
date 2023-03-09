@@ -11,10 +11,10 @@ from params import load_guesser, load_questions, load_buzzer, \
     add_buzzer_params, add_guesser_params, add_general_params,\
     add_question_params, setup_logging
 
-kLABELS = {"best": "Guess was correct, Buzz was correct",
-           "timid": "Guess was correct, Buzz was not",
-           "aggressive": "Guess was wrong, Buzz was wrong",
-           "waiting": "Guess was wrong, Buzz was correct"}
+kLABELS = {"best": "Guess was correct, Buzzer correctly detected this (true positive)",
+           "timid": "Guess was correct, Buzzer did not recognize this (false negative)",
+           "aggressive": "Guess was wrong, Buzzer thought it was correct (false positive)",
+           "waiting": "Guess was wrong, Buzzer correctly detected this (true negative)"}
 
 def eval_retrieval(guesser, questions, num_test, n_guesses=1, cutoff=None):
     """
@@ -140,6 +140,8 @@ if __name__ == "__main__":
             print("=================")
         for weight, feature in zip(buzzer._classifier.coef_[0], buzzer._featurizer.feature_names_):
             print("%40s: %0.4f" % (feature.strip(), weight))
+        for ii in outcomes:
+            print("%20s %0.2f\n" % (ii, outcomes[ii] / total))
         print("Accuracy: %0.2f  Buzz ratio: %0.2f" %
               ((outcomes["best"] + outcomes["waiting"]) / total,
                outcomes["best"] - outcomes["aggressive"] * 0.5))

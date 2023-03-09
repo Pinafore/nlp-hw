@@ -87,9 +87,19 @@ class in ``features.py``.
 			    self.counts[self.normalize(ii["page"])] += 1    
 
 	    def __call__(self, question, run, guess):                               
-		yield ("guess", log(1 + self.counts[self.normalize(guess)]))          
-    
-Then the class needs to be loaded.  This happens in ``params.py``.  Now you can
+		   yield ("guess", log(1 + self.counts[self.normalize(guess)]))          
+
+
+Pay attention to the ``call`` function.  If you're not familiar with
+the ``yield`` keyword:
+https://realpython.com/introduction-to-python-generators/
+
+These will be sent to a DictVectorizer, the first element of the tuple
+is the feature name, the second element of the tuple is the feature
+value (look at the ``featurize`` function in buzzer.py).
+
+Now that you have a feature class, it needs to be loaded when you run
+your code.  This happens in ``params.py``.  Now you can
 add the feature name to the command line to turn it on.
 
     for ff in flags.features:
@@ -105,9 +115,9 @@ add the feature name to the command line to turn it on.
             buzzer.add_feature(feature)                        
 
 
-Before we try it out, we need to know what our baseline is.  So let's see how
-it did *without* that feature.
-
+Don't forget that you're training a classifier.  This classifier will
+be turned into a "pickle" file and stored in the models directory.  So
+let's train the classifier *without* that new feature.
 
     mkdir -p models
     python3 buzzer.py --guesser_type=GprGuesser --limit=50 \

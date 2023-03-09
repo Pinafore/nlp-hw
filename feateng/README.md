@@ -41,6 +41,15 @@ You'll also need to create a directory for the models you'll be
 creating
 
      mkdir -p models
+     
+     
+But before you get started, you need to understand the overall structure of the code:
+ * A part of the question comes into the guesser (in the code, this is called a "run")
+ * The guesser generates a "guess" that _could_ be an answer to the question
+ * The buzzer then needs to determine if that guess is correct or not.  This is a classifier.  You're going to make that better by providing the buzzer with new features.
+ 
+You will need to be creative here!  To get a sense of how you might go through the process, review the lecture on feature engineering here:
+https://www.youtube.com/watch?v=IzKFgigocAg
 
 How to add a feature?
 -

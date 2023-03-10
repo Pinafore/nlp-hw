@@ -19,7 +19,7 @@ kLABELS = {"best": "Guess was correct, Buzz was correct",
            "aggressive": "Guess was wrong, Buzz was wrong",
            "waiting": "Guess was wrong, Buzz was correct"}
 
-def eval_retrieval(guesser, questions, num_test, n_guesses=25, cutoff=None):
+def eval_retrieval(guesser, questions, n_guesses=25, cutoff=None):
     """
     Evaluate the guesser's retrieval
     """
@@ -27,7 +27,7 @@ def eval_retrieval(guesser, questions, num_test, n_guesses=25, cutoff=None):
     outcomes = Counter()
     examples = defaultdict(list)
     
-    for question in tqdm(questions[:num_test]):
+    for question in tqdm(questions):
         text = question["text"]
         if cutoff is None:
             text = text[:int(random.random() * len(text))]
@@ -134,7 +134,7 @@ if __name__ == "__main__":
         buzzer = load_buzzer(flags)
         outcomes, examples = eval_buzzer(buzzer, questions)
     elif flags.evaluate == "guesser":
-        outcomes, examples = eval_retrieval(guesser, questions, 100)
+        outcomes, examples = eval_retrieval(guesser, questions)
     else:
         assert False, "Gotta evaluate something"
         

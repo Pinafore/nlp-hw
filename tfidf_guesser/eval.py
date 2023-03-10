@@ -128,6 +128,7 @@ if __name__ == "__main__":
     add_buzzer_params(parser)
 
     parser.add_argument('--evaluate', default="buzzer", type=str)
+    parser.add_argument('--cutoff', default=-1, type=int)    
     
     flags = parser.parse_args()
     setup_logging(flags)
@@ -138,11 +139,14 @@ if __name__ == "__main__":
         buzzer = load_buzzer(flags)
         outcomes, examples = eval_buzzer(buzzer, questions)
     elif flags.evaluate == "guesser":
-        outcomes, examples = eval_retrieval(guesser, questions)
+        if flags.cutoff > 0:
+            outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses, flags.cutoff)
+        else:
+            outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses)
     else:
         assert False, "Gotta evaluate something"
         
-    total = sum(outcomes.values())
+    total = sum(outcomes[x] for x in outcomes if x != "hit")
     for ii in outcomes:
         print("%s %0.2f\n===================\n" % (ii, outcomes[ii] / total))
         if len(examples[ii]) > 10:

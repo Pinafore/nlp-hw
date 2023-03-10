@@ -39,6 +39,7 @@ def add_guesser_params(parser):
     parser.add_argument('--WikiGuesser_filename', type=str, default="models/WikiGuesser")    
     parser.add_argument('--GprGuesser_filename', type=str, default="models/GprGuesser")
     parser.add_argument('--wiki_zim_filename', type=str, default="data/wikipedia.zim")
+    parser.add_argument('--num_guesses', type=int, default=25)
     
 
 def setup_logging(flags):

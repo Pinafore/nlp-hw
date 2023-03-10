@@ -47,6 +47,15 @@ You'll also need to create a directory for the models you'll be
 creating
 
      mkdir -p models
+     
+     
+But before you get started, you need to understand the overall structure of the code:
+ * A part of the question comes into the guesser (in the code, this is called a "run")
+ * The guesser generates a "guess" that _could_ be an answer to the question
+ * The buzzer then needs to determine if that guess is correct or not.  This is a classifier.  You're going to make that better by providing the buzzer with new features.
+ 
+You will need to be creative here!  To get a sense of how you might go through the process, review the lecture on feature engineering here:
+https://www.youtube.com/watch?v=IzKFgigocAg
 
 How to add a feature?
 -
@@ -84,9 +93,19 @@ class in ``features.py``.
 			    self.counts[self.normalize(ii["page"])] += 1    
 
 	    def __call__(self, question, run, guess):                               
-		yield ("guess", log(1 + self.counts[self.normalize(guess)]))          
-    
-Then the class needs to be loaded.  This happens in ``params.py``.  Now you can
+		   yield ("guess", log(1 + self.counts[self.normalize(guess)]))          
+
+
+Pay attention to the ``call`` function.  If you're not familiar with
+the ``yield`` keyword:
+https://realpython.com/introduction-to-python-generators/
+
+These will be sent to a DictVectorizer, the first element of the tuple
+is the feature name, the second element of the tuple is the feature
+value (look at the ``featurize`` function in buzzer.py).
+
+Now that you have a feature class, it needs to be loaded when you run
+your code.  This happens in ``params.py``.  Now you can
 add the feature name to the command line to turn it on.
 
     for ff in flags.features:
@@ -102,9 +121,9 @@ add the feature name to the command line to turn it on.
             buzzer.add_feature(feature)                        
 
 
-Before we try it out, we need to know what our baseline is.  So let's see how
-it did *without* that feature.
-
+Don't forget that you're training a classifier.  This classifier will
+be turned into a "pickle" file and stored in the models directory.  So
+let's train the classifier *without* that new feature.
 
     mkdir -p models
     python3 buzzer.py --guesser_type=GprGuesser --limit=50 \
@@ -430,6 +449,13 @@ becomes a negative example.
 
 *A:* Yes, and we'll cover this in more detail later in the course.  For now,
  this is something we'll have to live with.
+
+*Q:* What is the guesser that we're using?  Where are the guesses
+coming from?
+
+*A:* These are cached guesses from OpenAI's GPT.  We'll get into
+ generating our own guesses in the next homework.  However, you do get
+ a float that encodes its confidence that you can use as a feature.
 
 *Q:* What if I get the error that ``GprGuesser`` has no attribute 'predict'?
 

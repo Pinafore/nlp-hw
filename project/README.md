@@ -1,6 +1,6 @@
 The evaluation of this project is to answer trivia questions.  You do
 not need to do well at this task, but you should submit a system that
-completes the task.  This will help the whole class share data and
+completes the task or create adversarial questions in that setting.  This will help the whole class share data and
 resources.
 
 If you focus on something other than predicting answers, *that's fine*!  
@@ -47,9 +47,24 @@ welcome (an encouraged) to use any publicly available software, but
 you may want to check on Piazza for suggestions as many tools are
 better (or easier to use) than others.
 
+If you don't like the interruptability of questions, you can also just answer entire questions.  However, you must also output a confidence.
+
 Competition
 ==================
-We will use Gradescope (along with a leaderboard).
+We will use Dynabech ... it's a lot like Gradescope's leaderboard, but it can handle bigger models.
+
+Writing Questions
+==================
+
+Alternatively, you can also *write* 50 adversarial questions that challenge modern NLP systems.  These questions must be diverse in the subjects asked about, the skills computers need to answer the questions, and the entities in those questions.
+
+In addition to the raw questions, you will also need to create citations describing:
+* Why the question is difficult for computers
+* Why the information in the question is correct
+* Why the question is interesting
+* Why the question is pyramidal
+* And a non-pyramidal question that could be used for something like OQL
+* Run state of the art QA systems on the questions to show they struggle, give individual results for each question and a summary over all questions
 
 Proposal
 ==================
@@ -99,7 +114,7 @@ the final presentation you will:
   is not the same thing as simply presenting the error matrix, as it
   does not inspect any individual examples.
 
-* The linguistic motivation for your features.  This is a
+* The linguistic motivation for your features / how your wrote the questions.  This is a
   computational linguistics class, so you should give precedence to
   features / techniques that we use in this class (e.g., syntax,
   morphology, part of speech, word sense, etc.).  Given two features
@@ -114,14 +129,13 @@ Each group has 10 minutes to deliver their presentation. Please record the video
 System Submission
 ======================
 
-By Dec 9, you must tell us all dependencies you need for the Gradescope submission, and the final submission of your sustem must happen the following week.  The last submission for eligibility with the human compeition will be announced the week of Thanksgiving.
+You must submit a version of your system by May 10.  It may not be perfect, but this what the question writing teams will use to test their results.
 
 
 Project Writeup
 ======================
 
-By 10:00 December 15, have the person in your group whose last name
-is alphabetically first submit their project writeup explaining what
+By May 17, submit your project writeup explaining what
 you did and what results you achieved.  This document should
 make it clear:
 
@@ -130,9 +144,11 @@ make it clear:
 * Who did what
 * Whether your technique worked or not
 
-Please do not go over 2500 words unless you have a really good reason.
+For systems, please do not go over 2500 words unless you have a really good reason.
 Images are a much better use of space than words, usually (there's no
 limit on including images, but use judgement and be selective).
+
+For question writing, you have one page (single spaced, two column) per question plus a two page summary of results.
 
 Grade
 ======================

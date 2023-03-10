@@ -26,6 +26,7 @@ What you have to do
 Coding (15 points in the tfidf_guesser.py):
 
 1.  (Optional) Store necessary data in the constructor so you can do classification later.
+1.  You will need the pickle files generated from ``buzzer.py``. You can generate these files again using the ``qanta.guesstrain.json.gz`` file in the data directory.  
 1.  Modify the _train_ function so that the class stores what it needs to store to guess at what the answer is.
 1.  Modify the _call_ function so that it finds the closest indicies (in terms of *cosine* similarity) to the query.
 
@@ -36,14 +37,14 @@ Analysis (5 points):
 1.  How does this guesser compare to GPT3?
 1.  Compute recall as you increase the number of guesses.
 
-Accuracy (10 points): How well you do on the leaderboard.
+Accuracy (10 points): How well you do on the recall leaderboard.
 
 What you don't have to do
 -------
 
 You don't have to (and shouldn't!) compute tf-idf yourself.  We did that in
 a previous homework, so you can leave that to the professionals.  We encourage
-you to use the tf-idf vectorizer: play around with different settings of the
+you to use the tf-idf vectorizer from sklearn: play around with different settings of the
 paramters.  You probably shouldn't modify it, but it's probably useful to
 understand it for future homeworks (you'll need to write/call code like it in
 the future).
@@ -59,7 +60,8 @@ What to turn in
 1.  Submit your _tfidf_guesser.py_ file
 2.  If you create new features (or reuse features from the feature engineering
 homework), also upload your _params.py_ and _features.py_ files.
-3.  Submit your _analysis.pdf_ file (no more than one page; pictures
+3. Submit the ``LogisticBuzzer.featurizer.pkl``, ``LogisticBuzzer.model.pkl``, ``TfidfGuesser.answers.pkl``, ``TfidfGuesser.questions.pkl``, ``TfidfGuesser.tfidf.pkl`` and the ``TfidfGuesser.vectorizer.pkl`` files. 
+4.  Submit your _analysis.pdf_ file (no more than one page; pictures
     are better than text)
 
 Extra Credit
@@ -67,7 +69,7 @@ Extra Credit
 
 1. Optimize the retrieval mechanism by tuning parameters, weighting, and/or using
    bigrams.
-2. Do well in the overall leaderboard (while overall score is important, more
+2. Do well in the overall leaderboard (while overall buzz ratio and accuracy is important, more
    important is using features that take advantage of tfidf guesser features or
    multiple guessers.
 3. Add additional tf-idf guessers (e.g., from the provided Wikipedia pages).  You can create an additional
@@ -100,9 +102,14 @@ you've done that, you can now run the guesser.
  answer the same darn answer to all of the questions.  You'll obviously need
  to fix this.
 
+This is an example of how you can run the ```buzzer.py``` file on the ```qanta.guesstrain.json.gz``` file to generate the buzzer pickle files:
+```
+python3 buzzer.py --guesser_type=TfidfGuesser --limit=50  --question_source=gzjson --TfidfGuesser_filename=models/TfidfGuesser  --questions=../data/qanta.guesstrain.json.gz --buzzer_guessers=TfidfGuesser
+```
+
 This is an example of what your code (tfidf_guesser.py) output should look like:
 ```
-> python3 eval.py --evaluate=guesser --question_source=gzjson
+> python3 eval.py --evaluate=guesser --question_source=gzjson \
 --questions=../data/qanta.guessdev.json.gz --limit=500
 
 hit 0.20
@@ -456,6 +463,13 @@ Hints
 
 1.  Don't use all of the data, especially at first.  Use the _limit_
     command line argument (as in the above example).
+2.  In case you see an error that your submission timed out on Gradescope, that means that your code needs to be simplified. 
+    This is essential for your  code to work on Gradescope, so think of ways
+    you can optimize your code.  It could be that your tf-idf representation
+    is too wide (too many terms) or too tall (too many documents).  You had to
+    deal with this before in your previous tf-idf homework.  Another issue if
+    if you're trying to create the matrix one row at a time; it's possible to
+    do it in batch.
 5.  The leaderboard will report both retrieval accuracy and final buzz
     accuracy.  Both are important, as you can only decide if a guess is
     correct if the correct guess is an option.
@@ -466,3 +480,7 @@ Hints
     tokenizer does support n-grams, which may help you in the extra credit (but consume more
     memory):
     https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html 
+7.  *Do not focus on buzzer accuracy*!  When your guesser is broken, all of
+    the guesses will be wrong and you'll trivially get perfect buzz accuracy
+    (always wait).  Unless you're going for going after extra credit, you should pay attention to precision and recall (which are specific to the guesser).
+8.  That said, accuracy comes from the buzzer; it's possible that the pickle for your buzzer has not been updated and is looking for the wrong features (or is miscalibrated). 

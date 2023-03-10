@@ -39,6 +39,7 @@ def add_guesser_params(parser):
     parser.add_argument('--WikiGuesser_filename', type=str, default="models/WikiGuesser")    
     parser.add_argument('--GprGuesser_filename', type=str, default="models/GprGuesser")
     parser.add_argument('--wiki_zim_filename', type=str, default="data/wikipedia.zim")
+    parser.add_argument('--num_guesses', type=int, default=25)
     
 
 def setup_logging(flags):
@@ -76,7 +77,7 @@ def load_questions(flags):
         
     return questions
 
-def instantiate_guesser(guesser_type, flags, load):
+def instantiate_guesser(guesser_type, flags, load=True):
     from tfidf_guesser import TfidfGuesser 
 
     guesser = None

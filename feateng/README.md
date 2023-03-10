@@ -29,6 +29,12 @@ It may seem straightforward, but do not start this at the last minute. There
 are often many things that go wrong in testing out features, and you'll want
 to make sure your features work well once you've found them.
 
+Likewise, because this homework is not going to tell you exactly what
+you need to do, you'll need to have understood many of the concepts
+we've covered in the class.  The bare essentials are classifiers,
+information retrieval, and feature engineering, but it may be helpful
+to review our coverage of syntax, semantics, etc.
+
 Getting Started
 -
 
@@ -384,10 +390,30 @@ for more of your grade.
 FAQ
 -----------------
 
+*Q.* Why can't I use ``['page']`` or ``['answer']`` when creating
+features?  Can I use it during training?
+
+*A.* You cannot use "page" or "text" when generating features,
+however, as that would be cheating.  That's why they get removed
+before the feature generator is called.  If you need the current text
+available, that's the "run", and your job is to see if the current
+"guess" is correct or not.
+
+Now, that's not to say that you can never use the page field.  During
+training, you can of course use the text and page.  You can see this
+in the example Frequency feature: it uses the page to compute how
+often each correct response is.  You then check for a *guess* that comes
+in how frequent it is.
+
+But that's the exception, usually the only way you would use the real
+'page' during training is as the label to the classifier: is this
+guess correct becomes a positive example, is this guess incorrect
+becomes a negative example.
+
 *Q:* Can I modify buzzer.py so that I can use the history of guesses in a
  question?
 
-*A:* Yes.  If you do that, make sure to upload the file.  We will replace the
+*A:* Yes.  If you do that, make sure to upload buzzer.py.  We will replace the
  default version of buzzer.py with your new submission.
 
 *Q:* Can I use the <INSERT NAME HERE> package?

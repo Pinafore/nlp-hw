@@ -44,7 +44,7 @@ What you don't have to do
 
 You don't have to (and shouldn't!) compute tf-idf yourself.  We did that in
 a previous homework, so you can leave that to the professionals.  We encourage
-you to use the tf-idf vectorizer: play around with different settings of the
+you to use the tf-idf vectorizer from sklearn: play around with different settings of the
 paramters.  You probably shouldn't modify it, but it's probably useful to
 understand it for future homeworks (you'll need to write/call code like it in
 the future).
@@ -464,7 +464,12 @@ Hints
 1.  Don't use all of the data, especially at first.  Use the _limit_
     command line argument (as in the above example).
 2.  In case you see an error that your submission timed out on Gradescope, that means that your code needs to be simplified. 
-    This is essential for your  code to work on Gradescope, so think of ways you can optimize your code.
+    This is essential for your  code to work on Gradescope, so think of ways
+    you can optimize your code.  It could be that your tf-idf representation
+    is too wide (too many terms) or too tall (too many documents).  You had to
+    deal with this before in your previous tf-idf homework.  Another issue if
+    if you're trying to create the matrix one row at a time; it's possible to
+    do it in batch.
 5.  The leaderboard will report both retrieval accuracy and final buzz
     accuracy.  Both are important, as you can only decide if a guess is
     correct if the correct guess is an option.
@@ -477,4 +482,5 @@ Hints
     https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html 
 7.  *Do not focus on buzzer accuracy*!  When your guesser is broken, all of
     the guesses will be wrong and you'll trivially get perfect buzz accuracy
-    (always wait).
+    (always wait).  Unless you're going for going after extra credit, you should pay attention to precision and recall (which are specific to the guesser).
+8.  That said, accuracy comes from the buzzer; it's possible that the pickle for your buzzer has not been updated and is looking for the wrong features (or is miscalibrated). 

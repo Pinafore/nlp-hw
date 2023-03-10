@@ -26,7 +26,7 @@ What you have to do
 Coding (15 points in the tfidf_guesser.py):
 
 1.  (Optional) Store necessary data in the constructor so you can do classification later.
-1.  You will need the pickle files generated from ``buzzer.py``. You can either reuse your ``LogisticBuzzer.featurizer.pkl`` and the ``LogisticBuzzer.model.pkl`` from the Feature Engineering Homework, or you can generate these files again using the ``qanta.guesstrain.json.gz`` file in the data directory.  
+1.  You will need the pickle files generated from ``buzzer.py``. You can generate these files again using the ``qanta.guesstrain.json.gz`` file in the data directory.  
 1.  Modify the _train_ function so that the class stores what it needs to store to guess at what the answer is.
 1.  Modify the _call_ function so that it finds the closest indicies (in terms of *cosine* similarity) to the query.
 
@@ -37,7 +37,7 @@ Analysis (5 points):
 1.  How does this guesser compare to GPT3?
 1.  Compute recall as you increase the number of guesses.
 
-Accuracy (10 points): How well you do on the leaderboard.
+Accuracy (10 points): How well you do on the recall leaderboard.
 
 What you don't have to do
 -------
@@ -69,7 +69,7 @@ Extra Credit
 
 1. Optimize the retrieval mechanism by tuning parameters, weighting, and/or using
    bigrams.
-2. Do well in the overall leaderboard (while overall score is important, more
+2. Do well in the overall leaderboard (while overall buzz ratio and accuracy is important, more
    important is using features that take advantage of tfidf guesser features or
    multiple guessers.
 3. Add additional tf-idf guessers (e.g., from the provided Wikipedia pages).  You can create an additional
@@ -109,7 +109,7 @@ python3 buzzer.py --guesser_type=TfidfGuesser --limit=50  --question_source=gzjs
 
 This is an example of what your code (tfidf_guesser.py) output should look like:
 ```
-> python3 eval.py --evaluate=guesser --question_source=gzjson
+> python3 eval.py --evaluate=guesser --question_source=gzjson \
 --questions=../data/qanta.guessdev.json.gz --limit=500
 
 hit 0.20
@@ -475,3 +475,6 @@ Hints
     tokenizer does support n-grams, which may help you in the extra credit (but consume more
     memory):
     https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html 
+7.  *Do not focus on buzzer accuracy*!  When your guesser is broken, all of
+    the guesses will be wrong and you'll trivially get perfect buzz accuracy
+    (always wait).

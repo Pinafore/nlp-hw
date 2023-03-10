@@ -19,7 +19,7 @@ kLABELS = {"best": "Guess was correct, Buzz was correct",
            "aggressive": "Guess was wrong, Buzz was wrong",
            "waiting": "Guess was wrong, Buzz was correct"}
 
-def eval_retrieval(guesser, questions, num_test, n_guesses=1, cutoff=None):
+def eval_retrieval(guesser, questions, num_test, n_guesses=25, cutoff=None):
     """
     Evaluate the guesser's retrieval
     """
@@ -27,14 +27,14 @@ def eval_retrieval(guesser, questions, num_test, n_guesses=1, cutoff=None):
     outcomes = Counter()
     examples = defaultdict(list)
     
-    for question in tqdm(questions):
+    for question in tqdm(questions[:num_test]):
         text = question["text"]
         if cutoff is None:
             text = text[:int(random.random() * len(text))]
         else:
             text = text[:cutoff]
 
-        guesses = list(guesser(text))
+        guesses = list(guesser(text, n_guesses))
         top_guess = guesses[0]["guess"]
         answer = question["page"]
 
@@ -152,8 +152,8 @@ if __name__ == "__main__":
     if flags.evaluate == "buzzer":
         for weight, feature in zip(buzzer._classifier.coef_[0], buzzer._featurizer.feature_names_):
             print("%40s: %0.4f" % (feature.strip(), weight))
-        print("Accuracy: %0.2f  Buzz ratio: %0.2f" %
-              ((outcomes["best"] + outcomes["waiting"]) / total,
+        print("Questions Right: %i (out of %i) Accuracy: %0.2f  Buzz ratio: %0.2f" %
+              (outcomes["best"], total, (outcomes["best"] + outcomes["waiting"]) / total,
                outcomes["best"] - outcomes["aggressive"] * 0.5))
     elif flags.evaluate == "guesser":
         print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"]/total, outcomes["close"]/total))

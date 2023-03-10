@@ -35,6 +35,10 @@ def eval_retrieval(guesser, questions, n_guesses=25, cutoff=None):
             text = text[:cutoff]
 
         guesses = list(guesser(text, n_guesses))
+        if len(guesses) > n_guesses:
+            print("Warning: guesser is not obeying n_guesses argument")
+            guesses = guesses[:n_guesses]
+            
         top_guess = guesses[0]["guess"]
         answer = question["page"]
 

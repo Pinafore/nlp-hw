@@ -16,13 +16,13 @@ def add_general_params(parser):
 
 def add_question_params(parser):
     parser.add_argument('--limit', type=int, default=-1)
-    parser.add_argument('--question_source', type=str, default='csv')
-    parser.add_argument('--questions', type=str)
+    parser.add_argument('--question_source', type=str, default='json')
+    parser.add_argument('--questions', default = "../data/qanta.guesstrain.json",type=str)
     parser.add_argument('--expo_output_root', default="expo/expo", type=str)
     parser.add_argument('--expo_questions', type=str)
 
 def add_buzzer_params(parser):
-    parser.add_argument('--buzzer_guessers', nargs='+', help='Guessers to feed into Buzzer', type=str, default=['TfidfGuesser'])
+    parser.add_argument('--buzzer_guessers', nargs='+', default = ['TfidfGuesser'], help='Guessers to feed into Buzzer', type=str)
     parser.add_argument('--features', nargs='+', help='Features to feed into Buzzer', type=str,  default=['Length'])    
     parser.add_argument('--buzzer_type', type=str, default="LogisticBuzzer")
     parser.add_argument('--run_length', type=int, default=100)
@@ -39,10 +39,9 @@ def add_guesser_params(parser):
     parser.add_argument('--WikiGuesser_filename', type=str, default="models/WikiGuesser")    
     parser.add_argument('--GprGuesser_filename', type=str, default="models/GprGuesser")
     parser.add_argument('--wiki_zim_filename', type=str, default="data/wikipedia.zim")
-    
+    parser.add_argument('--num_guesses', type=int, default=25)
 
 def setup_logging(flags):
-    print("Setting Logging level to ", flags.logging_level)
     logging.basicConfig(level=flags.logging_level, force=True)
     
 def load_questions(flags):
@@ -76,30 +75,34 @@ def load_questions(flags):
         
     return questions
 
-def instantiate_guesser(guesser_type, flags, load=True):
-    from tfidf_guesser import TfidfGuesser 
+def instantiate_guesser(guesser_type, flags, load):
+    from tfidf_guesser import TfidfGuesser
+    from president_guesser import PresidentGuesser
 
     guesser = None
+    logging.info("Initializing guesser of type %s" % guesser_type)
     if guesser_type == "GprGuesser":
         logging.info("Loading %s guesser" % guesser_type)
         guesser = GprGuesser(flags.GprGuesser_filename)
-        
     if guesser_type == "TfidfGuesser":                       
         guesser = TfidfGuesser(flags.TfidfGuesser_filename)  
         if load:                                             
-            guesser.load()                                   
+            guesser.load()
+    if guesser_type == "PresidentGuesser":
+        from president_guesser import training_data
+        guesser = PresidentGuesser()
+        guesser.train(training_data)
 
-        
-    assert guesser is not None, "Guesser (type=%s) not initialized" % flags.guesser_type
+            
+    assert guesser is not None, "Guesser (type=%s) not initialized" % guesser_type
 
     return guesser
 
 def load_guesser(flags, load=False):
     """
-    Given command line flags, load a guesser.  Essentially a wrapper for instantiage_guesser because we don't know the type.
+    Given command line flags, load a guesser.  Essentially a wrapper for instantiate_guesser because we don't know the type.
     """
     return instantiate_guesser(flags.guesser_type, flags, load)
-
 
 def load_buzzer(flags):
     """
@@ -110,18 +113,18 @@ def load_buzzer(flags):
     buzzer = None
     if flags.buzzer_type == "LogisticBuzzer":
         from logistic_buzzer import LogisticBuzzer
-        buzzer = LogisticBuzzer(flags.LogisticBuzzer_filename, flags.run_length)
+        buzzer = LogisticBuzzer(flags.LogisticBuzzer_filename, flags.run_length, flags.num_guesses)
     assert buzzer is not None, "Buzzer (type=%s) not initialized" % flags.buzzer_type
 
 
     for gg in flags.buzzer_guessers:
-        guesser = instantiate_guesser(gg, flags)
+        guesser = instantiate_guesser(gg, flags, load=True)
         guesser.load()
         logging.info("Adding %s to Buzzer" % gg)
         buzzer.add_guesser(gg, guesser, gg==flags.guesser_type)
 
     print("Initializing features: %s" % str(flags.features))
-
+    print("dataset: %s" % str(flags.questions))
 
     ######################################################################
     ######################################################################
@@ -141,6 +144,4 @@ def load_buzzer(flags):
             from features import LengthFeature
             feature = LengthFeature(ff)
             buzzer.add_feature(feature)
-
-    
     return buzzer

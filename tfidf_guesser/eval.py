@@ -19,22 +19,31 @@ kLABELS = {"best": "Guess was correct, Buzz was correct",
            "aggressive": "Guess was wrong, Buzz was wrong",
            "waiting": "Guess was wrong, Buzz was correct"}
 
-def eval_retrieval(guesser, questions, num_test, n_guesses=1, cutoff=None):
+def eval_retrieval(guesser, questions, n_guesses=25, cutoff=-1):
     """
     Evaluate the guesser's retrieval
     """
     from collections import Counter, defaultdict
     outcomes = Counter()
     examples = defaultdict(list)
-    
+
+    question_text = []
     for question in tqdm(questions):
         text = question["text"]
-        if cutoff is None:
+        if cutoff == 0:
             text = text[:int(random.random() * len(text))]
-        else:
+        elif cutoff > 0:
             text = text[:cutoff]
+        question_text.append(text)
 
-        guesses = list(guesser(text))
+    all_guesses = guesser.batch_guess(question_text, n_guesses)
+    print(all_guesses)
+    assert len(all_guesses) == len(question_text)
+    for question, guesses, text in zip(questions, all_guesses, question_text):
+        if len(guesses) > n_guesses:
+            logging.warn("Warning: guesser is not obeying n_guesses argument")
+            guesses = guesses[:n_guesses]
+            
         top_guess = guesses[0]["guess"]
         answer = question["page"]
 
@@ -89,6 +98,8 @@ def eval_buzzer(buzzer, questions):
     
     buzzer.load()
     buzzer.add_data(questions)
+    buzzer.build_features()
+    
     predict, feature_matrix, feature_dict, correct, metadata = buzzer.predict(questions)
     outcomes = Counter()
     examples = defaultdict(list)
@@ -124,6 +135,7 @@ if __name__ == "__main__":
     add_buzzer_params(parser)
 
     parser.add_argument('--evaluate', default="buzzer", type=str)
+    parser.add_argument('--cutoff', default=-1, type=int)    
     
     flags = parser.parse_args()
     setup_logging(flags)
@@ -134,11 +146,14 @@ if __name__ == "__main__":
         buzzer = load_buzzer(flags)
         outcomes, examples = eval_buzzer(buzzer, questions)
     elif flags.evaluate == "guesser":
-        outcomes, examples = eval_retrieval(guesser, questions, 100)
+        if flags.cutoff >= 0:
+            outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses, flags.cutoff)
+        else:
+            outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses)
     else:
         assert False, "Gotta evaluate something"
         
-    total = sum(outcomes.values())
+    total = sum(outcomes[x] for x in outcomes if x != "hit")
     for ii in outcomes:
         print("%s %0.2f\n===================\n" % (ii, outcomes[ii] / total))
         if len(examples[ii]) > 10:
@@ -152,8 +167,8 @@ if __name__ == "__main__":
     if flags.evaluate == "buzzer":
         for weight, feature in zip(buzzer._classifier.coef_[0], buzzer._featurizer.feature_names_):
             print("%40s: %0.4f" % (feature.strip(), weight))
-        print("Accuracy: %0.2f  Buzz ratio: %0.2f" %
-              ((outcomes["best"] + outcomes["waiting"]) / total,
+        print("Questions Right: %i (out of %i) Accuracy: %0.2f  Buzz ratio: %0.2f" %
+              (outcomes["best"], total, (outcomes["best"] + outcomes["waiting"]) / total,
                outcomes["best"] - outcomes["aggressive"] * 0.5))
     elif flags.evaluate == "guesser":
         print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"]/total, outcomes["close"]/total))

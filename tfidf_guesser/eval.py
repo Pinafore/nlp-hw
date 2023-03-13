@@ -19,24 +19,29 @@ kLABELS = {"best": "Guess was correct, Buzz was correct",
            "aggressive": "Guess was wrong, Buzz was wrong",
            "waiting": "Guess was wrong, Buzz was correct"}
 
-def eval_retrieval(guesser, questions, n_guesses=25, cutoff=None):
+def eval_retrieval(guesser, questions, n_guesses=25, cutoff=-1):
     """
     Evaluate the guesser's retrieval
     """
     from collections import Counter, defaultdict
     outcomes = Counter()
     examples = defaultdict(list)
-    
+
+    question_text = []
     for question in tqdm(questions):
         text = question["text"]
-        if cutoff is None:
+        if cutoff == 0:
             text = text[:int(random.random() * len(text))]
-        else:
+        elif cutoff > 0:
             text = text[:cutoff]
+        question_text.append(text)
 
-        guesses = list(guesser(text, n_guesses))
+    all_guesses = guesser.batch_guess(question_text, n_guesses)
+    print(all_guesses)
+    assert len(all_guesses) == len(question_text)
+    for question, guesses, text in zip(questions, all_guesses, question_text):
         if len(guesses) > n_guesses:
-            print("Warning: guesser is not obeying n_guesses argument")
+            logging.warn("Warning: guesser is not obeying n_guesses argument")
             guesses = guesses[:n_guesses]
             
         top_guess = guesses[0]["guess"]
@@ -93,6 +98,8 @@ def eval_buzzer(buzzer, questions):
     
     buzzer.load()
     buzzer.add_data(questions)
+    buzzer.build_features()
+    
     predict, feature_matrix, feature_dict, correct, metadata = buzzer.predict(questions)
     outcomes = Counter()
     examples = defaultdict(list)
@@ -139,7 +146,7 @@ if __name__ == "__main__":
         buzzer = load_buzzer(flags)
         outcomes, examples = eval_buzzer(buzzer, questions)
     elif flags.evaluate == "guesser":
-        if flags.cutoff > 0:
+        if flags.cutoff >= 0:
             outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses, flags.cutoff)
         else:
             outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses)

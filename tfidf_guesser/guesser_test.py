@@ -42,6 +42,7 @@ class GuesserTest(unittest.TestCase):
             top, second = self.queries[query]
             guesses = self.guesser(query)
             print("%60s %30s %30s %0.3f" % (query[:60], top[:30], guesses[0]['guess'][:30], guesses[0]['confidence']))
+            print("%60s %30s %30s %0.3f" % ("", "", guesses[1]['guess'][:30], guesses[1]['confidence']))
             self.assertEqual(guesses[0]['guess'], top)
             self.assertEqual(guesses[1]['guess'], second)
 
@@ -52,6 +53,7 @@ class GuesserTest(unittest.TestCase):
         for query, guesses in zip(questions, guesses):
             top, second = self.queries[query]
             print("%60s %30s %30s %0.3f" % (query[:60], top[:30], guesses[0]['guess'][:30], guesses[0]['confidence']))
+            print("%60s %30s %30s %0.3f" % ("", "", guesses[1]['guess'][:30], guesses[1]['confidence']))            
             self.assertEqual(guesses[0]['guess'], top)
             self.assertEqual(guesses[1]['guess'], second)
 

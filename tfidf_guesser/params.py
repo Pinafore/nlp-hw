@@ -77,6 +77,7 @@ def load_questions(flags):
 
 def instantiate_guesser(guesser_type, flags, load):
     from tfidf_guesser import TfidfGuesser
+    from president_guesser import PresidentGuesser
 
     guesser = None
     logging.info("Initializing guesser of type %s" % guesser_type)
@@ -88,7 +89,6 @@ def instantiate_guesser(guesser_type, flags, load):
         if load:                                             
             guesser.load()
     if guesser_type == "PresidentGuesser":
-        from president_guesser import PresidentGuesser
         from president_guesser import training_data
         guesser = PresidentGuesser()
         guesser.train(training_data)

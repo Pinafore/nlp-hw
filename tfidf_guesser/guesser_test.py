@@ -27,6 +27,13 @@ class GuesserTest(unittest.TestCase):
         
         self.guesser.train(self.toy_data, 'page', False, 0, -1)
 
+        print("VOCAB")
+        for v, k in sorted( ((v,k) for k,v in self.guesser.tfidf_vectorizer.vocabulary_.items())):
+            print("%5i %20s" % (v, k))
+
+    def test_stopwords(self):
+        self.assertTrue("the" not in self.guesser.tfidf_vectorizer.vocabulary_)
+
     def test_length(self):
         self.assertEqual(len(self.guesser.answers), 13)
         

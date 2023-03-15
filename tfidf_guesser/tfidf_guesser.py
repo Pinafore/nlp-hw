@@ -30,6 +30,7 @@ class DummyVectorizer:
     """
     def __init__(self, width=50):
         self.width = width
+        self.vocabulary_ = {}
     
     def transform(self, questions):
         import numpy as np

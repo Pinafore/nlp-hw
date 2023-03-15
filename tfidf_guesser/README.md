@@ -53,6 +53,26 @@ You also don't have to save the vectorizer and tfidf representations, we'll do
 that for you.  Take a look at the base guesser class, it needs to track the
 questions and answer.  This will also be saved to a pickle.
 
+Unit tests
+-
+
+To test that your basic functionality works, run the provided unit
+tests:
+
+     $ python3 guesser_test.py
+                                          This capital of England                          Maine                          Maine 0.545
+                                                                                                                         Boston 0.528
+                                The author of Pride and Prejudice                    Jane_Austen                    Jane_Austen 0.913
+                                                                                                                    Jane_Austen 0.779
+                                  The composer of the Magic Flute        Wolfgang_Amadeus_Mozart        Wolfgang_Amadeus_Mozart 0.691
+                                                                                                        Wolfgang_Amadeus_Mozart 0.653
+           The economic law that says 'good money drives out bad'                  Gresham's_law                  Gresham's_law 0.751
+                                                                                                                  Gresham's_law 0.721
+     located outside Boston, the oldest University in the United       College_of_William_&_Mary      College_of_William_&_Mary 0.450
+                                                                                                              Rhode_Island 0.426
+
+Your numeric results might not exactly match the similarities here,
+but the ranking should still be consistent.
 
 What to turn in
 -

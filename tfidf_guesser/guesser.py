@@ -6,6 +6,7 @@
 import os
 import re
 import json
+import logging
 
 from nltk.tokenize import sent_tokenize
 
@@ -55,9 +56,10 @@ class Guesser:
         state from a file.
         """
         None
+
         
-    def train(self, training_data, answer_field, split_by_sentence, min_length,
-              max_length, remove_missing_pages=True):
+    def train(self, training_data, answer_field, split_by_sentence, min_length=-1,
+              max_length=-1, remove_missing_pages=True):
         """
         Use a tf-idf vectorizer to analyze a training dataset and to process
         future examples.
@@ -65,6 +67,9 @@ class Guesser:
         Keyword arguments:
         training_data -- The dataset to build representation from
         limit -- How many training data to use (default -1 uses all data)
+        min_length -- ignore all text segments less than this length (-1 for no limit)
+        max_length -- ingore all text segments longer than this length (-1 for no length)
+        remove_missing_pages -- remove pages without an answer_field
         """
         from collections import defaultdict
         from tqdm import tqdm
@@ -73,11 +78,13 @@ class Guesser:
         if split_by_sentence:
             for qq in tqdm(training_data):
                 for ss in sent_tokenize(qq["text"]):
-                    if len(ss) > min_length and len(ss) < max_length:
+                    if (min_length < 0 or len(ss) > min_length) and (max_length < 0 or len(ss) < max_length):
                         answers_to_questions[qq[answer_field]].add(ss)
         else:
             for qq in tqdm(training_data):
-                answers_to_questions[qq[answer_field]].add(x["text"])
+                text = qq["text"]
+                if (min_length < 0 or len(text) > min_length) and (max_length < 0 or len(text) < max_length):
+                    answers_to_questions[qq[answer_field]].add(qq["text"])
 
         self.answers = []
         self.questions = []
@@ -87,16 +94,31 @@ class Guesser:
             for question in answers_to_questions[answer]:
                 self.answers.append(answer)
                 self.questions.append(question)
-        
+
+    def batch_guess(self, questions, n_guesses=1):
+        """
+        Given a list of questions, create a batch set of predictions.
+
+        This should be overridden my more efficient implementations in subclasses.
+        """
+        from tqdm import tqdm
+        guesses = []
+        logging.info("Generating guesses for %i new question" % len(questions))
+        for question in tqdm(questions):
+            new_guesses = self(question, n_guesses)
+            guesses.append(new_guesses)
+        return guesses
+            
+                
     def __call__(self, question, n_guesses=1):
         """
-        Generate a guess from a question.
+        Generate a guess set from a single question.
         """
         return [{"guess": self._default_guess, "confidence": 1.0}]
 
 
 if __name__ == "__main__":
-    # Train a tf-idf guesser and save it to a file
+    # Train a guesser and save it to a file
     import argparse
     parser = argparse.ArgumentParser()
     add_guesser_params(parser)
@@ -118,7 +140,7 @@ if __name__ == "__main__":
                                      flags.wiki_min_frequency)
         # The WikiGuesser has some results (text from asked about Wikipedia
         # pages) from saving and we want to cache them to a file
-        guesser.save(train_result)        
+        guesser.save()        
     else:
         guesser.train(questions,
                       flags.guesser_answer_field,

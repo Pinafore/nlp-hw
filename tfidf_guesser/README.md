@@ -53,6 +53,26 @@ You also don't have to save the vectorizer and tfidf representations, we'll do
 that for you.  Take a look at the base guesser class, it needs to track the
 questions and answer.  This will also be saved to a pickle.
 
+Unit tests
+-
+
+To test that your basic functionality works, run the provided unit
+tests:
+
+     $ python3 guesser_test.py
+                                          This capital of England                          Maine                          Maine 0.545
+                                                                                                                         Boston 0.528
+                                The author of Pride and Prejudice                    Jane_Austen                    Jane_Austen 0.913
+                                                                                                                    Jane_Austen 0.779
+                                  The composer of the Magic Flute        Wolfgang_Amadeus_Mozart        Wolfgang_Amadeus_Mozart 0.691
+                                                                                                        Wolfgang_Amadeus_Mozart 0.653
+           The economic law that says 'good money drives out bad'                  Gresham's_law                  Gresham's_law 0.751
+                                                                                                                  Gresham's_law 0.721
+     located outside Boston, the oldest University in the United       College_of_William_&_Mary      College_of_William_&_Mary 0.450
+                                                                                                              Rhode_Island 0.426
+
+Your numeric results might not exactly match the similarities here,
+but the ranking should still be consistent.
 
 What to turn in
 -
@@ -483,4 +503,14 @@ Hints
 7.  *Do not focus on buzzer accuracy*!  When your guesser is broken, all of
     the guesses will be wrong and you'll trivially get perfect buzz accuracy
     (always wait).  Unless you're going for going after extra credit, you should pay attention to precision and recall (which are specific to the guesser).
-8.  That said, accuracy comes from the buzzer; it's possible that the pickle for your buzzer has not been updated and is looking for the wrong features (or is miscalibrated). 
+8.  That said, accuracy comes from the buzzer; if you have a bad
+    accuracy score despite updating the guesser, it's possible that
+    the pickle for your buzzer has not been updated and is looking for
+    the wrong features (or is miscalibrated). 
+9.  Once you've completed the required part of the homework and you're
+    trying to increase the recall further, you can investigate
+    changing the dimensions of the vectorization: what normalization
+    is applied to the words, what data are included, or looking at
+    n-grams.  Also don't forget
+    about the wiki pages:
+    https://drive.google.com/file/d/1-AhjvqsoZ01gz7EMt5VmlCnVpsE96A5n/view?usp=share_link 

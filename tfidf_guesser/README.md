@@ -34,7 +34,7 @@ Analysis (5 points):
 
 1.  What answers get confused with each other most easily?  What kinds of
     mistakes does this guesser make?
-1.  How does this guesser compare to GPT3?
+1.  How does this guesser compare to GPT?  (Remember that the cached guesser from the feature engineering homework came from GPT3.)
 1.  Compute recall as you increase the number of guesses.
 
 Accuracy (10 points): How well you do on the recall leaderboard.

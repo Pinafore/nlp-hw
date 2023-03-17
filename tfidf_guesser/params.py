@@ -82,6 +82,8 @@ def instantiate_guesser(guesser_type, flags, load):
         from gpr_guesser import GprGuesser
         logging.info("Loading %s guesser" % guesser_type)
         guesser = GprGuesser(flags.GprGuesser_filename)
+        if load:
+            guesser.load()
     if guesser_type == "TfidfGuesser":
         from tfidf_guesser import TfidfGuesser        
         guesser = TfidfGuesser(flags.TfidfGuesser_filename)  

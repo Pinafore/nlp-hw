@@ -1,10 +1,13 @@
 
+This homework is about writing questions that are interesting and that
+a reasonable human could answer but that computers struggle to answer.
 
 Tools to Write Your Questions
 =======
 
 You are encouraged (but not required) to use this tool:
 https://qantanew.web.app/play
+(It has a built in tutorial, but we're looking to improve it, so please give us feedback on it!)
 
 Here are some techniques to write questions systems cannot answer:
 https://www.youtube.com/watch?v=6oZCIOBiSaI
@@ -12,7 +15,12 @@ https://www.youtube.com/watch?v=6oZCIOBiSaI
 You can see a previous competition we ran here:
 https://sites.google.com/view/qanta/past-events/dec-15-2018?authuser=0
 
+You are however free to download any QA systems you'd like or to use them on the web.  Some ideas include:
+* https://you.com/
+* https://www.bing.com/new
+* https://chat.openai.com/
 
+Please share any good ones you find with the rest of the class.
 
 Format of the Question
 ========
@@ -29,7 +37,7 @@ How to describe your question
 =========
 You should have about a page for each question with the following subsections:
 * _Question_: The question you asked
-* _Guess_: What answer systems provided
+* _Guess_: What answer systems provided (make sure to provide details on what systems you tried against)
 * _Answer_: What the correct answer should be.  Provide sources with citations.  Wikipedia should not be used as a primary source.  Better sources are peer-reviewed articles (JSTOR is your friend and is available from UMD IPs without a fee), newspapers, books (Google books is good), etc.
 * _Guess Explanation_: Why did the AI provide the answer that it did?  For the
 homework, this can be in general terms (but do make use of concepts like
@@ -60,3 +68,19 @@ You can work in groups for this assignment, but it doesn't decrease the
 workload (e.g., if you're N people, you must submit N questions).  Everyone
 will get the same score for their submission, and if late days are used it
 will be applied to all members of the group.
+
+What to turn in
+==========
+
+Turn in both a PDF of the writeup of your question and a json including the raw text of the question to Gradescope.
+
+FAQ
+===========
+
+*Q:* Can I submit multiple questions?
+
+*A:* No, submit your best question.
+
+*Q:* Can I turn in a quiz bowl question and "normal" versions of the clues in the question.
+
+*A:* Yes, that's fine.

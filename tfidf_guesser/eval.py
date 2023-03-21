@@ -37,7 +37,6 @@ def eval_retrieval(guesser, questions, n_guesses=25, cutoff=-1):
         question_text.append(text)
 
     all_guesses = guesser.batch_guess(question_text, n_guesses)
-    print(all_guesses)
     assert len(all_guesses) == len(question_text)
     for question, guesses, text in zip(questions, all_guesses, question_text):
         if len(guesses) > n_guesses:
@@ -172,11 +171,3 @@ if __name__ == "__main__":
                outcomes["best"] - outcomes["aggressive"] * 0.5))
     elif flags.evaluate == "guesser":
         print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"]/total, outcomes["close"]/total))
-
-
-
-
-        
-        
-
-    

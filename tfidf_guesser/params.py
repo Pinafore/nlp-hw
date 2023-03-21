@@ -76,19 +76,21 @@ def load_questions(flags):
     return questions
 
 def instantiate_guesser(guesser_type, flags, load):
-    from tfidf_guesser import TfidfGuesser
-    from president_guesser import PresidentGuesser
-
     guesser = None
     logging.info("Initializing guesser of type %s" % guesser_type)
     if guesser_type == "GprGuesser":
+        from gpr_guesser import GprGuesser
         logging.info("Loading %s guesser" % guesser_type)
         guesser = GprGuesser(flags.GprGuesser_filename)
-    if guesser_type == "TfidfGuesser":                       
+        if load:
+            guesser.load()
+    if guesser_type == "TfidfGuesser":
+        from tfidf_guesser import TfidfGuesser        
         guesser = TfidfGuesser(flags.TfidfGuesser_filename)  
         if load:                                             
             guesser.load()
     if guesser_type == "PresidentGuesser":
+        from president_guesser import PresidentGuesser        
         from president_guesser import training_data
         guesser = PresidentGuesser()
         guesser.train(training_data)

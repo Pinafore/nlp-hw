@@ -34,7 +34,7 @@ Analysis (5 points):
 
 1.  What answers get confused with each other most easily?  What kinds of
     mistakes does this guesser make?
-1.  How does this guesser compare to GPT3?
+1.  How does this guesser compare to GPT?  (Remember that the cached guesser from the feature engineering homework came from GPT3.)
 1.  Compute recall as you increase the number of guesses.
 
 Accuracy (10 points): How well you do on the recall leaderboard.
@@ -485,11 +485,12 @@ Hints
     command line argument (as in the above example).
 2.  In case you see an error that your submission timed out on Gradescope, that means that your code needs to be simplified. 
     This is essential for your  code to work on Gradescope, so think of ways
-    you can optimize your code.  It could be that your tf-idf representation
-    is too wide (too many terms) or too tall (too many documents).  You had to
-    deal with this before in your previous tf-idf homework.  Another issue if
+    you can optimize your code.  Another issue if
     if you're trying to create the matrix one row at a time; it's possible to
     do it in batch.
+2.  Another problem with the submission might be that your pickle file (how your vectorizer / matrix is saved) is too large (Gradescope has a 100MB limit).  Remember that your tf-idf representation is a matrix.  It could be that your tf-idf representation
+    is too wide (too many terms) or too tall (too many documents).  You had to
+    deal with this before in your previous tf-idf homework.  
 5.  The leaderboard will report both retrieval accuracy and final buzz
     accuracy.  Both are important, as you can only decide if a guess is
     correct if the correct guess is an option.

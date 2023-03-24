@@ -51,6 +51,8 @@ President of the US with a living grandchild), importance (the Witting
 reaction is taught in most organic chemistry classes), or connective (Samuel
 Beckett drove Andre the Giant to School).
 
+There's an example of this in this directory.
+
 Use of ChatGPT
 ========
 
@@ -83,4 +85,4 @@ FAQ
 
 *Q:* Can I turn in a quiz bowl question and "normal" versions of the clues in the question.
 
-*A:* Yes, that's fine.
+*A:* Yes, that's fine.  In which case you can turn in multiple questions.

@@ -1,0 +1,114 @@
+\documentclass{article}
+\usepackage{CJKutf8}
+\usepackage{natbib}
+\bibliographystyle{abbrvnat}
+
+\newcommand{\hezehui}{
+  \begin{CJK*}{UTF8}{gbsn}
+    何泽慧
+\end{CJK*}
+}
+
+\begin{document}
+
+\section{The Question}
+
+\begin{quote}
+The reciprocal of what quantity was estimated to be .9 higher than the
+three-digit integer value popularly associated with it in 1916 experiments
+conducted by a Brandenburg-based researcher?  That researcher also hosted Ho Zah-wei (\hezehui{}) in his
+home; she would later go on to lead the neutron flux team of the Chinese nuclear program.
+\end{quote}
+
+The answer is the \underline{fine structure constant}, $\alpha \approx \frac{1}{137}$.
+
+\section{Explaining the Answer}
+
+He Zehui was one of the leading minds of the Chinese nuclear program,
+but she was educated in Germany; while there, she stayed at the home
+of Friedrich Paschen~\citep{cern-11}.  Paschen was notably one of the
+foremost investigators of spectral lines, which led to his estimation
+of the reciprocal of the fine structure constant as 137.9, confirming
+the theory of Sommerfeld.
+
+However, the fine structure constant is typically thought of as
+$\frac{1}{137}$, whose integer value was described as Feynman as being
+``written by the hand of God''~\citep{feynman-98}.
+
+\section{Why it's Interesting}
+
+\paragraph{Why ask about this topic?}
+The fine structure constant is worthy to ask about because it is one
+of the few constants in physics that doesn't need to be described in
+terms of units, in contrast to constants like the speed of light which
+require things like meters and seconds to be defined.  In other words,
+you could communicate the fine structure constant more easily to an
+alien than other fundamental physics constants.  (One could argue that
+$\pi$ our prime numbers would also fit the bill.)
+
+\paragraph{Why are these facts interesting?}
+The question asks about the specific value of the constant, which is
+still being measured recently~\citep{kleppner-06}.  It also connects
+Friedrich Paschen who made the \emph{first} measurement of this
+constant to He Zehui, who was critical to the Chinese nuclear
+program~\citep{lewis-91}.
+
+\paragraph{Why is this gettable for a knowledgable human?}
+The hint about the constant being nearly an integer is often asked
+about in trivia questions:
+\begin{itemize}
+  \item This constant, used to measure some electromagnetic interactions, equals Coulomb’s
+constant times elementary charge squared divided by the quantity h-bar times c. It is
+approximately 1 over 137.
+\item The fine structure constant is dimensionless, and has the same value in any unit system. Its value is usually
+  approximated as 1 over this integer.
+  \item For 10 points, name this coupling
+constant of electromagnetic interactions, which is equal to approximately one over 137 and is symbolized
+alpha.
+\end{itemize}
+And some questions even ask for the integer value.  So this is
+difficult for a good trivia player, but not impossible.
+
+\section{Why it's hard}
+
+A simpler version of this question would be: Friedrich Paschen
+estimated that the reciprocal of what constant proposed by Sommerfeld
+was 137.9 (not an integer!) in a 1916 experiment?
+
+This question is substantially easier to answer because the
+fine-structure constant is popularly associated with the integer 137
+(one of the few constants not to be a long decimal).
+
+Moreover, it mentions Sommerfeld, a relatively well-known German
+physicist, who proposed the fine-structure
+constant~\citep{sommerfeld-16}.
+
+We make it harder by adding a multi-hop step~\citep{yang-18} to connect
+to Paschen and then forcing the system to do numerical reasoning to
+get the clue that this value is nearly an integer~\citep{dua-19}.
+
+We also make it harder by giving a toponym of Potsdam (Brandenburg)
+and giving an alternate transliteration of \hezehui{} rather than the more
+common pinyin.
+
+The additional clue about He Zehui can help point a human in the right
+direction but might distract the computer.
+
+\section{What do QA systems answer?}
+
+\begin{itemize}
+  \item {\bf ChatGPT}: Unfortunately, the given information is not sufficient to determine the answer to this question.
+  \item {\bf You.com}: The quantity being referred to in the question
+    is the proton-electron mass ratio. In 1916, a researcher named
+    Theodore Lyman conducted experiments to estimate the value of this
+    ratio, and he found that the reciprocal of the ratio was about 0.9
+    higher than the three-digit integer value that was popularly
+    associated with it at the time.  The researcher who hosted Ho
+    Zah-wei in his home was James Franck, who was a friend and
+    colleague of Lyman's.
+  \end{itemize}
+
+
+\bibliography{references}
+  
+  \end{document}

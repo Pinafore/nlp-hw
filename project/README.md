@@ -66,6 +66,9 @@ In addition to the raw questions, you will also need to create citations describ
 * And a non-pyramidal question that could be used for something like OQL
 * Run state of the art QA systems on the questions to show they struggle, give individual results for each question and a summary over all questions
 
+For an example of what the writeup should look like, see the adversarial HW:
+https://github.com/Pinafore/nlp-hw/blob/master/adversarial/question.tex
+
 Proposal
 ==================
 

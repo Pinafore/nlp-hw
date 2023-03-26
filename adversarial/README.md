@@ -2,7 +2,7 @@
 This homework is about writing questions that are interesting and that
 a reasonable human could answer but that computers struggle to answer.
 
-Tools to Write Your Questions
+Tools to Write Your Question
 =======
 
 You are encouraged (but not required) to use this tool:
@@ -35,7 +35,7 @@ https://www.naqt.com/resources/question-writing.html
 
 How to describe your question
 =========
-You should have about a page for each question with the following subsections:
+A question requires about a page of explanation with the following subsections:
 * _Question_: The question you asked
 * _Guess_: What answer systems provided (make sure to provide details on what systems you tried against)
 * _Answer_: What the correct answer should be.  Provide sources with citations.  Wikipedia should not be used as a primary source.  Better sources are peer-reviewed articles (JSTOR is your friend and is available from UMD IPs without a fee), newspapers, books (Google books is good), etc.

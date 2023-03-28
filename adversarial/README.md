@@ -7,6 +7,9 @@ Tools to Write Your Question
 
 You are encouraged (but not required) to use this tool:
 https://qantanew.web.app/play
+This app has a task of writing an ADVERSARIAL question about the topic you chose. 
+This question should be writeen so that it is answerable with the page title. All the machine guesses surrounding the page content
+are updated as you write the questions, and this way you are informed if you are doing a good job of fooling the computer or not!
 (It has a built in tutorial, but we're looking to improve it, so please give us feedback on it!)
 
 Here are some techniques to write questions systems cannot answer:
@@ -36,13 +39,13 @@ https://www.naqt.com/resources/question-writing.html
 How to describe your question
 =========
 A question requires about a page of explanation with the following subsections:
-* _Question_: The question you asked
-* _Guess_: What answer systems provided (make sure to provide details on what systems you tried against)
+* _Question_: The question you asked, why you thought the question is difficult for computers while not as hard for the humans, why you chose this specific topic to ask a question about. If it is pyramidial, why choose to do so? 
+* _Guess_: What answer systems provided (make sure to provide details on what systems you tried against). The details may include why you chose this answer system.   
 * _Answer_: What the correct answer should be.  Provide sources with citations.  Wikipedia should not be used as a primary source.  Better sources are peer-reviewed articles (JSTOR is your friend and is available from UMD IPs without a fee), newspapers, books (Google books is good), etc.
-* _Guess Explanation_: Why did the AI provide the answer that it did?  For the
+* _Guess Explanation_: Why did the AI provide the answer that it did? Connect it with why you chose this particular answer system and if the guesss it gave matches with your intent of making the question difficult. For the
 homework, this can be in general terms (but do make use of concepts like
 semantic/syntactic ambiguity that we've covered in class), but for the project
-this should be backed up with relevant citations from the NLP literature.
+this should be backed up with relevant citations from the NLP literature. 
 * _Interesting/Notability_: Why would someone find this question interesting
 or why would someone want to know the answer to this question?  Use citations
 as relevant/necessary.  Possible explanations are: surprisingness (Brian May

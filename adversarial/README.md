@@ -77,7 +77,7 @@ will be applied to all members of the group.
 What to turn in
 ==========
 
-Turn in both a PDF of the writeup of your question and a json including the raw text of the question to Gradescope.
+Turn in both a PDF of the writeup of your question and a json including the raw text of the question and answer to Gradescope. Both examples of both writeup and the json file are included in this directory.
 
 FAQ
 ===========

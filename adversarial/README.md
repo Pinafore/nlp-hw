@@ -86,9 +86,20 @@ FAQ
 
 *A:* No, submit your best question.
 
-*Q:* Can I turn in a quiz bowl question and "normal" versions of the clues in the question.
+*Q:* Can I turn in a quiz bowl question and "normal" versions of the clues in the question?
 
 *A:* Yes, that's fine.  In which case you can turn in multiple questions.
+
+*Q:* Do I have to convert a quiz bowl question into "normal" questions?
+
+*A:* You don't have to, but I think it would be worthwhile because it
+ would let you pinpoint where the difficulty is from.  For instance,
+ if you have a distractor-based technique, a computer could get each
+ individual clue correct but be unable to put it together in a single
+ quiz bowl question.  Moreover, a quiz bowl question can end with an
+ easy clue that lets the system get it right, but showing that the
+ first clues are still hard (but uniquely identifying) would show that
+ you still had an adversarial question.
 
 *Q:* What humans should be able to answer the question?  Is it okay if it's hard?
 
@@ -98,9 +109,9 @@ FAQ
 
 *A:* Normally yes.  It helps to standardize and will also let us link it to resources.  However, some of the answers are not going to be in that set.  E.g., if you want to have an answer like "missing a leg" or "ways Sean Bean has died in films" or "because they're all dead", that's not going to match a page.  Please try to match if you can, but otherwise, an arbitrary string is fine.
 
-*Q:*: Can the answer be a year or a number?
+*Q:* Can the answer be a year or a number?
 
-*A:*: Yes, but these questions are often difficult to write so that they're uniquely identifying.  For events that are ancient history, there's often debate about when something happened.  And there are different calendar systems.  You you'd need to specify something like "Based on the Greogorian calendar".  You also need to be specific about if you want a year, a day, a month, etc.  There's also sometimes confusion about when something happened: battles can last days, elections are voted on in November but someone isn't sworn in until the following January.  So all of this is to say, it's okay to ask this, but it sometimes requires more care.
+*A:* Yes, but these questions are often difficult to write so that they're uniquely identifying.  For events that are ancient history, there's often debate about when something happened.  And there are different calendar systems.  You you'd need to specify something like "Based on the Greogorian calendar".  You also need to be specific about if you want a year, a day, a month, etc.  There's also sometimes confusion about when something happened: battles can last days, elections are voted on in November but someone isn't sworn in until the following January.  So all of this is to say, it's okay to ask this, but it sometimes requires more care.
 
 Also, humans don't memorize a lot of dates.  Some things are tightly tied to dates (coronation of Charlemagne, Pearl Harbor, September 11), but most things are not.  So if we're looking for things that humans can answer but computers cannot, these sorts of things may be more difficult.
 

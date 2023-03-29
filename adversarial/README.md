@@ -89,3 +89,15 @@ FAQ
 *Q:* Can I turn in a quiz bowl question and "normal" versions of the clues in the question.
 
 *A:* Yes, that's fine.  In which case you can turn in multiple questions.
+
+*Q:* What humans should be able to answer the question?  Is it okay if it's hard?
+
+*A:* At the minimum, a skilled trivia player should be able to get the question right.  However, it's even better if more people can get the question right.  The easier the question is for an average human (let's assume American undergrad for the purposes of this exercise), the more impressive it is that a computer cannot answer it.  
+
+*Q:* Do I have to use a Wikipedia page title as the answer?
+
+*A:* Normally yes.  It helps to standardize and will also let us link it to resources.  However, some of the answers are not going to be in that set.  E.g., if you want to have an answer like "missing a leg" or "ways Sean Bean has died in films" or "because they're all dead", that's not going to match a page.  Please try to match if you can, but otherwise, an arbitrary string is fine.
+
+*Q:* What computers should ~not~ be able to answer the questions?
+
+*A:* It's okay if some computers can't answer the questions.  But clearly it would be better if all computers cannot answer the question.  Even better is if they all fail in different ways.  We're not going to focus on particular systems and say that, for instance, it must absolutely stump ChatGPT.

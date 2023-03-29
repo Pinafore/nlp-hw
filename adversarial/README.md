@@ -98,6 +98,12 @@ FAQ
 
 *A:* Normally yes.  It helps to standardize and will also let us link it to resources.  However, some of the answers are not going to be in that set.  E.g., if you want to have an answer like "missing a leg" or "ways Sean Bean has died in films" or "because they're all dead", that's not going to match a page.  Please try to match if you can, but otherwise, an arbitrary string is fine.
 
+*Q:*: Can the answer be a year or a number?
+
+*A:*: Yes, but these questions are often difficult to write so that they're uniquely identifying.  For events that are ancient history, there's often debate about when something happened.  And there are different calendar systems.  You you'd need to specify something like "Based on the Greogorian calendar".  You also need to be specific about if you want a year, a day, a month, etc.  There's also sometimes confusion about when something happened: battles can last days, elections are voted on in November but someone isn't sworn in until the following January.  So all of this is to say, it's okay to ask this, but it sometimes requires more care.
+
+Also, humans don't memorize a lot of dates.  Some things are tightly tied to dates (coronation of Charlemagne, Pearl Harbor, September 11), but most things are not.  So if we're looking for things that humans can answer but computers cannot, these sorts of things may be more difficult.
+
 *Q:* What computers should ~not~ be able to answer the questions?
 
 *A:* It's okay if some computers can't answer the questions.  But clearly it would be better if all computers cannot answer the question.  Even better is if they all fail in different ways.  We're not going to focus on particular systems and say that, for instance, it must absolutely stump ChatGPT.

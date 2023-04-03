@@ -51,7 +51,10 @@ If you don't like the interruptability of questions, you can also just answer en
 
 Competition
 ==================
-We will use Dynabech ... it's a lot like Gradescope's leaderboard, but it can handle bigger models.
+We will use Dynabech website (https://dynabench.org/tasks/qa). If you remember the past workshop about Dynabench submission, this is the way to do it. The specific task name is "Grounded QA". Here, with the help of the video tutorial, you submit your QA model and assess how your QA model did compared to others. The assessment will take place by testing your QA model on several QA test datasets and the results of yours and your competitors will be visible on the leaderboard. Your goal is to rank the highest in terms of F1 score and accuracy. 
+
+Here is the Dynabench tutorial. https://umd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=91792791-de2e-48ee-a210-afb900212d5d
+(As of now, the task is not yet published, but you can always get a head start with the existing QA task to test out your model or practice the submission preocess before the deadline (https://dynabench.org/tasks/qa). 
 
 Writing Questions
 ==================

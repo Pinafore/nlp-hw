@@ -66,7 +66,7 @@ In addition to the raw questions, you will also need to create citations describ
 * Why the information in the question is correct
 * Why the question is interesting
 * Why the question is pyramidal
-* And a non-pyramidal question that could be used for something like OQL
+* And a non-pyramidal question that could be used for something like OQL (OQL contains topics such as: Art and Literature, Geography, History, Science, TV and Film, Music, Lifestyle, and Sport. )
 * Run state of the art QA systems on the questions to show they struggle, give individual results for each question and a summary over all questions
 
 For an example of what the writeup should look like, see the adversarial HW:

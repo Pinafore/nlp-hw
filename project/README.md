@@ -169,7 +169,7 @@ System Submission
 You must submit a version of your system by May 10.  It may not be perfect, but this what the question writing teams will use to test their results.
 
 
-Project Writeup
+Project Writeup and JSON file
 ======================
 
 By May 17, submit your project writeup explaining what
@@ -186,6 +186,7 @@ Images are a much better use of space than words, usually (there's no
 limit on including images, but use judgement and be selective).
 
 For question writing, you have one page (single spaced, two column) per question plus a two page summary of results. Along with your writeup, turn in a json including the raw text of the question and answer and category. The json file is included in this directory.
+
 Grade
 ======================
 

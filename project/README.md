@@ -66,7 +66,32 @@ In addition to the raw questions, you will also need to create citations describ
 * Why the information in the question is correct
 * Why the question is interesting
 * Why the question is pyramidal
-* And a non-pyramidal question that could be used for something like OQL (OQL contains topics such as: Art and Literature, Geography, History, Science, TV and Film, Music, Lifestyle, and Sport. )
+* And a non-pyramidal question that could be used for something like OQL 
+
+**Example of OQL Questions**
+Q. France has seen a series of strikes and demonstrations in its capital city, after proposals to raise what from the age of 62 to 64? 
+A. RETIREMENT AGE 
+Q. Which 2004 teen romantic comedy tells of a girl, played by Hilary Duff, forced to work in her stepmother’s diner after the death of her father? She begins an online relationship with 'Nomad' who is later revealed to be the most popular boy in school, Austin, played by Chad Michael Murray.
+A. CINDERELLA STORY
+For more examples, refer to https://quizcentral.net/quizzes/OQL-UK-SEASON-9-CUP-QUIZ-ROUND-3.pdf
+
+**Category**
+OQL contains topics such as Art, Literature, Geography, History, Science, TV and Film, Music, Lifestyle, and Sport. The questions should be written using all topics above (5 questions for each category and 5 more for your favorite category). Indicate in your writeup which category you chose to write on for each question. 
+(Example)
+Art: 5
+Literature: 5
+Geography: 5
+History: 5
+Science: 5
+TV: 5
+Film: 5
+Music: 5
+Lifestyle: 5
+Sport: 5+5
+
+**Diversity** 
+Other than category diversity, if you find an ingenious way of writing questions about underrepresented countries, you will get bonus points (indicate which questions you included the diversity component in your writeup). You may decide which are underrepresented countries with your own reasonable reason (etc., less population may indicate underrepresented), but make sure to articulate this in your writeup. 
+
 * Run state of the art QA systems on the questions to show they struggle, give individual results for each question and a summary over all questions
 
 For an example of what the writeup should look like, see the adversarial HW:
@@ -154,8 +179,7 @@ For systems, please do not go over 2500 words unless you have a really good reas
 Images are a much better use of space than words, usually (there's no
 limit on including images, but use judgement and be selective).
 
-For question writing, you have one page (single spaced, two column) per question plus a two page summary of results.
-
+For question writing, you have one page (single spaced, two column) per question plus a two page summary of results. Along with your writeup, turn in a json including the raw text of the question and answer and category. The json file is included in this directory.
 Grade
 ======================
 

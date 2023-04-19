@@ -80,19 +80,54 @@ For more examples, refer to https://quizcentral.net/quizzes/OQL-UK-SEASON-9-CUP-
 
 **Category**
 
-OQL contains topics such as Art, Literature, Geography, History, Science, TV and Film, Music, Lifestyle, and Sport. The questions should be written using all topics above (5 questions for each category and 5 more for your favorite category). Indicate in your writeup which category you chose to write on for each question. 
+Category
 
-(Example)
-Art: 5
-Literature: 5
-Geography: 5
-History: 5
-Science: 5
-TV: 5
-Film: 5
+OQL contains topics such as Art, Literature, Geography, History, Science, TV and Film, Music, Lifestyle, and Sport. The questions should be written using all topics above (5 questions for each category and 5 more for the remaining categories). Indicate in your writeup which category you chose to write on for each question. 
+
+Art:
+
+Questions about works: Mona Lisa, Raft of the Medussa
+Questions about forms: color, contour, texture
+Questions about artists: Picasso, Monet, Leonardo da Vinci
+Questions about context: Renaissance, post-modernism, expressionism, surrealism
+
+Literature: 
+Questions about works: novels (1984), plays (The Lion and the Jewel), poems (Rubaiyat), criticism (Poetics)
+Questions about major characters or events in literature: The Death of Anna Karenina, Noboru Wataya, the Marriage of Hippolyta and Theseus
+Questions about literary movements (Sturm und Drang)
+Questions about translations
+Cross-cutting questions (appearances of Overcoats in novels)
+Common link questions (the literary output of a country/region)
+Geography: 
+Questions about location: names of capital, state, river
+Questions about the place: temperature, wind flow, humidity
+History: 
+When: When did the First World war start? 
+Who: Who is called Napoleon of Iran? 
+Where: Where was the first Summer Olympics held?
+Which: Which is the oldest civilization in the world?
+Science: 
+Questions about terminology: The concept of gravity was discovered by which famous physicist?
+Questions about the experiment
+Questions about theory: The social action theory believes that individuals are influenced by this theory.
+TV and Film: 
+Quotes: What are the dying words of Charles Foster Kane in Citizen Kane?
+Title: What 1927 musical was the first "talkie"?
+Plot: In The Matrix, does Neo take the blue pill or the red pill?
 Music: 5
+Singer: What singer has had a Billboard No. 1 hit in each of the last four decades?
+Band: Before Bleachers and fun., Jack Antonoff fronted what band?
+Title: What was Madonna's first top 10 hit?
+History: Which classical composer was deaf?
 Lifestyle: 5
+Clothes: What clothing company, founded by a tennis player, has an alligator logo?
+Decoration: What was the first perfume sold by Coco Chanel?
 Sport: 5+5
+Known facts: What sport is best known as the ‘king of sports’?
+Nationality: What’s the national sport of Canada?
+Sport player: The classic 1980 movie called Raging Bull is about which real-life boxer?
+Country: What country has competed the most times in the Summer Olympics yet hasn’t won any kind of medal?
+
 
 **Diversity** 
 

@@ -80,8 +80,6 @@ For more examples, refer to https://quizcentral.net/quizzes/OQL-UK-SEASON-9-CUP-
 
 **Category**
 
-Category
-
 OQL contains topics such as Art, Literature, Geography, History, Science, TV and Film, Music, Lifestyle, and Sport. The questions should be written using all topics above (5 questions for each category and 5 more for the remaining categories). Indicate in your writeup which category you chose to write on for each question. 
 
 

@@ -145,7 +145,7 @@ TV and Film:
 *	Plot: In The Matrix, does Neo take the blue pill or the red pill?
 
 
-Music: 5
+Music: 
 
 *	Singer: What singer has had a Billboard No. 1 hit in each of the last four decades?
 
@@ -156,14 +156,14 @@ Music: 5
 *	History: Which classical composer was deaf?
 
 
-Lifestyle: 5
+Lifestyle: 
 
 *	Clothes: What clothing company, founded by a tennis player, has an alligator logo?
 
 *	Decoration: What was the first perfume sold by Coco Chanel?
 
 
-Sport: 5+5
+Sport: 
 
 *	Known facts: What sport is best known as the ‘king of sports’?
 

@@ -265,7 +265,14 @@ For systems, please do not go over 2500 words unless you have a really good reas
 Images are a much better use of space than words, usually (there's no
 limit on including images, but use judgement and be selective).
 
-For question writing, you have one page (single spaced, two column) per question plus a two page summary of results. Along with your writeup, turn in a json including the raw text of the question and answer and category. The json file is included in this directory.
+For question writing, you have one page (single spaced, two column) per question plus a two page summary of results. Along with your writeup, turn in a json including the raw text of the question and answer and category. The json file is included in this directory. Make sure your json file is in the correct format and is callable via below code. Your submission will not be graded if it does not follow the format of the example json file 
+
+```
+with open('path to your json file', 'r') as f:
+    data = json.load(f)
+```
+
+
 
 Grade
 ======================

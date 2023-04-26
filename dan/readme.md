@@ -4,20 +4,23 @@ Deep Learning
 Overview
 --------
 
-To gain a better understanding of deep learning, we're going to look at deep averaging networks (DAN).  These are a very simple
-framework, but they work well for a variety of tasks and will help
-introduce some of the core concepts of using deep learning in
-practice.
+To gain a better understanding of deep learning, we're going to look
+at deep averaging networks (DAN).  These are a very simple framework,
+but they work well for a variety of tasks and will help introduce some
+of the core concepts of using deep learning in practice.
 
-In this homework, you'll use Pytorch to implement a DAN embedder for
+In this homework, you'll use Pytorch to implement a DAN model for
 determining the answer to a Quizbowl question.
 
-You'll turn in your code on Gradescope. This assignment is worth 35 points.
+You'll turn in your code on Gradescope. This assignment is worth 20 points.
 
 Dataset
 ----------------
 
-We're working with the same data as before, except this time (because we need to use representations) we will need to create a vocabulary explicitly (like we did for the earlier tf-idf homework).  However, we'll do that for you.
+We're working with the same data as before, except this time (because
+we need to use representations) we will need to create a vocabulary
+explicitly (like we did for the earlier tf-idf homework).  However,
+we'll give you that code.  
 
 Pytorch DataLoader
 ----------------
@@ -31,11 +34,6 @@ each example, we need to vectorize the question text into a vector using the
 vocabulary. In this assignment, you need to write the `vectorize()` function
 yourself. We provide the `batchify()` function to split the dataset into
 mini-batches.
-
-What's the loss function?
-----------------
-
-Given your question $$q_i$$, a positive match $$p^{+}_i$$ and many negative examples $$p_{i,1}^{-} \dots p_{i,n}^{-}$$, you need to optimize $$-\log{\frac{e^{q_i \cdot p^{+}_i}{e^{q_i \cdot p^{+}_i} + \sum_j e^{q_i \cdot p_{i,j}^{-}}}
 
 What you have to do
 ----------------

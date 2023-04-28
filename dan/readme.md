@@ -106,12 +106,12 @@ After you've done that, the system should perfectly answer these questions
 
 Once you have things working, you'll need to train a network.
 
-    python3 guesser.py --guesser_type=DanGuesser --question_source=gzjson --questions=data/qanta.guesstrain.json.gz --secondary_questions=data/qanta.guessdev.json.gz --limit=10000 --no_cuda
+    python3 guesser.py --guesser_type=DanGuesser --question_source=gzjson --questions=../data/qanta.guesstrain.json.gz --secondary_questions=../data/qanta.guessdev.json.gz --limit=10000 --no_cuda
 
 
 Then check to see how well the code does.
 
-    > python3 eval.py --guesser_type=DanGuesser --question_source=gzjson --questions=data/qanta.guessdev.json.gz --evaluate guesser --limit=250
+    > python3 eval.py --guesser_type=DanGuesser --question_source=gzjson --questions=../data/qanta.guessdev.json.gz --evaluate guesser --limit=250
     INFO:root:Generating guesses for 250 new question
 
     miss 0.69
@@ -221,9 +221,11 @@ tuning training parameters.
 What to turn in 
 ----------------
 
+TODO: Update for Gradescope
+
 0. Submit your model file
 1. Submit your `dan_guesser.py` file.
 2. Submit your `analysis.pdf` file. (Please make sure that this is **PDF** file!      No more than one page, include your name at the top of the pdf.)
 3. Upload your model parameters.
-4. (Optional) Upload the wordvectors you use, these should be used by default.
+4. (Optional) Upload the wordvectors you use.
 

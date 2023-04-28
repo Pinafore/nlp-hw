@@ -229,3 +229,13 @@ TODO: Update for Gradescope
 3. Upload your model parameters.
 4. (Optional) Upload the wordvectors you use.
 
+FAQ
+----
+
+*Q:* There aren't enough answers or too many!  What can I do?
+
+*A:* Look at the DanGuesser_min_answer_freq flag to adjust what answers you include.
+
+*Q:* Too many of the answers are unknown!  What can I do?
+
+*A:* Look at the DanGuesser_unk_drop flag to adjust how many "unknown" examples you keep.

@@ -221,11 +221,9 @@ tuning training parameters.
 What to turn in 
 ----------------
 
-TODO: Update for Gradescope
-
 0. Submit your model file
 1. Submit your `dan_guesser.py` file.
 2. Submit your `analysis.pdf` file. (Please make sure that this is **PDF** file!      No more than one page, include your name at the top of the pdf.)
 3. Upload your model parameters.
-4. (Optional) Upload the wordvectors you use.
+4. (Optional) Upload the wordvectors you use, these should be used by default.
 

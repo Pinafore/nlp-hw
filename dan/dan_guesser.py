@@ -501,6 +501,8 @@ def evaluate(data_loader, model, device):
         question_len = batch['len']
         labels = batch['labels']
 
+        # Call the model to get the logits
+        # You'll need to update the code here        
 
         top_n, top_i = logits.topk(1)
         num_examples += question_text.size(0)

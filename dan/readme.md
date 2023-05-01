@@ -186,7 +186,7 @@ What you have to do
 2. Write the data `vectorize()` funtion.
 3. Write DAN model initialization. 
 4. Write model `forward()` function.
-5. Write the model training/testing function. We don't have unit tests for this part, but it's necessary to get it correct to achieve reasonable performance.
+5. Write the model training/testing function `evaluate()`. We don't have unit tests for this part, but it's necessary to get it correct to achieve reasonable performance.
 
 **Analysis**: (5 points)
 1. Report the accuracy on the dev set. 

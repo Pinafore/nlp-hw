@@ -232,6 +232,14 @@ TODO: Update for Gradescope
 FAQ
 ----
 
+*Q:* Why is my accuracy zero?
+
+*A:* The first thing to check is that you've implemented everything correctly.  If you're passing the unit tests, you can correctly learn from the toy data, and your gradients are non-zero, you're probably okay.
+
+The next thing to think about is how many answers your system has.  I.e., what is the size of the final softmax output.  If it's too small (i.e., your system can't give many answers, the accuracy is going to be low).
+
+The thing is, the number of answers your system can provide is determined by your training data.  The code is set up to only use answers that have at least `--DanGuesser_min_answer_freq` questions associated with them.  So if your training set is too small, there won't be enough answers and your accuracy will always be low.  Another issue is that if you have too few answers, most of the answers will be unknown (they all get mapped into one answer).  So your system will always guess the uknown answer.  So you may want to downsample how many of the unknown examples you train on with `--DanGuesser_unk_drop` (1.0 will remove all of the unknown answers).
+
 *Q:* There aren't enough answers or too many!  What can I do?
 
 *A:* Look at the DanGuesser_min_answer_freq flag to adjust what answers you include.

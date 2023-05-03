@@ -247,3 +247,7 @@ The thing is, the number of answers your system can provide is determined by you
 *Q:* Too many of the answers are unknown!  What can I do?
 
 *A:* Look at the DanGuesser_unk_drop flag to adjust how many "unknown" examples you keep.
+
+*Q:* Where is the buzzer.py file?
+
+*A:* Please copy the file from tfidf_guesser folder.

@@ -20,7 +20,12 @@ Dataset
 We're working with the same data as before, except this time (because
 we need to use representations) we will need to create a vocabulary
 explicitly (like we did for the earlier tf-idf homework).  However,
-we'll give you that code.  
+we'll give you that code. 
+
+Buzzer.py and features.py
+----------------
+
+For getting the buzzer.py and features.py, you can either manually copy it from tfidf_guesser folder or run the dan_hw.sh. This will place both the files in the current directory. 
 
 Pytorch DataLoader
 ----------------

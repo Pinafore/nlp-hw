@@ -59,14 +59,25 @@ Here is the Dynabench tutorial. https://umd.hosted.panopto.com/Panopto/Pages/Vie
 Writing Questions
 ==================
 
-Alternatively, you can also *write* 50 adversarial questions that challenge modern NLP systems. These questions must be diverse in the subjects asked about, the skills computers need to answer the questions, and the entities in those questions. These questions should be submitted in two versions, pyramidal and non-pyramidal (so total of 100). Pyramidal questions should have qualifications to make them PYRAMIDAL (etc., each sentence should be identifiable, and the sentence order should be pyramidal), and the non-pyramidal questions should have good coverage of the pyramidal question that you've written. Remember that your questions should be *factual* and *specific* enough for humans to answer, because your task is to stump the computers relative to humans! 
+Alternatively, you can also *write* 50 adversarial questions that
+challenge modern NLP systems. These questions must be diverse in the
+subjects asked about, the skills computers need to answer the
+questions, and the entities in those questions. These questions should
+be submitted in two versions, pyramidal and non-pyramidal (so total of
+100). Pyramidal questions should have qualifications to make them
+PYRAMIDAL (etc., each sentence should be identifiable, and the
+sentence order should be pyramidal), and the non-pyramidal questions
+should have good coverage of the pyramidal question that you've
+written. Remember that your questions should be *factual* and
+*specific* enough for humans to answer, because your task is to stump
+the computers relative to humans!
 
 In addition to the raw questions, you will also need to create citations describing:
-* Why the question is difficult for computers
-* Why the information in the question is correct
-* Why the question is interesting
-* Why the question is pyramidal
-* And a non-pyramidal question that could be used for something like OQL 
+* Why the question is difficult for computers: include citations from the NLP/AI/ML literature
+* Why the information in the question is correct: include citations from the sources you drew on the write the question
+* Why the question is interesting: include scholarly / popular culture artifacts to prove that people care about this
+* Why the question is pyramidal: discuss 
+* And an interesting non-pyramidal question that could be used for something like OQL
 
 **Example of OQL Questions**
 
@@ -80,7 +91,11 @@ For more examples, refer to https://quizcentral.net/quizzes/OQL-UK-SEASON-9-CUP-
 
 **Category**
 
-OQL contains topics such as Art, Literature, Geography, History, Science, TV and Film, Music, Lifestyle, and Sport. The questions should be written using all topics above (5 questions for each category and 5 more for the remaining categories). Indicate in your writeup which category you chose to write on for each question. 
+OQL contains topics such as Art, Literature, Geography, History,
+Science, TV and Film, Music, Lifestyle, and Sport. The questions
+should be written using all topics above (5 questions for each
+category and 5 more for the remaining categories). Indicate in your
+writeup which category you chose to write on for each question.
 
 
 Art:

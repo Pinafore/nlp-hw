@@ -308,3 +308,5 @@ The final three areas are different between the system and the questions.
 | _Technical Soundness_ |  Did you use the right tools for the job, and did you use them correctly?  Were they relevant to this class? | Were your questions correct and accurately cited. |
 | _Effort_ |  Did you do what you say you would, and was it the right ammount of effort.  | Are the questions well-written, interesting, and thoroughly edited? |
 | _Performance_ | How did your techniques perform in terms of accuracy, recall, etc.? | Is the human accuracy substantially higher than the computer accuracy? |
+
+All members of the group will receive the same grade.  It's impossible for the course staff to adjudicate Rashomon-style accounts of who did what, and the goal of a group project is for all team members to work together to create a cohesive project that works well together.  While it makes sense to divide the work into distinct areas of responsibility, at grading time we have now way to know who really did what, so it's the groups responsibility to create a piece of output that reflects well on the whole group.

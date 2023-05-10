@@ -244,7 +244,7 @@ the final presentation you will:
   be trivial features you could add easily.  Instead, these should be
   features or models that are difficult to correct.  An error analysis
   is not the same thing as simply presenting the error matrix, as it
-  does not inspect any individual examples.
+  does not inspect any individual examples.  If you're writing questions, talk about examples of questions that didn't work out as intended.
 
 * The linguistic motivation for your features / how your wrote the questions.  This is a
   computational linguistics class, so you should give precedence to
@@ -301,10 +301,10 @@ The grade will be out of 25 points, broken into five areas:
 * _Writeup_: Does the writeup explain what you did in a way that is
   clear and effective?
 
-* _Technical Soundness_: Did you use the right tools for the job, and
-  did you use them correctly?  Were the relevant to this class?
+The final three areas are different between the system and the questions.
 
-* _Effort_: Did you do what you say you would, and was it the right
-  ammount of effort.
-
-* _Performance_: How did your techniques perform?
+|    |      System      |  Questions |
+|----------|:-------------:|------:|
+| _Technical Soundness_ |  Did you use the right tools for the job, and did you use them correctly?  Were they relevant to this class? | Were your questions correct and accurately cited. |
+| _Effort_ |  Did you do what you say you would, and was it the right ammount of effort.  | Are the questions well-written, interesting, and thoroughly edited? |
+| _Performance_ | How did your techniques perform in terms of accuracy, recall, etc.? | Is the human accuracy substantially higher than the computer accuracy? |

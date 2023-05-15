@@ -229,7 +229,7 @@ the final presentation you will:
 
 * Explain what you did
 
-* Who did what
+* Who did what.  For example, for the question writing project a team of five people might write: A wrote the first draft of questions.  B and C verified they were initially answerable by a human.  B ran computer systems to verify they were challenging to a computer.  C edited the questions and increased the computer difficulty.  D and E verified that the edited questions were still answerable by a human.  D and E checked all of the questions for factual accuracy and created citations and the writeup.
 
 * What challenges you had
 

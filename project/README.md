@@ -233,7 +233,7 @@ the final presentation you will:
 
 * What challenges you had
 
-* Review how well you did (based on the competition or your own metrics)
+* Review how well you did (based on the competition or your own metrics).  If you do not use the course infrastructure to evaluate your project's work, you should talk about what alternative evaluations you used, why they're appropriate/fair, and how well you did on them.
 
 * Provide an error analysis.  An error analysis must contain examples from the
   development set that you get wrong.  You should show those sentences

@@ -274,6 +274,8 @@ The input will be in the form of a .json file () in the same format as the file 
 
 If you have any notes or comments that we should be aware of while running your code, please include them in the folder as a .txt file. Also, dependency information should be included as a .txt file. 
 
+Please prepend your email title with [2023-CMSC 470 System Submission].
+
 Project Writeup and JSON file
 ======================
 

@@ -261,8 +261,18 @@ Each group has 10 minutes to deliver their presentation. Please record the video
 System Submission
 ======================
 
-You must submit a version of your system by May 10.  It may not be perfect, but this what the question writing teams will use to test their results.
+You must submit a version of your system by May 10. It may not be perfect, but this what the question writing teams will use to test their results.
 
+Your system should be sent directly to yysung53@umd.edu in zip files, including the correct dependencies and a working inference code. Your inference code should run successfully in the root folder (extracted from zip folder) directory with the command:
+
+```
+> python3 inference.py --data=evaluation_set.json 
+
+```
+
+The input will in the form of evaluation_set.json file which is the same format with the file that adversarial question writing team submits. The output format should also be in string. 
+
+If you have any notes or comments that we should be aware of while running your code, please include them in the folder as .txt file. 
 
 Project Writeup and JSON file
 ======================

@@ -272,7 +272,7 @@ Your system should be sent directly to yysung53@umd.edu in zip files, including 
 
 The input will in the form of evaluation_set.json file which is the same format with the file that adversarial question writing team submits. The output format should also be in string. 
 
-If you have any notes or comments that we should be aware of while running your code, please include them in the folder as .txt file. 
+If you have any notes or comments that we should be aware of while running your code, please include them in the folder as .txt file. Also, dependency information should be included as .txt file. 
 
 Project Writeup and JSON file
 ======================

@@ -28,7 +28,7 @@ Please share any good ones you find with the rest of the class.
 Format of the Question
 ========
 
-You may either write a pyramidal question (like the quiz bowl questions we've
+You may either write a pyramidal question (like the pyramidal questions we've
 been looking at in the previous homeworks) or non-pyramidal questions
 like the questions from the Online Quiz League:
 https://quizcentral.net/qc/Online_Quiz_League_USA_-_Quizzes_-_Season_3
@@ -86,17 +86,17 @@ FAQ
 
 *A:* No, submit your best question.
 
-*Q:* Can I turn in a quiz bowl question and "normal" versions of the clues in the question?
+*Q:* Can I turn in a pyramidal question and "normal" versions of the clues in the question?
 
 *A:* Yes, that's fine.  In which case you can turn in multiple questions.
 
-*Q:* Do I have to convert a quiz bowl question into "normal" questions?
+*Q:* Do I have to convert a pyramidal question into "normal" questions?
 
 *A:* You don't have to, but I think it would be worthwhile because it
  would let you pinpoint where the difficulty is from.  For instance,
  if you have a distractor-based technique, a computer could get each
  individual clue correct but be unable to put it together in a single
- quiz bowl question.  Moreover, a quiz bowl question can end with an
+ pyramidal question.  Moreover, a pyramidal question can end with an
  easy clue that lets the system get it right, but showing that the
  first clues are still hard (but uniquely identifying) would show that
  you still had an adversarial question.

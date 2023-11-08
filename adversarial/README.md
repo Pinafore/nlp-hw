@@ -8,7 +8,7 @@ Tools to Write Your Question
 You are encouraged (but not required) to use this tool:
 https://qantanew.web.app/play
 This app has a task of writing an ADVERSARIAL question about the topic you chose. 
-This question should be writeen so that it is answerable with the page title. All the machine guesses surrounding the page content
+This question should be writen so that it is answerable with the page title. All the machine guesses surrounding the page content
 are updated as you write the questions, and this way you are informed if you are doing a good job of fooling the computer or not!
 (It has a built in tutorial, but we're looking to improve it, so please give us feedback on it!)
 

@@ -1,5 +1,5 @@
 
-This first homework will be relatively easy.  The most important parts
+This first real programming homework will be relatively easy.  The most important parts
 of this homework are to understand how I do homeworks for the course,
 my coding style, and the level of coding required for the course.
 

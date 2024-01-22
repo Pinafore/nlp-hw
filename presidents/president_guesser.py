@@ -1,6 +1,9 @@
 import time
 
-training_data = [
+from guesser import Guesser
+from collections import defaultdict
+
+kPRESIDENT_DATA = {"train": [
   {"start": 1789, "stop": 1797, "name": "George Washington"},
   {"start": 1797, "stop": 1801, "name": "John Adams"},
   {"start": 1801, "stop": 1809, "name": "Thomas Jefferson"},
@@ -47,33 +50,37 @@ training_data = [
   {"start": 2001, "stop": 2009, "name": "George W. Bush"},
   {"start": 2009, "stop": 2017, "name": "Barack Obama"},
   {"start": 2017, "stop": 2021, "name": "Donald J. Trump"},
-  {"start": 2021, "stop": 2025, "name": "Joseph R. Biden"}
-]
+  {"start": 2021, "stop": 2025, "name": "Joseph R. Biden"}],
+  "dev": [{"text": "Who was president on Wed Jan 25 06:20:00 2023?", "page": "Joseph R. Biden", "qanta_id":201},
+          {"text": "Who was president on Sat May 23 02:00:00 1982?", "page": "Ronald Reagan", "qanta_id":202},
+          {"text": "Who was president on Wed Mar 01 04:23:40 2023?", "page": 'Joseph R. Biden', "qanta_id":203},
+          {"text": "Who was president on Tue Jan 20 13:00:00 2009?", "page": 'Barack Obama', "qanta_id":204},
+          {"text": "Who was president on Fri Nov 22 16:00:00 1963?", "page": 'Lyndon B. Johnson', "qanta_id":205},
+          {"text": "Who was president on Tue Apr 12 20:00:00 1949?", "page": 'Harry S. Truman', "qanta_id":206},
+          {"text": "Who was president on Sat Mar 04 21:00:00 1933?", "page": 'Franklin D. Roosevelt', "qanta_id":207},
+          {"text": "Who was president on Sat Apr 15 15:00:00 1865?", "page": 'Andrew Johnson', "qanta_id":208},
+          {"text": "Who was president on Thu Apr 30 17:00:00 1789?", "page": 'George Washington', "qanta_id":209}]
+}
 
-class PresidentGuesser:
+class PresidentGuesser(Guesser):
     def train(self, training_data):
-        self._lookup = {}
-        
-        for row in training_data:
-            self._lookup[row["name"]] = (time.strptime(str(row["start"]), "%Y"), time.strptime(str(row["stop"]), "%Y"))
+        self._lookup = defaultdict(dict)
             
-    def __call__(self, question):
+    def __call__(self, question, n_guesses=1):
         # Update this code so that we can have a different president than Joe
         # Biden
         candidates = ["Joseph R. Biden"]
 
-
         if len(candidates) == 0:
-            return {"guess": ""}
-        elif len(candidates) == 1:
-            return {"guess": candidates[0]}
+            return [{"guess": ""}]
+        else:
+            return [{"guess": x} for x in candidates]
         
 if __name__ == "__main__":
     pg = PresidentGuesser()
 
-    pg.train(training_data)
+    pg.train(kPRESIDENT_DATA["train"])
     
-    for date in ["Who was president on Wed Jan 25 06:20:00 2023?",
-                     "Who was president on Sat May 23 02:00:00 1982?"]:
+    for date in kPRESIDENT_DATA["dev"]:
         print(date, pg(date)["guess"])
         

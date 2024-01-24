@@ -16,9 +16,10 @@ extra credit.
 What you have to do
 ===================
 
-The PresidentGusser takes a question and returns a guess of who the president
-was.  You need to extract what time the question is asking about and return
-the name of the appropriate US president.
+The PresidentGusser (in `president_guesser.py`) takes a question and
+returns a guess of who the president was.  You need to extract what
+time the question is asking about and return the name of the
+appropriate US president.
 
 There are two things you need to do: store the appropriate information
 in the `train` function and then retrieve it in the `__call__` function.
@@ -36,9 +37,8 @@ of the possible points and certainly not the extra credit, but if you do this
 much, you can certainly stop stressing about the assignment.  
 
 For each homework, we'll outline what the "Good Enough" goals are;
-this is important because most of the homeworks are fairly open
-ended.  It's important for you to know when it's okay to call it a
-day.
+this is important because most of the homeworks are fairly open-ended.
+It's important for you to know when it's okay to call it a day.
 
 For this homework, just list the correct presidents given the year and
 return all possible presidents in a list.  We've made it easy for you
@@ -57,7 +57,7 @@ do do that:
 Just fill in all of the possible presidents given that year in the
 `candidates` list and return them.  For many of our homeworks, getting
 the right answer somewhere in the list of top results is more
-important than just getting ~the one~ answer.
+important than just getting *the one* answer.
 
 How do I know if my code is working?
 ====================================
@@ -95,7 +95,7 @@ But unit tests aren't really the best tests, so you should also run
 the eval script.  If you've met the "good enough" goals, you should
 get a result that looks like this:
 
-    jbg@MacBook-Pro-von-Jordan GPT3QA % python3 eval.py --evaluate=guesser --guesser_type='PresidentGuesser' --questions=presidents --question_source='toy'
+    jbg@MacBook-Pro-von-Jordan GPT3QA % python3 eval.py --evaluate=guesser --guesser_type='President' --questions=presidents --question_source='toy'
     Setting up logging
     INFO:root:Read 9 questions
     INFO:root:Using device 'cpu' (cuda flag=False)
@@ -173,14 +173,37 @@ How to turn it in
 Modify `president_guesser.py` and upload it HW0 on Gradescope.  Do not
 modify any other files.
 
+What's all this other code?
+==========================
+
+We'll slowly build up a more complicated system for answering
+questions over the course of the semester and we'll build on the code
+that's here.  You don't need to know how all the code works, but it
+might be helpful to look it over, as you're going to be implicitly
+using it.
+
+* `guesser.py`: The base class for the Guesser you're implementing,
+  it's defining the interface for where a question comes in and how
+  the guesses come out.
+  
+* `params.py`: We'll be calling our code from the command line using
+  [argparse](https://docs.python.org/3/library/argparse.html#module-argparse).
+  This code loads the data and code as specified from the command
+  line.  You can see that the `instantiate_guesser` function creates a
+  PresidentGuesser object for you.
+  
+* `eval.py`: Evaluates your code to see how well it's working.
+
+We'll be adding more code as the semester goes on.
+
 Frequently Asked Questions
 ==========================
 
 **Q: I'm getting an error message saying that `foobar` cannot be
 imported.  What do I do?**
 
-**A**: Create a virtual environment to (install the
-packages)[https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/].
+**A**: Create a virtual environment to [install the
+packages](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
     python3 -m pip install -r requirements.txt
 

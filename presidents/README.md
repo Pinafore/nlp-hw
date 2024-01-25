@@ -95,7 +95,7 @@ But unit tests aren't really the best tests, so you should also run
 the eval script.  If you've met the "good enough" goals, you should
 get a result that looks like this:
 
-    jbg@MacBook-Pro-von-Jordan GPT3QA % python3 eval.py --evaluate=guesser --guesser_type='President' --questions=presidents --question_source='toy'
+    jbg@MacBook-Pro-von-Jordan GPT3QA % python3 eval.py --evaluate=guesser --guesser_type='PresidentGuesser' --questions=presidents --question_source='toy'
     Setting up logging
     INFO:root:Read 9 questions
     INFO:root:Using device 'cpu' (cuda flag=False)

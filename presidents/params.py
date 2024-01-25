@@ -17,6 +17,7 @@ def add_general_params(parser):
     parser.set_defaults(feature=True)
     parser.add_argument('--logging_level', type=int, default=logging.INFO)
     parser.add_argument('--logging_file', type=str, default='qanta.log')
+    parser.add_argument('--load', type=bool, default=True)
     print("Setting up logging")
 
 def add_question_params(parser):
@@ -36,13 +37,14 @@ def add_buzzer_params(parser):
     parser.add_argument('--LogisticBuzzer_filename', type=str, default="models/LogisticBuzzer")    
     
 def add_guesser_params(parser):
-    parser.add_argument('--guesser_type', type=str, default="TfidfGuesser")
+    parser.add_argument('--guesser_type', type=str, default="Tfidf")
     # TODO (jbg): This is more general than tfidf, make more general (currently being used by DAN guesser as well)
-    parser.add_argument('--tfidf_min_length', type=int, help="How long (in characters) must text be before it is indexed?", default=50)
-    parser.add_argument('--tfidf_max_length', type=int, help="How long (in characters) must text be to be removed?", default=500)    
-    parser.add_argument('--tfidf_split_sentence', type=bool, default=True, help="Index sentences rather than paragraphs")
+    parser.add_argument('--guesser_min_length', type=int, help="How long (in characters) must text be before it is indexed?", default=50)
+    parser.add_argument('--guesser_max_vocab', type=int, help="How big features/vocab set to use", default=10000)
+    parser.add_argument('--guesser_answer_field', type=str, default="page", help="Where is the cannonical answer")    
+    parser.add_argument('--guesser_max_length', type=int, help="How long (in characters) must text be to be removed?", default=500)    
+    parser.add_argument('--guesser_split_sentence', type=bool, default=True, help="Index sentences rather than paragraphs")
     parser.add_argument('--wiki_min_frequency', type=int, help="How often must wiki page be an answer before it is used", default=10)
-    parser.add_argument('--guesser_answer_field', type=str, default="page", help="Where is the cannonical answer")
     parser.add_argument('--TfidfGuesser_filename', type=str, default="models/TfidfGuesser")
     parser.add_argument('--WikiGuesser_filename', type=str, default="models/WikiGuesser")    
     parser.add_argument('--GprGuesser_filename', type=str, default="models/GprGuesser")
@@ -113,25 +115,33 @@ def load_questions(flags, secondary=False):
 def instantiate_guesser(guesser_type, flags, load):
     import torch
     
-    # TODO: Move this to params so that it would apply 
     cuda = not flags.no_cuda and torch.cuda.is_available()
     device = torch.device("cuda" if cuda else "cpu")
     logging.info("Using device '%s' (cuda flag=%s)" % (device, str(flags.no_cuda)))
     
     guesser = None
     logging.info("Initializing guesser of type %s" % guesser_type)
-    if guesser_type == "GprGuesser":
+    if guesser_type == "Gpr":
         from gpr_guesser import GprGuesser
         logging.info("Loading %s guesser" % guesser_type)
         guesser = GprGuesser(flags.GprGuesser_filename)
         if load:
             guesser.load()
-    if guesser_type == "TfidfGuesser":
+    if guesser_type == "ToyTfidf":
+        from toytfidf_guesser import ToyTfIdfGuesser
+        guesser = ToyTfIdfGuesser(flags.TfidfGuesser_filename)
+        if load:
+            guesser.load()
+        
+    if guesser_type == "Tfidf":
         from tfidf_guesser import TfidfGuesser        
-        guesser = TfidfGuesser(flags.TfidfGuesser_filename)  
+        guesser = TfidfGuesser(flags.TfidfGuesser_filename,
+                               min_length=flags.tfidf_min_length,
+                               max_length=flags.tfidf_max_length,
+                               split_by_sentence=flags.guesser_split_sentence)  
         if load:                                             
             guesser.load()
-    if guesser_type == "DanGuesser":                                
+    if guesser_type == "Dan":                                
         from dan_guesser import DanGuesser                          
         guesser = DanGuesser(filename=flags.DanGuesser_filename, answer_field=flags.guesser_answer_field, min_token_df=flags.DanGuesser_min_df, max_token_df=flags.DanGuesser_max_df,
                     min_answer_freq=flags.DanGuesser_min_answer_freq, embedding_dimension=flags.DanGuesser_embedding_dim,
@@ -142,7 +152,7 @@ def instantiate_guesser(guesser_type, flags, load):
                     device=device)
         if load:                                                    
             guesser.load()                                          
-    if guesser_type == "PresidentGuesser":
+    if guesser_type == "President":
         from president_guesser import PresidentGuesser, kPRESIDENT_DATA        
         guesser = PresidentGuesser()
         guesser.train(kPRESIDENT_DATA['train'])

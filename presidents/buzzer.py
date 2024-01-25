@@ -4,12 +4,10 @@
 # File to take guesses and decide if they're correct
 
 import argparse
-import string
 import logging
 import pickle
 
 from sklearn.feature_extraction import DictVectorizer
-from unidecode import unidecode
 from tqdm import tqdm
 
 from collections import Counter
@@ -18,25 +16,6 @@ from collections import defaultdict
 from guesser import add_guesser_params
 from features import LengthFeature
 from params import add_buzzer_params, add_question_params, load_guesser, load_buzzer, load_questions, add_general_params, setup_logging
-
-def normalize_answer(answer):
-    """
-    Remove superflous components to create a normalized form of an answer that
-    can be more easily compared.
-    """
-    if answer is None:
-        return ''
-    reduced = unidecode(answer)
-    reduced = reduced.replace("_", " ")
-    if "(" in reduced:
-        reduced = reduced.split("(")[0]
-    reduced = "".join(x for x in reduced.lower() if x not in string.punctuation)
-    reduced = reduced.strip()
-
-    for bad_start in ["the ", "a ", "an "]:
-        if reduced.startswith(bad_start):
-            reduced = reduced[len(bad_start):]
-    return reduced.strip()
 
 def runs(text, run_length):
     """

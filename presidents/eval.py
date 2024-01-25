@@ -214,7 +214,7 @@ if __name__ == "__main__":
     setup_logging(flags)
 
     questions = load_questions(flags)
-    guesser = load_guesser(flags, load=True)    
+    guesser = load_guesser(flags, load=flags.load)    
     if flags.evaluate == "buzzer":
         buzzer = load_buzzer(flags, load=True)
         outcomes, examples, unseen = eval_buzzer(buzzer, questions)

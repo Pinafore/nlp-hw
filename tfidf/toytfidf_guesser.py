@@ -80,7 +80,25 @@ class ToyTfIdfGuesser(Guesser):
 
     def __call__(self, question, max_n_guesses=1):
         """
-        Given a question, find the closest document in the training set and return a dictionary with that guess.
+        Given a question, find the closest document in the training set and
+        return a dictionary with that guess.
+        
+        Before you start coding this, remember what this function did in the
+        last homework: given a query, it needs to find the training item
+        closest to the query.  To do that, you need to do three things: turn
+        the query into a vector, compute the similarity of that vector with
+        each row in the matrix, and return the metadata associated with that
+        row.
+
+        We've helped you out by structuring the code so that it should be easy
+        for you to complete it.  \`question\_tfidf\` is the vector after you
+        embed it.  This code is already done for you (assuming you've
+        completed \`inv\_docfreq\` already).
+
+        Then you'll need to go through the rows in \`self.\_doc\_vectors\` and
+        find the closest row.  Call whatever the closest is \`best\` and
+        return the appropriate metadata.  This is implemented for you already.
+
         """
         
         assert max_n_guesses == 1, "We only support top guess"

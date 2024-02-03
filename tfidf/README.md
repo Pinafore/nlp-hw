@@ -163,6 +163,23 @@ inv_docfreq
 
 Return the inverse document frequency of a word.
 
+`__call__`
+-------------
+
+Before you start coding this, remember what this function did in the last
+homework: given a query, it needs to find the training item closest to the
+query.  To do that, you need to do three things: turn the query into a vector,
+compute the similarity of that vector with each row in the matrix, and return
+the metadata associated with that row.
+
+We've helped you out by structuring the code so that it should be easy for you
+to complete it.  `question_tfidf` is the vector after you embed it.  This code
+is already done for you (assuming you've completed `inv_docfreq` already).
+
+Then you'll need to go through the rows in `self._doc_vectors` and find the
+closest row.  Call whatever the closest is `best` and return the appropriate
+metadata.  This is implemented for you already.
+
 
 Running Your Code
 =================

@@ -8,7 +8,7 @@ class TestSequenceFunctions(unittest.TestCase):
 
     def setUp(self):
         self.unk_cutoff = 2        
-        self.guesser = ToyTfIdfGuesser(unk_cutoff=self.unk_cutoff)
+        self.guesser = ToyTfIdfGuesser(filename="models/TfidfGuesser", unk_cutoff=self.unk_cutoff)
 
     def test_vocab(self):
         self.guesser.vocab_seen("a", 300)

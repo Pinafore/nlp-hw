@@ -14,9 +14,33 @@ will slowly ramp upward).  You should not use any libraries that implement any
 of the functionality of logistic regression for this assignment; logistic
 regression is implemented in scikit learn, pytorch, and many other places, but
 you should do everything by hand now.  You'll be able to use library
-implementations of logistic regression in the future.
+implementations of logistic regression in the future (and add your own features).
 
 You'll turn in your code on Gradescope.  This assignment is worth 30 points.
+
+The Data
+---
+As always, start with the unit tests.  That uses the same toy data we used in the workshop to explain what's going on.  But eventually you'll graduate to [real data](https://github.com/Pinafore/nlp-hw/blob/master/data/small_guess.buzztrain.jsonl).
+
+     {"guess:The Soldier (play)": 1, "Gpr_confidence": -0.71123162386, "Length_char": -0.7755555555555556, "Length_word": -0.7733333333333333, "Length_ftp": 0, "Length_guess": 2.9444389791664403, "Frequency_guess": 0.0, "Category_category:Literature": 1, "Category_year": 3.5553480614894135, "Category_subcategory:Literature Classical": 1, "Category_tournament:ACF Regionals": 1, "label": false}
+     {"guess:Hamlet": 1, "Gpr_confidence": -1.3516115696, "Length_char": -0.5488888888888889, "Length_word": -0.5333333333333333, "Length_ftp": 0, "Length_guess": 1.9459101490553132, "Frequency_guess": 3.5553480614894135, "Category_category:Literature": 1, "Category_year": 3.5553480614894135, "Category_subcategory:Literature Classical": 1, "Category_tournament:ACF Regionals": 1, "label": false}
+{"guess:Hamlet": 1, "Gpr_confidence": -0.7734369171800001, "Length_char": -0.33111111111111113, "Length_word": -0.26666666666666666, "Length_ftp": 0, "Length_guess": 1.9459101490553132, "Frequency_guess": 3.5553480614894135, "Category_category:Literature": 1, "Category_year": 3.5553480614894135, "Category_subcategory:Literature Classical": 1, "Category_tournament:ACF Regionals": 1, "label": false}
+     {"guess:Timon of Athens": 1, "Gpr_confidence": -0.29131036656750003, "Length_char": -0.10888888888888888, "Length_word": -0.013333333333333334, "Length_ftp": 0, "Length_guess": 2.772588722239781, "Frequency_guess": 2.1972245773362196, "Category_category:Literature": 1, "Category_year": 3.5553480614894135, "Category_subcategory:Literature Classical": 1, "Category_tournament:ACF Regionals": 1, "label": false}
+{"guess:Timon of Athens": 1, "Gpr_confidence": -0.5494337382, "Length_char": 0.1111111111111111, "Length_word": 0.21333333333333335, "Length_ftp": 0, "Length_guess": 2.772588722239781, "Frequency_guess": 2.1972245773362196, "Category_category:Literature": 1, "Category_year": 3.5553480614894135, "Category_subcategory:Literature Classical": 1, "Category_tournament:ACF Regionals": 1, "label": false}
+     {"guess:Mark Antony": 1, "Gpr_confidence": -0.33353722919999995, "Length_char": 0.34, "Length_word": 0.4266666666666667, "Length_ftp": 0, "Length_guess": 2.4849066497880004, "Frequency_guess": 2.9444389791664403, "Category_category:Literature": 1, "Category_year": 3.5553480614894135, "Category_subcategory:Literature Classical": 1, "Category_tournament:ACF Regionals": 1, "label": true}
+{"guess:Mark Antony": 1, "Gpr_confidence": -0.501373298, "Length_char": 0.5666666666666667, "Length_word": 0.6533333333333333, "Length_ftp": 1, "Length_guess": 2.4849066497880004, "Frequency_guess": 2.9444389791664403, "Category_category:Literature": 1, "Category_year": 3.5553480614894135, "Category_subcategory:Literature Classical": 1, "Category_tournament:ACF Regionals": 1, "label": true}
+     {"guess:Mark Antony": 1, "Gpr_confidence": -0.00858155044, "Length_char": 0.7755555555555556, "Length_word": 0.84, "Length_ftp": 1, "Length_guess": 2.4849066497880004, "Frequency_guess": 2.9444389791664403, "Category_category:Literature": 1, "Category_year": 3.5553480614894135, "Category_subcategory:Literature Classical": 1, "Category_tournament:ACF Regionals": 1, "label": true}
+
+These are guesses generated to a question whose answer is *Mark Antony*.  It only gets it right near the end of the question.  Previously, it was guessing *Timon of Athens* and *Hamlet* instead.  Our goal is to predict when the guess was correct.  There are a couple of features here that can help it detect when it is right:
+
+  * `Gpr_confidence`: The average log probability of the generated answer tokens
+  * `Length_char`: How long the question is in terms of characters
+  * `Length_word`: How long the question is in terms of words
+  * `Category_category` / `Category_subcategory`: What the question is about; there are also features for which tournament it came from
+  * `guess`: What the guesser guessed 
+  * `label`: **NOT A FEATURE** This is what is predicted: whether the question was right or not
+
+When you actually run your code, many of these features will disappear because they're not in the [vocab](https://github.com/Pinafore/nlp-hw/blob/master/data/small_guess.vocab) (I thought they'd work better than they did).  So to make things as simple as possible, the vocab just includes the things that seemed to work well.  You're welcome to try adding things back in, though!
 
 What you have to do
 ----

@@ -4,9 +4,10 @@ Stochastic Gradient Descent
 Overview
 --------
 
-In this homework you'll implement a stochastic gradient ascent for
-logistic regression and you'll apply it to the task of determining
-whether an answer to a question is correct or not.
+In this homework you'll implement a stochastic gradient ascent for logistic
+regression and you'll apply it to the task of determining whether an answer to
+a question is correct or not.  This is the **buzzer** task that we'll be using
+in subsequent homeworks, so play attention!
 
 This will be slightly more difficult than the last homework (the difficulty
 will slowly ramp upward).  You should not use any libraries that implement any
@@ -24,12 +25,14 @@ Coding (25 points):
 
 1. Understand how the code is creating feature vectors (this will help you
 code the solution and to do the later analysis).  You don't actually need to
-write any code for this, however.
+write any code for this, however.  
 
 2. (Optional) Store necessary data in the constructor so you can do
 classification later.
 
 3. Modify the _sg update_ function to perform updates.
+
+4. Modify the _inspect_ function to return the most salient features
 
 Analysis (5 points):
 
@@ -37,8 +40,7 @@ Analysis (5 points):
 2. How many datapoints (or multiple passes over the data) do you need to
 complete for the *model* to stabilize?  The various metrics can give you clues
 about what the model is doing, but no one metric is perfect.
-3. What features are the best predictors of each class?  
-4. What features are the poorest predictors of classes?  
+3. What do the features tell you about the underlying problem?
 
 Extra credit:
 
@@ -47,6 +49,16 @@ Extra credit:
     
 Caution: When implementing extra credit, make sure your implementation of the
 regular algorithms doesn't change.
+
+What's good enough?
+-
+
+You do not need to tune the regularization / learning rate to get a great
+accuracy / precision / recall.  The main requirements are to get the math of
+the updates correct and to understand what's going on.  However, if your
+accuracy is not above 0.6 or if your precision or recall is zero, there is a
+problem.
+
 
 What to turn in
 -

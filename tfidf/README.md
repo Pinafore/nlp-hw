@@ -311,11 +311,11 @@ leaderboard.
 
 The first step is to train your guesser:
 
-    jbg@MacBook-Pro-von-Jordan GPT3QA % python3 guesser.py --guesser_type=ToyTfidf --limit=10000 --questions=data/qanta.guesstrain.json.gz
+    jbg@MacBook-Pro-von-Jordan GPT3QA % python3 guesser.py --guesser_type=ToyTfidf --limit=10000 --questions=../data/qanta.guesstrain.json.gz
     Setting up logging
     INFO:root:Using device 'cpu' (cuda flag=False)
     INFO:root:Initializing guesser of type ToyTfidf
-    INFO:root:Loading questions from data/qanta.guesstrain.json.gz
+    INFO:root:Loading questions from ../data/qanta.guesstrain.json.gz
     INFO:root:Read 10000 questions
     100%|███████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:00<00:00, 25450.41it/s]
     100%|███████████████████████████████████████████████████████████████████████████████████████████████| 6616/6616 [00:00<00:00, 1768498.84it/s]
@@ -331,7 +331,7 @@ Then see how it's doing on an evaluation set:
 
     jbg@MacBook-Pro-von-Jordan GPT3QA % python3 eval.py --evaluate=guesser --guesser_type='ToyTfidf' --questions=../data/qanta.guessdev.json.gz --limit=100 --load=True --num_guesses=1
     Setting up logging
-    INFO:root:Loading questions from data/qanta.guessdev.json.gz
+    INFO:root:Loading questions from ../data/qanta.guessdev.json.gz
     INFO:root:Read 100 questions
     INFO:root:Using device 'cpu' (cuda flag=False)
     INFO:root:Initializing guesser of type ToyTfidf

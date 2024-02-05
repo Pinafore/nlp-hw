@@ -94,9 +94,11 @@ class ToyLogisticBuzzer(Buzzer):
 
     def progress(self, examples):
         """
-        Given a set of examples, compute the probability and accuracy, which is returned as a tuple.
+        Given a set of examples, compute the probability, accuracy,
+        precision, and recall which is returned as a tuple.
 
         examples -- The dataset to score
+
         """
 
         # You probably don't need to modify this code
@@ -138,6 +140,7 @@ class ToyLogisticBuzzer(Buzzer):
         Compute a stochastic gradient update to improve the log likelihood and return the new feature weights.
 
         train_example -- The example to take the gradient with respect to
+        iteration -- what iteration we are on
         """
         mu = self._mu
         step = self._step
@@ -163,9 +166,15 @@ class ToyLogisticBuzzer(Buzzer):
         return beta
 
     
-    def inspect(self, vocab, limit=10):
+    def inspect(self, vocab, limit=5):
         """
-        A function to find the top features.
+        A function to find the top features.  Returns the indices of the most
+        important and least important features.
+
+        vocab -- a list of the name of all of the features.  the index should
+        correspond to the position in the feature vector.
+
+        limit -- how many features to display
         """
 
         top = [0]
@@ -180,14 +189,22 @@ class ToyLogisticBuzzer(Buzzer):
     
     def train(self, train = None, test = None, vocab=None, passes=1):
         """
+        Given a dataset, learn a weight vector for your classifier.
 
+        train -- the dataset to learn from
+        
+        test -- the dataset to validate results on
+
+        vocab -- the names of the features used
+
+        passes -- how many times to go over the train dataset
         """
 
         if len(vocab) != self._dimension:
             logging.warn("Mismatch: vocab size is %s, but dimension is %i" % \
                          (len(vocab), self._dimension))
 
-        # You don't need to modify this code
+        # You don't need to modify this code, but you should read over it to understand what's happening.
         if not train:
             train = []
             vocab = self._feature_generators
@@ -228,21 +245,29 @@ class ToyLogisticBuzzer(Buzzer):
             
 
     def save(self):
+        """
+        Save the model to a file
+        """
+        
         Buzzer.save(self)
         with open("%s.model.pkl" % self.filename, 'wb') as outfile:
-            pickle.dump(self._classifier, outfile)
+            pickle.dump(self._beta, outfile)
 
     def load(self):
         Buzzer.load(self)
         with open("%s.model.pkl" % self.filename, 'rb') as infile:
-            self._classifier = pickle.load(infile)
+            self._beta = pickle.load(infile)
 
 
 def read_dataset(filename, vocab, limit):
     """
     Reads in a text dataset with a given vocabulary
 
-    filename -- json lines file of the dataset 
+    filename -- json lines file of the dataset
+
+    vocab -- the neames of the features
+
+    limit -- how many examples to read
     """
 
     # You should not need to modify this function

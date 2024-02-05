@@ -29,9 +29,6 @@ write any code for this, however.
 2. (Optional) Store necessary data in the constructor so you can do
 classification later.
 
-3. You'll likely need to write some code to get the best/worst features (see
-below).
-
 3. Modify the _sg update_ function to perform updates.
 
 Analysis (5 points):
@@ -40,10 +37,8 @@ Analysis (5 points):
 2. How many datapoints (or multiple passes over the data) do you need to
 complete for the *model* to stabilize?  The various metrics can give you clues
 about what the model is doing, but no one metric is perfect.
-3. What features are the best predictors of each class?  How (mathematically)
-did you find them?
-4. What features are the poorest predictors of classes?  How (mathematically)
-did you find them?
+3. What features are the best predictors of each class?  
+4. What features are the poorest predictors of classes?  
 
 Extra credit:
 
@@ -56,7 +51,7 @@ regular algorithms doesn't change.
 What to turn in
 -
 
-1. Submit your _lr_sgd_qb.py_ file (include your name at the top of the source)
+1. Submit your _lr_sgd.py_ file (include your name at the top of the source)
 1. Submit your _analysis.pdf_ file
     - no more than one page (NB: This is also for the extra credit.  To minimize effort for the grader, you'll need to put everything on a page.  Take this into account when selecting if/which extra credit to do...think of the page requirement like a regularizer).
     - pictures are better than text
@@ -65,8 +60,9 @@ What to turn in
 Unit Tests
 =
 
-I've provided unit tests based on the example that we worked through
-in class.  Before running your code on read data, make sure it passes
+I've provided unit tests based on the [example](
+https://users.umiacs.umd.edu/~jbg/teaching/CMSC_470/04b_ex.pdf) that we worked
+through in class.  Before running your code on read data, make sure it passes
 all of the unit tests.
 
 ```
@@ -93,36 +89,98 @@ Example
 
 This is an example of what your runs should look like:
 ```
-Loaded 813 items from vocab ../data/small_guess.vocab
-Read in 82395 train and 4820 test
-Update 1	TProb -58226.627871	HProb -3329.405842	TAcc 0.340979	HAcc 0.556846
-Update 101	TProb -51280.344230	HProb -3587.838259	TAcc 0.659640	HAcc 0.443154
-Update 201	TProb -50900.479422	HProb -3491.855595	TAcc 0.666727	HAcc 0.453112
-Update 301	TProb -50675.157120	HProb -3573.737948	TAcc 0.664009	HAcc 0.447925
-Update 401	TProb -49747.982642	HProb -3588.104068	TAcc 0.661254	HAcc 0.446473
-Update 501	TProb -49718.270414	HProb -3739.966407	TAcc 0.662103	HAcc 0.448133
-Update 601	TProb -48885.690172	HProb -3725.017894	TAcc 0.670344	HAcc 0.449378
-Update 701	TProb -50877.398237	HProb -4103.115825	TAcc 0.660064	HAcc 0.446888
-Update 801	TProb -48137.228124	HProb -3460.385782	TAcc 0.680709	HAcc 0.514315
-Update 901	TProb -49239.832616	HProb -3879.116805	TAcc 0.665841	HAcc 0.448963
-Update 1001	TProb -47564.284603	HProb -3454.699256	TAcc 0.688112	HAcc 0.523859
-Update 1101	TProb -48278.387339	HProb -3220.855567	TAcc 0.713830	HAcc 0.600622
-Update 1201	TProb -47310.437949	HProb -3258.288936	TAcc 0.714558	HAcc 0.602490
-Update 1301	TProb -46384.112620	HProb -3222.882106	TAcc 0.710674	HAcc 0.617635
-Update 1401	TProb -45959.382377	HProb -3118.785124	TAcc 0.711633	HAcc 0.642531
-Update 1501	TProb -47567.666705	HProb -2950.560708	TAcc 0.729377	HAcc 0.683817
-Update 1601	TProb -47406.282279	HProb -2955.135330	TAcc 0.716051	HAcc 0.685685
-Update 1701	TProb -46627.653538	HProb -2954.608999	TAcc 0.730603	HAcc 0.682158
-Update 1801	TProb -45890.055129	HProb -2984.371207	TAcc 0.722932	HAcc 0.672822
-Update 1901	TProb -46140.877944	HProb -3044.769170	TAcc 0.697008	HAcc 0.649378
-Update 2001	TProb -46293.884993	HProb -2965.970627	TAcc 0.710941	HAcc 0.675934
-Update 2101	TProb -46735.076092	HProb -2944.407308	TAcc 0.721087	HAcc 0.679876
-Update 2201	TProb -46191.998867	HProb -2932.935651	TAcc 0.733078	HAcc 0.686515
-Update 2301	TProb -45059.271994	HProb -3005.847730	TAcc 0.723284	HAcc 0.671577
-Update 2401	TProb -45148.730886	HProb -2952.490624	TAcc 0.738334	HAcc 0.682573
-Update 2501	TProb -45858.990372	HProb -3092.898373	TAcc 0.699108	HAcc 0.656224
-Update 2601	TProb -44530.771708	HProb -2905.384097	TAcc 0.737059	HAcc 0.691286
-Update 2701	TProb -44566.167455	HProb -2905.772393	TAcc 0.733892	HAcc 0.691079```
+.venv/bin/python3 toylogistic_buzzer.py --train=data/small_guess.buzztrain.jsonl --test=data/small_guess.buzzdev.jsonl --vocab=data/small_guess.vocab --passes=1 --learning_rate=0.01 --regularization=0.1
+Loaded 16 items from vocab data/small_guess.vocab
+Read in 6619 train and 1628 test
+INFO:root:Creating regression over 16 features
+INFO:root:Update      1	Trainlogprob = -4572.544	Trainacc = 0.569	Trainprec = 0.569	Trainrecall = 1.000	Devlogprob = -1130.929	Devacc = 0.485	Devprec = 0.485	Devrecall = 1.000	
+INFO:root:Update    101	Trainlogprob = -4230.731	Trainacc = 0.570	Trainprec = 0.569	Trainrecall = 1.000	Devlogprob = -1083.298	Devacc = 0.489	Devprec = 0.487	Devrecall = 1.000	
+INFO:root:Update    201	Trainlogprob = -3909.551	Trainacc = 0.730	Trainprec = 0.696	Trainrecall = 0.931	Devlogprob = -980.354	Devacc = 0.720	Devprec = 0.641	Devrecall = 0.959	
+INFO:root:Update    301	Trainlogprob = -3817.780	Trainacc = 0.738	Trainprec = 0.710	Trainrecall = 0.912	Devlogprob = -954.137	Devacc = 0.735	Devprec = 0.657	Devrecall = 0.952	
+INFO:root:Update    401	Trainlogprob = -3781.884	Trainacc = 0.738	Trainprec = 0.745	Trainrecall = 0.819	Devlogprob = -912.750	Devacc = 0.770	Devprec = 0.713	Devrecall = 0.882	
+INFO:root:Update    501	Trainlogprob = -3838.177	Trainacc = 0.738	Trainprec = 0.711	Trainrecall = 0.911	Devlogprob = -950.156	Devacc = 0.736	Devprec = 0.660	Devrecall = 0.944	
+INFO:root:Update    601	Trainlogprob = -3788.682	Trainacc = 0.727	Trainprec = 0.690	Trainrecall = 0.942	Devlogprob = -954.522	Devacc = 0.713	Devprec = 0.634	Devrecall = 0.965	
+INFO:root:Update    701	Trainlogprob = -3841.041	Trainacc = 0.731	Trainprec = 0.697	Trainrecall = 0.933	Devlogprob = -959.140	Devacc = 0.724	Devprec = 0.644	Devrecall = 0.963	
+INFO:root:Update    801	Trainlogprob = -3764.710	Trainacc = 0.741	Trainprec = 0.762	Trainrecall = 0.791	Devlogprob = -896.787	Devacc = 0.770	Devprec = 0.726	Devrecall = 0.847	
+INFO:root:Update    901	Trainlogprob = -3712.051	Trainacc = 0.745	Trainprec = 0.727	Trainrecall = 0.883	Devlogprob = -910.584	Devacc = 0.755	Devprec = 0.683	Devrecall = 0.923	
+INFO:root:Update   1001	Trainlogprob = -3745.356	Trainacc = 0.746	Trainprec = 0.735	Trainrecall = 0.864	Devlogprob = -911.474	Devacc = 0.760	Devprec = 0.693	Devrecall = 0.910	
+INFO:root:Update   1101	Trainlogprob = -3773.589	Trainacc = 0.739	Trainprec = 0.765	Trainrecall = 0.782	Devlogprob = -897.185	Devacc = 0.771	Devprec = 0.732	Devrecall = 0.833	
+INFO:root:Update   1201	Trainlogprob = -3686.121	Trainacc = 0.738	Trainprec = 0.709	Trainrecall = 0.914	Devlogprob = -916.504	Devacc = 0.738	Devprec = 0.660	Devrecall = 0.949	
+INFO:root:Update   1301	Trainlogprob = -3702.419	Trainacc = 0.742	Trainprec = 0.719	Trainrecall = 0.898	Devlogprob = -916.572	Devacc = 0.750	Devprec = 0.674	Devrecall = 0.939	
+INFO:root:Update   1401	Trainlogprob = -3731.359	Trainacc = 0.739	Trainprec = 0.757	Trainrecall = 0.796	Devlogprob = -890.430	Devacc = 0.770	Devprec = 0.723	Devrecall = 0.854	
+INFO:root:Update   1501	Trainlogprob = -3705.625	Trainacc = 0.742	Trainprec = 0.737	Trainrecall = 0.847	Devlogprob = -899.691	Devacc = 0.766	Devprec = 0.702	Devrecall = 0.900	
+INFO:root:Update   1601	Trainlogprob = -3700.467	Trainacc = 0.741	Trainprec = 0.726	Trainrecall = 0.874	Devlogprob = -909.501	Devacc = 0.756	Devprec = 0.683	Devrecall = 0.927	
+INFO:root:Update   1701	Trainlogprob = -3828.270	Trainacc = 0.728	Trainprec = 0.778	Trainrecall = 0.729	Devlogprob = -901.437	Devacc = 0.768	Devprec = 0.754	Devrecall = 0.775	
+INFO:root:Update   1801	Trainlogprob = -3700.722	Trainacc = 0.746	Trainprec = 0.747	Trainrecall = 0.839	Devlogprob = -890.751	Devacc = 0.767	Devprec = 0.705	Devrecall = 0.894	
+INFO:root:Update   1901	Trainlogprob = -3646.731	Trainacc = 0.745	Trainprec = 0.744	Trainrecall = 0.839	Devlogprob = -876.589	Devacc = 0.764	Devprec = 0.701	Devrecall = 0.894	
+INFO:root:Update   2001	Trainlogprob = -3627.108	Trainacc = 0.740	Trainprec = 0.749	Trainrecall = 0.816	Devlogprob = -865.009	Devacc = 0.773	Devprec = 0.717	Devrecall = 0.878	
+INFO:root:Update   2101	Trainlogprob = -3716.854	Trainacc = 0.733	Trainprec = 0.699	Trainrecall = 0.931	Devlogprob = -936.431	Devacc = 0.721	Devprec = 0.642	Devrecall = 0.959	
+INFO:root:Update   2201	Trainlogprob = -3698.057	Trainacc = 0.745	Trainprec = 0.735	Trainrecall = 0.863	Devlogprob = -900.957	Devacc = 0.761	Devprec = 0.693	Devrecall = 0.911	
+INFO:root:Update   2301	Trainlogprob = -3707.811	Trainacc = 0.736	Trainprec = 0.765	Trainrecall = 0.773	Devlogprob = -874.597	Devacc = 0.771	Devprec = 0.735	Devrecall = 0.825	
+INFO:root:Update   2401	Trainlogprob = -3670.291	Trainacc = 0.742	Trainprec = 0.728	Trainrecall = 0.872	Devlogprob = -900.824	Devacc = 0.756	Devprec = 0.684	Devrecall = 0.922	
+INFO:root:Update   2501	Trainlogprob = -3705.221	Trainacc = 0.734	Trainprec = 0.756	Trainrecall = 0.786	Devlogprob = -880.578	Devacc = 0.772	Devprec = 0.727	Devrecall = 0.849	
+INFO:root:Update   2601	Trainlogprob = -3695.008	Trainacc = 0.740	Trainprec = 0.751	Trainrecall = 0.811	Devlogprob = -884.586	Devacc = 0.770	Devprec = 0.716	Devrecall = 0.873	
+INFO:root:Update   2701	Trainlogprob = -3694.506	Trainacc = 0.741	Trainprec = 0.716	Trainrecall = 0.902	Devlogprob = -917.666	Devacc = 0.746	Devprec = 0.669	Devrecall = 0.944	
+INFO:root:Update   2801	Trainlogprob = -3717.630	Trainacc = 0.735	Trainprec = 0.706	Trainrecall = 0.917	Devlogprob = -930.532	Devacc = 0.733	Devprec = 0.654	Devrecall = 0.952	
+INFO:root:Update   2901	Trainlogprob = -3732.705	Trainacc = 0.737	Trainprec = 0.706	Trainrecall = 0.921	Devlogprob = -936.084	Devacc = 0.733	Devprec = 0.654	Devrecall = 0.956	
+INFO:root:Update   3001	Trainlogprob = -3750.907	Trainacc = 0.733	Trainprec = 0.700	Trainrecall = 0.928	Devlogprob = -942.993	Devacc = 0.727	Devprec = 0.648	Devrecall = 0.957	
+INFO:root:Update   3101	Trainlogprob = -3715.802	Trainacc = 0.743	Trainprec = 0.721	Trainrecall = 0.896	Devlogprob = -917.605	Devacc = 0.746	Devprec = 0.670	Devrecall = 0.938	
+INFO:root:Update   3201	Trainlogprob = -3727.140	Trainacc = 0.741	Trainprec = 0.717	Trainrecall = 0.900	Devlogprob = -924.757	Devacc = 0.744	Devprec = 0.668	Devrecall = 0.939	
+INFO:root:Update   3301	Trainlogprob = -3707.754	Trainacc = 0.740	Trainprec = 0.716	Trainrecall = 0.898	Devlogprob = -920.171	Devacc = 0.744	Devprec = 0.668	Devrecall = 0.939	
+INFO:root:Update   3401	Trainlogprob = -3731.501	Trainacc = 0.737	Trainprec = 0.709	Trainrecall = 0.912	Devlogprob = -929.156	Devacc = 0.737	Devprec = 0.659	Devrecall = 0.948	
+INFO:root:Update   3501	Trainlogprob = -3690.458	Trainacc = 0.743	Trainprec = 0.721	Trainrecall = 0.894	Devlogprob = -908.986	Devacc = 0.748	Devprec = 0.673	Devrecall = 0.937	
+INFO:root:Update   3601	Trainlogprob = -3691.259	Trainacc = 0.743	Trainprec = 0.725	Trainrecall = 0.885	Devlogprob = -906.534	Devacc = 0.751	Devprec = 0.677	Devrecall = 0.932	
+INFO:root:Update   3701	Trainlogprob = -3676.363	Trainacc = 0.745	Trainprec = 0.725	Trainrecall = 0.887	Devlogprob = -903.198	Devacc = 0.749	Devprec = 0.675	Devrecall = 0.932	
+INFO:root:Update   3801	Trainlogprob = -3691.526	Trainacc = 0.743	Trainprec = 0.720	Trainrecall = 0.897	Devlogprob = -911.891	Devacc = 0.747	Devprec = 0.671	Devrecall = 0.938	
+INFO:root:Update   3901	Trainlogprob = -3704.357	Trainacc = 0.744	Trainprec = 0.743	Trainrecall = 0.840	Devlogprob = -895.088	Devacc = 0.765	Devprec = 0.704	Devrecall = 0.890	
+INFO:root:Update   4001	Trainlogprob = -3722.346	Trainacc = 0.732	Trainprec = 0.700	Trainrecall = 0.925	Devlogprob = -932.376	Devacc = 0.727	Devprec = 0.648	Devrecall = 0.956	
+INFO:root:Update   4101	Trainlogprob = -3717.710	Trainacc = 0.735	Trainprec = 0.706	Trainrecall = 0.915	Devlogprob = -924.036	Devacc = 0.735	Devprec = 0.657	Devrecall = 0.947	
+INFO:root:Update   4201	Trainlogprob = -3684.198	Trainacc = 0.744	Trainprec = 0.736	Trainrecall = 0.855	Devlogprob = -895.366	Devacc = 0.764	Devprec = 0.697	Devrecall = 0.908	
+INFO:root:Update   4301	Trainlogprob = -3840.143	Trainacc = 0.714	Trainprec = 0.777	Trainrecall = 0.697	Devlogprob = -897.955	Devacc = 0.754	Devprec = 0.749	Devrecall = 0.742	
+INFO:root:Update   4401	Trainlogprob = -3737.779	Trainacc = 0.745	Trainprec = 0.733	Trainrecall = 0.867	Devlogprob = -913.163	Devacc = 0.759	Devprec = 0.691	Devrecall = 0.913	
+INFO:root:Update   4501	Trainlogprob = -3703.026	Trainacc = 0.741	Trainprec = 0.745	Trainrecall = 0.828	Devlogprob = -892.098	Devacc = 0.768	Devprec = 0.710	Devrecall = 0.882	
+INFO:root:Update   4601	Trainlogprob = -3739.104	Trainacc = 0.746	Trainprec = 0.743	Trainrecall = 0.845	Devlogprob = -904.842	Devacc = 0.768	Devprec = 0.705	Devrecall = 0.897	
+INFO:root:Update   4701	Trainlogprob = -3743.256	Trainacc = 0.744	Trainprec = 0.744	Trainrecall = 0.838	Devlogprob = -904.355	Devacc = 0.768	Devprec = 0.707	Devrecall = 0.890	
+INFO:root:Update   4801	Trainlogprob = -3684.624	Trainacc = 0.742	Trainprec = 0.723	Trainrecall = 0.886	Devlogprob = -907.438	Devacc = 0.751	Devprec = 0.677	Devrecall = 0.930	
+INFO:root:Update   4901	Trainlogprob = -3759.066	Trainacc = 0.727	Trainprec = 0.772	Trainrecall = 0.737	Devlogprob = -881.233	Devacc = 0.767	Devprec = 0.746	Devrecall = 0.786	
+INFO:root:Update   5001	Trainlogprob = -3690.928	Trainacc = 0.743	Trainprec = 0.735	Trainrecall = 0.858	Devlogprob = -898.328	Devacc = 0.761	Devprec = 0.693	Devrecall = 0.911	
+INFO:root:Update   5101	Trainlogprob = -3703.661	Trainacc = 0.731	Trainprec = 0.766	Trainrecall = 0.760	Devlogprob = -869.530	Devacc = 0.763	Devprec = 0.731	Devrecall = 0.810	
+INFO:root:Update   5201	Trainlogprob = -3974.287	Trainacc = 0.682	Trainprec = 0.843	Trainrecall = 0.542	Devlogprob = -907.733	Devacc = 0.739	Devprec = 0.821	Devrecall = 0.591	
+INFO:root:Update   5301	Trainlogprob = -3752.113	Trainacc = 0.740	Trainprec = 0.770	Trainrecall = 0.773	Devlogprob = -888.579	Devacc = 0.768	Devprec = 0.732	Devrecall = 0.824	
+INFO:root:Update   5401	Trainlogprob = -3712.258	Trainacc = 0.745	Trainprec = 0.722	Trainrecall = 0.897	Devlogprob = -913.111	Devacc = 0.744	Devprec = 0.671	Devrecall = 0.930	
+INFO:root:Update   5501	Trainlogprob = -3710.939	Trainacc = 0.748	Trainprec = 0.733	Trainrecall = 0.876	Devlogprob = -904.010	Devacc = 0.750	Devprec = 0.681	Devrecall = 0.913	
+INFO:root:Update   5601	Trainlogprob = -3736.990	Trainacc = 0.728	Trainprec = 0.692	Trainrecall = 0.939	Devlogprob = -941.500	Devacc = 0.718	Devprec = 0.639	Devrecall = 0.961	
+INFO:root:Update   5701	Trainlogprob = -3680.221	Trainacc = 0.742	Trainprec = 0.716	Trainrecall = 0.906	Devlogprob = -911.949	Devacc = 0.743	Devprec = 0.666	Devrecall = 0.943	
+INFO:root:Update   5801	Trainlogprob = -3686.681	Trainacc = 0.740	Trainprec = 0.714	Trainrecall = 0.907	Devlogprob = -910.948	Devacc = 0.740	Devprec = 0.664	Devrecall = 0.942	
+INFO:root:Update   5901	Trainlogprob = -3665.866	Trainacc = 0.745	Trainprec = 0.722	Trainrecall = 0.896	Devlogprob = -900.597	Devacc = 0.741	Devprec = 0.668	Devrecall = 0.930	
+INFO:root:Update   6001	Trainlogprob = -3704.820	Trainacc = 0.742	Trainprec = 0.714	Trainrecall = 0.910	Devlogprob = -913.823	Devacc = 0.738	Devprec = 0.662	Devrecall = 0.941	
+INFO:root:Update   6101	Trainlogprob = -3860.515	Trainacc = 0.727	Trainprec = 0.812	Trainrecall = 0.677	Devlogprob = -900.602	Devacc = 0.778	Devprec = 0.788	Devrecall = 0.742	
+INFO:root:Update   6201	Trainlogprob = -3676.337	Trainacc = 0.744	Trainprec = 0.719	Trainrecall = 0.902	Devlogprob = -906.039	Devacc = 0.743	Devprec = 0.667	Devrecall = 0.939	
+INFO:root:Update   6301	Trainlogprob = -3681.140	Trainacc = 0.746	Trainprec = 0.726	Trainrecall = 0.890	Devlogprob = -902.222	Devacc = 0.748	Devprec = 0.674	Devrecall = 0.930	
+INFO:root:Update   6401	Trainlogprob = -3820.547	Trainacc = 0.718	Trainprec = 0.679	Trainrecall = 0.958	Devlogprob = -979.029	Devacc = 0.697	Devprec = 0.620	Devrecall = 0.973	
+INFO:root:Update   6501	Trainlogprob = -3723.399	Trainacc = 0.731	Trainprec = 0.696	Trainrecall = 0.934	Devlogprob = -936.832	Devacc = 0.723	Devprec = 0.644	Devrecall = 0.961	
+INFO:root:Update   6601	Trainlogprob = -3752.384	Trainacc = 0.725	Trainprec = 0.687	Trainrecall = 0.946	Devlogprob = -953.565	Devacc = 0.708	Devprec = 0.630	Devrecall = 0.967	
+INFO:root:Feat         Category_category:Fine Arts   1: -0.02808
+INFO:root:Feat          Category_category:Religion   7: -0.00339
+INFO:root:Feat                        Length_guess  14: -0.06532
+INFO:root:Feat    Category_category:Social Science   9: -0.00332
+INFO:root:Feat        Category_category:Literature   4: -0.03398
+INFO:root:Feat         Category_category:Mythology   5: -0.02300
+INFO:root:Feat           Category_category:Science   8: -0.02205
+INFO:root:Feat                       BIAS_CONSTANT   0: -0.00153
+INFO:root:Feat           Category_category:History   3: +0.01173
+INFO:root:Feat        Category_category:Philosophy   6: +0.01742
+INFO:root:Feat           Category_category:Science   8: -0.02205
+INFO:root:Feat                       BIAS_CONSTANT   0: -0.00153
+INFO:root:Feat           Category_category:History   3: +0.01173
+INFO:root:Feat        Category_category:Philosophy   6: +0.01742
+INFO:root:Feat         Category_category:Geography   2: +0.05906
+INFO:root:Feat                          Length_ftp  13: +0.15851
+INFO:root:Feat                      Gpr_confidence  11: +0.19554
+INFO:root:Feat                         Length_char  12: +0.26772
+INFO:root:Feat                     Frequency_guess  10: +0.52527
+INFO:root:Feat                         Length_word  15: +0.26101
+```
 
 Hints
 -

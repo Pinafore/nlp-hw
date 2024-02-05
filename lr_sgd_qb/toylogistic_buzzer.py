@@ -168,7 +168,7 @@ class ToyLogisticBuzzer(Buzzer):
         A function to find the top features.
         """
 
-        top = []
+        top = [0]
         bottom = []
 
         for idx in list(top) + list(bottom):

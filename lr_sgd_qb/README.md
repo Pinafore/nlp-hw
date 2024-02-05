@@ -1,4 +1,4 @@
-Stochastic Gradient Descent
+Stochastic Gradient Updates
 =
 
 Overview

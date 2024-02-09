@@ -154,6 +154,8 @@ class Guesser:
         answers_to_questions = self.split_examples(training_data, answer_field, split_by_sentence,
                                                    min_length, max_length)
         self.questions, self.answers = self.filter_answers(answers_to_questions)
+        logging.info("Trained with %i questions and %i answers filtered from %i examples" %
+                     (len(self.questions), len(self.answers), len(training_data)))
 
         return answers_to_questions
 
@@ -228,6 +230,9 @@ class Guesser:
         with open("%s.answers.pkl" % path, 'rb') as f:
             self.answers = pickle.load(f)        
 
+        logging.info("Loading %i questions and %i answers" %
+                     (len(self.questions), len(self.answers)))
+        assert len(self.questions)==len(self.answers), "Question size mismatch"   
             
     def load(self):
         """
@@ -265,7 +270,7 @@ if __name__ == "__main__":
     questions = load_questions(flags)
     # TODO(jbg): Change to use huggingface data, as declared in flags
 
-    if flags.guesser_type == 'WikiGuesser':
+    if flags.guesser_type == 'Wiki':
         guesser.init_wiki(flags.wiki_zim_filename)        
         train_result = guesser.train(questions,
                                      flags.guesser_answer_field,
@@ -276,10 +281,10 @@ if __name__ == "__main__":
         # The WikiGuesser has some results (text from asked about Wikipedia
         # pages) from saving and we want to cache them to a file
         guesser.save()
-    elif flags.guesser_type == 'PresidentGuesser':
+    elif flags.guesser_type == 'President':
         from president_guesser import kPRESIDENT_DATA
         guesser.train(kPRESIDENT_DATA['train'])
-    elif flags.guesser_type == "DanGuesser":
+    elif flags.guesser_type == "Dan":
         dev_exs = load_questions(flags, secondary=True)
         guesser.set_eval_data(dev_exs)
         guesser.train_dan()
@@ -290,6 +295,8 @@ if __name__ == "__main__":
                       flags.guesser_split_sentence)
         guesser.save()
     else:
+        logging.info("Training with default guesser API (give %s), this might mean something has gone wrong if you wanted to match ToyTfidf, President, Wiki, or Dan" %
+                     flags.guesser_type)
         guesser.train(questions,
                       flags.guesser_answer_field,
                       flags.guesser_split_sentence,

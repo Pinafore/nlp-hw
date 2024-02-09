@@ -23,17 +23,18 @@ def add_general_params(parser):
 def add_question_params(parser):
     parser.add_argument('--limit', type=int, default=-1)
     parser.add_argument('--question_source', type=str, default='gzjson')
-    parser.add_argument('--questions', default = "../data/qanta.guesstrain.json",type=str)
-    parser.add_argument('--secondary_questions', default = "../data/qanta.guessdev.json",type=str)
-    parser.add_argument('--expo_output_root', default="expo/expo", type=str)
+    parser.add_argument('--questions', default = "../nlp-hw/data/qanta.guesstrain.json.gz",type=str)
+    parser.add_argument('--secondary_questions', default = "../nlp-hw/data/qanta.guessdev.json.gz",type=str)
+    parser.add_argument('--expo_output_root', default="expo/expo", type=str) 
 
 def add_buzzer_params(parser):
-    parser.add_argument('--buzzer_guessers', nargs='+', default = ['TfidfGuesser'], help='Guessers to feed into Buzzer', type=str)
+    parser.add_argument('--buzzer_guessers', nargs='+', default = ['Tfidf'], help='Guessers to feed into Buzzer', type=str)
     parser.add_argument('--buzzer_history_length', type=int, default=0, help="How many time steps to retain guesser history")
     parser.add_argument('--buzzer_history_depth', type=int, default=0, help="How many old guesses per time step to keep")    
-    parser.add_argument('--features', nargs='+', help='Features to feed into Buzzer', type=str,  default=['Length'])    
+    parser.add_argument('--features', nargs='+', help='Features to feed into Buzzer', type=str,  default=['Length', 'Frequency', 'Category'])    
     parser.add_argument('--buzzer_type', type=str, default="LogisticBuzzer")
     parser.add_argument('--run_length', type=int, default=100)
+    parser.add_argument('--primary_guesser', type=str, default='Tfidf', help="What guesser does buzzer depend on?")
     parser.add_argument('--LogisticBuzzer_filename', type=str, default="models/LogisticBuzzer")    
     
 def add_guesser_params(parser):
@@ -47,7 +48,7 @@ def add_guesser_params(parser):
     parser.add_argument('--wiki_min_frequency', type=int, help="How often must wiki page be an answer before it is used", default=10)
     parser.add_argument('--TfidfGuesser_filename', type=str, default="models/TfidfGuesser")
     parser.add_argument('--WikiGuesser_filename', type=str, default="models/WikiGuesser")    
-    parser.add_argument('--GprGuesser_filename', type=str, default="models/GprGuesser")
+    parser.add_argument('--GprGuesser_filename', type=str, default="models/gpt_cache")
     parser.add_argument('--wiki_zim_filename', type=str, default="data/wikipedia.zim")
     parser.add_argument('--num_guesses', type=int, default=25)
 
@@ -135,10 +136,7 @@ def instantiate_guesser(guesser_type, flags, load):
         
     if guesser_type == "Tfidf":
         from tfidf_guesser import TfidfGuesser        
-        guesser = TfidfGuesser(flags.TfidfGuesser_filename,
-                               min_length=flags.tfidf_min_length,
-                               max_length=flags.tfidf_max_length,
-                               split_by_sentence=flags.guesser_split_sentence)  
+        guesser = TfidfGuesser(flags.TfidfGuesser_filename)  
         if load:                                             
             guesser.load()
     if guesser_type == "Dan":                                
@@ -183,12 +181,16 @@ def load_buzzer(flags, load=False):
 
     assert buzzer is not None, "Buzzer (type=%s) not initialized" % flags.buzzer_type
 
-
+    primary_loaded = 0
     for gg in flags.buzzer_guessers:
         guesser = instantiate_guesser(gg, flags, load=True)
         guesser.load()
-        logging.info("Adding %s to Buzzer" % gg)
-        buzzer.add_guesser(gg, guesser, gg==flags.guesser_type)
+        logging.info("Adding %s to Buzzer (total guessers=%i)" % (gg, len(flags.buzzer_guessers)))
+        primary = (gg == flags.primary_guesser or len(flags.buzzer_guessers)==1)
+        buzzer.add_guesser(gg, guesser, primary_guesser=primary)
+        if primary:
+            primary_loaded += 1
+    assert primary_loaded == 1 or (primary_loaded == 0 and flags.primary_guesser=='consensus'), "There must be one primary guesser"
 
     print("Initializing features: %s" % str(flags.features))
     print("dataset: %s" % str(flags.questions))

@@ -104,8 +104,8 @@ through in class.  Before running your code on read data, make sure it passes
 all of the unit tests.
 
 ```
-cs244-33-dhcp:logreg jbg$ python tests.py
-.[ 0.  0.  0.  0.  0.]
+$ python toylogistic_test.py
+[ 0.  0.  0.  0.  0.]
 [ 1.  4.  3.  1.  0.]
 F
 ======================================================================
@@ -127,7 +127,7 @@ Example
 
 This is an example of what your runs should look like:
 ```
-.venv/bin/python3 toylogistic_buzzer.py --train=data/small_guess.buzztrain.jsonl --test=data/small_guess.buzzdev.jsonl --vocab=data/small_guess.vocab --passes=1 --learning_rate=0.01 --regularization=0.1
+$ python toylogistic_buzzer.py --train=../data/small_guess.buzztrain.jsonl --test=../data/small_guess.buzzdev.jsonl --vocab=../data/small_guess.vocab --passes=1 --learning_rate=0.01 --regularization=0.1
 Loaded 16 items from vocab data/small_guess.vocab
 Read in 6619 train and 1628 test
 INFO:root:Creating regression over 16 features

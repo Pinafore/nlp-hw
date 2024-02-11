@@ -56,7 +56,7 @@ write any code for this, however.
 2. (Optional) Store necessary data in the constructor so you can do
 classification later.
 
-3. Modify the _sg update_ function to perform updates.
+3. Modify the _sg_update_ function to perform updates.
 
 4. Modify the _inspect_ function to return the most salient features
 
@@ -70,7 +70,7 @@ about what the model is doing, but no one metric is perfect.
 
 Extra credit:
 
-1.  Modify the _sg update_ function to perform [lazy regularized updates](https://lingpipe.files.wordpress.com/2008/04/lazysgdregression.pdf), which only update the weights of features when they appear in an example.
+1.  Modify the _sg_update_ function to perform [lazy regularized updates](https://lingpipe.files.wordpress.com/2008/04/lazysgdregression.pdf), which only update the weights of features when they appear in an example.
     - Show the effect in your analysis document 
     
 Caution: When implementing extra credit, make sure your implementation of the
@@ -89,9 +89,9 @@ problem.
 What to turn in
 -
 
-1. Submit your _lr_sgd.py_ file (include your name at the top of the source)
+1. Submit your _lr_sgd_qb.py_ file (include your name at the top of the source)
 1. Submit your _analysis.pdf_ file
-    - no more than one page (NB: This is also for the extra credit.  To minimize effort for the grader, you'll need to put everything on a page.  Take this into account when selecting if/which extra credit to do...think of the page requirement like a regularizer).
+    - no more than one page (NB: This is also for the extra credit. To minimize effort for the grader, you'll need to put everything on a page. Take this into account when selecting if/which extra credit to do... think of the page requirement like a regularizer).
     - pictures are better than text
     - include your name at the top of the PDF
 

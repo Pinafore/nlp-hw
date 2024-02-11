@@ -39,9 +39,20 @@ to review our coverage of syntax, semantics, etc.
 Getting Started
 -
 
-Make sure that you have installed all of the packages you'll need, you
-may need to recreate your virtual environment.
-     
+As usual, install the packages you need, perhaps in a virtual environment:
+
+    python3 -m venv .venv
+    .venv/bin/pip3 install -r requirements.txt
+
+And if NLTK complains about missing stopwords, you can download them:
+
+    python -m nltk.downloader stopwords
+
+You'll also need to create a directory for the models you'll be
+creating
+
+     mkdir -p models
+         
 But before you get started, you need to understand the overall structure of the code:
  * A part of the question comes into the guesser (in the code, this is called a "run")
  * The guesser generates a "guess" that _could_ be an answer to the question
@@ -122,30 +133,65 @@ let's train the classifier *without* that new feature.
 
     mkdir -p models
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-      --question_source=json --GprGuesser_filename=../models/GprGuesser \
-      --questions=../data/qanta.buzztrain.json --buzzer_guessers Gpr
+      --question_source=json --GprGuesser_filename=../models/gpt_cache \
+      --questions=../data/qanta.buzztrain.json --buzzer_guessers Gpr \
+      --LogisticBuzzer_filename=models/no_length --features ""
+    Setting up logging
+    INFO:root:Using device 'cuda' (cuda flag=False)
+    INFO:root:Initializing guesser of type Gpr
+    INFO:root:Loading Gpr guesser
+    Loading buzzer
+    INFO:root:Buzzer using run length 100
+    INFO:root:Using device 'cuda' (cuda flag=False)
+    INFO:root:Initializing guesser of type Gpr
+    INFO:root:Loading Gpr guesser
+    INFO:root:9310 entries added to cache
+    INFO:root:9310 entries added to cache
+    INFO:root:Adding Gpr to Buzzer (total guessers=1)
+    Initializing features: ['']
+    dataset: ../data/qanta.buzztrain.json
+    ERROR:root:1 features on command line (['']), but only added 0 (set()).  Did you add code to params.py's load_buzzer to actually add the feature to the buzzer?  Or did you forget to increment features_added in that function?
+    INFO:root:Read 50 questions
+    100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 118416.26it/s]
+    INFO:root:Building guesses from dict_keys(['Gpr'])
+    INFO:root:Generating guesses for 401 new question
+    100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 401/401 [00:00<00:00, 501166.84it/s]
+    INFO:root:       401 guesses from Gpr
+    INFO:root:Generating all features
+    100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 401/401 [00:00<00:00, 54978.95it/s]
+    Ran on 50 questions of 50
 
-After training the classifer, you should see something that looks like this:
+If you get a warning about convergence, it is okay; hopefully it will converge better with more features!  Likewise, don't worry about the warning about the features, I just wanted to be sure it didn't add the length feature.  Because we want to do that next: train a model *with* that new feature.  Note that we're naming the model something different:
 
-	Loaded 1660 entries from cache
-	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
-	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
-	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
-	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
-	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
-	/home/jbg/anaconda3/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:814: ConvergenceWarning: lbfgs failed to converge (status=1):
-	STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-	Increase the number of iterations (max_iter) or scale the data as shown in:
-	https://scikit-learn.org/stable/modules/preprocessing.html
-	Please also refer to the documentation for alternative solver options:
-	https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-	n_iter_i = _check_optimize_result(
-	INFO:root:Made 0 new queries, saving to ../models/GprGuesser
-	Ran on 50 questions of 50
-
-(The warning about convergence is okay; hopefully it will converge better with
-more features!)
+    python3 buzzer.py --guesser_type=Gpr --limit=50 \
+      --question_source=json --GprGuesser_filename=../models/gpt_cache \
+      --questions=../data/qanta.buzztrain.json --buzzer_guessers Gpr \
+      --LogisticBuzzer_filename=models/with_length --features Length
+    Setting up logging
+    INFO:root:Using device 'cuda' (cuda flag=False)
+    INFO:root:Initializing guesser of type Gpr
+    INFO:root:Loading Gpr guesser
+    Loading buzzer
+    INFO:root:Buzzer using run length 100
+    INFO:root:Using device 'cuda' (cuda flag=False)
+    INFO:root:Initializing guesser of type Gpr
+    INFO:root:Loading Gpr guesser
+    INFO:root:9310 entries added to cache
+    INFO:root:9310 entries added to cache
+    INFO:root:Adding Gpr to Buzzer (total guessers=1)
+    Initializing features: ['Length']
+    dataset: ../data/qanta.buzztrain.json
+    INFO:root:Adding feature Length
+    INFO:root:Read 50 questions
+    100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 118751.53it/s]
+    INFO:root:Building guesses from dict_keys(['Gpr'])
+    INFO:root:Generating guesses for 401 new question
+    100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 401/401 [00:00<00:00, 499084.84it/s]
+    INFO:root:       401 guesses from Gpr
+    INFO:root:Generating all features
+    100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 401/401 [00:00<00:00, 46940.24it/s]
+    Ran on 50 questions of 50
+    
 
 Now you need to evaluate the classifier.  The script eval.py will run the classifier on all of your data and then record the outcome.  There are several things that could happen:
  * _best_: Guess was correct, Buzz was correct
@@ -153,185 +199,72 @@ Now you need to evaluate the classifier.  The script eval.py will run the classi
  * _aggressive_: Guess was wrong, Buzz was wrong
  * _waiting_: Guess was wrong, Buzz was correct
 
- Now, both "best" and "waiting" are *correct*, but obviously "best" is best.  It's important to know what kind of examples contribute to each of these outcomes, so eval samples a subset for each of these and prints them and their features out.  
 
-        python3 eval.py --guesser_type=GprGuesser --TfidfGuesser_filename=models/TfidfGuesser --limit=25 --question_source=json --questions=../data/qanta.buzzdev.json --logging_file=buzzer.log --buzzer_guessers GprGuesser --GprGuesser_filename=../models/GprGuesser
-
-    [snip ...]
-
-    answer 0.01
-    ==================
-
-               guess: Donald Davidson (philosopher)
-              answer: Donald_Davidson_(philosopher)
-                  id: 93152
-    GprGuesser_guess: Donald Davidson (philosopher)
-      Gpr_confidence: -0.5728
-     consensus_guess: Donald Davidson (philosopher)
-     consensus_count: 1
-         Length_char: 6.6708
-        Length_guess: 3.4012
-         Length_word: 4.8040
-                text: This thinker wrote that "framework theories" cannot make sense of
-                      radio host Goodman Ace's malapropisms. This philosopher argued that an
-                      actor's "pro-attitude" must be part of the "primary reason" that
-                      causes an action. This author of "A Nice Derangement of Epitaphs"
-                      proposed using Tarski's semantic theory of truth as the core for a
-                      "theory of meaning," though he later claimed "there is no such thing
-                      as a language." He included the "principle of charity," which assumes
-                      that another speaker has true beliefs, in a method for understanding
-                      unfamiliar speech "from scratch." His alternative to mind-body dualism
-                      held that no natural laws connect physical events with mental events.
-                      For 10 points, name this American philosopher who devised "radical
-                      interpretation" and anomalous monism.
-    --------------------
-               guess: Frigg
-              answer: Frigg
-                  id: 93171
-    GprGuesser_guess: Frigg
-      Gpr_confidence: -6.0745
-     consensus_guess: Frigg
-     consensus_count: 1
-         Length_char: 6.5539
-        Length_guess: 1.7918
-         Length_word: 4.8442
-                text: Most scholars identify this deity with a figure named Saga who dwells
-                      in Sokkvabekk. Along with a servant, this deity helped to heal the
-                      horse of Phol. Hlin and Syn serve this figure, who told the women of
-                      Winnili to cover their faces with hair, thus helping to found the
-                      Lombards. Two other servants of this deity, who ride the horse
-                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
-                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
-                      this goddess of having affairs with Vili and Ve. After this goddess
-                      sent Hermod on a mission to Hel, the giantess Thokk refused to weep
-                      for her dead son because this goddess failed to get an oath from
-                      mistletoe to remain harmless.
-
-It's only answering two questions correctly.  And it's waiting a lot when the
-answer is correct.  So let's try it with the feature turned on (don't forget
-to retrain the model).
+Let's compare with the Length: 
 
     python3 buzzer.py --guesser_type=GprGuesser --limit=50 \
     --question_source=json --GprGuesser_filename=../models/GprGuesser \
     --questions=../data/qanta.buzztrain.json --buzzer_guessers GprGuesser \
     --features Length Frequency
 
-    python3 eval.py --guesser_type=GprGuesser \
+compared to without it:
+
+    .venv/bin/python3  eval.py --guesser_type=Gpr \
     --TfidfGuesser_filename=models/TfidfGuesser --limit=25 \
-    --question_source=json --questions=../data/qanta.buzzdev.json \
-    --logging_file=buzzer.log --buzzer_guessers GprGuesser \
-    --GprGuesser_filename=../models/GprGuesser --features Length Frequency
+     --questions=../data/qanta.buzzdev.json.gz --buzzer_guessers Gpr \
+     --GprGuesser_filename=../models/gpt_cache  \
+     --LogisticBuzzer_filename=models/no_length --features ""
 
+You'll see quite a bit of output, so I'm just going to walk through it bit by
+    bit, comparing the salient components.
 
-    ==================
-    answer 0.06
-    ==================
+ Now, both "best" and "waiting" are *correct*, but obviously "best" is best.  It's important to know what kind of examples contribute to each of these outcomes, so eval samples a subset for each of these and prints them and their features out.
 
+    =================
+    aggressive 0.22
+    ===================
+    
+                   guess: The Awakening (Chopin novel)
+                  answer: Edna_Pontellier
+                      id: 93160
+          Gpr_confidence: -0.1257
+             Length_char: -0.1111
+             Length_word: -0.1333
+            Length_guess: 3.3673
+                    text: This character faintheartedly commits herself to improving her studies
+                          after a night of reading Emerson alone in her house, and hushes Victor
+                          when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                          she declares that she would give up the "unessential things" for her
+                          children, but she wouldn't give herself up. Doctor Mandelet advises
+                          this character's husband to permit her whims, which
 
-               guess: The Awakening (Chopin novel)
-              answer: The_Awakening_(Chopin_novel)
-                  id: 93160
-    GprGuesser_guess: The Awakening (Chopin novel)
-      Gpr_confidence: -0.4093
-     consensus_guess: The Awakening (Chopin novel)
-     consensus_count: 1
-         Length_char: 6.4036
-        Length_guess: 3.3673
-         Length_word: 4.6052
-     Frequency_guess: 3.4657
-                text: This character faintheartedly commits herself to improving her studies
-                      after a night of reading Emerson alone in her house, and hushes Victor
-                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
-                      she declares that she would give up the "unessential things" for her
-                      children, but she wouldn't give herself up. Doctor Mandelet advises
-                      this character's husband to permit her whims, which include moving
-                      into a "pigeon house" outside of her house on Esplanade Street. This
-                      mother of Raoul and Etienne watches Adele Ratignolle give birth on her
-                      last night alive, and romances Alcee Arobin and
-    --------------------
-               guess: Athol Fugard
-              answer: Athol_Fugard
-                  id: 93163
-    GprGuesser_guess: Athol Fugard
-      Gpr_confidence: -6.3761
-     consensus_guess: Athol Fugard
-     consensus_count: 1
-         Length_char: 6.5568
-        Length_guess: 2.5649
-         Length_word: 4.8903
-     Frequency_guess: 3.4965
-                text: In a play by this man, one title character counts the bruises caused
-                      by the other title character, who accuses her of looking behind her to
-                      find a dog on the road. This author also wrote a play in which two men
-                      stage an impromptu performance of Sophocles' Antigone after getting
-                      off their shifts as prison workers. This man created a teenager who
-                      debates the idea of a "Man of Magnitude" to aid his composition for an
-                      English class, as well two campers who take in an old man who does not
-                      speak English. A third play by this author of Boesman and Lena and The
-                      Island takes place just as the title antagonist's father is coming
-                      home from the hospital, which prompts him to be cruel to Sam and
-                      Willie, his
-    --------------------
-               guess: Athol Fugard
-              answer: Athol_Fugard
-                  id: 93163
-    GprGuesser_guess: Athol Fugard
-      Gpr_confidence: -6.3834
-     consensus_guess: Athol Fugard
-     consensus_count: 1
-         Length_char: 6.6908
-        Length_guess: 2.5649
-         Length_word: 4.9972
-     Frequency_guess: 3.4965
-                text: In a play by this man, one title character counts the bruises caused
-                      by the other title character, who accuses her of looking behind her to
-                      find a dog on the road. This author also wrote a play in which two men
-                      stage an impromptu performance of Sophocles' Antigone after getting
-                      off their shifts as prison workers. This man created a teenager who
-                      debates the idea of a "Man of Magnitude" to aid his composition for an
-                      English class, as well two campers who take in an old man who does not
-                      speak English. A third play by this author of Boesman and Lena and The
-                      Island takes place just as the title antagonist's father is coming
-                      home from the hospital, which prompts him to be cruel to Sam and
-                      Willie, his black servants. For 10 points, name this South African
-                      playwright of "Master Harold"...and the Boys.
-    --------------------
-               guess: Frigg
-              answer: Frigg
-                  id: 93171
-    GprGuesser_guess: Frigg
-      Gpr_confidence: -6.0745
-     consensus_guess: Frigg
-     consensus_count: 1
-         Length_char: 6.5539
-        Length_guess: 1.7918
-         Length_word: 4.8442
-     Frequency_guess: 2.8904
-                text: Most scholars identify this deity with a figure named Saga who dwells
-                      in Sokkvabekk. Along with a servant, this deity helped to heal the
-                      horse of Phol. Hlin and Syn serve this figure, who told the women of
-                      Winnili to cover their faces with hair, thus helping to found the
-                      Lombards. Two other servants of this deity, who ride the horse
-                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
-                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
-                      this goddess of having affairs with Vili and Ve. After this goddess
-                      sent Hermod on a mission to Hel, the giantess Thokk refused to weep
-                      for her dead son because this goddess failed to get an oath from
-                      mistletoe to remain harmless.
+This example is where it is answering the name of the novel rather than the book's main character.  You can see all of the features for this example (e.g., Length-guess is 3.3673).
 
-
-Okay, so that helped!
-
-                         Frequency_guess: 0.3641
-                   GprGuesser_confidence: 0.0651
-                             Length_char: 0.4994
-                            Length_guess: -0.2049
-                             Length_word: 0.6408
-    Accuracy: 0.73  Buzz ratio: 16.00
-
-At the end of the eval script, you can see the features that it's using, the
+At the end of the eval script, you can see the
 overall accuracy, and the ratio of correct buzzes to incorrect buzzes (should
-be positive).
+be positive), and the buzz position (where in the question it's buzzing).
+
+    Questions Right: 90 (out of 201) Accuracy: 0.75  Buzz ratio: 67.50 Buzz position: 0.054159
+
+And now we'll see what it is without the length features:
+
+    Questions Right: 87 (out of 201) Accuracy: 0.76  Buzz ratio: 66.50 Buzz position: -0.255239
+
+Again, don't focus too much on the accuracy.  The accuracy is actually higher
+for the no feature model!  But the proportion of "Best" outcomes is higher by
+0.02 once you add in this simple feature.
+
+At the very end of the script, you see the weights of each of the features.  Higher values mean that when the feature is high, it is more likely to buzz.  Lower features mean that when the feature is high, it is less likely to buzz.  Features near zero are ignored.  However, keep in mind the average value of the feature ... I'd encourage you to keep your features with mean zero and standard variance to make your life easier.
+
+Let's see with length:
+                          Gpr_confidence: 4.4401
+                             Length_char: 0.9581
+                            Length_guess: -1.0036
+                             Length_word: 0.8495
+And without length:
+                          Gpr_confidence: 5.5703
+
+The classifier with the length is more liketly to buzz later in the question.  If you only have the guesser confidence, then it's obviously correlated with that.  It uses it less if you add in the length as a feature.
 
 What Can You Do?
 -

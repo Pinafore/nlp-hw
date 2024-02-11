@@ -35,6 +35,7 @@ class LengthFeature(Feature):
     def __call__(self, question, run, guess, guess_history):
         # How many characters long is the question?
 
+
         guess_length = 0
 
         # How many words long is the question?

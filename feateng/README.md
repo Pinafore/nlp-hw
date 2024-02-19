@@ -84,7 +84,7 @@ class in ``features.py``.
 
 	class FrequencyFeature:                       
 	    def __init__(self, name):                 
-		from buzzer import normalize_answer   
+		from eval import normalize_answer   
 		self.name = name                      
 		self.counts = Counter()               
 		self.normalize = normalize_answer     

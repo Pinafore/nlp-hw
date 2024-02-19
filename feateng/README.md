@@ -52,12 +52,12 @@ You'll also need to create a directory for the models you'll be
 creating
 
      mkdir -p models
-         
+
 But before you get started, you need to understand the overall structure of the code:
  * A part of the question comes into the guesser (in the code, this is called a "run")
  * The guesser generates a "guess" that _could_ be an answer to the question
  * The buzzer then needs to determine if that guess is correct or not.  This is a classifier.  You're going to make that better by providing the buzzer with new features.
- 
+
 You will need to be creative here!  To get a sense of how you might go through the process, review the lecture on feature engineering here:
 https://www.youtube.com/watch?v=IzKFgigocAg
 
@@ -82,22 +82,22 @@ To walk you through the process, let's create a new feature that encodes how
 often the guess appeared in the training set.  The first step is to define the
 class in ``features.py``.
 
-	class FrequencyFeature:                       
-	    def __init__(self, name):                 
-		from eval import normalize_answer   
-		self.name = name                      
-		self.counts = Counter()               
-		self.normalize = normalize_answer     
+	class FrequencyFeature:
+	    def __init__(self, name):
+		from eval import normalize_answer
+		self.name = name
+		self.counts = Counter()
+		self.normalize = normalize_answer
 
-	    def add_training(self, question_source):    
-		import json                 
-		with open(question_source) as infile:                   
-			questions = json.load(infile)                       
-			for ii in questions:                                
-			    self.counts[self.normalize(ii["page"])] += 1    
+	    def add_training(self, question_source):
+		import json
+		with open(question_source) as infile:
+			questions = json.load(infile)
+			for ii in questions:
+			    self.counts[self.normalize(ii["page"])] += 1
 
-	    def __call__(self, question, run, guess):                               
-		   yield ("guess", log(1 + self.counts[self.normalize(guess)]))          
+	    def __call__(self, question, run, guess):
+		   yield ("guess", log(1 + self.counts[self.normalize(guess)]))
 
 
 Pay attention to the ``call`` function.  If you're not familiar with
@@ -121,11 +121,11 @@ add the feature name to the command line to turn it on.
             feature = LengthFeature(ff)
             buzzer.add_feature(feature)
 
-        if ff == "Frequency":                                  
-            from features import FrequencyFeature              
-            feature = FrequencyFeature(ff)                     
+        if ff == "Frequency":
+            from features import FrequencyFeature
+            feature = FrequencyFeature(ff)
             feature.add_training("../data/qanta.buzztrain.json")
-            buzzer.add_feature(feature)                        
+            buzzer.add_feature(feature)
 
 Don't forget that you're training a classifier.  This classifier will
 be turned into a "pickle" file and stored in the models directory.  So
@@ -191,7 +191,7 @@ If you get a warning about convergence, it is okay; hopefully it will converge b
     INFO:root:Generating all features
     100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 401/401 [00:00<00:00, 46940.24it/s]
     Ran on 50 questions of 50
-    
+
 
 Now you need to evaluate the classifier.  The script eval.py will run the classifier on all of your data and then record the outcome.  There are several things that could happen:
  * _best_: Guess was correct, Buzz was correct
@@ -200,11 +200,11 @@ Now you need to evaluate the classifier.  The script eval.py will run the classi
  * _waiting_: Guess was wrong, Buzz was correct
 
 
-Let's compare with the Length: 
+Let's compare with the Length:
 
-    python3 buzzer.py --guesser_type=GprGuesser --limit=50 \
-    --question_source=json --GprGuesser_filename=../models/GprGuesser \
-    --questions=../data/qanta.buzztrain.json --buzzer_guessers GprGuesser \
+    python3 buzzer.py --guesser_type=Gpr --limit=50 \
+    --question_source=json --GprGuesser_filename=../models/gpt_cache \
+    --questions=../data/qanta.buzztrain.json --buzzer_guessers Gpr \
     --features Length Frequency
 
 compared to without it:
@@ -223,7 +223,7 @@ You'll see quite a bit of output, so I'm just going to walk through it bit by
     =================
     aggressive 0.22
     ===================
-    
+
                    guess: The Awakening (Chopin novel)
                   answer: Edna_Pontellier
                       id: 93160
@@ -272,13 +272,13 @@ What Can You Do?
 You can:
 * Add features (e.g., to params.py)
 * Change feature representations (e.g., features.py)
-* Exclude data 
+* Exclude data
 * Add data
 
 Good Enough
 -
 This is a very open-ended assignment.  Improve the "best" class by
-at least 0.02 percent by adding new features, and you have done enough.  
+at least 0.02 percent by adding new features, and you have done enough.
 
 What Can't You Do?
 -
@@ -287,7 +287,7 @@ Change the static guesses or use a different classifier (buzzer in this lingo).
 How to start
 -
 1. Remind yourself how to run the sklearn logistic regression (logistic_buzzer.py)
-2. Add a simple feature to the training data generated by gpr_guesser.py 
+2. Add a simple feature to the training data generated by gpr_guesser.py
 3. See if it increases the accuracy on held-out data when you run logistic regression (eval.py) or on the leaderboard
 4. Rinse and repeat!
 
@@ -327,7 +327,7 @@ How to Turn in Your System
 -
 * ``features.py``: This file includes an implementation of your new features.
 * ``params.py``: This instantiates your new features.  Modify this so that the
-set of your best features runs by *default*.  
+set of your best features runs by *default*.
 * **Custom Training Data** (If you used additional training data beyond the Wikipedia pages, upload that as well
     * (OR) If either any of your files are >100MB, please submit a shell
     script named ``gather_resources.sh`` that will retrieve one or both of the
@@ -348,7 +348,7 @@ FAQ
 are.  How do I know what the features look like?
 
 *A.* Use ``features.py`` to investigate this.  This is how we
-generated the JSON files for the logistic regression homework. 
+generated the JSON files for the logistic regression homework.
 
     python3 features.py --json_guess_output=../data/inspect.jsonl --buzzer_guessers 'Gpr' --questions=../data/qanta.buzztrain.json.gz --limit=1000
 
@@ -403,11 +403,11 @@ coming from?
  want to play around a little bit with the output of its guesses, as
  there's likely interesting stuff you can use from there. Let's play
  around with the GprGuesser a little:
- 
- 
- 
+
+
+
 The keys are the prompts to GPT.  We've given GPT the closest examples
-we can find in Wikipedia and from our existing dataset.  
+we can find in Wikipedia and from our existing dataset.
 
 
 Let's take a look at what this returned.  We get the title, but that's

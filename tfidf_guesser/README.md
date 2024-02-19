@@ -25,8 +25,7 @@ What you have to do
 
 Coding (15 points in the tfidf_guesser.py):
 
-1.  (Optional) Store necessary data in the constructor so you can do classification later.
-1.  You will need the pickle files generated from ``buzzer.py``. You can generate these files again using the ``qanta.guesstrain.json.gz`` file in the data directory.  
+1.  (Optional) Store necessary data in the constructor so you can do retrieval later.
 1.  Modify the _train_ function so that the class stores what it needs to store to guess at what the answer is.
 1.  Modify the _call_ function so that it finds the closest indicies (in terms of *cosine* similarity) to the query.
 
@@ -80,13 +79,19 @@ What to turn in
 1.  Submit your _tfidf_guesser.py_ file
 2.  If you create new features (or reuse features from the feature engineering
 homework), also upload your _params.py_ and _features.py_ files.
-3. Submit the ``LogisticBuzzer.featurizer.pkl``, ``LogisticBuzzer.model.pkl``, ``TfidfGuesser.answers.pkl``, ``TfidfGuesser.questions.pkl``, ``TfidfGuesser.tfidf.pkl`` and the ``TfidfGuesser.vectorizer.pkl`` files. 
+3. Submit the ``TfidfGuesser.answers.pkl``,
+   ``TfidfGuesser.questions.pkl``, ``TfidfGuesser.tfidf.pkl`` and the
+   ``TfidfGuesser.vectorizer.pkl`` files that encode your model. 
 4.  Submit your _analysis.pdf_ file (no more than one page; pictures
     are better than text)
 
 Extra Credit
 =
 
+There will be two different places to submit your code on Gradescope:
+one that only tests the guesser, one that specifically tests the
+buzzer.  The guesser evaluation will retrain your model, the buzzer
+evaluation will use the the model directly.  
 1. Optimize the retrieval mechanism by tuning parameters, weighting, and/or using
    bigrams.
 2. Do well in the overall leaderboard (while overall buzz ratio and accuracy is important, more

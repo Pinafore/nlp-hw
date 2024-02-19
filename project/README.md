@@ -51,10 +51,7 @@ If you don't like the interruptability of questions, you can also just answer en
 
 Competition
 ==================
-We will use Dynabech website (https://dynabench.org/tasks/qa). If you remember the past workshop about Dynabench submission, this is the way to do it. The specific task name is "Grounded QA". Here, with the help of the video tutorial, you submit your QA model and assess how your QA model did compared to others. The assessment will take place by testing your QA model on several QA test datasets and the results of yours and your competitors will be visible on the leaderboard. Your goal is to rank the highest in terms of F1 score and accuracy. 
-
-Here is the Dynabench tutorial. https://umd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=91792791-de2e-48ee-a210-afb900212d5d
-(As of now, the task is not yet published, but you can always get a head start with the existing QA task to test out your model or practice the submission preocess before the deadline (https://dynabench.org/tasks/qa). 
+We will use Dynabech website (https://dynabench.org/tasks/qa). If you remember the past workshop about Dynabench submission, this is the way to do it. The specific task name is "Grounded QA". Here, with the help of the video tutorial, you submit your QA model and assess how your QA model did compared to others. The assessment will take place by testing your QA model on several QA test datasets and the results of yours and your competitors will be visible on the leaderboard. Your goal is to rank the highest in terms of expected wins: you buzz in with probability proportional to your confidence, and if you're more right than the competition, you win. 
 
 Writing Questions
 ==================
@@ -62,13 +59,7 @@ Writing Questions
 Alternatively, you can also *write* 50 adversarial questions that
 challenge modern NLP systems. These questions must be diverse in the
 subjects asked about, the skills computers need to answer the
-questions, and the entities in those questions. These questions should
-be submitted in two versions, pyramidal and non-pyramidal (so total of
-100). Pyramidal questions should have qualifications to make them
-PYRAMIDAL (etc., each sentence should be identifiable, and the
-sentence order should be pyramidal), and the non-pyramidal questions
-should have good coverage of the pyramidal question that you've
-written. Remember that your questions should be *factual* and
+questions, and the entities in those questions. Remember that your questions should be *factual* and
 *specific* enough for humans to answer, because your task is to stump
 the computers relative to humans!
 
@@ -76,22 +67,11 @@ In addition to the raw questions, you will also need to create citations describ
 * Why the question is difficult for computers: include citations from the NLP/AI/ML literature
 * Why the information in the question is correct: include citations from the sources you drew on the write the question
 * Why the question is interesting: include scholarly / popular culture artifacts to prove that people care about this
-* Why the question is pyramidal: discuss 
-* And an interesting non-pyramidal question that could be used for something like OQL
-
-**Example of OQL Questions**
-
-Q. France has seen a series of strikes and demonstrations in its capital city, after proposals to raise what from the age of 62 to 64? 
-A. RETIREMENT AGE 
-
-Q. Which 2004 teen romantic comedy tells of a girl, played by Hilary Duff, forced to work in her stepmother’s diner after the death of her father? She begins an online relationship with 'Nomad' who is later revealed to be the most popular boy in school, Austin, played by Chad Michael Murray.
-A. CINDERELLA STORY
-
-For more examples, refer to https://quizcentral.net/quizzes/OQL-UK-SEASON-9-CUP-QUIZ-ROUND-3.pdf
+* Why the question is pyramidal: discuss why your first clues are harder than your later clues
 
 **Category**
 
-OQL contains topics such as Art, Literature, Geography, History,
+We want questions from many domains such as Art, Literature, Geography, History,
 Science, TV and Film, Music, Lifestyle, and Sport. The questions
 should be written using all topics above (5 questions for each
 category and 5 more for the remaining categories). Indicate in your
@@ -214,12 +194,28 @@ Have the person whose last name is alphabetically last submit the
 proposal on Piazza.  Late days cannot be used on this
 assignment.
 
-First Deliverable
+Milestone 1
 ====================== 
 
 You'll have to update how things are going: what's
-working, what isn't, and how does it change your timeline?  Have the
-middle person alphabetically submit this one page update.  You'll also need to have your first submission submitted.
+working, what isn't, and how does it change your timeline?  How does it change your division of labor?
+
+*Question Writing*: You'll need to have answers selected for all of your questions and first drafts of at least 15 questions.
+
+*Project*: You'll need to have made a submission to the leaderboard with something that satisfies the API.
+
+Submit a PDF updating on your progress.
+
+Milestone 2
+===================
+
+As before, provide an updated timeline / division of labor, provide your intermediary results.  
+
+*Question Writing*: You'll need to have reflected the feedback from the first questions and completed a first draft of at least 30 questions.  You'll also need machine results to your questions and an overall evaluation of your human/computer accuracy.
+
+*Project*: You'll need to have a made a submission to the leaderboard with a working system (e.g., not just obey the API, but actually get reasonable answers).
+
+Submit a PDF updating on your progress.
 
 Final Presentation
 ======================
@@ -261,9 +257,9 @@ Each group has 10 minutes to deliver their presentation. Please record the video
 System Submission
 ======================
 
-You must submit a version of your system by May 10. It may not be perfect, but this what the question writing teams will use to test their results.
+You must submit a version of your system by May 12. It may not be perfect, but this what the question writing teams will use to test their results.
 
-Your system should be sent directly to yysung53@umd.edu in zip files, including the correct dependencies and a working inference code. Your inference code should run successfully in the root folder (extracted from zip folder) directory with the command:
+Your system should be sent directly to the professor and TAs in zip files, including the correct dependencies and a working inference code. Your inference code should run successfully in the root folder (extracted from zip folder) directory with the command:
 
 ```
 > python3 inference.py --data=evaluation_set.json 
@@ -274,7 +270,7 @@ The input will be in the form of a .json file () in the same format as the file 
 
 If you have any notes or comments that we should be aware of while running your code, please include them in the folder as a .txt file. Also, dependency information should be included as a .txt file. 
 
-Please prepend your email title with [2023-CMSC 470 System Submission].
+Please prepend your email title with [2024-CMSC 470 System Submission].
 
 Project Writeup and JSON file
 ======================

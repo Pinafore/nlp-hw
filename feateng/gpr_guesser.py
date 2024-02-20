@@ -191,12 +191,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--source_json', type=str, default="data/qanta.guesstest.json.gz")
     parser.add_argument('--build_cache', action="store_true", help="Save cache", default=False)
-    parser.add_argument('--cache', type=str, default="../models/gpt_cache")
     parser.add_argument('--run_length', type=int, default=100)
     parser.add_argument('--limit', type=int, default=10)
     flags = parser.parse_args()
     
-    gg = GprGuesser(cache_filename=flags.cache)
+    gg = GprGuesser(cache_filename="models/gpt_cache")
     gg.load()
 
     with gzip.open(flags.source_json) as infile:

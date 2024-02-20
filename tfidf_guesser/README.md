@@ -110,11 +110,20 @@ Example
 Let's first test out the train function; you must run this before the eval
 function, because this establishes your tf-idf index.
 
-    python3 guesser.py --guesser_type=TfidfGuesser --question_source=gzjson
-    --questions=../data/qanta.guesstrain.json.gz --logging_file=guesser.log
-    --limit=10
-    100%|█████████████████████████████████████████| 10/10 [00:00<00:00, 2743.89it/s]
-    100%|███████████████████████████████████████| 10/10 [00:00<00:00, 441505.68it/s]
+    python3 guesser.py --guesser_type=Tfidf \
+    --question_source=gzjson \
+    --questions=../data/qanta.guesstrain.json.gz \
+    --logging_file=guesser.log \
+    --limit=10 
+    Setting up logging
+    INFO:root:Using device 'cpu' (cuda flag=False)
+    INFO:root:Initializing guesser of type Tfidf
+    INFO:root:Loading questions from ../data/qanta.guesstrain.json.gz
+    INFO:root:Read 10 questions
+    100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00<00:00, 2473.93it/s]
+    100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00<00:00, 590747.04it/s]
+    INFO:root:Trained with 57 questions and 57 answers filtered from 10 examples
+    INFO:root:Creating tf-idf dataframe with 57
 
 
 This outputs the vectorizer (which turns text into a matrix) into the models

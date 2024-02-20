@@ -34,18 +34,18 @@ class LengthFeature(Feature):
 
     def __call__(self, question, run, guess, guess_history):
         # How many characters long is the question?
-
-
-        guess_length = 0
+        yield ("char", (len(run) - 450) / 450)
 
         # How many words long is the question?
+        yield ("word", (len(run.split()) - 75) / 75)
 
+        ftp = 0
 
         # How many characters long is the guess?
-        if guess is None or guess=="":  
-            yield ("guess", -1)         
-        else:                           
-            yield ("guess", guess_length)  
+        if guess is None or guess=="":
+            yield ("guess", -1)
+        else:
+            yield ("guess", log(1 + len(guess)))
 
             
 

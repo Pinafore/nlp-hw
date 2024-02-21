@@ -105,11 +105,13 @@ class Buzzer:
         self._feature_generators.append(feature_extractor)
         logging.info("Adding feature %s" % feature_extractor.name)
         
-    def featurize(self, question, run_text, guess_history, guesses=None):
+    def featurize(self, question, run_text, guess_history,
+                  guesses=None, guess_count=None):
         """
         Turn a question's run into features.
 
         guesses -- A dictionary of all the guesses.  If None, will regenerate the guesses.
+        guess_count -- A count of all of the other guesses
         """
         
         features = {}
@@ -131,14 +133,26 @@ class Buzzer:
             # features["%s_guess" % gg] = result["guess"]
             features["%s_confidence" % gg] = result["confidence"]
 
+            for other_guesses in guesses[gg]:                         
+                all_guesses[other_guesses["guess"]] += 1              
 
-
+        if len(all_guesses) > 1:                                            
+            consensus_guess, consensus_count = all_guesses.most_common(1)[0]
+            if consensus_guess == guess:                                    
+                logging.debug("Consensus guess matches to guess %s" % guess)
+                features["consensus_count"] = consensus_count - 1
+                features["consensus_match"] = 1
+            else:                                                           
+                features["consensus_count"] = all_guesses[guess] - 1
+                features["consensus_match"] = 0
 
         for ff in self._feature_generators:
-            for feat, val in ff(question, run_text, guess, guess_history):
+            for feat, val in ff(question, run_text, guess, guess_history, guesses):
                 features["%s_%s" % (ff.name, feat)] = val
 
-        assert guess is not None, "Guess was not set (Primary=%s)" % self._primary_guesser
+        assert guess is not None or guesses[self._primary_guesser][0]["guess"] is None, \
+          "Guess was not set (Primary=%s, others=%s) Guesses=%s" % \
+          (self._primary_guesser, str(set(guesses)), str(guesses))
         return guess, features
 
     def finalize(self):

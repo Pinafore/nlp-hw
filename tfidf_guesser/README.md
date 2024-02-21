@@ -500,6 +500,13 @@ guesses like "Cardiff" and "Edinburgh".  So this means that you'll be
 evaluating more guesses, and you may want to incorporate more features
 to distinguish middling guesses from the top guesses.
 
+Good Enough
+-
+
+For the "Good Enough" threshold, you need to implement tfidf on par
+with the baseline.  You do not need to do additional feature
+engineering.  
+
 Extra Credit
 -
 
@@ -507,10 +514,276 @@ We have a separate leaderboard for the extra credit.  Now that you
 have full control over the Guesser(s), you can perhaps be even more
 creative than you were on the last assignments with your features.  
 
+One thing you'll notice is that because there's more than one guess,
+you can and should be using the other guesses to help you do a better
+job of crafting features:
+
+    def __call__(self, question, run, guess, guess_history, other_guesses=None):
+        raise NotImplementedError(
+            "Subclasses of Feature must implement this function")
+
+The ``other_guesses`` structure is a dictionary, where the keys are
+the names of the guesser and then you have all of the guesses that
+they produced.
+
+    {
+      "Tfidf": [
+        {
+          "guess": "",
+          "confidence": 0.37647900686306596,
+          "question": "This equation's spherical analog uses a great (*) circle as the geodesic."
+        },
+        {
+          "guess": "Gradient_descent",
+          "confidence": 0.31423377416353393,
+          "question": "is a lock-free implementation of an asynchronous version of this algorithm, while Nesterov and Rumelhart et al."
+        },
+        {
+          "guess": "Kerr_effect",
+          "confidence": 0.2772825999628262,
+          "question": "The collapse and revival of a quantum state via this effect was observed by Schoelkopf et al, and Degert et al induced it via terahertz cycling."
+        },
+        {
+          "guess": "",
+          "confidence": 0.2541601924817103,
+          "question": "His daughter Edie was at one time married to Geraldo Rivera."
+        },
+        {
+          "guess": "Kurt_Vonnegut",
+          "confidence": 0.2541601924817103,
+          "question": "His daughter Edie was at one time married to Geraldo Rivera."
+        },
+        {
+          "guess": "Möbius_aromaticity",
+          "confidence": 0.24926279107473492,
+          "question": "The first synthesis of a molecule with this property was performed by Herges et al."
+        },
+        {
+          "guess": "Travelling_salesman_problem",
+          "confidence": 0.24657150329865837,
+          "question": "A 3/2 approximative algorithm to solve it is the Christofides algorithm."
+        },
+        {
+          "guess": "Frida_Kahlo",
+          "confidence": 0.243589161276024,
+          "question": "For 10 points, name this unibrowed wife of Diego Rivera."
+        },
+        {
+          "guess": "SEARCH",
+          "confidence": 0.24244180585678313,
+          "question": "One algorithm for it runs in log N time by splitting the data in half at each step; that is the (*) binary algorithm for doing this."
+        },
+        {
+          "guess": "Torus",
+          "confidence": 0.24171360134763703,
+          "question": "They can be created by revolving a circle around an axis coplanar to the circle's diameter."
+        },
+        {
+          "guess": "Ribosome",
+          "confidence": 0.23915538398196445,
+          "question": "The first atomic structure of one of these was published by Ban et al."
+        },
+        {
+          "guess": "Integer_factorization",
+          "confidence": 0.238308007274263,
+          "question": "Amethod of doing this which finds a cycle in a pseudo-random sequence is Pollard's rho algorithm.Shor developed a polynomial-time algorithm for doing this on a (*) quantum computer."
+        },
+        {
+          "guess": "",
+          "confidence": 0.23762897194751045,
+          "question": "Performers of this action might encounter a shalshelet in one of four locations, but more commonly see a pazer or et-nachta while doing it."
+        },
+        {
+          "guess": "Garbage_collection_(computer_science)",
+          "confidence": 0.2339602358183885,
+          "question": "The Deutsch-Schorr-Waite algorithm is an example of a pointer-reversal algorithm for doing it."
+        },
+        {
+          "guess": "Pseudorandom_number_generation",
+          "confidence": 0.23292464419908454,
+          "question": "Some common ways of doing this utilize Schrage's multiplication algorithm for increased performance, and a fast method of doing this was developed by Matsumoto and Nishimura."
+        },
+        {
+          "guess": "Scheduling",
+          "confidence": 0.232168804860847,
+          "question": "An optimal algorithm for performing this task which minimizes the average waiting time is the shortest-job-first algorithm, which is itself a special case of a priority algorithm for doing this."
+        },
+        {
+          "guess": "",
+          "confidence": 0.230347158472583,
+          "question": "Bakun and A.G. Lindh's Parkfield experiment was a failed attempt at doing this task, which is the goal of the the M8 algorithm."
+        },
+        {
+          "guess": "Cluster_analysis",
+          "confidence": 0.23005424325379417,
+          "question": "The 2014 KDD conference gave a test of time award to a 1996 paper by Kriegel et al that proposed an algorithm for accomplishing this task which improved upon the CLARANS algorithm to work against data sets of arbitrary shapes."
+        },
+        {
+          "guess": "Parsing",
+          "confidence": 0.22902004059465228,
+          "question": "Earley's algorithm and the CYK algorithm perform this task."
+        },
+        {
+          "guess": "Online_algorithm",
+          "confidence": 0.228495591909524,
+          "question": "Welford's algorithm for variance is this type of algorithm."
+        },
+        {
+          "guess": "Augusto_Pinochet",
+          "confidence": 0.22793925550016003,
+          "question": "This leader was also opposed by the group FPMR, a patriotic front named for Manuel Rodriguez."
+        },
+        {
+          "guess": "Iridium",
+          "confidence": 0.22766311884032236,
+          "question": "A photo-activate-able piano stool compound containing this metal was characterized by both Graham et al and Bergman et al and was used to catalyze C-H bond activation."
+        },
+        {
+          "guess": "Multiplication",
+          "confidence": 0.2266223259445582,
+          "question": "Until its replacement by the Furer algorithm, the Schonhage-Strassen algorithm was the asymptotically fastest way of doing this to large numbers."
+        },
+        {
+          "guess": "Ghrelin",
+          "confidence": 0.22467213803125147,
+          "question": "Produced by P/D1 cells, it was first discovered by Kojima et al."
+        }
+      ]
+    }
+
+Remember that if you want to inspect what the features look like, you
+can always use the ``features.py`` script, which generates the
+training data you had for the logistic regression homework:
+
+    python3 features.py --guesser_type=Tfidf --limit=100  --question_source=gzjson --TfidfGuesser_filename=models/TfidfGuesser  --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers=Tfidf --json_guess_output=data/temp
+
+If you look at the outputs, you can see how multiple guesses might be
+useful.  The ``consensus`` features counts up all the times that a
+guess has been made (higher is better, presumably).
+
+    {"guess:Garbage_collection_(computer_science)": 1, "Tfidf_confidence": 0.24944632130872874, "consensus": 6, "Length_char": 0.3333333333333333, "Length_word": 0.18666666666666668, "Length_ftp": 0, "Length_guess": 3.6375861597263857, "Frequency_guess": 2.1972245773362196, "Category_category:Science": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Science Computer Science": 1, "Category_tournament:ACF Winter": 1, "label": true}
+    {"guess:Garbage_collection_(computer_science)": 1, "Tfidf_confidence": 0.3401856393594229, "consensus": 7, "Length_char": 0.5577777777777778, "Length_word": 0.4, "Length_ftp": 1, "Length_guess": 3.6375861597263857, "Frequency_guess": 2.1972245773362196, "Category_category:Science": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Science Computer Science": 1, "Category_tournament:ACF Winter": 1, "label": true}
+    {"guess:Garbage_collection_(computer_science)": 1, "Tfidf_confidence": 0.3253436462425905, "consensus": 7, "Length_char": 0.7266666666666667, "Length_word": 0.5733333333333334, "Length_ftp": 1, "Length_guess": 3.6375861597263857, "Frequency_guess": 2.1972245773362196, "Category_category:Science": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Science Computer Science": 1, "Category_tournament:ACF Winter": 1, "label": true}
+    {"guess: ": 1, "Tfidf_confidence": 0.32610226495081074, "consensus": 0, "Length_char": -0.7666666666666667, "Length_word": -0.72, "Length_ftp": 0, "Length_guess": 0.6931471805599453, "Frequency_guess": 9.103089181229207, "Category_category:Fine Arts": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Fine Arts Visual": 1, "Category_tournament:ACF Winter": 1, "label": false}
+
+This becomes more relevant for using multiple guessers.  If we use
+both guessers with the Gpr guesser as the primary guesser, we can now
+see how this can help us.  So we generate the features (use a similar
+command line for this to be your buzzer).
+
+    python3 features.py --limit=100  --question_source=gzjson --TfidfGuesser_filename=models/TfidfGuesser  --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Tfidf Gpr --primary_guesser Gpr --json_guess_output=data/temp
+
+Now we can see for this question: 
+
+    {"guess:William Carlos Williams": 1, "Tfidf_confidence": 0.3720513912171859, "Gpr_confidence": -0.34099804599433337, "consensus_count": 0, "consensus_match": 0, "Length_char": -0.7755555555555556, "Length_word": -0.7466666666666667, "Length_ftp": 0, "Length_guess": 3.1780538303479458, "Frequency_guess": 3.4011973816621555, "Category_category:Literature": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Literature American": 1, "Category_tournament:ACF Winter": 1, "label": false}
+    {"guess:Ishmael": 1, "Tfidf_confidence": 0.37931701332166823, "Gpr_confidence": -0.35492457459849996, "consensus_count": 0, "consensus_match": 0, "Length_char": -0.5511111111111111, "Length_word": -0.49333333333333335, "Length_ftp": 0, "Length_guess": 2.0794415416798357, "Frequency_guess": 2.0794415416798357, "Category_category:Literature": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Literature American": 1, "Category_tournament:ACF Winter": 1, "label": false}
+    {"guess:Moby-Dick": 1, "Tfidf_confidence": 0.28765034540766443, "Gpr_confidence": -0.21047059701, "consensus_count": 1, "consensus_match": 0, "Length_char": -0.3333333333333333, "Length_word": -0.22666666666666666, "Length_ftp": 0, "Length_guess": 2.302585092994046, "Frequency_guess": 3.7376696182833684, "Category_category:Literature": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Literature American": 1, "Category_tournament:ACF Winter": 1, "label": false}
+    {"guess:Queequeg": 1, "Tfidf_confidence": 0.27029424160595916, "Gpr_confidence": -0.0862097396453, "consensus_count": 2, "consensus_match": 0, "Length_char": -0.1111111111111111, "Length_word": 0.013333333333333334, "Length_ftp": 0, "Length_guess": 2.1972245773362196, "Frequency_guess": 1.0986122886681098, "Category_category:Literature": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Literature American": 1, "Category_tournament:ACF Winter": 1, "label": true}
+    {"guess:Queequeg": 1, "Tfidf_confidence": 0.24726462021560894, "Gpr_confidence": -0.047181845223625, "consensus_count": 2, "consensus_match": 0, "Length_char": 0.13111111111111112, "Length_word": 0.26666666666666666, "Length_ftp": 0, "Length_guess": 2.1972245773362196, "Frequency_guess": 1.0986122886681098, "Category_category:Literature": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Literature American": 1, "Category_tournament:ACF Winter": 1, "label": true}
+    {"guess:Queequeg": 1, "Tfidf_confidence": 0.23335231906119935, "Gpr_confidence": -0.01780669447, "consensus_count": 2, "consensus_match": 1, "Length_char": 0.3377777777777778, "Length_word": 0.48, "Length_ftp": 0, "Length_guess": 2.1972245773362196, "Frequency_guess": 1.0986122886681098, "Category_category:Literature": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Literature American": 1, "Category_tournament:ACF Winter": 1, "label": true}
+    {"guess:Queequeg": 1, "Tfidf_confidence": 0.21786668240455015, "Gpr_confidence": -0.0030035892337500003, "consensus_count": 2, "consensus_match": 1, "Length_char": 0.5555555555555556, "Length_word": 0.7333333333333333, "Length_ftp": 0, "Length_guess": 2.1972245773362196, "Frequency_guess": 1.0986122886681098, "Category_category:Literature": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Literature American": 1, "Category_tournament:ACF Winter": 1, "label": true}
+    {"guess:Queequeg": 1, "Tfidf_confidence": 0.23749024257054557, "Gpr_confidence": -0.00091445903425, "consensus_count": 4, "consensus_match": 1, "Length_char": 0.74, "Length_word": 0.9066666666666666, "Length_ftp": 1, "Length_guess": 2.1972245773362196, "Frequency_guess": 1.0986122886681098, "Category_category:Literature": 1, "Category_year": 3.4011973816621555, "Category_subcategory:Literature American": 1, "Category_tournament:ACF Winter": 1, "label": true}
+
+As we go deeper into the question, the tf-idf search is turningg up
+more matches, so the consensus count is going up.  This is a great
+feature that can help the `Gpr_confidence` actually going down.  
+
+Speaking of, you might want to play around how that confidence is
+computed as well.  Take a look at the cache object:
+
+    zless ../models/gpt_cache.tar.gz
+      "After this character relates a story about how he didn't know the proper way to use a wheelbarrow, he": {
+        "guess": "William Carlos Williams",
+        "confidence": [
+          [
+            "William",
+            -1.0181785
+          ],
+          [
+            " Carlos",
+            -0.004757869
+          ],
+          [
+            " Williams",
+            -5.7768983e-05
+          ]
+        ]
+      },
+      "After this character relates a story about how he didn't know the proper way to use a wheelbarrow, he tells of how a captain dining with his father mistakenly rubbed his hands in a punch bowl. This \"sea": {
+        "guess": "Ishmael",
+        "confidence": [
+          [
+            "I",
+            -1.00852
+          ],
+          [
+            "sh",
+            -0.41000807
+          ],
+          [
+            "ma",
+            -0.001125095
+          ],
+          [
+            "el",
+            -4.5133394e-05
+          ]
+        ]
+      },
+      "After this character relates a story about how he didn't know the proper way to use a wheelbarrow, he tells of how a captain dining with his father mistakenly rubbed his hands in a punch bowl. This \"sea Prince of Wales\" leaves his home by hiding out in a canoe near a coral reef, and he is mistakenly": {
+        "guess": "Moby-Dick",
+        "confidence": [
+          [
+            "M",
+            -0.8082461
+          ],
+          [
+            "oby",
+            -0.027521435
+          ],
+          [
+            "-D",
+            -0.0057733115
+          ],
+          [
+            "ick",
+            -0.00034154154
+          ]
+        ]
+      },
+      "After this character relates a story about how he didn't know the proper way to use a wheelbarrow, he tells of how a captain dining with his father mistakenly rubbed his hands in a punch bowl. This \"sea Prince of Wales\" leaves his home by hiding out in a canoe near a coral reef, and he is mistakenly called \"Hedgehog\" by a character who offers him a ninetieth lay, a partner of Bildad named Peleg. A": {
+        "guess": "Queequeg",
+        "confidence": [
+          [
+            "Que",
+            -0.34479463
+          ],
+          [
+            "e",
+            -8.299462e-06
+          ],
+          [
+            "que",
+            -2.8160932e-06
+          ],
+          [
+            "g",
+            -3.3213026e-05
+          ]
+          ]
+        }
+          	
+You could imagine other ways of using the word piece probabilities
+rather than just taking the arithmetic mean of the log probs (which is
+what the code is currently doing).  As before, the goal is to be
+creative and to understand the data.  Good luck!
+
 Because we have already tested your guesser, we will not be retraining
 your Guesser nor your Buzzer.  So make sure that the ``save`` and ``load`` functions
 work correctly (for both the Guesser and the Buzzer).  Also make sure
-that you've trained it on as much data as possible.  
+that you've trained it on as much data as possible.  You'll need to
+modify `params.py` so that whatever works best for you is the
+default.  
 
 These submissions will be the foundation for our in-class exposition
 game, so please do try to do this extra credit, as this will be one of
@@ -520,7 +793,8 @@ Hints
 -
 
 1.  Don't use all of the data, especially at first.  Use the _limit_
-    command line argument (as in the above example).
+    command line argument (as in the above example).  Indeed, you
+    might be able to improve accuracy by *excluding* some of the data.
 2.  In case you see an error that your submission timed out on Gradescope, that means that your code needs to be simplified. 
     This is essential for your  code to work on Gradescope, so think of ways
     you can optimize your code.  Another issue if
@@ -528,10 +802,14 @@ Hints
     do it in batch.
 2.  Another problem with the submission might be that your pickle file (how your vectorizer / matrix is saved) is too large (Gradescope has a 100MB limit).  Remember that your tf-idf representation is a matrix.  It could be that your tf-idf representation
     is too wide (too many terms) or too tall (too many documents).  You had to
-    deal with this before in your previous tf-idf homework.  
-5.  The leaderboard will report both retrieval accuracy and final buzz
-    accuracy.  Both are important, as you can only decide if a guess is
-    correct if the correct guess is an option.
+    deal with this before in your previous tf-idf homework.  (Think
+    about building your vocabulary!  There are similar options in ``sklearn``)
+5.  The leaderboard will report both retrieval accuracy, precision,
+    and recall and final buzz
+    position and recall.  Both are important, as you can only decide if a guess is
+    correct if the correct guess is an option: you can get 100%
+    accuracy on the buzzer if all of the guesses are wrong... but your
+    buzz position will be horrible.
 2.  tf-idf representations do not know anything about syntax or part of
     speech.  You could add features to correct some of these problems.  (This
     is just for the extra credit!)    
@@ -539,7 +817,7 @@ Hints
     tokenizer does support n-grams, which may help you in the extra credit (but consume more
     memory):
     https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html 
-7.  *Do not focus on buzzer accuracy*!  When your guesser is broken, all of
+7.  *Do not focus on buzzer accuracy to early*!  When your guesser is broken, all of
     the guesses will be wrong and you'll trivially get perfect buzz accuracy
     (always wait).  Unless you're going for going after extra credit, you should pay attention to precision and recall (which are specific to the guesser).
 8.  That said, accuracy comes from the buzzer; if you have a bad

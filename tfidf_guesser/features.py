@@ -19,7 +19,7 @@ class Feature:
     def __init__(self, name):
         self.name = name
 
-    def __call__(self, question, run, guess, guess_history):
+    def __call__(self, question, run, guess, guess_history, other_guesses=None):
         raise NotImplementedError(
             "Subclasses of Feature must implement this function")
 
@@ -32,7 +32,7 @@ class LengthFeature(Feature):
     Feature that computes how long the inputs and outputs of the QA system are.
     """
 
-    def __call__(self, question, run, guess, guess_history):
+    def __call__(self, question, run, guess, guess_history, other_guesses=None):
         # How many characters long is the question?
         yield ("char", (len(run) - 450) / 450)
 
@@ -57,7 +57,7 @@ class GuessBlankFeature(Feature):
     """
     Is guess blank?
     """
-    def __call__(self, question, run, guess):
+    def __call__(self, question, run, guess, other_guesses=None):
         yield ('true', len(guess) == 0)
 
 
@@ -65,7 +65,7 @@ class GuessCapitalsFeature(Feature):
     """
     Capital letters in guess
     """
-    def __call__(self, question, run, guess):
+    def __call__(self, question, run, guess, other_guesses=None):
         yield ('true', log(sum(i.isupper() for i in guess) + 1))
 
 

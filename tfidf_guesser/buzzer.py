@@ -4,62 +4,19 @@
 # File to take guesses and decide if they're correct
 
 import argparse
-import string
 import logging
 import pickle
 
 from sklearn.feature_extraction import DictVectorizer
-from unidecode import unidecode
 from tqdm import tqdm
 
-
 from collections import Counter
+from collections import defaultdict
 
 from guesser import add_guesser_params
 from features import LengthFeature
 from params import add_buzzer_params, add_question_params, load_guesser, load_buzzer, load_questions, add_general_params, setup_logging
 
-def normalize_answer(answer):
-    """
-    Remove superflous components to create a normalized form of an answer that
-    can be more easily compared.
-    """
-    if answer is None:
-        return ''
-    reduced = unidecode(answer)
-    reduced = reduced.replace("_", " ")
-    if "(" in reduced:
-        reduced = reduced.split("(")[0]
-    reduced = "".join(x for x in reduced.lower() if x not in string.punctuation)
-    reduced = reduced.strip()
-
-    for bad_start in ["the ", "a ", "an "]:
-        if reduced.startswith(bad_start):
-            reduced = reduced[len(bad_start):]
-    return reduced.strip()
-
-def rough_compare(guess, page):
-    """
-    See if a guess is correct.  Not perfect, but better than direct string
-    comparison.  Allows for slight variation.
-    """
-    # TODO: Also add the original answer line
-    if page is None:
-        return False
-    
-    guess = normalize_answer(guess)
-    page = normalize_answer(page)
-
-    if guess == '':
-        return False
-    
-    if guess == page:
-        return True
-    elif page.find(guess) >= 0 and (len(page) - len(guess)) / len(page) > 0.5:
-        return True
-    else:
-        return False
-    
 def runs(text, run_length):
     """
     Given a quiz bowl questions, generate runs---subsegments that simulate
@@ -98,7 +55,7 @@ class Buzzer:
     Base class for any system that can decide if a guess is correct or not.
     """
     
-    def __init__(self, filename, run_length, num_guesses):
+    def __init__(self, filename, run_length, num_guesses=1):
         self.filename = filename
         self.num_guesses = num_guesses
         self.run_length=run_length
@@ -148,7 +105,7 @@ class Buzzer:
         self._feature_generators.append(feature_extractor)
         logging.info("Adding feature %s" % feature_extractor.name)
         
-    def featurize(self, question, run_text, guesses=None):
+    def featurize(self, question, run_text, guess_history, guesses=None):
         """
         Turn a question's run into features.
 
@@ -176,10 +133,12 @@ class Buzzer:
 
 
 
+
         for ff in self._feature_generators:
-            for feat, val in ff(question, run_text, guess):
+            for feat, val in ff(question, run_text, guess, guess_history):
                 features["%s_%s" % (ff.name, feat)] = val
 
+        assert guess is not None, "Guess was not set (Primary=%s)" % self._primary_guesser
         return guess, features
 
     def finalize(self):
@@ -193,7 +152,7 @@ class Buzzer:
         
     def add_data(self, questions, answer_field="page"):
         """
-        Add data and extract features from them.
+        Add data and store them so you can later create features for them
         """
         
         self.finalize()
@@ -217,12 +176,14 @@ class Buzzer:
                 self._runs.append(rr)
                 self._questions.append(qq)
 
-    def build_features(self):
+    def build_features(self, history_length=0, history_depth=0):
         """
         After all of the data has been added, build features from the guesses and questions.
         """
-        
+        from eval import rough_compare
+
         all_guesses = {}
+        logging.info("Building guesses from %s" % str(self._guessers.keys()))
         for guesser in self._guessers:
             all_guesses[guesser] = self._guessers[guesser].batch_guess(self._runs, self.num_guesses)
             logging.info("%10i guesses from %s" % (len(all_guesses[guesser]), guesser))
@@ -236,11 +197,16 @@ class Buzzer:
         logging.info("Generating all features")
         for question_index in tqdm(range(num_runs)):
             question_guesses = dict((x, all_guesses[x][question_index]) for x in self._guessers)
-            
+            guess_history = defaultdict(dict)
+            for guesser in question_guesses:
+                # print("Building history with depth %i and length %i" % (history_depth, history_length))
+                guess_history[guesser] = dict((time, guess[:history_depth]) for time, guess in enumerate(all_guesses[guesser]) if time < question_index and time > question_index - history_length)
+
+            # print(guess_history)
             question = self._questions[question_index]
             run = self._runs[question_index]
             answer = self._answers[question_index]
-            guess, features = self.featurize(question, run, question_guesses)
+            guess, features = self.featurize(question, run, guess_history, question_guesses)
             
             self._features.append(features)
             self._metadata.append({"guess": guess, "answer": answer, "id": question["qanta_id"], "text": run})
@@ -270,11 +236,11 @@ class Buzzer:
 
         """
         
-        features = [self.featurize(None, run)]
+        guess, features = self.featurize(None, run)
 
-        X = self._featurizer.transform(features)
+        X = self._featurizer.transform([features])
 
-        return self._classifier.predict(X), features[0]
+        return self._classifier.predict(X), guess, features
     
            
     def predict(self, questions, online=False):
@@ -288,6 +254,31 @@ class Buzzer:
         X = self._featurizer.transform(self._features)
 
         return self._classifier.predict(X), X, self._features, self._correct, self._metadata
+
+    def write_json(self, output_filename):
+        import json
+        
+        vocab = set()
+        with open(output_filename, 'w') as outfile:
+            for features, correct, meta in zip(self._features, self._correct, self._metadata):
+                assert "label" not in features
+                new_features = {}
+
+                new_features['guess:%s' % meta['guess']] = 1                
+                for key in features:
+                    if isinstance(features[key], str):
+                        new_features["%s:%s" % (key, features[key])] = 1
+                    else:
+                        new_features[key] = features[key]
+                for key in new_features:
+                    vocab.add(key)
+
+                new_features['label'] = correct
+                    
+                outfile.write("%s\n" % json.dumps(new_features))
+        vocab = list(vocab)
+        vocab.sort()
+        return ['BIAS_CONSTANT'] + vocab
     
     def load(self):
         """
@@ -321,6 +312,7 @@ if __name__ == "__main__":
     # Train a simple model on QB data, save it to a file
     import argparse
     parser = argparse.ArgumentParser()
+
     add_general_params(parser)
     add_guesser_params(parser)
     add_buzzer_params(parser)
@@ -333,7 +325,8 @@ if __name__ == "__main__":
     questions = load_questions(flags)
 
     buzzer.add_data(questions)
-    buzzer.build_features()
+    buzzer.build_features(flags.buzzer_history_length,
+                          flags.buzzer_history_depth)
 
     buzzer.train()
     buzzer.save()

@@ -18,6 +18,9 @@ Most of this assignment will be done by calling libraries that have already
 been implemented for you.  If you are over-implementing, you are generating
 extra work for yourself and making yourself vulnerable to errors.
 
+That said, the second part of the homework---doing as well as you can
+buzzing---is meant to be more fun and open-ended.
+
 You'll turn in your code on Gradescope.
 
 What you have to do
@@ -102,6 +105,8 @@ evaluation will use the the model directly.
     that, make sure to upload that file too.
 4. Finally, you can get extra credit for by submitting your system on Dynabench (assuming
    we can get it up in time ... watch Piazza for announcements).
+5. You can and should use multiple guessers (e.g., it's allowed to use
+   the GPT and tf-idf guesser).  You can also create a new guesser.
 
 
 Example
@@ -136,12 +141,8 @@ you've done that, you can now run the guesser.
  answer the same darn answer to all of the questions.  You'll obviously need
  to fix this.
 
-This is an example of how you can run the ```buzzer.py``` file on the ```qanta.guesstrain.json.gz``` file to generate the buzzer pickle files:
-```
-python3 buzzer.py --guesser_type=TfidfGuesser --limit=50  --question_source=gzjson --TfidfGuesser_filename=models/TfidfGuesser  --questions=../data/qanta.guesstrain.json.gz --buzzer_guessers=TfidfGuesser
-```
-
-This is an example of what your code (tfidf_guesser.py) output should look like:
+This is an example of what your code output should look like when you
+evaluate how well the recall is working:
 ```
 > python3 eval.py --evaluate=guesser --question_source=gzjson \
 --questions=../data/qanta.guessdev.json.gz --limit=500
@@ -492,6 +493,29 @@ close 0.12
 =================
 ```
 
+This is different from the guesser last time because we now have
+multiple guesses at once.  In other words, rather than only guessing
+"London" given the question "Name this UK capital", you'll get more
+guesses like "Cardiff" and "Edinburgh".  So this means that you'll be
+evaluating more guesses, and you may want to incorporate more features
+to distinguish middling guesses from the top guesses.
+
+Extra Credit
+-
+
+We have a separate leaderboard for the extra credit.  Now that you
+have full control over the Guesser(s), you can perhaps be even more
+creative than you were on the last assignments with your features.  
+
+Because we have already tested your guesser, we will not be retraining
+your Guesser nor your Buzzer.  So make sure that the ``save`` and ``load`` functions
+work correctly (for both the Guesser and the Buzzer).  Also make sure
+that you've trained it on as much data as possible.  
+
+These submissions will be the foundation for our in-class exposition
+game, so please do try to do this extra credit, as this will be one of
+the most fun opportunities we'll have for extra credit in the class.
+
 Hints
 -
 
@@ -521,7 +545,11 @@ Hints
 8.  That said, accuracy comes from the buzzer; if you have a bad
     accuracy score despite updating the guesser, it's possible that
     the pickle for your buzzer has not been updated and is looking for
-    the wrong features (or is miscalibrated). 
+    the wrong features (or is miscalibrated).  Focusing on buzz
+    position is more worthwhile.
+9.  If you find that things are taking too long (things are timing out
+    on Gradescope), implement the
+    ``batch_guess`` function to guess on many examples at once.
 9.  Once you've completed the required part of the homework and you're
     trying to increase the recall further, you can investigate
     changing the dimensions of the vectorization: what normalization

@@ -23,6 +23,12 @@ import os
 from nltk.tokenize import sent_tokenize
 from guesser import print_guess, Guesser
 
+kTFIDF_TEST_QUESTIONS = {"This capital of England": ['Maine', 'Boston'],
+                        "The author of Pride and Prejudice": ['Jane_Austen', 'Jane_Austen'],
+                        "The composer of the Magic Flute": ['Wolfgang_Amadeus_Mozart', 'Wolfgang_Amadeus_Mozart'],
+                        "The economic law that says 'good money drives out bad'": ["Gresham's_law", "Gresham's_law"],
+                        "located outside Boston, the oldest University in the United States": ['College_of_William_&_Mary', 'Rhode_Island']}
+
 
 class DummyVectorizer:
     """
@@ -65,9 +71,9 @@ class TfidfGuesser(Guesser):
         the matrix representation of the documents (tfidf) consistent
         with that vectorizer.
         """
-
+        
         Guesser.train(self, training_data, answer_field, split_by_sentence, min_length,
-                          max_length, remove_missing_pages)
+                      max_length, remove_missing_pages)
 
         self.tfidf = self.tfidf_vectorizer.transform(self.questions)
         logging.info("Creating tf-idf dataframe with %i" % len(self.questions))
@@ -76,6 +82,7 @@ class TfidfGuesser(Guesser):
         """
         Save the parameters to disk
         """
+        Guesser.save_questions_and_answers(self)
         
         path = self.filename
         with open("%s.vectorizer.pkl" % path, 'wb') as f:
@@ -83,12 +90,6 @@ class TfidfGuesser(Guesser):
         
         with open("%s.tfidf.pkl" % path, 'wb') as f:
             pickle.dump(self.tfidf, f)
-
-        with open("%s.questions.pkl" % path, 'wb') as f:
-            pickle.dump(self.questions, f)
-
-        with open("%s.answers.pkl" % path, 'wb') as f:
-            pickle.dump(self.answers, f)
 
     def __call__(self, question, max_n_guesses=4):
         """
@@ -118,6 +119,27 @@ class TfidfGuesser(Guesser):
         return guesses
 
     def batch_guess(self, questions, max_n_guesses, block_size=1024):
+        """
+        The batch_guess function allows you to find the search
+        results for multiple questions at once.  This is more efficient
+        than running the retriever for each question, finding the
+        largest elements, and returning them individually.  
+
+        To understand why, remember that the similarity operation for an
+        individual query and the corpus is a dot product, but if we do
+        this as a big matrix, we can fit all of the documents at once
+        and then compute the matrix as a parallelizable matrix
+        multiplication.
+
+        The most complicated part is sorting the resulting similarities,
+        which is a good use of the argpartition function from numpy.
+        """
+
+        # IMPORTANT NOTE FOR HOMEWORK: you do not need to complete
+        # batch_guess.  If you're having trouble with this, just
+        # delete the function, and the parent class will emulate the
+        # functionality one row at a time.
+        
         from math import floor
     
         all_guesses = []
@@ -156,13 +178,8 @@ class TfidfGuesser(Guesser):
         
         with open("%s.tfidf.pkl" % path, 'rb') as f:
             self.tfidf = pickle.load(f)
-        
-        with open("%s.questions.pkl" % path, 'rb') as f:
-            self.questions = pickle.load(f)
 
-        with open("%s.answers.pkl" % path, 'rb') as f:
-            self.answers = pickle.load(f)
-
+        self.load_questions_and_answers()
 
 if __name__ == "__main__":
     # Load a tf-idf guesser and run it on some questions
@@ -178,12 +195,7 @@ if __name__ == "__main__":
     
     guesser = load_guesser(flags, load=True)
 
-    questions = ["This capital of England",
-                 "The author of Pride and Prejudice",
-                 "The composer of the Magic Flute",
-                 "The economic law that says 'good money drives out bad'",
-                 "located outside Boston, the oldest University in the United States"]
-
+    questions = list(kTFIDF_TEST_QUESTIONS.keys())
     guesses = guesser.batch_guess(questions, 3, 2)
 
     for qq, gg in zip(questions, guesses):

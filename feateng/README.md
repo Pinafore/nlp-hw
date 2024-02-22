@@ -91,7 +91,7 @@ class in ``features.py``.
 
 	    def add_training(self, question_source):
 		import json
-		with open(question_source) as infile:
+		with gzip.open(question_source) as infile:
 			questions = json.load(infile)
 			for ii in questions:
 			    self.counts[self.normalize(ii["page"])] += 1
@@ -124,7 +124,7 @@ add the feature name to the command line to turn it on.
         if ff == "Frequency":
             from features import FrequencyFeature
             feature = FrequencyFeature(ff)
-            feature.add_training("../data/qanta.buzztrain.json")
+            feature.add_training("../data/qanta.buzztrain.json.gz")
             buzzer.add_feature(feature)
 
 Don't forget that you're training a classifier.  This classifier will
@@ -133,8 +133,8 @@ let's train the classifier *without* that new feature.
 
     mkdir -p models
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-      --question_source=json --GprGuesser_filename=../models/gpt_cache \
-      --questions=../data/qanta.buzztrain.json --buzzer_guessers Gpr \
+      --GprGuesser_filename=../models/gpt_cache \
+      --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
       --LogisticBuzzer_filename=models/no_length --features ""
     Setting up logging
     INFO:root:Using device 'cuda' (cuda flag=False)
@@ -149,7 +149,7 @@ let's train the classifier *without* that new feature.
     INFO:root:9310 entries added to cache
     INFO:root:Adding Gpr to Buzzer (total guessers=1)
     Initializing features: ['']
-    dataset: ../data/qanta.buzztrain.json
+    dataset: ../data/qanta.buzztrain.json.gz
     ERROR:root:1 features on command line (['']), but only added 0 (set()).  Did you add code to params.py's load_buzzer to actually add the feature to the buzzer?  Or did you forget to increment features_added in that function?
     INFO:root:Read 50 questions
     100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 118416.26it/s]
@@ -165,7 +165,7 @@ If you get a warning about convergence, it is okay; hopefully it will converge b
 
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
       --question_source=json --GprGuesser_filename=../models/gpt_cache \
-      --questions=../data/qanta.buzztrain.json --buzzer_guessers Gpr \
+      --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
       --LogisticBuzzer_filename=models/with_length --features Length
     Setting up logging
     INFO:root:Using device 'cuda' (cuda flag=False)
@@ -180,7 +180,7 @@ If you get a warning about convergence, it is okay; hopefully it will converge b
     INFO:root:9310 entries added to cache
     INFO:root:Adding Gpr to Buzzer (total guessers=1)
     Initializing features: ['Length']
-    dataset: ../data/qanta.buzztrain.json
+    dataset: ../data/qanta.buzztrain.json.gz
     INFO:root:Adding feature Length
     INFO:root:Read 50 questions
     100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 118751.53it/s]
@@ -203,8 +203,8 @@ Now you need to evaluate the classifier.  The script eval.py will run the classi
 Let's compare with the Length:
 
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-    --question_source=json --GprGuesser_filename=../models/gpt_cache \
-    --questions=../data/qanta.buzztrain.json --buzzer_guessers Gpr \
+    --GprGuesser_filename=../models/gpt_cache \
+    --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
     --features Length Frequency
 
 compared to without it:

@@ -295,8 +295,9 @@ if __name__ == "__main__":
                       flags.guesser_split_sentence)
         guesser.save()
     else:
-        logging.info("Training with default guesser API (give %s), this might mean something has gone wrong if you wanted to match ToyTfidf, President, Wiki, or Dan" %
-                     flags.guesser_type)
+        if flags.guesser_type not in ['Tfidf']:
+            logging.info("Training with default guesser API (gave %s), this might mean something has gone wrong if you wanted to match ToyTfidf, President, Wiki, or Dan" %
+                        flags.guesser_type)
         guesser.train(questions,
                       flags.guesser_answer_field,
                       flags.guesser_split_sentence,

@@ -133,7 +133,7 @@ let's train the classifier *without* that new feature.
 
     mkdir -p models
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-      --GprGuesser_filename=../models/gpt_cache \
+      --GprGuesser_filename=../models/buzztrain_gpt_cache \
       --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
       --LogisticBuzzer_filename=models/no_length --features ""
     Setting up logging
@@ -164,7 +164,7 @@ let's train the classifier *without* that new feature.
 If you get a warning about convergence, it is okay; hopefully it will converge better with more features!  Likewise, don't worry about the warning about the features, I just wanted to be sure it didn't add the length feature.  Because we want to do that next: train a model *with* that new feature.  Note that we're naming the model something different:
 
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-      --question_source=json --GprGuesser_filename=../models/gpt_cache \
+      --question_source=json --GprGuesser_filename=../models/buzztrain_gpt_cache \
       --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
       --LogisticBuzzer_filename=models/with_length --features Length
     Setting up logging
@@ -203,7 +203,7 @@ Now you need to evaluate the classifier.  The script eval.py will run the classi
 Let's compare with the Length:
 
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-    --GprGuesser_filename=../models/gpt_cache \
+    --GprGuesser_filename=../models/buzztrain_gpt_cache \
     --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
     --features Length Frequency
 
@@ -212,7 +212,7 @@ compared to without it:
     .venv/bin/python3  eval.py --guesser_type=Gpr \
     --TfidfGuesser_filename=models/TfidfGuesser --limit=25 \
      --questions=../data/qanta.buzzdev.json.gz --buzzer_guessers Gpr \
-     --GprGuesser_filename=../models/gpt_cache  \
+     --GprGuesser_filename=../models/buzzdev_gpt_cache  \
      --LogisticBuzzer_filename=models/no_length --features ""
 
 You'll see quite a bit of output, so I'm just going to walk through it bit by
@@ -341,6 +341,22 @@ Turn in the above files as usual via Gradescope, where we'll be using the
 leaderboard as before.  However, the position on the leaderboard will count
 for more of your grade.
 
+Checking the Cache
+-----------------
+
+If things aren't working well, you might have missing cache elements.  You can check if your cache "hits" enough by running this command:
+
+    jbg:GPT3QA jordan$ .venv/bin/python3 gpr_guesser.py --cache=models/buzztrain_gpr_cache --source_jsongz=data/qanta.buzztrain.json.gz
+    INFO:root:Loading 609173 questions and 609173 answers
+    Loaded 18460 question
+    Generating runs of length 100
+    100%|███████████████████████████████| 18460/18460 [00:00<00:00, 42508.31it/s]
+    ---------------------
+    0.9840390879478828
+    INFO:root:Hit ratio: 0.984039
+
+It won't be 100 because OpenAI refuses to answer some of the questions, but it should be above 0.975.  Anything else is likely a problem and will likely result in lower accuracy.
+
 FAQ
 -----------------
 
@@ -405,17 +421,48 @@ coming from?
  around with the GprGuesser a little:
 
 
+    >>> list(gg.cache.keys())[:3]
+    ['The men in this work speak "of planting and rain, tractors and
+    taxes". Some neighbors are denounced as a "pack of crazy old fools" to
+    Mr. and Mrs. Adams by Old Man Warner. Earlier, Bobby Martin and Dickie
+    Dell-a-croy are spotted playing, and some wooden chips were previously
+    housed in Mr. Graves\' barn before being replaced by paper, as per the
+    orders to the local coal entrepreneur. That character, Mr. Summers,
+    later brings out a three-legged stool on June 27th and puts a black
+    box on the stool. Townspeople like the Dunbars are relieved that they
+    don\'t meet the fate of Tessie Hutchinson, who draws a slip of paper
+    with a black spot on it. Name this short story in which Tessie is
+    stoned to death as a result of the titular ritual, a work by Shirley
+    Jackson.', 'One of the men depicted would die ten years later on the
+    Gila River Indian Reservation after drinking', 'Men involved in this
+    battle asked each other who Mickie Mouse\'s girlfriend was after the
+    aggressors of this battle infiltrated enemy ranks and sabotaged
+    progress in Operation Greif. In this battle, the Peipers, after
+    capturing an enemy unit of 150 men, murdered 84 of them in an event
+    known as the (*) Malmedy Massacre. The instigators of this offensive
+    met fierce resistance in the city of Bastogne from a small force led
+    by Brigadier General McAuliffe, who, when asked to surrender, cried
+    "Nuts!" before being relieved by General Patton\'s Third Army. For ten
+    points, name this last German offensive in the Ardennes, in which
+    Adolf Hitler attempted to recapture Antwerp.']
+    >>> question = list(gg.cache.keys())[0]
+    >>> question
+    'The men in this work speak "of planting and rain, tractors and taxes". Some neighbors are denounced as a "pack of crazy old fools" to Mr. and Mrs. Adams by Old Man Warner. Earlier, Bobby Martin and Dickie Dell-a-croy are spotted playing, and some wooden chips were previously housed in Mr. Graves\' barn before being replaced by paper, as per the orders to the local coal entrepreneur. That character, Mr. Summers, later brings out a three-legged stool on June 27th and puts a black box on the stool. Townspeople like the Dunbars are relieved that they don\'t meet the fate of Tessie Hutchinson, who draws a slip of paper with a black spot on it. Name this short story in which Tessie is stoned to death as a result of the titular ritual, a work by Shirley Jackson.'
+    >>> gg(question)
+    [{'guess': 'The Lottery', 'confidence': -0.0060731087}]
 
 The keys are the prompts to GPT.  We've given GPT the closest examples
 we can find in Wikipedia and from our existing dataset.
-
 
 Let's take a look at what this returned.  We get the title, but that's
 not all.  Remember that GPT is just a language model, so it generates
 one word piece at a time, and we have a probability for each word
 piece.
 
-You may want to use these to create features!
+    >>> gg.cache[question]
+    {'guess': 'The Lottery', 'confidence': [['The', -0.010978376], [' Lottery', -0.0011678414]]}
+
+You may want to use these to create features beyoned the default of artithmetic average of the log probabilities!
 
 *Q:* What if I get the error that ``GprGuesser`` has no attribute 'predict'?
 

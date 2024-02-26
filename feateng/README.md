@@ -133,7 +133,7 @@ let's train the classifier *without* that new feature.
 
     mkdir -p models
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-      --GprGuesser_filename=../models/buzztrain_gpt_cache \
+      --GprGuesser_filename=../models/buzztrain_gpr_cache \
       --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
       --LogisticBuzzer_filename=models/no_length --features ""
     Setting up logging
@@ -164,7 +164,7 @@ let's train the classifier *without* that new feature.
 If you get a warning about convergence, it is okay; hopefully it will converge better with more features!  Likewise, don't worry about the warning about the features, I just wanted to be sure it didn't add the length feature.  Because we want to do that next: train a model *with* that new feature.  Note that we're naming the model something different:
 
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-      --question_source=json --GprGuesser_filename=../models/buzztrain_gpt_cache \
+      --question_source=json --GprGuesser_filename=../models/buzztrain_gpr_cache \
       --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
       --LogisticBuzzer_filename=models/with_length --features Length
     Setting up logging
@@ -203,7 +203,7 @@ Now you need to evaluate the classifier.  The script eval.py will run the classi
 Let's compare with the Length:
 
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-    --GprGuesser_filename=../models/buzztrain_gpt_cache \
+    --GprGuesser_filename=../models/buzztrain_gpr_cache \
     --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
     --features Length Frequency
 
@@ -212,7 +212,7 @@ compared to without it:
     .venv/bin/python3  eval.py --guesser_type=Gpr \
     --TfidfGuesser_filename=models/TfidfGuesser --limit=25 \
      --questions=../data/qanta.buzzdev.json.gz --buzzer_guessers Gpr \
-     --GprGuesser_filename=../models/buzzdev_gpt_cache  \
+     --GprGuesser_filename=../models/buzzdev_gpr_cache  \
      --LogisticBuzzer_filename=models/no_length --features ""
 
 You'll see quite a bit of output, so I'm just going to walk through it bit by

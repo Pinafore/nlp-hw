@@ -48,7 +48,7 @@ def add_guesser_params(parser):
     parser.add_argument('--wiki_min_frequency', type=int, help="How often must wiki page be an answer before it is used", default=10)
     parser.add_argument('--TfidfGuesser_filename', type=str, default="models/TfidfGuesser")
     parser.add_argument('--WikiGuesser_filename', type=str, default="models/WikiGuesser")    
-    parser.add_argument('--GprGuesser_filename', type=str, default="models/gpt_cache")
+    parser.add_argument('--GprGuesser_filename', type=str, default="models/buzztrain_gpr_cache")
     parser.add_argument('--wiki_zim_filename', type=str, default="data/wikipedia.zim")
     parser.add_argument('--num_guesses', type=int, default=25)
 

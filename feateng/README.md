@@ -360,6 +360,10 @@ It won't be 100 because OpenAI refuses to answer some of the questions, but it s
 FAQ
 -----------------
 
+*Q.* I get a ``No such file or directory: '../data/qanta.buzztrain.json.gz'`` when I run the code on Gradescope.
+
+*A.* Change the path to ``'./data/qanta.buzztrain.json.gz'`` in the ``features.add_training`` line.
+
 *Q.* Eval only shows me what the questions I'm getting right and wrong
 are.  How do I know what the features look like?
 

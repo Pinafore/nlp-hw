@@ -164,7 +164,7 @@ let's train the classifier *without* that new feature.
 If you get a warning about convergence, it is okay; hopefully it will converge better with more features!  Likewise, don't worry about the warning about the features, I just wanted to be sure it didn't add the length feature.  Because we want to do that next: train a model *with* that new feature.  Note that we're naming the model something different:
 
     python3 buzzer.py --guesser_type=Gpr --limit=50 \
-      --question_source=json --GprGuesser_filename=../models/buzztrain_gpr_cache \
+      --GprGuesser_filename=../models/buzztrain_gpr_cache \
       --questions=../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr \
       --LogisticBuzzer_filename=models/with_length --features Length
     Setting up logging

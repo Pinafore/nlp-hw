@@ -5,7 +5,7 @@ Before, you built a logistic regression system from scratch and tested it on
 how well it could predict if an answer was correct.
 
 In this homework, you're going to continue to improve the accuracy of such a system by creating
-new features.
+new features (but as we'll talk about in a moment, "accuracy" isn't exactly the best metric to use as our primary objective).
 
 You will improve the classification by extracting useful information from
 the guesses and generate better features for input into the *logistic

@@ -473,3 +473,7 @@ You may want to use these to create features beyoned the default of artithmetic 
 *A:* This means that you're running it on a guesser result that hasn't been
  cached or that it can't find the cache file.  Make sure the path is correct,
  and use the limit option to only process a handful of examples.
+
+ *Q:* What's the intuition behind "buzz ratio"?  
+
+ *A:* It corresponds to how many points you get per question.  In the trivia community this is [points per tossup heard](https://www.naqt.com/stats/explanation.jsp#:~:text=For%20teams%2C%20PPTUH%20is%20the,an%20average%2020%2Dtossup%20game.).

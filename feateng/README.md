@@ -362,7 +362,7 @@ FAQ
 
 *Q.* I get a ``No such file or directory: '../data/qanta.buzztrain.json.gz'`` when I run the code on Gradescope.
 
-*A.* Change the path to ``'./data/qanta.buzztrain.json.gz'`` in the ``features.add_training`` line.
+*A.* Since the data directory is below where the code runs on Gradescope, Change the path to ``'./data/qanta.buzztrain.json.gz'`` in the ``features.add_training`` line.  If you find this annoying, you can use the following workarounds: (i) putting this into a try/except framework to work with either place, (ii) creating a symlink so so that ./data points to ../data on your development computer, (3) [first checking which path exists](https://docs.python.org/3/library/os.path.html) and then using the correct one.
 
 *Q.* Eval only shows me what the questions I'm getting right and wrong
 are.  How do I know what the features look like?

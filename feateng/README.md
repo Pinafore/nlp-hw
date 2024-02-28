@@ -294,12 +294,12 @@ How to start
 
 
 
-Accuracy (15+ points)
+Finding Correct Guesses (15+ points)
 ------------------------------
 
 15 points of your score will be generated from your performance on the
 the classification competition on the leaderboard.  The performance will be
-evaluated on accuracy on a held-out test set.
+evaluated on a held-out test set.  As discussed in more detail in the "good enough" section, we mostly care about increasing the proportion of "best" outcomes and improving the buzz ratio, and raw accuracy alone can be misleading.
 
 You should be able to significantly
 improve on the baseline system.  If you can

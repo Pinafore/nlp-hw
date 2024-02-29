@@ -360,6 +360,10 @@ It won't be 100 because OpenAI refuses to answer some of the questions, but it s
 FAQ
 -----------------
 
+*Q.:* How can I improve the "waiting" category.
+
+*A.:* That's the neat thing, you don't.  If the guesser is wrong, then there's nothing you can do to make it correct (future homeworks won't have that problem).  What you can do is to convert "timid" to "best" and convert "aggressive" to "waiting".  
+
 *Q.* I get a ``No such file or directory: '../data/qanta.buzztrain.json.gz'`` when I run the code on Gradescope.
 
 *A.* Since the data directory is below where the code runs on Gradescope, Change the path to ``'./data/qanta.buzztrain.json.gz'`` in the ``features.add_training`` line.  If you find this annoying, you can use the following workarounds: (i) putting this into a try/except framework to work with either place, (ii) creating a symlink so so that ./data points to ../data on your development computer, (3) [first checking which path exists](https://docs.python.org/3/library/os.path.html) and then using the correct one.

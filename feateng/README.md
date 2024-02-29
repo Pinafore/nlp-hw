@@ -381,20 +381,25 @@ Make sure that you've enabled all of the features that you want to use.
 *Q.* Why can't I use ``['page']`` or ``['answer']`` when creating
 features?  Can I use it during training?
 
-*A.* You cannot use those fields nor "page" / "text" when generating features,
+*A.* Remember that we have multiple folds of the data, and we're using mostly buzztrain 
+and buzzdev in this homework.  For those fields you cannot use "page" / "text" when
+generating features for the example you're trying to decide whether or not to trust the guess,
 however, as that would be cheating.  That's why they get removed
 before the feature generator is called.  If you need the current text
 available, that's the "run", and your job is to see if the current
 "guess" is correct or not.
 
-Now, that's not to say that you can never use the page field.  During
-training, you can of course use the text and page.  You can see this
+Now, that's not to say that you can never use the page field.  You can use the field 
+from *other* questions to better understand the distribution of answers, questions, etc.  You can see this
 in the example Frequency feature: it uses the page to compute how
-often each correct response is.  You then check for a *guess* that comes
-in how frequent it is.
+often each correct response is in the guesstrain fold.  You then check for a *guess* that comes
+in how frequent it is in guesstrain; the intuition is that if the guess is more frequent,
+it might be more likely to be an answer.  Or if something has never been an answer before,
+maybe you should not risk it (and perhaps the relationship is non-linear, and you might need
+to add cutoffs or thresholds ... hint, hint).
 
 But that's the exception, usually the only way you would use the real
-'page' during training is as the label to the classifier: is this
+'page' during training on the buzzdev fold is as the label to the classifier: is this
 guess correct becomes a positive example, is this guess incorrect
 becomes a negative example.
 

@@ -378,14 +378,14 @@ generated the JSON files for the logistic regression homework.
 
 Make sure that you've enabled all of the features that you want to use.
 
-*Q.* Why can't I use ``['page']`` or ``['answer']`` when creating
+*Q.* Why can't I use ``['page']`` or ``['text']`` or ``['first_sentence']`` or ``['answer']`` when creating
 features?  Can I use it during training?
 
 *A.* Remember that we have multiple folds of the data, and we're using mostly buzztrain 
 and buzzdev in this homework.  For those fields you cannot use "page" / "text" when
 generating features for the example you're trying to decide whether or not to trust the guess,
 however, as that would be cheating.  That's why they get removed
-before the feature generator is called.  If you need the current text
+before the feature generator is called (in ``add_data`` in ``buzzer.py``) so that you cannot cheat.  If you need the current text
 available, that's the "run", and your job is to see if the current
 "guess" is correct or not.
 

@@ -608,3 +608,7 @@ logic for computing it will help you compute the document frequencies.
 
 **A:** They're not really two different tokens, they both got mapped
 to the unknown token.
+
+**Q: Why is there a ``page`` field and an ``answer`` field.  Which one do I use?**
+
+**A:** As you can see, the ``answer`` field has inconsistent formatting and is sometimes ambiguious.   To make things a little more sane, we map all of the answers to Wikipedia page titles.  This makes it so that rather than having to guess exactly the crazy formatting of the answer line, the Guesser just needs to match up to the correct underlying entity.  Not all questions have pages, which does cause a problem, but we're going to ignore that issue for a while, as most of them do have pages associated.

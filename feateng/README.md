@@ -278,7 +278,7 @@ You can:
 Good Enough
 -
 This is a very open-ended assignment.  Improve the "best" class by
-at least 0.02 percent by adding new features, and you have done enough.
+at least 0.02 percent or improve the buzz ratio by 0.02 by adding new features, and you have done enough.
 
 What Can't You Do?
 -

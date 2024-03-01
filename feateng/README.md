@@ -360,6 +360,7 @@ It won't be 100 because OpenAI refuses to answer some of the questions, but it s
 FAQ
 -----------------
 
+<<<<<<< HEAD
 *Q.:* How can I improve the "waiting" category.
 
 *A.:* That's the neat thing, you don't.  If the guesser is wrong, then there's nothing you can do to make it correct (future homeworks won't have that problem).  What you can do is to convert "timid" to "best" and convert "aggressive" to "waiting".  
@@ -367,23 +368,35 @@ FAQ
 *Q.* I get a ``No such file or directory: '../data/qanta.buzztrain.json.gz'`` when I run the code on Gradescope.
 
 *A.* Since the data directory is below where the code runs on Gradescope, Change the path to ``'./data/qanta.buzztrain.json.gz'`` in the ``features.add_training`` line.  If you find this annoying, you can use the following workarounds: (i) putting this into a try/except framework to work with either place, (ii) creating a symlink so so that ./data points to ../data on your development computer, (3) [first checking which path exists](https://docs.python.org/3/library/os.path.html) and then using the correct one.
+=======
+**Q. I get a ``No such file or directory: '../data/qanta.buzztrain.json.gz'`` when I run the code on Gradescope.**
 
-*Q.* Eval only shows me what the questions I'm getting right and wrong
-are.  How do I know what the features look like?
+**A.** Change the path to ``'./data/qanta.buzztrain.json.gz'`` in the ``features.add_training`` line.
+>>>>>>> 29f01c8 (complex features)
 
-*A.* Use ``features.py`` to investigate this.  This is how we
+**Q. Eval only shows me what the questions I'm getting right and wrong
+are.  How do I know what the features look like?**
+
+**A.** Use ``features.py`` to investigate this.  This is how we
 generated the JSON files for the logistic regression homework.
 
     python3 features.py --json_guess_output=../data/inspect.jsonl --buzzer_guessers 'Gpr' --questions=../data/qanta.buzztrain.json.gz --limit=1000
 
 Make sure that you've enabled all of the features that you want to use.
 
+<<<<<<< HEAD
 *Q.* Why can't I use ``['page']`` or ``['text']`` or ``['first_sentence']`` or ``['answer']`` when creating
 features?  Can I use it during training?
 
 *A.* Remember that we have multiple folds of the data, and we're using mostly buzztrain 
 and buzzdev in this homework.  For those fields you cannot use "page" / "text" when
 generating features for the example you're trying to decide whether or not to trust the guess,
+=======
+**Q. Why can't I use ``['page']`` or ``['answer']`` when creating
+features?  Can I use it during training?**
+
+**A.** You cannot use those fields nor "page" / "text" when generating features,
+>>>>>>> 29f01c8 (complex features)
 however, as that would be cheating.  That's why they get removed
 before the feature generator is called (in ``add_data`` in ``buzzer.py``) so that you cannot cheat.  If you need the current text
 available, that's the "run", and your job is to see if the current
@@ -403,31 +416,31 @@ But that's the exception, usually the only way you would use the real
 guess correct becomes a positive example, is this guess incorrect
 becomes a negative example.
 
-*Q:* Can I modify buzzer.py so that I can use the history of guesses in a
- question?
+**Q: Can I modify buzzer.py so that I can use the history of guesses in a
+ question?**
 
-*A:* Yes.  If you do that, make sure to upload buzzer.py.  We will replace the
+**A:** Yes.  If you do that, make sure to upload buzzer.py.  We will replace the
  default version of buzzer.py with your new submission.
 
-*Q:* Can I use the <INSERT NAME HERE> package?
+**Q: Can I use the <INSERT NAME HERE> package?**
 
-*A:* Clear it first on Piazza.  We'll provide spacy and nltk for sure (along
+**A:** Clear it first on Piazza.  We'll provide spacy and nltk for sure (along
  with all of the packages already used in this homework).  We
  won't allow packages that require internet access (e.g., wikipedia).  We
  don't have anything against Wikipedia (we provide this json file so you can
  use it), but we don't want to get our IP
  address banned.
 
-*Q:* Sometimes the guess is correct but it isn't counted that way.  And
- sometimes a wrong answer is counted as correct.
+**Q: Sometimes the guess is correct but it isn't counted that way.  And
+ sometimes a wrong answer is counted as correct.**
 
-*A:* Yes, and we'll cover this in more detail later in the course.  For now,
+**A:** Yes, and we'll cover this in more detail later in the course.  For now,
  this is something we'll have to live with.
 
-*Q:* What is the guesser that we're using?  Where are the guesses
-coming from?
+**Q: What is the guesser that we're using?  Where are the guesses
+coming from?**
 
-*A:* These are cached guesses from OpenAI's GPT.  We'll get into
+**A:** These are cached guesses from OpenAI's GPT.  We'll get into
  generating our own guesses in the next homework.  You probably will
  want to play around a little bit with the output of its guesses, as
  there's likely interesting stuff you can use from there. Let's play
@@ -477,12 +490,29 @@ piece.
 
 You may want to use these to create features beyoned the default of artithmetic average of the log probabilities!
 
-*Q:* What if I get the error that ``GprGuesser`` has no attribute 'predict'?
+**Q: What if I get the error that ``GprGuesser`` has no attribute 'predict'?**
 
-*A:* This means that you're running it on a guesser result that hasn't been
+**A:** This means that you're running it on a guesser result that hasn't been
  cached or that it can't find the cache file.  Make sure the path is correct,
  and use the limit option to only process a handful of examples.
 
- *Q:* What's the intuition behind "buzz ratio"?  
+ **Q: What's the intuition behind "buzz ratio"?**
 
- *A:* It corresponds to how many points you get per question.  In the trivia community this is [points per tossup heard](https://www.naqt.com/stats/explanation.jsp#:~:text=For%20teams%2C%20PPTUH%20is%20the,an%20average%2020%2Dtossup%20game.).
+**A:** It corresponds to how many points you get per question.  In the trivia community this is [points per tossup heard](https://www.naqt.com/stats/explanation.jsp#:~:text=For%20teams%2C%20PPTUH%20is%20the,an%20average%2020%2Dtossup%20game.).
+
+**Q: Why do stupid features sometimes work?**
+
+**A:** Features that sound stupid sometimes reveal something deeper.  For example, the length of the guess can be a proxy for GPT errors (e.g., it failed to complete its answer or didn't stop spewing content).
+
+**Q: Why do clever features sometimes not work?**
+
+**A:** Clever features might fail for several reasons: it's too infrequent, it's covered by another feature, it's not correlated with errors, or the feature value is not specified correctly.
+
+_Infrequent_: All of this is a numbers game.  If your problem only appears in 1 out of 100 examples, then the gradients won't be large enough to move the feature value, which means that the feature won't have a big effect on overall predictions.
+
+_Covered by Another Feature_: Remember that features only update when you have an error gradient.  If another feature captures the same phenomena perfectly ("correlated" if you remember this from 320), then the feature won't end up getting used.  And whatever feature is more frequent and covers more cases will get used ... all other features will be ignored.
+
+_Not correlated with errors_: Like the above, if a system doesn't make a certain type of error, then a feature targeting that error, no matter how great, will not get used or be useful.  For example, if you create a feature that checks if a guess is consistent with a particular category won't be useful if the underlying guesser doesn't make cross-category errors.
+
+_Not specified correctly_: One of the reasons that simple features that count stuff work well is that they are linear, one of the key assumptions of logistic regression.  If a feature value of 0.2 correlates with a good outcome, 1.1 correlates with bad outcomes, but 2.8 correlates with good outcomes again, then it's not going to be a good feature because it can't actually get encoded by a linear classifier.  You can address this by inspecting the distribution and creating threshold functions.
+>>>>>>> 29f01c8 (complex features)

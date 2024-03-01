@@ -131,14 +131,11 @@ class Buzzer:
             # features["%s_guess" % gg] = result["guess"]
             features["%s_confidence" % gg] = result["confidence"]
 
-
-
-
         for ff in self._feature_generators:
             for feat, val in ff(question, run_text, guess, guess_history):
                 features["%s_%s" % (ff.name, feat)] = val
 
-        assert guess is not None, "Guess was not set (Primary=%s)" % self._primary_guesser
+        assert guess is not None
         return guess, features
 
     def finalize(self):
@@ -158,6 +155,7 @@ class Buzzer:
         self.finalize()
         
         num_questions = 0
+        logging.info("Generating runs of length %i" % self.run_length)        
         for qq in tqdm(questions):
             answer = qq[answer_field]
             text = qq["text"]
@@ -170,7 +168,7 @@ class Buzzer:
                 del qq["page"]
             del qq["first_sentence"]
             del qq["text"]
-            
+
             for rr in runs(text, self.run_length):
                 self._answers.append(answer)
                 self._runs.append(rr)

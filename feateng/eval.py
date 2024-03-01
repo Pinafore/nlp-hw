@@ -131,7 +131,7 @@ def pretty_feature_print(features, first_features=["guess", "answer", "id"]):
     return "\n".join(lines)
 
 
-def eval_buzzer(buzzer, questions):
+def eval_buzzer(buzzer, questions, history_length, history_depth):
     """
     Compute buzzer outcomes on a dataset
     """
@@ -140,7 +140,7 @@ def eval_buzzer(buzzer, questions):
     
     buzzer.load()
     buzzer.add_data(questions)
-    buzzer.build_features()
+    buzzer.build_features(history_length=history_length, history_depth=history_depth)
     
     predict, feature_matrix, feature_dict, correct, metadata = buzzer.predict(questions)
 
@@ -217,7 +217,9 @@ if __name__ == "__main__":
     guesser = load_guesser(flags, load=flags.load)    
     if flags.evaluate == "buzzer":
         buzzer = load_buzzer(flags, load=True)
-        outcomes, examples, unseen = eval_buzzer(buzzer, questions)
+        outcomes, examples, unseen = eval_buzzer(buzzer, questions,
+                                                 history_length=flags.buzzer_history_length,
+                                                 history_depth=flags.buzzer_history_depth)
     elif flags.evaluate == "guesser":
         if flags.cutoff >= 0:
             outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses, flags.cutoff)
@@ -242,7 +244,11 @@ if __name__ == "__main__":
             print("%40s: %0.4f" % (feature.strip(), weight))
         
         print("Questions Right: %i (out of %i) Accuracy: %0.2f  Buzz ratio: %0.2f Buzz position: %f" %
-              (outcomes["best"], total, (outcomes["best"] + outcomes["waiting"]) / total,
-               (outcomes["best"] - outcomes["aggressive"] * 0.5) / total, unseen))
+              (outcomes["best"], # Right
+               total,            # Total
+               (outcomes["best"] + outcomes["waiting"]) / total, # Accuracy
+               (outcomes["best"] - outcomes["aggressive"] * 0.5) / total, # Ratio
+               unseen))
+
     elif flags.evaluate == "guesser":
         print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"]/total, outcomes["close"]/total))

@@ -102,6 +102,6 @@ if __name__ == "__main__":
                           flags.buzzer_history_depth)
 
     vocab = buzzer.write_json(flags.json_guess_output)
-    with open("data/small_guess.vocab", 'w') as outfile:
+    with open("../data/small_guess.vocab", 'w') as outfile:
         for ii in vocab:
             outfile.write("%s\n" % ii)

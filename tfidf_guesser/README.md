@@ -799,11 +799,12 @@ Hints
 1.  Don't use all of the data, especially at first.  Use the _limit_
     command line argument (as in the above example).  Indeed, you
     might be able to improve accuracy by *excluding* some of the data.
-2.  In case you see an error that your submission timed out on Gradescope, that means that your code needs to be simplified. 
+1.  On a related note, don't create a [dense matrix](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csr_matrix.todense.html) out of tf-idf counts.  By default, the tf-idf libraries will create a sparse matrix where only the non-zero elements are allocated memory.  A dense matrix will require way too much space (e.g., if you have 25k terms and 300k documents, that's going to be around 50 GiB, and that's going to be too big for most laptops and certainly for Gradescope).  Any of the operations that you need to do you can do with the sparse matrix.
+3.  In case you see an error that your submission timed out on Gradescope, that means that your code needs to be simplified. 
     This is essential for your  code to work on Gradescope, so think of ways
     you can optimize your code.  Another issue if
     if you're trying to create the matrix one row at a time; it's possible to
-    do it in batch.
+    do it in batch, and that will speed things up.
 2.  Another problem with the submission might be that your pickle file (how your vectorizer / matrix is saved) is too large (Gradescope has a 100MB limit).  Remember that your tf-idf representation is a matrix.  It could be that your tf-idf representation
     is too wide (too many terms) or too tall (too many documents).  You had to
     deal with this before in your previous tf-idf homework.  (Think
@@ -829,9 +830,9 @@ Hints
     the pickle for your buzzer has not been updated and is looking for
     the wrong features (or is miscalibrated).  Focusing on buzz
     position is more worthwhile.
-9.  If you find that things are taking too long (things are timing out
-    on Gradescope), implement the
+9.  If you find that things are taking too long (things are timing out on Gradescope), implement the
     ``batch_guess`` function to guess on many examples at once.
+10.  For the extra credit, we strongly recommend you use the GPT guesser **in conjunction** with the tf-idf guesser.  Make the GPT guesser the primary guesser, and then you can add additional tf-idf features to that.  It should improve from what you were able to do with the GPT guesser alone.  You're also welcome to add additional guessers / information (like from Wikipedia).
 9.  Once you've completed the required part of the homework and you're
     trying to increase the recall further, you can investigate
     changing the dimensions of the vectorization: what normalization

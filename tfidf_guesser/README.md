@@ -829,9 +829,9 @@ Hints
     the pickle for your buzzer has not been updated and is looking for
     the wrong features (or is miscalibrated).  Focusing on buzz
     position is more worthwhile.
-9.  If you find that things are taking too long (things are timing out on Gradescope), implement the
-    ``batch_guess`` function to guess on many examples at once.
-10.  For the extra credit, we strongly recommend you use the GPT guesser **in conjunction** with the tf-idf guesser.  Make the GPT guesser the primary guesser, and then you can add additional tf-idf features to that.  It should improve from what you were able to do with the GPT guesser alone.  You're also welcome to add additional guessers / information (like from Wikipedia).
+9.  If you find that things are taking too long (things are timing out on Gradescope), implement the ``batch_guess`` function to guess on many examples at once.
+10.  ``sklearn`` helps you build the vector space for TF-IDF, but this vector space always needs to be consistent.  You devine the vector space through the vectorizer ``fit`` function.  If you get the error ``ValueError: Incompatible dimension for X and Y matrices:`` when computing cosine similarity, this suggests that you failed to do this (e.g., you've implicitly defined multiple vector spaces, running ``fit`` multiple times).  If you get the error ``sklearn.exceptions.NotFittedError``, this means that you have not established the vector space.  Think carefully about on which data you need to build the vector space and then consistently apply that everywhere else.
+11.  For the extra credit, we strongly recommend you use the GPT guesser **in conjunction** with the tf-idf guesser.  Make the GPT guesser the primary guesser, and then you can add additional tf-idf features to that.  It should improve from what you were able to do with the GPT guesser alone.  You're also welcome to add additional guessers / information (like from Wikipedia).
 9.  Once you've completed the required part of the homework and you're
     trying to increase the recall further, you can investigate
     changing the dimensions of the vectorization: what normalization

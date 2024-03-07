@@ -805,16 +805,11 @@ Hints
     you can optimize your code.  Another issue if
     if you're trying to create the matrix one row at a time; it's possible to
     do it in batch, and that will speed things up.
-2.  Another problem with the submission might be that your pickle file (how your vectorizer / matrix is saved) is too large (Gradescope has a 100MB limit).  Remember that your tf-idf representation is a matrix.  It could be that your tf-idf representation
+2.  If the guesser submission says that your pickle file is missing, this means that the guesser training errored out and didn't generate the file.      
+2.  Another problem with the (extra credit) submission might be that your pickle file (how your vectorizer / matrix is saved) is too large (Gradescope has a 100MB limit).  Remember that your tf-idf representation is a matrix.  It could be that your tf-idf representation
     is too wide (too many terms) or too tall (too many documents).  You had to
     deal with this before in your previous tf-idf homework.  (Think
     about building your vocabulary!  There are similar options in ``sklearn``)
-5.  The leaderboard will report both retrieval accuracy, precision,
-    and recall and final buzz
-    position and recall.  Both are important, as you can only decide if a guess is
-    correct if the correct guess is an option: you can get 100%
-    accuracy on the buzzer if all of the guesses are wrong... but your
-    buzz position will be horrible.
 2.  tf-idf representations do not know anything about syntax or part of
     speech.  You could add features to correct some of these problems.  (This
     is just for the extra credit!)    
@@ -822,6 +817,10 @@ Hints
     tokenizer does support n-grams, which may help you in the extra credit (but consume more
     memory):
     https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html 
+5.  The buzzer leaderboard will report both accuracy and buzz ratio.  Both are important, as you can only decide if a guess is
+    correct if the correct guess is an option: you can get 100%
+    accuracy on the buzzer if all of the guesses are wrong... but your
+    buzz position will be horrible.
 7.  *Do not focus on buzzer accuracy to early*!  When your guesser is broken, all of
     the guesses will be wrong and you'll trivially get perfect buzz accuracy
     (always wait).  Unless you're going for going after extra credit, you should pay attention to precision and recall (which are specific to the guesser).
@@ -840,3 +839,7 @@ Hints
     n-grams.  Also don't forget
     about the wiki pages:
     https://drive.google.com/file/d/1-AhjvqsoZ01gz7EMt5VmlCnVpsE96A5n/view?usp=share_link. The file is under the `data` folder on gradescope.
+11.  If you get an error ``max_df corresponds to < documents than min_df``, think about what this means.  It's complaining that you're excluding all tokens by setting thresholds that would exclude **everything**.  There are two likely causes for this:
+     - One cause is tricky.  For the unit tests, we tell you to have ``max_df=1.0, min_df=0.0`` (i.e., let everything in).  But if you instead type ``max_df=1, min_df=0``, then it will exclude everything appearing in more than one document.  This is because interprets not specifying them as float (which are interpreted as frequency) but rather as ints (which are interpreted as number of documents).  **Important:*** The constructor defaults (``min_df=10`` and ``max_df=0.4``) are different from behavior to be tested.  You can and should set your tokenizer thresholds based on performance **differently** from how you set them to pass the unit tests.
+     -  The defaults might also trigger if your limit flag is too small.  In other words, if you're using 25 or fewer documents, then 10 will be the same as 0.4.  This is of course the case on the unit tests, where you should be using ``max_df=1.0, min_df=0.0``.
+    

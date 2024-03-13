@@ -54,7 +54,7 @@ President of the US with a living grandchild), importance (the Witting
 reaction is taught in most organic chemistry classes), or connective (Samuel
 Beckett drove Andre the Giant to School).
 
-There's an example of this in this directory.
+There's an example of this in this directory.  The citations do not count against the page limit, and it's okay to go slightly beyond a page.
 
 Use of ChatGPT
 ========

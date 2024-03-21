@@ -190,8 +190,8 @@ The project proposal is a one page PDF document that describes:
 * Your timeline for completing the project (be realistic; you should
   have your first submission in a week or two)
 
-Have the person whose last name is alphabetically last submit the
-proposal on Piazza.  Late days cannot be used on this
+Submit the proposal on Gradescope, but make sure to include all group
+members.  If all group members are not included, you will lose points.  Late days cannot be used on this
 assignment.
 
 Milestone 1
@@ -204,7 +204,8 @@ working, what isn't, and how does it change your timeline?  How does it change y
 
 *Project*: You'll need to have made a submission to the leaderboard with something that satisfies the API.
 
-Submit a PDF updating on your progress.
+Submit a PDF updating on your progress to Gradescope.  If all team
+members are not on the submission, you will lose points.
 
 Milestone 2
 ===================

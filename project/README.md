@@ -183,7 +183,9 @@ Proposal
 
 The project proposal is a one page PDF document that describes:
 
-* Who is on your team
+* Who is on your team (team sizes can be between three and six
+  students, but six is really too big to be effective; my suggestion
+  is that most groups should be between four or five).
 
 * What techniques you will explore 
 
@@ -200,7 +202,9 @@ Milestone 1
 You'll have to update how things are going: what's
 working, what isn't, and how does it change your timeline?  How does it change your division of labor?
 
-*Question Writing*: You'll need to have answers selected for all of your questions and first drafts of at least 15 questions.
+*Question Writing*: You'll need to have answers selected for all of
+your questions and first drafts of at least 15 questions.  This must
+be submitted as a JSON file so that we run computer QA systems on it.
 
 *Project*: You'll need to have made a submission to the leaderboard with something that satisfies the API.
 

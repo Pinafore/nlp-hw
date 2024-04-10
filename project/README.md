@@ -259,6 +259,11 @@ the final presentation you will:
 
 Each group has 10 minutes to deliver their presentation. Please record the video, and upload it to Google Drive, and include the link in your writeup submission.
 
+Final Question Submission
+======================
+
+Because we need to get the questions ready for the systems, upload your raw questions on May 10.  This doesn't include the citations or other parts of the writeup.
+
 System Submission
 ======================
 

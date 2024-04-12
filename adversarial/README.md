@@ -94,7 +94,7 @@ Good questions will get full points if:
 * Reward knowledge
 * Have specific facts
 * Stump computers
-* Are answerable by any reasonbly-informed humans
+* Are answerable by any reasonably-informed humans
 
 Writeups will get full points if they:
 * Cite all facts in the question with good (i.e., not Wikipedia) references

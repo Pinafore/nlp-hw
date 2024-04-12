@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=6oZCIOBiSaI
 You can see a previous competition we ran here:
 https://sites.google.com/view/qanta/past-events/dec-15-2018?authuser=0
 
-You are however free to download any QA systems you'd like or to use them on the web.  Some ideas include:
+You are however free to download/use any QA systems you'd like or to use them on the web.  Some ideas include:
 * https://you.com/
 * https://www.bing.com/new
 * https://chat.openai.com/
@@ -28,11 +28,7 @@ Please share any good ones you find with the rest of the class.
 Format of the Question
 ========
 
-You may either write a pyramidal question (like the pyramidal questions we've
-been looking at in the previous homeworks) or non-pyramidal questions
-like the questions from the Online Quiz League:
-https://quizcentral.net/qc/Online_Quiz_League_USA_-_Quizzes_-_Season_3
-
+As discussed in class, the questions will be pyramidal, since this is the format we'll use for the course project.  
 Some resources for writing questions:
 https://www.naqt.com/resources/question-writing.html
 
@@ -79,27 +75,38 @@ What to turn in
 
 Turn in both a PDF of the writeup of your question and a json including the raw text of the question and answer to Gradescope. Both examples of both writeup and the json file are included in this directory.
 
+Grading
+==========
+
+You will lose points if your question is:
+* Vague
+* Has incorrect information
+* Has incorrect grammar
+* Makes it seem like it's asking for two different things
+* Is a near copy of an existing question
+
+You will lose points if your answer is:
+* Too obscure for anyone to know
+
+Good questions will get full points if:
+* The question is difficult with an accessible answer
+* Clue-dense
+* Reward knowledge
+* Have specific facts
+* Stump computers
+* Are answerable by any reasonbly-informed humans
+
+Writeups will get full points if they:
+* Cite all facts in the question with good (i.e., not Wikipedia) references
+* Clearly explain why they structured the information and the pyramidality
+  
+
 FAQ
 ===========
 
 *Q:* Can I submit multiple questions?
 
 *A:* No, submit your best question.
-
-*Q:* Can I turn in a pyramidal question and "normal" versions of the clues in the question?
-
-*A:* Yes, that's fine.  In which case you can turn in multiple questions.
-
-*Q:* Do I have to convert a pyramidal question into "normal" questions?
-
-*A:* You don't have to, but I think it would be worthwhile because it
- would let you pinpoint where the difficulty is from.  For instance,
- if you have a distractor-based technique, a computer could get each
- individual clue correct but be unable to put it together in a single
- pyramidal question.  Moreover, a pyramidal question can end with an
- easy clue that lets the system get it right, but showing that the
- first clues are still hard (but uniquely identifying) would show that
- you still had an adversarial question.
 
 *Q:* What humans should be able to answer the question?  Is it okay if it's hard?
 

@@ -22,10 +22,12 @@ we need to use representations) we will need to create a vocabulary
 explicitly (like we did for the earlier tf-idf homework).  However,
 we'll give you that code. 
 
-Buzzer.py and features.py
+Keeping Things Simple
 ----------------
 
-For getting the buzzer.py and features.py, you can either manually copy it from tfidf_guesser folder or run the dan_hw.sh. This will place both the files in the current directory. 
+Although we'll use the usual Guesser class / setup, we're going to
+keep things a little simpler.  
+
 
 Pytorch DataLoader
 ----------------
@@ -215,13 +217,21 @@ https://pytorch.org/get-started/locally/.
 Extra Credit
 ----------------
 
-For extra credit, you need to initialize the word representations with
+There are lots of things you could do for extra credit, but here are
+some ideas:
+
+* Initialize the word representations with
 word2vec, GloVe, or some other representation.  Compare the final performance
 based on these initializations *and* see how the word representations
 change. Write down your findings in analysis.pdf.
 
+* Have the dropout depend on the index of words so that later text is
+  more likely to disappear.  This will make it work better on
+  pyramidal questions.
+
 You can also get extra credit by getting the highest precision and recall by
-tuning training parameters.
+tuning training parameters.  If you have other ideas, just ask, and we
+can say whether your proposal makes sense.
 
 What to turn in 
 ----------------
@@ -241,9 +251,22 @@ FAQ
 
 *A:* The first thing to check is that you've implemented everything correctly.  If you're passing the unit tests, you can correctly learn from the toy data, and your gradients are non-zero, you're probably okay.
 
-The next thing to think about is how many answers your system has.  I.e., what is the size of the final softmax output.  If it's too small (i.e., your system can't give many answers, the accuracy is going to be low).
+The next thing to think about is how many answers your system has.
+I.e., what is the size of the examples that it's training on.  If it's
+too small (i.e., your system can't give many answers, the accuracy is
+going to be low).  If it's too large, your model might not have the
+representational power to find closest questions.
 
-The thing is, the number of answers your system can provide is determined by your training data.  The code is set up to only use answers that have at least `--DanGuesser_min_answer_freq` questions associated with them.  So if your training set is too small, there won't be enough answers and your accuracy will always be low.  Another issue is that if you have too few answers, most of the answers will be unknown (they all get mapped into one answer).  So your system will always guess the uknown answer.  So you may want to downsample how many of the unknown examples you train on with `--DanGuesser_unk_drop` (1.0 will remove all of the unknown answers).
+The thing is, the number of answers your system can provide is
+determined by your training data.  The code is set up to only use
+answers that have at least `--DanGuesser_min_answer_freq` questions
+associated with them.  So if your training set is too small, there
+won't be enough answers and your accuracy will always be low.  Another
+issue is that if you have too few answers, most of the answers will be
+unknown (they all get mapped into one answer).  So your system will
+always guess the uknown answer.  So you may want to downsample how
+many of the unknown examples you train on with `--DanGuesser_unk_drop`
+(1.0 will remove all of the unknown answers).
 
 *Q:* There aren't enough answers or too many!  What can I do?
 
@@ -253,6 +276,3 @@ The thing is, the number of answers your system can provide is determined by you
 
 *A:* Look at the DanGuesser_unk_drop flag to adjust how many "unknown" examples you keep.
 
-*Q:* Where is the buzzer.py file?
-
-*A:* Please copy the file from tfidf_guesser folder.

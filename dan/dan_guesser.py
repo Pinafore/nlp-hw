@@ -3,23 +3,28 @@ import pickle
 import json
 import time
 
-from typing import List, Dict, Iterable, Optional, Tuple, NamedTuple
+from typing import List, Dict, Iterable, Optional, Tuple, NamedTuple, Callable
 from collections import Counter
 from random import random
 
 import logging
 
-from guesser import Guesser, kTOY_JSON
+from guesser import Guesser, GuesserParameters
+from parameters import Parameters
 
 import numpy as np
 
+from tqdm import tqdm
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset
+from torch import Tensor
+from torch.utils.data import Dataset, DataLoader
 from torch.nn.utils import clip_grad_norm_
+from torchtext.vocab import Vocab
 
 import nltk
-from nltk.tokenize import sent_tokenize, word_tokenize
+
+from sklearn.neighbors import KDTree
 
 kUNK = '<unk>'
 
@@ -28,79 +33,195 @@ kPAD = '<pad>'
 kTOY_VOCAB = [kUNK, "England", "Russia", "capital", "currency"]
 kTOY_ANSWER = ["London", "Moscow", "Pound", "Rouble"]
 
+
+
+class DanModel(nn.Module):
+    """High level model that handles intializing the underlying network
+    architecture, saving, updating examples, and predicting examples.
+    """
+
+    #### You don't need to change the parameters for the model, but you can change it if you need to.  
+
+
+    def __init__(self, model_filename: str, n_classes: int, device: str, vocab_size:int, emb_dim: int=50,
+                 activation=nn.ReLU(), n_hidden_units: int=50, nn_dropout: float=.5):
+        super(DanModel, self).__init__()
+        self.model_filename = model_filename
+        self.n_classes = n_classes
+        self.vocab_size = vocab_size
+        self.emb_dim = emb_dim
+        self.n_hidden_units = n_hidden_units
+        self.nn_dropout = nn_dropout
+        logging.info("Creating embedding layer for %i vocab size, %i classes with %i dimensions (hidden dimension=%i)" % \
+                         (self.vocab_size, n_classes, self.emb_dim, n_hidden_units))
+        self.embeddings = nn.Embedding(self.vocab_size, self.emb_dim, padding_idx=0)
+        self.linear1 = nn.Linear(emb_dim, n_hidden_units)
+        self.linear2 = nn.Linear(n_hidden_units, n_classes)
+
+        # Create the actual prediction framework for the DAN classifier.
+
+        # You'll need combine the two linear layers together, probably
+        # with the Sequential function.  The first linear layer takes
+        # word embeddings into the representation space, and the
+        # second linear layer makes the final prediction.  Other
+        # layers / functions to consider are Dropout, ReLU.
+        # For test cases, the network we consider is - linear1 -> ReLU() -> Dropout(0.5) -> linear2
+
+        self.network = None
+        
+
+        # To make this work on CUDA, you need to move it to the appropriate
+        # device
+        if self.network:
+            self.network = self.network.to(device)
+
+    def average(self, text_embeddings: Tensor, text_len: int):
+        """
+        Given a batch of text embeddings and a tensor of the corresponding lengths, compute the average of them.
+
+        text_embeddings: embeddings of the words
+        text_len: the corresponding number of words
+        """
+        average = torch.zeros(text_embeddings.size()[0], text_embeddings.size()[-1])
+
+        # You'll want to finish this function.  You don't *have* to use it in
+        # your forward function, but it's a good way to make sure the
+        # dimensions match and to use the unit test to check your work.
+        # In other words, we encourage you to use it.
+
+        return average
+
+    def forward(self, input_text: Iterable[int], text_len: int):
+        """
+        Model forward pass, returns the logits of the predictions.
+
+        Keyword arguments:
+        input_text : vectorized question text, were each word is represented as an integer
+        text_len : batch * 1, text length for each question
+        is_prob: if True, output the softmax of last layer
+        """
+
+        logits = torch.FloatTensor([0.0] * self.n_classes)
+
+        # Complete the forward funtion.  First look up the word embeddings.
+        # Then average them
+        # Before feeding them through the network
+
+        return representation
+
+   
 class QuestionData(Dataset):
-    def __init__(self, min_token_df, max_token_df, min_answer_freq):
-        self.min_token_df = min_token_df
-        self.max_token_df = max_token_df
-        self.min_answer_freq = min_answer_freq
-
-        self.answer_to_int = {}
-        self.int_to_answer = []
-        self.num_answers = 0
-
-        self.vocab_to_int = {}
-        self.int_to_vocab = []
-        self.num_vocab = 0
-
-        self.tokenizer = None
-
-    def toy(self):
+    def __init__(self, parameters: Parameters):
         """
-        Initialize everything to toy parameters used in unit tests/demo.
+        So the big idea is that because we're doing a retrieval-like process, to actually run the guesser we need to store the representations and then when we run the guesser, we find the closest representation to the query.
+
+        Later, we'll need to store this lookup, so we need to know the embedding size.
+
+        parameters -- The configuration of the Guesser
         """
         
+        from torchtext.data.utils import get_tokenizer
 
-        self.int_to_answer = kTOY_ANSWER
-        self.int_to_vocab = kTOY_VOCAB
+        self.vocab_size = parameters.DanGuesser_vocab_size
+        self.answer_count = parameters.DanGuesser_num_classes
+        self.neg_samples = parameters.DanGuesser_neg_samp
+
+        self.tokenizer = get_tokenizer("basic_english")
+        self.embedding = parameters.DanGuesser_embed_dim
+
+        self.vocab = None
+        self.kd_tree = None
+
+    def get_nearest(self, query_representation: Tensor, answers: Iterable[str], n_nearest: int):
+        """
+        Given the current example representations, find the closest one
+
+        query_representation -- the representation of this example
+        answers -- All of the answers in our dataset, this will be the label we return
+        n_nearest -- how many closest vectors to return
+        """
         
-        for ii, ww in enumerate(self.int_to_vocab):
-            self.vocab_to_int[ww] = ii
+        closest_indices = self.kd_tree.query(query_representation.detach().numpy(),
+                                                 return_distance=False, sort_results=True, k=n_nearest)
 
-        for ii, ww in enumerate(self.int_to_answer):
-            self.answer_to_int[ww] = ii
+        results = []
 
-        self.num_vocab = len(self.vocab_to_int)
-        self.num_answers = len(self.answer_to_int)
+        for row in np.nditer(closest_indices):
+            results.append(answers[x] for x in np.nditer(row))
 
-        self.questions = [x['text'] for x in kTOY_JSON]
-        self.answers = [x['page'] for x in kTOY_JSON]
-
-        self.tokenizer = word_tokenize
+        return results
         
-    def save(self, path):
+    def refresh_index(self):
         """
-        Save the question data to a file; we'll need this for DAN tokenization
+        We use a KD Tree lookup to find the closest point, so we need to rebuild that after we've updated the representations.
         """
-        for filename, data in [("%s.vocab.pkl" % path, "int_to_vocab"),
-                               ("%s.answers.pkl" % path, "int_to_answer")]:
-            with open(filename, 'wb') as f:
-                logging.info("Writing DanGuesser to %s" % filename)
-                pickle.dump(getattr(self, data), f)
+        self.kd_tree = KDTree(self.representations)
 
-    def load(self, path):
+    def set_representation(self, indices: Iterable[int], representations: Tensor):
         """
-        Load the question data (the mapping from words and answers to intigers) from a file; we'll need this for DAN tokenization
+        During training, we update the representations in batch, so
+        this function takes in all of the indices of those dimensions
+        and then copies the individual representations from the
+        representions array into this class's representations.
+
+        indices -- 
         """
-        for filename, data in [("%s.vocab.pkl" % path, "int_to_vocab"),
-                               ("%s.answers.pkl" % path, "int_to_answer")]:
-            with open(filename, 'rb') as f:
-                logging.info("Reading DanGuesser %s from %s" % (data, filename))
-                setattr(self, data, pickle.load(f))
+        
+        for batch_index, global_index in enumerate(indices):
+            self.representations[global_index].copy_(representations[batch_index])
+        
+    def initialize_lookup(self):
+        self.representations = torch.LongTensor(len(self.answers), self.answer_count).zero_()
+        
+    def build_vocab(self, questions: Iterable[Dict]):
+        from torchtext.vocab import build_vocab_from_iterator
+        
+        # TODO (jbg): add in the special noun phrase tokens
+        def yield_tokens(questions):
+            for question in questions:
+                yield self.tokenizer(question["text"])
 
-        for ii, ww in enumerate(self.int_to_vocab):
-            self.vocab_to_int[ww] = ii
+        self.vocab = build_vocab_from_iterator([self.tokenizer(x["text"]) for x in questions],
+                                                specials=["<unk>"], max_tokens=self.vocab_size)
+        self.vocab.set_default_index(self.vocab["<unk>"])
 
-        for ii, ww in enumerate(self.int_to_answer):
-            self.answer_to_int[ww] = ii
+        return self.vocab
 
-        self.num_answers = len(self.answer_to_int)
-        self.num_vocab = len(self.vocab_to_int)
+    def set_vocab(self, vocab: Vocab):
+        self.vocab = vocab
 
-        assert self.num_vocab > 0
-        assert self.num_answers > 0
+    def set_data(self, questions: Iterable[Dict], answer_field: str="page"):
+        from nltk import FreqDist
+        from random import sample
 
+        answer_counts = FreqDist(x[answer_field] for x in questions if x[answer_field])
+        valid_answers = set(x for x, count in answer_counts.most_common(self.answer_count) if count > 1)
+        self.questions = [x["text"] for x in questions if x[answer_field] in valid_answers]
+        self.answers = [x[answer_field] for x in questions if x[answer_field] in valid_answers]
+
+        # Extra credit opportunity: Use tf-idf to find hard negatives rather
+        # than random ones
+        self.positive = []
+        self.negative = []
+        for index, question in enumerate(tqdm(self.questions)):
+            answer = self.answers[index]
+            positive_indices = [idx for idx, ans in enumerate(self.answers) if ans==answer and idx!=index]
+            negative_indices = sample([idx for idx, ans in enumerate(self.answers) if ans!=answer], self.neg_samples)
+
+            negative = [self.questions[x] for x in positive_indices]
+            positive = [self.questions[x] for x in negative_indices]
+
+            self.negative.append(negative)
+            self.positive.append(positive)
+            
+        assert len(self.positive) == len(self.questions)
+        assert len(self.negative) == len(self.answers)
+        assert len(self.answers) == len(self.questions)
+
+        logging.info("Loaded %i questions with %i unique answers" % (len(self.questions), len(valid_answers)))
+        
     @staticmethod
-    def vectorize(ex : Iterable[str], word2ind : dict[str, int]):
+    def vectorize(ex : str, vocab: Vocab, tokenizer: Callable):
         """
         vectorize a single example based on the word2ind dict.
         Keyword arguments:
@@ -111,223 +232,143 @@ class QuestionData(Dataset):
         e.g. ['text', 'test', 'is', 'fun'] -> [0, 2, 3, 4]
         """
 
-        vec_text = [0] * len(ex)
-
-        #### modify the code to vectorize the question text
-        #### You should consider the out of vocab(OOV) cases
-        #### question_text is already tokenized
-        ####Your code here
-
+        assert vocab is not None, "Vocab not initialized"
+        
+        vec_text = [vocab[x] for x in tokenizer(ex)]
 
         return vec_text
 
     ###You don't need to change this funtion
     def __len__(self):
+        """
+        How many questions are in the dataset.
+        """
+        
         return len(self.questions)
 
     ###You don't need to change this funtion
     def __getitem__(self, index : int):
+        """
+        Get a single vectorized question, selecting a positive and negative example at random from the choices that we have.
+        """
+        from random import choice
+        
         assert self.tokenizer is not None, "Tokenizer not set up"
-        question = self.vectorize(self.tokenizer(self.questions[index]),
-                                                 self.vocab_to_int)
-        answer = self.answers[index]
-        item = (question, answer)
+        q_text = self.questions[index]
+        pos_text = choice(self.positive[index])
+        neg_text = choice(self.negative[index])
+
+        q_vec = self.vectorize(q_text, self.vocab, self.tokenizer)
+        pos_vec = self.vectorize(pos_text, self.vocab, self.tokenizer)
+        neg_vec = self.vectorize(neg_text, self.vocab, self.tokenizer)
+        
+        item = (q_vec, len(q_vec),
+                pos_vec, len(pos_vec),
+                neg_vec, len(neg_vec),
+                index)
         return item
 
-    def initialize(self, answers, questions, answer_count, unk_drop, tokenizer=None):
-        """
-        Initialize the dataloader with the data.
 
-        Keyword arguments:
-        answers -- the answers to the questions
-        questions -- the questions
-        answer_count -- how many times each of the answers appear
-        unk_drop -- remove this percentage of unknown answers
-        tokenizer -- a function to tokenize text
-        """
-        self.tokenizer = tokenizer
-        answer_lookup, vocab = self.create_indices(answers, questions, answer_count)
-        self.int_to_vocab = vocab
-        self.int_to_answer = answer_lookup
+class DanParameters(GuesserParameters):
 
-        for index, word in enumerate(vocab):
-            self.vocab_to_int[word] = index
+    # parser.add_argument('--DanGuesser_filename', type=str, default="models/DanGuesser.pkl")
+    # parser.add_argument('--DanGuesser_min_df', type=float, default=30,
+    #                         help="How many documents terms must be in before inclusion in DAN vocab (either percentage or absolute count)")
+    # parser.add_argument('--DanGuesser_max_df', type=float, default=.4,
+    #                         help="Maximum documents terms can be in before inclusion in DAN vocab (either percentage or absolute count)")
+    # parser.add_argument('--DanGuesser_min_answer_freq', type=int, default=30,
+    #                         help="How many times we need to see an answer before including it in DAN output")
+    # parser.add_argument('--DanGuesser_embedding_dim', type=int, default=100)
+    # parser.add_argument('--DanGuesser_hidden_units', type=int, default=100)
+    # parser.add_argument('--DanGuesser_dropout', type=int, default=0.5)
+    # parser.add_argument('--DanGuesser_unk_drop', type=float, default=0.95)    
+    # parser.add_argument('--DanGuesser_grad_clipping', type=float, default=5.0)
+    # parser.add_argument('--DanGuesser_batch_size', type=int, default=128)    
+    # parser.add_argument('--DanGuesser_num_epochs', type=int, default=20)
+    # parser.add_argument('--DanGuesser_num_workers', type=int, default=0)
 
-        for index, answer in enumerate(answer_lookup):
-            self.answer_to_int[answer] = index
+    
+    dan_params = [("embed_dim", int, 300, "How many dimensions in embedding layer"),
+                  ("batch_size", int, 120, "How many examples per batch"),
+                  ("num_workers", int, 8, "How many workers to serve examples"),
+                  ("num_classes", int, 10000, "Maximum number of classes"),
+                  ("hidden_units", int, 100, "Number of dimensions of hidden state"),
+                  ("nn_dropout", float, 0.5, "How much dropout we use"),
+                  ("device", str, "cuda", "Where we run pytorch inference"),                  
+                  ("num_epochs", int, 20, "How many training epochs"),
+                  ("neg_samp", int, 5, "Number of negative training examples"),
+                  ("unk_drop", bool, True, "Do we drop unknown tokens or use UNK symbol"),
+                  ("grad_clipping", float, 5.0, "How much we clip the gradients")]
+    
+    def __init__(self):
+        GuesserParameters.__init__(self)
+        self.name = "DanGuesser"
+        self.params += self.dan_params
 
-        self.num_vocab = len(self.int_to_vocab)
-        self.num_answers = len(self.int_to_answer)
+    def unit_test(self):
+        Parameters.set_defaults(self)
 
-        assert len(self.int_to_answer) > 0, "Answer lookup not initialized"
-        if kUNK in self.answer_to_int:
-            assert self.int_to_answer[0] == kUNK, \
-                "Assumed label 0 was %s, but got %s (total length %i)" % \
-                (kUNK, self.int_to_answer[0], len(self.int_to_answer))
-
-        self.answers = []
-        self.questions = []
-
-        unks_dropped = 0
-        unks_kept = 0
-        total_unks = 0
-        for aa, qq in zip(answers, questions):
-            answer_index = self.answer_to_int.get(aa, 0)
-            # This second part of if statement is needed if there are
-            # no UNKs in the datset.  Otherwise, we'll throw out
-            # whatever random answer is 0
-            if answer_index == 0 and self.int_to_answer[0] == kUNK:
-                total_unks += 1
-                if unk_drop > 0:
-                    assert unk_drop <= 1.0
-                    if random() < unk_drop:
-                        logging.debug("Dropping answer %s" % aa)
-                        unks_dropped += 1
-                        continue
-                    else:
-                        unks_kept += 1
-            self.answers.append(answer_index)
-            self.questions.append(qq)
-
-        total = len(self.answers)
-        if unk_drop > 0:
-            assert unks_kept + unks_dropped == total_unks
-            if unks_dropped > 0:
-                logging.info("Out of %i originals, %0.2f unks dropped and %0.2f kept (out of %i)" %
-                             (len(answers), unks_dropped / (unks_kept + unks_dropped),
-                              unks_kept / (unks_kept + unks_dropped), total_unks))
-            else:
-                logging.info("No unks dropped out of %i questions and %i unks" % (len(answer), total_unks))
-                
-        logging.info("%0.5f percent of %i questions are UNK, uniform would be %0.5f" % 
-                         (sum(1 for x in self.answers if x==0) / total, total, 1 / len(set(self.answers))))
-
-        self.answers = [self.answer_to_int.get(x, 0) for x in answers]
-        self.questions = questions
-
-    def copy_lookups(self, questions, dataset_with_lookups, answer_field):
-        """
-        Copy the lookup from another dataset and create lookups
-        """
-        question_text = Guesser.split_examples(questions, answer_field)
-
-        assert dataset_with_lookups.num_answers > 1
-        assert dataset_with_lookups.num_vocab > 1
-
-        for attribute in ["int_to_vocab", "int_to_answer", "vocab_to_int", "answer_to_int", "num_vocab", "num_answers", "tokenizer"]:
-            setattr(self, attribute, getattr(dataset_with_lookups, attribute))
-
-        answer_to_questions = Guesser.split_examples(questions, answer_field)
-
-        self.questions, answers = Guesser.filter_answers(answer_to_questions,
-                                                         answer_lookup=dataset_with_lookups.answer_to_int)
-
-        self.answers = [self.answer_to_int.get(x, 0) for x in answers]
-
-    def create_indices(self, answers, questions, answer_count):
-        """
-        Create the answer map and vocabulary
-        """
-
-        # Sort the classes by decreasing frequency 
-        valid_classes = [x for x, count in sorted(answer_count.items(),
-                                                  key=lambda k: (-k[1], k[0]))
-                         if count >= self.min_answer_freq and x is not None]
-
-        if any(x for x in answer_count if not x in valid_classes):
-            logging.debug("Found an unknown answer, so adding the unknown answer class")
-            valid_classes = [kUNK] + valid_classes
-        logging.info("Found %i answers that appear at least %i: %s" % (len(valid_classes),
-                                                                       self.min_answer_freq,
-                                                                       str(valid_classes)[:80]))
-
-        # Build the phrase table
-        word_count = Counter()
-        tokenized_questions = [self.tokenizer(x) for x in questions]
-
-        # if the df is expressed as proportion, convert to counts
-        min_df = self.min_token_df
-        if min_df < 1:
-            min_df = int(len(tokenized_questions) * min_df)
-
-        max_df = self.max_token_df
-        if max_df <= 1:
-            max_df = int(len(tokenized_questions) * max_df)
-
-        for question in tokenized_questions:
-            word_count.update(Counter(set(question)))
-            
-        # Sort by count first, then by alpha.  This is helpful for testing
-        vocab = [x for x, count in sorted(word_count.items(), key=lambda k: (-k[1], k[0])) 
-                 if count >= min_df and count <= max_df]
-        vocab = [kUNK] + vocab
-
-        logging.info("Looking for %i words with document frequency between %i and %i (total docs=%i) from %s " %
-                         (len(vocab), min_df, max_df, len(tokenized_questions), str(word_count)[:250]))
-        logging.info("Vocab examples: %s" % str(vocab)[:250])
-
-        assert len(vocab) > 1, "Did not add any words to vocab"
-
-        return valid_classes, vocab
-
+        self.embed_dim = 2
+        self.hidden_units = 2
+        self.nn_dropout = 0
+        self.device = "cpu"
 
 class DanGuesser(Guesser):
-    def __init__(self, filename, answer_field, min_token_df, max_token_df, min_answer_freq,
-                 embedding_dimension, hidden_units, nn_dropout, grad_clipping, unk_drop,
-                 batch_size, num_epochs, num_workers,
-                 device):
+    def __init__(self, parameters: Parameters):
+        from sklearn.feature_extraction.text import CountVectorizer
+        
+        self.params = parameters
 
-        self.model_filename = filename
-        self.train_data = QuestionData(min_token_df, max_token_df, min_answer_freq)
-        self.eval_data = QuestionData(min_token_df, max_token_df, min_answer_freq)
+        self.vectorizer = CountVectorizer(stop_words='english',
+                                          max_features=parameters.DanGuesser_vocab_size)
 
-        self.answer_field = answer_field
-        self.embedding_dimension = embedding_dimension
-        self.hidden_units = hidden_units
-        self.nn_dropout = nn_dropout
+        self.kd_tree = None
+        self.training_data = None
+        self.train_data = None
+        self.eval_data = None
 
-        self.embedding_dimension = embedding_dimension
-        self.hidden_units = hidden_units
-        self.nn_dropout = nn_dropout
-        self.grad_clipping = grad_clipping
-        self.unk_drop = unk_drop
-
-        self.batch_size = batch_size
-        self.num_epochs = num_epochs
-        self.num_workers = num_workers
-        self.device = device
-
-    def set_data_model(self, data, model):
+    def set_model(self, model: DanModel):
         """
         Instead of training, set data and model directly.  Useful for unit tests.
         """
 
         self.dan_model = model
-        self.train_data = data
 
-    def vectorize(self, question: str) -> Iterable[int]:
-        """
-        This fuction in the DanGuesser takes a question and represents it in a form the DAN can ingest.
 
-        We need to initialize the tokenizer for this to work.
-        """
-        assert self.phrase_tokenize is not None, "Need to initialize the tokenizer"
-        return self.train_data.vectorize(self.phrase_tokenize(question), self.train_data.vocab_to_int)
+    def initialize_model(self):
+        self.dan_model = DanModel(model_filename=self.params.DanGuesser_filename,
+                                  n_classes=self.params.DanGuesser_num_classes,
+                                  device=self.params.DanGuesser_device,
+                                  vocab_size=self.params.DanGuesser_vocab_size,
+                                  emb_dim=self.params.DanGuesser_embed_dim,
+                                  n_hidden_units=self.params.DanGuesser_hidden_units,
+                                  nn_dropout=self.params.DanGuesser_nn_dropout)        
     
-    def train_dan(self):
-        train_sampler = torch.utils.data.sampler.RandomSampler(self.train_data)
+    def train_dan(self, raw_train: Iterable[Dict], raw_eval: Iterable[Dict]):
+        self.training_data = QuestionData(self.params)
+        self.eval_data = QuestionData(self.params)
+
+        vocab = self.training_data.build_vocab(raw_train)
+        self.eval_data.set_vocab(vocab)
+
+        self.training_data.set_data(raw_train)
+        self.eval_data.set_data(raw_eval)
+
+        self.training_data.initialize_lookup()
+        
+        train_sampler = torch.utils.data.sampler.RandomSampler(self.training_data)
         dev_sampler = torch.utils.data.sampler.RandomSampler(self.eval_data)
-        dev_loader = torch.utils.data.DataLoader(self.eval_data, batch_size=self.batch_size,
-                                                 sampler=dev_sampler, num_workers=self.num_workers,
-                                                 collate_fn=DanGuesser.batchify)
+        dev_loader = DataLoader(self.eval_data, batch_size=self.params.DanGuesser_batch_size,
+                                    sampler=dev_sampler, num_workers=self.params.DanGuesser_num_workers,
+                                    collate_fn=DanGuesser.batchify)
         self.best_accuracy = 0.0
 
-        for epoch in range(self.num_epochs):
-            train_loader = torch.utils.data.DataLoader(self.train_data,
-                                                       batch_size=self.batch_size,
-                                                       sampler=train_sampler,
-                                                       num_workers=self.num_workers,
-                                                       collate_fn=DanGuesser.batchify)
+        for epoch in range(self.params.DanGuesser_num_epochs):
+            train_loader = DataLoader(self.training_data,
+                                          batch_size=self.params.DanGuesser_batch_size,
+                                          sampler=train_sampler,
+                                          num_workers=self.params.DanGuesser_num_workers,
+                                          collate_fn=DanGuesser.batchify)
             self.run_epoch(train_loader, dev_loader)
 
 
@@ -342,7 +383,6 @@ class DanGuesser(Guesser):
         answer_count = dict((x, len(y)) for x, y in
                             answers_to_questions.items())
 
-        self.find_phrases(training_data)
         self.train_data.initialize(answers=self.answers,
                                    questions=self.questions,
                                    answer_count=answer_count,
@@ -352,7 +392,8 @@ class DanGuesser(Guesser):
         num_classes = self.train_data.num_answers
         vocab_size = self.train_data.num_vocab
         self.dan_model = DanModel(model_filename=self.model_filename,
-                                  n_classes=num_classes, device=self.device,
+                                  n_classes=num_classes,
+                                  device=self.device,
                                   vocab_size=vocab_size,
                                   emb_dim=self.embedding_dimension,
                                   n_hidden_units=self.hidden_units,
@@ -362,14 +403,14 @@ class DanGuesser(Guesser):
         self.eval_data.copy_lookups(dev_data, self.train_data,
                                     self.answer_field)
 
-    def __call__(self, question, n_guesses=1):
+    def __call__(self, question: str, n_guesses: int=1):
         model = self.dan_model
 
         question_text = torch.LongTensor([self.vectorize(question)])
         logging.debug("Vectorizing question %s to become %s" % (question, str(question_text)))
         question_length = torch.LongTensor([[len(question_text)]])
 
-        logits = model.forward(question_text, question_length)
+        representation = model.forward(question_text, question_length)
         logging.debug("Guess logits (query=%s len=%i): %s" % (question, len(logits), str(logits)))
 
         # If we don't have enough possible answers, constrain the number of
@@ -377,15 +418,8 @@ class DanGuesser(Guesser):
         n_guesses = min(n_guesses, self.train_data.num_answers)
         assert n_guesses > 0, "Need to at least return 1 guess"
         
-        values, indices = logits.topk(n_guesses)
-        indices = [int(x) for x in torch.flatten(indices)]
-        values = [float(x) for x in torch.flatten(values)]
-
-        assert len(torch.flatten(logits)) == len(self.train_data.int_to_answer), \
-            "Mismatched logit dimension %i vs %i" % \
-            (len(torch.flatten(logits)), len(self.train_data.int_to_answer))
-
-        guesses = []
+        raw_guesses = model.get_nearest(n_guesses)
+        
         for guess_index in range(n_guesses):
             guess = self.train_data.int_to_answer[indices[guess_index]]
 
@@ -411,8 +445,10 @@ class DanGuesser(Guesser):
         self.dan_model = torch.load("%s.torch.pkl" % self.model_filename)
         self.train_data.load(self.model_filename)
 
-    def run_epoch(self, train_data_loader, dev_data_loader,
-                  checkpoint_every=50):
+        
+
+    def run_epoch(self, train_data_loader: DataLoader, dev_data_loader: DataLoader,
+                  checkpoint_every: int=50):
         """
         Train the current model
         Keyword arguments:
@@ -423,33 +459,41 @@ class DanGuesser(Guesser):
         model = self.dan_model
         model.train()
         optimizer = torch.optim.Adamax(self.dan_model.parameters())
-        criterion = nn.CrossEntropyLoss()
+        criterion = nn.TripletMarginLoss()
         print_loss_total = 0
         epoch_loss_total = 0
         start = time.time()
 
         #### modify the following code to complete the training funtion
         for idx, batch in enumerate(train_data_loader):
-            question_text = batch['text'].to(self.device)
-            question_len = batch['len']
-            labels = batch['labels']
+            anchor_text = batch['anchor_text'].to(self.params.DanGuesser_device)
+            anchor_length = batch['anchor_len'].to(self.params.DanGuesser_device)
+
+            pos_text = batch['pos_text'].to(self.params.DanGuesser_device)
+            pos_length = batch['pos_len'].to(self.params.DanGuesser_device)
+
+            neg_text = batch['neg_text'].to(self.params.DanGuesser_device)
+            neg_length = batch['neg_len'].to(self.params.DanGuesser_device)
 
             #### Your code here
-            loss = None
-            # You'll need to actually compute a loss and update the optimizer
 
-            assert loss is not None, "The loss has not been defined"
-            
-            clip_grad_norm_(model.parameters(), self.grad_clipping)
+            # This code is needed to figure out the nearest neighbors of the example
+            self.training_data.set_representation(batch['ex_indices'], anchor_rep)
+            self.training_data.refresh_index()
+
+            self.kd_tree = None
+
+            clip_grad_norm_(model.parameters(), self.params.DanGuesser_grad_clipping)
             print_loss_total += loss.data.numpy()
             epoch_loss_total += loss.data.numpy()
 
             if idx % checkpoint_every == 0:
                 print_loss_avg = print_loss_total / checkpoint_every
+                self.training_data.initialize_lookup()
 
                 logging.info('number of steps: %d, loss: %.5f time: %.5f' % (idx, print_loss_avg, time.time()- start))
                 print_loss_total = 0
-                curr_accuracy = evaluate(dev_data_loader, self.dan_model, self.device)
+                curr_accuracy = evaluate(dev_data_loader, self.dan_model, self.training_data, self.params.DanGuesser_device)
 
                 if accuracy < curr_accuracy:
                     torch.save(model, "%s.torch.pkl" % self.model_filename)
@@ -458,6 +502,17 @@ class DanGuesser(Guesser):
         logging.info('Final accuracy=%f' % accuracy)
         return accuracy
 
+    @staticmethod
+    def batch_accuracy(anchor, positive, negative):
+        """
+        Check how many of the positive examples are closer to the query than the negative example
+        """
+        
+        pos_sim = torch.sum(anchor*positive, axis=1).detach().numpy()
+        neg_sim = torch.sum(anchor*negative, axis=1).detach().numpy()
+
+        return sum(1 for x in np.greater(pos_sim, neg_sim) if x) / len(anchor)
+    
 
     ###You don't need to change this funtion
     @staticmethod
@@ -469,22 +524,41 @@ class DanGuesser(Guesser):
         batch: list of outputs from vectorize function
         """
 
-        question_len = list()
-        label_list = list()
-        for ex in batch:
-            question_len.append(len(ex[0]))
-            label_list.append(ex[1])
+        logging.info("Batch length: %i" % len(batch))
 
-        target_labels = torch.LongTensor(label_list)
-        x1 = torch.LongTensor(len(question_len), max(question_len)).zero_()
-        for i in range(len(question_len)):
-            question_text = batch[i][0]
-            vec = torch.LongTensor(question_text)
-            x1[i, :len(question_text)].copy_(vec)
-        q_batch = {'text': x1, 'len': torch.LongTensor(question_len), 'labels': target_labels}
+        question_lengths = torch.LongTensor(len(batch)).zero_()
+        pos_lengths = torch.LongTensor(len(batch)).zero_()
+        neg_lengths = torch.LongTensor(len(batch)).zero_()
+        
+        ex_indices = list()
+
+        num_examples = len(batch)
+        for idx, ex in enumerate(batch):
+            _, question_len, _, pos_len, _, neg_len, example_index = ex
+            question_lengths[idx] = question_len
+            pos_lengths[idx] = pos_len
+            neg_lengths[idx] = neg_len
+            ex_indices.append(example_index)
+        
+        question_matrix = torch.LongTensor(num_examples, max(question_lengths)).zero_()
+        positive_matrix = torch.LongTensor(num_examples, max(pos_lengths)).zero_()
+        negative_matrix = torch.LongTensor(num_examples, max(neg_lengths)).zero_()
+
+        for idx, ex in enumerate(batch):
+            question, _, pos, _, neg, _, _ = ex
+            question_matrix[idx, :len(question)].copy_(torch.LongTensor(question))
+            positive_matrix[idx, :len(pos)].copy_(torch.LongTensor(pos))
+            negative_matrix[idx, :len(neg)].copy_(torch.LongTensor(neg))
+            
+
+        q_batch = {'anchor_text': question_matrix, 'anchor_len': question_lengths,
+                   'pos_text': positive_matrix, 'pos_len': pos_lengths,
+                   'neg_text': negative_matrix, 'neg_len': neg_lengths,
+                   'ex_indices': ex_indices}
+
         return q_batch
 
-def evaluate(data_loader, model, device):
+def evaluate(data_loader, model, train_data, device):
     """
     evaluate the current model, get the accuracy for dev/test set
     Keyword arguments:
@@ -497,104 +571,20 @@ def evaluate(data_loader, model, device):
     num_examples = 0
     error = 0
     for idx, batch in enumerate(data_loader):
-        question_text = batch['text'].to(device)
-        question_len = batch['len']
-        labels = batch['labels']
+        question_text = batch['anchor_text'].to(device)
+        question_len = batch['anchor_len']
+        labels = batch['ex_indices']
 
         # Call the model to get the logits
-        # You'll need to update the code here        
+        # You'll need to update the code here
+        closest = train_data.get_nearest(representation, labels, 1)
 
-        top_n, top_i = logits.topk(1)
+        error += sum(1 for guess, answer in zip(closest, labels) if guess != answer)
         num_examples += question_text.size(0)
-        error += torch.nonzero(top_i.squeeze() - torch.LongTensor(labels)).size(0)
+
     accuracy = 1 - error / num_examples
     return accuracy
 
-
-
-
-
-
-class DanModel(nn.Module):
-    """High level model that handles intializing the underlying network
-    architecture, saving, updating examples, and predicting examples.
-    """
-
-    #### You don't need to change the parameters for the model
-
-
-    def __init__(self, model_filename, n_classes, device, vocab_size, emb_dim=50,
-                 activation=nn.ReLU(), n_hidden_units=50, nn_dropout=.5):
-        super(DanModel, self).__init__()
-        self.model_filename = model_filename
-        self.n_classes = n_classes
-        self.vocab_size = vocab_size
-        self.emb_dim = emb_dim
-        self.n_hidden_units = n_hidden_units
-        self.nn_dropout = nn_dropout
-        logging.info("Creating embedding layer for %i vocab size, %i classes with %i dimensions (hidden dimension=%i)" % \
-                         (self.vocab_size, n_classes, self.emb_dim, n_hidden_units))
-        self.embeddings = nn.Embedding(self.vocab_size, self.emb_dim, padding_idx=0)
-        self.linear1 = nn.Linear(emb_dim, n_hidden_units)
-        self.linear2 = nn.Linear(n_hidden_units, n_classes)
-
-        # Create the actual prediction framework for the DAN classifier.
-
-        # You'll need combine the two linear layers together, probably
-        # with the Sequential function.  The first linear layer takes
-        # word embeddings into the representation space, and the
-        # second linear layer makes the final prediction.  Other
-        # layers / functions to consider are Dropout, ReLU.
-        # For test cases, the network we consider is - linear1 -> ReLU() -> Dropout(0.5) -> linear2
-
-        # To allow the code to pass the unit tests, we created a WRONG network.
-        # You will need to replace it with something that actually works correctly.
-
-        self.network = nn.Sequential(
-            nn.Linear(emb_dim, n_classes)
-        )
-        
-
-        # To make this work on CUDA, you need to move it to the appropriate
-        # device
-        self.network.to(device)
-
-    def average(self, text_embeddings, text_len):
-        """
-        Given a batch of text embeddings and a tensor of the corresponding lengths, compute the average of them.
-
-        text_embeddings: embeddings of the words
-        text_len: the corresponding number of words
-        """
-
-        average = torch.zeros(text_embeddings.size()[0], text_embeddings.size()[-1])
-
-        # You'll want to finish this function.  You don't have to use it in
-        # your forward function, but it's a good way to make sure the
-        # dimensions match and to use the unit test to check your work.
-
-        return average
-
-    def forward(self, input_text, text_len, is_prob=False):
-        """
-        Model forward pass, returns the logits of the predictions.
-
-        Keyword arguments:
-        input_text : vectorized question text, were each word is represented as an integer
-        text_len : batch * 1, text length for each question
-        is_prob: if True, output the softmax of last layer
-        """
-
-        logits = torch.FloatTensor([0.0] * self.n_classes)
-
-        # Complete the forward funtion.  First look up the word embeddings.
-        # Then average them
-        # Before feeding them through the network
-
-        if is_prob:
-            logits = self._softmax(logits)
-
-        return logits
 
 
 
@@ -602,25 +592,24 @@ class DanModel(nn.Module):
 # But you may need to add funtions to support error analysis
 
 if __name__ == "__main__":
-    from params import load_questions, add_guesser_params, add_general_params, add_question_params, setup_logging
+    from params import load_questions, add_guesser_params, add_general_params, add_question_params, setup_logging, instantiate_guesser
 
     logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBUG)
 
     parser = argparse.ArgumentParser(description='Question Type')
     add_general_params(parser)
-    add_guesser_params(parser)
+    guesser_params = add_guesser_params(parser)
     add_question_params(parser)
 
     flags = parser.parse_args()
-    setup_logging(flags)
-
     #### check if using gpu is available
     cuda = not flags.no_cuda and torch.cuda.is_available()
-    device = torch.device("cuda" if cuda else "cpu")
-    logging.info("Device=", device)
+    flags.DanGuesser_device = "cuda" if cuda else "cpu"
+    logging.info("Device= %s", str(torch.device(flags.DanGuesser_device)))
+    guesser_params["dan"].load_command_line_params(flags)
+    setup_logging(flags)
 
     ### Load data
-
     train_exs = load_questions(flags)
     dev_exs = load_questions(flags, secondary=True)
 
@@ -632,27 +621,7 @@ if __name__ == "__main__":
     logging.info("Example: %s" % str(train_exs[0]))
 
     ### Create vocab
-    dg = DanGuesser(filename=flags.DanGuesser_filename, answer_field=flags.guesser_answer_field, min_token_df=flags.DanGuesser_min_df, max_token_df=flags.DanGuesser_max_df,
-                    min_answer_freq=flags.DanGuesser_min_answer_freq, embedding_dimension=flags.DanGuesser_embedding_dim,
-                    hidden_units=flags.DanGuesser_hidden_units, nn_dropout=flags.DanGuesser_dropout,
-                    grad_clipping=flags.DanGuesser_grad_clipping, unk_drop=flags.DanGuesser_unk_drop,
-                    batch_size=flags.DanGuesser_batch_size, num_epochs=flags.DanGuesser_num_epochs,
-                    num_workers=flags.DanGuesser_num_workers, device=device)
-    dg.train(train_exs, flags.guesser_answer_field, flags.tfidf_split_sentence, flags.tfidf_min_length,
-                 flags.tfidf_max_length)
-    dg.set_eval_data(dev_exs)
+    data = QuestionData(guesser_params["dan"])
 
-
-    dg.train_dan()
-    print(dg("Name this Italian author of The Path to the Nest of Spiders, Invisible Cities, and If on a winter's night a traveler"))
-    dg.save()
-
-    dg = DanGuesser(filename=flags.DanGuesser_filename, answer_field=flags.guesser_answer_field, min_token_df=flags.DanGuesser_min_df, max_token_df=flags.DanGuesser_max_df,
-                    min_answer_freq=flags.DanGuesser_min_answer_freq, embedding_dimension=flags.DanGuesser_embedding_dim,
-                    hidden_units=flags.DanGuesser_hidden_units, nn_dropout=flags.DanGuesser_dropout,
-                    grad_clipping=flags.DanGuesser_grad_clipping, unk_drop=flags.DanGuesser_unk_drop,
-                    batch_size=flags.DanGuesser_batch_size,
-                    num_epochs=flags.DanGuesser_num_epochs, num_workers=flags.DanGuesser_num_workers,
-                    device=device)
-    dg.load()
-    print(dg("Name this Italian author of The Path to the Nest of Spiders, Invisible Cities, and If on a winter's night a traveler"))
+    guesser = instantiate_guesser("Dan", flags, guesser_params, False)
+    guesser.train_dan(train_exs, dev_exs)

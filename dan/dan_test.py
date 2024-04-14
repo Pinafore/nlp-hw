@@ -1,25 +1,26 @@
 
 import unittest
-from guesser import kTOY_JSON
+from guesser import kTOY_DATA
 from dan_guesser import *
 
 class DanTest(unittest.TestCase):
     def setUp(self):
-        self.wide_dan_model = DanModel("", n_classes=1, vocab_size=1, emb_dim=4, n_hidden_units=50, device='cpu')
-        
-        self.toy_dan_guesser = DanGuesser(filename="", answer_field="page", min_token_df=0,
-                                          max_token_df=1, min_answer_freq=0, embedding_dimension=2,
-                                          hidden_units=2, nn_dropout=0, grad_clipping=5, unk_drop=0,
-                                          batch_size=1, num_epochs=1, num_workers=1,
-                                          device='cpu')
 
-        self.toy_json = kTOY_JSON
+        parameters = DanParameters()
+        parameters.unit_test()
+        
+        self.wide_dan_model = DanModel("", n_classes=1, vocab_size=1, emb_dim=4, n_hidden_units=50, device='cpu')
+        self.toy_dan_guesser = DanGuesser(parameters)
+
+        self.toy_json = kTOY_DATA["tiny"]
         
         # Create data object and turn it into the toy dataset
-        toy_dataset = QuestionData(0, 1, 0)
-        toy_dataset.toy()
+        toy_dataset = QuestionData(parameters)
 
-        self.toy_dan_guesser.train(kTOY_JSON, "page", False)        
+        toy_dataset.build_vocab(self.toy_json)
+        toy_dataset.set_data(self.toy_json)
+
+        self.toy_dan_guesser.train(toy_dataset, "page", False)        
         self.toy_qa = DanModel("model/toy_dan", n_classes=4, vocab_size=5,
                                device="cpu", emb_dim=2, activation=nn.Hardtanh(),
                                n_hidden_units=2, nn_dropout=0.0)

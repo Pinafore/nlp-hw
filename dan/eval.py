@@ -3,9 +3,9 @@
 #
 # Run an evaluation on a QA system and print results
 import random
-from tqdm import tqdm
+import string
 
-from buzzer import rough_compare
+from tqdm import tqdm
 
 from params import load_guesser, load_questions, load_buzzer, \
     add_buzzer_params, add_guesser_params, add_general_params,\
@@ -19,6 +19,49 @@ kLABELS = {"best": "Guess was correct, Buzz was correct",
            "aggressive": "Guess was wrong, Buzz was wrong",
            "waiting": "Guess was wrong, Buzz was correct"}
 
+def normalize_answer(answer):
+    """
+    Remove superflous components to create a normalized form of an answer that
+    can be more easily compared.
+    """
+    from unidecode import unidecode
+    
+    if answer is None:
+        return ''
+    reduced = unidecode(answer)
+    reduced = reduced.replace("_", " ")
+    if "(" in reduced:
+        reduced = reduced.split("(")[0]
+    reduced = "".join(x for x in reduced.lower() if x not in string.punctuation)
+    reduced = reduced.strip()
+
+    for bad_start in ["the ", "a ", "an "]:
+        if reduced.startswith(bad_start):
+            reduced = reduced[len(bad_start):]
+    return reduced.strip()
+ 
+def rough_compare(guess, page):
+    """
+    See if a guess is correct.  Not perfect, but better than direct string
+    comparison.  Allows for slight variation.
+    """
+    # TODO: Also add the original answer line
+    if page is None:
+        return False
+    
+    guess = normalize_answer(guess)
+    page = normalize_answer(page)
+
+    if guess == '':
+        return False
+    
+    if guess == page:
+        return True
+    elif page.find(guess) >= 0 and (len(page) - len(guess)) / len(page) > 0.5:
+        return True
+    else:
+        return False
+    
 def eval_retrieval(guesser, questions, n_guesses=25, cutoff=-1):
     """
     Evaluate the guesser's retrieval
@@ -88,7 +131,7 @@ def pretty_feature_print(features, first_features=["guess", "answer", "id"]):
     return "\n".join(lines)
 
 
-def eval_buzzer(buzzer, questions):
+def eval_buzzer(buzzer, questions, history_length, history_depth):
     """
     Compute buzzer outcomes on a dataset
     """
@@ -97,19 +140,34 @@ def eval_buzzer(buzzer, questions):
     
     buzzer.load()
     buzzer.add_data(questions)
-    buzzer.build_features()
+    buzzer.build_features(history_length=history_length, history_depth=history_depth)
     
     predict, feature_matrix, feature_dict, correct, metadata = buzzer.predict(questions)
+
+    # Keep track of how much of the question you needed to see before
+    # answering correctly
+    question_seen = {}
+    question_length = defaultdict(int)
+    
     outcomes = Counter()
     examples = defaultdict(list)
     for buzz, guess_correct, features, meta in zip(predict, correct, feature_dict, metadata):
-        # Add back in metadata now that we have prevented cheating in feature creation
+        qid = meta["id"]
+        
+        # Add back in metadata now that we have prevented cheating in feature creation        
         for ii in meta:
             features[ii] = meta[ii]
+
+        # Keep track of the longest run we saw for each question
+        question_length[qid] = max(question_length[qid], len(meta["text"]))
+        
         if guess_correct:
             if buzz:
                 outcomes["best"] += 1
                 examples["best"].append(features)
+
+                if not qid in question_seen:
+                    question_seen[qid] = len(meta["text"])
             else:
                 outcomes["timid"] += 1
                 examples["timid"].append(features)
@@ -117,10 +175,26 @@ def eval_buzzer(buzzer, questions):
             if buzz:
                 outcomes["aggressive"] += 1
                 examples["aggressive"].append(features)
+
+                if not qid in question_seen:
+                    question_seen[qid] = -len(meta["text"])
             else:
                 outcomes["waiting"] += 1
                 examples["waiting"].append(features)
-    return outcomes, examples
+    unseen_characters = 0.0
+
+    number_questions = 0
+    for question in question_length:
+        number_questions += 1
+        length = question_length[question]
+        if question in question_seen:
+            if question_seen[question] > 0:
+                # The guess was correct
+                unseen_characters += 1.0 - question_seen[question] / length
+            else:
+                unseen_characters -= 1.0 + question_seen[question] / length
+
+    return outcomes, examples, unseen_characters / number_questions
                 
 
 if __name__ == "__main__":
@@ -140,10 +214,12 @@ if __name__ == "__main__":
     setup_logging(flags)
 
     questions = load_questions(flags)
-    guesser = load_guesser(flags, load=True)    
+    guesser = load_guesser(flags, load=flags.load)    
     if flags.evaluate == "buzzer":
         buzzer = load_buzzer(flags, load=True)
-        outcomes, examples = eval_buzzer(buzzer, questions)
+        outcomes, examples, unseen = eval_buzzer(buzzer, questions,
+                                                 history_length=flags.buzzer_history_length,
+                                                 history_depth=flags.buzzer_history_depth)
     elif flags.evaluate == "guesser":
         if flags.cutoff >= 0:
             outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses, flags.cutoff)
@@ -166,8 +242,12 @@ if __name__ == "__main__":
     if flags.evaluate == "buzzer":
         for weight, feature in zip(buzzer._classifier.coef_[0], buzzer._featurizer.feature_names_):
             print("%40s: %0.4f" % (feature.strip(), weight))
-        print("Questions Right: %i (out of %i) Accuracy: %0.2f  Buzz ratio: %0.2f" %
-              (outcomes["best"], total, (outcomes["best"] + outcomes["waiting"]) / total,
-               outcomes["best"] - outcomes["aggressive"] * 0.5))
+        
+        print("Questions Right: %i (out of %i) Accuracy: %0.2f  Buzz ratio: %0.2f Buzz position: %f" %
+              (outcomes["best"], # Right
+               total,            # Total
+               (outcomes["best"] + outcomes["waiting"]) / total, # Accuracy
+               (outcomes["best"] - outcomes["aggressive"] * 0.5) / total, # Ratio
+               unseen))
     elif flags.evaluate == "guesser":
         print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"]/total, outcomes["close"]/total))

@@ -6,6 +6,7 @@
 import os
 import re
 import json
+import pickle
 import logging
 
 from typing import List, Dict, Iterable, Optional, Tuple, NamedTuple
@@ -14,15 +15,42 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 
 alphanum = re.compile('[^a-zA-Z0-9]')
 
-from params import load_guesser, load_questions, setup_logging
+from params import load_guesser, load_questions, setup_logging, Parameters
 from params import add_general_params, add_guesser_params, add_general_params, add_question_params
 
-kTOY_JSON = [{"text": "capital England", "page": "London"},
-             {"text": "capital Russia", "page": "Moscow"},
-             {"text": "currency England", "page": "Pound"},
-             {"text": "currency Russia", "page": "Rouble"}]
+kTOY_DATA = {"tiny": [{"text": "capital England", "page": "London"},
+                      {"text": "capital Russia", "page": "Moscow"},
+                      {"text": "currency England", "page": "Pound"},
+                      {"text": "currency Russia", "page": "Rouble"}],
+             "train": [{'page': 'Maine', 'text': 'For 10 points, name this New England state with capital at Augusta.'},
+                       {'page': 'Massachusetts', 'text': 'For ten points, identify this New England state with capital at Boston.'},
+                       {'page': 'Boston', 'text': 'For 10 points, name this city in New England, the capital of Massachusetts.'},
+                       {'page': 'Jane_Austen', 'text': 'For 10 points, name this author of Pride and Prejudice.'},
+                       {'page': 'Jane_Austen', 'text': 'For 10 points, name this author of Emma and Pride and Prejudice.'},
+                       {'page': 'Wolfgang_Amadeus_Mozart', 'text': 'For 10 points, name this composer of Magic Flute and Don Giovanni.'},
+                       {'page': 'Wolfgang_Amadeus_Mozart', 'text': 'Name this composer who wrote a famous requiem and The Magic Flute.'},
+                       {'page': "Gresham's_law", 'text': 'For 10 points, name this economic principle which states that bad money drives good money out of circulation.'},
+                       {'page': "Gresham's_law", 'text': "This is an example -- for 10 points \\-- of what Scotsman's economic law, which states that bad money drives out good?"},
+                       {'page': "Gresham's_law", 'text': 'FTP name this economic law which, in simplest terms, states that bad money drives out the good.'},
+                       {'page': 'Rhode_Island', 'text': "This colony's Touro Synagogue is the oldest in the United States."},
+                       {'page': 'Lima', 'text': 'It is the site of the National University of San Marcos, the oldest university in South America.'},
+                       {'page': 'College_of_William_&_Mary', 'text': 'For 10 points, identify this oldest public university in the United States, a college in Virginia named for two monarchs.'}],
+              "dev": [{'text': "This capital of England", "top": 'Maine', "second": 'Boston'},
+                      {'text': "The author of Pride and Prejudice", "top": 'Jane_Austen',
+                           "second": 'Jane_Austen'},
+                      {'text': "The composer of the Magic Flute", "top": 'Wolfgang_Amadeus_Mozart',
+                           "second": 'Wolfgang_Amadeus_Mozart'},
+                      {'text': "The economic law that says 'good money drives out bad'",
+                           "top": "Gresham's_law", "second": "Gresham's_law"},
+                      {'text': "located outside Boston, the oldest University in the United States",
+                           "top": 'College_of_William_&_Mary', "second": 'Rhode_Island'}]
+                }
 
 def word_overlap(query, page):
+    """
+    Checks overlap between two strings, used in checking if an answer is a match.
+    """
+    
     query_words = set(alphanum.split(query))
     page_words = set(alphanum.split(page))
 
@@ -47,7 +75,17 @@ def print_guess(guess, max_char=20):
             
     return output
 
-
+class GuesserParameters(Parameters):
+    guesser_params = [("filename", str, "models/guesser",
+                       "Where we save guesser"),
+                      ("vocab_size", int, 20000,
+                       "Maximum number of words in vocabulary"),
+                      ]
+    
+    def __init__(self):
+        Parameters.__init__(self)
+        self.params += self.guesser_params
+    
 class Guesser:
     """
     Base class for guessers.  If it itself is instantiated, it will only guess
@@ -60,7 +98,15 @@ class Guesser:
         None
 
     @staticmethod
-    def split_examples(training_data, answer_field, split_by_sentence=True, min_length=-1, max_length=-1):
+    def split_examples(training_data, answer_field, split_by_sentence=True, min_length=-1,
+                        max_length=-1):
+        """
+        Given training data, create a mapping of of answers to the question with that answer.
+        What qualifies as the answer is specified by the "answer_field".  
+
+        If split_by_sentence is true, it creates individual questions
+        for each of the sentences in the original question.
+        """
         from collections import defaultdict
         from tqdm import tqdm
         
@@ -68,17 +114,20 @@ class Guesser:
         if split_by_sentence:
             for qq in tqdm(training_data):
                 for ss in sent_tokenize(qq["text"]):
-                    if (min_length < 0 or len(ss) > min_length) and (max_length < 0 or len(ss) < max_length):
+                    if (min_length < 0 or len(ss) > min_length) and \
+                        (max_length < 0 or len(ss) < max_length):
                         answers_to_questions[qq[answer_field]].add(ss)
         else:
             for qq in tqdm(training_data):
                 text = qq["text"]
-                if (min_length < 0 or len(text) > min_length) and (max_length < 0 or len(text) < max_length):
+                if (min_length < 0 or len(text) > min_length) and \
+                    (max_length < 0 or len(text) < max_length):
                     answers_to_questions[qq[answer_field]].add(qq["text"])
         return answers_to_questions
 
     @staticmethod
-    def filter_answers(questions_keyed_by_answers, remove_missing_pages=False, answer_lookup=None):
+    def filter_answers(questions_keyed_by_answers, remove_missing_pages=False,
+                       answer_lookup=None):
         """
         Remove missing answers or answers that aren't included in lookup.
         """
@@ -115,6 +164,8 @@ class Guesser:
         answers_to_questions = self.split_examples(training_data, answer_field, split_by_sentence,
                                                    min_length, max_length)
         self.questions, self.answers = self.filter_answers(answers_to_questions)
+        logging.info("Trained with %i questions and %i answers filtered from %i examples" %
+                     (len(self.questions), len(self.answers), len(training_data)))
 
         return answers_to_questions
 
@@ -161,14 +212,45 @@ class Guesser:
         return guesses
 
     def save(self):
-        path = self.model_filename
+        """
+        Save the Guesser's information to a file.  
+        This will normally be handled by the subclass.
+        """
+
+        path = self.filename
+        
         if self.phrase_model is not None:
             filename = "%s.phrase.pkl" % path
             logging.info("Writing Guesser phrases to %s" % filename)
             self.phrase_model.save(filename)
 
+    def save_questions_and_answers(self):
+        path = self.filename                
+        with open("%s.questions.pkl" % path, 'wb') as f:
+            pickle.dump(self.questions, f)
+
+        with open("%s.answers.pkl" % path, 'wb') as f:
+            pickle.dump(self.answers, f)
+
+    def load_questions_and_answers(self):
+        path = self.filename                
+        with open("%s.questions.pkl" % path, 'rb') as f:
+            self.questions = pickle.load(f)
+
+        with open("%s.answers.pkl" % path, 'rb') as f:
+            self.answers = pickle.load(f)        
+
+        logging.info("Loading %i questions and %i answers" %
+                     (len(self.questions), len(self.answers)))
+        assert len(self.questions)==len(self.answers), "Question size mismatch"   
+            
     def load(self):
-        path = self.model_filename        
+        """
+        Load the guesser information that's been saved to a file.  
+
+        Normally the heavy lifting is done by a subclass.
+        """
+        path = self.filename        
         filename = "%s.phrase.pkl" % path
         try:
             from gensim.models.phrases import Phrases
@@ -181,7 +263,7 @@ class Guesser:
         Generate a guess set from a single question.
         """
         return [{"guess": self._default_guess, "confidence": 1.0}]
-
+1
 
 if __name__ == "__main__":
     # Train a guesser and save it to a file
@@ -198,26 +280,38 @@ if __name__ == "__main__":
     questions = load_questions(flags)
     # TODO(jbg): Change to use huggingface data, as declared in flags
 
-    if flags.guesser_type == 'WikiGuesser':
+    if flags.guesser_type == 'Wiki':
         guesser.init_wiki(flags.wiki_zim_filename)        
         train_result = guesser.train(questions,
                                      flags.guesser_answer_field,
-                                     flags.tfidf_split_sentence,
-                                     flags.tfidf_min_length,
-                                     flags.tfidf_max_length,
+                                     flags.guesser_split_sentence,
+                                     flags.guesser_min_length,
+                                     flags.guesser_max_length,
                                      flags.wiki_min_frequency)
         # The WikiGuesser has some results (text from asked about Wikipedia
         # pages) from saving and we want to cache them to a file
         guesser.save()
-    else:
+    elif flags.guesser_type == 'President':
+        from president_guesser import kPRESIDENT_DATA
+        guesser.train(kPRESIDENT_DATA['train'])
+    elif flags.guesser_type == "Dan":
+        dev_exs = load_questions(flags, secondary=True)
+        guesser.set_eval_data(dev_exs)
+        guesser.train_dan()
+        guesser.save()
+    elif flags.guesser_type == "ToyTfidf":
         guesser.train(questions,
                       flags.guesser_answer_field,
-                      flags.tfidf_split_sentence,
-                      flags.tfidf_min_length,
-                      flags.tfidf_max_length)
+                      flags.guesser_split_sentence)
+        guesser.save()
+    else:
+        if flags.guesser_type not in ['Tfidf']:
+            logging.info("Training with default guesser API (gave %s), this might mean something has gone wrong if you wanted to match ToyTfidf, President, Wiki, or Dan" %
+                        flags.guesser_type)
+        guesser.train(questions,
+                      flags.guesser_answer_field,
+                      flags.guesser_split_sentence,
+                      flags.guesser_min_length,
+                      flags.guesser_max_length)
         # DAN Guesser 
-        if flags.guesser_type == "DanGuesser":
-            dev_exs = load_questions(flags, secondary=True)
-            guesser.set_eval_data(dev_exs)
-            guesser.train_dan()
         guesser.save()

@@ -42,6 +42,25 @@ vocabulary. In this assignment, you need to write the `vectorize()` function
 yourself. We provide the `batchify()` function to split the dataset into
 mini-batches.
 
+What's the Loss Function?
+----------------------
+
+The first thing to understand is what objective we're optimizing.
+When a question comes in, we turn it into a representation.  What's
+our goal?  We want that representation to be closer to a question in
+our train set with the correct label (answer / page) than questions
+with different answers.
+
+So if the wrong answer is closer, we push it away and pull the correct
+answer closer.  
+
+In the code, the positive and negative examples are chose in the
+``getitem`` function of the `QuestionData` class, but then turned into
+matrices in the `batchify` function.  Walk through that code so you
+understand everything.  Check the Pytorch documentation:
+
+https://pytorch.org/docs/stable/generated/torch.nn.TripletMarginLoss.html 
+
 Guide
 -----
 
@@ -181,7 +200,7 @@ Then check to see how well the code does.
 
 Because many of you don't have GPUs, our goal is not to have you train a
 super-converged model.  We want to see models with a non-zero recall and
-precision guess at least hundreds of possible answers.  It doesn't have to be
+precision guess over at least hundreds of possible answers.  It doesn't have to be
 particularly good (but you can get extra credit if you invest the time).
 
 
@@ -189,9 +208,11 @@ What you have to do
 ----------------
 
 **Coding**: (15 points)
-1. Understand the structure of the code.
+1. Understand the structure of the code, particularly the
+   `QuestionData` class.
 2. Write the data `vectorize()` funtion.
 3. Write DAN model initialization. 
+3. Write the `average()` function.
 4. Write model `forward()` function.
 5. Write the model training/testing function `evaluate()`. We don't have unit tests for this part, but it's necessary to get it correct to achieve reasonable performance.
 
@@ -228,6 +249,16 @@ change. Write down your findings in analysis.pdf.
 * Have the dropout depend on the index of words so that later text is
   more likely to disappear.  This will make it work better on
   pyramidal questions.
+  
+* Select the negative example more intelligently than randomly (e.g.,
+  pick an example that looks similar based on tf-idf but has a
+  different label).  Or refresh the negative examples based on the
+  model errors.  
+  
+* Form the vocabularly more intelligently (e.g., put "this Finnish
+  composer" into a single word) so that word order can have a bit more
+  help to the model. [Suggestions: Use Spacy's ``noun_chunks``
+  function after running an ``nlp`` analysis.
 
 You can also get extra credit by getting the highest precision and recall by
 tuning training parameters.  If you have other ideas, just ask, and we

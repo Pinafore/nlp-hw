@@ -35,12 +35,50 @@ reranking, one on extraction, and one on buzzing.
 It's also okay to work in groups on this project, but the effort
 required will scale with the number in the group.
 
+Concrete Ideas
+==============
+
+This ammount of freedom might be intimidating, so if you need an
+explicit template of what to do, here are some ideas:
+
+* Use a character-level n-gram model to generate QB questions:
+
+https://pytorch.org/tutorials/intermediate/char_rnn_generation_tutorial.html
+(It's going to be horrible, but it will be fun)
+
+* Classify the category of a question:
+
+https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html
+
+* Learn a RNN / LSTM buzzer:
+
+https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html
+
+The DAN Homework
+================
+
+Originally, the plan for this homework was to implement the DAN model,
+and we provided source code here to help you with it:
+https://github.com/Pinafore/nlp-hw/tree/master/dan
+
+You're welcome to continue working on it or to use some of the code,
+but I think we now realize that the introduction of the new loss
+function plus a nearest-neighbor lookup was too much.  So we don't
+recommend doing this model for your homework.
+
+Grading
+=======
+
+This will not be graded very rigorously.  
+
 FAQ
 ====
 
 **Q: Can I use other people's code?  How about other people's models?**
 
-You can use other's code if you cite it.  But you must train/finetune a model on the course data yourself.  In other words, you can't download code and data and do nothing else.  A model must be trained.
+You can use other's code if you cite it.  But you must train/finetune
+a model on the course data yourself.  In other words, you can't
+download code and data and do nothing else.  A model must be trained.
 
 
 

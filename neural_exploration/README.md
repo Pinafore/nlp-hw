@@ -66,10 +66,25 @@ but I think we now realize that the introduction of the new loss
 function plus a nearest-neighbor lookup was too much.  So we don't
 recommend doing this model for your homework.
 
+What to Turn in
+===============
+
+Please turn in:
+
+* A `Readme.md` file that explains how to run your code
+
+* A `requirements.txt` file that installs all python packages needed to run your code
+
+* A `results.pdf` file that shows that your code is working (because
+  you can pick the task that you do, it's up to you on how to
+  evaluate).
+
 Grading
 =======
 
-This will not be graded very rigorously.  
+This is a last minute "seat of our pants" assignment, so as long as
+you do something reasonable and show that you learned something,
+you'll get an okay grade.
 
 FAQ
 ====

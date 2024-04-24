@@ -344,7 +344,16 @@ The final three areas are different between the system and the questions.
 | _Effort_ |  Did you do what you say you would, and was it the right ammount of effort.  | Are the questions well-written, interesting, and thoroughly edited? |
 | _Performance_ | How did your techniques perform in terms of accuracy, recall, etc.? | Is the human accuracy substantially higher than the computer accuracy? |
 
-All members of the group will receive the same grade.  It's impossible for the course staff to adjudicate Rashomon-style accounts of who did what, and the goal of a group project is for all team members to work together to create a cohesive project that works well together.  While it makes sense to divide the work into distinct areas of responsibility, at grading time we have now way to know who really did what, so it's the groups responsibility to create a piece of output that reflects well on the whole group.
+All members of the group will receive the same grade.  It's impossible
+for the course staff to adjudicate Rashomon-style accounts of who did
+what (I know that the book is called "In a Grove", but most people are
+familiar with the movie called "Rashomon", which took the story of "In
+a Grove" but took the title of another story), and the goal of a group
+project is for all team members to work together to create a cohesive
+project that works well together.  While it makes sense to divide the
+work into distinct areas of responsibility, at grading time we have
+now way to know who really did what, so it's the groups responsibility
+to create a piece of output that reflects well on the whole group.
 
 
 FAQ
@@ -355,4 +364,12 @@ hard to write adversarial questions against the best LLMs.
 
 *A:* We will test your questions with all of the student submitted
  systems and with a handful of our own systems (including GPT and
- Claude).
+ Claude).  For the “full” evaluation, we’re going to have multiple
+ agents (both human and computer) and we’re going to compare the
+ difference between human and computer accuracy.  For “milestone”
+ evaluations, we’re just going to do checkpoints.  For models that are
+ stochastic, we’ll indeed take multiple runs.  Thus, you should aim
+ for questions that models consistently fail to answer … we won’t take
+ the “best” result.
+
+

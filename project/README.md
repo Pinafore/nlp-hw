@@ -51,7 +51,17 @@ If you don't like the interruptability of questions, you can also just answer en
 
 Competition
 ==================
-We will use Dynabech website (https://dynabench.org/tasks/qa). If you remember the past workshop about Dynabench submission, this is the way to do it. The specific task name is "Grounded QA". Here, with the help of the video tutorial, you submit your QA model and assess how your QA model did compared to others. The assessment will take place by testing your QA model on several QA test datasets and the results of yours and your competitors will be visible on the leaderboard. Your goal is to rank the highest in terms of expected wins: you buzz in with probability proportional to your confidence, and if you're more right than the competition, you win. 
+
+We will use Dynabech website (https://dynabench.org/tasks/qa). If you
+remember the past workshop about Dynabench submission, this is the way
+to do it. The specific task name is "Grounded QA". Here, with the help
+of the video tutorial, you submit your QA model and assess how your QA
+model did compared to others. The assessment will take place by
+testing your QA model on several QA test datasets and the results of
+yours and your competitors will be visible on the leaderboard. Your
+goal is to rank the highest in terms of expected wins: you buzz in
+with probability proportional to your confidence, and if you're more
+right than the competition, you win.
 
 Writing Questions
 ==================
@@ -206,19 +216,28 @@ working, what isn't, and how does it change your timeline?  How does it change y
 your questions and first drafts of at least 15 questions.  This must
 be submitted as a JSON file so that we run computer QA systems on it.
 
-*Project*: You'll need to have made a submission to the leaderboard with something that satisfies the API.
+You do not need to submit the PDF writeup for this milestone, but it
+will be required for the next one.
 
-Submit a PDF updating on your progress to Gradescope.  If all team
-members are not on the submission, you will lose points.
+*Project*: Submit a PDF updating on your progress to Gradescope.
+
+If all team members are not on the submission, you will lose points.
 
 Milestone 2
 ===================
 
 As before, provide an updated timeline / division of labor, provide your intermediary results.  
 
-*Question Writing*: You'll need to have reflected the feedback from the first questions and completed a first draft of at least 30 questions.  You'll also need machine results to your questions and an overall evaluation of your human/computer accuracy.
+*Question Writing*: You'll need to have reflected the feedback from
+ the first questions and completed a first draft of at least 30
+ questions.
 
-*Project*: You'll need to have a made a submission to the leaderboard with a working system (e.g., not just obey the API, but actually get reasonable answers).
+You'll also need machine results to your questions and an
+ overall evaluation of your human/computer accuracy.  Unlike the
+ previous submission, this will require submitting a PDF detailing
+ your sources and current status.
+ 
+*Project*: You'll need to have a made a submission to the leaderboard with a working system.
 
 Submit a PDF updating on your progress.
 
@@ -305,8 +324,6 @@ with open('path to your json file', 'r') as f:
     data = json.load(f)
 ```
 
-
-
 Grade
 ======================
 
@@ -328,3 +345,14 @@ The final three areas are different between the system and the questions.
 | _Performance_ | How did your techniques perform in terms of accuracy, recall, etc.? | Is the human accuracy substantially higher than the computer accuracy? |
 
 All members of the group will receive the same grade.  It's impossible for the course staff to adjudicate Rashomon-style accounts of who did what, and the goal of a group project is for all team members to work together to create a cohesive project that works well together.  While it makes sense to divide the work into distinct areas of responsibility, at grading time we have now way to know who really did what, so it's the groups responsibility to create a piece of output that reflects well on the whole group.
+
+
+FAQ
+======================
+
+*Q:* What system will you use to evaluate our questions?  It's really
+hard to write adversarial questions against the best LLMs.
+
+*A:* We will test your questions with all of the student submitted
+ systems and with a handful of our own systems (including GPT and
+ Claude).

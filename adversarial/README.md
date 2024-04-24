@@ -125,3 +125,18 @@ Also, humans don't memorize a lot of dates.  Some things are tightly tied to dat
 *Q:* What computers should ~not~ be able to answer the questions?
 
 *A:* It's okay if some computers can't answer the questions.  But clearly it would be better if all computers cannot answer the question.  Even better is if they all fail in different ways.  We're not going to focus on particular systems and say that, for instance, it must absolutely stump ChatGPT.
+
+*Q*: Is it sufficient to just fool the interface?
+
+*A*: The (authoring interface)[https://qantanew.web.app/login] is just one QA system, and
+ writing a question that stumps it is good, but there are other
+ systems out there.  We hope that an advantage of using it will be
+ that it will provide you better feedback both on the evidence that
+ it's finding as well as providing better clues about how pyramidal
+ the question is.  But you should use a variety of systems to check
+ your questions and answers.
+
+*Q*: Why does the interface want access to by Google Docs?
+
+*A*: It wants access to Google Docs so you can edit your questions
+ there and load them in this interface if you prefer.  

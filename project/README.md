@@ -367,7 +367,7 @@ hard to write adversarial questions against the best LLMs.
  Claude).  For the “full” evaluation, we’re going to have multiple
  agents (both human and computer) and we’re going to compare the
  difference between human and computer accuracy.  For “milestone”
- evaluations, we’re just going to do checkpoints.  For models that are
+ evaluations, we’re just going to do random checks.  For models that are
  stochastic, we’ll indeed take multiple runs.  Thus, you should aim
  for questions that models consistently fail to answer … we won’t take
  the “best” result.

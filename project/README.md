@@ -236,6 +236,12 @@ You'll also need machine results to your questions and an
  overall evaluation of your human/computer accuracy.  Unlike the
  previous submission, this will require submitting a PDF detailing
  your sources and current status.
+
+ The goal for the PDF is to show that you've started on the work of justifying your question writing with sources.  Not every question needs to have a complete writeup, but the questions that are furthest along should have their writeup started.
+
+Then your cover sheet can talk about your process and progress thus far.
+
+In other words, it should be a first draft of your final writeup with any concerns or places you need help / guidance.
  
 *Project*: You'll need to have a made a submission to the leaderboard with a working system.
 

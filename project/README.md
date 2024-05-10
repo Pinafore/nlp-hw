@@ -326,25 +326,19 @@ Each group has 10 minutes to deliver their presentation. Please record the video
 Final Question Submission
 ======================
 
-Because we need to get the questions ready for the systems, upload your raw questions on May 10.  This doesn't include the citations or other parts of the writeup.
+Because we need to get the questions ready for the systems, upload
+your raw questions on May 10 in json format on Gradescope.  This doesn't include the citations or
+other parts of the writeup.
 
 System Submission
 ======================
 
-You must submit a version of your system by May 12. It may not be perfect, but this what the question writing teams will use to test their results.
+You must submit a version of your system by May 12. It may not be
+perfect, but this what the question writing teams will use to test
+their results.
 
-Your system should be sent directly to the professor and TAs in zip files, including the correct dependencies and a working inference code. Your inference code should run successfully in the root folder (extracted from zip folder) directory with the command:
-
-```
-> python3 inference.py --data=evaluation_set.json 
-
-```
-
-The input will be in the form of a .json file () in the same format as the file the adversarial question writing team submits. The output format should also be in string.
-
-If you have any notes or comments that we should be aware of while running your code, please include them in the folder as a .txt file. Also, dependency information should be included as a .txt file. 
-
-Please prepend your email title with [2024-CMSC 470 System Submission].
+Your system should be uploaded directly to the HuggingFace
+leaderboard.
 
 Project Writeup and JSON file
 ======================
@@ -369,7 +363,7 @@ with open('path to your json file', 'r') as f:
     data = json.load(f)
 ```
 
-Grade
+Grade 
 ======================
 
 The grade will be out of 25 points, broken into five areas:

@@ -321,7 +321,9 @@ the final presentation you will:
 * Presumably you did many different things; how did they each
   individually contribute to your final result?
 
-Each group has 10 minutes to deliver their presentation. Please record the video, and upload it to Google Drive, and include the link in your writeup submission.
+Each group has 10 minutes to deliver their presentation. Please record
+the video, and upload it to Google Drive (or somewhere else where
+course staff can watch it), and include the link in your writeup submission.
 
 Final Question Submission
 ======================
@@ -414,3 +416,11 @@ hard to write adversarial questions against the best LLMs.
 *Q:* Do references count toward the page count?
 
 *A:* No.
+
+
+*Q.* Does everyone need to be in the presentation?  
+
+*A.* Nope, you can use your time however you want.  You can have
+everyone in it or you can just have one person do the whole
+presentation.  You also don't need to use the full time if you don't
+feel like you need it.

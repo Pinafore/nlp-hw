@@ -49,6 +49,12 @@ better (or easier to use) than others.
 
 If you don't like the interruptability of questions, you can also just answer entire questions.  However, you must also output a confidence.
 
+The End Goal
+=================
+
+The end goal is for a team of smart humans to see if they can answer questions before the teams that put together QA systems.  In other words, the authors of questions will be testing both the humans and the teams that put together systems.
+
+
 Competition
 ==================
 

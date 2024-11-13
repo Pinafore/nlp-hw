@@ -1,13 +1,14 @@
-zimply
-python-baseconv
-gensim
-pandas
+# packages with versions specified from env.txt
+zimply==1.1.4
+python-baseconv==1.2.2
+gensim==4.3.2
+pandas==2.1.3
 torch
-torchvision
-unidecode
-spacy
-openai
-tqdm
-nltk
-bs4
-scikit-learn
+torchvision==0.17.2
+unidecode==1.3.7
+spacy==3.7.6
+openai==0.28.0
+tqdm==4.66.5
+nltk==3.8.1
+bs4==0.0.2
+scikit-learn==1.3.2

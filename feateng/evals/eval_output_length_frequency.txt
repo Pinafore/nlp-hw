@@ -1,0 +1,653 @@
+Setting up logging
+Loading buzzer
+Initializing features: ['Length', 'Frequency']
+dataset: ../data/qanta.buzzdev.json.gz
+waiting 0.36
+===================
+
+               guess: Cauldron
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.2193
+         Length_char: -0.3311
+         Length_word: -0.2267
+        Length_guess: 2.1972
+     Frequency_guess: 0.0000
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+                      Llaes Gyfnewid. Along with a staff and a platter, Bran gives one to
+                      Matholwch as reparations, which
+--------------------
+               guess: Cube number
+              answer: Perfect_Numbers
+                  id: 93144
+      Gpr_confidence: -0.3972
+         Length_char: -0.7622
+         Length_word: -0.7333
+        Length_guess: 2.4849
+     Frequency_guess: 0.0000
+                text: For any natural number n, there exists only one of these numbers that
+                      can be expressed in the form "n-cubed
+--------------------
+               guess: Carbon monoxide
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.3639
+         Length_char: -0.3111
+         Length_word: -0.3200
+        Length_guess: 2.7726
+     Frequency_guess: 1.0986
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert
+--------------------
+               guess: None
+              answer: The_Sound_and_the_Fury
+                  id: 93149
+      Gpr_confidence: -1.0204
+         Length_char: 0.1111
+         Length_word: 0.0933
+        Length_guess: 1.6094
+     Frequency_guess: 0.0000
+                text: This character marries a "minor movingpicture magnate" in Hollywood
+                      and divorces him in Mexico five years later. This character washes her
+                      mouth out with soap after kissing Charlie; earlier, she wrestles with
+                      a brother for kissing "a dirty girl like Natalie." At her father's
+                      funeral, this character pays her brother a hundred dollars to see her
+                      daughter, whom she later attempts to send two hundred dollars a month.
+                      That brother notices her muddy drawers as she climbs a tree, and
+                      repeatedly remarks
+--------------------
+               guess: Kalevi Aho
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.5572
+         Length_char: 0.3533
+         Length_word: 0.3467
+        Length_guess: 2.3979
+     Frequency_guess: 0.0000
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of this
+                      composer's sixth symphony. The Andante pastorale second movement in
+                      his third symphony features wordless solos for soprano and baritone.
+                      Another of his symphonies opens with an Allegro collerico and closes
+                      with an Allegro sanguineo. He instructed that two sets of timpani be
+                      placed as far as possible from each other on either side of the stage
+                      for a symphony in which they "duel" in the final movement.
+--------------------
+               guess: Symphony No. 1 (Hanson)
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.3746
+         Length_char: -0.5556
+         Length_word: -0.5600
+        Length_guess: 3.1781
+     Frequency_guess: 0.0000
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of
+--------------------
+               guess: Zero-grade
+              answer: None
+                  id: 93153
+      Gpr_confidence: -0.6693
+         Length_char: 0.3422
+         Length_word: 0.3333
+        Length_guess: 2.3979
+     Frequency_guess: 0.0000
+                text: In Proto-Indo-European studies, this kind of ablaut contrasts with
+                      both the "e-grade" and "o-grade" varieties. In English syntax, this
+                      form of complementizer is inherent to the sentence "I think they like
+                      me." This type of "derivation" is exemplified by using a noun such as
+                      "pen" as a verb, as in "I penned it." In the Chomsky hierarchy,
+                      unrestricted grammars are also called "Type-[this]". Arabic and Hebrew
+                      use this type of copula in sentences lacking a word for "to be." In
+                      linguistics, this term also denotes an inferred word or part of speech
+                      that isn't outwardly expressed. For 10 points, identify
+--------------------
+               guess: Margaret Fuller
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.8585
+         Length_char: -0.7711
+         Length_word: -0.8000
+        Length_guess: 2.7726
+     Frequency_guess: 0.0000
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson
+--------------------
+               guess: Spear
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.2267
+         Length_char: -0.5533
+         Length_word: -0.4533
+        Length_guess: 1.7918
+     Frequency_guess: 0.0000
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+--------------------
+               guess: Cyclops
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.6714
+         Length_char: -0.7689
+         Length_word: -0.7200
+        Length_guess: 2.0794
+     Frequency_guess: 0.0000
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner
+--------------------
+=================
+best 0.36
+===================
+
+               guess: Wrestling
+              answer: Wrestling
+                  id: 93178
+      Gpr_confidence: -0.2002
+         Length_char: 0.7911
+         Length_word: 0.9333
+        Length_guess: 2.3026
+     Frequency_guess: 0.0000
+                text: In Shinto myth, a god's arm turns into an icicle during an instance of
+                      this activity when it is used to decide the ruler of Japan by
+                      Takemikazuchi and Takeminakata. In the Mahabharata, Krishna uses a
+                      blade of grass to demonstrate to Bhima how he can defeat Jarasandha in
+                      this activity. A Libyan giant uses the skulls of his victims in this
+                      activity to build a temple to his father Poseidon. In the Prose Edda,
+                      Elli is an old hag who is able to defeat Thor in this because she is a
+                      personification of old age. Atalanta defeats Peleus in this, and
+                      Heracles kills a practitioner of it in midair because he draws his
+                      strength from the earth. The giant Antaeus kills travelers after
+                      challenging them to this athletic competition. For 10 points, name
+                      this activity invented by the Shinto gods in its "sumo" form.
+--------------------
+               guess: Donald Davidson
+              answer: Donald_Davidson_(philosopher)
+                  id: 93152
+      Gpr_confidence: -0.0293
+         Length_char: -0.1044
+         Length_word: -0.1333
+        Length_guess: 2.7726
+     Frequency_guess: 1.0986
+                text: This thinker wrote that "framework theories" cannot make sense of
+                      radio host Goodman Ace's malapropisms. This philosopher argued that an
+                      actor's "pro-attitude" must be part of the "primary reason" that
+                      causes an action. This author of "A Nice Derangement of Epitaphs"
+                      proposed using Tarski's semantic theory of truth as the core for a
+                      "theory of meaning," though he later claimed "there is no such thing
+--------------------
+               guess: Conservative Party (UK)
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0249
+         Length_char: 0.5689
+         Length_word: 0.5467
+        Length_guess: 3.1781
+     Frequency_guess: 0.0000
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+                      that future legislation had potential to cause "a perpetual vortex of
+                      agitation." After the elevation of another man to a Lordship, Stafford
+                      Northcote led this party in the Commons. This party ran a short-lived
+                      government called the "Who? Who?" Ministry under the Earl of Derby,
+                      and the Tamworth Manifesto, distinguished it from a predecessor led by
+                      the Duke of Wellington. This party was also led by a man who organized
+                      Britain's purchase of the Suez Canal and had a rivalry with William
+                      Gladstone.
+--------------------
+               guess: Red Sea
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.0011
+         Length_char: 0.4867
+         Length_word: 0.4400
+        Length_guess: 2.0794
+     Frequency_guess: 1.0986
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon irked them. Purported cave dwellers
+                      on this body of water's western side were the first people called
+                      "Troglodytes." A port called "Mussel Harbor" abutted this body near
+                      Berenice according to an anonymous 1st-century text about its peoples.
+                      The city of Adulis traded with the Himyarite kingdom across this body
+                      of water, allowing Axum access to frankincense and myrrh traders who
+                      plied this sea. Ships sailed down from this sea toward the land of
+                      Punt during Queen Hatshepsut's reign. For 10 points, name this sea
+                      finally joined to the Mediterranean by the Suez Canal.
+--------------------
+               guess: The Name of the Rose
+              answer: The_Name_of_the_Rose
+                  id: 93142
+      Gpr_confidence: -0.0021
+         Length_char: 0.5622
+         Length_word: 0.6800
+        Length_guess: 3.0445
+     Frequency_guess: 1.0986
+                text: The narrator of this novel becomes fascinated by the story of Margaret
+                      and Dolcino after a lecture on love by Ubertino. To prove his skill, a
+                      character in this novel discerns the location, appearance, and name of
+                      the horse Brunellus without having ever seen it. A man in this work
+                      has a vision of the plot of the Cena Cypriani before discovering how
+                      to open a mirror and enter the finis Africae. After a trial in this
+                      novel, Remigio is burned alongside a village girl and the hunchback
+                      Salvatore by the inquisitor Bernard Gui. At the end of this novel, the
+                      blind Jorge of Burgos eats the poisoned pages of Aristotle's Second
+                      Book of Poetics and burns down the monastery library. For 10 points,
+                      name this
+--------------------
+               guess: Operation Condor
+              answer: Operation_Condor
+                  id: 93139
+      Gpr_confidence: -0.0114
+         Length_char: 0.1133
+         Length_word: 0.0533
+        Length_guess: 2.8332
+     Frequency_guess: 0.0000
+                text: Journalist John Dinges survived this initiative, which he claimed
+                      "brought terrorism to three continents" in a 2003 book. The murder of
+                      Hugo Banzer set back this initiative, which began two years after the
+                      Villa Grimaldi complex opened for use in interrogations. A disclosed
+                      diplomatic cable from Robert E. White revealed that this plan made use
+                      of a tele-communications channel built by the United States. In
+                      Washington, DC, a far-flung part of its "Phase III" targeted Orlando
+                      Letelier, a particular
+--------------------
+               guess: Operation Condor
+              answer: Operation_Condor
+                  id: 93139
+      Gpr_confidence: -0.0010
+         Length_char: -0.0978
+         Length_word: -0.1467
+        Length_guess: 2.8332
+     Frequency_guess: 0.0000
+                text: Journalist John Dinges survived this initiative, which he claimed
+                      "brought terrorism to three continents" in a 2003 book. The murder of
+                      Hugo Banzer set back this initiative, which began two years after the
+                      Villa Grimaldi complex opened for use in interrogations. A disclosed
+                      diplomatic cable from Robert E. White revealed that this plan made use
+                      of a tele-communications channel built by the United States.
+--------------------
+               guess: Edna Pontellier
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0245
+         Length_char: 0.7289
+         Length_word: 0.7733
+        Length_guess: 2.7726
+     Frequency_guess: 0.0000
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't give herself up. Doctor Mandelet advises
+                      this character's husband to permit her whims, which include moving
+                      into a "pigeon house" outside of her house on Esplanade Street. This
+                      mother of Raoul and Etienne watches Adele Ratignolle give birth on her
+                      last night alive, and romances Alcee Arobin and Robert Lebrun while
+                      living in New Orleans. For 10 points, name this woman who swims as far
+                      as she can into the Gulf of Mexico at the end of Kate Chopin's novel
+                      The Awakening.
+--------------------
+               guess: Conservative Party (UK)
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0893
+         Length_char: 0.1156
+         Length_word: 0.0800
+        Length_guess: 3.1781
+     Frequency_guess: 0.0000
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+                      that future legislation had potential to cause "a perpetual vortex of
+                      agitation." After the elevation of another man to a Lordship, Stafford
+                      Northcote led this party in the Commons. This party ran a short-lived
+                      government called the "Who? Who?" Ministry under the Earl of Derby,
+                      and the Tamworth
+--------------------
+               guess: Jean Racine
+              answer: Jean_Racine
+                  id: 93179
+      Gpr_confidence: -0.0010
+         Length_char: 0.5711
+         Length_word: 0.6933
+        Length_guess: 2.4849
+     Frequency_guess: 1.9459
+                text: In a play by this author, the young boy Joas is hidden in a temple to
+                      escape the murder of his siblings by the title queen so that he may
+                      survive to become king of the Jews. This author included the nobly-
+                      born servants Cleone and Cephisa in another play. This author of
+                      Athalie used a meter with a caesura in the middle of each line to
+                      write a monologue relating how a prince's horses were frightened by a
+                      bull-dragon which arose from the sea off-stage. He used that
+                      alexandrine verse to adapt a plot in which Helen's daughter Hermione
+                      loves Pyrrhus, and another plot also derived from Euripides in which
+                      Aricie is treated like a daughter after Hippolytus is accused of
+                      raping his stepmother. For 10 points,
+--------------------
+=================
+timid 0.11
+===================
+
+               guess: Jean Racine
+              answer: Jean_Racine
+                  id: 93179
+      Gpr_confidence: -0.4033
+         Length_char: -0.7711
+         Length_word: -0.7067
+        Length_guess: 2.4849
+     Frequency_guess: 1.9459
+                text: In a play by this author, the young boy Joas is hidden in a temple to
+                      escape the murder of his siblings
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0387
+         Length_char: -0.5511
+         Length_word: -0.5067
+        Length_guess: 1.7918
+     Frequency_guess: 0.6931
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women
+--------------------
+               guess: Hydrogenation
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.2513
+         Length_char: -0.0622
+         Length_word: -0.1867
+        Length_guess: 2.6391
+     Frequency_guess: 0.6931
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis. Discoverers of an
+                      asymmetric version of this reaction used in the industrial synthesis
+                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
+                      Chemistry. That asymmetric form of this reaction can be catalyzed by
+                      ruthenium-BINAP complexes developed by Noyori. A square-planar
+                      tris(triphenylphosphine)
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0066
+         Length_char: -0.3333
+         Length_word: -0.2800
+        Length_guess: 1.7918
+     Frequency_guess: 0.6931
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants
+--------------------
+               guess: Narcissism
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.0687
+         Length_char: -0.1089
+         Length_word: -0.1200
+        Length_guess: 2.3979
+     Frequency_guess: 0.0000
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+                      the image of success. Robert Raskin and Calvin Hall designed a test
+                      for it where subjects choose between statements like "Compliments
+                      embarrass me" and "I like to be complimented." In a book subtitled
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0410
+         Length_char: -0.1089
+         Length_word: -0.0400
+        Length_guess: 1.7918
+     Frequency_guess: 0.6931
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+--------------------
+               guess: Wrestling
+              answer: Wrestling
+                  id: 93178
+      Gpr_confidence: -0.1749
+         Length_char: 0.1178
+         Length_word: 0.2667
+        Length_guess: 2.3026
+     Frequency_guess: 0.0000
+                text: In Shinto myth, a god's arm turns into an icicle during an instance of
+                      this activity when it is used to decide the ruler of Japan by
+                      Takemikazuchi and Takeminakata. In the Mahabharata, Krishna uses a
+                      blade of grass to demonstrate to Bhima how he can defeat Jarasandha in
+                      this activity. A Libyan giant uses the skulls of his victims in this
+                      activity to build a temple to his father Poseidon. In the Prose Edda,
+                      Elli is an old hag who is able to defeat Thor in this because she is a
+                      personification of old
+--------------------
+               guess: Red Sea
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.3384
+         Length_char: -0.5511
+         Length_word: -0.5733
+        Length_guess: 2.0794
+     Frequency_guess: 1.0986
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon irked them. Purported cave dwellers
+                      on this body of water's western side were the first people called
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.1563
+         Length_char: -0.7644
+         Length_word: -0.7600
+        Length_guess: 1.7918
+     Frequency_guess: 0.6931
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant,
+--------------------
+               guess: Operation Condor
+              answer: Operation_Condor
+                  id: 93139
+      Gpr_confidence: -0.0028
+         Length_char: -0.5533
+         Length_word: -0.5733
+        Length_guess: 2.8332
+     Frequency_guess: 0.0000
+                text: Journalist John Dinges survived this initiative, which he claimed
+                      "brought terrorism to three continents" in a 2003 book. The murder of
+                      Hugo Banzer set back this initiative, which began two years after
+--------------------
+=================
+aggressive 0.16
+===================
+
+               guess: Carbon monoxide
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.0213
+         Length_char: 0.3378
+         Length_word: 0.3200
+        Length_guess: 2.7726
+     Frequency_guess: 1.0986
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert homologation of
+                      carboxylic acids. When ketones are used as the starting product for
+                      the Schmidt reaction, this gas is evolved. This gas is also released
+                      as a byproduct of the Sandmeyer reactions. In plants, it binds to a
+                      molybdenum-containing enzyme. This gas can be produced by just heating
+--------------------
+               guess: Narcissistic personality disorder
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.0827
+         Length_char: 0.8156
+         Length_word: 0.7200
+        Length_guess: 3.5264
+     Frequency_guess: 0.0000
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+                      the image of success. Robert Raskin and Calvin Hall designed a test
+                      for it where subjects choose between statements like "Compliments
+                      embarrass me" and "I like to be complimented." In a book subtitled
+                      American Life in an Age of Diminishing Expectations, Christopher Lasch
+                      argued that postwar America is defined by a "culture of" this
+                      condition. Sigmund Freud's 1914 paper On this conditon popularized its
+                      name, and DSM-5 includes "largely superficial" relationships and a
+                      "pervasive pattern of grandiosity" among its indicators. For 10
+                      points, name this disorder of excessive vanity, named for a man from
+                      Greek myth.
+--------------------
+               guess: Carbon monoxide
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.2180
+         Length_char: -0.0978
+         Length_word: -0.1200
+        Length_guess: 2.7726
+     Frequency_guess: 1.0986
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert homologation of
+                      carboxylic acids. When ketones are used as the starting product for
+                      the Schmidt
+--------------------
+               guess: Spear of Lugh
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.1140
+         Length_char: 0.1222
+         Length_word: 0.2400
+        Length_guess: 2.6391
+     Frequency_guess: 0.0000
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+                      Llaes Gyfnewid. Along with a staff and a platter, Bran gives one to
+                      Matholwch as reparations, which Efnisien sacrifices himself to destroy
+                      and stop it from resurrecting the Irish dead. A non-Odin father of Tyr
+                      owns one of these objects, which was retrieved in a quest including
+                      the fishing trip in which
+--------------------
+               guess: Samuel Beckett
+              answer: Athol_Fugard
+                  id: 93163
+      Gpr_confidence: -0.4989
+         Length_char: 0.1178
+         Length_word: 0.2533
+        Length_guess: 2.7081
+     Frequency_guess: 2.1972
+                text: In a play by this man, one title character counts the bruises caused
+                      by the other title character, who accuses her of looking behind her to
+                      find a dog on the road. This author also wrote a play in which two men
+                      stage an impromptu performance of Sophocles' Antigone after getting
+                      off their shifts as prison workers. This man created a teenager who
+                      debates the idea of a "Man of Magnitude" to aid his composition for an
+                      English class, as well two campers who take in an old man who does not
+                      speak English.
+--------------------
+               guess: Context-free grammar
+              answer: None
+                  id: 93153
+      Gpr_confidence: -0.1993
+         Length_char: -0.1067
+         Length_word: -0.1333
+        Length_guess: 3.0445
+     Frequency_guess: 0.0000
+                text: In Proto-Indo-European studies, this kind of ablaut contrasts with
+                      both the "e-grade" and "o-grade" varieties. In English syntax, this
+                      form of complementizer is inherent to the sentence "I think they like
+                      me." This type of "derivation" is exemplified by using a noun such as
+                      "pen" as a verb, as in "I penned it." In the Chomsky hierarchy,
+                      unrestricted grammars are also called "Type-[this]". Arabic and
+--------------------
+               guess: Narcissistic personality disorder
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.1198
+         Length_char: -0.7667
+         Length_word: -0.7467
+        Length_guess: 3.5264
+     Frequency_guess: 0.0000
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition,
+--------------------
+               guess: George Bernard Shaw
+              answer: Athol_Fugard
+                  id: 93163
+      Gpr_confidence: -0.3052
+         Length_char: -0.0889
+         Length_word: 0.0000
+        Length_guess: 2.9957
+     Frequency_guess: 2.1972
+                text: In a play by this man, one title character counts the bruises caused
+                      by the other title character, who accuses her of looking behind her to
+                      find a dog on the road. This author also wrote a play in which two men
+                      stage an impromptu performance of Sophocles' Antigone after getting
+                      off their shifts as prison workers. This man created a teenager who
+                      debates the idea of a "Man of Magnitude" to aid his composition
+--------------------
+               guess: Cauldron
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.0029
+         Length_char: 0.7822
+         Length_word: 0.9333
+        Length_guess: 2.1972
+     Frequency_guess: 0.0000
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+                      Llaes Gyfnewid. Along with a staff and a platter, Bran gives one to
+                      Matholwch as reparations, which Efnisien sacrifices himself to destroy
+                      and stop it from resurrecting the Irish dead. A non-Odin father of Tyr
+                      owns one of these objects, which was retrieved in a quest including
+                      the fishing trip in which Thor hooks Jormungand. Hymir owns a massive
+                      one of these that the gods bring to Aegir's feast for brewing beer. In
+                      one named Odrerir, Kvasir's blood is mixed with honey to make the mead
+                      of poetry. For 10 points, name these metal objects in which Ceridwen
+                      and other legendary witches brew potions.
+--------------------
+               guess: Hydroformylation
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.1207
+         Length_char: 0.1200
+         Length_word: -0.0400
+        Length_guess: 2.8332
+     Frequency_guess: 0.0000
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis. Discoverers of an
+                      asymmetric version of this reaction used in the industrial synthesis
+                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
+                      Chemistry. That asymmetric form of this reaction can be catalyzed by
+                      ruthenium-BINAP complexes developed by Noyori. A square-planar
+                      tris(triphenylphosphine) rhodium(I) complex was developed in 1966 to
+                      homogeneously catalyze this reaction;
+--------------------
+=================
+                         Frequency_guess: 0.7076
+                          Gpr_confidence: 3.1661
+                             Length_char: 0.7949
+                            Length_guess: 1.9076
+                             Length_word: 0.7676
+Questions Right: 73 (out of 201) Accuracy: 0.73  Buzz ratio: 0.28 Buzz position: -0.115713

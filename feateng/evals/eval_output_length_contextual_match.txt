@@ -1,0 +1,656 @@
+Setting up logging
+Loading buzzer
+Initializing features: ['Length', 'ContextualMatch']
+dataset: ../data/qanta.buzzdev.json.gz
+waiting 0.35
+===================
+
+               guess: Margaret Fuller
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.8585
+         Length_char: -0.7711
+         Length_word: -0.8000
+        Length_guess: 2.7726
+ContextualMatch_ContextualMatch: 0.1245
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson
+--------------------
+               guess: Michael addition
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.4295
+         Length_char: -0.5556
+         Length_word: -0.6133
+        Length_guess: 2.8332
+ContextualMatch_ContextualMatch: 0.2068
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis. Discoverers of an
+                      asymmetric version of this reaction used in the industrial synthesis
+                      of
+--------------------
+               guess: None
+              answer: The_Sound_and_the_Fury
+                  id: 93149
+      Gpr_confidence: -0.7278
+         Length_char: 0.3489
+         Length_word: 0.3067
+        Length_guess: 1.6094
+ContextualMatch_ContextualMatch: 0.3556
+                text: This character marries a "minor movingpicture magnate" in Hollywood
+                      and divorces him in Mexico five years later. This character washes her
+                      mouth out with soap after kissing Charlie; earlier, she wrestles with
+                      a brother for kissing "a dirty girl like Natalie." At her father's
+                      funeral, this character pays her brother a hundred dollars to see her
+                      daughter, whom she later attempts to send two hundred dollars a month.
+                      That brother notices her muddy drawers as she climbs a tree, and
+                      repeatedly remarks that this character "smells of trees." This
+                      character's favorite brother, for whom she names her daughter,
+--------------------
+               guess: Ammonia
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.4994
+         Length_char: -0.7711
+         Length_word: -0.7600
+        Length_guess: 2.0794
+ContextualMatch_ContextualMatch: 0.2027
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new
+--------------------
+               guess: Zero-grade
+              answer: None
+                  id: 93153
+      Gpr_confidence: -0.6693
+         Length_char: 0.3422
+         Length_word: 0.3333
+        Length_guess: 2.3979
+ContextualMatch_ContextualMatch: 0.1929
+                text: In Proto-Indo-European studies, this kind of ablaut contrasts with
+                      both the "e-grade" and "o-grade" varieties. In English syntax, this
+                      form of complementizer is inherent to the sentence "I think they like
+                      me." This type of "derivation" is exemplified by using a noun such as
+                      "pen" as a verb, as in "I penned it." In the Chomsky hierarchy,
+                      unrestricted grammars are also called "Type-[this]". Arabic and Hebrew
+                      use this type of copula in sentences lacking a word for "to be." In
+                      linguistics, this term also denotes an inferred word or part of speech
+                      that isn't outwardly expressed. For 10 points, identify
+--------------------
+               guess: Timon of Athens
+              answer: Mark_Antony
+                  id: 93136
+      Gpr_confidence: -0.5494
+         Length_char: 0.1111
+         Length_word: 0.2133
+        Length_guess: 2.7726
+ContextualMatch_ContextualMatch: 0.1676
+                text: Before he first met his lover, this character sat "alone," "enthroned
+                      in the market place." A soldier laments that this man, when not
+                      himself, "comes too short of that great property / which still should
+                      go with" him. This man hands a pack of belongings to a deserter who
+                      later laments "I am alone the villain of the earth." This man says
+                      "Let's mock the midnight bell" in the hopes of having one last drunken
+                      party. This man is spared after a rival argues, "let us be
+                      sacrificers, but not butchers."
+--------------------
+               guess: Malla-yuddha
+              answer: Wrestling
+                  id: 93178
+      Gpr_confidence: -0.1657
+         Length_char: -0.3333
+         Length_word: -0.2800
+        Length_guess: 2.5649
+ContextualMatch_ContextualMatch: 0.2053
+                text: In Shinto myth, a god's arm turns into an icicle during an instance of
+                      this activity when it is used to decide the ruler of Japan by
+                      Takemikazuchi and Takeminakata. In the Mahabharata, Krishna uses a
+                      blade of grass to demonstrate to Bhima how he can defeat Jarasandha in
+                      this activity. A Libyan giant
+--------------------
+               guess: Isthmus of Suez
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.4350
+         Length_char: -0.7778
+         Length_word: -0.8000
+        Length_guess: 2.7726
+ContextualMatch_ContextualMatch: 0.1108
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon
+--------------------
+               guess: Perfect Number
+              answer: Perfect_Numbers
+                  id: 93144
+      Gpr_confidence: -0.9142
+         Length_char: -0.1089
+         Length_word: 0.0267
+        Length_guess: 2.7081
+ContextualMatch_ContextualMatch: 0.1080
+                text: For any natural number n, there exists only one of these numbers that
+                      can be expressed in the form "n-cubed plus 1". Kanold was the first to
+                      show that the amount of these numbers below a given integer n had an
+                      asymptotic form of little-O of the square root of n. With the
+                      exception of the smallest of these, all known so far can be written as
+                      the sum of the cubes of consecutive positive odd integers.
+--------------------
+               guess: Cauldron
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.2193
+         Length_char: -0.3311
+         Length_word: -0.2267
+        Length_guess: 2.1972
+ContextualMatch_ContextualMatch: 0.1510
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+                      Llaes Gyfnewid. Along with a staff and a platter, Bran gives one to
+                      Matholwch as reparations, which
+--------------------
+=================
+best 0.42
+===================
+
+               guess: Red Sea
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.0011
+         Length_char: 0.4867
+         Length_word: 0.4400
+        Length_guess: 2.0794
+ContextualMatch_ContextualMatch: 0.1705
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon irked them. Purported cave dwellers
+                      on this body of water's western side were the first people called
+                      "Troglodytes." A port called "Mussel Harbor" abutted this body near
+                      Berenice according to an anonymous 1st-century text about its peoples.
+                      The city of Adulis traded with the Himyarite kingdom across this body
+                      of water, allowing Axum access to frankincense and myrrh traders who
+                      plied this sea. Ships sailed down from this sea toward the land of
+                      Punt during Queen Hatshepsut's reign. For 10 points, name this sea
+                      finally joined to the Mediterranean by the Suez Canal.
+--------------------
+               guess: Mark Antony
+              answer: Mark_Antony
+                  id: 93136
+      Gpr_confidence: -0.5014
+         Length_char: 0.5667
+         Length_word: 0.6533
+        Length_guess: 2.4849
+ContextualMatch_ContextualMatch: 0.2272
+                text: Before he first met his lover, this character sat "alone," "enthroned
+                      in the market place." A soldier laments that this man, when not
+                      himself, "comes too short of that great property / which still should
+                      go with" him. This man hands a pack of belongings to a deserter who
+                      later laments "I am alone the villain of the earth." This man says
+                      "Let's mock the midnight bell" in the hopes of having one last drunken
+                      party. This man is spared after a rival argues, "let us be
+                      sacrificers, but not butchers." In a monologue, this friend of
+                      Enobarbus repeatedly calls that rival "an honorable man" while
+                      standing by a coffin after asking "Friends, Romans, countrymen: Lend
+                      me your ears." For 10 points, which rival
+--------------------
+               guess: Hydrogenation
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.0556
+         Length_char: 0.3556
+         Length_word: 0.1600
+        Length_guess: 2.6391
+ContextualMatch_ContextualMatch: 0.1469
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis. Discoverers of an
+                      asymmetric version of this reaction used in the industrial synthesis
+                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
+                      Chemistry. That asymmetric form of this reaction can be catalyzed by
+                      ruthenium-BINAP complexes developed by Noyori. A square-planar
+                      tris(triphenylphosphine) rhodium(I) complex was developed in 1966 to
+                      homogeneously catalyze this reaction; that is Wilkinson's catalyst.
+                      When this reaction is incomplete, it can result in cis-trans
+                      isomerization,
+--------------------
+               guess: Conservative Party (UK)
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0240
+         Length_char: -0.5422
+         Length_word: -0.5600
+        Length_guess: 3.1781
+ContextualMatch_ContextualMatch: 0.1358
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+--------------------
+               guess: Jean Racine
+              answer: Jean_Racine
+                  id: 93179
+      Gpr_confidence: -0.0007
+         Length_char: 0.7222
+         Length_word: 0.8133
+        Length_guess: 2.4849
+ContextualMatch_ContextualMatch: 0.1634
+                text: In a play by this author, the young boy Joas is hidden in a temple to
+                      escape the murder of his siblings by the title queen so that he may
+                      survive to become king of the Jews. This author included the nobly-
+                      born servants Cleone and Cephisa in another play. This author of
+                      Athalie used a meter with a caesura in the middle of each line to
+                      write a monologue relating how a prince's horses were frightened by a
+                      bull-dragon which arose from the sea off-stage. He used that
+                      alexandrine verse to adapt a plot in which Helen's daughter Hermione
+                      loves Pyrrhus, and another plot also derived from Euripides in which
+                      Aricie is treated like a daughter after Hippolytus is accused of
+                      raping his stepmother. For 10 points, name this 17th-century French
+                      playwright of Andromache and PhÃ¨dre.
+--------------------
+               guess: Wrestling
+              answer: Wrestling
+                  id: 93178
+      Gpr_confidence: -0.1749
+         Length_char: 0.1178
+         Length_word: 0.2667
+        Length_guess: 2.3026
+ContextualMatch_ContextualMatch: 0.2884
+                text: In Shinto myth, a god's arm turns into an icicle during an instance of
+                      this activity when it is used to decide the ruler of Japan by
+                      Takemikazuchi and Takeminakata. In the Mahabharata, Krishna uses a
+                      blade of grass to demonstrate to Bhima how he can defeat Jarasandha in
+                      this activity. A Libyan giant uses the skulls of his victims in this
+                      activity to build a temple to his father Poseidon. In the Prose Edda,
+                      Elli is an old hag who is able to defeat Thor in this because she is a
+                      personification of old
+--------------------
+               guess: Donald Davidson
+              answer: Donald_Davidson_(philosopher)
+                  id: 93152
+      Gpr_confidence: -0.0293
+         Length_char: -0.1044
+         Length_word: -0.1333
+        Length_guess: 2.7726
+ContextualMatch_ContextualMatch: 0.1979
+                text: This thinker wrote that "framework theories" cannot make sense of
+                      radio host Goodman Ace's malapropisms. This philosopher argued that an
+                      actor's "pro-attitude" must be part of the "primary reason" that
+                      causes an action. This author of "A Nice Derangement of Epitaphs"
+                      proposed using Tarski's semantic theory of truth as the core for a
+                      "theory of meaning," though he later claimed "there is no such thing
+--------------------
+               guess: Edna Pontellier
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0086
+         Length_char: 0.5578
+         Length_word: 0.5733
+        Length_guess: 2.7726
+ContextualMatch_ContextualMatch: 0.1442
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't give herself up. Doctor Mandelet advises
+                      this character's husband to permit her whims, which include moving
+                      into a "pigeon house" outside of her house on Esplanade Street. This
+                      mother of Raoul and Etienne watches Adele Ratignolle give birth on her
+                      last night alive, and romances Alcee Arobin and Robert Lebrun while
+                      living in New Orleans. For 10 points, name this woman who swims as far
+                      as she
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0100
+         Length_char: 0.7333
+         Length_word: 0.8800
+        Length_guess: 1.7918
+ContextualMatch_ContextualMatch: 0.2815
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
+                      this goddess of having affairs with Vili and Ve. After this goddess
+                      sent Hermod on a mission to Hel, the giantess Thokk refused to weep
+                      for her dead son because this goddess failed to get an oath from
+                      mistletoe to remain harmless. For 10 points, name this Norse goddess,
+                      the mother of Baldur and wife of Odin.
+--------------------
+               guess: Conservative Party (UK)
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0249
+         Length_char: 0.5689
+         Length_word: 0.5467
+        Length_guess: 3.1781
+ContextualMatch_ContextualMatch: 0.1358
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+                      that future legislation had potential to cause "a perpetual vortex of
+                      agitation." After the elevation of another man to a Lordship, Stafford
+                      Northcote led this party in the Commons. This party ran a short-lived
+                      government called the "Who? Who?" Ministry under the Earl of Derby,
+                      and the Tamworth Manifesto, distinguished it from a predecessor led by
+                      the Duke of Wellington. This party was also led by a man who organized
+                      Britain's purchase of the Suez Canal and had a rivalry with William
+                      Gladstone.
+--------------------
+=================
+aggressive 0.18
+===================
+
+               guess: The Awakening (Chopin novel)
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0792
+         Length_char: -0.5533
+         Length_word: -0.5600
+        Length_guess: 3.3673
+ContextualMatch_ContextualMatch: -0.0358
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to
+--------------------
+               guess: Claisen rearrangement
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.1405
+         Length_char: 0.5622
+         Length_word: 0.4267
+        Length_guess: 3.0910
+ContextualMatch_ContextualMatch: 0.0828
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used in the
+                      first step in the mevalonate pathway, which forms the molecule
+                      acetoacetyl-CoA. Unsaturated ketones are formed from allyl vinyl
+                      ethers in this man's rearrangement, a variant of the Cope
+                      rearrangement. Dieckmann names an intramolecular version of this man's
+                      most famous reaction. For 10 points,
+--------------------
+               guess: Vulture
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.1129
+         Length_char: 0.5711
+         Length_word: 0.5467
+        Length_guess: 2.0794
+ContextualMatch_ContextualMatch: 0.2526
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a ritual meant to satisfy these creatures, a master known as a rogyapa
+                      uses a slicing knife during readings from the Tibetan Book of the
+                      Dead. On a peak named for these creatures near Ramnagar, the Heart
+                      Sutra and Lotus Sutra were delivered by the Buddha. When not shown as
+                      an eagle, Garuda's brother Jatayu is one of these creatures, whose
+                      recent chemical-caused extinction around Mumbai has threatened the use
+                      of dakhmas there by Parsis. For 10 points, name these birds which come
+                      to Tibetan "sky-burials"
+--------------------
+               guess: Benjamin Disraeli
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0450
+         Length_char: -0.7667
+         Length_word: -0.7467
+        Length_guess: 2.8904
+ContextualMatch_ContextualMatch: 0.1761
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League,
+--------------------
+               guess: Claisen rearrangement
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.0279
+         Length_char: -0.1067
+         Length_word: -0.1733
+        Length_guess: 3.0910
+ContextualMatch_ContextualMatch: 0.0828
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used
+--------------------
+               guess: William S. Johnson
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.3653
+         Length_char: 0.1133
+         Length_word: 0.0133
+        Length_guess: 2.9444
+ContextualMatch_ContextualMatch: 0.1947
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used in the
+                      first step in the mevalonate pathway, which forms the molecule
+                      acetoacetyl-CoA. Unsaturated
+--------------------
+               guess: Mjölnir
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.1996
+         Length_char: 0.3400
+         Length_word: 0.4800
+        Length_guess: 2.0794
+ContextualMatch_ContextualMatch: 0.2497
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+                      Llaes Gyfnewid. Along with a staff and a platter, Bran gives one to
+                      Matholwch as reparations, which Efnisien sacrifices himself to destroy
+                      and stop it from resurrecting the Irish dead. A non-Odin father of Tyr
+                      owns one of these objects, which was retrieved in a quest including
+                      the fishing trip in which Thor hooks Jormungand. Hymir owns a massive
+                      one of these that the gods bring to Aegir's feast for
+--------------------
+               guess: Terrorist Attacks
+              answer: Kidnappings
+                  id: 93182
+      Gpr_confidence: -0.3322
+         Length_char: 0.5600
+         Length_word: 0.6133
+        Length_guess: 2.8904
+ContextualMatch_ContextualMatch: 0.1998
+                text: During an attempt to end one of these events, a small village was
+                      mistakenly raided after a sÃ©ance used a Ouija board to spell out the
+                      name "Gradoli." As part of Operation Panzerfaust, Otto Skorzeny
+                      orchestrated one of these events inspired by the carpet scene from
+                      Shaw's Caesar and Cleopatra, which targeted the son of Miklos Horthy.
+                      86 letters were written to various politicians and Pope Paul VI during
+                      one of these events which caused the end of the Historic Compromise. A
+                      third one was orchestrated by the ChÃ©nier Cell, prompting Trudeau to
+                      invoke the War Measures Act. One of these events led to the execution
+                      of the leader of the Christian Democrats by Red Brigades. For 10
+                      points, name these
+--------------------
+               guess: Spear of Lugh
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.1140
+         Length_char: 0.1222
+         Length_word: 0.2400
+        Length_guess: 2.6391
+ContextualMatch_ContextualMatch: 0.1820
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+                      Llaes Gyfnewid. Along with a staff and a platter, Bran gives one to
+                      Matholwch as reparations, which Efnisien sacrifices himself to destroy
+                      and stop it from resurrecting the Irish dead. A non-Odin father of Tyr
+                      owns one of these objects, which was retrieved in a quest including
+                      the fishing trip in which
+--------------------
+               guess: The Awakening (Chopin novel)
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0455
+         Length_char: -0.3178
+         Length_word: -0.3200
+        Length_guess: 3.3673
+ContextualMatch_ContextualMatch: -0.0358
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't
+--------------------
+=================
+timid 0.05
+===================
+
+               guess: Jean Racine
+              answer: Jean_Racine
+                  id: 93179
+      Gpr_confidence: -0.4033
+         Length_char: -0.7711
+         Length_word: -0.7067
+        Length_guess: 2.4849
+ContextualMatch_ContextualMatch: 0.1634
+                text: In a play by this author, the young boy Joas is hidden in a temple to
+                      escape the murder of his siblings
+--------------------
+               guess: Louis XIII of France
+              answer: Louis_XIII_of_France
+                  id: 93147
+      Gpr_confidence: -0.1519
+         Length_char: -0.5511
+         Length_word: -0.5467
+        Length_guess: 3.0445
+ContextualMatch_ContextualMatch: 0.0942
+                text: During this king's reign, his general Henri II de Montmorency beat the
+                      Spanish at the Battle of Veillane and helped Charles Gonzaga, the Duke
+                      of Nevers [nuh-VAIR], secure rule over Mantua. The Counts of
+--------------------
+               guess: Carl Nielsen
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.4472
+         Length_char: 0.1244
+         Length_word: 0.0800
+        Length_guess: 2.5649
+ContextualMatch_ContextualMatch: 0.1657
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of this
+                      composer's sixth symphony. The Andante pastorale second movement in
+                      his third symphony features wordless solos for soprano and baritone.
+                      Another of his symphonies opens with an Allegro collerico and closes
+                      with an Allegro sanguineo. He instructed that two sets of timpani be
+                      placed as far as possible
+--------------------
+               guess: Narcissism
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.1654
+         Length_char: -0.3222
+         Length_word: -0.3200
+        Length_guess: 2.3979
+ContextualMatch_ContextualMatch: 0.2022
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+                      the image of success. Robert Raskin and Calvin Hall designed a test
+                      for it where subjects choose between
+--------------------
+               guess: Carl Nielsen
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.2101
+         Length_char: -0.1111
+         Length_word: -0.1733
+        Length_guess: 2.5649
+ContextualMatch_ContextualMatch: 0.1657
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of this
+                      composer's sixth symphony. The Andante pastorale second movement in
+                      his third symphony features wordless solos for soprano and baritone.
+                      Another of his symphonies opens with an Allegro collerico
+--------------------
+               guess: Red Sea
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.3384
+         Length_char: -0.5511
+         Length_word: -0.5733
+        Length_guess: 2.0794
+ContextualMatch_ContextualMatch: 0.1705
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon irked them. Purported cave dwellers
+                      on this body of water's western side were the first people called
+--------------------
+               guess: Perfect Numbers
+              answer: Perfect_Numbers
+                  id: 93144
+      Gpr_confidence: -0.5404
+         Length_char: 0.5556
+         Length_word: 0.7733
+        Length_guess: 2.7726
+ContextualMatch_ContextualMatch: 0.0803
+                text: For any natural number n, there exists only one of these numbers that
+                      can be expressed in the form "n-cubed plus 1". Kanold was the first to
+                      show that the amount of these numbers below a given integer n had an
+                      asymptotic form of little-O of the square root of n. With the
+                      exception of the smallest of these, all known so far can be written as
+                      the sum of the cubes of consecutive positive odd integers. For a
+                      Mersenne prime with exponent p, a number of this type can be found by
+                      multiplying the Mersenne prime by 2 to the power p minus 1, according
+                      to the Euler-Euclid conjecture. These numbers are a subset of the
+                      triangular numbers, and all numbers of this type found so far are
+                      even. For 10 points,
+--------------------
+               guess: Assumption of Mary
+              answer: Assumption_of_Mary
+                  id: 93157
+      Gpr_confidence: -0.4460
+         Length_char: -0.5489
+         Length_word: -0.5600
+        Length_guess: 2.9444
+ContextualMatch_ContextualMatch: 0.1273
+                text: A 9th-century letter denying this event, opening with the words
+                      "Cogitis me," was written to Paula and Eustochium by a Pseudo-Jerome.
+                      St. John Damascene is sometimes called the "Doctor of" this event due
+--------------------
+               guess: Hydrogenation
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.2513
+         Length_char: -0.0622
+         Length_word: -0.1867
+        Length_guess: 2.6391
+ContextualMatch_ContextualMatch: 0.1469
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis. Discoverers of an
+                      asymmetric version of this reaction used in the industrial synthesis
+                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
+                      Chemistry. That asymmetric form of this reaction can be catalyzed by
+                      ruthenium-BINAP complexes developed by Noyori. A square-planar
+                      tris(triphenylphosphine)
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.1563
+         Length_char: -0.7644
+         Length_word: -0.7600
+        Length_guess: 1.7918
+ContextualMatch_ContextualMatch: 0.2815
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant,
+--------------------
+=================
+         ContextualMatch_ContextualMatch: 1.5875
+                          Gpr_confidence: 3.8350
+                             Length_char: 0.7753
+                            Length_guess: 0.9120
+                             Length_word: 0.6983
+Questions Right: 84 (out of 201) Accuracy: 0.77  Buzz ratio: 0.33 Buzz position: -0.082070

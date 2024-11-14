@@ -17,6 +17,8 @@ from guesser import add_guesser_params
 from features import LengthFeature
 from features import ContextualMatchFeature
 from features import FrequencyFeature
+from features import PreviousGuessFeature
+from features import CategoryFeature
 from params import add_buzzer_params, add_question_params, load_guesser, load_buzzer, load_questions, add_general_params, setup_logging
 
 def runs(text, run_length):

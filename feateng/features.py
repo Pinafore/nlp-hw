@@ -10,6 +10,9 @@ from numpy import mean
 import gzip
 import json
 from sentence_transformers import SentenceTransformer, util
+from bertopic import BERTopic
+
+bert_model = BERTopic.load("MaartenGr/BERTopic_Wikipedia")
 
 class Feature:
     """
@@ -91,7 +94,7 @@ class ContextualMatchFeature(Feature):
             # If guess is empty, yield a similarity score of zero
             yield (self.name, 0.0)
 
-class FrequencyFeature:
+class FrequencyFeature(Feature):
     def __init__(self, name):
         from eval import normalize_answer
         self.name = name
@@ -108,6 +111,25 @@ class FrequencyFeature:
     def __call__(self, question, run, guess, guess_history=None):
         yield ("guess", log(1 + self.counts[self.normalize(guess)]))
 
+class CategoryFeature(Feature):                                          
+    def __call__(self, question, run, guess, guess_history, other_guesses=None):              
+        yield ("category", question["category"])                    
+        yield ("year", log(question["year"]-1980))              
+        yield ("subcategory", question["subcategory"])  
+        yield ("tournament", question["tournament"])
+
+class PreviousGuessFeature(Feature):                                                                    
+    def __call__(self, question, run, guess, guess_history, other_guesses=None):                                         
+        count = 0                                                                                       
+        score = []                                                                                   
+        for guesser in guess_history:                                                                   
+            for time in guess_history[guesser]:                                                         
+                # print(guess_history[guesser][time])                                                   
+                count += sum(1 for x in guess_history[guesser][time] if x['guess'] == guess)             
+                score += [x['confidence'] for x in guess_history[guesser][time] if x['guess'] == guess]  
+        yield ("count", count)                                                                           
+        yield ("max_score", max(score))                                                                  
+        yield ("avg_score", mean(score))                                                                 
 
 if __name__ == "__main__":
     """

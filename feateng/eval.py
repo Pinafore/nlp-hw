@@ -2,6 +2,8 @@
 # 2023
 #
 # Run an evaluation on a QA system and print results
+import json
+import os
 import random
 import string
 
@@ -10,6 +12,9 @@ from tqdm import tqdm
 from params import load_guesser, load_questions, load_buzzer, \
     add_buzzer_params, add_guesser_params, add_general_params,\
     add_question_params, setup_logging
+
+# Ensure the summary directory exists
+os.makedirs("summary", exist_ok=True)
 
 kLABELS = {"best": "Guess was correct, Buzz was correct",
            "timid": "Guess was correct, Buzz was not",
@@ -229,13 +234,15 @@ if __name__ == "__main__":
         assert False, "Gotta evaluate something"
         
     total = sum(outcomes[x] for x in outcomes if x != "hit")
+    outcome_percentages = {f"{ii} %":outcome_subtotal / total for ii, outcome_subtotal in outcomes.items()}
+
     for ii in outcomes:
-        print("%s %0.2f\n===================\n" % (ii, outcomes[ii] / total))
+        print("%s %0.2f\n===================\n" % (ii, outcomes[ii] / total)) #line representing outcome percentage
         if len(examples[ii]) > 10:
             population = list(random.sample(examples[ii], 10))
         else:
             population = examples[ii]
-        for jj in population:
+        for jj in population: #each question is a jj
             print(pretty_feature_print(jj))
         print("=================")
         
@@ -252,3 +259,17 @@ if __name__ == "__main__":
 
     elif flags.evaluate == "guesser":
         print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"]/total, outcomes["close"]/total))
+
+    # At the end of eval.py's main section, after results calculation
+    results = {
+        "questions_right": outcomes["best"],
+        "total": total,
+        "accuracy": (outcomes["best"] + outcomes["waiting"]) / total,
+        "buzz_ratio": (outcomes["best"] - outcomes["aggressive"] * 0.5) / total,
+        "buzz_position": unseen,
+        "outcome_percentages": outcome_percentages
+    }
+
+    # Save results to JSON file
+    with open("summary/eval_output.json", "w") as f:
+        json.dump(results, f)

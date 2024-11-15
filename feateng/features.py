@@ -10,9 +10,6 @@ from numpy import mean
 import gzip
 import json
 from sentence_transformers import SentenceTransformer, util
-from bertopic import BERTopic
-
-bert_model = BERTopic.load("MaartenGr/BERTopic_Wikipedia")
 
 class Feature:
     """
@@ -127,9 +124,10 @@ class PreviousGuessFeature(Feature):
                 # print(guess_history[guesser][time])                                                   
                 count += sum(1 for x in guess_history[guesser][time] if x['guess'] == guess)             
                 score += [x['confidence'] for x in guess_history[guesser][time] if x['guess'] == guess]  
-        yield ("count", count)                                                                           
-        yield ("max_score", max(score))                                                                  
-        yield ("avg_score", mean(score))                                                                 
+        yield ("count", count)
+        if score:                                                                           
+            yield ("max_score", max(score))                                                                  
+            yield ("avg_score", mean(score))                                                                 
 
 if __name__ == "__main__":
     """

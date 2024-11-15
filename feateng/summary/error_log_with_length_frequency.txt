@@ -14,10 +14,10 @@ INFO:root:Adding Gpr to Buzzer (total guessers=1)
 INFO:root:Adding feature Length
 INFO:root:Adding feature Frequency
 INFO:root:Generating runs of length 100
-  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 59510.56it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 57205.46it/s]
 INFO:root:Building guesses from dict_keys(['Gpr'])
 INFO:root:Generating guesses for 201 new question
-  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 363385.82it/s]
+  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 382858.81it/s]
 INFO:root:       201 guesses from Gpr
 INFO:root:Generating all features
-  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 84882.71it/s]
+  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 82539.17it/s]

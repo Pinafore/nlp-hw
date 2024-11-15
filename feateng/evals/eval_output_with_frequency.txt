@@ -5,90 +5,6 @@ dataset: ../data/qanta.buzzdev.json.gz
 waiting 0.33
 ===================
 
-               guess: Zero
-              answer: None
-                  id: 93153
-      Gpr_confidence: -0.5825
-     Frequency_guess: 0.0000
-                text: In Proto-Indo-European studies, this kind of ablaut contrasts with
-                      both the "e-grade" and "o-grade" varieties. In English syntax, this
-                      form of complementizer is inherent to the sentence "I think they like
-                      me." This type of "derivation" is exemplified by using a noun such as
-                      "pen" as a verb, as in "I penned it." In the Chomsky hierarchy,
-                      unrestricted grammars are also called "Type-[this]". Arabic and Hebrew
-                      use this type of copula in sentences lacking a word for "to be." In
-                      linguistics, this term also denotes an inferred word or part of speech
-                      that isn't outwardly expressed. For 10 points, identify this number
-                      word which the Mayans wrote as a shell glyph before medieval Europeans
-                      started using it in calculations.
---------------------
-               guess: The Soldier (play)
-              answer: Mark_Antony
-                  id: 93136
-      Gpr_confidence: -0.7112
-     Frequency_guess: 0.0000
-                text: Before he first met his lover, this character sat "alone," "enthroned
-                      in the market place." A soldier
---------------------
-               guess: None
-              answer: Ngũgĩ_wa_Thiong'o
-                  id: 93145
-      Gpr_confidence: -0.6737
-     Frequency_guess: 0.0000
-                text: In a novel by this author, two advisors enlarge their eyes and ears to
-                      better see and hear dissidents. In that novel, American doctors wish
-                      to patent a mysterious illness contracted by the Ruler, who wishes to
-                      build the monumental skyscraper Marching to Heaven. During a drought
-                      in a novel by this author, Abdullah uses a catapult to obtain food
-                      while villagers walk to the city. In that novel by this man, Munira
-                      incidentally kills three brewery directors by burning down Wanja's
-                      brothel. In a third
---------------------
-               guess: Asymmetric hydrogenation
-              answer: Hydrogenation
-                  id: 93154
-      Gpr_confidence: -0.3129
-     Frequency_guess: 0.0000
-                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
-                      with Hantzsch esters under amine catalysis. Discoverers of an
-                      asymmetric version of this reaction used in the industrial synthesis
-                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
-                      Chemistry. That asymmetric form of
---------------------
-               guess: Terrorism
-              answer: Kidnappings
-                  id: 93182
-      Gpr_confidence: -0.2737
-     Frequency_guess: 0.6931
-                text: During an attempt to end one of these events, a small village was
-                      mistakenly raided after a sÃ©ance used a Ouija board to spell out the
-                      name "Gradoli." As part of Operation Panzerfaust, Otto Skorzeny
-                      orchestrated one of these events inspired by the carpet scene from
-                      Shaw's Caesar and Cleopatra, which targeted the son of Miklos Horthy.
-                      86 letters were written to various politicians and Pope Paul VI during
-                      one of these events which caused the end of the Historic Compromise. A
-                      third one was orchestrated by the ChÃ©nier Cell, prompting Trudeau to
-                      invoke the War Measures Act. One of these events led
---------------------
-               guess: Samuel Beckett
-              answer: Athol_Fugard
-                  id: 93163
-      Gpr_confidence: -0.2911
-     Frequency_guess: 2.1972
-                text: In a play by this man, one title character counts the bruises caused
-                      by the other title character, who accuses her of looking behind her to
-                      find a dog on the road. This author also wrote a play in which two men
-                      stage an impromptu performance of Sophocles' Antigone after getting
-                      off their shifts as prison
---------------------
-               guess: Stephen L. Buchwald
-              answer: Rainer_Ludwig_Claisen
-                  id: 93183
-      Gpr_confidence: -0.3770
-     Frequency_guess: 0.0000
-                text: One modification of a reaction developed by this scientist reacts an
-                      allylic ether or thioether with
---------------------
                guess: William S. Johnson
               answer: Rainer_Ludwig_Claisen
                   id: 93183
@@ -103,24 +19,120 @@ waiting 0.33
                       first step in the mevalonate pathway, which forms the molecule
                       acetoacetyl-CoA. Unsaturated
 --------------------
-               guess: Claisen condensation
-              answer: Rainer_Ludwig_Claisen
-                  id: 93183
-      Gpr_confidence: -0.4437
-     Frequency_guess: 0.6931
-                text: One modification of a reaction developed by this scientist reacts an
-                      allylic ether or thioether with a ketene to form an unsaturated ester
-                      or thioester. Another modification of the same reaction developed by
-                      this man forms gamma, delta-unsaturated carboxylic acids from the
-                      rearrangement of deprotonated
+               guess: Terrorist Attacks
+              answer: Kidnappings
+                  id: 93182
+      Gpr_confidence: -0.3322
+     Frequency_guess: 0.0000
+                text: During an attempt to end one of these events, a small village was
+                      mistakenly raided after a sÃ©ance used a Ouija board to spell out the
+                      name "Gradoli." As part of Operation Panzerfaust, Otto Skorzeny
+                      orchestrated one of these events inspired by the carpet scene from
+                      Shaw's Caesar and Cleopatra, which targeted the son of Miklos Horthy.
+                      86 letters were written to various politicians and Pope Paul VI during
+                      one of these events which caused the end of the Historic Compromise. A
+                      third one was orchestrated by the ChÃ©nier Cell, prompting Trudeau to
+                      invoke the War Measures Act. One of these events led to the execution
+                      of the leader of the Christian Democrats by Red Brigades. For 10
+                      points, name these
 --------------------
-               guess: George Orwell
-              answer: Ngũgĩ_wa_Thiong'o
-                  id: 93145
-      Gpr_confidence: -0.4398
-     Frequency_guess: 2.0794
-                text: In a novel by this author, two advisors enlarge their eyes and ears to
-                      better see and hear dissidents.
+               guess: Saga
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.7229
+     Frequency_guess: 0.0000
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
+                      this goddess of having affairs with Vili and Ve. After this goddess
+                      sent Hermod on a mission to Hel, the giantess Thokk refused to weep
+                      for her dead son because this goddess failed to get an oath from
+                      mistletoe to remain harmless.
+--------------------
+               guess: Margaret Fuller
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.8585
+     Frequency_guess: 0.0000
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson
+--------------------
+               guess: Carbon monoxide
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.3639
+     Frequency_guess: 1.0986
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert
+--------------------
+               guess: Carbon monoxide
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.2180
+     Frequency_guess: 1.0986
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert homologation of
+                      carboxylic acids. When ketones are used as the starting product for
+                      the Schmidt
+--------------------
+               guess: Timon of Athens
+              answer: Mark_Antony
+                  id: 93136
+      Gpr_confidence: -0.2913
+     Frequency_guess: 0.0000
+                text: Before he first met his lover, this character sat "alone," "enthroned
+                      in the market place." A soldier laments that this man, when not
+                      himself, "comes too short of that great property / which still should
+                      go with" him. This man hands a pack of belongings to a deserter who
+                      later laments "I am alone the villain of the earth." This man says
+                      "Let's mock the midnight bell" in the hopes of having one last
+--------------------
+               guess: Carbon dioxide
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.3322
+     Frequency_guess: 1.9459
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert homologation of
+                      carboxylic acids. When ketones are used as the starting product for
+                      the Schmidt reaction, this gas is evolved. This gas is also released
+                      as a byproduct of the Sandmeyer reactions.
+--------------------
+               guess: Perfect Number
+              answer: Perfect_Numbers
+                  id: 93144
+      Gpr_confidence: -0.6473
+     Frequency_guess: 0.0000
+                text: For any natural number n, there exists only one of these numbers that
+                      can be expressed in the form "n-cubed plus 1". Kanold was the first to
+                      show that the amount of these numbers below a given integer n had an
+                      asymptotic form of little-O of the square root of n. With the
+                      exception of the smallest of these, all known so far can be written as
+                      the sum of the cubes of consecutive positive odd integers. For a
+                      Mersenne prime with exponent p, a number of this type can be found by
+                      multiplying the Mersenne prime by 2 to the power p minus 1, according
+                      to the Euler-Euclid conjecture. These numbers are a subset
+--------------------
+               guess: Isthmus of Suez
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.4350
+     Frequency_guess: 0.0000
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon
 --------------------
 =================
 timid 0.05
@@ -263,99 +275,175 @@ timid 0.05
 best 0.42
 ===================
 
-               guess: Mark Antony
-              answer: Mark_Antony
-                  id: 93136
-      Gpr_confidence: -0.0086
-     Frequency_guess: 1.3863
-                text: Before he first met his lover, this character sat "alone," "enthroned
-                      in the market place." A soldier laments that this man, when not
-                      himself, "comes too short of that great property / which still should
-                      go with" him. This man hands a pack of belongings to a deserter who
-                      later laments "I am alone the villain of the earth." This man says
-                      "Let's mock the midnight bell" in the hopes of having one last drunken
-                      party. This man is spared after a rival argues, "let us be
-                      sacrificers, but not butchers." In a monologue, this friend of
-                      Enobarbus repeatedly calls that rival "an honorable man" while
-                      standing by a coffin after asking "Friends, Romans, countrymen: Lend
-                      me your ears." For 10 points, which rival of Brutus and lover of
-                      Cleopatra delivers the Funeral Oration in Shakespeare's Julius Caesar?
---------------------
-               guess: Hydrogenation
-              answer: Hydrogenation
-                  id: 93154
-      Gpr_confidence: -0.0024
-     Frequency_guess: 0.6931
-                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
-                      with Hantzsch esters under amine catalysis. Discoverers of an
-                      asymmetric version of this reaction used in the industrial synthesis
-                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
-                      Chemistry. That asymmetric form of this reaction can be catalyzed by
-                      ruthenium-BINAP complexes developed by Noyori. A square-planar
-                      tris(triphenylphosphine) rhodium(I) complex was developed in 1966 to
-                      homogeneously catalyze this reaction; that is Wilkinson's catalyst.
-                      When this reaction is incomplete, it can result in cis-trans
-                      isomerization, and thus its "partial" form is responsible for the
-                      production of trans fats. For 10 points, name this reduction that
-                      involves reacting a substrate with the namesake light gas.
---------------------
-               guess: Athol Fugard
-              answer: Athol_Fugard
-                  id: 93163
-      Gpr_confidence: -0.0004
-     Frequency_guess: 1.9459
-                text: In a play by this man, one title character counts the bruises caused
-                      by the other title character, who accuses her of looking behind her to
-                      find a dog on the road. This author also wrote a play in which two men
-                      stage an impromptu performance of Sophocles' Antigone after getting
-                      off their shifts as prison workers. This man created a teenager who
-                      debates the idea of a "Man of Magnitude" to aid his composition for an
-                      English class, as well two campers who take in an old man who does not
-                      speak English. A third play by this author of Boesman and Lena and The
-                      Island takes place just as the title antagonist's
---------------------
                guess: Louis XIII of France
               answer: Louis_XIII_of_France
                   id: 93147
-      Gpr_confidence: -0.0511
+      Gpr_confidence: -0.0238
      Frequency_guess: 0.0000
                 text: During this king's reign, his general Henri II de Montmorency beat the
                       Spanish at the Battle of Veillane and helped Charles Gonzaga, the Duke
                       of Nevers [nuh-VAIR], secure rule over Mantua. The Counts of
                       MontrÃ©sor and Soissons plotted with this king's brother Gaston in a
                       plot to overthrow him. Jean Guiton was mayor of a city that resisted
-                      this man's rule, holding out for 14 months until the signing
+                      this man's rule, holding out for 14 months until the signing of the
+                      Peace of Alais. Concino Concini advised the mother of this king, who
+                      acted as his regent until
+--------------------
+               guess: Conservative Party (UK)
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0205
+     Frequency_guess: 0.0000
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+                      that future legislation had potential to cause "a perpetual vortex of
+                      agitation." After the elevation of another man to a Lordship, Stafford
+                      Northcote led this party in the Commons. This party ran a short-lived
+                      government called the "Who? Who?" Ministry under the Earl of Derby,
+                      and the Tamworth Manifesto, distinguished it from a predecessor led by
+                      the Duke of Wellington. This party was also
+--------------------
+               guess: Conservative Party (UK)
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0323
+     Frequency_guess: 0.0000
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+                      that future legislation had potential to cause "a perpetual vortex of
+                      agitation." After the elevation
+--------------------
+               guess: Edna Pontellier
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0245
+     Frequency_guess: 0.0000
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't give herself up. Doctor Mandelet advises
+                      this character's husband to permit her whims, which include moving
+                      into a "pigeon house" outside of her house on Esplanade Street. This
+                      mother of Raoul and Etienne watches Adele Ratignolle give birth on her
+                      last night alive, and romances Alcee Arobin and Robert Lebrun while
+                      living in New Orleans. For 10 points, name this woman who swims as far
+                      as she can into the Gulf of Mexico at the end of Kate Chopin's novel
+                      The Awakening.
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0100
+     Frequency_guess: 0.6931
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
+                      this goddess of having affairs with Vili and Ve. After this goddess
+                      sent Hermod on a mission to Hel, the giantess Thokk refused to weep
+                      for her dead son because this goddess failed to get an oath from
+                      mistletoe to remain harmless. For 10 points, name this Norse goddess,
+                      the mother of Baldur and wife of Odin.
+--------------------
+               guess: Operation Condor
+              answer: Operation_Condor
+                  id: 93139
+      Gpr_confidence: -0.0023
+     Frequency_guess: 0.0000
+                text: Journalist John Dinges survived this initiative, which he claimed
+                      "brought terrorism to three continents" in a 2003 book. The murder of
+                      Hugo Banzer set back this initiative, which began two years after the
+                      Villa Grimaldi complex opened for use in interrogations. A disclosed
+                      diplomatic cable from Robert E. White revealed that this plan made use
+                      of a tele-communications channel built by the United States. In
+                      Washington, DC, a far-flung part of its "Phase III" targeted Orlando
+                      Letelier, a particular nuisance to the DINA agency led by School of
+                      the Americas alum Manuel Contreras. This campaign expanded into the
+                      "Dirty War" in Jorge Videla's Argentina. For 10 points, name this
+                      covert operation in which dictators ring-led by Agusto Pinochet
+                      suppressed and killed South American leftists.
+--------------------
+               guess: Narcissism
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.0070
+     Frequency_guess: 0.0000
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+                      the image of success. Robert Raskin and Calvin Hall designed a test
+                      for it where subjects choose between statements like "Compliments
+                      embarrass me" and "I like to be complimented." In a book subtitled
+                      American Life in an Age of Diminishing Expectations, Christopher Lasch
+                      argued that postwar America is defined by a "culture of" this
+                      condition. Sigmund Freud's 1914 paper On this conditon popularized
 --------------------
                guess: The Name of the Rose
               answer: The_Name_of_the_Rose
                   id: 93142
-      Gpr_confidence: -0.0032
+      Gpr_confidence: -0.0031
      Frequency_guess: 1.0986
                 text: The narrator of this novel becomes fascinated by the story of Margaret
                       and Dolcino after a lecture on love by Ubertino. To prove his skill, a
                       character in this novel discerns the location, appearance, and name of
                       the horse Brunellus without having ever seen it. A man in this work
                       has a vision of the plot of the Cena Cypriani before discovering how
-                      to open a mirror and enter the finis Africae. After a trial in this
-                      novel, Remigio is burned alongside a village girl and the hunchback
-                      Salvatore by the inquisitor Bernard Gui. At the end of this novel, the
-                      blind Jorge of Burgos eats the poisoned pages
+                      to open a mirror and enter the finis Africae. After
+--------------------
+               guess: Ngũgĩ wa Thiong'o
+              answer: Ngũgĩ_wa_Thiong'o
+                  id: 93145
+      Gpr_confidence: -0.0002
+     Frequency_guess: 1.3863
+                text: In a novel by this author, two advisors enlarge their eyes and ears to
+                      better see and hear dissidents. In that novel, American doctors wish
+                      to patent a mysterious illness contracted by the Ruler, who wishes to
+                      build the monumental skyscraper Marching to Heaven. During a drought
+                      in a novel by this author, Abdullah uses a catapult to obtain food
+                      while villagers walk to the city. In that novel by this man, Munira
+                      incidentally kills three brewery directors by burning down Wanja's
+                      brothel. In a third novel by this man, Mumbi becomes pregnant while
+                      her husband is in prison, Karanja allies with the British forces, and
+                      Mugo confesses to betraying the revolutionary Kihika. For 10 points,
+                      name this author of Wizard of the Crow, who set Petals of Blood and A
+                      Grain of Wheat in his native Kenya.
 --------------------
                guess: Assumption of Mary
               answer: Assumption_of_Mary
                   id: 93157
-      Gpr_confidence: -0.0493
+      Gpr_confidence: -0.0681
      Frequency_guess: 0.0000
                 text: A 9th-century letter denying this event, opening with the words
                       "Cogitis me," was written to Paula and Eustochium by a Pseudo-Jerome.
                       St. John Damascene is sometimes called the "Doctor of" this event due
                       to his three sermons on it. The 4th Glorious Mystery of the Rosary
-                      contemplates this event, which
+                      contemplates this event, which is traditionally held to have left
+                      lilies behind. The latest ex cathedra infallible declaration,
+                      Munificentissimus
 --------------------
-               guess: Claisen
+=================
+aggressive 0.20
+===================
+
+               guess: Narcissistic personality disorder
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.0327
+     Frequency_guess: 0.0000
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+--------------------
+               guess: Claisen-Ireland rearrangement
               answer: Rainer_Ludwig_Claisen
                   id: 93183
-      Gpr_confidence: -0.0018
+      Gpr_confidence: -0.1389
      Frequency_guess: 0.0000
                 text: One modification of a reaction developed by this scientist reacts an
                       allylic ether or thioether with a ketene to form an unsaturated ester
@@ -366,82 +454,7 @@ best 0.42
                       first step in the mevalonate pathway, which forms the molecule
                       acetoacetyl-CoA. Unsaturated ketones are formed from allyl vinyl
                       ethers in this man's rearrangement, a variant of the Cope
-                      rearrangement. Dieckmann names an intramolecular version of this man's
-                      most famous reaction. For 10 points, name this German chemist whose
-                      namesake condensation of two esters forms beta-keto-esters.
---------------------
-               guess: Louis XIII of France
-              answer: Louis_XIII_of_France
-                  id: 93147
-      Gpr_confidence: -0.1519
-     Frequency_guess: 0.0000
-                text: During this king's reign, his general Henri II de Montmorency beat the
-                      Spanish at the Battle of Veillane and helped Charles Gonzaga, the Duke
-                      of Nevers [nuh-VAIR], secure rule over Mantua. The Counts of
---------------------
-               guess: Frigg
-              answer: Frigg
-                  id: 93171
-      Gpr_confidence: -0.1563
-     Frequency_guess: 0.6931
-                text: Most scholars identify this deity with a figure named Saga who dwells
-                      in Sokkvabekk. Along with a servant,
---------------------
-               guess: Athol Fugard
-              answer: Athol_Fugard
-                  id: 93163
-      Gpr_confidence: -0.0013
-     Frequency_guess: 1.9459
-                text: In a play by this man, one title character counts the bruises caused
-                      by the other title character, who accuses her of looking behind her to
-                      find a dog on the road. This author also wrote a play in which two men
-                      stage an impromptu performance of Sophocles' Antigone after getting
-                      off their shifts as prison workers. This man created a teenager who
-                      debates the idea of a "Man of Magnitude" to aid his composition for an
-                      English class, as well two campers who take in an old man who does not
-                      speak English. A third play by this author of Boesman and Lena and The
-                      Island takes place just as the title antagonist's father is coming
-                      home from the hospital, which prompts him to be cruel to Sam and
-                      Willie, his
---------------------
-=================
-aggressive 0.20
-===================
-
-               guess: Spear of Lugh
-              answer: Cauldrons
-                  id: 93150
-      Gpr_confidence: -0.1140
-     Frequency_guess: 0.0000
-                text: One of these objects is owned by a giant whose wife births a fully
-                      armed son every six weeks. That owner of one of these objects, who
-                      escapes a plot to roast him alive in an iron house, is named Llasar
-                      Llaes Gyfnewid. Along with a staff and a platter, Bran gives one to
-                      Matholwch as reparations, which Efnisien sacrifices himself to destroy
-                      and stop it from resurrecting the Irish dead. A non-Odin father of Tyr
-                      owns one of these objects, which was retrieved in a quest including
-                      the fishing trip in which
---------------------
-               guess: Wizard of the Crow
-              answer: Ngũgĩ_wa_Thiong'o
-                  id: 93145
-      Gpr_confidence: -0.0871
-     Frequency_guess: 0.0000
-                text: In a novel by this author, two advisors enlarge their eyes and ears to
-                      better see and hear dissidents. In that novel, American doctors wish
-                      to patent a mysterious illness contracted by the Ruler, who wishes to
-                      build the monumental skyscraper Marching to Heaven. During a drought
-                      in a novel by this author, Abdullah uses a catapult to obtain food
-                      while villagers walk to the city. In that novel by this
---------------------
-               guess: Taxicab number
-              answer: Perfect_Numbers
-                  id: 93144
-      Gpr_confidence: -0.2790
-     Frequency_guess: 0.0000
-                text: For any natural number n, there exists only one of these numbers that
-                      can be expressed in the form "n-cubed plus 1". Kanold was the first to
-                      show that the amount of these numbers below a given integer
+                      rearrangement.
 --------------------
                guess: Wizard of the Crow
               answer: Ngũgĩ_wa_Thiong'o
@@ -452,57 +465,53 @@ aggressive 0.20
                       better see and hear dissidents. In that novel, American doctors wish
                       to patent a mysterious illness contracted by the Ruler, who wishes
 --------------------
-               guess: Benjamin Disraeli
-              answer: Conservative_party
-                  id: 93169
-      Gpr_confidence: -0.0450
-     Frequency_guess: 1.6094
-                text: The fondness of a leader of this party for a certain flower inspired
-                      the creation of the Primrose League,
---------------------
-               guess: Narcissistic personality disorder
-              answer: Narcissism
-                  id: 93168
-      Gpr_confidence: -0.0690
+               guess: Henri II de Montmorency
+              answer: Louis_XIII_of_France
+                  id: 93147
+      Gpr_confidence: -0.0627
      Frequency_guess: 0.0000
-                text: The nature of this condition was debated by Heinz Kohut and Otto
-                      Kernberg. In an essay on this condition, a University of Rochester
-                      historian describes how "the happy hooker" replaced Horatio Alger as
-                      the image of success. Robert Raskin and Calvin Hall designed a test
-                      for it where subjects choose between statements like "Compliments
-                      embarrass me" and "I like to be complimented." In a book subtitled
-                      American Life in an Age of Diminishing Expectations, Christopher Lasch
-                      argued that postwar America is defined by a "culture of" this
-                      condition. Sigmund Freud's 1914 paper On this conditon popularized its
-                      name, and DSM-5 includes "largely superficial" relationships and a
-                      "pervasive pattern of grandiosity" among its indicators. For 10
-                      points, name this disorder of excessive vanity, named for a man
+                text: During this king's reign, his general Henri II de Montmorency beat the
+                      Spanish at the Battle of Veillane
 --------------------
-               guess: Goodman Ace
-              answer: Donald_Davidson_(philosopher)
-                  id: 93152
-      Gpr_confidence: -0.2310
+               guess: Claisen rearrangement
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.0279
      Frequency_guess: 0.0000
-                text: This thinker wrote that "framework theories" cannot make sense of
-                      radio host Goodman Ace's malapropisms.
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used
 --------------------
-               guess: Sumo
-              answer: Wrestling
-                  id: 93178
-      Gpr_confidence: -0.2653
+               guess: Cauldron
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.2193
      Frequency_guess: 0.0000
-                text: In Shinto myth, a god's arm turns into an icicle during an instance of
-                      this activity when it is used to decide the ruler of Japan by
-                      Takemikazuchi and Takeminakata. In the Mahabharata, Krishna uses a
-                      blade of grass to demonstrate to Bhima how he can defeat Jarasandha in
-                      this activity. A Libyan giant uses the skulls of his victims in this
-                      activity to build a temple to his father Poseidon. In the Prose Edda,
-                      Elli is an old hag who is able to defeat Thor in this because she is a
-                      personification of old age. Atalanta defeats Peleus in this, and
-                      Heracles kills a practitioner of it in midair because he draws his
-                      strength from the earth. The giant Antaeus kills travelers after
-                      challenging them to this athletic competition. For 10 points, name
-                      this activity invented by the Shinto gods in its "sumo"
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+                      Llaes Gyfnewid. Along with a staff and a platter, Bran gives one to
+                      Matholwch as reparations, which
+--------------------
+               guess: Caddy Compson
+              answer: The_Sound_and_the_Fury
+                  id: 93149
+      Gpr_confidence: -0.1225
+     Frequency_guess: 0.0000
+                text: This character marries a "minor movingpicture magnate" in Hollywood
+                      and divorces him in Mexico five years
+--------------------
+               guess: Taxicab number
+              answer: Perfect_Numbers
+                  id: 93144
+      Gpr_confidence: -0.2790
+     Frequency_guess: 0.0000
+                text: For any natural number n, there exists only one of these numbers that
+                      can be expressed in the form "n-cubed plus 1". Kanold was the first to
+                      show that the amount of these numbers below a given integer
 --------------------
                guess: Vulture
               answer: Vultures
@@ -522,24 +531,22 @@ aggressive 0.20
                       to Tibetan "sky-burials" and Zoroastrian Towers of Silence to eat
                       decomposing corpses.
 --------------------
-               guess: Narcissistic personality disorder
-              answer: Narcissism
-                  id: 93168
-      Gpr_confidence: -0.0827
+               guess: Vulture
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.1129
      Frequency_guess: 0.0000
-                text: The nature of this condition was debated by Heinz Kohut and Otto
-                      Kernberg. In an essay on this condition, a University of Rochester
-                      historian describes how "the happy hooker" replaced Horatio Alger as
-                      the image of success. Robert Raskin and Calvin Hall designed a test
-                      for it where subjects choose between statements like "Compliments
-                      embarrass me" and "I like to be complimented." In a book subtitled
-                      American Life in an Age of Diminishing Expectations, Christopher Lasch
-                      argued that postwar America is defined by a "culture of" this
-                      condition. Sigmund Freud's 1914 paper On this conditon popularized its
-                      name, and DSM-5 includes "largely superficial" relationships and a
-                      "pervasive pattern of grandiosity" among its indicators. For 10
-                      points, name this disorder of excessive vanity, named for a man from
-                      Greek myth.
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a ritual meant to satisfy these creatures, a master known as a rogyapa
+                      uses a slicing knife during readings from the Tibetan Book of the
+                      Dead. On a peak named for these creatures near Ramnagar, the Heart
+                      Sutra and Lotus Sutra were delivered by the Buddha. When not shown as
+                      an eagle, Garuda's brother Jatayu is one of these creatures, whose
+                      recent chemical-caused extinction around Mumbai has threatened the use
+                      of dakhmas there by Parsis. For 10 points, name these birds which come
+                      to Tibetan "sky-burials"
 --------------------
 =================
                          Frequency_guess: -0.3449

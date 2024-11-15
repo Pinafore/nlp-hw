@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 
 # Define the features to use in generating the power set
-features = ["Length", "Frequency", "Category", "ContextualMatch"]
+features = ["Length", "Frequency", "Category", "ContextualMatch", "PreviousGuess"]
 
 # DataFrame to store results
 results_df = pd.DataFrame(columns=[

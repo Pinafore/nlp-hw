@@ -1,3 +1,24 @@
-Error for subset ('Length', 'Frequency', 'PreviousGuess'): Expected output JSON file not found: summary/eval_output_with_length_frequency_previousguess.json
-Buzzer command: /opt/homebrew/opt/python@3.11/bin/python3.11 buzzer.py --guesser_type=Gpr --limit 50 --GprGuesser_filename=../models/buzztrain_gpr_cache --questions ../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr --features Length Frequency PreviousGuess --LogisticBuzzer_filename=models/with_length_frequency_previousguess
-Eval command: /opt/homebrew/opt/python@3.11/bin/python3.11 eval.py --guesser_type=Gpr --TfidfGuesser_filename=models/TfidfGuesser --limit 25 --questions ../data/qanta.buzzdev.json.gz --buzzer_guessers Gpr --GprGuesser_filename=../models/buzzdev_gpr_cache --LogisticBuzzer_filename=models/with_length_frequency_previousguess --evaluate buzzer --features Length Frequency PreviousGuess
+INFO:root:Loading questions from ../data/qanta.buzzdev.json.gz
+INFO:root:Read 25 questions
+INFO:root:Using device 'cpu' (cuda flag=False)
+INFO:root:Initializing guesser of type Gpr
+INFO:root:Loading Gpr guesser
+INFO:root:9409 entries added to cache
+INFO:root:Buzzer using run length 100
+INFO:root:Using device 'cpu' (cuda flag=False)
+INFO:root:Initializing guesser of type Gpr
+INFO:root:Loading Gpr guesser
+INFO:root:9409 entries added to cache
+INFO:root:9409 entries added to cache
+INFO:root:Adding Gpr to Buzzer (total guessers=1)
+INFO:root:Adding feature Length
+INFO:root:Adding feature Frequency
+INFO:root:Adding feature PreviousGuess
+INFO:root:Generating runs of length 100
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 52639.36it/s]
+INFO:root:Building guesses from dict_keys(['Gpr'])
+INFO:root:Generating guesses for 201 new question
+  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 386545.21it/s]
+INFO:root:       201 guesses from Gpr
+INFO:root:Generating all features
+  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 76163.62it/s]

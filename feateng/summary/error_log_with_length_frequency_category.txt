@@ -15,10 +15,10 @@ INFO:root:Adding feature Length
 INFO:root:Adding feature Frequency
 INFO:root:Adding feature Category
 INFO:root:Generating runs of length 100
-  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 42247.22it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 69765.54it/s]
 INFO:root:Building guesses from dict_keys(['Gpr'])
 INFO:root:Generating guesses for 201 new question
-  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 303584.84it/s]
+  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 314572.80it/s]
 INFO:root:       201 guesses from Gpr
 INFO:root:Generating all features
-  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 70572.17it/s]
+  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 74971.55it/s]

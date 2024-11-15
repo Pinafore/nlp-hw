@@ -5,7 +5,7 @@ import sys  # Add sys import
 
 # Define the features to use in generating the power set
 # features = ["Length", "Frequency", "ContextualMatch", "Category", "PreviousGuess"]
-features = ["Length", "Frequency"]
+features = ["Length", "Category"]
 
 # Function to generate the filename stem based on the subset of features
 def generate_filename_stem(subset):
@@ -24,17 +24,18 @@ for subset in feature_subsets:
     # Determine the filename stem based on the subset
     filename_stem = generate_filename_stem(subset)
     
-    # Join the subset of features for CLI input, set to "" if subset is empty
-    features_str = " ".join(subset) if subset else '""'
-    
     # Construct the `buzzer.py` command using sys.executable
     buzzer_command = [
         sys.executable, 'buzzer.py', '--guesser_type=Gpr', '--limit=50',
         '--GprGuesser_filename=../models/buzztrain_gpr_cache',
-        '--questions=../data/qanta.buzztrain.json.gz', '--buzzer_guessers', 'Gpr',
-        '--features', features_str,  # Pass "" when subset is empty
-        '--LogisticBuzzer_filename=models/no_features'
+        '--questions=../data/qanta.buzztrain.json.gz', '--buzzer_guessers', 'Gpr'
     ]
+    
+    # Only add --features if subset is not empty
+    if subset:
+        buzzer_command.extend(['--features'] + list(subset))
+    
+    buzzer_command.extend(['--LogisticBuzzer_filename=models/' + filename_stem])
     
     # Construct the `eval.py` command using sys.executable
     eval_command = [
@@ -42,9 +43,12 @@ for subset in feature_subsets:
         '--TfidfGuesser_filename=models/TfidfGuesser', '--limit=25',
         '--questions=../data/qanta.buzzdev.json.gz', '--buzzer_guessers', 'Gpr',
         '--GprGuesser_filename=../models/buzzdev_gpr_cache',
-        '--LogisticBuzzer_filename=models/' + filename_stem,
-        '--features', features_str  # Pass "" when subset is empty
+        '--LogisticBuzzer_filename=models/' + filename_stem
     ]
+    
+    # Only add --features if subset is not empty
+    if subset:
+        eval_command.extend(['--features'] + list(subset))
     
     # Set output redirection for eval command
     eval_output_file = f"evals/eval_output_{filename_stem}.txt"

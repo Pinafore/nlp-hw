@@ -6,6 +6,7 @@ import json
 import os
 import random
 import string
+import logging
 
 from tqdm import tqdm
 
@@ -26,7 +27,7 @@ kLABELS = {"best": "Guess was correct, Buzz was correct",
 
 def normalize_answer(answer):
     """
-    Remove superflous components to create a normalized form of an answer that
+    Remove superfluous components to create a normalized form of an answer that
     can be more easily compared.
     """
     from unidecode import unidecode
@@ -44,13 +45,12 @@ def normalize_answer(answer):
         if reduced.startswith(bad_start):
             reduced = reduced[len(bad_start):]
     return reduced.strip()
- 
+
 def rough_compare(guess, page):
     """
-    See if a guess is correct.  Not perfect, but better than direct string
-    comparison.  Allows for slight variation.
+    See if a guess is correct. Not perfect, but better than direct string
+    comparison. Allows for slight variation.
     """
-    # TODO: Also add the original answer line
     if page is None:
         return False
     
@@ -113,7 +113,6 @@ def pretty_feature_print(features, first_features=["guess", "answer", "id"]):
     """
     Nicely print a buzzer example's features
     """
-    
     import textwrap
     wrapper = textwrap.TextWrapper()
 
@@ -135,12 +134,10 @@ def pretty_feature_print(features, first_features=["guess", "answer", "id"]):
     lines.append("--------------------")
     return "\n".join(lines)
 
-
 def eval_buzzer(buzzer, questions, history_length, history_depth):
     """
     Compute buzzer outcomes on a dataset
     """
-    
     from collections import Counter, defaultdict
     
     buzzer.load()
@@ -149,8 +146,7 @@ def eval_buzzer(buzzer, questions, history_length, history_depth):
     
     predict, feature_matrix, feature_dict, correct, metadata = buzzer.predict(questions)
 
-    # Keep track of how much of the question you needed to see before
-    # answering correctly
+    # Keep track of how much of the question you needed to see before answering correctly
     question_seen = {}
     question_length = defaultdict(int)
     
@@ -186,21 +182,19 @@ def eval_buzzer(buzzer, questions, history_length, history_depth):
             else:
                 outcomes["waiting"] += 1
                 examples["waiting"].append(features)
+    
     unseen_characters = 0.0
-
     number_questions = 0
     for question in question_length:
         number_questions += 1
         length = question_length[question]
         if question in question_seen:
             if question_seen[question] > 0:
-                # The guess was correct
                 unseen_characters += 1.0 - question_seen[question] / length
             else:
                 unseen_characters -= 1.0 + question_seen[question] / length
 
     return outcomes, examples, unseen_characters / number_questions
-                
 
 if __name__ == "__main__":
     # Load model and evaluate it
@@ -213,13 +207,15 @@ if __name__ == "__main__":
     add_buzzer_params(parser)
 
     parser.add_argument('--evaluate', default="buzzer", type=str)
-    parser.add_argument('--cutoff', default=-1, type=int)    
+    parser.add_argument('--cutoff', default=-1, type=int)
+    parser.add_argument('--output_json', type=str, default="summary/eval_output.json", help="Path to save output JSON file")
     
     flags = parser.parse_args()
     setup_logging(flags)
 
     questions = load_questions(flags)
-    guesser = load_guesser(flags, load=flags.load)    
+    guesser = load_guesser(flags, load=flags.load)
+    
     if flags.evaluate == "buzzer":
         buzzer = load_buzzer(flags, load=True)
         outcomes, examples, unseen = eval_buzzer(buzzer, questions,
@@ -234,15 +230,15 @@ if __name__ == "__main__":
         assert False, "Gotta evaluate something"
         
     total = sum(outcomes[x] for x in outcomes if x != "hit")
-    outcome_percentages = {f"{ii} %":outcome_subtotal / total for ii, outcome_subtotal in outcomes.items()}
+    outcome_percentages = {f"{ii} %": outcome_subtotal / total for ii, outcome_subtotal in outcomes.items()}
 
     for ii in outcomes:
-        print("%s %0.2f\n===================\n" % (ii, outcomes[ii] / total)) #line representing outcome percentage
+        print("%s %0.2f\n===================\n" % (ii, outcomes[ii] / total))
         if len(examples[ii]) > 10:
             population = list(random.sample(examples[ii], 10))
         else:
             population = examples[ii]
-        for jj in population: #each question is a jj
+        for jj in population:
             print(pretty_feature_print(jj))
         print("=================")
         
@@ -251,16 +247,14 @@ if __name__ == "__main__":
             print("%40s: %0.4f" % (feature.strip(), weight))
         
         print("Questions Right: %i (out of %i) Accuracy: %0.2f  Buzz ratio: %0.2f Buzz position: %f" %
-              (outcomes["best"], # Right
-               total,            # Total
-               (outcomes["best"] + outcomes["waiting"]) / total, # Accuracy
-               (outcomes["best"] - outcomes["aggressive"] * 0.5) / total, # Ratio
+              (outcomes["best"], total,
+               (outcomes["best"] + outcomes["waiting"]) / total,
+               (outcomes["best"] - outcomes["aggressive"] * 0.5) / total,
                unseen))
-
     elif flags.evaluate == "guesser":
-        print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"]/total, outcomes["close"]/total))
+        print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"] / total, outcomes["close"] / total))
 
-    # At the end of eval.py's main section, after results calculation
+    # Save results to JSON file
     results = {
         "questions_right": outcomes["best"],
         "total": total,
@@ -270,6 +264,8 @@ if __name__ == "__main__":
         "outcome_percentages": outcome_percentages
     }
 
-    # Save results to JSON file
-    with open("summary/eval_output.json", "w") as f:
-        json.dump(results, f)
+    try:
+        with open(flags.output_json, "w") as f:
+            json.dump(results, f)
+    except Exception as e:
+        logging.error(f"Failed to write output JSON file {flags.output_json}: {e}")

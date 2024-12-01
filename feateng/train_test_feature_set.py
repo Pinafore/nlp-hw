@@ -8,7 +8,8 @@ import time
 from datetime import datetime
 
 # Define the features to use in generating the power set
-features = ["Length", "Frequency", "Category", "ContextualMatch", "PreviousGuess"]
+# features = ["Length", "Frequency", "Category", "ContextualMatch", "PreviousGuess"]
+features = []
 
 # DataFrame to store results
 results_df = pd.DataFrame(columns=[
@@ -57,14 +58,20 @@ for subset in feature_subsets:
     # Set values for the parameters
     training_limit = 50
     testing_limit = 25
+    # training_dataset = "../data/qanta.buzztrain.json.gz"
+    # test_dataset = "../data/qanta.buzzdev.json.gz"
     training_dataset = "../data/qanta.buzztrain.json.gz"
     test_dataset = "../data/qanta.buzzdev.json.gz"
     evaluation = "buzzer"
+    # guesser_model_train = "../models/buzztrain_gpr_cache"
+    # guesser_model_test = "../models/buzzdev_gpr_cache"
+    guesser_model_train = "../models/buzztrain_gpt4o_cache"
+    guesser_model_test = "../models/buzzdev_gpt4o_cache"
     
     # Construct the `buzzer.py` command using sys.executable
     buzzer_command = [
         sys.executable, 'buzzer.py', '--guesser_type=Gpr', '--limit', str(training_limit),
-        '--GprGuesser_filename=../models/buzztrain_gpr_cache',
+        '--GprGuesser_filename', guesser_model_train,
         '--questions', training_dataset, '--buzzer_guessers', 'Gpr'
     ]
     # Only add --features if subset is not empty
@@ -79,7 +86,7 @@ for subset in feature_subsets:
         sys.executable, 'eval.py', '--guesser_type=Gpr',
         '--TfidfGuesser_filename=models/TfidfGuesser', '--limit', str(testing_limit),
         '--questions', test_dataset, '--buzzer_guessers', 'Gpr',
-        '--GprGuesser_filename=../models/buzzdev_gpr_cache',
+        '--GprGuesser_filename', guesser_model_test,
         '--LogisticBuzzer_filename=models/' + filename_stem,
         '--evaluate', evaluation,
         '--output_json', output_json  # Include output_json flag to specify unique output

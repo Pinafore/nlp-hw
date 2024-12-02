@@ -35,7 +35,10 @@ def add_buzzer_params(parser):
     parser.add_argument('--buzzer_type', type=str, default="LogisticBuzzer")
     parser.add_argument('--run_length', type=int, default=100)
     parser.add_argument('--primary_guesser', type=str, default='Tfidf', help="What guesser does buzzer depend on?")
-    parser.add_argument('--LogisticBuzzer_filename', type=str, default="models/LogisticBuzzer")    
+    parser.add_argument('--LogisticBuzzer_filename', type=str, default="models/LogisticBuzzer")
+    parser.add_argument('--MLPBuzzer_filename', type=str, default="models/MLPBuzzer")       
+    parser.add_argument('--mlp_hidden_dims', type=int, nargs='+', default=[128, 64], help="Hidden layer sizes for MLP-based buzzer.")
+    parser.add_argument('--mlp_learning_rate', type=float, default=1e-3, help="Learning rate for MLP-based buzzer.")
     
 def add_guesser_params(parser):
     parser.add_argument('--guesser_type', type=str, default="Tfidf")
@@ -175,7 +178,15 @@ def load_buzzer(flags, load=False):
     if flags.buzzer_type == "LogisticBuzzer":
         from logistic_buzzer import LogisticBuzzer
         buzzer = LogisticBuzzer(flags.LogisticBuzzer_filename, flags.run_length, flags.num_guesses)
-
+    elif flags.buzzer_type == "MLP":
+        from mlp_buzzer import MLPBuzzer
+        buzzer = MLPBuzzer(
+            filename=flags.MLPBuzzer_filename,
+            run_length=flags.run_length,
+            num_guesses=flags.num_guesses,
+            hidden_dims=flags.mlp_hidden_dims,
+            learning_rate=flags.mlp_learning_rate,
+        )
     if load:
         buzzer.load()
 

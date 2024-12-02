@@ -7,26 +7,35 @@ import json
 import time
 from datetime import datetime
 
+LOSS_FUNCTIONS = {
+    "MLP": "BuzzLoss",
+    "LogisticBuzzer": "Logistic Loss",
+}
+
 # Define the features to use in generating the power set
 # features = ["Length", "Frequency", "Category", "ContextualMatch", "PreviousGuess"]
 features = []
 
 # DataFrame to store results
 results_df = pd.DataFrame(columns=[
-    "Features", "Filename Stem", "Training Limit", "Testing Limit",
+    "Features", "Buzzer Type", "Filename Stem", "Loss Function", "Training Limit", "Testing Limit",
     "Training Dataset", "Test Dataset", "Evaluation",
     "best %", "timid %", "hit %", "close %", "miss %", "aggressive %", "waiting %",
     "Questions Right", "Total", "Accuracy", "Buzz Ratio", "Buzz Position"
 ])
 
 # Function to generate the filename stem based on the subset of features
-def generate_filename_stem(subset):
-    if not subset:
-        return "no_features"
-    elif set(subset) == set(features):
-        return "with_all_features"
+def generate_filename_stem(subset, buzzer_type="LogisticBuzzer"):
+    if buzzer_type == "LogisticBuzzer":
+        buzzer_str = "logit"
     else:
-        return "with_" + "_".join(subset).lower()
+        buzzer_str = buzzer_type.lower()
+    if not subset:
+        return buzzer_str + "_no_features"
+    elif set(subset) == set(features):
+        return buzzer_str + "_with_all_features"
+    else:
+        return buzzer_str + "_with_" + "_".join(subset).lower()
 
 # Function to validate JSON output
 def validate_json_output(json_path):
@@ -49,37 +58,50 @@ def validate_json_output(json_path):
 
 # Generate the power set of features
 feature_subsets = list(itertools.chain.from_iterable(itertools.combinations(features, r) for r in range(len(features)+1)))
+feature_subsets = [["Length", "Frequency", "Category", "ContextualMatch", "PreviousGuess"]]
+
+# Set values for the parameters
+training_limit = 50
+testing_limit = 25
+# training_dataset = "../data/qanta.buzztrain.json.gz"
+# test_dataset = "../data/qanta.buzzdev.json.gz"
+training_dataset = "../data/qanta.buzztrain.json.gz"
+test_dataset = "../data/qanta.buzzdev.json.gz"
+evaluation = "buzzer"
+# guesser_model_train = "../models/buzztrain_gpr_cache"
+# guesser_model_test = "../models/buzzdev_gpr_cache"
+guesser_model_train = "../models/buzztrain_gpt4o_cache"
+guesser_model_test = "../models/buzzdev_gpt4o_cache"
+
+buzzer_type = "MLP"
+buzzer_type = "LogisticBuzzer"
+
+# Add loss debugging
+# if buzzer_type == "MLP":
+#     from mlp_buzzer import MLPBuzzer
+#     buzzer = MLPBuzzer()
+#     print(f"Loss function: {buzzer.loss_function}")
+#     print(f"MLP Prediction Threshold: {buzzer.model.threshold if hasattr(buzzer.model, 'threshold') else 0.5}")
 
 # Loop over each subset of features to construct and execute the commands
 for subset in feature_subsets:
+
     # Determine the filename stem based on the subset
-    filename_stem = generate_filename_stem(subset)
+    filename_stem = generate_filename_stem(subset, buzzer_type)
+
     
-    # Set values for the parameters
-    training_limit = 50
-    testing_limit = 25
-    # training_dataset = "../data/qanta.buzztrain.json.gz"
-    # test_dataset = "../data/qanta.buzzdev.json.gz"
-    training_dataset = "../data/qanta.buzztrain.json.gz"
-    test_dataset = "../data/qanta.buzzdev.json.gz"
-    evaluation = "buzzer"
-    # guesser_model_train = "../models/buzztrain_gpr_cache"
-    # guesser_model_test = "../models/buzzdev_gpr_cache"
-    guesser_model_train = "../models/buzztrain_gpt4o_cache"
-    guesser_model_test = "../models/buzzdev_gpt4o_cache"
-    
+    # TRAINING SPECS
     # Construct the `buzzer.py` command using sys.executable
     buzzer_command = [
         sys.executable, 'buzzer.py', '--guesser_type=Gpr', '--limit', str(training_limit),
         '--GprGuesser_filename', guesser_model_train,
-        '--questions', training_dataset, '--buzzer_guessers', 'Gpr'
+        '--questions', training_dataset, '--buzzer_guessers', 'Gpr',
+        '--buzzer_type', buzzer_type
     ]
-    # Only add --features if subset is not empty
-    if subset:
-        buzzer_command.extend(['--features'] + list(subset))
+        
+
     
-    buzzer_command.extend(['--LogisticBuzzer_filename=models/' + filename_stem])
-    
+    #TESTING SPECS
     # Construct the `eval.py` command using sys.executable
     output_json = f"summary/eval_output_{filename_stem}.json"
     eval_command = [
@@ -87,13 +109,26 @@ for subset in feature_subsets:
         '--TfidfGuesser_filename=models/TfidfGuesser', '--limit', str(testing_limit),
         '--questions', test_dataset, '--buzzer_guessers', 'Gpr',
         '--GprGuesser_filename', guesser_model_test,
-        '--LogisticBuzzer_filename=models/' + filename_stem,
+        # '--LogisticBuzzer_filename=models/' + filename_stem,
         '--evaluate', evaluation,
+        # '--buzzer_type', buzzer_type,
         '--output_json', output_json  # Include output_json flag to specify unique output
     ]
+    if buzzer_type == "MLP":
+        buzzer_filename_flag = ['--MLPBuzzer_filename=models/' + filename_stem]
+        buzzer_command.extend(buzzer_filename_flag)
+        eval_command.extend(buzzer_filename_flag)
+    else:
+        buzzer_filename_flag = ['--LogisticBuzzer_filename=models/' + filename_stem]
+        buzzer_command.extend(buzzer_filename_flag)
+        eval_command.extend(buzzer_filename_flag)
+        
+
     # Only add --features if subset is not empty
     if subset:
-        eval_command.extend(['--features'] + list(subset))
+        feature_flag = ['--features'] + list(subset)
+        buzzer_command.extend(feature_flag)
+        eval_command.extend(feature_flag)
     
     error_log_file = f"summary/error_log_{filename_stem}.txt"
     
@@ -133,10 +168,14 @@ for subset in feature_subsets:
             # If all retries fail, raise an error
             raise ValueError(f"Failed to validate JSON output after {max_retries} attempts: {output_json}")
 
+        loss_function = LOSS_FUNCTIONS.get(buzzer_type, "Unknown")
+
         # Create a DataFrame for the new row
         new_row_df = pd.DataFrame([{
             "Features": list(subset),
+            "Buzzer Type": buzzer_type,
             "Filename Stem": filename_stem,
+            "Loss Function": loss_function,  # Include the loss function dynamically
             "Training Limit": training_limit,
             "Testing Limit": testing_limit,
             "Training Dataset": training_dataset,
@@ -151,12 +190,12 @@ for subset in feature_subsets:
         }])
 
         # Validate that the new row is not a duplicate of existing rows
-        columns_to_check = results_df.columns[results_df.columns.get_loc("waiting %"):]
-        if not results_df[columns_to_check].duplicated().any():
-            # Use pd.concat to add the new row to results_df
-            results_df = pd.concat([results_df, new_row_df], ignore_index=True)
-        else:
-            print(f"Warning: Duplicate row detected for subset {subset}. Skipping row addition.")
+        
+        # if not results_df[columns_to_check].duplicated().any():
+        #     # Use pd.concat to add the new row to results_df
+        #     results_df = pd.concat([results_df, new_row_df], ignore_index=True)
+        # else:
+        #     print(f"Warning: Duplicate row detected for subset {subset}. Skipping row addition.")
 
     except Exception as e:
         # Detailed error logging
@@ -174,6 +213,7 @@ for subset in feature_subsets:
 
 # Sort the DataFrame by descending order of Buzz Ratio
 if not results_df.empty:
+    columns_to_check = results_df.columns[results_df.columns.get_loc("waiting %"):]
     results_df = results_df.sort_values(by="Buzz Ratio", ascending=False)
 
     # Validate and remove duplicate rows
@@ -181,7 +221,7 @@ if not results_df.empty:
     if duplicates.any():
         print("Warning: Duplicate rows found in the CSV output.")
         duplicate_rows = results_df[duplicates]
-        duplicate_log_path = "summary/duplicate_rows_log.csv"
+        duplicate_log_path = f"summary/{filename_stem}_duplicate_rows_log.csv"
         duplicate_rows.to_csv(duplicate_log_path, index=False)
         print(f"Duplicate rows have been saved to {duplicate_log_path}")
 
@@ -189,6 +229,6 @@ if not results_df.empty:
         results_df.drop_duplicates(subset=columns_to_check, keep='first', inplace=True)
 
     # Export the DataFrame as CSV
-    results_df.to_csv("summary/eval_summary.csv", index=False)
+    results_df.to_csv(f"summary/{filename_stem}_eval_summary.csv", index=False)
 else:
     print("No results were generated, possibly due to errors in processing.")

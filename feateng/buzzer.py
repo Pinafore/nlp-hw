@@ -140,6 +140,9 @@ class Buzzer:
                 features["%s_%s" % (ff.name, feat)] = val
 
         assert guess is not None
+        print(run_text)
+        print(f"Guess: {guess}")
+        print(f"Features: {features}")
         return guess, features
 
     def finalize(self):

@@ -29,3 +29,8 @@ class LogisticBuzzer(Buzzer):
         Buzzer.load(self)
         with open("%s.model.pkl" % self.filename, 'rb') as infile:
             self._classifier = pickle.load(infile)
+
+    @property
+    def loss_function(self):
+        return "Logistic Loss"
+

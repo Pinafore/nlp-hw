@@ -7,6 +7,8 @@ import os
 import random
 import string
 import logging
+import torch
+from mlp_buzzer import MLPBuzzer
 
 from tqdm import tqdm
 
@@ -139,35 +141,46 @@ def eval_buzzer(buzzer, questions, history_length, history_depth):
     Compute buzzer outcomes on a dataset
     """
     from collections import Counter, defaultdict
-    
+
     buzzer.load()
     buzzer.add_data(questions)
     buzzer.build_features(history_length=history_length, history_depth=history_depth)
-    
+
+    if hasattr(buzzer, "model"):  # Only for MLPBuzzer
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        buzzer.model.to(device)
+
+    # Predict buzz decisions
     predict, feature_matrix, feature_dict, correct, metadata = buzzer.predict(questions)
+    
+    # Debugging: Log predictions and features
+    print(f"Predictions (raw): {predict}")  # Raw predictions (probabilities or binary decisions)
+    print(f"Feature Matrix Shape: {feature_matrix.shape}")  # Check feature dimensions
+    print(f"Feature Dictionary Sample: {feature_dict[:5]}")  # Log a sample of features
+    print(f"Correct Labels: {correct[:5]}")  # Check the ground truth labels
 
     # Keep track of how much of the question you needed to see before answering correctly
     question_seen = {}
     question_length = defaultdict(int)
-    
+
     outcomes = Counter()
     examples = defaultdict(list)
     for buzz, guess_correct, features, meta in zip(predict, correct, feature_dict, metadata):
         qid = meta["id"]
-        
-        # Add back in metadata now that we have prevented cheating in feature creation        
+
+        # Add back in metadata now that we have prevented cheating in feature creation
         for ii in meta:
             features[ii] = meta[ii]
 
         # Keep track of the longest run we saw for each question
         question_length[qid] = max(question_length[qid], len(meta["text"]))
-        
+
         if guess_correct:
             if buzz:
                 outcomes["best"] += 1
                 examples["best"].append(features)
 
-                if not qid in question_seen:
+                if qid not in question_seen:
                     question_seen[qid] = len(meta["text"])
             else:
                 outcomes["timid"] += 1
@@ -177,12 +190,12 @@ def eval_buzzer(buzzer, questions, history_length, history_depth):
                 outcomes["aggressive"] += 1
                 examples["aggressive"].append(features)
 
-                if not qid in question_seen:
+                if qid not in question_seen:
                     question_seen[qid] = -len(meta["text"])
             else:
                 outcomes["waiting"] += 1
                 examples["waiting"].append(features)
-    
+
     unseen_characters = 0.0
     number_questions = 0
     for question in question_length:
@@ -194,7 +207,12 @@ def eval_buzzer(buzzer, questions, history_length, history_depth):
             else:
                 unseen_characters -= 1.0 + question_seen[question] / length
 
+    # Debugging: Log outcome counts
+    print(f"Outcomes: {outcomes}")
+    print(f"Examples per Outcome: { {k: len(v) for k, v in examples.items()} }")
+
     return outcomes, examples, unseen_characters / number_questions
+
 
 if __name__ == "__main__":
     # Load model and evaluate it
@@ -221,6 +239,10 @@ if __name__ == "__main__":
         outcomes, examples, unseen = eval_buzzer(buzzer, questions,
                                                  history_length=flags.buzzer_history_length,
                                                  history_depth=flags.buzzer_history_depth)
+        # Debugging evaluation
+        if flags.buzzer_type == "MLP":
+            print("MLP Buzzer Evaluation Started")
+
     elif flags.evaluate == "guesser":
         if flags.cutoff >= 0:
             outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses, flags.cutoff)

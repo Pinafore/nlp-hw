@@ -82,5 +82,5 @@ if __name__ == "__main__":
     pg.train(kPRESIDENT_DATA["train"])
     
     for date in kPRESIDENT_DATA["dev"]:
-        print(date, pg(date)["guess"])
+        print(date["text"], date["page"], pg(date["text"])[0]["guess"])
         

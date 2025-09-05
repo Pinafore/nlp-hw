@@ -1,0 +1,23 @@
+INFO:root:Loading questions from ../data/qanta.buzzdev.json.gz
+INFO:root:Read 25 questions
+INFO:root:Using device 'cpu' (cuda flag=False)
+INFO:root:Initializing guesser of type Gpr
+INFO:root:Loading Gpr guesser
+INFO:root:9415 entries added to cache
+INFO:root:Buzzer using run length 100
+Traceback (most recent call last):
+  File "/Users/ankit.aggarwal/Dropbox/Stanford/CS230 - Deep Learning/QANTA Final Project/nlp-hw/feateng/eval.py", line 222, in <module>
+    buzzer = load_buzzer(flags, load=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ankit.aggarwal/Dropbox/Stanford/CS230 - Deep Learning/QANTA Final Project/nlp-hw/feateng/params.py", line 185, in load_buzzer
+    buzzer.load()
+  File "/Users/ankit.aggarwal/Dropbox/Stanford/CS230 - Deep Learning/QANTA Final Project/nlp-hw/feateng/logistic_buzzer.py", line 29, in load
+    Buzzer.load(self)
+  File "/Users/ankit.aggarwal/Dropbox/Stanford/CS230 - Deep Learning/QANTA Final Project/nlp-hw/feateng/buzzer.py", line 290, in load
+    with open("%s.featurizer.pkl" % self.filename, 'rb') as infile:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'models/mlpwith_all_features.featurizer.pkl'
+Error for subset ('Length', 'Frequency'): Command '['/Users/ankit.aggarwal/Dropbox/Stanford/CS230 - Deep Learning/QANTA Final Project/nlp-hw/feateng/.venv/bin/python', 'eval.py', '--guesser_type=Gpr', '--TfidfGuesser_filename=models/TfidfGuesser', '--limit', '25', '--questions', '../data/qanta.buzzdev.json.gz', '--buzzer_guessers', 'Gpr', '--GprGuesser_filename', '../models/buzzdev_gpt4o_cache', '--LogisticBuzzer_filename=models/mlpwith_all_features', '--evaluate', 'buzzer', '--output_json', 'summary/eval_output_mlpwith_all_features.json', '--features', 'Length', 'Frequency']' returned non-zero exit status 1.
+Buzzer command: /Users/ankit.aggarwal/Dropbox/Stanford/CS230 - Deep Learning/QANTA Final Project/nlp-hw/feateng/.venv/bin/python buzzer.py --guesser_type=Gpr --limit 50 --GprGuesser_filename ../models/buzztrain_gpt4o_cache --questions ../data/qanta.buzztrain.json.gz --buzzer_guessers Gpr --buzzer_type MLP --features Length Frequency --LogisticBuzzer_filename=models/mlpwith_all_features
+Eval command: /Users/ankit.aggarwal/Dropbox/Stanford/CS230 - Deep Learning/QANTA Final Project/nlp-hw/feateng/.venv/bin/python eval.py --guesser_type=Gpr --TfidfGuesser_filename=models/TfidfGuesser --limit 25 --questions ../data/qanta.buzzdev.json.gz --buzzer_guessers Gpr --GprGuesser_filename ../models/buzzdev_gpt4o_cache --LogisticBuzzer_filename=models/mlpwith_all_features --evaluate buzzer --output_json summary/eval_output_mlpwith_all_features.json --features Length Frequency
+Output JSON file was empty or not generated.

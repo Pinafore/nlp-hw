@@ -9,6 +9,7 @@ from math import log
 from numpy import mean
 import gzip
 import json
+from sentence_transformers import SentenceTransformer, util
 
 class Feature:
     """
@@ -46,12 +47,6 @@ class LengthFeature(Feature):
             yield ("guess", -1)
         else:
             yield ("guess", log(1 + len(guess)))
-
-            
-
-
-
-        
         
 class GuessBlankFeature(Feature):
     """
@@ -68,6 +63,71 @@ class GuessCapitalsFeature(Feature):
     def __call__(self, question, run, guess):
         yield ('true', log(sum(i.isupper() for i in guess) + 1))
 
+class ContextualMatchFeature(Feature):
+    """
+    Feature that computes the semantic similarity between the question and guess.
+    """
+    def __init__(self, name):
+        super().__init__(name)
+        # Load a sentence transformer model to create embeddings
+        self.model = SentenceTransformer('all-MiniLM-L6-v2')  # Adjust model as needed
+
+    def __call__(self, question, run, guess, guess_history):
+        # Ensure guess is not empty
+        if isinstance(question, dict):
+            question = question.get("text", "")
+
+        if isinstance(question, str) and guess and isinstance(guess, str):
+            # Generate embeddings for question and guess
+            question_embedding = self.model.encode(question, convert_to_tensor=True)
+            guess_embedding = self.model.encode(guess, convert_to_tensor=True)
+
+            # Calculate cosine similarity between question and guess
+            similarity_score = util.pytorch_cos_sim(question_embedding, guess_embedding).item()
+
+            # Yield the similarity score as a feature
+            yield (self.name, similarity_score)
+        else:
+            # If guess is empty, yield a similarity score of zero
+            yield (self.name, 0.0)
+
+class FrequencyFeature(Feature):
+    def __init__(self, name):
+        from eval import normalize_answer
+        self.name = name
+        self.counts = Counter()
+        self.normalize = normalize_answer
+
+    def add_training(self, question_source):
+        import json
+        with gzip.open(question_source) as infile:
+            questions = json.load(infile)
+            for ii in questions:
+                self.counts[self.normalize(ii["page"])] += 1
+
+    def __call__(self, question, run, guess, guess_history=None):
+        yield ("guess", log(1 + self.counts[self.normalize(guess)]))
+
+class CategoryFeature(Feature):                                          
+    def __call__(self, question, run, guess, guess_history, other_guesses=None):              
+        yield ("category", question["category"])                    
+        yield ("year", log(question["year"]-1980))              
+        yield ("subcategory", question["subcategory"])  
+        yield ("tournament", question["tournament"])
+
+class PreviousGuessFeature(Feature):                                                                    
+    def __call__(self, question, run, guess, guess_history, other_guesses=None):                                         
+        count = 0                                                                                       
+        score = []                                                                                   
+        for guesser in guess_history:                                                                   
+            for time in guess_history[guesser]:                                                         
+                # print(guess_history[guesser][time])                                                   
+                count += sum(1 for x in guess_history[guesser][time] if x['guess'] == guess)             
+                score += [x['confidence'] for x in guess_history[guesser][time] if x['guess'] == guess]  
+        yield ("count", count)
+        if score:                                                                           
+            yield ("max_score", max(score))                                                                  
+            yield ("avg_score", mean(score))                                                                 
 
 if __name__ == "__main__":
     """
@@ -105,3 +165,4 @@ if __name__ == "__main__":
     with open("data/small_guess.vocab", 'w') as outfile:
         for ii in vocab:
             outfile.write("%s\n" % ii)
+

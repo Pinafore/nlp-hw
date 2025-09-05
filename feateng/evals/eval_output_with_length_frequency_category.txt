@@ -1,0 +1,879 @@
+Setting up logging
+Loading buzzer
+Initializing features: ['Length', 'Frequency', 'Category']
+dataset: ../data/qanta.buzzdev.json.gz
+waiting 0.39
+===================
+
+               guess: None
+              answer: The_Sound_and_the_Fury
+                  id: 93149
+      Gpr_confidence: -0.7278
+         Length_char: 0.3489
+         Length_word: 0.3067
+        Length_guess: 1.6094
+     Frequency_guess: 0.0000
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature American
+ Category_tournament: ACF Regionals
+                text: This character marries a "minor movingpicture magnate" in Hollywood
+                      and divorces him in Mexico five years later. This character washes her
+                      mouth out with soap after kissing Charlie; earlier, she wrestles with
+                      a brother for kissing "a dirty girl like Natalie." At her father's
+                      funeral, this character pays her brother a hundred dollars to see her
+                      daughter, whom she later attempts to send two hundred dollars a month.
+                      That brother notices her muddy drawers as she climbs a tree, and
+                      repeatedly remarks that this character "smells of trees." This
+                      character's favorite brother, for whom she names her daughter,
+--------------------
+               guess: Mildred Pierce
+              answer: The_Sound_and_the_Fury
+                  id: 93149
+      Gpr_confidence: -0.3172
+         Length_char: -0.5489
+         Length_word: -0.5867
+        Length_guess: 2.7081
+     Frequency_guess: 0.0000
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature American
+ Category_tournament: ACF Regionals
+                text: This character marries a "minor movingpicture magnate" in Hollywood
+                      and divorces him in Mexico five years later. This character washes her
+                      mouth out with soap after kissing Charlie; earlier, she wrestles
+--------------------
+               guess: Yeti
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.4329
+         Length_char: -0.3178
+         Length_word: -0.3467
+        Length_guess: 1.6094
+     Frequency_guess: 0.0000
+   Category_category: Religion
+       Category_year: 3.5553
+Category_subcategory: Literature Other
+ Category_tournament: ACF Regionals
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a ritual meant to satisfy these creatures, a master known as a rogyapa
+                      uses a slicing knife during readings
+--------------------
+               guess: Dakini
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.0951
+         Length_char: -0.7689
+         Length_word: -0.8000
+        Length_guess: 1.9459
+     Frequency_guess: 0.0000
+   Category_category: Religion
+       Category_year: 3.5553
+Category_subcategory: Literature Other
+ Category_tournament: ACF Regionals
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp.
+--------------------
+               guess: Claisen condensation
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.4437
+         Length_char: -0.3267
+         Length_word: -0.4000
+        Length_guess: 3.0445
+     Frequency_guess: 0.6931
+   Category_category: Science
+       Category_year: 3.5553
+Category_subcategory: Science Chemistry
+ Category_tournament: ACF Regionals
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated
+--------------------
+               guess: Zero-grade
+              answer: None
+                  id: 93153
+      Gpr_confidence: -0.7127
+         Length_char: 0.1111
+         Length_word: 0.1067
+        Length_guess: 2.3979
+     Frequency_guess: 0.0000
+   Category_category: Social Science
+       Category_year: 3.5553
+Category_subcategory: Science Computer Science
+ Category_tournament: ACF Regionals
+                text: In Proto-Indo-European studies, this kind of ablaut contrasts with
+                      both the "e-grade" and "o-grade" varieties. In English syntax, this
+                      form of complementizer is inherent to the sentence "I think they like
+                      me." This type of "derivation" is exemplified by using a noun such as
+                      "pen" as a verb, as in "I penned it." In the Chomsky hierarchy,
+                      unrestricted grammars are also called "Type-[this]". Arabic and Hebrew
+                      use this type of copula in sentences lacking a word for "to be." In
+                      linguistics, this term
+--------------------
+               guess: Claisen rearrangement
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.1405
+         Length_char: 0.5622
+         Length_word: 0.4267
+        Length_guess: 3.0910
+     Frequency_guess: 0.0000
+   Category_category: Science
+       Category_year: 3.5553
+Category_subcategory: Science Chemistry
+ Category_tournament: ACF Regionals
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used in the
+                      first step in the mevalonate pathway, which forms the molecule
+                      acetoacetyl-CoA. Unsaturated ketones are formed from allyl vinyl
+                      ethers in this man's rearrangement, a variant of the Cope
+                      rearrangement. Dieckmann names an intramolecular version of this man's
+                      most famous reaction. For 10 points,
+--------------------
+               guess: George Orwell
+              answer: Ngũgĩ_wa_Thiong'o
+                  id: 93145
+      Gpr_confidence: -0.4398
+         Length_char: -0.7733
+         Length_word: -0.7467
+        Length_guess: 2.6391
+     Frequency_guess: 2.0794
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature World
+ Category_tournament: ACF Regionals
+                text: In a novel by this author, two advisors enlarge their eyes and ears to
+                      better see and hear dissidents.
+--------------------
+               guess: Master Harold...and the Boys
+              answer: Athol_Fugard
+                  id: 93163
+      Gpr_confidence: -0.1954
+         Length_char: -0.7733
+         Length_word: -0.7467
+        Length_guess: 3.3673
+     Frequency_guess: 0.0000
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature World
+ Category_tournament: ACF Regionals
+                text: In a play by this man, one title character counts the bruises caused
+                      by the other title character, who
+--------------------
+               guess: Carbon monoxide
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.3639
+         Length_char: -0.3111
+         Length_word: -0.3200
+        Length_guess: 2.7726
+     Frequency_guess: 1.0986
+   Category_category: Science
+       Category_year: 3.5553
+Category_subcategory: Science Chemistry
+ Category_tournament: ACF Regionals
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert
+--------------------
+=================
+timid 0.13
+===================
+
+               guess: Hydrogenation
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.0556
+         Length_char: 0.3556
+         Length_word: 0.1600
+        Length_guess: 2.6391
+     Frequency_guess: 0.6931
+   Category_category: Science
+       Category_year: 3.5553
+Category_subcategory: Science Chemistry
+ Category_tournament: ACF Regionals
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis. Discoverers of an
+                      asymmetric version of this reaction used in the industrial synthesis
+                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
+                      Chemistry. That asymmetric form of this reaction can be catalyzed by
+                      ruthenium-BINAP complexes developed by Noyori. A square-planar
+                      tris(triphenylphosphine) rhodium(I) complex was developed in 1966 to
+                      homogeneously catalyze this reaction; that is Wilkinson's catalyst.
+                      When this reaction is incomplete, it can result in cis-trans
+                      isomerization,
+--------------------
+               guess: Nitrogen
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.0013
+         Length_char: 0.7378
+         Length_word: 0.7333
+        Length_guess: 2.1972
+     Frequency_guess: 1.3863
+   Category_category: Science
+       Category_year: 3.5553
+Category_subcategory: Science Chemistry
+ Category_tournament: ACF Regionals
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert homologation of
+                      carboxylic acids. When ketones are used as the starting product for
+                      the Schmidt reaction, this gas is evolved. This gas is also released
+                      as a byproduct of the Sandmeyer reactions. In plants, it binds to a
+                      molybdenum-containing enzyme. This gas can be produced by just heating
+                      diazonium salts or azides. This gas is often used as an alternative to
+                      argon for the creation of inert atmospheres. For 10 points, name this
+                      most common gas in Earth's atmosphere.
+--------------------
+               guess: Red Sea
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.0052
+         Length_char: -0.1089
+         Length_word: -0.1733
+        Length_guess: 2.0794
+     Frequency_guess: 1.0986
+   Category_category: Geography
+       Category_year: 3.5553
+Category_subcategory: History World
+ Category_tournament: ACF Regionals
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon irked them. Purported cave dwellers
+                      on this body of water's western side were the first people called
+                      "Troglodytes." A port called "Mussel Harbor" abutted this body near
+                      Berenice according to an anonymous 1st-century text about its peoples.
+                      The city of Adulis traded with the Himyarite kingdom across
+--------------------
+               guess: Hydrogenation
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.0422
+         Length_char: 0.5600
+         Length_word: 0.3733
+        Length_guess: 2.6391
+     Frequency_guess: 0.6931
+   Category_category: Science
+       Category_year: 3.5553
+Category_subcategory: Science Chemistry
+ Category_tournament: ACF Regionals
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis. Discoverers of an
+                      asymmetric version of this reaction used in the industrial synthesis
+                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
+                      Chemistry. That asymmetric form of this reaction can be catalyzed by
+                      ruthenium-BINAP complexes developed by Noyori. A square-planar
+                      tris(triphenylphosphine) rhodium(I) complex was developed in 1966 to
+                      homogeneously catalyze this reaction; that is Wilkinson's catalyst.
+                      When this reaction is incomplete, it can result in cis-trans
+                      isomerization, and thus its "partial" form is responsible for the
+                      production of trans fats. For 10 points,
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0007
+         Length_char: 0.1133
+         Length_word: 0.1867
+        Length_guess: 1.7918
+     Frequency_guess: 0.6931
+   Category_category: Mythology
+       Category_year: 3.5553
+Category_subcategory: Literature Classical
+ Category_tournament: ACF Regionals
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
+                      this goddess of having affairs
+--------------------
+               guess: Narcissism
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.0437
+         Length_char: 0.1111
+         Length_word: 0.0667
+        Length_guess: 2.3979
+     Frequency_guess: 0.0000
+   Category_category: Social Science
+       Category_year: 3.5553
+Category_subcategory: Literature Other
+ Category_tournament: ACF Regionals
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+                      the image of success. Robert Raskin and Calvin Hall designed a test
+                      for it where subjects choose between statements like "Compliments
+                      embarrass me" and "I like to be complimented." In a book subtitled
+                      American Life in an Age of Diminishing Expectations, Christopher Lasch
+                      argued that postwar America
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0387
+         Length_char: -0.5511
+         Length_word: -0.5067
+        Length_guess: 1.7918
+     Frequency_guess: 0.6931
+   Category_category: Mythology
+       Category_year: 3.5553
+Category_subcategory: Literature Classical
+ Category_tournament: ACF Regionals
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women
+--------------------
+               guess: Edna Pontellier
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0266
+         Length_char: 0.1111
+         Length_word: 0.0933
+        Length_guess: 2.7726
+     Frequency_guess: 0.0000
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature American
+ Category_tournament: ACF Regionals
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't give herself up. Doctor Mandelet advises
+                      this character's husband to permit her whims, which include moving
+                      into a "pigeon house" outside of her house on Esplanade Street. This
+                      mother of Raoul
+--------------------
+               guess: Claisen
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.0018
+         Length_char: 0.7644
+         Length_word: 0.5867
+        Length_guess: 2.0794
+     Frequency_guess: 0.0000
+   Category_category: Science
+       Category_year: 3.5553
+Category_subcategory: Science Chemistry
+ Category_tournament: ACF Regionals
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used in the
+                      first step in the mevalonate pathway, which forms the molecule
+                      acetoacetyl-CoA. Unsaturated ketones are formed from allyl vinyl
+                      ethers in this man's rearrangement, a variant of the Cope
+                      rearrangement. Dieckmann names an intramolecular version of this man's
+                      most famous reaction. For 10 points, name this German chemist whose
+                      namesake condensation of two esters forms beta-keto-esters.
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0410
+         Length_char: -0.1089
+         Length_word: -0.0400
+        Length_guess: 1.7918
+     Frequency_guess: 0.6931
+   Category_category: Mythology
+       Category_year: 3.5553
+Category_subcategory: Literature Classical
+ Category_tournament: ACF Regionals
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+--------------------
+=================
+best 0.34
+===================
+
+               guess: Carl Nielsen
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.2101
+         Length_char: -0.1111
+         Length_word: -0.1733
+        Length_guess: 2.5649
+     Frequency_guess: 1.0986
+   Category_category: Fine Arts
+       Category_year: 3.5553
+Category_subcategory: Fine Arts Auditory
+ Category_tournament: ACF Regionals
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of this
+                      composer's sixth symphony. The Andante pastorale second movement in
+                      his third symphony features wordless solos for soprano and baritone.
+                      Another of his symphonies opens with an Allegro collerico
+--------------------
+               guess: Conservative Party (UK)
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0205
+         Length_char: 0.3333
+         Length_word: 0.2933
+        Length_guess: 3.1781
+     Frequency_guess: 0.0000
+   Category_category: History
+       Category_year: 3.5553
+Category_subcategory: History British
+ Category_tournament: ACF Regionals
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+                      that future legislation had potential to cause "a perpetual vortex of
+                      agitation." After the elevation of another man to a Lordship, Stafford
+                      Northcote led this party in the Commons. This party ran a short-lived
+                      government called the "Who? Who?" Ministry under the Earl of Derby,
+                      and the Tamworth Manifesto, distinguished it from a predecessor led by
+                      the Duke of Wellington. This party was also
+--------------------
+               guess: Jean Racine
+              answer: Jean_Racine
+                  id: 93179
+      Gpr_confidence: -0.0010
+         Length_char: 0.5711
+         Length_word: 0.6933
+        Length_guess: 2.4849
+     Frequency_guess: 1.9459
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature European
+ Category_tournament: ACF Regionals
+                text: In a play by this author, the young boy Joas is hidden in a temple to
+                      escape the murder of his siblings by the title queen so that he may
+                      survive to become king of the Jews. This author included the nobly-
+                      born servants Cleone and Cephisa in another play. This author of
+                      Athalie used a meter with a caesura in the middle of each line to
+                      write a monologue relating how a prince's horses were frightened by a
+                      bull-dragon which arose from the sea off-stage. He used that
+                      alexandrine verse to adapt a plot in which Helen's daughter Hermione
+                      loves Pyrrhus, and another plot also derived from Euripides in which
+                      Aricie is treated like a daughter after Hippolytus is accused of
+                      raping his stepmother. For 10 points,
+--------------------
+               guess: Conservative Party
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0121
+         Length_char: 0.7622
+         Length_word: 0.7333
+        Length_guess: 2.9444
+     Frequency_guess: 0.0000
+   Category_category: History
+       Category_year: 3.5553
+Category_subcategory: History British
+ Category_tournament: ACF Regionals
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+                      that future legislation had potential to cause "a perpetual vortex of
+                      agitation." After the elevation of another man to a Lordship, Stafford
+                      Northcote led this party in the Commons. This party ran a short-lived
+                      government called the "Who? Who?" Ministry under the Earl of Derby,
+                      and the Tamworth Manifesto, distinguished it from a predecessor led by
+                      the Duke of Wellington. This party was also led by a man who organized
+                      Britain's purchase of the Suez Canal and had a rivalry with William
+                      Gladstone. For 10 points, name this British political party of Robert
+                      Peel and Benjamin Disraeli.
+--------------------
+               guess: Louis XIII of France
+              answer: Louis_XIII_of_France
+                  id: 93147
+      Gpr_confidence: -0.0222
+         Length_char: -0.3200
+         Length_word: -0.3200
+        Length_guess: 3.0445
+     Frequency_guess: 0.0000
+   Category_category: History
+       Category_year: 3.5553
+Category_subcategory: History European
+ Category_tournament: ACF Regionals
+                text: During this king's reign, his general Henri II de Montmorency beat the
+                      Spanish at the Battle of Veillane and helped Charles Gonzaga, the Duke
+                      of Nevers [nuh-VAIR], secure rule over Mantua. The Counts of
+                      MontrÃ©sor and Soissons plotted with this king's brother Gaston in a
+                      plot to overthrow him. Jean Guiton
+--------------------
+               guess: Ngũgĩ wa Thiong'o
+              answer: Ngũgĩ_wa_Thiong'o
+                  id: 93145
+      Gpr_confidence: -0.0002
+         Length_char: 0.7622
+         Length_word: 0.8400
+        Length_guess: 2.8904
+     Frequency_guess: 1.3863
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature World
+ Category_tournament: ACF Regionals
+                text: In a novel by this author, two advisors enlarge their eyes and ears to
+                      better see and hear dissidents. In that novel, American doctors wish
+                      to patent a mysterious illness contracted by the Ruler, who wishes to
+                      build the monumental skyscraper Marching to Heaven. During a drought
+                      in a novel by this author, Abdullah uses a catapult to obtain food
+                      while villagers walk to the city. In that novel by this man, Munira
+                      incidentally kills three brewery directors by burning down Wanja's
+                      brothel. In a third novel by this man, Mumbi becomes pregnant while
+                      her husband is in prison, Karanja allies with the British forces, and
+                      Mugo confesses to betraying the revolutionary Kihika. For 10 points,
+                      name this author of Wizard of the Crow, who set Petals of Blood and A
+                      Grain of Wheat in his native Kenya.
+--------------------
+               guess: Edna Pontellier
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0245
+         Length_char: 0.7289
+         Length_word: 0.7733
+        Length_guess: 2.7726
+     Frequency_guess: 0.0000
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature American
+ Category_tournament: ACF Regionals
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't give herself up. Doctor Mandelet advises
+                      this character's husband to permit her whims, which include moving
+                      into a "pigeon house" outside of her house on Esplanade Street. This
+                      mother of Raoul and Etienne watches Adele Ratignolle give birth on her
+                      last night alive, and romances Alcee Arobin and Robert Lebrun while
+                      living in New Orleans. For 10 points, name this woman who swims as far
+                      as she can into the Gulf of Mexico at the end of Kate Chopin's novel
+                      The Awakening.
+--------------------
+               guess: Donald Davidson
+              answer: Donald_Davidson_(philosopher)
+                  id: 93152
+      Gpr_confidence: -0.0045
+         Length_char: 0.5622
+         Length_word: 0.4800
+        Length_guess: 2.7726
+     Frequency_guess: 1.0986
+   Category_category: Philosophy
+       Category_year: 3.5553
+Category_subcategory: Science Other
+ Category_tournament: ACF Regionals
+                text: This thinker wrote that "framework theories" cannot make sense of
+                      radio host Goodman Ace's malapropisms. This philosopher argued that an
+                      actor's "pro-attitude" must be part of the "primary reason" that
+                      causes an action. This author of "A Nice Derangement of Epitaphs"
+                      proposed using Tarski's semantic theory of truth as the core for a
+                      "theory of meaning," though he later claimed "there is no such thing
+                      as a language." He included the "principle of charity," which assumes
+                      that another speaker has true beliefs, in a method for understanding
+                      unfamiliar speech "from scratch." His alternative to mind-body dualism
+                      held that no natural laws connect physical events with mental events.
+                      For 10 points, name
+--------------------
+               guess: Louis XIII of France
+              answer: Louis_XIII_of_France
+                  id: 93147
+      Gpr_confidence: -0.0238
+         Length_char: 0.1178
+         Length_word: 0.1733
+        Length_guess: 3.0445
+     Frequency_guess: 0.0000
+   Category_category: History
+       Category_year: 3.5553
+Category_subcategory: History European
+ Category_tournament: ACF Regionals
+                text: During this king's reign, his general Henri II de Montmorency beat the
+                      Spanish at the Battle of Veillane and helped Charles Gonzaga, the Duke
+                      of Nevers [nuh-VAIR], secure rule over Mantua. The Counts of
+                      MontrÃ©sor and Soissons plotted with this king's brother Gaston in a
+                      plot to overthrow him. Jean Guiton was mayor of a city that resisted
+                      this man's rule, holding out for 14 months until the signing of the
+                      Peace of Alais. Concino Concini advised the mother of this king, who
+                      acted as his regent until
+--------------------
+               guess: The Name of the Rose
+              answer: The_Name_of_the_Rose
+                  id: 93142
+      Gpr_confidence: -0.0010
+         Length_char: 0.7489
+         Length_word: 0.8533
+        Length_guess: 3.0445
+     Frequency_guess: 1.0986
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature European
+ Category_tournament: ACF Regionals
+                text: The narrator of this novel becomes fascinated by the story of Margaret
+                      and Dolcino after a lecture on love by Ubertino. To prove his skill, a
+                      character in this novel discerns the location, appearance, and name of
+                      the horse Brunellus without having ever seen it. A man in this work
+                      has a vision of the plot of the Cena Cypriani before discovering how
+                      to open a mirror and enter the finis Africae. After a trial in this
+                      novel, Remigio is burned alongside a village girl and the hunchback
+                      Salvatore by the inquisitor Bernard Gui. At the end of this novel, the
+                      blind Jorge of Burgos eats the poisoned pages of Aristotle's Second
+                      Book of Poetics and burns down the monastery library. For 10 points,
+                      name this historical novel following William of Baskerville and Adso
+                      of Melk, by Umberto Eco.
+--------------------
+=================
+aggressive 0.13
+===================
+
+               guess: Context-free grammar
+              answer: None
+                  id: 93153
+      Gpr_confidence: -0.1993
+         Length_char: -0.1067
+         Length_word: -0.1333
+        Length_guess: 3.0445
+     Frequency_guess: 0.0000
+   Category_category: Social Science
+       Category_year: 3.5553
+Category_subcategory: Science Computer Science
+ Category_tournament: ACF Regionals
+                text: In Proto-Indo-European studies, this kind of ablaut contrasts with
+                      both the "e-grade" and "o-grade" varieties. In English syntax, this
+                      form of complementizer is inherent to the sentence "I think they like
+                      me." This type of "derivation" is exemplified by using a noun such as
+                      "pen" as a verb, as in "I penned it." In the Chomsky hierarchy,
+                      unrestricted grammars are also called "Type-[this]". Arabic and
+--------------------
+               guess: Benjamin Disraeli
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0450
+         Length_char: -0.7667
+         Length_word: -0.7467
+        Length_guess: 2.8904
+     Frequency_guess: 1.6094
+   Category_category: History
+       Category_year: 3.5553
+Category_subcategory: History British
+ Category_tournament: ACF Regionals
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League,
+--------------------
+               guess: Henri II de Montmorency
+              answer: Louis_XIII_of_France
+                  id: 93147
+      Gpr_confidence: -0.0627
+         Length_char: -0.7689
+         Length_word: -0.7600
+        Length_guess: 3.1781
+     Frequency_guess: 0.0000
+   Category_category: History
+       Category_year: 3.5553
+Category_subcategory: History European
+ Category_tournament: ACF Regionals
+                text: During this king's reign, his general Henri II de Montmorency beat the
+                      Spanish at the Battle of Veillane
+--------------------
+               guess: Vulture
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.0768
+         Length_char: 0.7089
+         Length_word: 0.6667
+        Length_guess: 2.0794
+     Frequency_guess: 0.0000
+   Category_category: Religion
+       Category_year: 3.5553
+Category_subcategory: Literature Other
+ Category_tournament: ACF Regionals
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a ritual meant to satisfy these creatures, a master known as a rogyapa
+                      uses a slicing knife during readings from the Tibetan Book of the
+                      Dead. On a peak named for these creatures near Ramnagar, the Heart
+                      Sutra and Lotus Sutra were delivered by the Buddha. When not shown as
+                      an eagle, Garuda's brother Jatayu is one of these creatures, whose
+                      recent chemical-caused extinction around Mumbai has threatened the use
+                      of dakhmas there by Parsis. For 10 points, name these birds which come
+                      to Tibetan "sky-burials" and Zoroastrian Towers of Silence to eat
+                      decomposing corpses.
+--------------------
+               guess: Samuel Beckett
+              answer: Athol_Fugard
+                  id: 93163
+      Gpr_confidence: -0.4989
+         Length_char: 0.1178
+         Length_word: 0.2533
+        Length_guess: 2.7081
+     Frequency_guess: 2.1972
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature World
+ Category_tournament: ACF Regionals
+                text: In a play by this man, one title character counts the bruises caused
+                      by the other title character, who accuses her of looking behind her to
+                      find a dog on the road. This author also wrote a play in which two men
+                      stage an impromptu performance of Sophocles' Antigone after getting
+                      off their shifts as prison workers. This man created a teenager who
+                      debates the idea of a "Man of Magnitude" to aid his composition for an
+                      English class, as well two campers who take in an old man who does not
+                      speak English.
+--------------------
+               guess: Vulture
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.1129
+         Length_char: 0.5711
+         Length_word: 0.5467
+        Length_guess: 2.0794
+     Frequency_guess: 0.0000
+   Category_category: Religion
+       Category_year: 3.5553
+Category_subcategory: Literature Other
+ Category_tournament: ACF Regionals
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a ritual meant to satisfy these creatures, a master known as a rogyapa
+                      uses a slicing knife during readings from the Tibetan Book of the
+                      Dead. On a peak named for these creatures near Ramnagar, the Heart
+                      Sutra and Lotus Sutra were delivered by the Buddha. When not shown as
+                      an eagle, Garuda's brother Jatayu is one of these creatures, whose
+                      recent chemical-caused extinction around Mumbai has threatened the use
+                      of dakhmas there by Parsis. For 10 points, name these birds which come
+                      to Tibetan "sky-burials"
+--------------------
+               guess: Narcissistic personality disorder
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.0827
+         Length_char: 0.8156
+         Length_word: 0.7200
+        Length_guess: 3.5264
+     Frequency_guess: 0.0000
+   Category_category: Social Science
+       Category_year: 3.5553
+Category_subcategory: Literature Other
+ Category_tournament: ACF Regionals
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+                      the image of success. Robert Raskin and Calvin Hall designed a test
+                      for it where subjects choose between statements like "Compliments
+                      embarrass me" and "I like to be complimented." In a book subtitled
+                      American Life in an Age of Diminishing Expectations, Christopher Lasch
+                      argued that postwar America is defined by a "culture of" this
+                      condition. Sigmund Freud's 1914 paper On this conditon popularized its
+                      name, and DSM-5 includes "largely superficial" relationships and a
+                      "pervasive pattern of grandiosity" among its indicators. For 10
+                      points, name this disorder of excessive vanity, named for a man from
+                      Greek myth.
+--------------------
+               guess: Garuda
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.0969
+         Length_char: 0.1111
+         Length_word: 0.1200
+        Length_guess: 1.9459
+     Frequency_guess: 1.0986
+   Category_category: Religion
+       Category_year: 3.5553
+Category_subcategory: Literature Other
+ Category_tournament: ACF Regionals
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a ritual meant to satisfy these creatures, a master known as a rogyapa
+                      uses a slicing knife during readings from the Tibetan Book of the
+                      Dead. On a peak named for these creatures near Ramnagar, the Heart
+                      Sutra and Lotus Sutra were delivered by the Buddha. When not shown as
+                      an eagle, Garuda's brother
+--------------------
+               guess: Jean Sibelius
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.1565
+         Length_char: -0.3311
+         Length_word: -0.3733
+        Length_guess: 2.6391
+     Frequency_guess: 1.3863
+   Category_category: Fine Arts
+       Category_year: 3.5553
+Category_subcategory: Fine Arts Auditory
+ Category_tournament: ACF Regionals
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of this
+                      composer's sixth symphony. The Andante pastorale second movement in
+                      his third symphony features
+--------------------
+               guess: The Awakening (Chopin novel)
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0792
+         Length_char: -0.5533
+         Length_word: -0.5600
+        Length_guess: 3.3673
+     Frequency_guess: 1.3863
+   Category_category: Literature
+       Category_year: 3.5553
+Category_subcategory: Literature American
+ Category_tournament: ACF Regionals
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to
+--------------------
+=================
+             Category_category=Fine Arts: -0.3861
+             Category_category=Geography: -0.3935
+               Category_category=History: 0.2020
+            Category_category=Literature: 0.3942
+            Category_category=Philosophy: -0.1250
+              Category_category=Religion: 0.9703
+               Category_category=Science: -1.3524
+        Category_category=Social Science: 0.4695
+                 Category_category=Trash: 0.2209
+Category_subcategory=Fine Arts Audiovisual: -0.3816
+ Category_subcategory=Fine Arts Auditory: 0.7705
+    Category_subcategory=Fine Arts Other: -0.3160
+   Category_subcategory=Fine Arts Visual: 0.6589
+   Category_subcategory=History American: 0.3305
+   Category_subcategory=History European: 0.6768
+      Category_subcategory=History World: 1.0113
+Category_subcategory=Literature American: -0.9069
+Category_subcategory=Literature Classical: -1.2557
+Category_subcategory=Literature European: -0.5959
+   Category_subcategory=Literature Other: 0.1489
+   Category_subcategory=Literature World: -0.0674
+    Category_subcategory=Science Biology: 0.8460
+  Category_subcategory=Science Chemistry: -0.2609
+Category_subcategory=Science Computer Science: 0.7530
+       Category_subcategory=Science Math: -0.0990
+      Category_subcategory=Science Other: -0.0159
+    Category_subcategory=Science Physics: -1.2969
+          Category_tournament=ACF Winter: -0.0002
+                           Category_year: -0.0006
+                         Frequency_guess: 0.9345
+                          Gpr_confidence: 2.5022
+                             Length_char: 1.0259
+                            Length_guess: 2.2179
+                             Length_word: 0.8025
+Questions Right: 69 (out of 201) Accuracy: 0.74  Buzz ratio: 0.28 Buzz position: -0.107536

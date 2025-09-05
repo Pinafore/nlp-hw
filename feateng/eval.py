@@ -2,14 +2,22 @@
 # 2023
 #
 # Run an evaluation on a QA system and print results
+import json
+import os
 import random
 import string
+import logging
+import torch
+from mlp_buzzer import MLPBuzzer
 
 from tqdm import tqdm
 
 from params import load_guesser, load_questions, load_buzzer, \
     add_buzzer_params, add_guesser_params, add_general_params,\
     add_question_params, setup_logging
+
+# Ensure the summary directory exists
+os.makedirs("summary", exist_ok=True)
 
 kLABELS = {"best": "Guess was correct, Buzz was correct",
            "timid": "Guess was correct, Buzz was not",
@@ -21,7 +29,7 @@ kLABELS = {"best": "Guess was correct, Buzz was correct",
 
 def normalize_answer(answer):
     """
-    Remove superflous components to create a normalized form of an answer that
+    Remove superfluous components to create a normalized form of an answer that
     can be more easily compared.
     """
     from unidecode import unidecode
@@ -39,13 +47,12 @@ def normalize_answer(answer):
         if reduced.startswith(bad_start):
             reduced = reduced[len(bad_start):]
     return reduced.strip()
- 
+
 def rough_compare(guess, page):
     """
-    See if a guess is correct.  Not perfect, but better than direct string
-    comparison.  Allows for slight variation.
+    See if a guess is correct. Not perfect, but better than direct string
+    comparison. Allows for slight variation.
     """
-    # TODO: Also add the original answer line
     if page is None:
         return False
     
@@ -108,7 +115,6 @@ def pretty_feature_print(features, first_features=["guess", "answer", "id"]):
     """
     Nicely print a buzzer example's features
     """
-    
     import textwrap
     wrapper = textwrap.TextWrapper()
 
@@ -130,43 +136,51 @@ def pretty_feature_print(features, first_features=["guess", "answer", "id"]):
     lines.append("--------------------")
     return "\n".join(lines)
 
-
 def eval_buzzer(buzzer, questions, history_length, history_depth):
     """
     Compute buzzer outcomes on a dataset
     """
-    
     from collections import Counter, defaultdict
-    
+
     buzzer.load()
     buzzer.add_data(questions)
     buzzer.build_features(history_length=history_length, history_depth=history_depth)
-    
-    predict, feature_matrix, feature_dict, correct, metadata = buzzer.predict(questions)
 
-    # Keep track of how much of the question you needed to see before
-    # answering correctly
+    if hasattr(buzzer, "model"):  # Only for MLPBuzzer
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        buzzer.model.to(device)
+
+    # Predict buzz decisions
+    predict, feature_matrix, feature_dict, correct, metadata = buzzer.predict(questions)
+    
+    # Debugging: Log predictions and features
+    print(f"Predictions (raw): {predict}")  # Raw predictions (probabilities or binary decisions)
+    print(f"Feature Matrix Shape: {feature_matrix.shape}")  # Check feature dimensions
+    print(f"Feature Dictionary Sample: {feature_dict[:5]}")  # Log a sample of features
+    print(f"Correct Labels: {correct[:5]}")  # Check the ground truth labels
+
+    # Keep track of how much of the question you needed to see before answering correctly
     question_seen = {}
     question_length = defaultdict(int)
-    
+
     outcomes = Counter()
     examples = defaultdict(list)
     for buzz, guess_correct, features, meta in zip(predict, correct, feature_dict, metadata):
         qid = meta["id"]
-        
-        # Add back in metadata now that we have prevented cheating in feature creation        
+
+        # Add back in metadata now that we have prevented cheating in feature creation
         for ii in meta:
             features[ii] = meta[ii]
 
         # Keep track of the longest run we saw for each question
         question_length[qid] = max(question_length[qid], len(meta["text"]))
-        
+
         if guess_correct:
             if buzz:
                 outcomes["best"] += 1
                 examples["best"].append(features)
 
-                if not qid in question_seen:
+                if qid not in question_seen:
                     question_seen[qid] = len(meta["text"])
             else:
                 outcomes["timid"] += 1
@@ -176,26 +190,29 @@ def eval_buzzer(buzzer, questions, history_length, history_depth):
                 outcomes["aggressive"] += 1
                 examples["aggressive"].append(features)
 
-                if not qid in question_seen:
+                if qid not in question_seen:
                     question_seen[qid] = -len(meta["text"])
             else:
                 outcomes["waiting"] += 1
                 examples["waiting"].append(features)
-    unseen_characters = 0.0
 
+    unseen_characters = 0.0
     number_questions = 0
     for question in question_length:
         number_questions += 1
         length = question_length[question]
         if question in question_seen:
             if question_seen[question] > 0:
-                # The guess was correct
                 unseen_characters += 1.0 - question_seen[question] / length
             else:
                 unseen_characters -= 1.0 + question_seen[question] / length
 
+    # Debugging: Log outcome counts
+    print(f"Outcomes: {outcomes}")
+    print(f"Examples per Outcome: { {k: len(v) for k, v in examples.items()} }")
+
     return outcomes, examples, unseen_characters / number_questions
-                
+
 
 if __name__ == "__main__":
     # Load model and evaluate it
@@ -208,18 +225,24 @@ if __name__ == "__main__":
     add_buzzer_params(parser)
 
     parser.add_argument('--evaluate', default="buzzer", type=str)
-    parser.add_argument('--cutoff', default=-1, type=int)    
+    parser.add_argument('--cutoff', default=-1, type=int)
+    parser.add_argument('--output_json', type=str, default="summary/eval_output.json", help="Path to save output JSON file")
     
     flags = parser.parse_args()
     setup_logging(flags)
 
     questions = load_questions(flags)
-    guesser = load_guesser(flags, load=flags.load)    
+    guesser = load_guesser(flags, load=flags.load)
+    
     if flags.evaluate == "buzzer":
         buzzer = load_buzzer(flags, load=True)
         outcomes, examples, unseen = eval_buzzer(buzzer, questions,
                                                  history_length=flags.buzzer_history_length,
                                                  history_depth=flags.buzzer_history_depth)
+        # Debugging evaluation
+        if flags.buzzer_type == "MLP":
+            print("MLP Buzzer Evaluation Started")
+
     elif flags.evaluate == "guesser":
         if flags.cutoff >= 0:
             outcomes, examples = eval_retrieval(guesser, questions, flags.num_guesses, flags.cutoff)
@@ -229,6 +252,8 @@ if __name__ == "__main__":
         assert False, "Gotta evaluate something"
         
     total = sum(outcomes[x] for x in outcomes if x != "hit")
+    outcome_percentages = {f"{ii} %": outcome_subtotal / total for ii, outcome_subtotal in outcomes.items()}
+
     for ii in outcomes:
         print("%s %0.2f\n===================\n" % (ii, outcomes[ii] / total))
         if len(examples[ii]) > 10:
@@ -244,11 +269,25 @@ if __name__ == "__main__":
             print("%40s: %0.4f" % (feature.strip(), weight))
         
         print("Questions Right: %i (out of %i) Accuracy: %0.2f  Buzz ratio: %0.2f Buzz position: %f" %
-              (outcomes["best"], # Right
-               total,            # Total
-               (outcomes["best"] + outcomes["waiting"]) / total, # Accuracy
-               (outcomes["best"] - outcomes["aggressive"] * 0.5) / total, # Ratio
+              (outcomes["best"], total,
+               (outcomes["best"] + outcomes["waiting"]) / total,
+               (outcomes["best"] - outcomes["aggressive"] * 0.5) / total,
                unseen))
-
     elif flags.evaluate == "guesser":
-        print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"]/total, outcomes["close"]/total))
+        print("Precision @1: %0.4f Recall: %0.4f" % (outcomes["hit"] / total, outcomes["close"] / total))
+
+    # Save results to JSON file
+    results = {
+        "questions_right": outcomes["best"],
+        "total": total,
+        "accuracy": (outcomes["best"] + outcomes["waiting"]) / total,
+        "buzz_ratio": (outcomes["best"] - outcomes["aggressive"] * 0.5) / total,
+        "buzz_position": unseen,
+        "outcome_percentages": outcome_percentages
+    }
+
+    try:
+        with open(flags.output_json, "w") as f:
+            json.dump(results, f)
+    except Exception as e:
+        logging.error(f"Failed to write output JSON file {flags.output_json}: {e}")

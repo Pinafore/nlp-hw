@@ -1,0 +1,334 @@
+Setting up logging
+Loading buzzer
+Initializing features: ['Frequency']
+dataset: ../data/qanta.buzzdev.json.gz
+Predictions (raw): [False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False]
+Feature Matrix Shape: (201, 36)
+Feature Dictionary Sample: [{'Gpr_confidence': -0.7097384, 'Frequency_guess': 0.0}, {'Gpr_confidence': -0.04252395093877667, 'Frequency_guess': 1.3862943611198906}, {'Gpr_confidence': -0.3653301, 'Frequency_guess': 0.0}, {'Gpr_confidence': -0.59661174, 'Frequency_guess': 0.0}, {'Gpr_confidence': -0.11516849021365, 'Frequency_guess': 1.3862943611198906}]
+Correct Labels: [False, False, False, False, True]
+Outcomes: Counter({'timid': 115, 'waiting': 86})
+Examples per Outcome: {'waiting': 86, 'timid': 115}
+waiting 0.43
+===================
+
+               guess: Perfect Number
+              answer: Perfect_Numbers
+                  id: 93144
+      Gpr_confidence: -0.0172
+     Frequency_guess: 0.0000
+                text: For any natural number n, there exists only one of these numbers that
+                      can be expressed in the form "n-cubed plus 1". Kanold was the first to
+                      show that the amount of these numbers below a given integer n had an
+                      asymptotic form of little-O of the square root of n. With the
+                      exception of the smallest of these, all known so far can be written as
+                      the sum of the cubes of consecutive positive odd integers. For a
+                      Mersenne prime with exponent p, a number of this type can be found by
+                      multiplying the Mersenne prime by 2 to the power p minus 1, according
+                      to the Euler-Euclid conjecture. These numbers are a subset
+--------------------
+               guess: None
+              answer: The_Sound_and_the_Fury
+                  id: 93149
+      Gpr_confidence: -1.3717
+     Frequency_guess: 0.0000
+                text: This character marries a "minor movingpicture magnate" in Hollywood
+                      and divorces him in Mexico five years later. This character washes her
+                      mouth out with soap after kissing Charlie; earlier, she wrestles
+--------------------
+               guess: Claisen rearrangement
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.0724
+     Frequency_guess: 0.0000
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used
+--------------------
+               guess: Caddy Compson
+              answer: The_Sound_and_the_Fury
+                  id: 93149
+      Gpr_confidence: -0.0168
+     Frequency_guess: 0.0000
+                text: This character marries a "minor movingpicture magnate" in Hollywood
+                      and divorces him in Mexico five years later. This character washes her
+                      mouth out with soap after kissing Charlie; earlier, she wrestles with
+                      a brother for kissing "a dirty girl like Natalie." At her father's
+                      funeral, this character pays her brother a hundred dollars to see her
+                      daughter, whom she later attempts to send two hundred dollars a month.
+                      That brother notices her muddy drawers as she climbs a tree, and
+                      repeatedly remarks that this character "smells of trees." This
+                      character's favorite brother, for whom she names her daughter, thinks
+                      of her before committing suicide at Harvard. For 10 points, name this
+                      sister of Jason, Quentin, and Benjy Compson in William Faulkner's The
+                      Sound and the Fury.
+--------------------
+               guess: Claisen condensation
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.1328
+     Frequency_guess: 0.6931
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used in the
+                      first step in the mevalonate pathway, which forms the molecule
+                      acetoacetyl-CoA. Unsaturated ketones are formed from allyl vinyl
+                      ethers in this man's rearrangement, a variant of the Cope
+                      rearrangement. Dieckmann names an intramolecular version of this man's
+                      most famous reaction. For 10 points,
+--------------------
+               guess: Carmichael Number
+              answer: Perfect_Numbers
+                  id: 93144
+      Gpr_confidence: -0.3184
+     Frequency_guess: 0.0000
+                text: For any natural number n, there exists only one of these numbers that
+                      can be expressed in the form "n-cubed plus 1". Kanold was the first to
+                      show that the amount of these numbers below a given integer
+--------------------
+               guess: George Orwell
+              answer: Ngũgĩ_wa_Thiong'o
+                  id: 93145
+      Gpr_confidence: -0.1239
+     Frequency_guess: 2.0794
+                text: In a novel by this author, two advisors enlarge their eyes and ears to
+                      better see and hear dissidents.
+--------------------
+               guess: Sky burial
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.0760
+     Frequency_guess: 0.0000
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a ritual meant to satisfy these creatures, a master known as a rogyapa
+                      uses a slicing knife during readings
+--------------------
+               guess: Cauldron
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.0013
+     Frequency_guess: 0.0000
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+--------------------
+               guess: None
+              answer: Athol_Fugard
+                  id: 93163
+      Gpr_confidence: -0.9141
+     Frequency_guess: 0.0000
+                text: In a play by this man, one title character counts the bruises caused
+                      by the other title character, who accuses her of looking behind her to
+                      find a dog on the road. This author also wrote a play in which two men
+                      stage an impromptu performance of Sophocles' Antigone after getting
+                      off their shifts as prison workers. This man created a teenager who
+                      debates the idea of a "Man of Magnitude" to aid his composition for an
+                      English class, as well two campers who take in an old man who does not
+                      speak English. A third play by this author of Boesman and Lena and The
+                      Island takes place just as the title antagonist's father is coming
+                      home from the hospital, which prompts him to be cruel to Sam and
+                      Willie, his
+--------------------
+=================
+timid 0.57
+===================
+
+               guess: Conservative Party (UK)
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0012
+     Frequency_guess: 0.0000
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+--------------------
+               guess: Hydrogenation
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.0039
+     Frequency_guess: 0.6931
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis. Discoverers of an
+                      asymmetric version of this reaction used in the industrial synthesis
+                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
+                      Chemistry. That asymmetric form of this reaction can be catalyzed by
+                      ruthenium-BINAP complexes developed by Noyori. A square-planar
+                      tris(triphenylphosphine) rhodium(I) complex was developed in 1966 to
+                      homogeneously catalyze this reaction;
+--------------------
+               guess: Carl Nielsen
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.2270
+     Frequency_guess: 1.0986
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of
+--------------------
+               guess: Wrestling
+              answer: Wrestling
+                  id: 93178
+      Gpr_confidence: -0.0028
+     Frequency_guess: 0.0000
+                text: In Shinto myth, a god's arm turns into an icicle during an instance of
+                      this activity when it is used to decide the ruler of Japan by
+                      Takemikazuchi and Takeminakata. In the Mahabharata, Krishna uses a
+                      blade of grass to demonstrate to Bhima how he can defeat Jarasandha in
+                      this activity. A Libyan giant uses the skulls of his victims in this
+                      activity to build a temple to his father Poseidon. In the Prose Edda,
+                      Elli is an old hag who is able to defeat Thor in this because she is a
+                      personification of old age. Atalanta defeats Peleus in this, and
+                      Heracles kills a practitioner of it in midair because he draws his
+                      strength from the earth. The giant Antaeus kills travelers after
+                      challenging them to this athletic competition. For 10 points, name
+                      this activity invented by the Shinto gods in its "sumo"
+--------------------
+               guess: Nitrogen
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.0101
+     Frequency_guess: 1.3863
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert homologation of
+                      carboxylic acids. When ketones are used as the starting product for
+                      the Schmidt reaction, this gas is evolved. This gas is also released
+                      as a byproduct of the Sandmeyer reactions. In plants, it binds to a
+                      molybdenum-containing enzyme. This gas can be produced by just heating
+                      diazonium salts or azides. This gas is often used as an alternative to
+                      argon for the creation of inert atmospheres. For 10 points, name this
+                      most common gas in Earth's atmosphere.
+--------------------
+               guess: Narcissism
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.0472
+     Frequency_guess: 0.0000
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+--------------------
+               guess: Assumption of Mary
+              answer: Assumption_of_Mary
+                  id: 93157
+      Gpr_confidence: -0.0000
+     Frequency_guess: 0.0000
+                text: A 9th-century letter denying this event, opening with the words
+                      "Cogitis me," was written to Paula and Eustochium by a Pseudo-Jerome.
+                      St. John Damascene is sometimes called the "Doctor of" this event due
+                      to his three sermons on it. The 4th Glorious Mystery of the Rosary
+                      contemplates this event, which is traditionally held to have left
+                      lilies behind. The latest ex cathedra infallible declaration,
+                      Munificentissimus Deus, established this as dogma in 1950 under Pope
+                      Pius XII. A feast on August 15 honors this event, which in Eastern
+                      Orthodox tradition was preceded by a sleep called the Dormition. Like
+--------------------
+               guess: Louis XIII of France
+              answer: Louis_XIII_of_France
+                  id: 93147
+      Gpr_confidence: -0.0023
+     Frequency_guess: 0.0000
+                text: During this king's reign, his general Henri II de Montmorency beat the
+                      Spanish at the Battle of Veillane and helped Charles Gonzaga, the Duke
+                      of Nevers [nuh-VAIR], secure rule over Mantua. The Counts of
+                      MontrÃ©sor and Soissons plotted with this king's brother Gaston in a
+                      plot to overthrow him. Jean Guiton was mayor of a city that resisted
+                      this man's rule, holding out for 14 months until the signing of the
+                      Peace of Alais. Concino Concini advised the mother of this king, who
+                      acted as his regent until
+--------------------
+               guess: Edna Pontellier
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0001
+     Frequency_guess: 0.0000
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't give herself up. Doctor Mandelet advises
+                      this character's husband to permit her whims, which include moving
+                      into a "pigeon house" outside of her house on Esplanade Street. This
+                      mother of Raoul and Etienne watches Adele Ratignolle give birth on her
+                      last night alive, and romances Alcee Arobin and Robert Lebrun while
+                      living in New Orleans. For 10 points, name this woman who swims as far
+                      as she
+--------------------
+               guess: Edna Pontellier
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0065
+     Frequency_guess: 0.0000
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't give herself up. Doctor Mandelet advises
+                      this character's husband to permit her whims, which include moving
+                      into a "pigeon house" outside of her house on Esplanade Street. This
+                      mother of Raoul and Etienne watches Adele Ratignolle give birth on her
+                      last night alive, and romances Alcee Arobin and
+--------------------
+=================
+             Category_category=Fine Arts: -0.3726
+             Category_category=Geography: -0.4057
+               Category_category=History: 0.2243
+            Category_category=Literature: 0.3316
+            Category_category=Philosophy: -0.1196
+              Category_category=Religion: 0.9698
+               Category_category=Science: -1.2895
+        Category_category=Social Science: 0.4437
+                 Category_category=Trash: 0.2177
+Category_subcategory=Fine Arts Audiovisual: -0.4436
+ Category_subcategory=Fine Arts Auditory: 0.8024
+    Category_subcategory=Fine Arts Other: -0.3157
+   Category_subcategory=Fine Arts Visual: 0.6666
+   Category_subcategory=History American: 0.3089
+   Category_subcategory=History European: 0.6526
+      Category_subcategory=History World: 0.9811
+Category_subcategory=Literature American: -0.8761
+Category_subcategory=Literature Classical: -1.2076
+Category_subcategory=Literature European: -0.5773
+   Category_subcategory=Literature Other: 0.1822
+   Category_subcategory=Literature World: -0.0889
+    Category_subcategory=Science Biology: 0.8918
+  Category_subcategory=Science Chemistry: -0.2586
+Category_subcategory=Science Computer Science: 0.7531
+       Category_subcategory=Science Math: -0.1195
+      Category_subcategory=Science Other: -0.0619
+    Category_subcategory=Science Physics: -1.2899
+          Category_tournament=ACF Winter: -0.0003
+                           Category_year: -0.0009
+         ContextualMatch_ContextualMatch: 1.8413
+                         Frequency_guess: 0.9664
+                          Gpr_confidence: 2.4803
+                             Length_char: 1.0134
+                            Length_guess: 2.2037
+                             Length_word: 0.7848
+                     PreviousGuess_count: 0.0000
+Questions Right: 0 (out of 201) Accuracy: 0.43  Buzz ratio: 0.00 Buzz position: 0.000000

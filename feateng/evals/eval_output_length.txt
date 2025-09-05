@@ -1,0 +1,589 @@
+Setting up logging
+Loading buzzer
+Initializing features: ['Length']
+dataset: ../data/qanta.buzzdev.json.gz
+waiting 0.35
+===================
+
+               guess: Takeminakata
+              answer: Wrestling
+                  id: 93178
+      Gpr_confidence: -0.3306
+         Length_char: -0.5444
+         Length_word: -0.5067
+        Length_guess: 2.5649
+                text: In Shinto myth, a god's arm turns into an icicle during an instance of
+                      this activity when it is used to decide the ruler of Japan by
+                      Takemikazuchi and Takeminakata. In the Mahabharata, Krishna uses a
+                      blade
+--------------------
+               guess: Stone circles
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.5130
+         Length_char: -0.5533
+         Length_word: -0.5867
+        Length_guess: 2.6391
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a
+--------------------
+               guess: Saga
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.7229
+         Length_char: 0.5578
+         Length_word: 0.6800
+        Length_guess: 1.6094
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
+                      this goddess of having affairs with Vili and Ve. After this goddess
+                      sent Hermod on a mission to Hel, the giantess Thokk refused to weep
+                      for her dead son because this goddess failed to get an oath from
+                      mistletoe to remain harmless.
+--------------------
+               guess: Symphony No. 1 (Elgar)
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.2152
+         Length_char: -0.7689
+         Length_word: -0.7733
+        Length_guess: 3.1355
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale
+--------------------
+               guess: Michael addition
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.4024
+         Length_char: -0.7556
+         Length_word: -0.8000
+        Length_guess: 2.8332
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis.
+--------------------
+               guess: Garuda
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.3770
+         Length_char: 0.3400
+         Length_word: 0.3067
+        Length_guess: 1.9459
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a ritual meant to satisfy these creatures, a master known as a rogyapa
+                      uses a slicing knife during readings from the Tibetan Book of the
+                      Dead. On a peak named for these creatures near Ramnagar, the Heart
+                      Sutra and Lotus Sutra were delivered by the Buddha. When not shown as
+                      an eagle, Garuda's brother Jatayu is one of these creatures, whose
+                      recent chemical-caused extinction around Mumbai has threatened
+--------------------
+               guess: Salem witch trials
+              answer: Kidnappings
+                  id: 93182
+      Gpr_confidence: -0.3144
+         Length_char: -0.7689
+         Length_word: -0.7467
+        Length_guess: 2.9444
+                text: During an attempt to end one of these events, a small village was
+                      mistakenly raided after a sÃ©ance used
+--------------------
+               guess: Mersenne Prime
+              answer: Perfect_Numbers
+                  id: 93144
+      Gpr_confidence: -0.5259
+         Length_char: 0.1156
+         Length_word: 0.2800
+        Length_guess: 2.7081
+                text: For any natural number n, there exists only one of these numbers that
+                      can be expressed in the form "n-cubed plus 1". Kanold was the first to
+                      show that the amount of these numbers below a given integer n had an
+                      asymptotic form of little-O of the square root of n. With the
+                      exception of the smallest of these, all known so far can be written as
+                      the sum of the cubes of consecutive positive odd integers. For a
+                      Mersenne prime with exponent p, a number of this type can be found by
+                      multiplying the Mersenne
+--------------------
+               guess: Samuel Beckett
+              answer: Athol_Fugard
+                  id: 93163
+      Gpr_confidence: -0.2084
+         Length_char: -0.5511
+         Length_word: -0.4667
+        Length_guess: 2.7081
+                text: In a play by this man, one title character counts the bruises caused
+                      by the other title character, who accuses her of looking behind her to
+                      find a dog on the road. This author also wrote a play in which
+--------------------
+               guess: Symphony No. 1 (Hanson)
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.3746
+         Length_char: -0.5556
+         Length_word: -0.5600
+        Length_guess: 3.1781
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of
+--------------------
+=================
+best 0.41
+===================
+
+               guess: Operation Condor
+              answer: Operation_Condor
+                  id: 93139
+      Gpr_confidence: -0.0013
+         Length_char: -0.7667
+         Length_word: -0.8133
+        Length_guess: 2.8332
+                text: Journalist John Dinges survived this initiative, which he claimed
+                      "brought terrorism to three continents"
+--------------------
+               guess: Wrestling
+              answer: Wrestling
+                  id: 93178
+      Gpr_confidence: -0.0835
+         Length_char: 0.3378
+         Length_word: 0.4933
+        Length_guess: 2.3026
+                text: In Shinto myth, a god's arm turns into an icicle during an instance of
+                      this activity when it is used to decide the ruler of Japan by
+                      Takemikazuchi and Takeminakata. In the Mahabharata, Krishna uses a
+                      blade of grass to demonstrate to Bhima how he can defeat Jarasandha in
+                      this activity. A Libyan giant uses the skulls of his victims in this
+                      activity to build a temple to his father Poseidon. In the Prose Edda,
+                      Elli is an old hag who is able to defeat Thor in this because she is a
+                      personification of old age. Atalanta defeats Peleus in this, and
+                      Heracles kills a practitioner of it in midair because he
+--------------------
+               guess: Red Sea
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.0052
+         Length_char: -0.1089
+         Length_word: -0.1733
+        Length_guess: 2.0794
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon irked them. Purported cave dwellers
+                      on this body of water's western side were the first people called
+                      "Troglodytes." A port called "Mussel Harbor" abutted this body near
+                      Berenice according to an anonymous 1st-century text about its peoples.
+                      The city of Adulis traded with the Himyarite kingdom across
+--------------------
+               guess: Conservative Party (UK)
+              answer: Conservative_party
+                  id: 93169
+      Gpr_confidence: -0.0240
+         Length_char: -0.5422
+         Length_word: -0.5600
+        Length_guess: 3.1781
+                text: The fondness of a leader of this party for a certain flower inspired
+                      the creation of the Primrose League, which is dedicated to spreading
+                      its influence. A document summarizing this party's principles warned
+--------------------
+               guess: Operation Condor
+              answer: Operation_Condor
+                  id: 93139
+      Gpr_confidence: -0.0012
+         Length_char: -0.3267
+         Length_word: -0.3733
+        Length_guess: 2.8332
+                text: Journalist John Dinges survived this initiative, which he claimed
+                      "brought terrorism to three continents" in a 2003 book. The murder of
+                      Hugo Banzer set back this initiative, which began two years after the
+                      Villa Grimaldi complex opened for use in interrogations. A disclosed
+                      diplomatic cable from Robert
+--------------------
+               guess: Jean Racine
+              answer: Jean_Racine
+                  id: 93179
+      Gpr_confidence: -0.0010
+         Length_char: 0.5711
+         Length_word: 0.6933
+        Length_guess: 2.4849
+                text: In a play by this author, the young boy Joas is hidden in a temple to
+                      escape the murder of his siblings by the title queen so that he may
+                      survive to become king of the Jews. This author included the nobly-
+                      born servants Cleone and Cephisa in another play. This author of
+                      Athalie used a meter with a caesura in the middle of each line to
+                      write a monologue relating how a prince's horses were frightened by a
+                      bull-dragon which arose from the sea off-stage. He used that
+                      alexandrine verse to adapt a plot in which Helen's daughter Hermione
+                      loves Pyrrhus, and another plot also derived from Euripides in which
+                      Aricie is treated like a daughter after Hippolytus is accused of
+                      raping his stepmother. For 10 points,
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0007
+         Length_char: 0.1133
+         Length_word: 0.1867
+        Length_guess: 1.7918
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+                      hall Fensalir, this goddess spins the clouds on a loom. Loki accused
+                      this goddess of having affairs
+--------------------
+               guess: Operation Condor
+              answer: Operation_Condor
+                  id: 93139
+      Gpr_confidence: -0.0023
+         Length_char: 0.7578
+         Length_word: 0.6533
+        Length_guess: 2.8332
+                text: Journalist John Dinges survived this initiative, which he claimed
+                      "brought terrorism to three continents" in a 2003 book. The murder of
+                      Hugo Banzer set back this initiative, which began two years after the
+                      Villa Grimaldi complex opened for use in interrogations. A disclosed
+                      diplomatic cable from Robert E. White revealed that this plan made use
+                      of a tele-communications channel built by the United States. In
+                      Washington, DC, a far-flung part of its "Phase III" targeted Orlando
+                      Letelier, a particular nuisance to the DINA agency led by School of
+                      the Americas alum Manuel Contreras. This campaign expanded into the
+                      "Dirty War" in Jorge Videla's Argentina. For 10 points, name this
+                      covert operation in which dictators ring-led by Agusto Pinochet
+                      suppressed and killed South American leftists.
+--------------------
+               guess: Louis XIII of France
+              answer: Louis_XIII_of_France
+                  id: 93147
+      Gpr_confidence: -0.1519
+         Length_char: -0.5511
+         Length_word: -0.5467
+        Length_guess: 3.0445
+                text: During this king's reign, his general Henri II de Montmorency beat the
+                      Spanish at the Battle of Veillane and helped Charles Gonzaga, the Duke
+                      of Nevers [nuh-VAIR], secure rule over Mantua. The Counts of
+--------------------
+               guess: Jean Racine
+              answer: Jean_Racine
+                  id: 93179
+      Gpr_confidence: -0.0113
+         Length_char: -0.3222
+         Length_word: -0.2133
+        Length_guess: 2.4849
+                text: In a play by this author, the young boy Joas is hidden in a temple to
+                      escape the murder of his siblings by the title queen so that he may
+                      survive to become king of the Jews. This author included the nobly-
+                      born servants Cleone and Cephisa in another play. This author of
+                      Athalie used a meter with a caesura
+--------------------
+=================
+timid 0.06
+===================
+
+               guess: Mark Antony
+              answer: Mark_Antony
+                  id: 93136
+      Gpr_confidence: -0.5014
+         Length_char: 0.5667
+         Length_word: 0.6533
+        Length_guess: 2.4849
+                text: Before he first met his lover, this character sat "alone," "enthroned
+                      in the market place." A soldier laments that this man, when not
+                      himself, "comes too short of that great property / which still should
+                      go with" him. This man hands a pack of belongings to a deserter who
+                      later laments "I am alone the villain of the earth." This man says
+                      "Let's mock the midnight bell" in the hopes of having one last drunken
+                      party. This man is spared after a rival argues, "let us be
+                      sacrificers, but not butchers." In a monologue, this friend of
+                      Enobarbus repeatedly calls that rival "an honorable man" while
+                      standing by a coffin after asking "Friends, Romans, countrymen: Lend
+                      me your ears." For 10 points, which rival
+--------------------
+               guess: Carl Nielsen
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.4472
+         Length_char: 0.1244
+         Length_word: 0.0800
+        Length_guess: 2.5649
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of this
+                      composer's sixth symphony. The Andante pastorale second movement in
+                      his third symphony features wordless solos for soprano and baritone.
+                      Another of his symphonies opens with an Allegro collerico and closes
+                      with an Allegro sanguineo. He instructed that two sets of timpani be
+                      placed as far as possible
+--------------------
+               guess: Narcissism
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.1654
+         Length_char: -0.3222
+         Length_word: -0.3200
+        Length_guess: 2.3979
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+                      the image of success. Robert Raskin and Calvin Hall designed a test
+                      for it where subjects choose between
+--------------------
+               guess: Red Sea
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.0076
+         Length_char: -0.3222
+         Length_word: -0.3733
+        Length_guess: 2.0794
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon irked them. Purported cave dwellers
+                      on this body of water's western side were the first people called
+                      "Troglodytes." A port called "Mussel Harbor" abutted this body near
+                      Berenice according to an anonymous
+--------------------
+               guess: Assumption of Mary
+              answer: Assumption_of_Mary
+                  id: 93157
+      Gpr_confidence: -0.4460
+         Length_char: -0.5489
+         Length_word: -0.5600
+        Length_guess: 2.9444
+                text: A 9th-century letter denying this event, opening with the words
+                      "Cogitis me," was written to Paula and Eustochium by a Pseudo-Jerome.
+                      St. John Damascene is sometimes called the "Doctor of" this event due
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0410
+         Length_char: -0.1089
+         Length_word: -0.0400
+        Length_guess: 1.7918
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women of
+                      Winnili to cover their faces with hair, thus helping to found the
+                      Lombards. Two other servants of this deity, who ride the horse
+                      Hofvarpnir and carry shoes respectively, are Gna and Fulla. At the
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.1563
+         Length_char: -0.7644
+         Length_word: -0.7600
+        Length_guess: 1.7918
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant,
+--------------------
+               guess: Frigg
+              answer: Frigg
+                  id: 93171
+      Gpr_confidence: -0.0387
+         Length_char: -0.5511
+         Length_word: -0.5067
+        Length_guess: 1.7918
+                text: Most scholars identify this deity with a figure named Saga who dwells
+                      in Sokkvabekk. Along with a servant, this deity helped to heal the
+                      horse of Phol. Hlin and Syn serve this figure, who told the women
+--------------------
+               guess: Red Sea
+              answer: Red_Sea
+                  id: 93167
+      Gpr_confidence: -0.3384
+         Length_char: -0.5511
+         Length_word: -0.5733
+        Length_guess: 2.0794
+                text: This geographic feature was closed to Christians by traders called
+                      Karimi after Reynaud of Chatillon irked them. Purported cave dwellers
+                      on this body of water's western side were the first people called
+--------------------
+               guess: Carl Nielsen
+              answer: Carl_Nielsen
+                  id: 93156
+      Gpr_confidence: -0.2101
+         Length_char: -0.1111
+         Length_word: -0.1733
+        Length_guess: 2.5649
+                text: This composer's first symphony begins with a G minor movement marked
+                      Andante orgoglioso and has a finale concluding in C major. Only the
+                      winds and percussion play in the second movement "Humoreske" of this
+                      composer's sixth symphony. The Andante pastorale second movement in
+                      his third symphony features wordless solos for soprano and baritone.
+                      Another of his symphonies opens with an Allegro collerico
+--------------------
+=================
+aggressive 0.18
+===================
+
+               guess: Hydroformylation
+              answer: Hydrogenation
+                  id: 93154
+      Gpr_confidence: -0.1207
+         Length_char: 0.1200
+         Length_word: -0.0400
+        Length_guess: 2.8332
+                text: One reaction of this type reacts alpha, beta-unsaturated carbonyls
+                      with Hantzsch esters under amine catalysis. Discoverers of an
+                      asymmetric version of this reaction used in the industrial synthesis
+                      of L-DOPA from an achiral arene won part of the 2001 Nobel Prize in
+                      Chemistry. That asymmetric form of this reaction can be catalyzed by
+                      ruthenium-BINAP complexes developed by Noyori. A square-planar
+                      tris(triphenylphosphine) rhodium(I) complex was developed in 1966 to
+                      homogeneously catalyze this reaction;
+--------------------
+               guess: Wizard of the Crow
+              answer: Ngũgĩ_wa_Thiong'o
+                  id: 93145
+      Gpr_confidence: -0.0871
+         Length_char: -0.1089
+         Length_word: -0.0533
+        Length_guess: 2.9444
+                text: In a novel by this author, two advisors enlarge their eyes and ears to
+                      better see and hear dissidents. In that novel, American doctors wish
+                      to patent a mysterious illness contracted by the Ruler, who wishes to
+                      build the monumental skyscraper Marching to Heaven. During a drought
+                      in a novel by this author, Abdullah uses a catapult to obtain food
+                      while villagers walk to the city. In that novel by this
+--------------------
+               guess: Vulture
+              answer: Vultures
+                  id: 93141
+      Gpr_confidence: -0.0768
+         Length_char: 0.7089
+         Length_word: 0.6667
+        Length_guess: 2.0794
+                text: Some Vajrayana Buddhists consider these real-world creatures to be
+                      Dakini, a type of angelic psychopomp. They are propitiated at
+                      buildings made of three concentric stone circles of varying height. In
+                      a ritual meant to satisfy these creatures, a master known as a rogyapa
+                      uses a slicing knife during readings from the Tibetan Book of the
+                      Dead. On a peak named for these creatures near Ramnagar, the Heart
+                      Sutra and Lotus Sutra were delivered by the Buddha. When not shown as
+                      an eagle, Garuda's brother Jatayu is one of these creatures, whose
+                      recent chemical-caused extinction around Mumbai has threatened the use
+                      of dakhmas there by Parsis. For 10 points, name these birds which come
+                      to Tibetan "sky-burials" and Zoroastrian Towers of Silence to eat
+                      decomposing corpses.
+--------------------
+               guess: Claisen rearrangement
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.0279
+         Length_char: -0.1067
+         Length_word: -0.1733
+        Length_guess: 3.0910
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used
+--------------------
+               guess: Carbon monoxide
+              answer: Nitrogen
+                  id: 93170
+      Gpr_confidence: -0.2180
+         Length_char: -0.0978
+         Length_word: -0.1200
+        Length_guess: 2.7726
+                text: Along with five ammonia ligands, this molecule is bonded to a
+                      ruthenium(II) [two] metal center in a new complex prepared by Allen
+                      and Senoff in 1965. As a ligand, this molecule exhibits weak sigma-
+                      donation and strong pi backbonding. When silver(I) [one] oxide is
+                      added, this gas is evolved in the Arndt-Eistert homologation of
+                      carboxylic acids. When ketones are used as the starting product for
+                      the Schmidt
+--------------------
+               guess: Claisen-Ireland rearrangement
+              answer: Rainer_Ludwig_Claisen
+                  id: 93183
+      Gpr_confidence: -0.1389
+         Length_char: 0.3556
+         Length_word: 0.2400
+        Length_guess: 3.4012
+                text: One modification of a reaction developed by this scientist reacts an
+                      allylic ether or thioether with a ketene to form an unsaturated ester
+                      or thioester. Another modification of the same reaction developed by
+                      this man forms gamma, delta-unsaturated carboxylic acids from the
+                      rearrangement of deprotonated allylic acetates, and is named for
+                      Ireland and this scientist. This man also names a reaction used in the
+                      first step in the mevalonate pathway, which forms the molecule
+                      acetoacetyl-CoA. Unsaturated ketones are formed from allyl vinyl
+                      ethers in this man's rearrangement, a variant of the Cope
+                      rearrangement.
+--------------------
+               guess: George Bernard Shaw
+              answer: Athol_Fugard
+                  id: 93163
+      Gpr_confidence: -0.3052
+         Length_char: -0.0889
+         Length_word: 0.0000
+        Length_guess: 2.9957
+                text: In a play by this man, one title character counts the bruises caused
+                      by the other title character, who accuses her of looking behind her to
+                      find a dog on the road. This author also wrote a play in which two men
+                      stage an impromptu performance of Sophocles' Antigone after getting
+                      off their shifts as prison workers. This man created a teenager who
+                      debates the idea of a "Man of Magnitude" to aid his composition
+--------------------
+               guess: Spear of Lugh
+              answer: Cauldrons
+                  id: 93150
+      Gpr_confidence: -0.1140
+         Length_char: 0.1222
+         Length_word: 0.2400
+        Length_guess: 2.6391
+                text: One of these objects is owned by a giant whose wife births a fully
+                      armed son every six weeks. That owner of one of these objects, who
+                      escapes a plot to roast him alive in an iron house, is named Llasar
+                      Llaes Gyfnewid. Along with a staff and a platter, Bran gives one to
+                      Matholwch as reparations, which Efnisien sacrifices himself to destroy
+                      and stop it from resurrecting the Irish dead. A non-Odin father of Tyr
+                      owns one of these objects, which was retrieved in a quest including
+                      the fishing trip in which
+--------------------
+               guess: Narcissistic personality disorder
+              answer: Narcissism
+                  id: 93168
+      Gpr_confidence: -0.0690
+         Length_char: 0.7778
+         Length_word: 0.6800
+        Length_guess: 3.5264
+                text: The nature of this condition was debated by Heinz Kohut and Otto
+                      Kernberg. In an essay on this condition, a University of Rochester
+                      historian describes how "the happy hooker" replaced Horatio Alger as
+                      the image of success. Robert Raskin and Calvin Hall designed a test
+                      for it where subjects choose between statements like "Compliments
+                      embarrass me" and "I like to be complimented." In a book subtitled
+                      American Life in an Age of Diminishing Expectations, Christopher Lasch
+                      argued that postwar America is defined by a "culture of" this
+                      condition. Sigmund Freud's 1914 paper On this conditon popularized its
+                      name, and DSM-5 includes "largely superficial" relationships and a
+                      "pervasive pattern of grandiosity" among its indicators. For 10
+                      points, name this disorder of excessive vanity, named for a man
+--------------------
+               guess: The Awakening (Chopin novel)
+              answer: Edna_Pontellier
+                  id: 93160
+      Gpr_confidence: -0.0455
+         Length_char: -0.3178
+         Length_word: -0.3200
+        Length_guess: 3.3673
+                text: This character faintheartedly commits herself to improving her studies
+                      after a night of reading Emerson alone in her house, and hushes Victor
+                      when he begins singing "Ah! Si tu savais!" While talking to a friend,
+                      she declares that she would give up the "unessential things" for her
+                      children, but she wouldn't
+--------------------
+=================
+                          Gpr_confidence: 3.8284
+                             Length_char: 0.7665
+                            Length_guess: 0.9584
+                             Length_word: 0.7346
+Questions Right: 82 (out of 201) Accuracy: 0.76  Buzz ratio: 0.32 Buzz position: -0.029203

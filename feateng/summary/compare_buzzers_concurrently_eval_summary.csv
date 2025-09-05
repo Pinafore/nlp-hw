@@ -1,0 +1,2 @@
+Features,Buzzer Type,Filename Stem,Loss Function,Training Limit,Testing Limit,Training Dataset,Test Dataset,Evaluation,waiting %,best %,aggressive %,timid %,Questions Right,Total,Accuracy,Buzz Ratio,Buzz Position
+"['Length', 'Frequency', 'Category', 'ContextualMatch', 'PreviousGuess']",MLP,mlp_with_all_features,BuzzLoss,50,25,../data/qanta.buzztrain.json.gz,../data/qanta.buzzdev.json.gz,buzzer,0.3333333333333333,0.3880597014925373,0.0945273631840796,0.18407960199004975,78,201,0.7213930348258707,0.3407960199004975,0.16848695192771557

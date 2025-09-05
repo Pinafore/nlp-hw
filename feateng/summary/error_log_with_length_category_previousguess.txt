@@ -1,0 +1,24 @@
+INFO:root:Loading questions from ../data/qanta.buzzdev.json.gz
+INFO:root:Read 25 questions
+INFO:root:Using device 'cpu' (cuda flag=False)
+INFO:root:Initializing guesser of type Gpr
+INFO:root:Loading Gpr guesser
+INFO:root:9409 entries added to cache
+INFO:root:Buzzer using run length 100
+INFO:root:Using device 'cpu' (cuda flag=False)
+INFO:root:Initializing guesser of type Gpr
+INFO:root:Loading Gpr guesser
+INFO:root:9409 entries added to cache
+INFO:root:9409 entries added to cache
+INFO:root:Adding Gpr to Buzzer (total guessers=1)
+INFO:root:Adding feature Length
+INFO:root:Adding feature Category
+INFO:root:Adding feature PreviousGuess
+INFO:root:Generating runs of length 100
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 54928.03it/s]
+INFO:root:Building guesses from dict_keys(['Gpr'])
+INFO:root:Generating guesses for 201 new question
+  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 394135.16it/s]
+INFO:root:       201 guesses from Gpr
+INFO:root:Generating all features
+  0%|          | 0/201 [00:00<?, ?it/s]100%|██████████| 201/201 [00:00<00:00, 33055.80it/s]

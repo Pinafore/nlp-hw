@@ -378,7 +378,7 @@ required to pass that one, so it's okay if you leave that failed.
 
 However, these tests aren't very realistic.  You will also want to run
 the code with some small English data that we've provided.  You can do
-this via the main method of the `toytfidf_guesser.py` file:
+this via the main method of the `toyttokenizer_guesser.py` file:
 
          100%|████████████████████████████████████████████████████████████████████████| 13/13 [00:00<00:00, 254794.17it/s]
          100%|██████████████████████████████████████████████████████████████████████████| 9/9 [00:00<00:00, 639809.08it/s]
@@ -439,7 +439,13 @@ complete the tf-idf caclulations and build the BPE dictionary.
 
 The rest is extra credit.
 
-Analysis Extra Credit
+Multibyte Character Support (1 points)
+=====================
+
+Support multibyte unicode characters during merges.  There's a Chinese
+test case to see if you've implemented this.
+
+Analysis Extra Credit (2 points)
 =====================
 Some questions that you might want to consider:
  * We had the whitespace tokenizer but then threw it away.  
@@ -449,258 +455,8 @@ Some questions that you might want to consider:
  * Can you improve the efficiency (e.g., in searching or in merging)
  * Our default `min_frequency` was 2, is that the right choice?
 
-The first step is to train your guesser:
 
-    jbg@MacBook-Pro-von-Jordan GPT3QA % python3 guesser.py --guesser_type=ToyTokenizer --limit=10000 --questions=../data/qanta.guesstrain.json.gz
-    Setting up logging
-    INFO:root:Using device 'cpu' (cuda flag=False)
-    INFO:root:Initializing guesser of type ToyTfidf
-    INFO:root:Loading questions from ../data/qanta.guesstrain.json.gz
-    INFO:root:Read 10000 questions
-    100%|███████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:00<00:00, 25450.41it/s]
-    100%|███████████████████████████████████████████████████████████████████████████████████████████████| 6616/6616 [00:00<00:00, 1768498.84it/s]
-    Creating vocabulary: 100%|██████████████████████████████████████████████████████████████████████████| 47648/47648 [00:04<00:00, 10791.36it/s]
-    Creating document freq: 100%|████████████████████████████████████████████████████████████████████████| 47648/47648 [00:04<00:00, 9954.71it/s]
-    Creating document vecs: 100%|████████████████████████████████████████████████████████████████████████| 47648/47648 [00:05<00:00, 8766.74it/s]
-
-This will store a model in the model directory (you might need to
-create it if you get an error).  Pay attention to the `limit`
-argument, because that's going to save you a lot of time on real data.
-
-Then see how it's doing on an evaluation set:
-
-    jbg@MacBook-Pro-von-Jordan GPT3QA % python3 eval.py --evaluate=guesser --guesser_type='ToyTfidf' --questions=../data/qanta.guessdev.json.gz --limit=100 --load=True --num_guesses=1
-    Setting up logging
-    INFO:root:Loading questions from ../data/qanta.guessdev.json.gz
-    INFO:root:Read 100 questions
-    INFO:root:Using device 'cpu' (cuda flag=False)
-    INFO:root:Initializing guesser of type ToyTfidf
-    100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 411609.81it/s]
-    INFO:root:Generating guesses for 100 new question
-    100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:51<00:00,  1.11s/it]
-    miss 0.97
-    ===================
-    
-                   guess: Ernest_Hemingway
-                  answer: Gerard_Manley_Hopkins
-                      id: 93155
-                    text: This author describes the title event of one poem as a "heart's
-                          clarion" and "world's wildfire" and states that "this... poor
-                          potsherd, patch, matchwoodÂ… is Immortal Diamond." This author wrote a
-                          poem whose various interpretations center on the word "Buckle" and
-                          describes how "blue-bleak embersÂ… Fall, gall themselves, and gash
-                          gold-vermillion." This author of "That Nature is a Heraclitean Fire
-                          and of the Comfort of the Resurrection" remembered "the Happy Memory
-                          of five Franciscan Nuns exiled by the Falk Laws," in a poem that plays
-                          on the name of a sunken ship to describe both the vessel and the
-                          country from which it departed. For 10 points, name this English
-                          Jesuit poet of "The Wreck of the Deutschland," who used sprung rhythm
-                          in "The Windhover."
-    --------------------
-                   guess: Hydrochloric_acid
-                  answer: Scarring
-                      id: 93341
-                    text: This process occurs in the tunica albuginea around the corpora
-                          cavernosa in Peyronie's disease. Myofibroblasts contribute to this
-                          process when they fail to disappear from granulation tissue via
-                          apoptosis. In this process, proteins are oriented parallel to each
-                          other rather than being oriented perpendicular to each other in the
-                          proper "basket-weave" manner. This process can produce both
-                          "hypertrophic" products and keloids. It's not inflammation, but the
-                          muscle of the heart undergoes this process after a myocardial
-                          infarction, and the tissues of the liver undergo this process in
-                          patients with cirrhosis. For 10 points, name this process in which
-                          excess connective tissue accumulates in response to events like
-                          injuries to the skin.
-    --------------------
-                   guess: Canada
-                  answer: North_Macedonia
-                      id: 93194
-                    text: This country's Titov Veles district is known for its high quality
-                          opium. A campaign to build nationalist monuments in this country is
-                          known as antiquisation. The Golem Grad, home to ruined churches and
-                          thousands of snakes, can be found in this country's majority portion
-                          of Lake Prespa. Using Motorola's Canopy technology, this country was
-                          the first to achieve nationwide wireless broadband. In 1995, this
-                          country was forced to remove a 16-rayed sun from its flag, as part of
-                          a dispute that still keeps it out of the EU. This country was forced
-                          to use a name abbreviated FYROM when it joined the UN. Lake Ohrid lies
-                          on this country's border with Albania. For 10 points, name this
-                          country that disputes a national identity with Greece, a former
-                          Yugoslav republic with capital at Skopje.
-    --------------------
-                   guess: Federico_García_Lorca
-                  answer: Henry_Wadsworth_Longfellow
-                      id: 93253
-                    text: The speaker of a poem by this author pledges, "I will keep you there
-                          forever" in the "round-tower of my heart" "till the walls should
-                          crumble to ruin, and molder in dust away." A poem by this author
-                          begins by describing the farmer of Grand-Pre, who dies of a heart
-                          attack after a mini-riot is quelled by Father Felician. Another of
-                          this author's characters fasts for seven days, during which he
-                          wrestles Mondamin. This poet of "The Children's Hour" wrote a poem in
-                          dactylic hexameter beginning "This is the forest primeval," and used a
-                          Kalevala-esque trochaic tetrameter for a poem in which the grandson of
-                          Nokomis weds Minnehaha "By the shores of Gitche Gumee." For 10 points,
-                          name this American poet of "Evangeline" who tried to draw on Ojibwe
-                          lore in "The Song of Hiawatha."
-    --------------------
-                   guess: Taylor_Swift
-                  answer: Lana_Del_Rey
-                      id: 93140
-                    text: This singer instructs "put me onto your black motorcycle" and asks to
-                          "let me put on a show for you, daddy" in "Yayo," and repeats "go, go,
-                          go, go, go, this is my show" in a song on her latest album. This
-                          singer opens a song with "I've been out on that open road" before
-                          describing how she "hears the birds on the summer breeze." In another
-                          song, she invites you to "come on take a walk on the wild side" and
-                          sings "the road is long, we carry on, try to have fun in the
-                          meantime." This singer of "Ride" asks "will you still love me when I
-                          got nothing but my aching soul?" in another song. Cedric Gervais
-                          remixed her most successful song, in which she sings "kiss me hard
-                          before you go." For 10 points, name this American singer of "Born to
-                          Die," "Young and Beautiful," and "Summertime Sadness."
-    --------------------
-                   guess: South_Dakota
-                  answer: State_of_Washington
-                      id: 93174
-                    text: This eventual state's first territorial governor, Isaac Stevens,
-                          presided over settlers led by half-black pioneer George Washington
-                          Bush. An aviator coincidentally named Harry Truman refused to evacuate
-                          this home state of the Yakama tribe. A Supreme Court case originating
-                          in this state overturned Adkins v. Children's Hospital via Owen
-                          Roberts's "switch in time" saving a minimum-wage law. Plutonium for
-                          the Fat Man bomb was produced at this state's Hanford site. Police in
-                          this state attacked splinter groups such as DAN, who formed an
-                          anarchist "black bloc" at 1999 protests against the World Trade
-                          Organization. Elsie Parrish sued the West Coast Hotel in this state,
-                          where Spirit Lake was destroyed in a 1980 disaster. For 10 points,
-                          name this state where Mount St. Helens erupted.
-    --------------------
-                   guess: Cell_wall
-                  answer: None
-                      id: 93180
-                    text: Transport between these two structures requires the BET1 membrane
-                          protein. The GTPase SAR1A helps assemble Sec23p/24p and Sec13p/31p
-                          into the coat that covers molecules being transported between these
-                          structures. Transport between these structures is mediated by the
-                          vesicular-tubular cluster, also called their namesake "intermediate
-                          compartment." The presence of a KDEL sequence causes the continuous
-                          retrieval of molecules from one of these organelles to the other. In
-                          the first of these organelles, PDI creates disulfide bridges in
-                          substrates which the second of these organelles might label with
-                          mannose-6-phosphate. COPII coats proteins transported between these
-                          organelles. For 10 points, name these two organelles, the first of
-                          which folds proteins which are then packaged by the second.
-    --------------------
-                   guess: Solubility
-                  answer: Inflation_(cosmology)
-                      id: 93164
-                    text: The spectral index n-sub-s is one parameter in this theory that
-                          quantifies its departure from scale invariance. Early versions of this
-                          theory involved false vacuum states that failed to account for the
-                          radiation needed for reheating. Newer models use a scalar field with a
-                          namesake parameter involving the ratio of the second time derivative
-                          of the Hubble parameter to the product of the Hubble parameter and its
-                          first time derivative: the "slow roll" parameter. This theory answers
-                          the question of why the universe is isotropic if different areas are
-                          not in causal contact, known as the horizon problem. The main process
-                          this theory predicts was finished by 10 to the negative 32 seconds
-                          after the Big Bang. Alan Guth developed, for 10 points, what theory
-                          which posits a rapid expansion of the early universe?
-    --------------------
-                   guess: Antimony
-                  answer: Silicon
-                      id: 93284
-                    text: When alpha to a sulfoxide group, groups containing this element
-                          migrate in a common variation of the Pummerer rearrangement.
-                          Transmetalation of groups from this element to palladium is a key step
-                          in the Hiyama cross-coupling. When groups containing this element are
-                          geminal or vicinal to hydroxyl groups, they rearrange to ethers of
-                          this element in the Brook rearrangement. Enol derivatives of those
-                          ethers of this element are reacted with aldehydes or formates in the
-                          Mukaiyama aldol reaction, and ethers of this element are generally
-                          useful protecting groups for alcohols. The tetramethyl derivative of
-                          this element is defined to have a chemical shift of 0 ppm in proton
-                          NMR, and its dioxide is the main component of glass. For 10 points,
-                          name this tetravalent element used in microchips.
-    --------------------
-                   guess: Pablo_Neruda
-                  answer: Twenty_Love_Poems_and_a_Song_of_Despair
-                      id: 93290
-                    text: The speaker of one poem in this collection describes himself as "the
-                          word without echoes, he who lost everything and he who had everything"
-                          after addressing "you who are silent," a white bee "drunk with honey"
-                          that buzzes in the speaker's soul. This collection contains a poem
-                          that includes the lines "The night is starry and the stars are blue
-                          and shiver in the distance" and "Love is so short, forgetting is so
-                          long." The speaker declares, "You look like a world lying in
-                          surrender" after noting the "white hills, white thighs" of the title
-                          thing in "Body of a Woman." The speaker of the last poem in this
-                          collection repeatedly exclaims "In you everything sank!" right after a
-                          poem beginning "Tonight I can write the saddest lines." For 10 points,
-                          name this early poetry collection by Pablo Neruda.
-    --------------------
-    =================
-    close 0.03
-    ===================
-    
-    =================
-    hit 0.03
-    ===================
-    
-                   guess: Permian
-                  answer: Permian
-                      id: 93291
-                    text: A sedimentary basin named for this period in western Texas has the
-                          world's thickest deposits dating from here. Its latter part involved
-                          the upward rifting of the Cimmerian subcontinent, an event that formed
-                          the Neo-Tethys sea. Swamp-loving lycopod trees were gradually replaced
-                          in continental interiors by advanced species of seed ferns and
-                          conifers in this period. Olson's extinction is a small event that
-                          occurred is in the middle of this period. By the end of this period,
-                          dicynodonts and gorgonopsians dominated terrestrial fauna. The
-                          supercontinent Pangea existed throughout this period, which the
-                          Siberian traps may have ended. The Carboniferous period preceded, for
-                          10 points, what last geologic period of the Paleozoic, which ended
-                          with a massive extinction event that ushered in the Triassic?
-    --------------------
-                   guess: Pareto_efficiency
-                  answer: Pareto_efficiency
-                      id: 93321
-                    text: The dual form of this concept was introduced by David Luenberger. In
-                          incomplete markets, a constrained version of this concept is used
-                          instead. The Scitovsky paradox results when this concept is extended
-                          using a compensation principle. In an Edgeworth Box, this condition
-                          occurs when the marginal rates of substitution are identical, which
-                          happens along a contract curve. This condition is equivalent to
-                          Walrasian equilibrium according to the fundamental theorems of welfare
-                          economics. Kaldor and Hicks extended this concept to situations where
-                          a redistribution of wealth could result in greater total utility. For
-                          10 points, name this term for an allocation in which no person can be
-                          made better off without making another worse off, named for an Italian
-                          economist.
-    --------------------
-                   guess: Augustin-Louis_Cauchy
-                  answer: Augustin-Louis_Cauchy
-                      id: 93323
-                    text: Terms with indices that are powers of two are used in this
-                          mathematician's namesake condensation test to check for convergence of
-                          a series. With Hadamard, this mathematician names a formula that
-                          calculates the radius of convergence of a power series. He's not
-                          Lagrange, but he names a theorem stating that if a prime p divides the
-                          order of a group, then the group contains an element with order p.
-                          Partial differential equations that give a necessary and sufficient
-                          condition for a complex function to be holomorphic are named for him
-                          and Riemann. Sequences named for this man, by definition, converge
-                          inside complete metric spaces. For 10 points, name this French
-                          mathematician who names an inequality relating the dot product of two
-                          vectors and their magnitudes along with Hermann Schwarz.
-    --------------------
-    =================
-    Precision @1: 0.0300 Recall: 0.0300
-
-Extra Credit (5 Points)
+Efficiency Extra Credit (2 Points)
 =================
 
 Make your code go faster for both training and testing.  One way to do

@@ -42,14 +42,14 @@ to be trained.
 
 If you use the code as is, it will tokenize documents just fine:
 
-   list(guesser.tokenize("University of Maryland"))
-   [327, 276, 256]
+  list(guesser.tokenize("University of Maryland"))
+  [327, 276, 256]
 
 The problem is that it doesn't know all the words (like, say,
 Maryland).
 
-   guesser._vocab._id_to_word[256]
-   '<UNK>'
+  guesser._vocab._id_to_word[256]
+  '<UNK>'
 
 We'll fix that in a second, but let's first implement tf-idf with
 whitespace tokenization.

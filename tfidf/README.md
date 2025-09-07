@@ -499,18 +499,6 @@ FAQ
 instance, you may want to add a helper function to keep track of
 updated vocabulary from a merge.
 
-**Q: Why are we computing `global_freq`, it doesn't seem to be needed
-for tf-df.**
-
-**A:** That's right.  But it's easy to write a unit test for, and the
-logic for computing it will help you compute the document frequencies.
-
-**Q: In the unit tests, how do we have one token that has frequency
-2/3 and two different tokens that have frequency 1/3?**
-
-**A:** They're not really two different tokens, they both got mapped
-to the unknown token.
-
 **Q: Why is there a ``page`` field and an ``answer`` field.  Which one do I use?**
 
 **A:** As you can see, the ``answer`` field has inconsistent formatting and is sometimes ambiguious.   To make things a little more sane, we map all of the answers to Wikipedia page titles.  This makes it so that rather than having to guess exactly the crazy formatting of the answer line, the Guesser just needs to match up to the correct underlying entity.  Not all questions have pages, which does cause a problem, but we're going to ignore that issue for a while, as most of them do have pages associated.

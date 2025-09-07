@@ -86,7 +86,7 @@ function!
 Improving the Vocabulary
 =============
 
-We want to get rid of the 
+We want to get rid of the unknown tokens, so rather than doing whitespace tokenization, we'll use BPE to discover what the words are for our TF-IDF approach.  But because TF-IDF is pretty simple, let's implement that first completely before jumping into BPE.
 
 What to Do
 =============

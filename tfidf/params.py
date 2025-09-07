@@ -31,7 +31,7 @@ def add_buzzer_params(parser):
     parser.add_argument('--buzzer_guessers', nargs='+', default = ['Tfidf'], help='Guessers to feed into Buzzer', type=str)
     parser.add_argument('--buzzer_history_length', type=int, default=0, help="How many time steps to retain guesser history")
     parser.add_argument('--buzzer_history_depth', type=int, default=0, help="How many old guesses per time step to keep")    
-    parser.add_argument('--features', nargs='+', help='Features to feed into Buzzer', type=str,  default=['Length', 'Frequency', 'Category'])    
+    parser.add_argument('--features', nargs='+', help='Features to feed into Buzzer', type=str,  default=[])  
     parser.add_argument('--buzzer_type', type=str, default="LogisticBuzzer")
     parser.add_argument('--run_length', type=int, default=100)
     parser.add_argument('--primary_guesser', type=str, default='Tfidf', help="What guesser does buzzer depend on?")
@@ -48,7 +48,7 @@ def add_guesser_params(parser):
     parser.add_argument('--wiki_min_frequency', type=int, help="How often must wiki page be an answer before it is used", default=10)
     parser.add_argument('--TfidfGuesser_filename', type=str, default="models/TfidfGuesser")
     parser.add_argument('--WikiGuesser_filename', type=str, default="models/WikiGuesser")    
-    parser.add_argument('--GprGuesser_filename', type=str, default="models/gpt_cache")
+    parser.add_argument('--GprGuesser_filename', type=str, default="models/buzztrain_gpr_cache")
     parser.add_argument('--wiki_zim_filename', type=str, default="data/wikipedia.zim")
     parser.add_argument('--num_guesses', type=int, default=25)
 
@@ -113,13 +113,7 @@ def load_questions(flags, secondary=False):
         
     return questions
 
-def instantiate_guesser(guesser_type, flags, load):
-    import torch
-    
-    cuda = not flags.no_cuda and torch.cuda.is_available()
-    device = torch.device("cuda" if cuda else "cpu")
-    logging.info("Using device '%s' (cuda flag=%s)" % (device, str(flags.no_cuda)))
-    
+def instantiate_guesser(guesser_type, flags, load):    
     guesser = None
     logging.info("Initializing guesser of type %s" % guesser_type)
     if guesser_type == "Gpr":
@@ -128,11 +122,9 @@ def instantiate_guesser(guesser_type, flags, load):
         guesser = GprGuesser(flags.GprGuesser_filename)
         if load:
             guesser.load()
-    if guesser_type == "ToyTfidf":
-        from toytfidf_guesser import ToyTfIdfGuesser
-        guesser = ToyTfIdfGuesser(flags.TfidfGuesser_filename)
-        if load:
-            guesser.load()
+    if guesser_type == "ToyTokenizer":
+        from toytokenizer_guesser import ToyTokenizerGuesser
+        guesser = ToyTokenizerGuesser(max_vocab_size=flags.guesser_max_vocab)
         
     if guesser_type == "Tfidf":
         from tfidf_guesser import TfidfGuesser        
@@ -151,6 +143,12 @@ def instantiate_guesser(guesser_type, flags, load):
         if load:                                                    
             guesser.load()                                          
     if guesser_type == "President":
+        import torch
+    
+        cuda = not flags.no_cuda and torch.cuda.is_available()
+        device = torch.device("cuda" if cuda else "cpu")
+        logging.info("Using device '%s' (cuda flag=%s)" % (device, str(flags.no_cuda)))
+
         from president_guesser import PresidentGuesser, kPRESIDENT_DATA        
         guesser = PresidentGuesser()
         guesser.train(kPRESIDENT_DATA['train'])

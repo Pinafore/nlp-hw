@@ -15,13 +15,13 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 
 alphanum = re.compile('[^a-zA-Z0-9]')
 
-from params import load_guesser, load_questions, setup_logging
-from params import add_general_params, add_guesser_params, add_general_params, add_question_params
+from parameters import load_guesser, load_questions, setup_logging
+from parameters import add_general_params, add_guesser_params, add_general_params, add_question_params
 
-kTOY_DATA = {"tiny": [{"text": "capital England", "page": "London"},
-                      {"text": "capital Russia", "page": "Moscow"},
-                      {"text": "currency England", "page": "Pound"},
-                      {"text": "currency Russia", "page": "Rouble"}],
+kTOY_DATA = {"tiny": [{"text": "currency england", "page": "Pound"},
+                      {"text": "currency russia", "page": "Rouble"},
+                      {"text": "capital russia", "page": "Moscow"},                      
+                      {"text": "capital england", "page": "London"}],
              "train": [{'page': 'Maine', 'text': 'For 10 points, name this New England state with capital at Augusta.'},
                        {'page': 'Massachusetts', 'text': 'For ten points, identify this New England state with capital at Boston.'},
                        {'page': 'Boston', 'text': 'For 10 points, name this city in New England, the capital of Massachusetts.'},
@@ -74,8 +74,7 @@ def print_guess(guess, max_char=20):
             output += "%s:%s\t" % (ii, short)
             
     return output
-
-
+    
 class Guesser:
     """
     Base class for guessers.  If it itself is instantiated, it will only guess
@@ -253,20 +252,20 @@ class Guesser:
         Generate a guess set from a single question.
         """
         return [{"guess": self._default_guess, "confidence": 1.0}]
-
+1
 
 if __name__ == "__main__":
     # Train a guesser and save it to a file
     import argparse
     parser = argparse.ArgumentParser()
     add_general_params(parser)    
-    add_guesser_params(parser)
-    add_question_params(parser)
+    guesser_params = add_guesser_params(parser)
+    question_params = add_question_params(parser)
 
     flags = parser.parse_args()
 
     setup_logging(flags)    
-    guesser = load_guesser(flags)
+    guesser = load_guesser(flags, guesser_params)
     questions = load_questions(flags)
     # TODO(jbg): Change to use huggingface data, as declared in flags
 

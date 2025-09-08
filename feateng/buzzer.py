@@ -15,7 +15,7 @@ from collections import defaultdict
 
 from guesser import add_guesser_params
 from features import LengthFeature
-from params import add_buzzer_params, add_question_params, load_guesser, load_buzzer, load_questions, add_general_params, setup_logging
+from parameters import add_buzzer_params, add_question_params, load_guesser, load_buzzer, load_questions, add_general_params, setup_logging, Parameters
 
 def runs(text, run_length):
     """
@@ -49,7 +49,15 @@ def sentence_runs(sentences, run_length):
             yield previous + run
         previous += sentence
         previous += "  "
-    
+
+class BuzzerParameters(Parameters):
+    buzzer_params = [("filename", str, "models/buzzer", "Where we save buzzer")]
+
+    def __init__(self):
+        Parameters.__init__(self)
+        self.params += self.buzzer_params
+                     
+        
 class Buzzer:
     """
     Base class for any system that can decide if a guess is correct or not.
@@ -105,11 +113,13 @@ class Buzzer:
         self._feature_generators.append(feature_extractor)
         logging.info("Adding feature %s" % feature_extractor.name)
         
-    def featurize(self, question, run_text, guess_history, guesses=None):
+    def featurize(self, question, run_text, guess_history,
+                  guesses=None, guess_count=None):
         """
         Turn a question's run into features.
 
         guesses -- A dictionary of all the guesses.  If None, will regenerate the guesses.
+        guess_count -- A count of all of the other guesses
         """
         
         features = {}
@@ -131,11 +141,26 @@ class Buzzer:
             # features["%s_guess" % gg] = result["guess"]
             features["%s_confidence" % gg] = result["confidence"]
 
+            for other_guesses in guesses[gg]:                         
+                all_guesses[other_guesses["guess"]] += 1              
+
+        if len(all_guesses) > 1:                                            
+            consensus_guess, consensus_count = all_guesses.most_common(1)[0]
+            if consensus_guess == guess:                                    
+                logging.debug("Consensus guess matches to guess %s" % guess)
+                features["consensus_count"] = consensus_count - 1
+                features["consensus_match"] = 1
+            else:                                                           
+                features["consensus_count"] = all_guesses[guess] - 1
+                features["consensus_match"] = 0
+
         for ff in self._feature_generators:
-            for feat, val in ff(question, run_text, guess, guess_history):
+            for feat, val in ff(question, run_text, guess, guess_history, guesses):
                 features["%s_%s" % (ff.name, feat)] = val
 
-        assert guess is not None
+        assert guess is not None or guesses[self._primary_guesser][0]["guess"] is None, \
+          "Guess was not set (Primary=%s, others=%s) Guesses=%s" % \
+          (self._primary_guesser, str(set(guesses)), str(guesses))
         return guess, features
 
     def finalize(self):
@@ -198,6 +223,7 @@ class Buzzer:
             guess_history = defaultdict(dict)
             for guesser in question_guesses:
                 # print("Building history with depth %i and length %i" % (history_depth, history_length))
+                # TODO(jbg): I think this is inefficient, shouldn't this be using question_guesses, not all_guesses?
                 guess_history[guesser] = dict((time, guess[:history_depth]) for time, guess in enumerate(all_guesses[guesser]) if time < question_index and time > question_index - history_length)
 
             # print(guess_history)
@@ -312,15 +338,15 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     add_general_params(parser)
-    add_guesser_params(parser)
-    add_buzzer_params(parser)
-    add_question_params(parser)
+    guesser_params = add_guesser_params(parser)
+    buzzer_params = add_buzzer_params(parser)
+    question_params = add_question_params(parser)
     flags = parser.parse_args()
     setup_logging(flags)    
 
-    guesser = load_guesser(flags)    
-    buzzer = load_buzzer(flags)
-    questions = load_questions(flags)
+    guesser = load_guesser(flags, guesser_params)    
+    buzzer = load_buzzer(flags, buzzer_params)
+    questions = load_questions(flags, question_params)
 
     buzzer.add_data(questions)
     buzzer.build_features(flags.buzzer_history_length,

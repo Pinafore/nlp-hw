@@ -1,5 +1,6 @@
 from time import sleep
 from guesser import Guesser
+from parameters import GuesserParameters
 from string import ascii_lowercase
 from math import floor
 from collections import defaultdict
@@ -9,7 +10,6 @@ import json
 from json import JSONDecodeError
 from tqdm import tqdm
 import logging
-
 
 
 from baseconv import BaseConverter
@@ -35,6 +35,8 @@ class GprGuesser(Guesser):
 
         @param num_examples: How many retrieval results to include in GPT prompt
         """
+        
+        self.client = None
         self.retrievers = {}
         self.cache = {}
         self.num_queries = 0
@@ -79,12 +81,20 @@ class GprGuesser(Guesser):
               
 
 
+
+    @staticmethod
+    def clean(raw_question):
+        clean = raw_question
+        for old, new in [("\xa0", " ")]:
+            clean = clean.replace(old, new)
+        return clean
+    
     def __call__(self, question, n_guesses=1):
         """
         Generate a guess, but grab from the cache first if it's available
         """
         # Remove non-breaking spaces
-        question = question.replace("\xa0", " ")
+        question = self.clean(question)
 
         if self.num_queries % self.save_every == 0:
             self.save()
@@ -106,12 +116,12 @@ class GprGuesser(Guesser):
             assert result == kCACHE_MISS
             return [{"guess": "", "confidence": 0.0}]
 
-    def save(self, cache_filename=None, queries=None, suffix=".json"):
+    def save(self, cache_filename=None, queries=None, suffix=".json", force=False):
         """
         Save the API results to a file to save money and time for the future
         """
 
-        force_write = cache_filename is not None and queries is not None
+        force_write = (cache_filename is not None and queries is not None) or force
 
         if cache_filename is None:
             cache_filename=self.cache_filename
@@ -138,6 +148,7 @@ class GprGuesser(Guesser):
                 filename = "%s%05i%s" % (cache_filename, shard, suffix)
                 tar.add(filename)
             tar.close()
+        
 
         self.last_save = self.num_queries
         
@@ -176,7 +187,8 @@ class GprGuesser(Guesser):
 
             self.cache.update(json_object)
             self.cache.update(clean)
-            logging.debug("Reading %09i entries from %s, cache size is now %09i" % (len(json_object), ii, len(self.cache)))
+            logging.debug("Reading %09i entries from %s, cache size is now %09i" %
+                          (len(json_object), ii, len(self.cache)))
 
         tar.close()
         logging.info("%i entries added to cache" % len(self.cache))
@@ -196,18 +208,20 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--source_jsongz', type=str, default="../data/qanta.buzztrain.json.gz")
+    parser.add_argument('--fold', type=str, default="buzztrain")
+    
+    # parser.add_argument('--source_jsongz', type=str, default="../data/qanta.buzztrain.json.gz")
     parser.add_argument('--build_cache', action="store_true", help="Save cache", default=False)
-    parser.add_argument('--cache', type=str, default="../models/gpt_cache")
+    # parser.add_argument('--cache', type=str, default="../models/buzztrain_gpr_cache")
     parser.add_argument('--cache_copy', type=str, default=None)
     parser.add_argument('--run_length', type=int, default=100)
     parser.add_argument('--limit', type=int, default=-1)
     flags = parser.parse_args()
     
-    gg = GprGuesser(cache_filename=flags.cache)
+    gg = GprGuesser(cache_filename="../models/%s_gpr_cache" % flags.fold)
     gg.load()
 
-    with gzip.open(flags.source_jsongz) as infile:
+    with gzip.open("../data/qanta.%s.json.gz" % flags.fold) as infile:
         questions = json.load(infile)
 
     print("Loaded %i question" % len(questions))
@@ -222,17 +236,17 @@ if __name__ == "__main__":
     queries = set()
     for qq in tqdm(questions):
         for rr in runs(qq["text"], flags.run_length):
-            hit = rr in gg.cache
+            clean = gg.clean(rr)
+            hit = clean in gg.cache
             if hit:
-                queries.add(rr)
+                queries.add(clean)
                 hits += 1
             else:
-                # print(rr)
                 if flags.build_cache:
                     gg(rr)
                 misses += 1
 
-    gg.save()
+    gg.save(force=flags.build_cache)
     print("---------------------")
     print(hits / (hits + misses))
 

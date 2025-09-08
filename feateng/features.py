@@ -19,7 +19,21 @@ class Feature:
     def __init__(self, name):
         self.name = name
 
-    def __call__(self, question, run, guess, guess_history):
+    def __call__(self, question, run, guess, guess_history, other_guesses=None):
+        """
+
+        question -- The JSON object of the original question, you can extract metadata from this such as the category
+
+        run -- The subset of the question that the guesser made a guess on
+
+        guess -- The guess created by the guesser
+
+        guess_history -- Previous guesses (needs to be enabled via command line argument)
+
+        other_guesses -- All guesses for this run
+        """
+
+
         raise NotImplementedError(
             "Subclasses of Feature must implement this function")
 
@@ -32,20 +46,19 @@ class LengthFeature(Feature):
     Feature that computes how long the inputs and outputs of the QA system are.
     """
 
-    def __call__(self, question, run, guess, guess_history):
+    def __call__(self, question, run, guess, guess_history, other_guesses=None):
         # How many characters long is the question?
-        yield ("char", (len(run) - 450) / 450)
+
+        guess_length = 0
 
         # How many words long is the question?
-        yield ("word", (len(run.split()) - 75) / 75)
 
-        ftp = 0
 
         # How many characters long is the guess?
-        if guess is None or guess=="":
-            yield ("guess", -1)
-        else:
-            yield ("guess", log(1 + len(guess)))
+        if guess is None or guess=="":  
+            yield ("guess", -1)         
+        else:                           
+            yield ("guess", guess_length)  
 
             
 
@@ -53,20 +66,8 @@ class LengthFeature(Feature):
 
         
         
-class GuessBlankFeature(Feature):
-    """
-    Is guess blank?
-    """
-    def __call__(self, question, run, guess):
-        yield ('true', len(guess) == 0)
 
 
-class GuessCapitalsFeature(Feature):
-    """
-    Capital letters in guess
-    """
-    def __call__(self, question, run, guess):
-        yield ('true', log(sum(i.isupper() for i in guess) + 1))
 
 
 if __name__ == "__main__":
@@ -78,23 +79,23 @@ if __name__ == "__main__":
     """
     import argparse
     
-    from params import add_general_params, add_question_params, \
+    from parameters import add_general_params, add_question_params, \
         add_buzzer_params, add_guesser_params, setup_logging, \
         load_guesser, load_questions, load_buzzer
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--json_guess_output', type=str)
     add_general_params(parser)    
-    add_guesser_params(parser)
-    add_buzzer_params(parser)    
+    guesser_params = add_guesser_params(parser)
+    buzzer_params = add_buzzer_params(parser)    
     add_question_params(parser)
 
     flags = parser.parse_args()
 
     setup_logging(flags)
 
-    guesser = load_guesser(flags)
-    buzzer = load_buzzer(flags)
+    guesser = load_guesser(flags, guesser_params)
+    buzzer = load_buzzer(flags, buzzer_params)
     questions = load_questions(flags)
 
     buzzer.add_data(questions)

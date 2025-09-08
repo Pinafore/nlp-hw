@@ -151,9 +151,6 @@ train (first time)
 -----
 You will need update the train function to update your vocabulary and to keep track of how many times words appear in documents.
 
-embed
-======
-After your system is trained, you can now embed documents by creating a tf-idf vector for a query document (in addition to all of the training documents).
 
 `__call__`
 -------------

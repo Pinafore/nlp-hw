@@ -147,6 +147,14 @@ If you've stored how often words appear in every document during
 frequencies.
 
 
+train
+-----
+You will need update the train function to update your vocabulary and to keep track of how many times words appear in documents.
+
+embed
+======
+After your system is trained, you can now embed documents by creating a tf-idf vector for a query document (in addition to all of the training documents).
+
 `__call__`
 -------------
 
@@ -163,6 +171,7 @@ is already done for you (assuming you've completed `inv_docfreq` already).
 Then you'll need to go through the rows in `self._doc_vectors` and find the
 closest row.  Call whatever the closest is `best` and return the appropriate
 metadata.  This is implemented for you already.
+
 
 > ⚠️After you've done this, your code should work with the whitespace
 > tokenizer and give you halfway decent results.  Play around with
@@ -193,6 +202,11 @@ add_from_merge
 
 I added another function to the Vocab class to make things easier to
 keep track of new tokens.  (This is optional).
+
+train
+-----------
+
+I'm listing train again because you'll need to update it once you've done BPE tokenization.
 
 
 Running Your Code

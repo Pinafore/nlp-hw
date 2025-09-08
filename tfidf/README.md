@@ -486,15 +486,15 @@ submitting a test that covers it).
 
 1. Submissions will be made on Gradescope.
 
-2. You will submit a zip file containing your code
-(toyttokenizer_guesser.py) and the model files (if you go beyond the "good
-enough" standard). If you check your code against your own test cases,
+2. You will submit toyttokenizer_guesser.py. If you check your code against your own test cases,
 you can add the file (which will be like test.py) containing your own
 test cases in the zip too.
 
 The code will run against the public test cases (the ones you can already see
 in the given test.py file) on the server and you can see those results. You
 should make sure you pass these cases before the submission deadline.
+
+For the analysis extra credit, upload a PDF of your analysis.
 
 # Hints
 

@@ -30,7 +30,18 @@ def lower(str):
     return str.lower()
 
 class Vocab:
-    def __init__(self, unknown=kUNK):
+    """
+    Class that tracks a mapping of words to integers.
+    """
+
+    
+    def __init__(self, unknown:str=kUNK):
+        """
+        Create the Vocab object
+
+        Args:
+            unknown: The string that represents unknown tokens
+        """
         self._id_to_word = {}
         self._word_to_id = {}
         self.final = False
@@ -42,7 +53,13 @@ class Vocab:
 
         self.add(unknown)
 
-    def __contains__(self, candidate: Union[int, str]):
+    def __contains__(self, candidate: Union[int, str]) -> bool:
+        """
+        Check to see if something is part of the mapping
+
+        Args:
+            candidate: The element we're checking to see if it's in the mapping
+        """
         if isinstance(candidate, str):
             return candidate in self._word_to_id
         elif isinstance(candidate, int):
@@ -50,21 +67,37 @@ class Vocab:
         else:
             return False
     
-    def __iter__(self):
+    def __iter__(self) -> Iterable[Tuple[str, int]]:
+        """
+        Returns:
+            Provides an iterator over all elements in the mapping
+        """
         for key in sorted(self._id_to_word.keys()):
             yield key, self._id_to_word[key] 
 
     def __len__(self):
+        """
+        Returns:
+            How many items are in the vocab
+        """
         return len(self._id_to_word)
             
     @staticmethod
     def string_from_bytes(self, bytestream: list[int], max_chars:int=1) -> str:
         """
+        Given a bytetream, turn it into a string (if you can).
+
+        Args:
+            bytestream: Integers that may or may not represent a string
+            max_chars: Do not return the string if it's longer than this many unicode characters
+        Returns:
+            UTF-8 representation of the bytestream if possible, None otherwise
+
         There's a more grounded version I did not use here:
         https://heycoach.in/blog/utf-8-validation-solution-in-python/
         """
         try:
-            result = bytearray([233, 169]).decode('utf-8')
+            result = bytearray(bytestream).decode('utf-8')
         except UnicodeDecodeError:
             result = None
 
@@ -76,6 +109,12 @@ class Vocab:
     def add(self, word: str, idx: int=-1) -> int:
         """
         Add a word to the vocab and return its index.
+
+        Args:
+            word: The word to add to the vocabulary
+            idx: The index it should have.  WARNING: If this is already in the vocabulary, it will be overwritten.
+        Returns:
+            The index of the word after it was added (useful if you don't specify the index).
         """
         assert not self.final, "Vocabulary already finalized, cannot add more words"
         
@@ -89,15 +128,34 @@ class Vocab:
     
 
     def lookup_word(self, idx: int) -> str:
+        """
+        Args:
+            The integer index of a token
+        Returns:
+            It's string representation
+        """
+        
         return self._id_to_word.get(idx, None)
 
     def examples(self, limit:int = 20) -> Iterable[str]:
         """
         Get examples from the vocab.  To make them interesting, sort by length.
+
+        Args:
+            limit: How many to return
+        Returns:
+            A list of the elements
         """
         return sorted(self._word_to_id, key=len, reverse=True)[:limit]
     
     def lookup_index(self, word: str) -> int:
+        """
+        Args:
+            The string representation of a word
+        Returns:
+            It's index in the lookup, returning the UNK token's lookup otherwise
+        """
+        
         if word in self._word_to_id:
             return self._word_to_id[word]
         else:
@@ -114,7 +172,7 @@ class Vocab:
 
         # Add code to generate the vocabulary that the vocab lookup
         # function can use!
-        assert self._unk in self._word_to_id
+
         self.final = True
 
         logging.debug("%i vocab elements, including: %s" % (len(self), str(self.examples(10))))
@@ -125,8 +183,15 @@ class ToyTokenizerGuesser(Guesser):
 
     """
 
-    def __init__(self, max_vocab_size=10000,
-                 whitespace_split=TreebankWordTokenizer().tokenize):
+    def __init__(self, max_vocab_size:int=10000,
+                 whitespace_split:callable=TreebankWordTokenizer().tokenize):
+        """
+        Create a new tokenizer object
+
+        Args:
+           max_vocab_size: Do not let the vocab grow to be larger than this
+           whitespace_split: Function that is used to split tokens by whitespace
+        """
         
         self._max_vocab_size = max_vocab_size
         self._total_docs = 0
@@ -143,7 +208,7 @@ class ToyTokenizerGuesser(Guesser):
         self._docs = None
         self._labels = []
 
-        # Add your code here!
+        # Add your code here if you need to!
 
     def frequent_bigram(self, token_ids: Iterable[int], min_frequency=2) -> Tuple[int, int]:
         """
@@ -156,44 +221,69 @@ class ToyTokenizerGuesser(Guesser):
         ties among pairs with the same first token, take the one with
         the lower *second* token.  This is easily accomplished with the
         'sorted' method.
+
+        Args:
+            token_ids: All of your tokens as represented by integers
+            min_frequency: A pair of tokens must appear at least this many times to be returned
+        Returns:
+            The tuple of byte pairs that is most frequent in the input
         """
+
+        # Complete this function!
+        
         
 
         return None
 
     @staticmethod
-    def merge_tokens(tokens: Iterable[int], merge_left: int, merge_right: int, merge_id: int):
-        """
-        Given a stream of tokens, every time you see `merge_left`
-        followed by `merge_right`, remove those two tokens and replace
-        it with `merge_id`.
+    def merge_tokens(tokens: Iterable[int], merge_left: int, merge_right: int, merge_id: int) -> Iterable[int]:
+        """Given a sequence of integers that represent byte pairs,
+
+        replace all instances of a particular byte pair with a new
+        symbol.
+
+        Args:
+            tokens: The original sequence
+            merge_left: The left pair of the token pair to merge
+            merge_right: The right pair of the token pair to merge
+            merge_id: The new token to replace all of those instances with
+        Returns:
+            A sequence of integers where all of the (merge_left, merge_right) instances have been replaced by merge_id
         """
         replaced = tokens
+
+        # Complete this function!
+        
 
 
         return replaced    
     
-    def train(self, training_data, answer_field='page', split_by_sentence=False):
+    def train(self, training_data, answer_field='page', split_by_sentence=False) -> None:
+        """
+        Go through the training data, split them into tokens, build
+        your tokenizer vocabulary, and then create your embeddings for
+        the training data.
+
+        Args:
+            training_data: The raw data we will build dataset from
+            answer_field: The field in the JSON that will become the guess when we find the closest document to a query
+            split_by_sentence: Consider each of the sentences indepndently or not
+        """
         # Extract the data into self.answers, self.questions
         Guesser.train(self, training_data, answer_field, split_by_sentence)
 
-        frequency = FreqDist()
+        #Complete this function!
+        
+        # frequency = FreqDist()
         for question in (progress := tqdm(self.questions)):
             # This will create a whitespace vocab, but you should remove and replace
             # this code
-            for word in self.whitespace_tokenize(question):
-                 frequency[word] += 1
+            # for word in self.whitespace_tokenize(question):
+            #     frequency.inc(word)
             progress.set_description("Creating initial vocabulary")
             
 
 
-        # This code stub is here just so it will work before you
-        # implement BPE training, remove it when you do.
-        current_vocab_size = len(self._vocab)
-        if current_vocab_size < 260:
-            for word in frequency.most_common(self._max_vocab_size - current_vocab_size):
-                self._vocab.add(word)
-            
         self._vocab.finalize()
         assert len(self._vocab) < self._max_vocab_size
                
@@ -213,11 +303,12 @@ class ToyTokenizerGuesser(Guesser):
         
     def finalize_docs(self) -> None:
         """
-        This is a separate function for ease of unit testing
+        This is a separate function for ease of unit testing.  It is
+        called when we're done adding documents to our dataset.
         """        
         self._docs_final = True
         
-    def __call__(self, question: Dict, max_n_guesses:int=1):
+    def __call__(self, question: Dict, max_n_guesses:int=1) -> Dict[str, Union[str, float]]:
         """
         Given a question, find the closest document in the training set and
         return a dictionary with that guess.
@@ -238,72 +329,62 @@ class ToyTokenizerGuesser(Guesser):
         find the closest row.  Call whatever the closest is \`best\` and
         return the appropriate metadata.  This is implemented for you already.
 
+        Args:
+            question: The query you need to find the answer toArgs:
+            max_n_guesses: The number of guesses to return
+        Returns:
+            A list of the best guesses
         """
         
         assert max_n_guesses == 1, "We only support top guess"
         
         question_tfidf = self.embed(question).reshape(1, -1)
 
-        # This code is wrong, you need to fix it.  You'll want to use "argmax" and perhapse "reshape"
+        # This code is wrong, you need to fix it!  You'll want to use "argmax" and perhapse "reshape"
         best = 0
         cosine = np.zeros(5)
         
-
+        
         return [{"question": self.questions[best],
                  "guess": self.answers[best],
                  "confidence": cosine[best]}]
         
-        
-    def vocab_seen(self, word: str, count: int=1):
-        """Tells the language model that a word has been seen @count times.  This
-        will be used to build the final vocabulary.
 
-        word -- The string represenation of the word.  After we
-        finalize the vocabulary, we'll be able to create more
-        efficient integer representations, but we can't do that just
-        yet.
-
-        count -- How many times we've seen this word (by default, this is one).
-        """
-
-        assert not self._vocab.final, \
-            "Trying to add new words to finalized vocab"
-
-        # Add your code here!
-
-    def scan_document(self, text: str):
+    def scan_document(self, text: str) -> int:
         """
         Tokenize a piece of text and compute the document frequencies.
 
-        text -- The raw string containing a document
+        Args:
+            text: The raw string containing a document
+
+        Returns:
+            The new number of documents 
         """
 
         assert self._vocab.final, "scan_document can only be run with finalized vocab"
         assert not self._docs_final, "scan_document can only be run with non-finalized doc counts"
 
+        # Complete this function!
+        
         tokenized = list(self.tokenize(text))
         if len(tokenized) == 0:
             logging.warning("Empty doc: %30s, tokenize: %30s, vocab: %30s" % (text, str(tokenized), " ".join(self._vocab.examples(5))))
 
         self._total_docs += 1
 
-    def doc_tfidf(self, doc: str) -> Dict[Tuple[str, int], float]:
-        """Given a document, create a dictionary representation of its tfidf vector
-
-        doc -- raw string of the document"""
-
-        assert self._docs_final, "Documents must be finalized"
-        
-        doc_frequency = FreqDist(x for x in self.tokenize(text) if x in self._vocab)
-        d = {}
-        for word in doc_frequency:
-            ww = self.vocab.word_lookup(ii)
-            d[(ww, ii)] = doc_frequency.freq(ww) * self.inv_docfreq(ww)
-        return d
+        return self._total_docs
         
     def embed(self, text: str) -> npt.NDArray[np.float64]:
         """
-        Given a document, create a vector representation of its tfidf vector
+        Given a document, create a vector representation of its tfidf
+        vector, where each vector corresponds to a token in your
+        vocabulary.
+
+        Args:
+            text: A string of text
+
+        Returns:
+            A vector where each dimensions corresponds to the weight of the vector
         """
         
         # You don't need to modify this code
@@ -315,13 +396,30 @@ class ToyTokenizerGuesser(Guesser):
         return vector
 
     def whitespace_tokenize(self, sent: str) -> Iterable[int]:
+        """
+        A function that takes the initial string and turns it into
+        integers where each integer is a whitespace delimited token.
+
+        By default, the tokenization is based on the Treebank tokenizer.
+
+        Args:
+            sent: A string of text
+        Returns:
+            A list of the integer ids
+        """
         for chunk in self._whitespace_split(sent):
             yield self._vocab.lookup_index(chunk)
 
     def initial_tokenize(self, sent: str) -> Iterable[int]:
         """
-        Function to map individual characters to integers, adding a
-        "END OF STRING" token to the end.
+        Function to map individual bytes to integers, adding a
+        "END OF STRING" token to the end.  This is the foundation that
+        you can then later do BPE on.
+
+        Args:
+            sent: A string of text
+        Returns:
+            A list of the integer ids
         """
 
         # You do not need to modify this code
@@ -330,15 +428,21 @@ class ToyTokenizerGuesser(Guesser):
         return chars
     
     def tokenize(self, sent: str) -> Iterable[int]:
-        """Return a generator over tokens in the sentence
+        """
+        Return a generator over tokens in the sentence and add the
+        "END OF STRING" token, <|ENDOFTEXT|> token id to the end of the
+        string.
 
-        sent -- A string of English text
-
-        Add the <|ENDOFTEXT|> token id to the end of the string.
+        Args:
+            sent: A string of text
+        Returns:
+            A list of the integer ids
         """
         assert self._vocab.final
         token_ids = self.initial_tokenize(sent)
 
+        # Finish this function!
+        
 
         
 
@@ -352,7 +456,7 @@ class ToyTokenizerGuesser(Guesser):
     def inv_docfreq(self, word: int) -> float:
         """Compute the inverse document frequency of a word in log base
 
-        10.  Return 1.0 if we didn't see the word index in training
+        10.  Return 0.0 if the word index is outside of our vocabulary
         (however, this should never happen in normal operation).
 
         Because we may have terms that have never been seen, add 1 to
@@ -364,7 +468,7 @@ class ToyTokenizerGuesser(Guesser):
         """
         assert self._docs_final, "Documents must be finalized"
 
-        return 1.0
+        return 0.0
         
 
 if __name__ == "__main__":

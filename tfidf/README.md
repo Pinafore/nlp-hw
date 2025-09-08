@@ -147,7 +147,7 @@ If you've stored how often words appear in every document during
 frequencies.
 
 
-train
+train (first time)
 -----
 You will need update the train function to update your vocabulary and to keep track of how many times words appear in documents.
 
@@ -203,7 +203,7 @@ add_from_merge
 I added another function to the Vocab class to make things easier to
 keep track of new tokens.  (This is optional).
 
-train
+train (second time)
 -----------
 
 I'm listing train again because you'll need to update it once you've done BPE tokenization.

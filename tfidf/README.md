@@ -73,11 +73,11 @@ What are the Documents?
 Okay, so that's our vocabulary (first attempt, at least).  We also need to compute statistics
 for tf-idf.  We can't do everything at once, so we'll need to do two
 passes over the data.  The first pass will count how many times we see
-each word in the training set (using the function ``train_seen``), and
+each word in the training set, and
 the second pass will compute term and document frequencies (using the
 function ``scan_document``).  In between those two passes, we'll
 finalize our vocabulary to decide the integer lookup of all of our
-words (the ``finalize_vocab`` function).
+words (the ``finalize`` function in the Vocab class).
 
 Then, you should have everything you need to compute---for a new
 document or query---the tf-idf representation in the ``doc_tfidf``

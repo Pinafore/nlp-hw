@@ -172,7 +172,7 @@ class Vocab:
 
         # Add code to generate the vocabulary that the vocab lookup
         # function can use!
-
+        assert self._unk in self._word_to_id
         self.final = True
 
         logging.debug("%i vocab elements, including: %s" % (len(self), str(self.examples(10))))
@@ -274,16 +274,23 @@ class ToyTokenizerGuesser(Guesser):
 
         #Complete this function!
         
-        # frequency = FreqDist()
+        frequency = FreqDist()
         for question in (progress := tqdm(self.questions)):
             # This will create a whitespace vocab, but you should remove and replace
             # this code
-            # for word in self.whitespace_tokenize(question):
-            #     frequency.inc(word)
+            for word in self.whitespace_tokenize(question):
+                 frequency[word] += 1
             progress.set_description("Creating initial vocabulary")
             
 
 
+        # This code stub is here just so it will work before you
+        # implement BPE training, remove it when you do.
+        current_vocab_size = len(self._vocab)
+        if current_vocab_size < 260:
+            for word in frequency.most_common(self._max_vocab_size - current_vocab_size):
+                self._vocab.add(word)
+            
         self._vocab.finalize()
         assert len(self._vocab) < self._max_vocab_size
                
@@ -343,7 +350,6 @@ class ToyTokenizerGuesser(Guesser):
         # This code is wrong, you need to fix it!  You'll want to use "argmax" and perhapse "reshape"
         best = 0
         cosine = np.zeros(5)
-        
         
         return [{"question": self.questions[best],
                  "guess": self.answers[best],
@@ -456,7 +462,7 @@ class ToyTokenizerGuesser(Guesser):
     def inv_docfreq(self, word: int) -> float:
         """Compute the inverse document frequency of a word in log base
 
-        10.  Return 0.0 if the word index is outside of our vocabulary
+        10.  Return 1.0 if we didn't see the word index in training
         (however, this should never happen in normal operation).
 
         Because we may have terms that have never been seen, add 1 to
@@ -468,7 +474,7 @@ class ToyTokenizerGuesser(Guesser):
         """
         assert self._docs_final, "Documents must be finalized"
 
-        return 0.0
+        return 1.0
         
 
 if __name__ == "__main__":

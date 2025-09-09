@@ -45,7 +45,14 @@ class TestSequenceFunctions(unittest.TestCase):
         """
         training_data = [{"text": self.test_strings['chinese'], "page": ""}]
         self.guesser.train(training_data)
+        vocab = self.guesser._vocab
 
+        self.assertNotEqual(vocab.lookup_index('马'), vocab.lookup_index('里'))
+        self.assertNotEqual(vocab.lookup_index('里'), vocab.lookup_word(vocab._unk))
+        self.assertNotEqual(vocab.lookup_index('兰'), vocab.lookup_word(vocab._unk))        
+        self.assertNotEqual(vocab.lookup_index('有'), vocab.lookup_word(vocab._unk))
+        self.assertEqual(vocab.lookup_index('名'), vocab.lookup_word(vocab._unk))
+        
         print(self.guesser._vocab._word_to_id.keys())
             
     def test_train_vocab(self):
@@ -88,12 +95,10 @@ class TestSequenceFunctions(unittest.TestCase):
 
         merges = [", ", "n!", "o@", "d ", "n$"]
 
-        print(token_sequence)
-        print(self.rerender(vocab, token_sequence))            
         for ii, replacement in enumerate("!@#$%"):
-            top = self.guesser.frequent_bigram(token_sequence)
-            self.assertNotEqual(top, None)
-            freq_left, freq_right = top
+            candidate = self.guesser.frequent_bigram(token_sequence)
+            self.assertNotEqual(candidate, None)
+            freq_left, freq_right = candidate
             idx = vocab.add_from_merge(freq_left, freq_right)
             token_sequence = self.guesser.merge_tokens(token_sequence, freq_left, freq_right, idx)
             merge_found = vocab.lookup_word(freq_left) + vocab.lookup_word(freq_right)
@@ -102,8 +107,6 @@ class TestSequenceFunctions(unittest.TestCase):
             vocab.add(replacement, idx)
 
             pretty = self.rerender(vocab, token_sequence)            
-            print(token_sequence)            
-            print(pretty)
 
             self.assertEqual(element_ref[ii], pretty)
 
@@ -117,8 +120,8 @@ class TestSequenceFunctions(unittest.TestCase):
         brazil = self.guesser._vocab.lookup_index("Brazil")
         
         # Test that b and c have same frequency (Unknown tokens)
-        self.assertAlmostEqual(test_doc[currency], 0.0)
-        self.assertAlmostEqual(test_doc[brazil], 0.0)
+        self.assertAlmostEqual(test_doc[currency], 0.033447777295997905, delta=0.01)
+        self.assertAlmostEqual(test_doc[brazil], 0.0, delta=0.01)
 
     def test_empty_df(self):
         self.guesser._vocab.finalize()
@@ -136,10 +139,12 @@ class TestSequenceFunctions(unittest.TestCase):
         word_c = self.guesser._vocab.lookup_index("c")
         word_d = self.guesser._vocab.lookup_index("d")
 
-        self.assertAlmostEqual(self.guesser.inv_docfreq(word_a), 0.12494, delta=0.01)
-        self.assertAlmostEqual(self.guesser.inv_docfreq(word_b), 0.30103, delta=0.01)
-        self.assertAlmostEqual(self.guesser.inv_docfreq(word_c), 0.60206, delta=0.01)
-        self.assertAlmostEqual(self.guesser.inv_docfreq(word_d), 0.0, delta=0.01)
+        self.assertAlmostEqual(self.guesser.inv_docfreq(word_a), 0.1249387366082999, delta=0.01)
+        self.assertAlmostEqual(self.guesser.inv_docfreq(word_b), 0.30102999566398114, delta=0.01)
+        self.assertAlmostEqual(self.guesser.inv_docfreq(word_c), 0.6020599913279623, delta=0.01)
+
+        # d is not seen, so return 1.0 for that
+        self.assertAlmostEqual(self.guesser.inv_docfreq(word_d), 1.0, delta=0.01)
 
     def test_tokenize_wo_merge(self):
         """
@@ -154,7 +159,6 @@ class TestSequenceFunctions(unittest.TestCase):
         
         for doc_id, doc in enumerate(kTOY_DATA["dev"]):
             tokens = self.guesser.tokenize(doc["text"])
-            print("@@@", doc["text"], list(tokens))
             reconstruction = self.rerender(self.guesser._vocab, tokens, "*")
             self.assertEqual(reconstruction, reference[doc_id], "Tokenization of %s bad results %s!=%s." % (doc["text"], reconstruction, reference[doc_id]))
             
@@ -172,7 +176,6 @@ class TestSequenceFunctions(unittest.TestCase):
         
         for doc_id, doc in enumerate(kTOY_DATA["dev"]):
             tokens = self.guesser.tokenize(doc["text"])
-            print("!!!", doc["text"], list(tokens))
             reconstruction = self.rerender(self.guesser._vocab, tokens, "*")
             self.assertNotEqual(tokens, [])
             self.assertEqual(reconstruction, reference[doc_id], "Tokens: %s" % str(tokens))
@@ -180,13 +183,11 @@ class TestSequenceFunctions(unittest.TestCase):
     def test_df(self):
         self.guesser.train(kTOY_DATA["tiny"], answer_field='page', split_by_sentence=False)
 
-        england = self.guesser._vocab.lookup_index("England")
-        russia = self.guesser._vocab.lookup_index("Russia")
+        currency = self.guesser._vocab.lookup_index("currency")
         oov = self.guesser._vocab.lookup_index("z")        
 
-        self.assertAlmostEqual(self.guesser.inv_docfreq(england), 0.0)
-        self.assertAlmostEqual(self.guesser.inv_docfreq(russia), 0.0)
-        self.assertAlmostEqual(self.guesser.inv_docfreq(oov), 0.0)
+        self.assertAlmostEqual(self.guesser.inv_docfreq(currency), 0.30102999566398114)
+        self.assertAlmostEqual(self.guesser.inv_docfreq(oov), 1.0)
         
 if __name__ == '__main__':
     unittest.main()

@@ -46,12 +46,15 @@ class TestSequenceFunctions(unittest.TestCase):
         training_data = [{"text": self.test_strings['chinese'], "page": "foo"}]
         self.guesser.train(training_data)
         vocab = self.guesser._vocab
-
+        print(f'里',vocab.lookup_index('里'))
+        print(f'UNK',vocab.lookup_index(vocab._unk))
+        print(f'word UNK',vocab.lookup_word(vocab._unk))
+        print(f'名',vocab.lookup_index('名'))
         self.assertNotEqual(vocab.lookup_index('马'), vocab.lookup_index('里'))
-        self.assertNotEqual(vocab.lookup_index('里'), vocab.lookup_word(vocab._unk))
-        self.assertNotEqual(vocab.lookup_index('兰'), vocab.lookup_word(vocab._unk))        
-        self.assertNotEqual(vocab.lookup_index('有'), vocab.lookup_word(vocab._unk))
-        self.assertEqual(vocab.lookup_index('名'), vocab.lookup_word(vocab._unk))
+        self.assertNotEqual(vocab.lookup_index('里'), vocab.lookup_index(vocab._unk))
+        self.assertNotEqual(vocab.lookup_index('兰'), vocab.lookup_index(vocab._unk))        
+        self.assertNotEqual(vocab.lookup_index('有'), vocab.lookup_index(vocab._unk))
+        self.assertEqual(vocab.lookup_index('名'), vocab.lookup_index(vocab._unk))
         
         print(self.guesser._vocab._word_to_id.keys())
             

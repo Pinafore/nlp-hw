@@ -75,15 +75,6 @@ class TestSequenceFunctions(unittest.TestCase):
 
         sample = [end, 5] * 20
         self.assertEqual(self.guesser.frequent_bigram(sample), None)
-
-    @staticmethod
-    def rerender(vocab, tokens, separator=""):
-      result = []
-      for token in tokens:
-        token_string = vocab.lookup_word(token)
-        assert token_string is not None, "Vocab lookup failed for %i" % token
-        result.append(token_string)
-      return separator.join(result)
         
     def test_replace(self):
         import string
@@ -106,7 +97,7 @@ class TestSequenceFunctions(unittest.TestCase):
                              "Disagree on merge: %s vs %s" % (merge_found, merges[ii]))
             vocab.add(replacement, idx)
 
-            pretty = self.rerender(vocab, token_sequence)            
+            pretty = vocab.render(token_sequence)            
 
             self.assertEqual(element_ref[ii], pretty)
 
@@ -159,7 +150,7 @@ class TestSequenceFunctions(unittest.TestCase):
         
         for doc_id, doc in enumerate(kTOY_DATA["dev"]):
             tokens = self.guesser.tokenize(doc["text"])
-            reconstruction = self.rerender(self.guesser._vocab, tokens, "*")
+            reconstruction = self.guesser._vocab.render(tokens, "*")
             self.assertEqual(reconstruction, reference[doc_id], "Tokenization of %s bad results %s!=%s." % (doc["text"], reconstruction, reference[doc_id]))
             
     def test_tokenize(self):
@@ -169,14 +160,14 @@ class TestSequenceFunctions(unittest.TestCase):
         self.guesser.train(kTOY_DATA["train"], answer_field='page', split_by_sentence=False)
 
         reference = ['This *capital *of *En*gl*an*d*.*<ENDOFTEXT>',
-                     'Th*e *au*thor of *Pr*ide* *and *Prejudice.*<ENDOFTEXT>',
+                     'Th*e *au*thor of *Pride and Prejudice.*<ENDOFTEXT>',
                      'Th*e *composer *of *the *Ma*gic Flut*e.*<ENDOFTEXT>',
-                     "Th*e *e*co*n*om*ic la*w *that *s*a*y*s *'*goo*d money *dr*ives *out *b*a*d*'*.*<ENDOFTEXT>",
-                     "L*o*c*ate*d *ou*t*s*ide* *B*o*st*on*, *the *oldest *Un*iversit*y in *the United State*s.*<ENDOFTEXT>"]
+                     "Th*e *economic la*w *that *s*a*y*s *'*goo*d money *dr*ives *out *b*a*d*'*.*<ENDOFTEXT>",
+                     "L*o*c*at*ed *ou*t*s*i*d*e *B*o*st*on*, *the *oldest *Un*iversit*y in *the United State*s.*<ENDOFTEXT>"]
         
         for doc_id, doc in enumerate(kTOY_DATA["dev"]):
             tokens = self.guesser.tokenize(doc["text"])
-            reconstruction = self.rerender(self.guesser._vocab, tokens, "*")
+            reconstruction = self.guesser._vocab.render(tokens, "*")
             self.assertNotEqual(tokens, [])
             self.assertEqual(reconstruction, reference[doc_id], "Tokens: %s" % str(tokens))
         

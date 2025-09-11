@@ -53,6 +53,32 @@ class Vocab:
 
         self.add(unknown)
 
+    def save(self, filename:str) -> None:
+        """
+        Save the vocabulary to a file for easier inspection
+
+        Args:
+            filename: The file we create to save vocab to
+        """
+        with open(filename, 'w') as outfile:
+            for ii in sorted(self._id_to_word):
+                outfile.write("%i\t%s\n" % (ii, self._id_to_word[ii]))
+
+    def render(self, tokens: Iterable[int], separator:str=""):
+      """
+      Turn a token sequence into a string.
+
+      Args:
+        tokens: The integer token ids
+        separator: Character to put between all tokens
+      """
+      result = []
+      for token in tokens:
+        token_string = self.lookup_word(token)
+        assert token_string is not None, "Vocab lookup failed for %i" % token
+        result.append(token_string)
+      return separator.join(result)
+                
     def __contains__(self, candidate: Union[int, str]) -> bool:
         """
         Check to see if something is part of the mapping
@@ -200,15 +226,17 @@ class ToyTokenizerGuesser(Guesser):
         
         self._doc_vectors = None
         self._docs_final = False
-        
-        self._vocab = Vocab()
-        self._end_id = self._vocab.add(kEND_STRING)
-        self._inverse_vocab = {}
+
+        self.initialize_vocabulary()
 
         self._docs = None
         self._labels = []
 
         # Add your code here if you need to!
+
+    def initialize_vocabulary(self):
+        self._vocab = Vocab()
+        self._end_id = self._vocab.add(kEND_STRING)        
 
     def frequent_bigram(self, token_ids: Iterable[int], min_frequency=2) -> Tuple[int, int]:
         """
@@ -269,7 +297,7 @@ class ToyTokenizerGuesser(Guesser):
             answer_field: The field in the JSON that will become the guess when we find the closest document to a query
             split_by_sentence: Consider each of the sentences indepndently or not
         """
-        # Extract the data into self.answers, self.questions
+        # Extract the data into self.answers, self.questions      
         Guesser.train(self, training_data, answer_field, split_by_sentence)
 
         #Complete this function!
@@ -432,6 +460,22 @@ class ToyTokenizerGuesser(Guesser):
         chars = list(map(int, bytearray(sent, "utf-8")))
         chars += [self._end_id]
         return chars
+
+    def find_lowest_rank_pair(self, tokens:Iterable[int]) -> Union[None, Tuple[int, int]]:
+        """
+        Given a token sequence, find the pair that when merged has the lowest rank 
+
+        Args:
+          tokens: token sequence
+        Returns:
+          Lowest rank bigram to merge, None otherwise
+        """
+
+        # This isn't tested in the autograder, but you may find it useful to complete this function
+        
+
+
+        return None
     
     def tokenize(self, sent: str) -> Iterable[int]:
         """
@@ -448,14 +492,7 @@ class ToyTokenizerGuesser(Guesser):
         token_ids = self.initial_tokenize(sent)
 
         # Finish this function!
-        
 
-        
-
-            
-
-            
-        
         return self.whitespace_tokenize(sent)
         
 
@@ -464,10 +501,6 @@ class ToyTokenizerGuesser(Guesser):
 
         10.  Return 1.0 if we didn't see the word index in training
         (however, this should never happen in normal operation).
-
-        Because we may have terms that have never been seen, add 1 to
-        all of the document counts (in other words, we assume that a
-        term appears at least once).
 
         Keyword arguments:
         word -- The word to look up the document frequency of a word.
@@ -503,3 +536,5 @@ if __name__ == "__main__":
         print("----------------------")
         guess = guesser(query)
         print(query, guess)
+
+    guesser._vocab.save("vocab.txt")

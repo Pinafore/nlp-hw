@@ -48,7 +48,11 @@ class TestSequenceFunctions(unittest.TestCase):
         vocab = self.guesser._vocab
 
         self.assertNotEqual(vocab.lookup_index('马'), vocab.lookup_index('里'))
-            
+        self.assertNotEqual(vocab.lookup_index('里'), vocab.lookup_index(vocab._unk))
+        self.assertNotEqual(vocab.lookup_index('兰'), vocab.lookup_index(vocab._unk))        
+        self.assertNotEqual(vocab.lookup_index('有'), vocab.lookup_index(vocab._unk))
+        self.assertEqual(vocab.lookup_index('名'), vocab.lookup_index(vocab._unk))
+      
     def test_train_vocab(self):
         self.guesser.train(kTOY_DATA["train"], answer_field='page', split_by_sentence=False)
 

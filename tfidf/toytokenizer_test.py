@@ -43,7 +43,7 @@ class TestSequenceFunctions(unittest.TestCase):
         """
         This is for extra credit, you're not required to implement this.
         """
-        training_data = [{"text": self.test_strings['chinese'], "page": ""}]
+        training_data = [{"text": self.test_strings['chinese'], "page": "foo"}]
         self.guesser.train(training_data)
         vocab = self.guesser._vocab
 

@@ -99,7 +99,7 @@ class TestSequenceFunctions(unittest.TestCase):
             candidate = self.guesser.frequent_bigram(token_sequence)
             self.assertNotEqual(candidate, None)
             freq_left, freq_right = candidate
-            idx = vocab.add_from_merge(freq_left, freq_right)
+            idx = vocab.add(replacement)
             token_sequence = self.guesser.merge_tokens(token_sequence, freq_left, freq_right, idx)
             merge_found = vocab.lookup_word(freq_left) + vocab.lookup_word(freq_right)
             self.assertEqual(merge_found, merges[ii],

@@ -125,6 +125,7 @@ words are seen in each document.  You'll need to do that here.
 Take in a document and keep track of the words that you see in
 appropriate datastructures so that the next two functions work.
 
+Traverse through the documents, count the frequency each token occurs in how many documents. This will be used to compute the idf.
 
 constructor (for ToyTokenizerGuesser)
 --------------
@@ -150,6 +151,12 @@ frequencies.
 train (first time)
 -----
 You will need update the train function to update your vocabulary and to keep track of how many times words appear in documents.
+
+1. count frequent bigrams
+2. merge tokens
+3. scan your documents
+4. convert documents into embeddings using the embed function
+5. Finalize your vocabs and documents
 
 
 `__call__`
@@ -181,12 +188,27 @@ frequent_bigram
 Now, start on BPE.  The first step is to find the most frequent byte
 pairs in a token sequence.
 
+Breaktie: sort the tuples based on the first value, then by the second value for breakties in ascending order.
+
 merge_tokens
 ----------
 
 Once you know what the frequent bigrams are, you need to turn those
 into a new token.  There are unit tests for the examples we worked
 through in class.
+
+Example:
+```
+tokens      = [5, 6, 7, 6, 7, 8]
+merge_left  = 6
+merge_right = 7
+1: [5, 30, 6, 7, 8]   # first (6, 7) replaced by merge_id = 30
+2: [5, 30, 30, 8]     # second (6, 7) replaced by merge_id = 30
+3: [5, 30, 30, 8]     # no
+merge_id    = 30
+
+Final output: [5, 30, 30, 8]
+```
 
 tokenize
 -----

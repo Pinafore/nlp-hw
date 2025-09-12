@@ -16,7 +16,12 @@ regression is implemented in scikit learn, pytorch, and many other places, but
 you should do everything by hand now.  You'll be able to use library
 implementations of logistic regression in the future (and add your own features).
 
-You'll turn in your code on Gradescope.  This assignment is worth 30 points.
+You'll turn in your code on Gradescope.  
+
+Relationship to Future Homeworks
+---
+
+The data that you're working with are predictions from LLMs.  LLMs aren't very good at knowing whether they're right or not.  This is training a classifier to calibrate them better.  You'll continue working on this problem in future homeworks "for real", but this is setting up the math and the algorithms you'll be using.
 
 The Data
 ---
@@ -58,20 +63,10 @@ classification later.
 
 3. Modify the _sg_update_ function to perform updates.
 
-4. Modify the _inspect_ function to return the most salient features
-
-Analysis (5 points):
-
-1. What is the role of the learning rate?
-2. How many datapoints (or multiple passes over the data) do you need to
-complete for the *model* to stabilize?  The various metrics can give you clues
-about what the model is doing, but no one metric is perfect.
-3. What do the features tell you about the underlying problem?
-
 Extra credit:
 
-1.  Modify the _sg_update_ function to perform [lazy regularized updates](https://lingpipe.files.wordpress.com/2008/04/lazysgdregression.pdf), which only update the weights of features when they appear in an example.
-    - Show the effect in your analysis document 
+1.  Modify the _sg_update_ function to perform [lazy regularized updates](https://alex.smola.org/posts/3-lazy-updates/), which only update the weights of features when they appear in an example.
+    - Show the effect in an analysis document 
     
 Caution: When implementing extra credit, make sure your implementation of the
 regular algorithms doesn't change.
@@ -90,10 +85,7 @@ What to turn in
 -
 
 1. Submit your _toylogistic_buzzer.py_ file (include your name at the top of the source)
-1. Submit your _analysis.pdf_ file
-    - no more than one page (NB: This is also for the extra credit. To minimize effort for the grader, you'll need to put everything on a page. Take this into account when selecting if/which extra credit to do... think of the page requirement like a regularizer).
-    - pictures are better than text
-    - include your name at the top of the PDF
+2. If you do the extra credit, turn in the analysis file
 
 Unit Tests
 =

@@ -9,6 +9,8 @@ from math import exp, log
 from collections import defaultdict
 import json
 import logging
+from typing import Iterable, Tuple, Dict, Union
+
 
 import numpy as np
 
@@ -20,11 +22,17 @@ kBIAS = "BIAS_CONSTANT"
 random.seed(kSEED)
 
 
-def sigmoid(score, threshold=20.0):
+def sigmoid(score:float, threshold:float=20.0) -> float:
     """
+    Implements standard sigmoid function.
+
+
     Note: Prevents overflow of exp by capping activation at 20.
 
-    :param score: A real valued number to convert into a number between 0 and 1
+    Args:
+        score: A real valued number to convert into a number between 0 and 1
+    Returns:
+        Real value beteen 0 and 1
     """
 
     # You'll want to use this function, but don't modify it
@@ -40,13 +48,14 @@ class Example:
     """
     Class to represent a logistic regression example
     """
-    def __init__(self, json_line, vocab, use_bias=True):
+    def __init__(self, json_line: Dict[str, float], vocab: Iterable[str], use_bias: bool=True):
         """
         Create a new example
 
-        json_line -- The json object that contains the label ("label") and features as fields
-        vocab -- The vocabulary to use as features (list)
-        use_bias -- Include a bias feature (should be false with Pytorch)
+        Args:
+            json_line: json object that contains the label ("label") and features as fields
+            vocab: vocabulary to use as features (list)
+            use_bias: Use a bias feature (should be false with Pytorch)
         """
 
         # Use but don't modify this function
@@ -69,13 +78,14 @@ class ToyLogisticBuzzer(Buzzer):
     Logistic regression classifier to predict whether a buzz is correct or not.
     """
 
-    def __init__(self, num_features, mu=0.0, learning_rate=0.025, lazy=False):
+    def __init__(self, num_features:int, mu:float=0.0, learning_rate:Union[float, callable]=0.025, lazy:bool=False):
         """
         Create a logistic regression classifier
 
-        :param num_features: The number of features (including bias)
-        :param mu: Regularization parameter
-        :param learning_rate: A function that takes the iteration as an argument (the default is a constant value)
+        Args:
+            num_features: The number of features (including bias)
+            mu: Regularization parameter
+            learning_rate: A function that takes the iteration as an argument (the default is a constant value)
         """
 
         self._lazy = lazy
@@ -92,13 +102,15 @@ class ToyLogisticBuzzer(Buzzer):
         # You *may* want to add additional data members here
         self._beta = np.zeros(num_features)
 
-    def progress(self, examples):
+    def progress(self, examples: Iterable[Example]) -> Dict[str, float]:
         """
         Given a set of examples, compute the probability, accuracy,
         precision, and recall which is returned as a tuple.
 
-        examples -- The dataset to score
-
+        Args:
+          examples: The dataset to score, to compute statistics
+        Returns:
+          A dictionary of all of the statistics
         """
 
         # You probably don't need to modify this code
@@ -135,12 +147,15 @@ class ToyLogisticBuzzer(Buzzer):
                 "prec":    tp / (tp + fp + 0.00001),
                 "recall":  tp / (fn + tp + 0.00001)}
 
-    def sg_update(self, train_example, iteration):
+    def sg_update(self, train_example: Example, iteration: int) -> np.array:
         """
         Compute a stochastic gradient update to improve the log likelihood and return the new feature weights.
 
-        train_example -- The example to take the gradient with respect to
-        iteration -- what iteration we are on
+        Args:
+           train_example: The example to take the gradient with respect to
+           iteration: what iteration we are on
+        Returns:
+           The new parameter vector
         """
         mu = self._mu
         step = self._step
@@ -154,7 +169,7 @@ class ToyLogisticBuzzer(Buzzer):
 
         return beta
 
-    def finalize_lazy(self, iteration):
+    def finalize_lazy(self, iteration: int) -> np.array:
         """
         After going through all normal updates, apply regularization to
         all variables that need it.
@@ -166,15 +181,16 @@ class ToyLogisticBuzzer(Buzzer):
         return beta
 
     
-    def inspect(self, vocab, limit=5):
+    def inspect(self, vocab: Iterable[str], limit:int=5) -> Tuple[Iterable[int], Iterable[int]]:
         """
         A function to find the top features.  Returns the indices of the most
         important and least important features.
 
-        vocab -- a list of the name of all of the features.  the index should
-        correspond to the position in the feature vector.
-
-        limit -- how many features to display
+        Args:
+            vocab: list of the name of all of the features.  the index should correspond to the position in the feature vector.
+            limit: many features to display
+        Returns:
+            A tuple of lists of the top and bottom features
         """
 
         top = [0]
@@ -204,7 +220,8 @@ class ToyLogisticBuzzer(Buzzer):
             logging.warn("Mismatch: vocab size is %s, but dimension is %i" % \
                          (len(vocab), self._dimension))
 
-        # You don't need to modify this code, but you should read over it to understand what's happening.
+        # You don't need to modify this code, but you should read over
+        # it to understand what's happening.
         if not train:
             train = []
             vocab = self._feature_generators
@@ -259,15 +276,16 @@ class ToyLogisticBuzzer(Buzzer):
             self._beta = pickle.load(infile)
 
 
-def read_dataset(filename, vocab, limit):
+def read_dataset(filename: str, vocab: Iterable[str], limit: int) -> Iterable[Example]:
     """
     Reads in a text dataset with a given vocabulary
 
-    filename -- json lines file of the dataset
-
-    vocab -- the neames of the features
-
-    limit -- how many examples to read
+    Args:
+        filename: json lines file of the dataset
+        vocab: neames of the features
+        limit: many examples to read
+    Return:
+        The dataset as a list of examples
     """
 
     # You should not need to modify this function

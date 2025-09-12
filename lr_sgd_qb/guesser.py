@@ -35,14 +35,14 @@ kTOY_DATA = {"tiny": [{"text": "capital England", "page": "London"},
                        {'page': 'Rhode_Island', 'text': "This colony's Touro Synagogue is the oldest in the United States."},
                        {'page': 'Lima', 'text': 'It is the site of the National University of San Marcos, the oldest university in South America.'},
                        {'page': 'College_of_William_&_Mary', 'text': 'For 10 points, identify this oldest public university in the United States, a college in Virginia named for two monarchs.'}],
-              "dev": [{'text': "This capital of England", "top": 'Maine', "second": 'Boston'},
-                      {'text': "The author of Pride and Prejudice", "top": 'Jane_Austen',
+              "dev": [{'text': "This capital of England.", "top": 'Maine', "second": 'Boston'},
+                      {'text': "The author of Pride and Prejudice.", "top": 'Jane_Austen',
                            "second": 'Jane_Austen'},
-                      {'text': "The composer of the Magic Flute", "top": 'Wolfgang_Amadeus_Mozart',
+                      {'text': "The composer of the Magic Flute.", "top": 'Wolfgang_Amadeus_Mozart',
                            "second": 'Wolfgang_Amadeus_Mozart'},
-                      {'text': "The economic law that says 'good money drives out bad'",
+                      {'text': "The economic law that says 'good money drives out bad'.",
                            "top": "Gresham's_law", "second": "Gresham's_law"},
-                      {'text': "located outside Boston, the oldest University in the United States",
+                      {'text': "Located outside Boston, the oldest University in the United States.",
                            "top": 'College_of_William_&_Mary', "second": 'Rhode_Island'}]
                 }
 
@@ -295,8 +295,9 @@ if __name__ == "__main__":
                       flags.guesser_split_sentence)
         guesser.save()
     else:
-        logging.info("Training with default guesser API (give %s), this might mean something has gone wrong if you wanted to match ToyTfidf, President, Wiki, or Dan" %
-                     flags.guesser_type)
+        if flags.guesser_type not in ['Tfidf']:
+            logging.info("Training with default guesser API (gave %s), this might mean something has gone wrong if you wanted to match ToyTfidf, President, Wiki, or Dan" %
+                        flags.guesser_type)
         guesser.train(questions,
                       flags.guesser_answer_field,
                       flags.guesser_split_sentence,

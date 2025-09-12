@@ -6,7 +6,7 @@ kTOY_VOCAB = "BIAS_CONSTANT A B C D".split()
 kPOS = Example({"label":True, "A":4, "B":3, "C":1}, kTOY_VOCAB)
 kNEG = Example({"label":False, "B":1, "C":3, "D":4}, kTOY_VOCAB)
 
-class TestKnn(unittest.TestCase):
+class TestLogReg(unittest.TestCase):
     def setUp(self):
         self.logreg_unreg = ToyLogisticBuzzer(num_features=5, learning_rate=1.0)
 

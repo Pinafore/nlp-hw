@@ -140,7 +140,7 @@ Enough", you must at least establish your baseline values).
 For this HW, since running ollama on Gradescope isn't possible for us, we will grade your submission manually. The autograder will only check whether all required files are uploaded. We will run the submissions on 
 * 11/20-11/25 at 1:00PM ET
 * 11/20-11/25 at 9PM ET
-* and once a day at 11:59PM ET until 11/28
+* and once a day at 11:59PM ET until 12/02
 
 We will update these scores on Gradescope after running:
 * Guesser: precision and recall,

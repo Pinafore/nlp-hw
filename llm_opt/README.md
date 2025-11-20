@@ -138,10 +138,8 @@ Enough", you must at least establish your baseline values).
 * Your `TfidfGuesser.answers.pkl`, `TfidfGuesser.questions.pkl`, `TfidfGuesser.tfidf.pkl` and `TfidfGuesser.vectorizer.pkl` (a tfidf model)
 
 For this HW, since running ollama on Gradescope isn't possible for us, we will grade your submission manually. The autograder will only check whether all required files are uploaded. We will run the submissions on 
-* 11/20 at 1:00PM ET
-* 11/20 at 11:59PM ET
-* 11/21 at 1:00PM ET
-* 11/21 at 11:59PM ET
+* 11/20-11/25 at 1:00PM ET
+* 11/20-11/25 at 9PM ET
 * and once a day at 11:59PM ET until 11/28
 
 We will update these scores on Gradescope after running:
@@ -240,4 +238,4 @@ FAQ
 
 *Q: What Ollama models can I use?*
 
-*A:* You may use: Gemma3:4b.  [Updated 27. October 2025, we'll likely add more]
+*A:* You may use: Gemma3:4b, Qwen3:4b and Llama3.2:3b   [Updated 20 November 2025]

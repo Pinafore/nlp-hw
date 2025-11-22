@@ -169,11 +169,12 @@ Extra Credit
   addition to any accuracy / buzz ratio numbers you provide you also count the
   number of parameters.
 
-* [Up to 3 Points] The training code in `train` are taken directly from the
-  Huggingface examples and I didn't think too much about them.  It's not clear
-  that they're a good fit for the data.  Can you find something substantially
-  better?  (Keeping the model / adaptation / etc. constant.)  For example, we
-  know accuracy isn't exactly what we want, but that's what's being optimized.
+* [Up to 3 Points] The LoRABERT training code in `train` is taken directly
+  from the Huggingface examples and I didn't think too much about them.  It's
+  not clear that they're a good fit for the data.  Can you find something
+  substantially better?  (Keeping the model / adaptation / etc. constant.)
+  For example, we know accuracy isn't exactly what we want, but that's what's
+  being optimized.
 
 Hints
 =================

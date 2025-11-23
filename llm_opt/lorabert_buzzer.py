@@ -281,10 +281,10 @@ class LoRABertBuzzer(Buzzer):
         trainer.train()
 
     def save(self):
-        torch.save(self.model, "%s.py" % self.filename)
+        torch.save(self.model, "%s.model" % self.filename)
 
     def load(self):
-        self.model = torch.load("%s.py" % self.filename)
+        self.model = torch.load("%s.model" % self.filename)
 
 
 if __name__ == "__main__":

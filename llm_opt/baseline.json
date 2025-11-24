@@ -1,0 +1,166 @@
+{
+  "query_generator": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "For 10 points, name this Chinese city that was subjected to a namesake \"rape\" by Japanese soldiers.",
+        "query": "What Chinese city was subjected to a namesake \"rape\" by Japanese soldiers? [[ ## completed ## ]]"
+      },
+      {
+        "augmented": true,
+        "question": "This philosophical work's author quotes Ovid's line \"The better path I gaze at and approve, the worse - I follow\" to illustrate how men are moved more by opinion than reason.",
+        "query": "What philosophical work uses Ovid's quote \"The better path I gaze at and approve, the worse - I follow\" to argue that people are driven by opinion rather than reason?"
+      },
+      {
+        "question": "The Lossen reaction is one of these reactions, as is the thermal decomposition of an acyl azide into an isocyanate via release of nitrogen gas.",
+        "answer": "Rearrangement_reaction"
+      },
+      {
+        "question": "An artist with this surname made parchment books of leadpoint drawings that includes his version of the Flagellation, which takes place underneath a pair of loggia.",
+        "answer": "Giovanni_Bellini"
+      }
+    ],
+    "signature": {
+      "instructions": "You are a historical research assistant specializing in 17th and 18th-century Dutch-Japanese trade and intellectual exchange, focusing on the VOC and *Rangaku*. Given the field `question`, generate a structured query suitable for retrieving relevant information from a knowledge base. Your query should be precise and utilize relevant keywords (e.g., “VOC”, “Engelbert Kaempfer”, “Rangaku”, “three poisons”, “Yama”, “Wheels”).",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Query:",
+          "description": "${query}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "guess_generator.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "In sedimentarygeology, an undisturbed example of this process would, after lithification, create a sequence of sedimentaryrocks that allows the use of the law of superposition for relative dating.",
+        "context": "Metamorphic_rock: Old Questions: For 10 points, name these rocks formed under high pressure and temperature from igneous or sedimentary rocks.\nBog_iron: Old Questions: Sedimentary rocks dating back to the Precambrian contain banded formations of this element that formed during the Great Oxygenation Event.\nLimestone: Old Questions: For 10 points, name these sedimentary rocks made from calcite, such as chalk.\nMetamorphic_rock: Old Questions: For 10 points, name this class of rocks formed after igneous or sedimentary rocks are exposed to extreme heat and pressure.\nOil_Shale: Old Questions: FTP, what is this type of sedimentary rock rich in kerogen?\n",
+        "reasoning": "The question describes a scenario where a sequence of sedimentary rocks allows for the application of the law of superposition after lithification. This indicates a layered sequence formed over time, which is a key characteristic of sedimentary rock formation and the basis for relative dating.",
+        "answer": "Stratification"
+      },
+      {
+        "augmented": true,
+        "question": "A poem by this author tells its addressee, \"We are on each other's hands who care.",
+        "context": "Jawaharlal_Nehru: Old Questions: This man famously told Homi Bhabha to take care of physics while he took care of international relations.\nEmily_Dickinson: Old Questions: In another poem, this author wrote \"I'm (*) nobody, who are you?\"\nLittle_women: Old Questions: These characters are responsible for taking care of the Hummels.\nBenjamin_Spock: Old Questions: It is not surprising that health care for mothers and children was a key issue for him, as he was best known as the author of books like The Common Sense of Book of Baby and Child Care.\nElizabeth_Bishop: Old Questions: A poem by this author states \"Then I was back in it.\n",
+        "reasoning": "The context provided – “this man famously told Homi Bhabha to take care of physics while he took care of international relations” – strongly suggests the answer is Jawaharlal Nehru. The phrasing aligns with his known approach to governance and his role in shaping India’s foreign policy.",
+        "answer": "Jawaharlal_Nehru"
+      },
+      {
+        "question": "Another of this architect's commissions from his late phase features a single, continuous, spiral ramp and was inspired by the design of a snail shell.",
+        "answer": "Frank_Lloyd_Wright"
+      },
+      {
+        "question": "This religious group rejects Mount Moriah as the location where Abraham almost sacrificed Isaac; instead, they perform sheep sacrifices during the \"Festival of the Sacrifice\" where they believe it happened, Mount Gerizim.",
+        "answer": "Samaritans"
+      }
+    ],
+    "signature": {
+      "instructions": "You are a historian specializing in Dutch-Japanese relations during the 17th and 18th centuries, facilitated by the VOC. Given the input `question` and `context`, generate a concise and accurate `answer` based on your specialized knowledge. Prioritize information related to the VOC's \"Wheels\" metric (maritime activities, shipping routes, and related transport) and relevant contextual elements like *Rangaku*, Engelbert Kaempfer, Rotterdam, and Buddhist iconography (three poisons and Yama).",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "${answer}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "confidence_generator": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "For 10 points, name this Kate Chopin novel about Edna Pontellier.",
+        "query": "What is the title of Kate Chopin's novel featuring Edna Pontellier?",
+        "context": "None: Old Questions: For 10 points, name this novel about Edna Pontellier by Kate Chopin.\nThe_Awakening_(Chopin_novel): Old Questions: For 10 points, name this novel about Edna Pontellier by Kate Chopin.\nThe_Awakening_(Chopin_novel): Old Questions: For 10 points, identify this novel about Edna Pontellier by Kate Chopin.\nNone: Old Questions: Edna Pontellier is the protagonist of, for 10 points, what novel by Kate Chopin?\nThe_Awakening_(Chopin_novel): Old Questions: For 10 points, name this novel about Edna Pontellier, written by Kate Chopin.\n",
+        "guess": {
+          "reasoning": "The question asks for the title of a Kate Chopin novel featuring Edna Pontellier. The context confirms this is the novel \"The Awakening.\"",
+          "answer": "The_Awakening"
+        },
+        "confidence": 0.95
+      },
+      {
+        "augmented": true,
+        "question": "A name of a major art form from this country translates as \"pictures of the floating world\".",
+        "query": "What is the name of the major art form that translates to \"pictures of the floating world\"?",
+        "context": "Japan: Old Questions: This country is the origin of a genre whose name translates as \"pictures of the floating world\".\nJapan: Old Questions: A genre of art from this country has a name meaning \"pictures of the floating world.\"\nJapan: Old Questions: An artistic genre from this country has a name meaning \"pictures of the floating world.\"\nJapan: Old Questions: (*) Woodcuts from this nation, or \"pictures of the floating world\", were collected by Claude Monet.\nJapan: Old Questions: Many artists from here depicted the \"Floating World.\"\n",
+        "guess": {
+          "reasoning": "The context provides clues that the answer is related to Japanese art and the phrase \"pictures of the floating world.\" This phrase is a key descriptor of a significant art form originating from Japan.",
+          "answer": "Ukiyo-e"
+        },
+        "confidence": 0.95
+      },
+      {
+        "augmented": true,
+        "question": "In a climactic confrontation in this play, a man exclaims, \"Is this theprince?",
+        "query": "Shakespeare's Hamlet: \"Is this a sleeping-potion, or the madness of the valets?\" (Act 3, Scene 1)",
+        "context": "Oklahoma!: Old Questions: After one character takes a sleeping potion, a (*) \"dream ballet\" sequence ends the first act of this musical.\nFortinbras: Old Questions: For ten points, identify this Prince of Norway in Shakespeare's Hamlet.\nLanguage,_Truth,_and_Logic: Old Questions: The final section of this work uses the difference between the sentences \"the author of Hamlet wrote Hamlet\" and (*) \"Shakespeare wrote Hamlet,\" to explain the errors of monism.\nArtemidorus: Old Questions: This teacher of rhetoric from Cidnos is the only character in Act 2, Scene 3 of Shakespeare's _Julius Caesar_.\nNone: Old Questions: For 10 points, name this scene from the last act of Hamlet, commonly named after two fools of a certain occupation.\n",
+        "guess": {
+          "reasoning": "The question refers to a climactic confrontation in a musical, specifically *Oklahoma!*, where a character exclaims, \"Is this the prince?\". The context provides clues: a \"dream ballet\" sequence ends the first act, and Fortinbras is a key figure. The question is likely asking for the name of the character who makes this exclamation.",
+          "answer": "Rosalind"
+        },
+        "confidence": 0.65
+      },
+      {
+        "question": "Another man begins this action by saying, \"In vain I have struggled...my feelings will not berepressed,\" and does it a chapter before he delivers a letter concerning George Wickham's attempt to elopewith his sister.",
+        "answer": null
+      }
+    ],
+    "signature": {
+      "instructions": "You are a historical researcher specializing in Dutch-Japanese relations during the 17th and 18th centuries, facilitated by the VOC. Given the fields `question`, `query`, `context`, and `guess`, produce the field `confidence`, reflecting your assessment of the accuracy and relevance of the generated answer.  Focus on identifying if the answer is grounded in the provided context.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Query:",
+          "description": "${query}"
+        },
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Guess:",
+          "description": "${guess}"
+        },
+        {
+          "prefix": "Confidence:",
+          "description": "${confidence}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}

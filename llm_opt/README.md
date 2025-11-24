@@ -240,3 +240,40 @@ FAQ
 *Q: What Ollama models can I use?*
 
 *A:* You may use: Gemma3:4b, Qwen3:4b and Llama3.2:3b   [Updated 20 November 2025]
+
+*Q: How do I know if I'm beating the baseline?*
+
+*A:* Use the eval script.  For the guesser, we've added `baseline.json` for reference (using Gemma3:4b).
+
+*Q: What packages are you using for the eval?*
+
+*A:* We're using
+
+    transformers = 4.55.2
+    accelerate = 1.5.2
+    datasets = 3.4.1
+    evaluate = 0.4.6
+
+*Q: What do the negative scores for DSPy mean?*
+
+*A:* The `validate_answer` function is run per example and then is summed over your dev set. So if you’ve increased the dev set size, that would also increase the magnitude of it.
+
+But if you’re getting negative numbers, that means that more guesses are wrong than right _and_ that your confidence on those guesses is high. The function basically scores as follows:
+
+*   1 point if you get the guess right
+*   1 point if you found a good page with the RAG and the guess was right
+*   1 point if your confidence was high for a correct guess
+*   \-3 points scaled by the confidence if you got the guess wrong
+
+You may want to decompose this into multiple teleprompters rather than having everything happen at once, and the easiest way to get away from a high negative score is to get the confidence down for wrong guesses.
+
+*Q: I'm running on the cluster, but it can't find ollama.*
+
+*A:* In the script you use to submit your job, put:
+
+    ollama serve &
+    python3 ollama_guesser.py (with their configs) 
+
+*Q: My files are too big!*
+
+*A:* For LoRA, Make sure that you're not updating all BERT parameters.  For tfidf, make sure you're doing reasonable things with the vocabulary.

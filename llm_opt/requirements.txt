@@ -12,9 +12,9 @@ bs4
 scikit-learn
 plotnine
 faiss-cpu
-transformers
-datasets     
-evaluate
+transformers==4.55.2
+datasets==3.4.1     
+evaluate==0.4.6
 dspy
 ollama
-accelerate>=0.26.0
+accelerate==1.5.2

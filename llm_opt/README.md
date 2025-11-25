@@ -146,6 +146,15 @@ We will update these scores on Gradescope after running:
 * Guesser: precision and recall,
 * Buzzer: expected win, best_score, buzz ratio, buzz position.
 
+Analysis
+======
+
+In your analysis file, please provide:
+* What you did to improve the DSPy guesser.
+* What you did to improve the inputs for the BERT adaptation.
+* How you know that the above improved over the baseline and any error analysis you did.
+* If you completed extra credit, how you checked that it worked.
+
 Extra Credit
 ======
 
